@@ -99,13 +99,43 @@ def resumir_para_prompt(datos, max_noticias=40):
 
 
 # ---------------------------------------------------------------- Claude
+# La respuesta se pide como "herramienta" con un esquema fijo: así Claude entrega datos
+# estructurados y no texto JSON que pueda venir mal escrito.
+HERRAMIENTA = {
+    "name": "registrar_decision",
+    "description": "Registra la decisión de gestión de riesgo para BotCripto.",
+    "input_schema": {
+        "type": "object",
+        "properties": {
+            "modo": {"type": "string", "enum": list(MODOS)},
+            "monedas": {
+                "type": "object",
+                "description": "Solo monedas que necesitan un modo más prudente que el global. Clave: par (ej. SOLUSDT).",
+                "additionalProperties": {
+                    "type": "object",
+                    "properties": {"modo": {"type": "string", "enum": ["cautela", "pausa"]},
+                                   "motivo": {"type": "string"}},
+                    "required": ["modo", "motivo"],
+                },
+            },
+            "resumen": {"type": "string", "description": "2 o 3 frases en español."},
+            "motivos": {"type": "array", "items": {"type": "string"}},
+            "alerta_posiciones": {"type": "string", "description": "Vacío salvo riesgo grave e inmediato."},
+        },
+        "required": ["modo", "monedas", "resumen", "motivos", "alerta_posiciones"],
+    },
+}
+
+
 def preguntar_a_claude(texto_datos, clave):
     cuerpo = {
-        "max_tokens": 1200,
-        "system": INSTRUCCIONES,
+        "max_tokens": 1500,
+        "system": INSTRUCCIONES + "\n\nEntrega tu decisión usando la herramienta registrar_decision.",
+        "tools": [HERRAMIENTA],
+        "tool_choice": {"type": "tool", "name": "registrar_decision"},
         "messages": [{"role": "user", "content":
                       "Datos recolectados por la araña:\n\n" + texto_datos +
-                      "\n\nDecide ahora. Responde solo con el JSON."}],
+                      "\n\nDecide ahora y regístralo con la herramienta."}],
     }
     ultimo_error = None
     for modelo in (MODELO, MODELO_RESPALDO):
@@ -126,13 +156,18 @@ def preguntar_a_claude(texto_datos, clave):
         except Exception as ex:  # noqa: BLE001
             ultimo_error = str(ex)
             break
-        texto = "".join(b.get("text", "") for b in resp.get("content", []) if b.get("type") == "text")
         uso = resp.get("usage", {})
+        for b in resp.get("content", []):
+            if b.get("type") == "tool_use" and isinstance(b.get("input"), dict):
+                return b["input"], modelo, uso
+        texto = "".join(b.get("text", "") for b in resp.get("content", []) if b.get("type") == "text")
         return texto, modelo, uso
     raise RuntimeError(f"No pude consultar a Claude ({ultimo_error})")
 
 
 def extraer_json(texto):
+    if isinstance(texto, dict):
+        return texto
     texto = texto.strip()
     texto = re.sub(r"^```(?:json)?|```$", "", texto, flags=re.M).strip()
     ini, fin = texto.find("{"), texto.rfind("}")
@@ -232,8 +267,14 @@ def decidir(datos, clave=None):
     origen, uso, error = "reglas", {}, None
     if clave:
         try:
-            texto, modelo, uso = preguntar_a_claude(resumir_para_prompt(datos), clave)
-            d = validar(extraer_json(texto))
+            texto_datos = resumir_para_prompt(datos)
+            try:
+                texto, modelo, uso = preguntar_a_claude(texto_datos, clave)
+                d = validar(extraer_json(texto))
+            except ValueError:            # respuesta ilegible: un reintento
+                print("[cerebro] respuesta ilegible, reintento una vez...")
+                texto, modelo, uso = preguntar_a_claude(texto_datos, clave)
+                d = validar(extraer_json(texto))
             origen = f"claude:{modelo}"
         except Exception as ex:  # noqa: BLE001
             error = str(ex)[:300]
