@@ -7,8 +7,8 @@
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-06T15:42:17+00:00",
-  "valido_hasta": "2026-11-06T18:42:17+00:00",
+  "generado": "2026-11-06T15:49:15+00:00",
+  "valido_hasta": "2026-11-06T18:49:15+00:00",
   "origen": "reglas",
   "multiplicador_riesgo": 0.5,
   "datos": {
@@ -58,5 +58,5 @@
     }
   ],
   "uso_tokens": {},
-  "error_ia": "No pude consultar a Claude (HTTP 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgmvrg53ot2XdkNbGoG8h\"})"
+  "error_ia": "No pude consultar a Claude (HTTP 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmwPXwGGjePR8AEpkZYr\"})"
 }
