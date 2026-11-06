@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 28) tras una caída de la capitalización total del -3.4% en 24 h, con más de 1.000 millones en liquidaciones y BTC probando mínimos de 11 semanas cerca de 75.000 USD tras el desplome de acciones tecnológicas. El hackeo de Binance (unos 6.300 M USD) es un riesgo de seguridad relevante para el ecosistema, pero no paraliza el mercado ni afecta directamente a las monedas operadas. Hay incertidumbre elevada, así que se recomienda cautela general sin pausar, ya que no hay una caída brusca confirmada ni un evento macro de alto impacto en las próximas 24 h.",
+  "resumen": "El mercado está en miedo (índice 28) tras una caída de la capitalización de -2.5% en 24 h, con liquidaciones de más de $1.000 M y BTC en mínimos de 11 semanas (cerca de $75K). Hay presión por la venta de tecnológicas, salidas de ETF de BTC y un dato de empleo fuerte que aumenta las apuestas por una subida de tipos en diciembre, aunque no hay eventos de alto impacto en las próximas 24 h. Ante esta volatilidad y la incertidumbre elevada, se recomienda cautela general, sin pausa, ya que no hay un riesgo grave e inmediato confirmado para las monedas operadas.",
   "motivos": [
-    "Índice Miedo/Codicia en 28 (miedo) y volatilidad elevada tras liquidaciones superiores a 1.000 M USD en 24 h.",
-    "Capitalización total -3.4% en 24 h y BTC rompiendo brevemente 75.000 USD, mínimo desde agosto, por la venta de tecnológicas.",
-    "Hackeo de Binance por 6.300 M USD y otros incidentes de seguridad (Gnosis Pay, Chainalysis) generan incertidumbre, pero no son un exploit directo sobre las monedas operadas.",
-    "Dato de empleo fuerte (165.000 vs ~65.000 estimados) reaviva la posibilidad de subidas de tipos; el IPC de la próxima semana es un evento importante, aunque fuera de la ventana de 24 h.",
-    "Sin eventos macro USD de alto impacto en las próximas 24 h, por lo que no se justifica pausa."
+    "Índice Miedo/Codicia en 28 (miedo) y capitalización total -2.52% en 24 h con liquidaciones superiores a $1.000 M.",
+    "BTC tocó mínimos de 11 semanas (~$74.780) y cayó bajo $75K tras la venta de tecnológicas; salidas netas de ETF de BTC de $430 M el jueves y $870 M en la semana.",
+    "Dato de empleo de EE. UU. muy superior a lo esperado (165.000 vs ~65.000) que aumenta las apuestas por una subida de tipos en diciembre; el IPC de la próxima semana añade incertidumbre.",
+    "El hackeo a Binance (~$6.400 M) es un riesgo serio para el ecosistema, pero las noticias indican que los fondos están siendo movidos o congelados y no hay una situación anómala de las monedas operadas (sin halt, depeg o delist), por lo que no justifi",
+    "No hay eventos macro de alto impacto en las próximas 24 h ni caídas bruscas confirmadas de precio que justifiquen pausa; las monedas operan con variaciones de 24 h entre -3.8% y +3.0%."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-06T17:47:51+00:00",
-  "valido_hasta": "2026-11-06T20:47:51+00:00",
+  "generado": "2026-11-06T18:50:28+00:00",
+  "valido_hasta": "2026-11-06T21:50:28+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -3.4,
-    "noticias_analizadas": 45,
+    "cambio_mercado_24h": -2.52,
+    "noticias_analizadas": 48,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -36,6 +36,16 @@
       "link": "https://cointelegraph.com/markets/bitcoin-holds-ai-regulation-fears-kospi-halted?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "titulo": "Bitcoin ETFs Bleed $430 Million as Tech Rout Tests Wall Street Buyers",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/382733/bitcoin-etfs-bleed-430-million-tech-rout-tests-wall-street"
+    },
+    {
+      "titulo": "Stolen Binance Bitcoin, XRP on the Move as $3.1B Remains Unlaundered: Elliptic",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/crypto-news/stolen-binance-bitcoin-xrp-3-1b-remains-unlaundered-elliptic/"
+    },
+    {
       "titulo": "Crypto Liquidations Top $1 Billion as Bitcoin Tests 11-Week Low",
       "fuente": "Decrypt",
       "link": "https://decrypt.co/382717/bitcoin-price-11-week-low-crypto-liquidations-ai-stock"
@@ -49,27 +59,17 @@
       "titulo": "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/daybook-us/2026/11/06/over-usd1-billion-in-bullish-bets-liquidated-while-etf-flows-suggest-no-help-in-spot-market"
-    },
-    {
-      "titulo": "Bitcoin steadies after AI-led selloff as eyes turn to latest U.S. jobs figures",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/06/bitcoin-steadies-near-usd76-000-after-ai-led-selloff"
-    },
-    {
-      "titulo": "Bitcoin Price Falls Below $75K for First Time Since August as Tech Sell-Off Deepens",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-falls-75k-first-time-august-tech-sell-off-deepens/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9411,
+    "input_tokens": 9537,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 693,
+    "output_tokens": 773,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
