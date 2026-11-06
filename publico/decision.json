@@ -1,28 +1,35 @@
 {
   "modo": "cautela",
-  "monedas": {},
-  "resumen": "El índice Miedo/Codicia está en 28 (miedo) tras una caída de la capitalización de -2.9% en 24 h, provocada por una venta de tecnológicas en EE. UU. que se contagió a Asia (KOSPI con una caída fuerte y parada de mercado). Hay además un hackeo de 6.300 M$ a Binance, que afecta a su exchange, y el dato de empleo de EE. UU. fuerte puede traer subidas de tipos, aunque no hay eventos de alto impacto en 24 h. Dado el miedo elevado y el riesgo de seguridad de Binance, se recomienda cautela general, y cautela específica para BNB; no se observa un riesgo grave e inmediato que justifique pausa.",
+  "monedas": {
+    "BNBUSDT": {
+      "modo": "pausa",
+      "motivo": "Hackeo de Binance por unos 6.430 M$ (29 oct); riesgo de seguridad directo sobre el exchange y su moneda nativa.",
+      "multiplicador_riesgo": 0.0
+    }
+  },
+  "resumen": "El mercado está en miedo (índice 28) tras una caída tecnológica de las acciones de IA que liquidó más de 1.000 M$ en derivados; la capitalización total cae un 2.85% en 24 h, pero no llega al umbral de -7%. Hay un riesgo de seguridad grave y concreto en Binance (hackeo de unos 6.430 M$ con fondos aún sin mover y dudas sobre sus controles), por lo que BNB pasa a pausa. El resto de noticias son de regulación o ruido, así que el régimen global se mantiene en cautela por volatilidad y miedo.",
   "motivos": [
-    "Índice Miedo/Codicia en 28 (miedo) con caída de capitalización de -2.9% en 24 h y venta en tecnológicas de EE. UU. que se extendió a Asia.",
-    "Hackeo de 6.300 M$ a Binance el 29 de octubre; fondos aún sin blanquear, lo que genera incertidumbre sobre el exchange y su token BNB.",
-    "Dato de empleo de EE. UU. más fuerte de lo esperado (165.000 empleos) que puede reforzar la expectativa de una subida de tipos en diciembre; la inflación de la semana próxima es un riesgo adicional.",
-    "Sin eventos macro de alto impacto en las próximas 24 h y precios estables en las principales monedas (BTC -1.06%, ETH -1.67%), por lo que no se justifica pausa."
+    "Índice Miedo/Codicia en 28 (miedo) y liquidaciones de más de 1.000 M$ en 24 h: volatilidad elevada.",
+    "Capitalización total -2.85% en 24 h, por debajo del umbral de pausa global (-7%).",
+    "Hackeo de Binance (~6.430 M$, 29 oct) con dudas sobre gestión de hot wallets: riesgo de seguridad grave para BNB.",
+    "BTC probando mínimos de 11 semanas (~74.780 USD) tras la caída de acciones de IA; contexto de incertidumbre.",
+    "Sin eventos macro de alto impacto en las próximas 24 h; el dato de empleo ya se publicó y el IPC llega la próxima semana."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-06T16:17:17+00:00",
-  "valido_hasta": "2026-11-06T19:17:17+00:00",
+  "generado": "2026-11-06T16:50:14+00:00",
+  "valido_hasta": "2026-11-06T19:50:14+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -2.9,
-    "noticias_analizadas": 42,
+    "cambio_mercado_24h": -2.85,
+    "noticias_analizadas": 45,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
-      "Decrypt": 38,
+      "Decrypt": 39,
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
@@ -33,6 +40,11 @@
       "titulo": "Bitcoin holds $75K as AI regulation fears see KOSPI halted after 8% crash",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/markets/bitcoin-holds-ai-regulation-fears-kospi-halted?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Crypto Liquidations Top $1 Billion as Bitcoin Tests 11-Week Low",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/382717/bitcoin-price-11-week-low-crypto-liquidations-ai-stock"
     },
     {
       "titulo": "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
@@ -53,22 +65,17 @@
       "titulo": "$3.1B in Stolen Binance Crypto Has Yet to Be Laundered: Elliptic",
       "fuente": "Decrypt",
       "link": "https://decrypt.co/382711/3-1b-in-stolen-binance-crypto-has-yet-to-be-laundered-elliptic"
-    },
-    {
-      "titulo": "Nigeria sets new crypto licensing rules, bans algorithmic stablecoins",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/nigeria-algorithmic-stablecoin-ban-crypto-licensing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9486,
+    "input_tokens": 9516,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 754,
+    "output_tokens": 672,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
