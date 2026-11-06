@@ -1,23 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto está en miedo (índice 28) tras una caída de la capitalización total de -2.88% en 24 h, ligada a una venta de acciones tecnológicas y de IA, con más de 1.000 M$ en liquidaciones y salidas netas de ETF de BTC. Un dato de empleo fuerte reaviva la posibilidad de una subida de tipos en diciembre, y el hackeo de Binance (unos 6.300 M$) añade incertidumbre, aunque no se detecta una anomalía específica en las monedas operadas. No hay eventos macro de alto impacto en las próximas 24 h ni una caída de -7% o peor, así que no justifica pausa; se recomienda cautela general.",
+  "resumen": "El mercado está en miedo (índice 28) tras una venta fuerte de acciones tecnológicas y de IA que arrastró la capitalización cripto un 3,12% en 24 h, con más de 1.000 M$ liquidados en derivados. El dato de empleo de EE. UU. superó con creces lo esperado y aumenta las apuestas de una subida de tipos en diciembre, con inflación por publicar la próxima semana. El hackeo de Binance (6.300 M$) es un riesgo de fondo, pero no hay una caída de mercado en curso que justifique una pausa; se recomienda cautela general.",
   "motivos": [
-    "Índice Miedo/Codicia en 28 (miedo), con caída de capitalización total de -2.88% en 24 h.",
-    "Liquidaciones de más de 1.000 M$ y salidas netas de ETF de BTC de unos 430 M$ en la jornada.",
-    "Dato de empleo muy por encima de lo esperado que aumenta la probabilidad de una subida de tipos en diciembre.",
-    "Hackeo de Binance (unos 6.300 M$) con fondos robados aún sin blanquear; riesgo reputacional, pero sin señal de anomalía en las monedas operadas.",
-    "Precios sin halts, depegs ni deslistados; la caída de 7 días es moderada (entre -0.04% y -4.7%)."
+    "Capitalización total -3,12% en 24 h y BTC en mínimos desde agosto tras la venta de tecnológicas e IA.",
+    "Más de 1.000 M$ en liquidaciones de derivados, sobre todo largos (88%), y salidas de 430 M$ de ETFs de bitcoin.",
+    "Índice Miedo/Codicia en 28; el dato de empleo fuerte eleva la probabilidad de una subida de tipos en diciembre.",
+    "Próxima semana con datos de inflación que pueden añadir volatilidad, aunque no hay evento de alto impacto en las próximas 24 h.",
+    "El hackeo de Binance (~6.300 M$) sigue generando noticias, pero no hay indicios de problema operativo en las monedas que opera el bot ni de halt o depeg."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-06T19:50:53+00:00",
-  "valido_hasta": "2026-11-06T22:50:53+00:00",
+  "generado": "2026-11-06T20:45:23+00:00",
+  "valido_hasta": "2026-11-06T23:45:23+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -2.88,
+    "cambio_mercado_24h": -3.12,
     "noticias_analizadas": 50,
     "articulos_leidos": 8,
     "fuentes": {
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9609,
+    "input_tokens": 9586,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 625,
+    "output_tokens": 700,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
