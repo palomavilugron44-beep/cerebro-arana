@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.ini
+*.env
+.env
+prueba_local/
