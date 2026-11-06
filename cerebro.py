@@ -205,9 +205,30 @@ def decidir_con_reglas(datos):
             "motivos": motivos, "alerta_posiciones": ""}
 
 
+# ---------------------------------------------------------------- clave
+def limpiar_clave(clave):
+    """Quita lo que suele colarse al pegar: espacios, saltos de línea, comillas o 'ANTHROPIC_API_KEY='."""
+    clave = (clave or "").strip()
+    if "=" in clave and clave.upper().startswith("ANTHROPIC_API_KEY"):
+        clave = clave.split("=", 1)[1]
+    clave = "".join(clave.split()).strip("\"'“”‘’")
+    return clave
+
+
+def describir_clave(clave):
+    """Describe la forma de la clave SIN revelarla (para diagnosticar errores)."""
+    if not clave:
+        return "la clave está vacía"
+    inicio = "empieza con sk-ant-" if clave.startswith("sk-ant-") else "NO empieza con sk-ant-"
+    extra = " y tiene '...' (es la versión abreviada)" if "..." in clave or "…" in clave else ""
+    return f"la clave recibida {inicio}, tiene {len(clave)} caracteres{extra} (una correcta tiene más de 100)"
+
+
 # ---------------------------------------------------------------- decisión final
 def decidir(datos, clave=None):
-    clave = clave if clave is not None else os.environ.get("ANTHROPIC_API_KEY", "").strip()
+    clave = limpiar_clave(clave if clave is not None else os.environ.get("ANTHROPIC_API_KEY", ""))
+    if clave:
+        print(f"[cerebro] {describir_clave(clave)}")
     origen, uso, error = "reglas", {}, None
     if clave:
         try:
@@ -216,6 +237,8 @@ def decidir(datos, clave=None):
             origen = f"claude:{modelo}"
         except Exception as ex:  # noqa: BLE001
             error = str(ex)[:300]
+            if "401" in error:
+                error += f" | Diagnóstico: {describir_clave(clave)}."
             print(f"[cerebro] {error} -> uso reglas de respaldo.")
             d = decidir_con_reglas(datos)
     else:
