@@ -1,11 +1,8 @@
 {
   "ultimo_resumen": "2026-11-06",
   "huella": {
-    "modo": "normal",
-    "monedas": {
-      "BTCUSDT": "cautela",
-      "ETHUSDT": "cautela"
-    },
+    "modo": "cautela",
+    "monedas": {},
     "alerta": ""
   }
 }
