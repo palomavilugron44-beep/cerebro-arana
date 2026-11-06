@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 28) tras una venta fuerte de acciones tecnológicas y de IA que arrastró la capitalización cripto un 3,12% en 24 h, con más de 1.000 M$ liquidados en derivados. El dato de empleo de EE. UU. superó con creces lo esperado y aumenta las apuestas de una subida de tipos en diciembre, con inflación por publicar la próxima semana. El hackeo de Binance (6.300 M$) es un riesgo de fondo, pero no hay una caída de mercado en curso que justifique una pausa; se recomienda cautela general.",
+  "resumen": "El mercado está en miedo (índice 28) tras una caída de la capitalización total del -3.07% en 24 h, ligada a una venta de acciones tecnológicas y a más de 1.000 M$ en liquidaciones; BTC ha perdido los 75.000 $. Hay además un hackeo muy grande a Binance (unos 6.300 M$) que genera incertidumbre, aunque no hay un riesgo sistémico confirmado ni un evento macro de alto impacto en 24 h. Por ello se recomienda cautela general, sin pausa ni alertas sobre posiciones.",
   "motivos": [
-    "Capitalización total -3,12% en 24 h y BTC en mínimos desde agosto tras la venta de tecnológicas e IA.",
-    "Más de 1.000 M$ en liquidaciones de derivados, sobre todo largos (88%), y salidas de 430 M$ de ETFs de bitcoin.",
-    "Índice Miedo/Codicia en 28; el dato de empleo fuerte eleva la probabilidad de una subida de tipos en diciembre.",
-    "Próxima semana con datos de inflación que pueden añadir volatilidad, aunque no hay evento de alto impacto en las próximas 24 h.",
-    "El hackeo de Binance (~6.300 M$) sigue generando noticias, pero no hay indicios de problema operativo en las monedas que opera el bot ni de halt o depeg."
+    "Miedo extremo cercano (índice 28) y caída de la capitalización total del -3.07% en 24 h con más de 1.000 M$ liquidados.",
+    "Salidas netas de ETF de BTC (430 M$ el jueves) y tensión en mercados de acciones tecnológicas.",
+    "Hackeo de Binance de unos 6.300 M$ con fondos aún no blanqueados: incertidumbre elevada, pero sin señal de problema directo en las monedas operadas.",
+    "Dato de empleo fuerte que aumenta la probabilidad de subida de tipos en diciembre; evento macro relevante dentro de 24 h (inflación la próxima semana), no de alto impacto inmediato.",
+    "Ninguna moneda del bot presenta halt, depeg o delist; caídas individuales moderadas (XRP -4.26% en 24 h)."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-06T20:45:23+00:00",
-  "valido_hasta": "2026-11-06T23:45:23+00:00",
+  "generado": "2026-11-06T21:39:13+00:00",
+  "valido_hasta": "2026-11-07T00:39:13+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -3.12,
-    "noticias_analizadas": 50,
+    "cambio_mercado_24h": -3.07,
+    "noticias_analizadas": 51,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9586,
+    "input_tokens": 9627,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 700,
+    "output_tokens": 623,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
