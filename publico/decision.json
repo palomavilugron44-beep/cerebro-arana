@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 28) tras una caída de la capitalización total del -3.07% en 24 h, ligada a una venta de acciones tecnológicas y a más de 1.000 M$ en liquidaciones; BTC ha perdido los 75.000 $. Hay además un hackeo muy grande a Binance (unos 6.300 M$) que genera incertidumbre, aunque no hay un riesgo sistémico confirmado ni un evento macro de alto impacto en 24 h. Por ello se recomienda cautela general, sin pausa ni alertas sobre posiciones.",
+  "resumen": "El mercado está en miedo (índice 28) tras una caída de tecnológicas y IA que arrastró a BTC a mínimos de 11 semanas (~75K USD) y generó más de 1.000 M$ en liquidaciones, con capitalización total -2.3% en 24 h. Además, el dato de empleo fuerte reaviva la posibilidad de subida de tipos en diciembre y la próxima semana hay datos de inflación. Se opta por cautela general (mitad de tamaño) y no pausa, porque no hay una caída brusca de -7% ni un evento macro de muy alto impacto en las próximas 2-3 horas.",
   "motivos": [
-    "Miedo extremo cercano (índice 28) y caída de la capitalización total del -3.07% en 24 h con más de 1.000 M$ liquidados.",
-    "Salidas netas de ETF de BTC (430 M$ el jueves) y tensión en mercados de acciones tecnológicas.",
-    "Hackeo de Binance de unos 6.300 M$ con fondos aún no blanqueados: incertidumbre elevada, pero sin señal de problema directo en las monedas operadas.",
-    "Dato de empleo fuerte que aumenta la probabilidad de subida de tipos en diciembre; evento macro relevante dentro de 24 h (inflación la próxima semana), no de alto impacto inmediato.",
-    "Ninguna moneda del bot presenta halt, depeg o delist; caídas individuales moderadas (XRP -4.26% en 24 h)."
+    "Miedo extremo moderado (índice 28) con liquidaciones de más de 1.000 M$ en 24 h tras la caída de acciones tecnológicas.",
+    "BTC perdió los 75.000 USD, su nivel más bajo desde agosto, y la capitalización total cayó -2.3% en 24 h, sin llegar al umbral de -7% de pausa.",
+    "Los datos de empleo muy superiores a lo esperado aumentan la probabilidad de una subida de tipos en diciembre, y la inflación se publica la próxima semana (evento relevante dentro de 24 h).",
+    "Hackeo de Binance de 6.300 M$ y sanción del Tesoro a MEXC son riesgos negativos relevantes pero no afectan directamente a las monedas operadas; no se justifica pausa.",
+    "Sin caídas anómalas por moneda: XRP (-3.2% en 24 h) es la más débil, pero dentro de la volatilidad normal."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-06T21:39:13+00:00",
-  "valido_hasta": "2026-11-07T00:39:13+00:00",
+  "generado": "2026-11-06T22:39:06+00:00",
+  "valido_hasta": "2026-11-07T01:39:06+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -3.07,
-    "noticias_analizadas": 51,
+    "cambio_mercado_24h": -2.3,
+    "noticias_analizadas": 49,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9627,
+    "input_tokens": 9616,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 623,
+    "output_tokens": 674,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
