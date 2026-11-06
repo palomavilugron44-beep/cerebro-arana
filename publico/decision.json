@@ -1,29 +1,23 @@
 {
   "modo": "cautela",
-  "monedas": {
-    "BNBUSDT": {
-      "modo": "pausa",
-      "motivo": "Hackeo de Binance por unos 6.430 M$ (29 oct); riesgo de seguridad directo sobre el exchange y su moneda nativa.",
-      "multiplicador_riesgo": 0.0
-    }
-  },
-  "resumen": "El mercado está en miedo (índice 28) tras una caída tecnológica de las acciones de IA que liquidó más de 1.000 M$ en derivados; la capitalización total cae un 2.85% en 24 h, pero no llega al umbral de -7%. Hay un riesgo de seguridad grave y concreto en Binance (hackeo de unos 6.430 M$ con fondos aún sin mover y dudas sobre sus controles), por lo que BNB pasa a pausa. El resto de noticias son de regulación o ruido, así que el régimen global se mantiene en cautela por volatilidad y miedo.",
+  "monedas": {},
+  "resumen": "El mercado está en miedo (índice 28) tras una caída de la capitalización total del -3.4% en 24 h, con más de 1.000 millones en liquidaciones y BTC probando mínimos de 11 semanas cerca de 75.000 USD tras el desplome de acciones tecnológicas. El hackeo de Binance (unos 6.300 M USD) es un riesgo de seguridad relevante para el ecosistema, pero no paraliza el mercado ni afecta directamente a las monedas operadas. Hay incertidumbre elevada, así que se recomienda cautela general sin pausar, ya que no hay una caída brusca confirmada ni un evento macro de alto impacto en las próximas 24 h.",
   "motivos": [
-    "Índice Miedo/Codicia en 28 (miedo) y liquidaciones de más de 1.000 M$ en 24 h: volatilidad elevada.",
-    "Capitalización total -2.85% en 24 h, por debajo del umbral de pausa global (-7%).",
-    "Hackeo de Binance (~6.430 M$, 29 oct) con dudas sobre gestión de hot wallets: riesgo de seguridad grave para BNB.",
-    "BTC probando mínimos de 11 semanas (~74.780 USD) tras la caída de acciones de IA; contexto de incertidumbre.",
-    "Sin eventos macro de alto impacto en las próximas 24 h; el dato de empleo ya se publicó y el IPC llega la próxima semana."
+    "Índice Miedo/Codicia en 28 (miedo) y volatilidad elevada tras liquidaciones superiores a 1.000 M USD en 24 h.",
+    "Capitalización total -3.4% en 24 h y BTC rompiendo brevemente 75.000 USD, mínimo desde agosto, por la venta de tecnológicas.",
+    "Hackeo de Binance por 6.300 M USD y otros incidentes de seguridad (Gnosis Pay, Chainalysis) generan incertidumbre, pero no son un exploit directo sobre las monedas operadas.",
+    "Dato de empleo fuerte (165.000 vs ~65.000 estimados) reaviva la posibilidad de subidas de tipos; el IPC de la próxima semana es un evento importante, aunque fuera de la ventana de 24 h.",
+    "Sin eventos macro USD de alto impacto en las próximas 24 h, por lo que no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-06T16:50:14+00:00",
-  "valido_hasta": "2026-11-06T19:50:14+00:00",
+  "generado": "2026-11-06T17:47:51+00:00",
+  "valido_hasta": "2026-11-06T20:47:51+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -2.85,
+    "cambio_mercado_24h": -3.4,
     "noticias_analizadas": 45,
     "articulos_leidos": 8,
     "fuentes": {
@@ -62,20 +56,20 @@
       "link": "https://www.coindesk.com/markets/2026/11/06/bitcoin-steadies-near-usd76-000-after-ai-led-selloff"
     },
     {
-      "titulo": "$3.1B in Stolen Binance Crypto Has Yet to Be Laundered: Elliptic",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/382711/3-1b-in-stolen-binance-crypto-has-yet-to-be-laundered-elliptic"
+      "titulo": "Bitcoin Price Falls Below $75K for First Time Since August as Tech Sell-Off Deepens",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-falls-75k-first-time-august-tech-sell-off-deepens/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9516,
+    "input_tokens": 9411,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 672,
+    "output_tokens": 693,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
