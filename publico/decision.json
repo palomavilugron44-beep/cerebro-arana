@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 28) tras una caída de la capitalización de -2.5% en 24 h, con liquidaciones de más de $1.000 M y BTC en mínimos de 11 semanas (cerca de $75K). Hay presión por la venta de tecnológicas, salidas de ETF de BTC y un dato de empleo fuerte que aumenta las apuestas por una subida de tipos en diciembre, aunque no hay eventos de alto impacto en las próximas 24 h. Ante esta volatilidad y la incertidumbre elevada, se recomienda cautela general, sin pausa, ya que no hay un riesgo grave e inmediato confirmado para las monedas operadas.",
+  "resumen": "El mercado cripto está en miedo (índice 28) tras una caída de la capitalización total de -2.88% en 24 h, ligada a una venta de acciones tecnológicas y de IA, con más de 1.000 M$ en liquidaciones y salidas netas de ETF de BTC. Un dato de empleo fuerte reaviva la posibilidad de una subida de tipos en diciembre, y el hackeo de Binance (unos 6.300 M$) añade incertidumbre, aunque no se detecta una anomalía específica en las monedas operadas. No hay eventos macro de alto impacto en las próximas 24 h ni una caída de -7% o peor, así que no justifica pausa; se recomienda cautela general.",
   "motivos": [
-    "Índice Miedo/Codicia en 28 (miedo) y capitalización total -2.52% en 24 h con liquidaciones superiores a $1.000 M.",
-    "BTC tocó mínimos de 11 semanas (~$74.780) y cayó bajo $75K tras la venta de tecnológicas; salidas netas de ETF de BTC de $430 M el jueves y $870 M en la semana.",
-    "Dato de empleo de EE. UU. muy superior a lo esperado (165.000 vs ~65.000) que aumenta las apuestas por una subida de tipos en diciembre; el IPC de la próxima semana añade incertidumbre.",
-    "El hackeo a Binance (~$6.400 M) es un riesgo serio para el ecosistema, pero las noticias indican que los fondos están siendo movidos o congelados y no hay una situación anómala de las monedas operadas (sin halt, depeg o delist), por lo que no justifi",
-    "No hay eventos macro de alto impacto en las próximas 24 h ni caídas bruscas confirmadas de precio que justifiquen pausa; las monedas operan con variaciones de 24 h entre -3.8% y +3.0%."
+    "Índice Miedo/Codicia en 28 (miedo), con caída de capitalización total de -2.88% en 24 h.",
+    "Liquidaciones de más de 1.000 M$ y salidas netas de ETF de BTC de unos 430 M$ en la jornada.",
+    "Dato de empleo muy por encima de lo esperado que aumenta la probabilidad de una subida de tipos en diciembre.",
+    "Hackeo de Binance (unos 6.300 M$) con fondos robados aún sin blanquear; riesgo reputacional, pero sin señal de anomalía en las monedas operadas.",
+    "Precios sin halts, depegs ni deslistados; la caída de 7 días es moderada (entre -0.04% y -4.7%)."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-06T18:50:28+00:00",
-  "valido_hasta": "2026-11-06T21:50:28+00:00",
+  "generado": "2026-11-06T19:50:53+00:00",
+  "valido_hasta": "2026-11-06T22:50:53+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -2.52,
-    "noticias_analizadas": 48,
+    "cambio_mercado_24h": -2.88,
+    "noticias_analizadas": 50,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -51,25 +51,25 @@
       "link": "https://decrypt.co/382717/bitcoin-price-11-week-low-crypto-liquidations-ai-stock"
     },
     {
+      "titulo": "Why a Hyperliquid Treasury Firm Wants to Become a US Futures Broker",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/382754/why-hyperliquid-treasury-wants-us-futures-broker"
+    },
+    {
       "titulo": "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/06/u-s-added-165-000-jobs-in-october-blowing-past-65-000-estimate"
-    },
-    {
-      "titulo": "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/daybook-us/2026/11/06/over-usd1-billion-in-bullish-bets-liquidated-while-etf-flows-suggest-no-help-in-spot-market"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9537,
+    "input_tokens": 9609,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 773,
+    "output_tokens": 625,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
