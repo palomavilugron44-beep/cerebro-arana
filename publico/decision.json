@@ -3,17 +3,17 @@
   "monedas": {},
   "resumen": "Decisión tomada con reglas simples (Claude no estuvo disponible en esta revisión).",
   "motivos": [
-    "El mercado total cae -5.48% en 24 h."
+    "El mercado total cae -5.27% en 24 h."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-06T15:52:07+00:00",
-  "valido_hasta": "2026-11-06T18:52:07+00:00",
+  "generado": "2026-11-06T16:00:28+00:00",
+  "valido_hasta": "2026-11-06T19:00:28+00:00",
   "origen": "reglas",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -5.48,
+    "cambio_mercado_24h": -5.27,
     "noticias_analizadas": 42,
     "articulos_leidos": 8,
     "fuentes": {
@@ -58,5 +58,5 @@
     }
   ],
   "uso_tokens": {},
-  "error_ia": "No pude consultar a Claude (HTTP 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmwcCjxmTMJxbVLdPZiV\"})"
+  "error_ia": "No pude consultar a Claude (HTTP 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmxFA4X762Lz23372g1v\"}) | Diagnóstico: la clave recibida NO empieza con sk-ant-, tiene 353 caracteres (una correcta tiene más de 100)."
 }
