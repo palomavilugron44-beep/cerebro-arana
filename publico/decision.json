@@ -1,0 +1,62 @@
+{
+  "modo": "cautela",
+  "monedas": {},
+  "resumen": "Decisión tomada con reglas simples (Claude no estuvo disponible en esta revisión).",
+  "motivos": [
+    "El mercado total cae -5.48% en 24 h."
+  ],
+  "alerta_posiciones": "",
+  "version": 1,
+  "generado": "2026-11-06T15:42:17+00:00",
+  "valido_hasta": "2026-11-06T18:42:17+00:00",
+  "origen": "reglas",
+  "multiplicador_riesgo": 0.5,
+  "datos": {
+    "miedo_codicia": 28,
+    "cambio_mercado_24h": -5.48,
+    "noticias_analizadas": 42,
+    "articulos_leidos": 8,
+    "fuentes": {
+      "CoinDesk": 25,
+      "Cointelegraph": 30,
+      "Decrypt": 38,
+      "Bitcoin.com": 10,
+      "NewsBTC": 10
+    },
+    "eventos_usd_24h": 0
+  },
+  "titulares": [
+    {
+      "titulo": "Bitcoin holds $75K as AI regulation fears see KOSPI halted after 8% crash",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/bitcoin-holds-ai-regulation-fears-kospi-halted?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/06/u-s-added-165-000-jobs-in-october-blowing-past-65-000-estimate"
+    },
+    {
+      "titulo": "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/daybook-us/2026/11/06/over-usd1-billion-in-bullish-bets-liquidated-while-etf-flows-suggest-no-help-in-spot-market"
+    },
+    {
+      "titulo": "Bitcoin steadies after AI-led selloff as eyes turn to latest U.S. jobs figures",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/06/bitcoin-steadies-near-usd76-000-after-ai-led-selloff"
+    },
+    {
+      "titulo": "$3.1B in Stolen Binance Crypto Has Yet to Be Laundered: Elliptic",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/382711/3-1b-in-stolen-binance-crypto-has-yet-to-be-laundered-elliptic"
+    },
+    {
+      "titulo": "Nigeria sets new crypto licensing rules, bans algorithmic stablecoins",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/nigeria-algorithmic-stablecoin-ban-crypto-licensing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    }
+  ],
+  "uso_tokens": {},
+  "error_ia": "No pude consultar a Claude (HTTP 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgmvrg53ot2XdkNbGoG8h\"})"
+}
