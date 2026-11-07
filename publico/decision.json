@@ -1,25 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 25) tras una caída de la capitalización total de -2.61% en 24 h, con BTC perforando los 75.000 USD por primera vez desde agosto y más de 1.000 M$ en liquidaciones, impulsados por la venta de acciones de IA y la expectativa de una subida de tipos en diciembre. Hay además un hackeo de Binance de 6.300 M$ que sigue generando incertidumbre sobre la seguridad del exchange, y la Tesorería de EE.UU. ha cortado a MEXC del sistema financiero estadounidense. No hay un evento macro de alto impacto en las próximas 24 h ni una situación de colapso confirmada, así que no justifico pausa, pero sí cautela general por volatilidad y riesgo de exchange.",
+  "resumen": "El mercado está en miedo extremo (índice 25) tras una caída de la capitalización total del -2.85% en 24 h, con liquidaciones de más de 1.000 M$ y BTC perdiendo los 75.000 USD por primera vez desde agosto. Hay además noticias negativas relevantes, como el hackeo de 6.300 M$ a Binance (sin caso de caída de la exchange), la sanción del Tesoro de EE. UU. a MEXC y las salidas de ETFs de BTC, pero no hay evento macro de alto impacto en 24 h ni una moneda en situación anómala. Por ello se recomienda cautela general (mitad de tamaño) y no pausa.",
   "motivos": [
-    "Miedo extremo (índice 25) y caída de la capitalización total de -2.61% en 24 h con BTC bajo 75.000 USD.",
-    "Más de 1.000 M$ liquidados en derivados en las últimas 24 h, con el 88% en posiciones largas.",
-    "Hackeo de Binance de unos 6.300 M$ que mantiene dudas sobre la seguridad de los exchanges, aunque sin afectar directamente a las monedas operadas.",
-    "Sanción de FinCEN a MEXC, que no opera en la lista del bot; riesgo indirecto de contagio de confianza en exchanges.",
-    "Dato de empleo fuerte que aumenta la probabilidad de una subida de tipos en diciembre; el IPC de la próxima semana es una fuente adicional de volatilidad.",
-    "No hay riesgo grave e inmediato confirmado ni evento macro de alto impacto en las próximas 2-3 horas, por lo que no se activa la pausa."
+    "Índice Miedo/Codicia en 25 (Extreme Fear) y caída de capitalización total de -2.85% en 24 h",
+    "Liquidaciones de más de 1.000 M$ en 24 h, con 88% en largos",
+    "Salidas netas de ETFs de BTC (430 M$ en un día; 870 M$ en la semana) y BTC bajo 75.000 USD",
+    "Hackeo de 6.300 M$ a Binance y sanción de FinCEN a MEXC: noticias negativas relevantes pero no graves para el precio de las monedas operadas",
+    "Sin eventos macro de alto impacto en 24 h; no hay halt, depeg ni delist de las monedas del bot, por lo que no se justifica pausa"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-07T00:55:20+00:00",
-  "valido_hasta": "2026-11-07T03:55:20+00:00",
+  "generado": "2026-11-07T01:55:43+00:00",
+  "valido_hasta": "2026-11-07T04:55:43+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 25,
-    "cambio_mercado_24h": -2.61,
-    "noticias_analizadas": 38,
+    "cambio_mercado_24h": -2.85,
+    "noticias_analizadas": 34,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -52,25 +51,25 @@
       "link": "https://decrypt.co/382754/why-hyperliquid-treasury-wants-us-futures-broker"
     },
     {
-      "titulo": "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/06/u-s-added-165-000-jobs-in-october-blowing-past-65-000-estimate"
-    },
-    {
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Binance hack is ‘cyber war,’ TRM Labs executive says",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/interview/trm-labs-binance-hack-interview?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9426,
+    "input_tokens": 8952,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 740,
+    "output_tokens": 617,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
