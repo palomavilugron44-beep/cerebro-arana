@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El miedo extremo (índice 25) y la caída de la capitalización total del -3.03% en 24 h, junto con salidas de los ETF de BTC (-411.9 M$ el 6 de noviembre) y de ETH, configuran un entorno de incertidumbre elevada. El hackeo de Binance (6.300 M$) sigue generando noticias, y la corrección en acciones de IA añade presión macro, aunque no hay un evento macro de alto impacto en las próximas 24 h. Por ello se recomienda cautela general, sin pausa, porque no se detecta un riesgo grave e inmediato sobre una moneda concreta.",
+  "resumen": "El mercado está en miedo extremo (índice 25) con la capitalización total -2.69% en 24 h y flujos negativos en los ETF de BTC y ETH. Existe un hackeo de Binance de 6.300 M$ (octubre) con noticias de seguimiento, pero no hay una caída brusca en curso ni un dato macro de alto impacto en las próximas horas, por lo que no justifica pausa. Se recomienda cautela general para reducir el tamaño de las compras nuevas.",
   "motivos": [
-    "Índice Miedo/Codicia en 25 (Extreme Fear), con valores de 25 a 50 en los últimos 7 días.",
-    "Capitalización total en -3.03% en 24 h y salidas netas de ETF de BTC (-411.9 M$) y de ETH (-99.9 M$) en los últimos días.",
-    "Hackeo de Binance de 6.300 M$ todavía en curso en las noticias, con dudas sobre sus hot wallets; riesgo reputacional para el exchange, no una situación anómala de las monedas operadas.",
-    "Corrección fuerte en acciones de IA y mercados asiáticos, que aumenta la volatilidad macro.",
-    "Sin eventos macro USD de alto impacto en 24 h y sin halt, depeg ni delist de las monedas operadas, por lo que no procede pausa."
+    "Miedo extremo (índice 25) y varios días seguidos de miedo, con volatilidad elevada.",
+    "Capitalización total -2.69% en 24 h; no alcanza el umbral de -7% para pausa.",
+    "Salidas netas en ETF de BTC (-411.9 M$ el 6 de noviembre) y ETF de ETH (-99.9 M$ el 5 de noviembre), demanda institucional débil.",
+    "Hackeo de Binance (6.300 M$, octubre) y sanciones de EE. UU. a MEXC: noticias negativas relevantes pero no un evento que obligue a pausar.",
+    "Sin eventos macro USD de alto impacto en 24 h; BTC, ETH y BNB casi planos en 24 h, sin caída brusca en curso."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-07T17:34:01+00:00",
-  "valido_hasta": "2026-11-07T20:34:01+00:00",
+  "generado": "2026-11-07T18:40:19+00:00",
+  "valido_hasta": "2026-11-07T21:40:19+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 25,
-    "cambio_mercado_24h": -3.03,
-    "noticias_analizadas": 24,
+    "cambio_mercado_24h": -2.69,
+    "noticias_analizadas": 27,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7501,
+    "input_tokens": 7868,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 631,
+    "output_tokens": 566,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
