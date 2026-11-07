@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 25) y la capitalización total cae un 2.42% en 24 h, con BTC perdiendo el soporte de 75K tras datos de empleo más fuertes de lo esperado que aumentan las apuestas de una subida de tipos en diciembre. Las salidas de ETFs de BTC suman 869.8 millones en la semana. Pesan además el hackeo de 6.3 mil millones a Binance y la orden del Tesoro de EE. UU. contra MEXC, pero no hay evento macro de alto impacto en 24 h ni una caída grave en curso, por lo que se elige cautela general.",
+  "resumen": "El índice Miedo/Codicia está en 25 (Extreme Fear) y la capitalización total cae un 2.22% en 24 h, con precios planos o ligeramente al alza en las monedas del bot. El hackeo de Binance (unos 6.300 M$) es un hecho muy grave para el exchange, pero no hay un colapso del mercado en curso ni un evento macro de alto impacto en las próximas 24 h, así que no justifica una pausa general. Se recomienda cautela (mitad de tamaño) mientras el miedo extremo persista.",
   "motivos": [
-    "Miedo extremo (índice 25) con capitalización total -2.42% en 24 h y BTC por debajo de 75K en mínimos de varias semanas.",
-    "Salidas netas de ETFs de BTC de 869.8 millones en la semana, con Fidelity y BlackRock liderando.",
-    "Hackeo de aproximadamente 6.3 mil millones de dólares a Binance, que genera incertidumbre sobre seguridad del exchange.",
-    "Orden del Tesoro de EE. UU. contra MEXC y datos de empleo que elevan la probabilidad de subida de tipos en diciembre; riesgo relevante pero no grave ni inmediato.",
-    "No hay eventos macro de alto impacto en las próximas 24 h, y el bot tiene stop propio, por lo que no se justifica pausa."
+    "Miedo extremo (índice 25) con capitalización total en -2.22% en 24 h.",
+    "Hackeo de Binance por 6.300 M$ y dudas sobre la seguridad de sus carteras calientes; riesgo reputacional y de liquidez relevante pero sin caída de precios generalizada ni evento de seguridad que afecte a las monedas operadas.",
+    "Sanción del Tesoro de EE. UU. contra MEXC (exchange no operado por el bot), que genera incertidumbre regulatoria sin afectar directamente a las 10 monedas.",
+    "Sin eventos macro de alto impacto USD en las próximas 24 h; el resto de noticias (fiscalidad en Grecia, CFTC, litigios FTX) no son graves para el riesgo de estas monedas.",
+    "Las monedas muestran caídas semanales moderadas (XRP -6.6%, SOL -5.7%) pero sin movimientos bruscos en 24 h, por lo que no se aplican restricciones por moneda."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-07T05:46:09+00:00",
-  "valido_hasta": "2026-11-07T08:46:09+00:00",
+  "generado": "2026-11-07T06:52:59+00:00",
+  "valido_hasta": "2026-11-07T09:52:59+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 25,
-    "cambio_mercado_24h": -2.42,
-    "noticias_analizadas": 24,
+    "cambio_mercado_24h": -2.22,
+    "noticias_analizadas": 19,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -30,11 +30,6 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
-    {
-      "titulo": "Bitcoin ETFs Bleed $430 Million as Tech Rout Tests Wall Street Buyers",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/382733/bitcoin-etfs-bleed-430-million-tech-rout-tests-wall-street"
-    },
     {
       "titulo": "Why a Hyperliquid Treasury Firm Wants to Become a US Futures Broker",
       "fuente": "Decrypt",
@@ -51,25 +46,30 @@
       "link": "https://cointelegraph.com/interview/trm-labs-binance-hack-interview?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "titulo": "Russia finalizes crypto trading rules ahead of Nov. 17 rollout",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/russia-finalizes-crypto-trading-rules-november-rollout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "titulo": "CFTC Tells Prediction Markets to Drop State Geoblocks Within 30 Days",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/igaming/cftc-tells-prediction-markets-drop-state-geoblocks-within-30-days/"
     },
     {
-      "titulo": "Bitcoin price dips under $75K as crypto markets miss tech-stock rebound",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/markets/bitcoin-price-under-75k-crypto-markets-tech-stock?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "titulo": "Binance Pulls Kevin O’Leary, Michael Lewis Into $1.76B FTX Clawback Lawsuit",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/regulation-and-legal/binance-pulls-kevin-oleary-michael-lewis-1-76b-ftx-clawback-lawsuit/"
+    },
+    {
+      "titulo": "Greece Approves 10% Crypto Gains Tax, 15% Levy on Staking and DeFi Income",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/regulation-and-legal/greece-approves-crypto-gains-tax-levy-staking-defi-income/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7729,
+    "input_tokens": 6968,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 626,
+    "output_tokens": 665,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
