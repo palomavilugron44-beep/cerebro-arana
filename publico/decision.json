@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El índice Miedo/Codicia está en 25 (miedo extremo) y la capitalización total cae un 2,16% en 24 h, sin eventos macro de alto impacto en las próximas 24 h. Las noticias son negativas pero no graves: la sanción de EEUU contra MEXC y el hackeo de Binance de 6.300 M$ (mencionado en el extracto) generan incertidumbre sobre seguridad de exchanges, pero no hay una caída brusca confirmada ni una situación anómala en las monedas operadas. Se elige cautela general por el miedo extremo y la incertidumbre, sin frenar el bot por completo.",
+  "resumen": "El índice Miedo/Codicia está en 25 (miedo extremo) y la capitalización total cae un 2.85% en 24 h, sin eventos macro de alto impacto en las próximas 24 h. Las noticias son negativas pero no graves (flujos nulos en ETFs de XRP, multas y presiones regulatorias sin impacto directo en precios), así que se recomienda cautela general por el miedo extremo, no pausa. Ninguna moneda muestra anomalía (halt, depeg o delist).",
   "motivos": [
-    "Índice Miedo/Codicia en 25 (Extreme Fear) con valores recientes entre 25 y 50",
-    "Capitalización total -2,16% en 24 h, caída moderada y no del umbral de -7%",
-    "Sanción del Tesoro de EEUU contra MEXC Global y preguntas sobre seguridad tras el hackeo de Binance de 6.300 M$: riesgo de exchange relevante pero no grave para las monedas operadas",
-    "Sin eventos macro de alto impacto en las próximas 24 h; precios de las 10 monedas estables en 24 h (entre -2,34% y +0,45%)"
+    "Índice Miedo/Codicia en 25 (Extreme Fear), con valores de 26 a 28 en varios días de la última semana.",
+    "Capitalización total cripto -2.85% en 24 h, caída moderada que no alcanza el umbral de -7% para pausa.",
+    "Sin eventos económicos USD de alto impacto en las próximas 24 h.",
+    "Noticias negativas relevantes pero no graves: flujos nulos en ETFs de XRP, presión regulatoria sobre Binance y casas de cambio, sin hackeo ni acción grave contra una moneda.",
+    "No hay anomalías de moneda: todos los pares operan con cambios 24 h entre -2.64% y +0.14%."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-07T09:44:43+00:00",
-  "valido_hasta": "2026-11-07T12:44:43+00:00",
+  "generado": "2026-11-07T10:40:31+00:00",
+  "valido_hasta": "2026-11-07T13:40:31+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 25,
-    "cambio_mercado_24h": -2.16,
-    "noticias_analizadas": 12,
-    "articulos_leidos": 6,
+    "cambio_mercado_24h": -2.85,
+    "noticias_analizadas": 11,
+    "articulos_leidos": 5,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
@@ -30,9 +31,9 @@
   },
   "titulares": [
     {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "titulo": "XRP ETFs Go a Whole Week Without a Single Dollar of Inflows",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/crypto-news/xrp-etfs-week-without-inflows/"
     },
     {
       "titulo": "CFTC Tells Prediction Markets to Drop State Geoblocks Within 30 Days",
@@ -55,20 +56,20 @@
       "link": "https://news.bitcoin.com/regulation-and-legal/greece-approves-crypto-gains-tax-levy-staking-defi-income/"
     },
     {
-      "titulo": "US Treasury Blacklists MEXC Over $16B in Alleged Illicit Crypto Activity",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/regulation-and-legal/us-treasury-blacklists-mexc-16b-alleged-illicit-crypto-activity/"
+      "titulo": "Suspicious prediction market activity seen before election poll release: NYT",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/suspicious-prediction-market-activity-seen-before-election-poll-release-nyt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 5553,
+    "input_tokens": 5248,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 564,
+    "output_tokens": 544,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
