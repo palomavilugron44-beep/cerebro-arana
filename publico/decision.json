@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 28) tras una venta de activos tecnológicos que arrastró a BTC por debajo de 75.000 USD, con más de 1.000 M$ en liquidaciones y la capitalización total cayendo un 2.32% en 24 h. Los datos macro (empleo de octubre muy por encima de lo esperado) elevan la probabilidad de una subida de tipos en diciembre, pero no hay evento de alto impacto en las próximas 24 h. El hackeo de Binance (6.300 M$) y la sanción del Tesoro a MEXC son riesgos serios, aunque no afectan directamente a las monedas operadas ni son una caída de mercado sostenida, así que se recomienda cautela en lugar de pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 25) tras una caída de la capitalización total de -2.61% en 24 h, con BTC perforando los 75.000 USD por primera vez desde agosto y más de 1.000 M$ en liquidaciones, impulsados por la venta de acciones de IA y la expectativa de una subida de tipos en diciembre. Hay además un hackeo de Binance de 6.300 M$ que sigue generando incertidumbre sobre la seguridad del exchange, y la Tesorería de EE.UU. ha cortado a MEXC del sistema financiero estadounidense. No hay un evento macro de alto impacto en las próximas 24 h ni una situación de colapso confirmada, así que no justifico pausa, pero sí cautela general por volatilidad y riesgo de exchange.",
   "motivos": [
-    "Índice Miedo/Codicia en 28 y caída de la capitalización total del 2.32% en 24 h con más de 1.000 M$ liquidados.",
-    "Salidas netas de ETF de BTC de 869.8 M$ en la semana y BTC en mínimos de 11 semanas.",
-    "Datos de empleo de EE. UU. muy superiores a lo esperado que aumentan las apuestas por una subida de tipos en diciembre.",
-    "Hackeo de Binance de 6.300 M$ y sanción del Tesoro de EE. UU. a MEXC: riesgo de seguridad y regulatorio, pero sin afectar directamente a las monedas operadas.",
-    "No hay eventos macro de alto impacto USD en las próximas 24 h, por lo que no se justifica pausa."
+    "Miedo extremo (índice 25) y caída de la capitalización total de -2.61% en 24 h con BTC bajo 75.000 USD.",
+    "Más de 1.000 M$ liquidados en derivados en las últimas 24 h, con el 88% en posiciones largas.",
+    "Hackeo de Binance de unos 6.300 M$ que mantiene dudas sobre la seguridad de los exchanges, aunque sin afectar directamente a las monedas operadas.",
+    "Sanción de FinCEN a MEXC, que no opera en la lista del bot; riesgo indirecto de contagio de confianza en exchanges.",
+    "Dato de empleo fuerte que aumenta la probabilidad de una subida de tipos en diciembre; el IPC de la próxima semana es una fuente adicional de volatilidad.",
+    "No hay riesgo grave e inmediato confirmado ni evento macro de alto impacto en las próximas 2-3 horas, por lo que no se activa la pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-06T23:37:01+00:00",
-  "valido_hasta": "2026-11-07T02:37:01+00:00",
+  "generado": "2026-11-07T00:55:20+00:00",
+  "valido_hasta": "2026-11-07T03:55:20+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
-    "miedo_codicia": 28,
-    "cambio_mercado_24h": -2.32,
-    "noticias_analizadas": 43,
+    "miedo_codicia": 25,
+    "cambio_mercado_24h": -2.61,
+    "noticias_analizadas": 38,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -56,20 +57,20 @@
       "link": "https://www.coindesk.com/markets/2026/11/06/u-s-added-165-000-jobs-in-october-blowing-past-65-000-estimate"
     },
     {
-      "titulo": "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/daybook-us/2026/11/06/over-usd1-billion-in-bullish-bets-liquidated-while-etf-flows-suggest-no-help-in-spot-market"
+      "titulo": "Here’s what happened in crypto today",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9715,
+    "input_tokens": 9426,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 658,
+    "output_tokens": 740,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
