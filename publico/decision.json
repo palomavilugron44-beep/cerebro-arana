@@ -1,26 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El índice Miedo/Codicia está en 25 (miedo extremo) y la capitalización total cae un 2.06% en 24 h, con las principales monedas en rojo en la semana (SOL, XRP, LTC, LINK alrededor de -5%/-6% en 7 días). No hay eventos macro de alto impacto en las próximas 24 h ni una caída brusca de mercado en curso, pero el contexto de miedo extremo justifica operar con cautela. Las noticias (sanción de FinCEN a MEXC, brecha en Gnosis Pay, hackeo de 6.3 mil millones atribuido a Binance mencionado en un titular) son negativas relevantes pero no afectan directamente a las monedas operadas.",
+  "resumen": "El índice Miedo/Codicia está en 25 (miedo extremo) y la capitalización total cae un 2,16% en 24 h, sin eventos macro de alto impacto en las próximas 24 h. Las noticias son negativas pero no graves: la sanción de EEUU contra MEXC y el hackeo de Binance de 6.300 M$ (mencionado en el extracto) generan incertidumbre sobre seguridad de exchanges, pero no hay una caída brusca confirmada ni una situación anómala en las monedas operadas. Se elige cautela general por el miedo extremo y la incertidumbre, sin frenar el bot por completo.",
   "motivos": [
-    "Índice Miedo/Codicia en 25 (Extreme Fear), con valores de 26 y 28 en los días previos: miedo extremo sostenido.",
-    "Capitalización total -2.06% en 24 h, sin llegar al umbral de -7% que justificaría pausa.",
-    "Noticias negativas relevantes pero no graves: sanción de FinCEN a MEXC (exchange no operado por el bot) y brecha de datos en Gnosis Pay sin afectar fondos.",
-    "Mención a un hackeo de 6.300 millones de dólares vinculado a Binance en un titular; los datos no permiten verificar su alcance, por lo que se mantiene la cautela y no la pausa.",
-    "Sin eventos económicos USD de alto impacto en 24 h; no hay motivo para pausa macro.",
-    "Ninguna moneda operada presenta situación anómala (halt, depeg o delist)."
+    "Índice Miedo/Codicia en 25 (Extreme Fear) con valores recientes entre 25 y 50",
+    "Capitalización total -2,16% en 24 h, caída moderada y no del umbral de -7%",
+    "Sanción del Tesoro de EEUU contra MEXC Global y preguntas sobre seguridad tras el hackeo de Binance de 6.300 M$: riesgo de exchange relevante pero no grave para las monedas operadas",
+    "Sin eventos macro de alto impacto en las próximas 24 h; precios de las 10 monedas estables en 24 h (entre -2,34% y +0,45%)"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-07T08:48:52+00:00",
-  "valido_hasta": "2026-11-07T11:48:52+00:00",
+  "generado": "2026-11-07T09:44:43+00:00",
+  "valido_hasta": "2026-11-07T12:44:43+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 25,
-    "cambio_mercado_24h": -2.06,
-    "noticias_analizadas": 13,
-    "articulos_leidos": 7,
+    "cambio_mercado_24h": -2.16,
+    "noticias_analizadas": 12,
+    "articulos_leidos": 6,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
@@ -63,14 +61,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 5894,
+    "input_tokens": 5553,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 685,
+    "output_tokens": 564,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
