@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 25) tras una caída tecnológica que ha llevado a BTC por debajo de 75.000 USD, con salidas netas de ETFs y más de 1.000 M$ en liquidaciones. La capitalización total cae un 2.7% en 24 h, lo que no llega al umbral de -7% para pausa. Los hackeos de Binance y las sanciones a MEXC son graves para el ecosistema pero no afectan directamente a las monedas operadas, así que conviene operar con cautela (mitad de tamaño) y no pausar.",
+  "resumen": "El mercado está en miedo extremo (índice 25) tras una caída de la capitalización total del -3.1% en 24 h, con BTC tocando mínimos de 11 semanas (~75.000 USD) y más de 1.000 M$ liquidados en derivados. El hackeo de Binance (~6.300 M$) y la presión de salidas de ETF de BTC (-430 M$ en un día) añaden incertidumbre, aunque no hay un evento macro de alto impacto en las próximas 24 h ni una situación anómala confirmada en las monedas operadas. Se recomienda cautela general (mitad de tamaño en compras nuevas) y no pausa, ya que no hay un riesgo grave e inmediato sobre las monedas del bot.",
   "motivos": [
-    "Índice Miedo/Codicia en 25 (Extreme Fear), con tendencia a la baja desde 50 hace pocos días.",
-    "Capitalización total -2.7% en 24 h y BTC en mínimos de 11 semanas (por debajo de 75.000 USD) tras una venta de activos tecnológicos.",
-    "Más de 1.000 M$ liquidados en 24 h, con 88% en posiciones largas, y salidas netas de ETFs de BTC (869.8 M$ en la semana).",
-    "Hackeo de Binance (~6.3 M$ mil millones) y sanción de FinCEN a MEXC generan incertidumbre, aunque no son riesgos directos sobre las monedas operadas ni una caída de mercado de -7%.",
-    "Ningún evento macro de alto impacto en 24 h, pero el informe de empleo fuerte aumenta las apuestas de subida de tipos en diciembre, lo que sostiene la volatilidad."
+    "Índice Miedo/Codicia en 25 (Extreme Fear) y 7 días entre 25 y 50, con sentimiento muy negativo.",
+    "Capitalización total -3.1% en 24 h con más de 1.000 M$ en liquidaciones de derivados, mayoritariamente largos.",
+    "BTC en mínimos de 11 semanas (~75.000 USD) con salidas netas de ETF de BTC de 869.8 M$ esta semana.",
+    "Hackeo de Binance de ~6.300 M$ con cuestiones abiertas sobre seguridad del exchange; riesgo de seguridad relevante pero no confirmado como amenaza directa a las monedas operadas.",
+    "Sanción del Tesoro de EE.UU. contra MEXC (exchange no operado por el bot).",
+    "Sin eventos macro USD de alto impacto en las próximas 24 h; el dato de nóminas ya se publicó y su efecto ya está en precio."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-07T02:48:05+00:00",
-  "valido_hasta": "2026-11-07T05:48:05+00:00",
+  "generado": "2026-11-07T03:47:13+00:00",
+  "valido_hasta": "2026-11-07T06:47:13+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 25,
-    "cambio_mercado_24h": -2.7,
-    "noticias_analizadas": 30,
+    "cambio_mercado_24h": -3.1,
+    "noticias_analizadas": 29,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +63,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8489,
+    "input_tokens": 8365,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 655,
+    "output_tokens": 710,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
