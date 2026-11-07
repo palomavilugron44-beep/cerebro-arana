@@ -1,25 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 25) tras una caída de la capitalización total del -3.1% en 24 h, con BTC tocando mínimos de 11 semanas (~75.000 USD) y más de 1.000 M$ liquidados en derivados. El hackeo de Binance (~6.300 M$) y la presión de salidas de ETF de BTC (-430 M$ en un día) añaden incertidumbre, aunque no hay un evento macro de alto impacto en las próximas 24 h ni una situación anómala confirmada en las monedas operadas. Se recomienda cautela general (mitad de tamaño en compras nuevas) y no pausa, ya que no hay un riesgo grave e inmediato sobre las monedas del bot.",
+  "resumen": "El mercado está en miedo extremo (índice 25) y la capitalización total cae un 2.67% en 24 h, con BTC perdiendo el soporte de 75.000 USD tras un dato de empleo que sube las apuestas de una subida de tipos en diciembre. Hay un hackeo muy grave en Binance (unos 6.300 millones de USD), pero los datos no muestran una caída brusca en curso ni una situación anómala de las monedas operadas, y no hay eventos macro de alto impacto en 24 h. Por ello se elige cautela general (no pausa), ya que la incertidumbre es elevada.",
   "motivos": [
-    "Índice Miedo/Codicia en 25 (Extreme Fear) y 7 días entre 25 y 50, con sentimiento muy negativo.",
-    "Capitalización total -3.1% en 24 h con más de 1.000 M$ en liquidaciones de derivados, mayoritariamente largos.",
-    "BTC en mínimos de 11 semanas (~75.000 USD) con salidas netas de ETF de BTC de 869.8 M$ esta semana.",
-    "Hackeo de Binance de ~6.300 M$ con cuestiones abiertas sobre seguridad del exchange; riesgo de seguridad relevante pero no confirmado como amenaza directa a las monedas operadas.",
-    "Sanción del Tesoro de EE.UU. contra MEXC (exchange no operado por el bot).",
-    "Sin eventos macro USD de alto impacto en las próximas 24 h; el dato de nóminas ya se publicó y su efecto ya está en precio."
+    "Índice Miedo/Codicia en 25 (miedo extremo), con salidas netas de ETFs de BTC de 430 M USD en la jornada y 870 M en la semana.",
+    "Caída de capitalización total de -2.67% en 24 h; BTC bajo 75.000 USD tras un dato de empleo que aumenta la probabilidad de subida de tipos en diciembre.",
+    "Hackeo de Binance por unos 6.300 M USD: riesgo reputacional y de seguridad relevante, pero sin señales de halt, depeg o caída brusca del mercado que justifiquen pausa.",
+    "Sanción del Tesoro de EE. UU. contra MEXC: noticia negativa relevante pero no grave para las monedas operadas.",
+    "Sin eventos macro de alto impacto en las próximas 24 h; la estrategia mantiene su propio stop a 3 ATR."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-07T03:47:13+00:00",
-  "valido_hasta": "2026-11-07T06:47:13+00:00",
+  "generado": "2026-11-07T04:50:19+00:00",
+  "valido_hasta": "2026-11-07T07:50:19+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 25,
-    "cambio_mercado_24h": -3.1,
-    "noticias_analizadas": 29,
+    "cambio_mercado_24h": -2.67,
+    "noticias_analizadas": 26,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -42,11 +41,6 @@
       "link": "https://news.bitcoin.com/crypto-news/stolen-binance-bitcoin-xrp-3-1b-remains-unlaundered-elliptic/"
     },
     {
-      "titulo": "Crypto Liquidations Top $1 Billion as Bitcoin Tests 11-Week Low",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/382717/bitcoin-price-11-week-low-crypto-liquidations-ai-stock"
-    },
-    {
       "titulo": "Why a Hyperliquid Treasury Firm Wants to Become a US Futures Broker",
       "fuente": "Decrypt",
       "link": "https://decrypt.co/382754/why-hyperliquid-treasury-wants-us-futures-broker"
@@ -60,17 +54,22 @@
       "titulo": "Binance hack is ‘cyber war,’ TRM Labs executive says",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/interview/trm-labs-binance-hack-interview?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Russia finalizes crypto trading rules ahead of Nov. 17 rollout",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/russia-finalizes-crypto-trading-rules-november-rollout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8365,
+    "input_tokens": 7972,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 710,
+    "output_tokens": 642,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
