@@ -1,25 +1,26 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El índice Miedo/Codicia está en 25 (miedo extremo) y la capitalización total cae un 2.16% en 24 h, sin eventos macro de alto impacto previstos en 24 h. Las noticias dominantes (hackeo de Binance por 6.3 mil millones, sanciones del Tesoro a MEXC) son graves para el sector, pero no hay una caída brusca confirmada ni un problema que afecte directamente a las monedas operadas, por lo que se opta por cautela global y no por pausa. Las monedas no muestran situaciones anómalas (sin halt, depeg ni delist).",
+  "resumen": "El índice Miedo/Codicia está en 25 (miedo extremo) y la capitalización total cae un 2.06% en 24 h, con las principales monedas en rojo en la semana (SOL, XRP, LTC, LINK alrededor de -5%/-6% en 7 días). No hay eventos macro de alto impacto en las próximas 24 h ni una caída brusca de mercado en curso, pero el contexto de miedo extremo justifica operar con cautela. Las noticias (sanción de FinCEN a MEXC, brecha en Gnosis Pay, hackeo de 6.3 mil millones atribuido a Binance mencionado en un titular) son negativas relevantes pero no afectan directamente a las monedas operadas.",
   "motivos": [
-    "Índice Miedo/Codicia en 25 (miedo extremo) con volatilidad y sentimiento negativo en la última semana.",
-    "Capitalización total -2.16% en 24 h, sin llegar al umbral de -7% que justificaría pausa.",
-    "Hackeo de Binance (~6.3 mil millones USD) y sanciones del Tesoro de EE. UU. a MEXC: riesgo reputacional relevante para el ecosistema, pero sin afectar de forma concreta a las monedas operadas.",
-    "Sin eventos macro de alto impacto en las próximas 24 h; el resto de noticias son regulatorias o de tono no inmediato.",
-    "Ninguna moneda muestra anomalía (halt, depeg o delist); el movimiento 24 h de todas está entre -0.83% y +1.29%."
+    "Índice Miedo/Codicia en 25 (Extreme Fear), con valores de 26 y 28 en los días previos: miedo extremo sostenido.",
+    "Capitalización total -2.06% en 24 h, sin llegar al umbral de -7% que justificaría pausa.",
+    "Noticias negativas relevantes pero no graves: sanción de FinCEN a MEXC (exchange no operado por el bot) y brecha de datos en Gnosis Pay sin afectar fondos.",
+    "Mención a un hackeo de 6.300 millones de dólares vinculado a Binance en un titular; los datos no permiten verificar su alcance, por lo que se mantiene la cautela y no la pausa.",
+    "Sin eventos económicos USD de alto impacto en 24 h; no hay motivo para pausa macro.",
+    "Ninguna moneda operada presenta situación anómala (halt, depeg o delist)."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-07T07:57:35+00:00",
-  "valido_hasta": "2026-11-07T10:57:35+00:00",
+  "generado": "2026-11-07T08:48:52+00:00",
+  "valido_hasta": "2026-11-07T11:48:52+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 25,
-    "cambio_mercado_24h": -2.16,
-    "noticias_analizadas": 17,
-    "articulos_leidos": 8,
+    "cambio_mercado_24h": -2.06,
+    "noticias_analizadas": 13,
+    "articulos_leidos": 7,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
@@ -34,11 +35,6 @@
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Binance hack is ‘cyber war,’ TRM Labs executive says",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/interview/trm-labs-binance-hack-interview?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "titulo": "CFTC Tells Prediction Markets to Drop State Geoblocks Within 30 Days",
@@ -59,17 +55,22 @@
       "titulo": "Greece Approves 10% Crypto Gains Tax, 15% Levy on Staking and DeFi Income",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/regulation-and-legal/greece-approves-crypto-gains-tax-levy-staking-defi-income/"
+    },
+    {
+      "titulo": "US Treasury Blacklists MEXC Over $16B in Alleged Illicit Crypto Activity",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/regulation-and-legal/us-treasury-blacklists-mexc-16b-alleged-illicit-crypto-activity/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6648,
+    "input_tokens": 5894,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 618,
+    "output_tokens": 685,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
