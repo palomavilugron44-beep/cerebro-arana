@@ -1,25 +1,26 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El índice Miedo/Codicia está en 25 (miedo extremo), la capitalización total cae un 2.01% en 24 h y las salidas de ETFs de BTC y XRP son notables, aunque sin caídas bruscas del mercado (-7% o peor). No hay eventos macro de alto impacto en las próximas 24 h ni problemas de seguridad o anomalías en las monedas operadas. Dado el miedo extremo, se recomienda cautela general, sin pausa ni medidas específicas por moneda.",
+  "resumen": "El miedo extremo (índice 25) y la capitalización total en -2.8% en 24 h, junto con salidas de los ETF spot de BTC (-411.9 M$ el 6 de noviembre) y ETH, indican un entorno de incertidumbre elevada, aunque no hay una caída brusca de -7% ni un evento macro de alto impacto en las próximas 24 h. Las noticias de suspensión de retiros cripto en Nubank y Mercadopago se atribuyen a un proveedor de datos externo, sin confirmar hackeo, por lo que no justifican una pausa. Se opta por cautela global, con el bot operando a la mitad del tamaño.",
   "motivos": [
-    "Índice Miedo/Codicia en 25 (Extreme Fear), con lecturas de 25-28 en varios días de la última semana.",
-    "Capitalización total -2.01% en 24 h, lejos del umbral de -7% que justificaría pausa.",
-    "Salidas netas de ETFs spot de BTC (-411.9 M$ el 6 de noviembre) y flujos nulos en ETFs de XRP, lo que indica presión vendedora institucional.",
-    "Noticias regulatorias y judiciales (sanciones a casas de cambio canadienses, demanda FTX-Binance, impuestos en Grecia) sin impacto grave e inmediato sobre las monedas operadas.",
-    "Sin eventos económicos USD de alto impacto en las próximas 24 h; ninguna moneda en situación anómala."
+    "Índice Miedo/Codicia en 25 (Extreme Fear), con valores de 7 días entre 25 y 50.",
+    "Capitalización total -2.8% en 24 h, por debajo del umbral de -7% que justificaría pausa.",
+    "Salidas netas de ETF spot de Bitcoin (-411.9 M$ el 6 nov) y de Ether (-99.9 M$ el 5 nov), con demanda institucional débil.",
+    "XRP ETF sin entradas netas durante la semana; XRP -6.99% en 7 días.",
+    "Suspensión de retiros cripto en Nubank y Mercadopago atribuida a inestabilidad de un proveedor de datos; sin confirmación de hackeo, riesgo no grave.",
+    "Sin eventos macro de alto impacto USD en las próximas 24 h, por lo que no se requiere pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-07T12:46:33+00:00",
-  "valido_hasta": "2026-11-07T15:46:33+00:00",
+  "generado": "2026-11-07T13:49:38+00:00",
+  "valido_hasta": "2026-11-07T16:49:38+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 25,
-    "cambio_mercado_24h": -2.01,
-    "noticias_analizadas": 12,
-    "articulos_leidos": 7,
+    "cambio_mercado_24h": -2.8,
+    "noticias_analizadas": 14,
+    "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
@@ -36,6 +37,11 @@
       "link": "https://news.bitcoin.com/crypto-news/xrp-etfs-week-without-inflows/"
     },
     {
+      "titulo": "Ether ETFs Face Another $99.9M Outflow as Demand Stays Uneven",
+      "fuente": "NewsBTC",
+      "link": "https://www.newsbtc.com/news/ethereum/ether-etfs-face-another-99-9m-outflow-as-demand-stays-uneven/"
+    },
+    {
       "titulo": "Bitcoin ETFs Lose $411.9M on Friday as BlackRock Drives the Selling",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/news/bitcoin/bitcoin-etfs-lose-411-9m-on-friday-as-blackrock-drives-the-selling/"
@@ -46,30 +52,25 @@
       "link": "https://news.bitcoin.com/featured/bitcoin-mining-difficulty-longest-below-all-time-high/"
     },
     {
+      "titulo": "Nubank and Mercadopago Suspend Crypto Withdrawals in Latam",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/exchanges/nubank-and-mercadopago-suspend-crypto-withdrawals-in-latam/"
+    },
+    {
       "titulo": "US sanctions Canadian money-exchange firms over Iran ties",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/us-sanctions-canadian-money-exchange-firms-over-iran-ties?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Former FBI Agent Pleads Guilty to Stealing $2.47M in Crypto Across 35 Cases",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/security/former-fbi-agent-guilty-stealing-2-47m-crypto-35-cases/"
-    },
-    {
-      "titulo": "Binance Pulls Kevin O’Leary, Michael Lewis Into $1.76B FTX Clawback Lawsuit",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/regulation-and-legal/binance-pulls-kevin-oleary-michael-lewis-1-76b-ftx-clawback-lawsuit/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 5862,
+    "input_tokens": 6331,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 583,
+    "output_tokens": 651,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
