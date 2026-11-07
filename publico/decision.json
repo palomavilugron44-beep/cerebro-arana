@@ -3,27 +3,27 @@
   "monedas": {
     "BNBUSDT": {
       "modo": "pausa",
-      "motivo": "Binance sufrió un hackeo de 6.300 M$ el 29-oct (18.270 BTC drenados); riesgo de seguridad directo sobre el exchange y su token nativo, con dudas abiertas sobre sus hot wallets.",
+      "motivo": "Hackeo de 6.300 M$ de Binance (29 oct) con fondos aún sin recuperar y preguntas abiertas sobre sus hot wallets; riesgo grave y concreto sobre el exchange y su token.",
       "multiplicador_riesgo": 0.0
     }
   },
-  "resumen": "El mercado está en miedo extremo (índice 25) con la capitalización total cayendo -3,04% en 24 h y el BTC con salidas netas de ETFs (-411,9 M$ el 6 de noviembre). Pesan además el hackeo masivo de Binance, las sanciones de EE. UU. contra MEXC y la falta de datos macro de alto impacto en las próximas 24 h. Se elige cautela global, y pausa solo para BNB por el riesgo de seguridad directo sobre su exchange emisor.",
+  "resumen": "El mercado está en miedo extremo (índice 25) con la capitalización total cayendo un -2.96% en 24 h y todas las monedas en negativo a 7 días. Las noticias más graves son el hackeo de Binance de 6.300 M$ del 29 de octubre (con atacantes que siguen acumulando BTC), que justifica pausar BNB por el riesgo sobre el exchange, y la retirada de cripto de Nubank y Mercadopago. Sin eventos macro de alto impacto en 24 h, el resto del mercado no muestra una caída brusca, así que el modo global queda en cautela por miedo extremo y volatilidad.",
   "motivos": [
-    "Índice Miedo/Codicia en 25 (Extreme Fear) y caída de la capitalización total de -3,04% en 24 h, con salidas netas de ETFs de BTC y ETH.",
-    "Hackeo de Binance del 29-oct por ~6.300 M$ (18.270 BTC); siguen las dudas sobre sus hot wallets y el atacante está convirtiendo fondos a BTC.",
-    "BNB: riesgo de seguridad directo sobre el exchange emisor del token, por lo que se pausan compras nuevas.",
-    "Sanciones del Tesoro de EE. UU. contra MEXC y empresas canadienses, y retiradas de cripto en Nubank/Mercadopago: incertidumbre elevada pero no un riesgo grave en curso.",
-    "No hay eventos macro de alto impacto USD en las próximas 24 h, por lo que no se justifica pausa global; el stop de la estrategia gestiona el ruido."
+    "Índice Miedo/Codicia en 25 (Extreme Fear) y capitalización total -2.96% en 24 h: incertidumbre elevada.",
+    "Hackeo de Binance de 6.300 M$ (29 oct) con fondos no recuperados y dudas sobre sus hot wallets: riesgo grave sobre BNB.",
+    "Suspensión de retiradas cripto en Nubank y Mercadopago y notas de cierre de cuentas de Binance en Europa: riesgo reputacional, no grave para el resto.",
+    "Sin eventos macro de alto impacto en las próximas 24 h; el dato de empleo ya se publicó.",
+    "Todas las monedas en negativo a 7 días, sin caída brusca intradía que justifique pausa general."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-07T21:35:47+00:00",
-  "valido_hasta": "2026-11-08T00:35:47+00:00",
+  "generado": "2026-11-07T22:36:57+00:00",
+  "valido_hasta": "2026-11-08T01:36:57+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 25,
-    "cambio_mercado_24h": -3.04,
+    "cambio_mercado_24h": -2.96,
     "noticias_analizadas": 27,
     "articulos_leidos": 8,
     "fuentes": {
@@ -40,11 +40,6 @@
       "titulo": "Binance Hack Takes Another Twist as Hackers Amass 2,300 More Bitcoin",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/featured/binance-hack-takes-another-twist-as-hackers-amass-2300-more-bitcoin/"
-    },
-    {
-      "titulo": "XRP ETFs Go a Whole Week Without a Single Dollar of Inflows",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/crypto-news/xrp-etfs-week-without-inflows/"
     },
     {
       "titulo": "White House Reviews SEC Crypto Rules After Democratic Midterm Victory",
@@ -65,17 +60,22 @@
       "titulo": "Ether ETFs Face Another $99.9M Outflow as Demand Stays Uneven",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/news/ethereum/ether-etfs-face-another-99-9m-outflow-as-demand-stays-uneven/"
+    },
+    {
+      "titulo": "Bitcoin Mining Difficulty Has Never Stayed Below Its Peak for This Long",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/featured/bitcoin-mining-difficulty-longest-below-all-time-high/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7908,
+    "input_tokens": 7786,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 744,
+    "output_tokens": 713,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
