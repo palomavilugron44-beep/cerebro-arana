@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 25) con la capitalización total cayendo un -2.69% en 24 h y salidas netas de los ETFs de BTC (-411.9 M$) y ETH. No hay eventos macro de alto impacto en 24 h ni una caída brusca de -7% que justifique pausa. Por incertidumbre elevada se recomienda cautela general para compras nuevas.",
+  "resumen": "El miedo extremo (índice 25) y la caída de la capitalización total del -2.66% en 24 h, junto con salidas netas de los ETF de BTC (-411.9 M$ el 6 de noviembre) y de ETH, indican un entorno de incertidumbre elevada. No hay eventos macro de alto impacto en 24 h ni una caída brusca de -7% que justifique pausa. Por ello se recomienda cautela global, sin medidas adicionales por moneda.",
   "motivos": [
-    "Índice Miedo/Codicia en 25 (Extreme Fear) y oscilando entre 25 y 50 en la última semana.",
-    "Capitalización total -2.69% en 24 h, con salidas netas de ETFs spot de BTC (-411.9 M$ el 6 nov.) y de ETH (-99.9 M$ el 5 nov.).",
-    "Noticias negativas relevantes pero no graves: sanciones del Tesoro de EE. UU. a casas de cambio canadienses y medidas contra MEXC; suspensión de retiros cripto de Nubank y Mercadopago atribuida a un proveedor de datos externo (sin confirmar hack).",
-    "Sin eventos macro USD de alto impacto en las próximas 24 h y sin exploit confirmado ni halt o depeg de ninguna moneda, por lo que no se justifica pausa."
+    "Índice Miedo/Codicia en 25 (Extreme Fear), con los últimos 7 días entre 25 y 50.",
+    "Capitalización total cripto -2.66% en 24 h y salidas netas de ETF spot de BTC (-411.9 M$) y ETH (-99.9 M$).",
+    "Suspensión de retiros cripto en Nubank y Mercadopago por inestabilidad de un proveedor de datos externo, sin confirmación de hackeo.",
+    "Sanciones del Tesoro de EE. UU. a casas de cambio canadienses y medidas contra MEXC: noticias negativas relevantes pero no graves para las monedas operadas.",
+    "No hay eventos económicos USD de alto impacto en las próximas 24 h, y la caída del mercado no alcanza el umbral de pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-07T14:40:09+00:00",
-  "valido_hasta": "2026-11-07T17:40:09+00:00",
+  "generado": "2026-11-07T15:36:13+00:00",
+  "valido_hasta": "2026-11-07T18:36:13+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 25,
-    "cambio_mercado_24h": -2.69,
-    "noticias_analizadas": 18,
+    "cambio_mercado_24h": -2.66,
+    "noticias_analizadas": 19,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -33,6 +34,11 @@
       "titulo": "XRP ETFs Go a Whole Week Without a Single Dollar of Inflows",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/crypto-news/xrp-etfs-week-without-inflows/"
+    },
+    {
+      "titulo": "White House Reviews SEC Crypto Rules After Democratic Midterm Victory",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/regulation-and-legal/white-house-reviews-sec-crypto-rules-after-democratic-midterm-victory/"
     },
     {
       "titulo": "Here’s what happened in crypto today",
@@ -53,22 +59,17 @@
       "titulo": "Bitcoin Mining Difficulty Has Never Stayed Below Its Peak for This Long",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/featured/bitcoin-mining-difficulty-longest-below-all-time-high/"
-    },
-    {
-      "titulo": "Nubank and Mercadopago Suspend Crypto Withdrawals in Latam",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/exchanges/nubank-and-mercadopago-suspend-crypto-withdrawals-in-latam/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6745,
+    "input_tokens": 6843,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 562,
+    "output_tokens": 569,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
