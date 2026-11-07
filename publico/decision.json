@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 25) con la capitalización total cayendo -2.85% en 24 h y fuertes salidas de ETFs de BTC (-411.9 M$ el 6 de noviembre) y ETH. Hay un riesgo de seguridad relevante (hackeo de Binance por 6.300 M$ con fondos aún en movimiento), pero los datos no muestran una caída brusca del mercado de -7% ni una anomalía en las monedas operadas, así que no justifica pausa. Se opta por cautela global por la incertidumbre elevada.",
+  "resumen": "El miedo extremo (índice 25) y la caída de la capitalización total del -3.03% en 24 h, junto con salidas de los ETF de BTC (-411.9 M$ el 6 de noviembre) y de ETH, configuran un entorno de incertidumbre elevada. El hackeo de Binance (6.300 M$) sigue generando noticias, y la corrección en acciones de IA añade presión macro, aunque no hay un evento macro de alto impacto en las próximas 24 h. Por ello se recomienda cautela general, sin pausa, porque no se detecta un riesgo grave e inmediato sobre una moneda concreta.",
   "motivos": [
-    "Índice Miedo/Codicia en 25 (Extreme Fear) y capitalización total -2.85% en 24 h: incertidumbre elevada.",
-    "Salidas netas de ETFs spot: BTC -411.9 M$ el 6 de nov. (IBIT -403 M$) y ETH con salidas repetidas.",
-    "Hackeo de Binance (~6.300 M$, 18.270 BTC) con fondos todavía en movimiento; riesgo de seguridad relevante pero sin señales de impacto anómalo en los precios de las monedas operadas.",
-    "Sin eventos macro USD de alto impacto en las próximas 24 h y ninguna moneda en halt, depeg o delist; no se justifica pausa."
+    "Índice Miedo/Codicia en 25 (Extreme Fear), con valores de 25 a 50 en los últimos 7 días.",
+    "Capitalización total en -3.03% en 24 h y salidas netas de ETF de BTC (-411.9 M$) y de ETH (-99.9 M$) en los últimos días.",
+    "Hackeo de Binance de 6.300 M$ todavía en curso en las noticias, con dudas sobre sus hot wallets; riesgo reputacional para el exchange, no una situación anómala de las monedas operadas.",
+    "Corrección fuerte en acciones de IA y mercados asiáticos, que aumenta la volatilidad macro.",
+    "Sin eventos macro USD de alto impacto en 24 h y sin halt, depeg ni delist de las monedas operadas, por lo que no procede pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-07T16:38:01+00:00",
-  "valido_hasta": "2026-11-07T19:38:01+00:00",
+  "generado": "2026-11-07T17:34:01+00:00",
+  "valido_hasta": "2026-11-07T20:34:01+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 25,
-    "cambio_mercado_24h": -2.85,
-    "noticias_analizadas": 22,
+    "cambio_mercado_24h": -3.03,
+    "noticias_analizadas": 24,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -61,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7292,
+    "input_tokens": 7501,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 575,
+    "output_tokens": 631,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
