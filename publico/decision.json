@@ -1,24 +1,30 @@
 {
   "modo": "cautela",
-  "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 25) con la capitalización total -2.69% en 24 h y flujos negativos en los ETF de BTC y ETH. Existe un hackeo de Binance de 6.300 M$ (octubre) con noticias de seguimiento, pero no hay una caída brusca en curso ni un dato macro de alto impacto en las próximas horas, por lo que no justifica pausa. Se recomienda cautela general para reducir el tamaño de las compras nuevas.",
+  "monedas": {
+    "BNBUSDT": {
+      "modo": "pausa",
+      "motivo": "Binance sufrió un hackeo de 6.300 M$ el 29-oct; BNB es el token del exchange afectado y hay dudas sobre sus salvaguardas de hot wallet.",
+      "multiplicador_riesgo": 0.0
+    }
+  },
+  "resumen": "El mercado está en miedo extremo (índice 25) con la capitalización total cayendo un 2.77% en 24 h y salidas netas de ETF de Bitcoin (-411.9 M$ el 6 de noviembre) y de Ether. Pesan el hackeo de Binance de 6.300 M$, las sanciones de EE. UU. contra MEXC y la retirada de Binance en Europa, por lo que se opta por cautela global. Para BNB, dado el riesgo de seguridad del exchange emisor, se pausan las compras nuevas.",
   "motivos": [
-    "Miedo extremo (índice 25) y varios días seguidos de miedo, con volatilidad elevada.",
-    "Capitalización total -2.69% en 24 h; no alcanza el umbral de -7% para pausa.",
-    "Salidas netas en ETF de BTC (-411.9 M$ el 6 de noviembre) y ETF de ETH (-99.9 M$ el 5 de noviembre), demanda institucional débil.",
-    "Hackeo de Binance (6.300 M$, octubre) y sanciones de EE. UU. a MEXC: noticias negativas relevantes pero no un evento que obligue a pausar.",
-    "Sin eventos macro USD de alto impacto en 24 h; BTC, ETH y BNB casi planos en 24 h, sin caída brusca en curso."
+    "Índice Miedo/Codicia en 25 (Extreme Fear) y capitalización total -2.77% en 24 h: volatilidad e incertidumbre elevadas.",
+    "Salidas netas de ETF de Bitcoin (-411.9 M$ el 6-nov) y de Ether (-99.9 M$ el 5-nov): demanda institucional débil.",
+    "Hackeo de Binance por 6.300 M$ (29-oct) con dudas sobre sus salvaguardas; riesgo de seguridad relevante para BNB.",
+    "Sanciones del Tesoro de EE. UU. contra MEXC y cierre de cuentas de Binance en Europa: noticias negativas relevantes pero no de impacto sistémico inmediato.",
+    "Sin eventos macro de alto impacto en 24 h; no se detecta depeg, halt ni delist en las monedas operadas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-07T18:40:19+00:00",
-  "valido_hasta": "2026-11-07T21:40:19+00:00",
+  "generado": "2026-11-07T19:40:09+00:00",
+  "valido_hasta": "2026-11-07T22:40:09+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 25,
-    "cambio_mercado_24h": -2.69,
-    "noticias_analizadas": 27,
+    "cambio_mercado_24h": -2.77,
+    "noticias_analizadas": 28,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +68,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7868,
+    "input_tokens": 7951,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 566,
+    "output_tokens": 709,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
