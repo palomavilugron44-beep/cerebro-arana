@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 25) y la capitalización total cae un 2.67% en 24 h, con BTC perdiendo el soporte de 75.000 USD tras un dato de empleo que sube las apuestas de una subida de tipos en diciembre. Hay un hackeo muy grave en Binance (unos 6.300 millones de USD), pero los datos no muestran una caída brusca en curso ni una situación anómala de las monedas operadas, y no hay eventos macro de alto impacto en 24 h. Por ello se elige cautela general (no pausa), ya que la incertidumbre es elevada.",
+  "resumen": "El mercado está en miedo extremo (índice 25) y la capitalización total cae un 2.42% en 24 h, con BTC perdiendo el soporte de 75K tras datos de empleo más fuertes de lo esperado que aumentan las apuestas de una subida de tipos en diciembre. Las salidas de ETFs de BTC suman 869.8 millones en la semana. Pesan además el hackeo de 6.3 mil millones a Binance y la orden del Tesoro de EE. UU. contra MEXC, pero no hay evento macro de alto impacto en 24 h ni una caída grave en curso, por lo que se elige cautela general.",
   "motivos": [
-    "Índice Miedo/Codicia en 25 (miedo extremo), con salidas netas de ETFs de BTC de 430 M USD en la jornada y 870 M en la semana.",
-    "Caída de capitalización total de -2.67% en 24 h; BTC bajo 75.000 USD tras un dato de empleo que aumenta la probabilidad de subida de tipos en diciembre.",
-    "Hackeo de Binance por unos 6.300 M USD: riesgo reputacional y de seguridad relevante, pero sin señales de halt, depeg o caída brusca del mercado que justifiquen pausa.",
-    "Sanción del Tesoro de EE. UU. contra MEXC: noticia negativa relevante pero no grave para las monedas operadas.",
-    "Sin eventos macro de alto impacto en las próximas 24 h; la estrategia mantiene su propio stop a 3 ATR."
+    "Miedo extremo (índice 25) con capitalización total -2.42% en 24 h y BTC por debajo de 75K en mínimos de varias semanas.",
+    "Salidas netas de ETFs de BTC de 869.8 millones en la semana, con Fidelity y BlackRock liderando.",
+    "Hackeo de aproximadamente 6.3 mil millones de dólares a Binance, que genera incertidumbre sobre seguridad del exchange.",
+    "Orden del Tesoro de EE. UU. contra MEXC y datos de empleo que elevan la probabilidad de subida de tipos en diciembre; riesgo relevante pero no grave ni inmediato.",
+    "No hay eventos macro de alto impacto en las próximas 24 h, y el bot tiene stop propio, por lo que no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-07T04:50:19+00:00",
-  "valido_hasta": "2026-11-07T07:50:19+00:00",
+  "generado": "2026-11-07T05:46:09+00:00",
+  "valido_hasta": "2026-11-07T08:46:09+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 25,
-    "cambio_mercado_24h": -2.67,
-    "noticias_analizadas": 26,
+    "cambio_mercado_24h": -2.42,
+    "noticias_analizadas": 24,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -34,11 +34,6 @@
       "titulo": "Bitcoin ETFs Bleed $430 Million as Tech Rout Tests Wall Street Buyers",
       "fuente": "Decrypt",
       "link": "https://decrypt.co/382733/bitcoin-etfs-bleed-430-million-tech-rout-tests-wall-street"
-    },
-    {
-      "titulo": "Stolen Binance Bitcoin, XRP on the Move as $3.1B Remains Unlaundered: Elliptic",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/crypto-news/stolen-binance-bitcoin-xrp-3-1b-remains-unlaundered-elliptic/"
     },
     {
       "titulo": "Why a Hyperliquid Treasury Firm Wants to Become a US Futures Broker",
@@ -59,17 +54,22 @@
       "titulo": "Russia finalizes crypto trading rules ahead of Nov. 17 rollout",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/russia-finalizes-crypto-trading-rules-november-rollout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Bitcoin price dips under $75K as crypto markets miss tech-stock rebound",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/bitcoin-price-under-75k-crypto-markets-tech-stock?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7972,
+    "input_tokens": 7729,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 642,
+    "output_tokens": 626,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
