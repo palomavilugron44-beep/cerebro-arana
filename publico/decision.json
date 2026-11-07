@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El índice Miedo/Codicia está en 25 (Extreme Fear) y la capitalización total cae un 2.22% en 24 h, con precios planos o ligeramente al alza en las monedas del bot. El hackeo de Binance (unos 6.300 M$) es un hecho muy grave para el exchange, pero no hay un colapso del mercado en curso ni un evento macro de alto impacto en las próximas 24 h, así que no justifica una pausa general. Se recomienda cautela (mitad de tamaño) mientras el miedo extremo persista.",
+  "resumen": "El índice Miedo/Codicia está en 25 (miedo extremo) y la capitalización total cae un 2.16% en 24 h, sin eventos macro de alto impacto previstos en 24 h. Las noticias dominantes (hackeo de Binance por 6.3 mil millones, sanciones del Tesoro a MEXC) son graves para el sector, pero no hay una caída brusca confirmada ni un problema que afecte directamente a las monedas operadas, por lo que se opta por cautela global y no por pausa. Las monedas no muestran situaciones anómalas (sin halt, depeg ni delist).",
   "motivos": [
-    "Miedo extremo (índice 25) con capitalización total en -2.22% en 24 h.",
-    "Hackeo de Binance por 6.300 M$ y dudas sobre la seguridad de sus carteras calientes; riesgo reputacional y de liquidez relevante pero sin caída de precios generalizada ni evento de seguridad que afecte a las monedas operadas.",
-    "Sanción del Tesoro de EE. UU. contra MEXC (exchange no operado por el bot), que genera incertidumbre regulatoria sin afectar directamente a las 10 monedas.",
-    "Sin eventos macro de alto impacto USD en las próximas 24 h; el resto de noticias (fiscalidad en Grecia, CFTC, litigios FTX) no son graves para el riesgo de estas monedas.",
-    "Las monedas muestran caídas semanales moderadas (XRP -6.6%, SOL -5.7%) pero sin movimientos bruscos en 24 h, por lo que no se aplican restricciones por moneda."
+    "Índice Miedo/Codicia en 25 (miedo extremo) con volatilidad y sentimiento negativo en la última semana.",
+    "Capitalización total -2.16% en 24 h, sin llegar al umbral de -7% que justificaría pausa.",
+    "Hackeo de Binance (~6.3 mil millones USD) y sanciones del Tesoro de EE. UU. a MEXC: riesgo reputacional relevante para el ecosistema, pero sin afectar de forma concreta a las monedas operadas.",
+    "Sin eventos macro de alto impacto en las próximas 24 h; el resto de noticias son regulatorias o de tono no inmediato.",
+    "Ninguna moneda muestra anomalía (halt, depeg o delist); el movimiento 24 h de todas está entre -0.83% y +1.29%."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-07T06:52:59+00:00",
-  "valido_hasta": "2026-11-07T09:52:59+00:00",
+  "generado": "2026-11-07T07:57:35+00:00",
+  "valido_hasta": "2026-11-07T10:57:35+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 25,
-    "cambio_mercado_24h": -2.22,
-    "noticias_analizadas": 19,
+    "cambio_mercado_24h": -2.16,
+    "noticias_analizadas": 17,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -30,11 +30,6 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
-    {
-      "titulo": "Why a Hyperliquid Treasury Firm Wants to Become a US Futures Broker",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/382754/why-hyperliquid-treasury-wants-us-futures-broker"
-    },
     {
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
@@ -51,6 +46,11 @@
       "link": "https://news.bitcoin.com/igaming/cftc-tells-prediction-markets-drop-state-geoblocks-within-30-days/"
     },
     {
+      "titulo": "Former FBI Agent Pleads Guilty to Stealing $2.47M in Crypto Across 35 Cases",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/security/former-fbi-agent-guilty-stealing-2-47m-crypto-35-cases/"
+    },
+    {
       "titulo": "Binance Pulls Kevin O’Leary, Michael Lewis Into $1.76B FTX Clawback Lawsuit",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/regulation-and-legal/binance-pulls-kevin-oleary-michael-lewis-1-76b-ftx-clawback-lawsuit/"
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6968,
+    "input_tokens": 6648,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 665,
+    "output_tokens": 618,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
