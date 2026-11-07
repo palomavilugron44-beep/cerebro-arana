@@ -1,25 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El miedo extremo (índice 25) y la capitalización total en -2.8% en 24 h, junto con salidas de los ETF spot de BTC (-411.9 M$ el 6 de noviembre) y ETH, indican un entorno de incertidumbre elevada, aunque no hay una caída brusca de -7% ni un evento macro de alto impacto en las próximas 24 h. Las noticias de suspensión de retiros cripto en Nubank y Mercadopago se atribuyen a un proveedor de datos externo, sin confirmar hackeo, por lo que no justifican una pausa. Se opta por cautela global, con el bot operando a la mitad del tamaño.",
+  "resumen": "El mercado está en miedo extremo (índice 25) con la capitalización total cayendo un -2.69% en 24 h y salidas netas de los ETFs de BTC (-411.9 M$) y ETH. No hay eventos macro de alto impacto en 24 h ni una caída brusca de -7% que justifique pausa. Por incertidumbre elevada se recomienda cautela general para compras nuevas.",
   "motivos": [
-    "Índice Miedo/Codicia en 25 (Extreme Fear), con valores de 7 días entre 25 y 50.",
-    "Capitalización total -2.8% en 24 h, por debajo del umbral de -7% que justificaría pausa.",
-    "Salidas netas de ETF spot de Bitcoin (-411.9 M$ el 6 nov) y de Ether (-99.9 M$ el 5 nov), con demanda institucional débil.",
-    "XRP ETF sin entradas netas durante la semana; XRP -6.99% en 7 días.",
-    "Suspensión de retiros cripto en Nubank y Mercadopago atribuida a inestabilidad de un proveedor de datos; sin confirmación de hackeo, riesgo no grave.",
-    "Sin eventos macro de alto impacto USD en las próximas 24 h, por lo que no se requiere pausa."
+    "Índice Miedo/Codicia en 25 (Extreme Fear) y oscilando entre 25 y 50 en la última semana.",
+    "Capitalización total -2.69% en 24 h, con salidas netas de ETFs spot de BTC (-411.9 M$ el 6 nov.) y de ETH (-99.9 M$ el 5 nov.).",
+    "Noticias negativas relevantes pero no graves: sanciones del Tesoro de EE. UU. a casas de cambio canadienses y medidas contra MEXC; suspensión de retiros cripto de Nubank y Mercadopago atribuida a un proveedor de datos externo (sin confirmar hack).",
+    "Sin eventos macro USD de alto impacto en las próximas 24 h y sin exploit confirmado ni halt o depeg de ninguna moneda, por lo que no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-07T13:49:38+00:00",
-  "valido_hasta": "2026-11-07T16:49:38+00:00",
+  "generado": "2026-11-07T14:40:09+00:00",
+  "valido_hasta": "2026-11-07T17:40:09+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 25,
-    "cambio_mercado_24h": -2.8,
-    "noticias_analizadas": 14,
+    "cambio_mercado_24h": -2.69,
+    "noticias_analizadas": 18,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -35,6 +33,11 @@
       "titulo": "XRP ETFs Go a Whole Week Without a Single Dollar of Inflows",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/crypto-news/xrp-etfs-week-without-inflows/"
+    },
+    {
+      "titulo": "Here’s what happened in crypto today",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "titulo": "Ether ETFs Face Another $99.9M Outflow as Demand Stays Uneven",
@@ -55,22 +58,17 @@
       "titulo": "Nubank and Mercadopago Suspend Crypto Withdrawals in Latam",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/exchanges/nubank-and-mercadopago-suspend-crypto-withdrawals-in-latam/"
-    },
-    {
-      "titulo": "US sanctions Canadian money-exchange firms over Iran ties",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/us-sanctions-canadian-money-exchange-firms-over-iran-ties?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6331,
+    "input_tokens": 6745,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 651,
+    "output_tokens": 562,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
