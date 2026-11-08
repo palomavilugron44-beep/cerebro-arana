@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El índice Miedo/Codicia está en 28 (miedo) y la capitalización total cae un 2.93% en 24 h, con todas las monedas en negativo en 7 días. No hay eventos macro de alto impacto en las próximas 24 h, pero el mercado está débil y el sentimiento es de miedo, así que conviene operar con la mitad del tamaño. Las noticias de hackeo (fondos del exploit de Binance convertidos a BTC) y la caída general son relevantes pero no constituyen un riesgo grave e inmediato que justifique pausa.",
+  "resumen": "El índice Miedo/Codicia está en 28 (miedo) y la capitalización total cae un 2.74% en 24 h, con todas las monedas en negativo en 7 días, aunque sin caídas bruscas ni eventos macro de alto impacto en las próximas 24 h. Hay noticias relevantes pero no graves: un rastreo de fondos robados en el hackeo de Binance de octubre (unos 124 M$ convertidos a BTC, incluidos fondos en XRP y SOL) y un hackeo de datos en Gnosis Pay y Chainalysis. Dado el miedo elevado y la volatilidad moderada, se recomienda cautela general sin pausar el bot.",
   "motivos": [
-    "Miedo en el mercado (índice 28) con caída de capitalización total de -2.93% en 24 h.",
-    "Todas las monedas vigiladas en negativo a 7 días (entre -1.2% y -7.4%), indicando debilidad generalizada.",
-    "Noticias de blanqueo de fondos del hackeo de Binance de octubre, relevantes pero sin impacto directo confirmado en precios ni en las monedas operadas.",
-    "Sin eventos económicos USD de alto impacto en las próximas 24 h, por lo que no se justifica pausa."
+    "Índice Miedo/Codicia en 28 (miedo), con tendencia reciente de miedo sostenido",
+    "Capitalización total -2.74% en 24 h y todas las monedas del universo con caídas de entre -6% y -9% en 7 días",
+    "Rastreo de ~124 M$ robados en el hackeo de Binance de octubre convertidos a BTC, incluidos fondos en XRP y SOL: noticia negativa relevante pero no con impacto directo confirmado en precios",
+    "Brechas de datos en Gnosis Pay y Chainalysis: riesgo operativo/reputacional, sin evidencia de afectar a las monedas operadas",
+    "Sin eventos macro de alto impacto en 24 h; no se justifica pausa"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-08T06:54:26+00:00",
-  "valido_hasta": "2026-11-08T09:54:26+00:00",
+  "generado": "2026-11-08T07:58:17+00:00",
+  "valido_hasta": "2026-11-08T10:58:17+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -2.93,
-    "noticias_analizadas": 21,
+    "cambio_mercado_24h": -2.74,
+    "noticias_analizadas": 20,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -40,11 +41,6 @@
       "link": "https://www.newsbtc.com/news/solana/solana-labs-backed-leap-launches-beta-app-for-tokenized-stocks-and-crypto/"
     },
     {
-      "titulo": "US Adds 165,000 Jobs in October: Why Bitcoin Traders Are Watching the Fed",
-      "fuente": "NewsBTC",
-      "link": "https://www.newsbtc.com/news/bitcoin/us-adds-165-000-jobs-in-october-why-bitcoin-traders-are-watching-the-fed/"
-    },
-    {
       "titulo": "EU, Asia, or the US: Who Will Win the Regulatory Race for Crypto Business?",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/regulation-and-legal/eu-asia-or-the-us-who-will-win-the-regulatory-race-for-crypto-business/"
@@ -58,17 +54,22 @@
       "titulo": "Meta and Palantir Reject OKXICE Stock Tokenization Listings",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/finance/meta-and-palantir-reject-okxice-stock-tokenization-listings/"
+    },
+    {
+      "titulo": "Galaxy Flags New Risks for Crypto as Democrats Take Both Chambers",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/regulation-and-legal/galaxy-flags-new-risks-for-crypto-as-democrats-take-both-chambers/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7153,
+    "input_tokens": 7059,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 513,
+    "output_tokens": 619,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
