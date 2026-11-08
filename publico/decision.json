@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El miedo/codicia está en 28 (miedo) y la capitalización total cae un 3.66% en 24 h, con una semana volátil tras las elecciones de EE. UU. y una venta global de tecnológicas. Hay noticias negativas relevantes (sanciones de FinCEN contra MEXC, cese de Binance France y las secuelas del hackeo de Binance de 6.300 M$), pero no son un colapso del mercado ni un riesgo grave e inmediato para una moneda concreta. Por ello se elige cautela general, sin pausa ni alerta de posiciones.",
+  "resumen": "El mercado cripto cayó un 5.51% en 24 h y el índice Miedo/Codicia está en 28 (miedo), con todas las monedas vigentes en negativo en 24 h y entre -4% y -11% en 7 días. Hay noticias negativas relevantes (hackeo de Binance de octubre por 6.300 M$ con retiradas restauradas gradualmente, sanciones de FinCEN contra MEXC, exploits en Keplr y LNbits), pero no hay evento macro de alto impacto en 24 h ni una situación anómala en las monedas operadas. Se opta por cautela global, sin pausa, porque el riesgo es elevado pero no inmediato ni grave para las monedas del bot.",
   "motivos": [
-    "Índice Miedo/Codicia en 28 (miedo) con mercado a la baja: capitalización total -3.66% en 24 h.",
-    "Noticias negativas relevantes: FinCEN corta a MEXC del sistema financiero de EE. UU. y cierre de Binance France el 31 de diciembre.",
-    "Secuelas del hackeo de Binance (6.300 M$) y un exploit en Web3Auth/Keplr y LNbits, sin afectar de forma directa a las monedas operadas.",
-    "No hay eventos macro de alto impacto en las próximas 24 h y los precios de las 10 monedas se mantienen relativamente estables en 24 h, por lo que no se justifica pausa."
+    "Caída de capitalización total de -5.51% en 24 h con miedo extremo (índice 28) y todas las monedas en negativo.",
+    "Noticias negativas relevantes: restauración gradual de retiradas tras el hackeo de Binance de 6.300 M$, congelación de 1.100 M$ en USDC y sanciones de FinCEN contra MEXC.",
+    "Exploits recientes en Keplr (6 M$) y LNbits, sin afectar directamente a las monedas operadas por el bot.",
+    "Sin eventos macro de alto impacto en las próximas 24 h, por lo que no se justifica pausa.",
+    "Ninguna moneda muestra situación anómala (halt, depeg o delist), así que no se aplica modo pausa por moneda."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-08T21:35:19+00:00",
-  "valido_hasta": "2026-11-09T00:35:19+00:00",
+  "generado": "2026-11-08T22:37:43+00:00",
+  "valido_hasta": "2026-11-09T01:37:43+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -3.66,
+    "cambio_mercado_24h": -5.51,
     "noticias_analizadas": 17,
-    "articulos_leidos": 7,
+    "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
@@ -35,6 +36,16 @@
       "link": "https://news.bitcoin.com/market-updates/weekly-report-crypto-market-erases-100b-rally-as-bitcoin-xrp-prices-slide/"
     },
     {
+      "titulo": "Binance Restores HYPE, APT as Data Reveals Billions in Reserve Outflows",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/crypto-news/binance-restores-hype-apt-as-data-reveals-billions-in-reserve-outflows/"
+    },
+    {
+      "titulo": "Circle Says It Froze $1.1B in USDC Linked to Binance Hack Investigation",
+      "fuente": "NewsBTC",
+      "link": "https://www.newsbtc.com/security/circle-says-it-froze-1-1b-in-usdc-linked-to-binance-hack-investigation/"
+    },
+    {
       "titulo": "OKX Freezes MEXC User Deposits Following Strict FinCEN Order",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/exchanges/okx-freezes-mexc-user-deposits-following-strict-fincen-order/"
@@ -48,27 +59,17 @@
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "CZ Issues AI Warning Following Binance Hack, STRC Repegs, And More – Weekly Recap",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/featured/cz-issues-ai-warning-following-binance-hack-strc-repegs-and-more-weekly-recap/"
-    },
-    {
-      "titulo": "Keplr Wallet Breach Triggers $6 Million in Transfers Across Cosmos",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/security/keplr-wallet-breach-triggers-6-million-in-transfers-across-cosmos/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6264,
+    "input_tokens": 6580,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 568,
+    "output_tokens": 633,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
