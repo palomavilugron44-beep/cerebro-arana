@@ -1,23 +1,22 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 28) con la capitalización total cayendo un 3.16% en 24 h y BTC en torno a 75.6k USD, con tendencia bajista semanal en casi todas las monedas. El principal riesgo es el hackeo de Binance del 29 de octubre (18.270 BTC sustraídos según las noticias), que es grave para el exchange, pero no hay un evento de liquidaciones en curso ni un dato macro de alto impacto en las próximas 24 h. Se elige cautela general para reducir el tamaño de las compras nuevas, sin pausar, ya que la estrategia tiene su propio stop.",
+  "resumen": "El mercado está en miedo (índice 28) con la capitalización total cayendo -2.87% en 24 h y varias altcoins con caídas semanales de entre -4% y -8%. Además, el hackeo de Binance del 29 de octubre (18.270 BTC sustraídos, según las noticias) sigue generando noticias, y la brecha de Gnosis Pay y las medidas de Treasury contra MEXC añaden incertidumbre; no hay evento macro de alto impacto en 24 h, así que no se justifica pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 28 (miedo) y capitalización total -3.16% en 24 h: volatilidad y sentimiento negativos.",
-    "Hackeo de Binance (18.270 BTC sustraídos) y brecha de datos de Gnosis Pay: riesgo reputacional y de seguridad relevante, pero sin evidencia de impacto directo en los precios ni en las monedas operadas.",
-    "Binance cerrará cuentas en algunos países europeos y el Tesoro de EE. UU. actúa contra MEXC: noticias negativas relevantes pero no graves para las monedas del bot.",
-    "Sin eventos macro de alto impacto en 24 h; el dato de empleo ya fue publicado el 6 de noviembre.",
-    "Ninguna moneda muestra situación anómala (halt, depeg o delist); las caídas semanales (-4% a -8% en altcoins) no justifican una pausa individual."
+    "Índice Miedo/Codicia en 28 (Miedo) con tendencia bajista en la última semana.",
+    "Capitalización total -2.87% en 24 h; altcoins como XRP, SOL, LINK y LTC caen entre -6% y -8% en 7 días.",
+    "Secuela del hackeo de Binance (6.300 M USD) y nuevas noticias negativas relevantes (brecha de Gnosis Pay, orden del Tesoro de EE.UU. contra MEXC), no graves para las monedas operadas.",
+    "Sin eventos macro de alto impacto en 24 h; no hay riesgo grave e inmediato sobre las monedas del bot ni sobre el exchange que las opera."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-08T02:49:52+00:00",
-  "valido_hasta": "2026-11-08T05:49:52+00:00",
+  "generado": "2026-11-08T03:50:48+00:00",
+  "valido_hasta": "2026-11-08T06:50:48+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -3.16,
+    "cambio_mercado_24h": -2.87,
     "noticias_analizadas": 24,
     "articulos_leidos": 8,
     "fuentes": {
@@ -36,14 +35,14 @@
       "link": "https://news.bitcoin.com/featured/binance-hack-takes-another-twist-as-hackers-amass-2300-more-bitcoin/"
     },
     {
-      "titulo": "White House Reviews SEC Crypto Rules After Democratic Midterm Victory",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/regulation-and-legal/white-house-reviews-sec-crypto-rules-after-democratic-midterm-victory/"
-    },
-    {
       "titulo": "US Adds 165,000 Jobs in October: Why Bitcoin Traders Are Watching the Fed",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/news/bitcoin/us-adds-165-000-jobs-in-october-why-bitcoin-traders-are-watching-the-fed/"
+    },
+    {
+      "titulo": "Galaxy Flags New Risks for Crypto as Democrats Take Both Chambers",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/regulation-and-legal/galaxy-flags-new-risks-for-crypto-as-democrats-take-both-chambers/"
     },
     {
       "titulo": "XRP $0.99 Call Draws Scrutiny as Santiment Tracks Growing Shorts",
@@ -62,14 +61,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7535,
+    "input_tokens": 7510,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 668,
+    "output_tokens": 551,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
