@@ -1,24 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cayó un 5.51% en 24 h y el índice Miedo/Codicia está en 28 (miedo), con todas las monedas vigentes en negativo en 24 h y entre -4% y -11% en 7 días. Hay noticias negativas relevantes (hackeo de Binance de octubre por 6.300 M$ con retiradas restauradas gradualmente, sanciones de FinCEN contra MEXC, exploits en Keplr y LNbits), pero no hay evento macro de alto impacto en 24 h ni una situación anómala en las monedas operadas. Se opta por cautela global, sin pausa, porque el riesgo es elevado pero no inmediato ni grave para las monedas del bot.",
+  "resumen": "El mercado cripto cae un 4.51% en 24 h con miedo (índice 28) y la capitalización ha borrado las ganancias post-electorales, aunque no hay eventos macro de alto impacto en las próximas 24 h. Persisten noticias negativas relevantes (hackeo de 6.300 M$ a Binance en octubre con recuperación gradual, congelación de 1.100 M$ en USDC, sanciones de FinCEN contra MEXC y brecha en Keplr/LNbits), pero no afectan directamente a las monedas operadas ni son un riesgo grave e inmediato. Se opta por cautela global por la volatilidad y la incertidumbre, sin pausa.",
   "motivos": [
-    "Caída de capitalización total de -5.51% en 24 h con miedo extremo (índice 28) y todas las monedas en negativo.",
-    "Noticias negativas relevantes: restauración gradual de retiradas tras el hackeo de Binance de 6.300 M$, congelación de 1.100 M$ en USDC y sanciones de FinCEN contra MEXC.",
-    "Exploits recientes en Keplr (6 M$) y LNbits, sin afectar directamente a las monedas operadas por el bot.",
-    "Sin eventos macro de alto impacto en las próximas 24 h, por lo que no se justifica pausa.",
-    "Ninguna moneda muestra situación anómala (halt, depeg o delist), así que no se aplica modo pausa por moneda."
+    "Capitalización total -4.51% en 24 h y miedo extremo (índice 28), con caídas de 7 días de entre -4% y -11% en las monedas operadas",
+    "Noticias negativas relevantes pero no graves: secuela del hackeo a Binance, sanciones de FinCEN contra MEXC, brechas en Keplr y LNbits",
+    "Sin eventos macro de alto impacto en las próximas 24 h, por lo que no procede pausa",
+    "Las monedas operadas caen en conjunto (-2% a -4% en 24 h), sin anomalías de halt, depeg o delist que justifiquen medidas por moneda"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-08T22:37:43+00:00",
-  "valido_hasta": "2026-11-09T01:37:43+00:00",
+  "generado": "2026-11-08T23:36:07+00:00",
+  "valido_hasta": "2026-11-09T02:36:07+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -5.51,
-    "noticias_analizadas": 17,
+    "cambio_mercado_24h": -4.51,
+    "noticias_analizadas": 19,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +61,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6580,
+    "input_tokens": 6838,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 633,
+    "output_tokens": 583,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
