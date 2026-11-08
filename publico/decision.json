@@ -1,29 +1,24 @@
 {
   "modo": "cautela",
-  "monedas": {
-    "BNBUSDT": {
-      "modo": "pausa",
-      "motivo": "Binance sufrió un hackeo de 6.300 M$ el 29-oct; las noticias de fuga de usuarios y salvaguardas del hot wallet señalan riesgo directo sobre BNB.",
-      "multiplicador_riesgo": 0.0
-    }
-  },
-  "resumen": "El miedo/codicia está en 28 (miedo) y la capitalización total cae un 2.92% en 24 h, con BTC en 75.666 USD y sin eventos macro de alto impacto en 24 h. El hackeo de Binance (6.300 M$, con fondos aún movidos por los atacantes) y las sanciones de EE. UU. contra MEXC aumentan la incertidumbre, sobre todo para BNB. Dado el miedo extremo y el contexto de seguridad, mantengo cautela global y pausa específica en BNB.",
+  "monedas": {},
+  "resumen": "El mercado está en miedo (índice 28) con la capitalización total cayendo un 3.16% en 24 h y BTC en torno a 75.6k USD, con tendencia bajista semanal en casi todas las monedas. El principal riesgo es el hackeo de Binance del 29 de octubre (18.270 BTC sustraídos según las noticias), que es grave para el exchange, pero no hay un evento de liquidaciones en curso ni un dato macro de alto impacto en las próximas 24 h. Se elige cautela general para reducir el tamaño de las compras nuevas, sin pausar, ya que la estrategia tiene su propio stop.",
   "motivos": [
-    "Índice Miedo/Codicia en 28 (miedo) con caída de capitalización total de -2.92% en 24 h.",
-    "Hackeo de Binance de 6.300 M$ (29-oct) con fondos siguiendo movilizados; riesgo de seguridad sobre el exchange y su token BNB.",
-    "Binance cerrará cuentas en algunos países europeos y EE. UU. prepara medidas contra MEXC: noticias negativas relevantes, no graves para el resto del mercado.",
-    "Sin eventos macro USD de alto impacto en las próximas 24 h; la estrategia mantiene su propio stop."
+    "Índice Miedo/Codicia en 28 (miedo) y capitalización total -3.16% en 24 h: volatilidad y sentimiento negativos.",
+    "Hackeo de Binance (18.270 BTC sustraídos) y brecha de datos de Gnosis Pay: riesgo reputacional y de seguridad relevante, pero sin evidencia de impacto directo en los precios ni en las monedas operadas.",
+    "Binance cerrará cuentas en algunos países europeos y el Tesoro de EE. UU. actúa contra MEXC: noticias negativas relevantes pero no graves para las monedas del bot.",
+    "Sin eventos macro de alto impacto en 24 h; el dato de empleo ya fue publicado el 6 de noviembre.",
+    "Ninguna moneda muestra situación anómala (halt, depeg o delist); las caídas semanales (-4% a -8% en altcoins) no justifican una pausa individual."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-08T02:00:16+00:00",
-  "valido_hasta": "2026-11-08T05:00:16+00:00",
+  "generado": "2026-11-08T02:49:52+00:00",
+  "valido_hasta": "2026-11-08T05:49:52+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -2.92,
-    "noticias_analizadas": 26,
+    "cambio_mercado_24h": -3.16,
+    "noticias_analizadas": 24,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -46,14 +41,14 @@
       "link": "https://news.bitcoin.com/regulation-and-legal/white-house-reviews-sec-crypto-rules-after-democratic-midterm-victory/"
     },
     {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
       "titulo": "US Adds 165,000 Jobs in October: Why Bitcoin Traders Are Watching the Fed",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/news/bitcoin/us-adds-165-000-jobs-in-october-why-bitcoin-traders-are-watching-the-fed/"
+    },
+    {
+      "titulo": "XRP $0.99 Call Draws Scrutiny as Santiment Tracks Growing Shorts",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/xrp-0-99-call-draws-scrutiny-as-santiment-tracks-growing-shorts/"
     },
     {
       "titulo": "Nasdaq Lists Canary’s Staked INJ ETF, Adding Another Route to Altcoin Exposure",
@@ -67,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7727,
+    "input_tokens": 7535,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 625,
+    "output_tokens": 668,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
