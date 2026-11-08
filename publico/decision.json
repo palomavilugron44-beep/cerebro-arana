@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El miedo está en 28 (zona de miedo) tras una caída de la capitalización total del -3.31% en 24 h, con las altcoins más castigadas en 7 días (XRP -7.8%, LINK -7.3%, LTC -7.3%). Hay noticias negativas relevantes (hackeo de Binance por 6.300 M$ hace pocos días, cierre de Binance France, sanciones del Tesoro de EE. UU. a MEXC), pero no hay un riesgo grave e inmediato contra una moneda concreta ni evento macro de alto impacto en 24 h. Por ello se elige cautela global, sin pausa ni monedas específicas.",
+  "resumen": "El mercado cripto cayó un 3.79% en 24 h y el índice Miedo/Codicia está en 28 (miedo), en un contexto de venta generalizada ligada a un sell-off de acciones tecnológicas globales. Hay noticias negativas relevantes (sanciones de FinCEN contra MEXC, cierre de Binance France y un hackeo previo de Binance de 6.300 M$), pero no hay un evento grave e inmediato ni una caída de -7% o peor, y no hay datos macro de alto impacto en las próximas 24 h. Por ello se aplica cautela global, sin pausa ni alertas sobre posiciones.",
   "motivos": [
-    "Índice Miedo/Codicia en 28 (miedo) y caída de la capitalización total de -3.31% en 24 h.",
-    "Noticias negativas relevantes pero no graves: hackeo de Binance (6.300 M$) que sigue en el contexto, cierre de Binance France y sanciones del Tesoro de EE. UU. contra cambios vinculados a MEXC.",
-    "Sin eventos macro de alto impacto en 24 h, y sin señales de halt, depeg o delist en las monedas operadas.",
-    "Caídas semanales de las altcoins (-5% a -8%) y volatilidad elevada por la venta de acciones tecnológicas globales."
+    "Miedo extremo en el índice Miedo/Codicia (28) y caída de la capitalización total del -3.79% en 24 h.",
+    "Noticias negativas relevantes pero no graves: sanciones de FinCEN contra MEXC, cierre de Binance France y secuelas del hackeo de Binance.",
+    "Ninguna moneda muestra anomalía (halt, depeg o delist) y la caída es moderada, no un colapso que justifique pausa.",
+    "Sin eventos macro de alto impacto en las próximas 24 h."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-08T16:38:06+00:00",
-  "valido_hasta": "2026-11-08T19:38:06+00:00",
+  "generado": "2026-11-08T17:33:52+00:00",
+  "valido_hasta": "2026-11-08T20:33:52+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -3.31,
-    "noticias_analizadas": 16,
-    "articulos_leidos": 8,
+    "cambio_mercado_24h": -3.79,
+    "noticias_analizadas": 15,
+    "articulos_leidos": 7,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
@@ -33,6 +33,11 @@
       "titulo": "Weekly Report: Crypto Market Erases $100B Rally as Bitcoin, XRP Prices Slide",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/weekly-report-crypto-market-erases-100b-rally-as-bitcoin-xrp-prices-slide/"
+    },
+    {
+      "titulo": "OKX Freezes MEXC User Deposits Following Strict FinCEN Order",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/exchanges/okx-freezes-mexc-user-deposits-following-strict-fincen-order/"
     },
     {
       "titulo": "Saylor Shares $64B Bitcoin Chart, Stirring Strategy Buy Questions",
@@ -53,22 +58,17 @@
       "titulo": "Solana Labs-Backed Leap Launches Beta App for Tokenized Stocks and Crypto",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/news/solana/solana-labs-backed-leap-launches-beta-app-for-tokenized-stocks-and-crypto/"
-    },
-    {
-      "titulo": "Binance France emails announce closure of its users’ accounts on Dec. 31",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/binance-france-emails-announce-closure-of-its-users-accounts-on-dec-31?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6427,
+    "input_tokens": 6068,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 582,
+    "output_tokens": 533,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
