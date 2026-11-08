@@ -2,9 +2,7 @@
   "ultimo_resumen": "2026-11-07",
   "huella": {
     "modo": "cautela",
-    "monedas": {
-      "BNBUSDT": "pausa"
-    },
+    "monedas": {},
     "alerta": ""
   }
 }

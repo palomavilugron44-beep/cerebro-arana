@@ -1,30 +1,24 @@
 {
   "modo": "cautela",
-  "monedas": {
-    "BNBUSDT": {
-      "modo": "pausa",
-      "motivo": "Hackeo de 6.300 M$ en Binance (29 oct): riesgo de seguridad directo sobre el exchange y su token BNB; hay dudas sobre sus hot wallets y retiradas/cierres de cuentas en Europa.",
-      "multiplicador_riesgo": 0.0
-    }
-  },
-  "resumen": "El mercado está en miedo extremo (índice 25), con la capitalización total cayendo -2.89% en 24 h y varias monedas a la baja en la semana. Pesa especialmente el hackeo de Binance de 6.300 M$ y las sanciones de EE. UU. contra MEXC, aunque no hay una caída brusca generalizada ni un dato macro de alto impacto en las próximas 24 h. Se elige cautela global por el miedo extremo y pausa solo para BNB por el riesgo directo sobre el exchange emisor.",
+  "monedas": {},
+  "resumen": "El mercado está en miedo (índice 28) con la capitalización total cayendo un -2.81% en 24 h, aunque sin liquidaciones masivas ni caídas de -7% o peores. El hackeo de Binance (6.300 M$, octubre) sigue siendo noticia activa y hay presión regulatoria (Tesoro de EE. UU. contra MEXC) y problemas en fintechs latinoamericanas, lo que eleva la incertidumbre sin llegar a un riesgo anómalo de una moneda concreta. No hay datos macro de alto impacto en las próximas 24 h, así que la recomendación es reducir el tamaño de compras nuevas (cautela) en lugar de pausar.",
   "motivos": [
-    "Índice Miedo/Codicia en 25 (Extreme Fear) y capitalización total -2.89% en 24 h: incertidumbre elevada.",
-    "Hackeo de Binance de 6.300 M$ (29 oct) con dudas sobre las hot wallets: riesgo de seguridad sobre el exchange y su token BNB.",
-    "Sanciones del Tesoro de EE. UU. contra MEXC y noticias de cierre de cuentas de Binance en Europa: noticias negativas relevantes pero no graves para el resto de monedas.",
-    "Sin eventos macro de alto impacto USD en 24 h; el dato de empleo ya se publicó el 6 de noviembre.",
-    "Monedas como XRP, SOL, LINK, ADA, LTC y AVAX caen entre -4% y -9% en 7 días, pero sin anomalía concreta que justifique pausa."
+    "Índice Miedo/Codicia en 28 (miedo) y caída de la capitalización total de -2.81% en 24 h.",
+    "Secuela del hackeo de Binance de 6.300 M$ con questions abiertas sobre sus salvaguardas, y noticias regulatorias negativas (Tesoro de EE. UU. contra MEXC, cuentas europeas de Binance cerrándose).",
+    "Suspensión de retiros cripto de Nubank y Mercadopago por inestabilidad de un proveedor de datos, sin confirmación de hackeo.",
+    "No hay eventos macro de alto impacto en 24 h; no se justifica pausa, pero sí prudencia mientras el sentimiento sea de miedo.",
+    "Ninguna moneda muestra una situación anómala (halt, depeg, delist) ni caída individual que justifique un tratamiento específico."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-07T23:35:06+00:00",
-  "valido_hasta": "2026-11-08T02:35:06+00:00",
+  "generado": "2026-11-08T00:58:14+00:00",
+  "valido_hasta": "2026-11-08T03:58:14+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
-    "miedo_codicia": 25,
-    "cambio_mercado_24h": -2.89,
-    "noticias_analizadas": 26,
+    "miedo_codicia": 28,
+    "cambio_mercado_24h": -2.81,
+    "noticias_analizadas": 27,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -68,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7646,
+    "input_tokens": 7735,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 726,
+    "output_tokens": 667,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
