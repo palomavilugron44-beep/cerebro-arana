@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 28) con la capitalización total cayendo -3.69% en 24 h, aunque los precios individuales se mantienen casi planos en las últimas 24 h y no hay eventos macro de alto impacto previstos. La noticia más relevante es el hackeo de Binance de octubre (unos 6.300 M$), con fondos robados convertidos a BTC según Elliptic, y la salida del director financiero de Binance. Esto justifica cautela general por incertidumbre elevada, pero no un riesgo grave e inmediato que obligue a pausar.",
+  "resumen": "El mercado está en miedo (índice 28) con la capitalización total cayendo -3.54% en 24 h, aunque las monedas operadas rondan entre -1.6% y +0.2% en ese plazo y no hay eventos macro de alto impacto en 24 h. El entorno de Binance es delicado tras el hackeo de 6.3 mil millones de dólares, y el cierre de Binance France añade incertidumbre, pero no hay una situación anómala de moneda, halt ni delist. Se elige cautela general por la caída del mercado y el miedo, sin pausar compras.",
   "motivos": [
-    "Índice Miedo/Codicia en 28 (miedo) y con caídas semanales en casi todas las monedas (entre -1.35% y -8.21% en 7 días).",
-    "Capitalización total -3.69% en 24 h, por debajo del umbral de -7% que exigiría pausa.",
-    "Secuela del hackeo de Binance de octubre (unos 6.300 M$) y salida del CFO de Binance: riesgo reputacional y de seguridad relevante pero no un evento nuevo e inmediato sobre las monedas operadas.",
-    "Sin eventos macro USD de alto impacto en las próximas 24 h; no hay motivo para pausa por calendario.",
-    "Las noticias sobre ETFs, tokenización y regulación no implican riesgo grave inmediato para las monedas del bot."
+    "Índice Miedo/Codicia en 28 (miedo) con lecturas recientes entre 25 y 50, señal de incertidumbre elevada.",
+    "Capitalización total cripto -3.54% en 24 h, caída moderada que no alcanza el umbral de -7% para pausa.",
+    "Secuela del hackeo de Binance (~6.3 mil millones USD) y cierre de Binance France: noticias negativas relevantes pero no graves para las monedas operadas.",
+    "Sin eventos macro de alto impacto USD en las próximas 24 h; no hay halt, depeg ni delist de ninguna moneda de la lista.",
+    "Las monedas de la lista muestran caídas diarias contenidas (entre -1.6% y +0.2%), sin movimiento anómalo que justifique frenar una moneda concreta."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-08T12:45:46+00:00",
-  "valido_hasta": "2026-11-08T15:45:46+00:00",
+  "generado": "2026-11-08T13:48:40+00:00",
+  "valido_hasta": "2026-11-08T16:48:40+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -3.69,
-    "noticias_analizadas": 17,
+    "cambio_mercado_24h": -3.54,
+    "noticias_analizadas": 18,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -36,6 +36,11 @@
       "link": "https://www.newsbtc.com/security/elliptic-traces-124m-in-bitcoin-swaps-from-binance-hack-funds/"
     },
     {
+      "titulo": "Here’s what happened in crypto today",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "titulo": "CZ Issues AI Warning Following Binance Hack, STRC Repegs, And More – Weekly Recap",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/featured/cz-issues-ai-warning-following-binance-hack-strc-repegs-and-more-weekly-recap/"
@@ -46,30 +51,25 @@
       "link": "https://www.newsbtc.com/news/solana/solana-labs-backed-leap-launches-beta-app-for-tokenized-stocks-and-crypto/"
     },
     {
-      "titulo": "EU, Asia, or the US: Who Will Win the Regulatory Race for Crypto Business?",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/regulation-and-legal/eu-asia-or-the-us-who-will-win-the-regulatory-race-for-crypto-business/"
+      "titulo": "Binance France emails announce closure of its users’ accounts on Dec. 31",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/binance-france-emails-announce-closure-of-its-users-accounts-on-dec-31?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "titulo": "Aave Buys Avon Team to Bring More Fixed-Rate Lending Onchain",
-      "fuente": "NewsBTC",
-      "link": "https://www.newsbtc.com/news/defi/aave-buys-avon-team-to-bring-more-fixed-rate-lending-onchain/"
-    },
-    {
-      "titulo": "Meta and Palantir Reject OKXICE Stock Tokenization Listings",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/finance/meta-and-palantir-reject-okxice-stock-tokenization-listings/"
+      "titulo": "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/08/these-finland-homes-get-free-heat-from-bitcoin-miners-as-long-as-btc-stays-above-usd70-000"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6547,
+    "input_tokens": 6631,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 599,
+    "output_tokens": 605,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
