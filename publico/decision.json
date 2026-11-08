@@ -1,24 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El miedo/codicia está en 28 (miedo) y el mercado cripto ha borrado en la última semana las ganancias post-electorales, con caídas de 3-8% en 7 días en casi todas las monedas. Hay noticias negativas relevantes (hackeo de Binance de 6.300 M$ hace algunas semanas, sanciones de FinCEN a MEXC, cierre de Binance France), pero ninguna supone un riesgo grave e inmediato para las monedas operadas ni caída brusca del mercado en curso (las variaciones de 24 h son menores al 2%). Dado el miedo elevado y el riesgo de noticias negativas, se recomienda cautela global sin pausar.",
+  "resumen": "El mercado cripto cae un 3.66% en 24 h con miedo (índice 28) y un ciclo de noticias negativo: el hackeo de Binance de 6.300 M$ (noticia previa), la sanción de FinCEN contra MEXC y el cierre de Binance France. No hay una caída brusca de -7% ni un evento macro de alto impacto en las próximas 24 h, así que el riesgo es elevado pero no grave. Por ello se recomienda cautela general (mitad de tamaño) sin pausa ni alerta sobre posiciones.",
   "motivos": [
-    "Índice Miedo/Codicia en 28 (miedo), con lecturas de 25-28 en varios días recientes.",
-    "Caída de 3-8% en 7 días en las 10 monedas, con la capitalización cripto borrando los 100.000 M$ ganados tras las elecciones.",
-    "Noticias negativas relevantes no graves: sanciones de FinCEN a MEXC, cierre de Binance France y el hackeo de Binance (6.300 M$) que sigue en el contexto.",
-    "Brecha de seguridad de Web3Auth/Keplr (~6 M$) afecta a un proveedor de wallets, sin impacto directo en las monedas operadas.",
-    "Variaciones de 24 h dentro de ±2%: no hay caída brusca en curso ni evento macro de alto impacto en 24 h."
+    "Capitalización total -3.66% en 24 h con índice de miedo en 28 (Fear) y varios días previos en la franja de miedo.",
+    "Noticias negativas relevantes: FinCEN corta a MEXC del sistema financiero de EE. UU., cierre de Binance France y secuela del hackeo de Binance de 6.300 M$.",
+    "Incidentes de seguridad en Keplr/Web3Auth (~6 M$) y LNbits, sin afectar de forma directa a las monedas operadas.",
+    "No hay eventos macro de alto impacto en las próximas 24 h, y las monedas operadas tienen caídas diarias moderadas (máx. -1.4%), por lo que no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-08T18:40:16+00:00",
-  "valido_hasta": "2026-11-08T21:40:16+00:00",
+  "generado": "2026-11-08T19:42:24+00:00",
+  "valido_hasta": "2026-11-08T22:42:24+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": null,
-    "noticias_analizadas": 14,
+    "cambio_mercado_24h": -3.66,
+    "noticias_analizadas": 17,
     "articulos_leidos": 7,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +61,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 5851,
+    "input_tokens": 6228,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 645,
+    "output_tokens": 565,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
