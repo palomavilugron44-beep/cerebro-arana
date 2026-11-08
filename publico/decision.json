@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El índice Miedo/Codicia está en 28 (miedo) y la capitalización total cae un 2.72% en 24 h, con las altcoins bajando entre un 4% y un 7% en 7 días. No hay eventos macro de alto impacto en las próximas 24 h ni una caída brusca con liquidaciones que justifique pausar. Por la incertidumbre elevada y el sesgo bajista reciente, se recomienda cautela general, sin restricciones adicionales por moneda.",
+  "resumen": "El índice Miedo/Codicia está en 28 (miedo) y la capitalización total cae un 2.77% en 24 h, con volatilidad moderada y sin eventos macro de alto impacto en las próximas 24 h. Hay noticias negativas relevantes pero no graves: un hackeo de octubre contra Binance del que se rastrean fondos convertidos a BTC, y una filtración en Chainalysis. Dado el miedo elevado y la caída del mercado, se recomienda cautela general, sin pausa, porque no hay riesgo grave e inmediato confirmado.",
   "motivos": [
-    "Índice Miedo/Codicia en 28 (miedo), con lecturas de 25 a 37 en la última semana",
-    "Capitalización total -2.72% en 24 h, con todas las monedas en negativo a 7 días",
-    "Sin eventos macro USD de alto impacto en 24 h; el dato de empleo ya se publicó",
-    "Noticias sobre el hackeo de Binance y Chainalysis son relevantes pero no afectan directamente a un precio concreto de las monedas operadas ni implican riesgo grave inmediato",
-    "La caída del día (-2.72%) no alcanza el umbral de -7% para pausa"
+    "Índice Miedo/Codicia en 28 (miedo), con cierre de la semana en zona de miedo.",
+    "Capitalización total -2.77% en 24 h; la mayoría de altcoins caen entre 6% y 7% en 7 días.",
+    "Noticias negativas relevantes pero no graves: rastreo de fondos robados en el hackeo de Binance de octubre y filtración de datos en Chainalysis y Gnosis Pay.",
+    "Sin eventos macro de alto impacto USD en las próximas 24 h; el dato de empleo ya se publicó el 6 de noviembre.",
+    "No hay halt, depeg ni delist de ninguna de las 10 monedas operadas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-08T04:51:47+00:00",
-  "valido_hasta": "2026-11-08T07:51:47+00:00",
+  "generado": "2026-11-08T05:48:11+00:00",
+  "valido_hasta": "2026-11-08T08:48:11+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -2.72,
-    "noticias_analizadas": 22,
+    "cambio_mercado_24h": -2.77,
+    "noticias_analizadas": 21,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -41,6 +41,16 @@
       "link": "https://www.newsbtc.com/news/bitcoin/us-adds-165-000-jobs-in-october-why-bitcoin-traders-are-watching-the-fed/"
     },
     {
+      "titulo": "EU, Asia, or the US: Who Will Win the Regulatory Race for Crypto Business?",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/regulation-and-legal/eu-asia-or-the-us-who-will-win-the-regulatory-race-for-crypto-business/"
+    },
+    {
+      "titulo": "Aave Buys Avon Team to Bring More Fixed-Rate Lending Onchain",
+      "fuente": "NewsBTC",
+      "link": "https://www.newsbtc.com/news/defi/aave-buys-avon-team-to-bring-more-fixed-rate-lending-onchain/"
+    },
+    {
       "titulo": "Meta and Palantir Reject OKXICE Stock Tokenization Listings",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/finance/meta-and-palantir-reject-okxice-stock-tokenization-listings/"
@@ -49,27 +59,17 @@
       "titulo": "Galaxy Flags New Risks for Crypto as Democrats Take Both Chambers",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/regulation-and-legal/galaxy-flags-new-risks-for-crypto-as-democrats-take-both-chambers/"
-    },
-    {
-      "titulo": "XRP $0.99 Call Draws Scrutiny as Santiment Tracks Growing Shorts",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/xrp-0-99-call-draws-scrutiny-as-santiment-tracks-growing-shorts/"
-    },
-    {
-      "titulo": "Nasdaq Lists Canary’s Staked INJ ETF, Adding Another Route to Altcoin Exposure",
-      "fuente": "NewsBTC",
-      "link": "https://www.newsbtc.com/altcoin/nasdaq-lists-canary-s-staked-inj-etf-adding-another-route-to-altcoin-exposure/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7244,
+    "input_tokens": 7186,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 508,
+    "output_tokens": 562,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
