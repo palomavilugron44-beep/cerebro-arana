@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 28) con la capitalización total cayendo -3.54% en 24 h, aunque las monedas operadas rondan entre -1.6% y +0.2% en ese plazo y no hay eventos macro de alto impacto en 24 h. El entorno de Binance es delicado tras el hackeo de 6.3 mil millones de dólares, y el cierre de Binance France añade incertidumbre, pero no hay una situación anómala de moneda, halt ni delist. Se elige cautela general por la caída del mercado y el miedo, sin pausar compras.",
+  "resumen": "El mercado está en miedo (índice 28) con la capitalización total cayendo -2.71% en 24 h, sin eventos macro de alto impacto previstos en 24 h. Las noticias dominantes son el hackeo de Binance (unos 6.3 mil millones de dólares, según los titulares) y la salida de Binance France, que son negativas pero no suponen una caída brusca en curso ni un riesgo grave para las monedas operadas. Se elige cautela general por la incertidumbre elevada y el sentimiento de miedo, sin pausa ni alerta sobre posiciones.",
   "motivos": [
-    "Índice Miedo/Codicia en 28 (miedo) con lecturas recientes entre 25 y 50, señal de incertidumbre elevada.",
-    "Capitalización total cripto -3.54% en 24 h, caída moderada que no alcanza el umbral de -7% para pausa.",
-    "Secuela del hackeo de Binance (~6.3 mil millones USD) y cierre de Binance France: noticias negativas relevantes pero no graves para las monedas operadas.",
-    "Sin eventos macro de alto impacto USD en las próximas 24 h; no hay halt, depeg ni delist de ninguna moneda de la lista.",
-    "Las monedas de la lista muestran caídas diarias contenidas (entre -1.6% y +0.2%), sin movimiento anómalo que justifique frenar una moneda concreta."
+    "Índice Miedo/Codicia en 28 (Miedo) y tendencia de la última semana entre 25 y 50, con sentimiento negativo sostenido.",
+    "Capitalización total -2.71% en 24 h; caída relevante pero por debajo del umbral de -7% que justificaría pausa.",
+    "Hackeo de Binance de octubre y noticias sobre fondos robados convertidos a BTC, XRP y SOL: riesgo reputacional y de incertidumbre, pero no un exploit activo ni un problema de seguridad vigente en las monedas operadas.",
+    "Binance France cierra sus cuentas el 31 de diciembre: noticia negativa relevante pero no grave para los precios de las monedas operadas.",
+    "Ninguna moneda muestra anomalía (halt, depeg, delist); cambios 24 h entre -1.8% y +0.3%, sin caídas individuales que justifiquen un modo distinto.",
+    "Sin eventos económicos USD de alto impacto en las próximas 24 h."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-08T13:48:40+00:00",
-  "valido_hasta": "2026-11-08T16:48:40+00:00",
+  "generado": "2026-11-08T14:38:28+00:00",
+  "valido_hasta": "2026-11-08T17:38:28+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -3.54,
+    "cambio_mercado_24h": -2.71,
     "noticias_analizadas": 18,
     "articulos_leidos": 8,
     "fuentes": {
@@ -62,14 +63,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6631,
+    "input_tokens": 6629,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 605,
+    "output_tokens": 675,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
