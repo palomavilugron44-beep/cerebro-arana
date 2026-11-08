@@ -1,23 +1,22 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El índice Miedo/Codicia está en 28 (miedo) y la capitalización total cae un 2.77% en 24 h, con volatilidad moderada y sin eventos macro de alto impacto en las próximas 24 h. Hay noticias negativas relevantes pero no graves: un hackeo de octubre contra Binance del que se rastrean fondos convertidos a BTC, y una filtración en Chainalysis. Dado el miedo elevado y la caída del mercado, se recomienda cautela general, sin pausa, porque no hay riesgo grave e inmediato confirmado.",
+  "resumen": "El índice Miedo/Codicia está en 28 (miedo) y la capitalización total cae un 2.93% en 24 h, con todas las monedas en negativo en 7 días. No hay eventos macro de alto impacto en las próximas 24 h, pero el mercado está débil y el sentimiento es de miedo, así que conviene operar con la mitad del tamaño. Las noticias de hackeo (fondos del exploit de Binance convertidos a BTC) y la caída general son relevantes pero no constituyen un riesgo grave e inmediato que justifique pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 28 (miedo), con cierre de la semana en zona de miedo.",
-    "Capitalización total -2.77% en 24 h; la mayoría de altcoins caen entre 6% y 7% en 7 días.",
-    "Noticias negativas relevantes pero no graves: rastreo de fondos robados en el hackeo de Binance de octubre y filtración de datos en Chainalysis y Gnosis Pay.",
-    "Sin eventos macro de alto impacto USD en las próximas 24 h; el dato de empleo ya se publicó el 6 de noviembre.",
-    "No hay halt, depeg ni delist de ninguna de las 10 monedas operadas."
+    "Miedo en el mercado (índice 28) con caída de capitalización total de -2.93% en 24 h.",
+    "Todas las monedas vigiladas en negativo a 7 días (entre -1.2% y -7.4%), indicando debilidad generalizada.",
+    "Noticias de blanqueo de fondos del hackeo de Binance de octubre, relevantes pero sin impacto directo confirmado en precios ni en las monedas operadas.",
+    "Sin eventos económicos USD de alto impacto en las próximas 24 h, por lo que no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-08T05:48:11+00:00",
-  "valido_hasta": "2026-11-08T08:48:11+00:00",
+  "generado": "2026-11-08T06:54:26+00:00",
+  "valido_hasta": "2026-11-08T09:54:26+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -2.77,
+    "cambio_mercado_24h": -2.93,
     "noticias_analizadas": 21,
     "articulos_leidos": 8,
     "fuentes": {
@@ -34,6 +33,11 @@
       "titulo": "Elliptic Traces $124M in Bitcoin Swaps From Binance Hack Funds",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/security/elliptic-traces-124m-in-bitcoin-swaps-from-binance-hack-funds/"
+    },
+    {
+      "titulo": "Solana Labs-Backed Leap Launches Beta App for Tokenized Stocks and Crypto",
+      "fuente": "NewsBTC",
+      "link": "https://www.newsbtc.com/news/solana/solana-labs-backed-leap-launches-beta-app-for-tokenized-stocks-and-crypto/"
     },
     {
       "titulo": "US Adds 165,000 Jobs in October: Why Bitcoin Traders Are Watching the Fed",
@@ -54,22 +58,17 @@
       "titulo": "Meta and Palantir Reject OKXICE Stock Tokenization Listings",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/finance/meta-and-palantir-reject-okxice-stock-tokenization-listings/"
-    },
-    {
-      "titulo": "Galaxy Flags New Risks for Crypto as Democrats Take Both Chambers",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/regulation-and-legal/galaxy-flags-new-risks-for-crypto-as-democrats-take-both-chambers/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7186,
+    "input_tokens": 7153,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 562,
+    "output_tokens": 513,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
