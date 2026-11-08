@@ -1,25 +1,24 @@
 {
-  "modo": "normal",
+  "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 28) con una caída de capitalización total del -2.88% en 24 h, pero sin liquidaciones masivas ni caídas bruscas de la magnitud de -7%. No hay eventos macro de alto impacto en las próximas 24 h. Las noticias relevantes (blanqueo de fondos del hackeo de Binance de octubre, cambio de CFO en Binance) no son de riesgo grave e inmediato para las monedas operadas.",
+  "resumen": "El mercado está en miedo (índice 28) y la capitalización total cae un 4.02% en 24 h, con las principales monedas bajando entre un 0.2% y un 1.9% y caídas semanales de 1% a 9%. No hay eventos macro de alto impacto en 24 h. Las noticias son mayormente neutras, aunque el robo de 124 M$ atribuido a Binance y la salida del CFO de Binance son negativas pero no graves, por lo que se elige cautela general en lugar de pausa.",
   "motivos": [
-    "Caída de capitalización del -2.88% en 24 h, por debajo del umbral de -7% para pausa.",
-    "Sin eventos económicos USD de alto impacto en las próximas 24 h.",
-    "Índice Miedo/Codicia en 28: miedo moderado, sin llegar a un nivel extremo que justifique cautela global.",
-    "El hackeo de Binance de octubre y su blanqueo en BTC es noticia antigua y de seguimiento, no un riesgo nuevo sobre las monedas operadas.",
-    "Salida del CFO de Binance y noticias regulatorias o de producto no son riesgos graves e inmediatos.",
-    "Cambios de precio de las monedas en 24 h entre -2.4% y +0.3%, sin anomalías (halt, depeg o delist)."
+    "Índice Miedo/Codicia en 28 (miedo) con varios días previos en la franja de miedo, lo que indica incertidumbre elevada.",
+    "Capitalización total cripto -4.02% en 24 h, caída relevante pero por debajo del umbral de -7% que justificaría pausa.",
+    "Noticias sobre el rastreo de 124 M$ robados en el hackeo de Binance de octubre y la salida del director financiero de Binance: negativas relevantes pero no un riesgo grave e inmediato.",
+    "Sin eventos macro de alto impacto USD en las próximas 24 h, por lo que no hay motivo para pausa por calendario macro.",
+    "Ninguna moneda muestra halt, depeg, delist ni caída anómala individual que justifique un tratamiento específico."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-08T08:49:02+00:00",
-  "valido_hasta": "2026-11-08T11:49:02+00:00",
+  "generado": "2026-11-08T09:44:36+00:00",
+  "valido_hasta": "2026-11-08T12:44:36+00:00",
   "origen": "claude:claude-haiku-5-5",
-  "multiplicador_riesgo": 1.0,
+  "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -2.88,
-    "noticias_analizadas": 21,
+    "cambio_mercado_24h": -4.02,
+    "noticias_analizadas": 20,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -63,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7128,
+    "input_tokens": 6985,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 560,
+    "output_tokens": 574,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
