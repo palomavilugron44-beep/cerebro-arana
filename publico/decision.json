@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 28) con la capitalización total cayendo -2.87% en 24 h y varias altcoins con caídas semanales de entre -4% y -8%. Además, el hackeo de Binance del 29 de octubre (18.270 BTC sustraídos, según las noticias) sigue generando noticias, y la brecha de Gnosis Pay y las medidas de Treasury contra MEXC añaden incertidumbre; no hay evento macro de alto impacto en 24 h, así que no se justifica pausa.",
+  "resumen": "El índice Miedo/Codicia está en 28 (miedo) y la capitalización total cae un 2.72% en 24 h, con las altcoins bajando entre un 4% y un 7% en 7 días. No hay eventos macro de alto impacto en las próximas 24 h ni una caída brusca con liquidaciones que justifique pausar. Por la incertidumbre elevada y el sesgo bajista reciente, se recomienda cautela general, sin restricciones adicionales por moneda.",
   "motivos": [
-    "Índice Miedo/Codicia en 28 (Miedo) con tendencia bajista en la última semana.",
-    "Capitalización total -2.87% en 24 h; altcoins como XRP, SOL, LINK y LTC caen entre -6% y -8% en 7 días.",
-    "Secuela del hackeo de Binance (6.300 M USD) y nuevas noticias negativas relevantes (brecha de Gnosis Pay, orden del Tesoro de EE.UU. contra MEXC), no graves para las monedas operadas.",
-    "Sin eventos macro de alto impacto en 24 h; no hay riesgo grave e inmediato sobre las monedas del bot ni sobre el exchange que las opera."
+    "Índice Miedo/Codicia en 28 (miedo), con lecturas de 25 a 37 en la última semana",
+    "Capitalización total -2.72% en 24 h, con todas las monedas en negativo a 7 días",
+    "Sin eventos macro USD de alto impacto en 24 h; el dato de empleo ya se publicó",
+    "Noticias sobre el hackeo de Binance y Chainalysis son relevantes pero no afectan directamente a un precio concreto de las monedas operadas ni implican riesgo grave inmediato",
+    "La caída del día (-2.72%) no alcanza el umbral de -7% para pausa"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-08T03:50:48+00:00",
-  "valido_hasta": "2026-11-08T06:50:48+00:00",
+  "generado": "2026-11-08T04:51:47+00:00",
+  "valido_hasta": "2026-11-08T07:51:47+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -2.87,
-    "noticias_analizadas": 24,
+    "cambio_mercado_24h": -2.72,
+    "noticias_analizadas": 22,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -30,14 +31,19 @@
   },
   "titulares": [
     {
-      "titulo": "Binance Hack Takes Another Twist as Hackers Amass 2,300 More Bitcoin",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/featured/binance-hack-takes-another-twist-as-hackers-amass-2300-more-bitcoin/"
+      "titulo": "Elliptic Traces $124M in Bitcoin Swaps From Binance Hack Funds",
+      "fuente": "NewsBTC",
+      "link": "https://www.newsbtc.com/security/elliptic-traces-124m-in-bitcoin-swaps-from-binance-hack-funds/"
     },
     {
       "titulo": "US Adds 165,000 Jobs in October: Why Bitcoin Traders Are Watching the Fed",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/news/bitcoin/us-adds-165-000-jobs-in-october-why-bitcoin-traders-are-watching-the-fed/"
+    },
+    {
+      "titulo": "Meta and Palantir Reject OKXICE Stock Tokenization Listings",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/finance/meta-and-palantir-reject-okxice-stock-tokenization-listings/"
     },
     {
       "titulo": "Galaxy Flags New Risks for Crypto as Democrats Take Both Chambers",
@@ -53,22 +59,17 @@
       "titulo": "Nasdaq Lists Canary’s Staked INJ ETF, Adding Another Route to Altcoin Exposure",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/altcoin/nasdaq-lists-canary-s-staked-inj-etf-adding-another-route-to-altcoin-exposure/"
-    },
-    {
-      "titulo": "EU Deploys Dedicated Crypto Task Force to Block Russian Evasion",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/regulation-and-legal/eu-deploys-dedicated-crypto-task-force-to-block-russian-evasion/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7510,
+    "input_tokens": 7244,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 551,
+    "output_tokens": 508,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
