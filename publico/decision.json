@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 28) y la capitalización total cae un 4.02% en 24 h, con las principales monedas bajando entre un 0.2% y un 1.9% y caídas semanales de 1% a 9%. No hay eventos macro de alto impacto en 24 h. Las noticias son mayormente neutras, aunque el robo de 124 M$ atribuido a Binance y la salida del CFO de Binance son negativas pero no graves, por lo que se elige cautela general en lugar de pausa.",
+  "resumen": "El mercado está en miedo (índice 28) con la capitalización total cayendo un 3.91% en 24 h, aunque las monedas operadas caen entre -0.2% y -1.6% en el día y no hay eventos macro de alto impacto en las próximas 24 h. El principal riesgo es el hackeo de Binance (unos 6.300 millones de dólares), que sigue generando noticias, pero Binance opera con normalidad y no hay una moneda concreta en situación anómala. Se opta por cautela general: la caída de mercado y el miedo justifican reducir el tamaño de las compras nuevas, sin llegar a pausar.",
   "motivos": [
-    "Índice Miedo/Codicia en 28 (miedo) con varios días previos en la franja de miedo, lo que indica incertidumbre elevada.",
-    "Capitalización total cripto -4.02% en 24 h, caída relevante pero por debajo del umbral de -7% que justificaría pausa.",
-    "Noticias sobre el rastreo de 124 M$ robados en el hackeo de Binance de octubre y la salida del director financiero de Binance: negativas relevantes pero no un riesgo grave e inmediato.",
-    "Sin eventos macro de alto impacto USD en las próximas 24 h, por lo que no hay motivo para pausa por calendario macro.",
-    "Ninguna moneda muestra halt, depeg, delist ni caída anómala individual que justifique un tratamiento específico."
+    "Índice Miedo/Codicia en 28 (miedo) y capitalización total -3.91% en 24 h: volatilidad y riesgo elevados.",
+    "Hackeo de Binance de unos 6.300 millones de dólares en octubre, con fondos robados que siguen moviéndose; riesgo reputacional y de contagio, pero sin señal de problema operativo en Binance ni en las monedas.",
+    "Todas las monedas operadas están en negativo a 7 días (entre -1.8% y -8.8%), con tendencia bajista general.",
+    "Sin eventos macro de alto impacto en las próximas 24 h; no se justifica pausa.",
+    "Las noticias restantes (regulación, productos tokenizados, cambio de directivos de Binance) no son graves ni afectan a una moneda concreta."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-08T09:44:36+00:00",
-  "valido_hasta": "2026-11-08T12:44:36+00:00",
+  "generado": "2026-11-08T10:41:27+00:00",
+  "valido_hasta": "2026-11-08T13:41:27+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -4.02,
-    "noticias_analizadas": 20,
+    "cambio_mercado_24h": -3.91,
+    "noticias_analizadas": 21,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -34,6 +34,11 @@
       "titulo": "Elliptic Traces $124M in Bitcoin Swaps From Binance Hack Funds",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/security/elliptic-traces-124m-in-bitcoin-swaps-from-binance-hack-funds/"
+    },
+    {
+      "titulo": "CZ Issues AI Warning Following Binance Hack, STRC Repegs, And More – Weekly Recap",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/featured/cz-issues-ai-warning-following-binance-hack-strc-repegs-and-more-weekly-recap/"
     },
     {
       "titulo": "Solana Labs-Backed Leap Launches Beta App for Tokenized Stocks and Crypto",
@@ -54,22 +59,17 @@
       "titulo": "Meta and Palantir Reject OKXICE Stock Tokenization Listings",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/finance/meta-and-palantir-reject-okxice-stock-tokenization-listings/"
-    },
-    {
-      "titulo": "Galaxy Flags New Risks for Crypto as Democrats Take Both Chambers",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/regulation-and-legal/galaxy-flags-new-risks-for-crypto-as-democrats-take-both-chambers/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6985,
+    "input_tokens": 7076,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 574,
+    "output_tokens": 618,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
