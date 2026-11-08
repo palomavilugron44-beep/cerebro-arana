@@ -1,24 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 28) y la capitalización total cae un 3.57% en 24 h, sin llegar al umbral de -7% que justificaría pausa. Persisten secuelas del hackeo de Binance de octubre (unos 6.300 M$) y noticias regulatorias negativas pero no graves, como el cierre de Binance France y sanciones del Tesoro de EE. UU. a MEXC y a casas de cambio canadienses. Sin eventos macro de alto impacto en 24 h, pero la incertidumbre elevada justifica operar con la mitad del tamaño.",
+  "resumen": "El miedo está en 28 (zona de miedo) tras una caída de la capitalización total del -3.31% en 24 h, con las altcoins más castigadas en 7 días (XRP -7.8%, LINK -7.3%, LTC -7.3%). Hay noticias negativas relevantes (hackeo de Binance por 6.300 M$ hace pocos días, cierre de Binance France, sanciones del Tesoro de EE. UU. a MEXC), pero no hay un riesgo grave e inmediato contra una moneda concreta ni evento macro de alto impacto en 24 h. Por ello se elige cautela global, sin pausa ni monedas específicas.",
   "motivos": [
-    "Índice Miedo/Codicia en 28 (Fear), con la semana oscilando entre 25 y 50.",
-    "Capitalización total -3.57% en 24 h: caída relevante pero por debajo del umbral de pausa (-7%).",
-    "Secuelas del hackeo de Binance de octubre (~6.300 M$) y blanqueo de fondos vinculado a actores norcoreanos, sin afectar a una moneda concreta de la lista.",
-    "Sanciones del Tesoro de EE. UU. a MEXC y cierre de Binance France: noticias negativas relevantes pero no graves.",
-    "Las altcoins (XRP, SOL, LINK, ADA, LTC, AVAX) acumulan caídas de entre -5% y -7.5% en 7 días; sin señal de riesgo específico por moneda que justifique un trato distinto."
+    "Índice Miedo/Codicia en 28 (miedo) y caída de la capitalización total de -3.31% en 24 h.",
+    "Noticias negativas relevantes pero no graves: hackeo de Binance (6.300 M$) que sigue en el contexto, cierre de Binance France y sanciones del Tesoro de EE. UU. contra cambios vinculados a MEXC.",
+    "Sin eventos macro de alto impacto en 24 h, y sin señales de halt, depeg o delist en las monedas operadas.",
+    "Caídas semanales de las altcoins (-5% a -8%) y volatilidad elevada por la venta de acciones tecnológicas globales."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-08T15:34:15+00:00",
-  "valido_hasta": "2026-11-08T18:34:15+00:00",
+  "generado": "2026-11-08T16:38:06+00:00",
+  "valido_hasta": "2026-11-08T19:38:06+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -3.57,
-    "noticias_analizadas": 17,
+    "cambio_mercado_24h": -3.31,
+    "noticias_analizadas": 16,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -31,9 +30,9 @@
   },
   "titulares": [
     {
-      "titulo": "Elliptic Traces $124M in Bitcoin Swaps From Binance Hack Funds",
-      "fuente": "NewsBTC",
-      "link": "https://www.newsbtc.com/security/elliptic-traces-124m-in-bitcoin-swaps-from-binance-hack-funds/"
+      "titulo": "Weekly Report: Crypto Market Erases $100B Rally as Bitcoin, XRP Prices Slide",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/weekly-report-crypto-market-erases-100b-rally-as-bitcoin-xrp-prices-slide/"
     },
     {
       "titulo": "Saylor Shares $64B Bitcoin Chart, Stirring Strategy Buy Questions",
@@ -62,14 +61,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6583,
+    "input_tokens": 6427,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 622,
+    "output_tokens": 582,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
