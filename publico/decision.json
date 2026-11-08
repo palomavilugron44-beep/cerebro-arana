@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 28) con la capitalización total cayendo un 3.91% en 24 h, aunque las monedas operadas caen entre -0.2% y -1.6% en el día y no hay eventos macro de alto impacto en las próximas 24 h. El principal riesgo es el hackeo de Binance (unos 6.300 millones de dólares), que sigue generando noticias, pero Binance opera con normalidad y no hay una moneda concreta en situación anómala. Se opta por cautela general: la caída de mercado y el miedo justifican reducir el tamaño de las compras nuevas, sin llegar a pausar.",
+  "resumen": "El miedo/codicia está en 28 (miedo) y la capitalización total cae -3.66% en 24 h, sin eventos macro de alto impacto en las próximas 24 h. Las noticias dominantes son el hackeo de Binance de octubre (~6.3 mil millones de dólares) y el rastreo de fondos robados, que es un riesgo reputacional relevante pero no un problema de seguridad activo ni una caída brusca de mercado con liquidaciones. Dado el miedo extremo y la caída del mercado, se aplica cautela general sin pausar.",
   "motivos": [
-    "Índice Miedo/Codicia en 28 (miedo) y capitalización total -3.91% en 24 h: volatilidad y riesgo elevados.",
-    "Hackeo de Binance de unos 6.300 millones de dólares en octubre, con fondos robados que siguen moviéndose; riesgo reputacional y de contagio, pero sin señal de problema operativo en Binance ni en las monedas.",
-    "Todas las monedas operadas están en negativo a 7 días (entre -1.8% y -8.8%), con tendencia bajista general.",
-    "Sin eventos macro de alto impacto en las próximas 24 h; no se justifica pausa.",
-    "Las noticias restantes (regulación, productos tokenizados, cambio de directivos de Binance) no son graves ni afectan a una moneda concreta."
+    "Índice Miedo/Codicia en 28 (miedo), con valores de 25 a 37 en la última semana.",
+    "Capitalización total con -3.66% en 24 h, caída notable pero no de nivel -7% que justificaría pausa.",
+    "Secuela del hackeo de Binance de octubre (~6.3 mil millones de dólares) y rastreo de fondos robados; noticia negativa relevante pero no un riesgo activo y grave.",
+    "Sin eventos económicos USD de alto impacto en las próximas 24 h.",
+    "Altcoins con caídas semanales de -6% a -8% (XRP, SOL, DOGE, LINK, ADA, AVAX, LTC), sin anomalías de halt, depeg o delist."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-08T10:41:27+00:00",
-  "valido_hasta": "2026-11-08T13:41:27+00:00",
+  "generado": "2026-11-08T11:37:04+00:00",
+  "valido_hasta": "2026-11-08T14:37:04+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -3.91,
-    "noticias_analizadas": 21,
+    "cambio_mercado_24h": -3.66,
+    "noticias_analizadas": 19,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7076,
+    "input_tokens": 6823,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 618,
+    "output_tokens": 573,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
