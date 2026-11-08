@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cayó un 3.79% en 24 h y el índice Miedo/Codicia está en 28 (miedo), en un contexto de venta generalizada ligada a un sell-off de acciones tecnológicas globales. Hay noticias negativas relevantes (sanciones de FinCEN contra MEXC, cierre de Binance France y un hackeo previo de Binance de 6.300 M$), pero no hay un evento grave e inmediato ni una caída de -7% o peor, y no hay datos macro de alto impacto en las próximas 24 h. Por ello se aplica cautela global, sin pausa ni alertas sobre posiciones.",
+  "resumen": "El miedo/codicia está en 28 (miedo) y el mercado cripto ha borrado en la última semana las ganancias post-electorales, con caídas de 3-8% en 7 días en casi todas las monedas. Hay noticias negativas relevantes (hackeo de Binance de 6.300 M$ hace algunas semanas, sanciones de FinCEN a MEXC, cierre de Binance France), pero ninguna supone un riesgo grave e inmediato para las monedas operadas ni caída brusca del mercado en curso (las variaciones de 24 h son menores al 2%). Dado el miedo elevado y el riesgo de noticias negativas, se recomienda cautela global sin pausar.",
   "motivos": [
-    "Miedo extremo en el índice Miedo/Codicia (28) y caída de la capitalización total del -3.79% en 24 h.",
-    "Noticias negativas relevantes pero no graves: sanciones de FinCEN contra MEXC, cierre de Binance France y secuelas del hackeo de Binance.",
-    "Ninguna moneda muestra anomalía (halt, depeg o delist) y la caída es moderada, no un colapso que justifique pausa.",
-    "Sin eventos macro de alto impacto en las próximas 24 h."
+    "Índice Miedo/Codicia en 28 (miedo), con lecturas de 25-28 en varios días recientes.",
+    "Caída de 3-8% en 7 días en las 10 monedas, con la capitalización cripto borrando los 100.000 M$ ganados tras las elecciones.",
+    "Noticias negativas relevantes no graves: sanciones de FinCEN a MEXC, cierre de Binance France y el hackeo de Binance (6.300 M$) que sigue en el contexto.",
+    "Brecha de seguridad de Web3Auth/Keplr (~6 M$) afecta a un proveedor de wallets, sin impacto directo en las monedas operadas.",
+    "Variaciones de 24 h dentro de ±2%: no hay caída brusca en curso ni evento macro de alto impacto en 24 h."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-08T17:33:52+00:00",
-  "valido_hasta": "2026-11-08T20:33:52+00:00",
+  "generado": "2026-11-08T18:40:16+00:00",
+  "valido_hasta": "2026-11-08T21:40:16+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -3.79,
-    "noticias_analizadas": 15,
+    "cambio_mercado_24h": null,
+    "noticias_analizadas": 14,
     "articulos_leidos": 7,
     "fuentes": {
       "CoinDesk": 25,
@@ -55,20 +56,20 @@
       "link": "https://news.bitcoin.com/featured/cz-issues-ai-warning-following-binance-hack-strc-repegs-and-more-weekly-recap/"
     },
     {
-      "titulo": "Solana Labs-Backed Leap Launches Beta App for Tokenized Stocks and Crypto",
-      "fuente": "NewsBTC",
-      "link": "https://www.newsbtc.com/news/solana/solana-labs-backed-leap-launches-beta-app-for-tokenized-stocks-and-crypto/"
+      "titulo": "Keplr Wallet Breach Triggers $6 Million in Transfers Across Cosmos",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/security/keplr-wallet-breach-triggers-6-million-in-transfers-across-cosmos/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6068,
+    "input_tokens": 5851,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 533,
+    "output_tokens": 645,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
