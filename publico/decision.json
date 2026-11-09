@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae -4.87% en 24 h (ETH -4.1%, XRP -3.85%) con miedo (índice 29) tras borrar las ganancias postelectorales, en un contexto de venta de acciones tecnológicas globales. Hay noticias negativas relevantes (hackeo de Binance de octubre por unos 6.300 M$ que sigue en recuperación, congelación de 1.100 M$ en USDC, sanciones de FinCEN contra MEXC y varias brechas de seguridad menores), pero no hay una caída de capitalización de -7% ni un halt, depeg o evento macro de alto impacto en las próximas 24 h. Se elige cautela general (mitad de tamaño) y no pausa, ya que la estrategia tiene su propio stop.",
+  "resumen": "La capitalización total cae un 4.75% en 24 h y el índice Miedo/Codicia está en 29 (miedo), con el mercado devolviendo las ganancias post-electorales por una venta de tecnológicas globales. Tras el hackeo de Binance de octubre (6.300 M$) siguen llegando noticias de seguridad y de sanciones contra MEXC, aunque Binance ya restablece retiradas y no hay eventos macro de alto impacto en 24 h. Dado el miedo elevado y la volatilidad, se recomienda cautela general (mitad de tamaño) sin pausa, ya que no hay un riesgo concreto y grave que la justifique.",
   "motivos": [
-    "Capitalización total -4.87% en 24 h con miedo extremo (índice 29) y tendencia de caída en 7 días en casi todas las monedas.",
-    "Secuela del hackeo de Binance (~6.300 M$) y congelación de 1.100 M$ en USDC: incertidumbre sobre liquidez y riesgo de contraparte, sin afectar directamente a las monedas operadas.",
-    "Sanciones de FinCEN contra MEXC y cortes bancarios: noticia negativa relevante pero no grave para las monedas del bot.",
-    "No hay eventos macro de alto impacto en las próximas 24 h ni caída de -7% o peor, por lo que no procede pausa."
+    "Capitalización total -4.75% en 24 h con venta global de activos tecnológicos: volatilidad elevada.",
+    "Índice Miedo/Codicia en 29 (miedo) y sostenido en la franja de miedo durante la última semana.",
+    "Secuela del hackeo de Binance (6.300 M$) y sanción de FinCEN a MEXC: noticias negativas relevantes pero no afectan directamente a las monedas operadas.",
+    "Sin eventos económicos USD de alto impacto en las próximas 24 h; BTC cae solo -0.7% en 24 h, sin señal de pánico de mercado.",
+    "Ni el caso de Binance ni el de MEXC implican halt, depeg o delist de las 10 monedas del bot, por lo que no justifican pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-09T00:59:57+00:00",
-  "valido_hasta": "2026-11-09T03:59:57+00:00",
+  "generado": "2026-11-09T02:06:26+00:00",
+  "valido_hasta": "2026-11-09T05:06:26+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -4.87,
-    "noticias_analizadas": 19,
+    "cambio_mercado_24h": -4.75,
+    "noticias_analizadas": 18,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -55,20 +56,20 @@
       "link": "https://news.bitcoin.com/featured/saylor-shares-64b-bitcoin-chart-stirring-strategy-buy-questions/"
     },
     {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "titulo": "Coinbase Explains Cold-Storage Defences After Binance Breach Shakes Crypto Industry",
+      "fuente": "NewsBTC",
+      "link": "https://www.newsbtc.com/security/coinbase-explains-cold-storage-defences-after-binance-breach-shakes-crypto-industry/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6900,
+    "input_tokens": 6760,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 633,
+    "output_tokens": 625,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
