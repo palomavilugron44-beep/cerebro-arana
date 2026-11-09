@@ -1,23 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 29) tras una semana volátil con liquidaciones y caídas de BTC hasta mínimos de 11 semanas, aunque la capitalización total apenas cae 0.42% en 24 h. Mañana a las 13:30 UTC se publican el IPC y el IPC subyacente de EE. UU., un dato macro de alto impacto dentro de las próximas 24 h, lo que justifica cautela general. No hay señales de hackeo que afecte directamente a las monedas operadas ni acción regulatoria grave contra ellas, así que no se aplica pausa.",
+  "resumen": "El mercado está en miedo (índice 29) con la capitalización total apenas -0.83% en 24 h, sin caídas bruscas. Hay un dato macro de alto impacto (CPI de EE. UU. el 10 de noviembre a las 13:30 UTC), que cae dentro de las próximas 24 h, por lo que procede cautela general. No hay señales de pausa: el hackeo de Binance ya está en las noticias, pero los analistas describen contagio limitado y BTC ha caído solo ~6%.",
   "motivos": [
-    "Índice Miedo/Codicia en 29 (miedo) con tendencia a la baja en la última semana.",
-    "IPC y IPC subyacente de EE. UU. el 10/11 a las 13:30 UTC, con posibilidad de apuesta por subida de tipos en diciembre.",
-    "Hackeo de Binance (~6.300 M$) con caída de BTC de ~6%, pero Binance cubre las pérdidas de usuarios y los analistas no ven contagio amplio; no justifica pausa.",
-    "Sin riesgo anómalo (halt, depeg, delist) ni sanción específica contra las 10 monedas operadas."
+    "Índice Miedo/Codicia en 29 (miedo) con tendencia bajista en la última semana.",
+    "Dato macro de alto impacto (CPI EE. UU.) el 10/11 a las 13:30 UTC, dentro de las próximas 24 h.",
+    "Hackeo de Binance (~6.300 M$) con analistas que no ven contagio amplio; capitalización total solo -0.83% en 24 h, sin caída brusca que justifique pausa.",
+    "Ninguna moneda muestra situación anómala (halt, depeg o delist) ni riesgo específico grave."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-09T22:44:00+00:00",
-  "valido_hasta": "2026-11-10T01:44:00+00:00",
+  "generado": "2026-11-09T23:38:57+00:00",
+  "valido_hasta": "2026-11-10T02:38:57+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -0.42,
-    "noticias_analizadas": 59,
+    "cambio_mercado_24h": -0.83,
+    "noticias_analizadas": 56,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -61,14 +61,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9641,
+    "input_tokens": 9644,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 551,
+    "output_tokens": 504,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
