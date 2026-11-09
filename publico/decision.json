@@ -1,25 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 29) tras una caída de capitalización total del -4.54% en 24 h, con liquidaciones de más de 1.000 M$ el domingo y BTC perdiendo el nivel de 75.000 USD. Hay además un hackeo previo de Binance de 6.300 M$ todavía en recuperación, pero no hay evento macro de alto impacto en las próximas 24 h ni anomalía en las monedas operadas. Se recomienda cautela (mitad del tamaño) y no pausa, porque la caída no es catastrófica y el stop de la estrategia ya limita el riesgo.",
+  "resumen": "El mercado cripto cae un 5% en 24 h (capitalización total) con el índice Miedo/Codicia en 29 (miedo) y liquidaciones superiores a 1.000 millones de USD el domingo por la tarde. No hay eventos macro de alto impacto en las próximas 24 h ni un exploit activo que afecte directamente a las monedas operadas, así que no se justifica pausar, pero la volatilidad y el miedo elevado sí recomiendan reducir el tamaño de las compras nuevas. Se mantiene la cautela global sin restricciones adicionales por moneda.",
   "motivos": [
-    "Miedo (índice 29) y capitalización total -4.54% en 24 h con más de 1.000 M$ en liquidaciones.",
-    "Salidas netas de ETFs de BTC de 1.280 M$ la última semana, la mayor desde junio.",
-    "Hackeo de Binance de 6.300 M$ (29 de octubre) aún en recuperación; riesgo de sentimiento negativo, pero sin nueva anomalía confirmada.",
-    "Caídas 7 días de -6% a -12% en las altcoins, con volatilidad elevada.",
-    "Sin eventos macro USD de alto impacto en 24 h; no se justifica pausa.",
-    "Ninguna moneda muestra halt, depeg ni delist; no se aplican restricciones específicas."
+    "Capitalización total -5.01% en 24 h con liquidaciones superiores a 1.000 M USD: caída fuerte del mercado, por debajo del umbral de pausa (-7%).",
+    "Índice Miedo/Codicia en 29 (miedo), con 7 días en rango 25-50: incertidumbre elevada.",
+    "Flujos negativos en ETFs de Bitcoin (-1.280 M USD la última semana) y caída de tecnológicas, sin dato macro de alto impacto en 24 h.",
+    "Hackeo de Binance de octubre (6.300 M USD) y el puente tBTC ya en recuperación: riesgos previos, sin situación anómala activa en las monedas operadas.",
+    "Ninguna moneda muestra halt, depeg o delist; las caídas (XRP -6.4%, ETH -5.7% en 24 h) son acordes al mercado."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-09T09:07:26+00:00",
-  "valido_hasta": "2026-11-09T12:07:26+00:00",
+  "generado": "2026-11-09T10:02:38+00:00",
+  "valido_hasta": "2026-11-09T13:02:38+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -4.54,
-    "noticias_analizadas": 27,
+    "cambio_mercado_24h": -5.01,
+    "noticias_analizadas": 32,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -63,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7890,
+    "input_tokens": 8476,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 599,
+    "output_tokens": 633,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
