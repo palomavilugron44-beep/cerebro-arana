@@ -1,24 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "La capitalización total cae un 4.75% en 24 h y el índice Miedo/Codicia está en 29 (miedo), con el mercado devolviendo las ganancias post-electorales por una venta de tecnológicas globales. Tras el hackeo de Binance de octubre (6.300 M$) siguen llegando noticias de seguridad y de sanciones contra MEXC, aunque Binance ya restablece retiradas y no hay eventos macro de alto impacto en 24 h. Dado el miedo elevado y la volatilidad, se recomienda cautela general (mitad de tamaño) sin pausa, ya que no hay un riesgo concreto y grave que la justifique.",
+  "resumen": "El mercado cripto cae un 4.6% en 24 h con miedo (índice 29) y se han borrado los avances tras las elecciones de EE. UU., aunque sin evento macro de alto impacto en las próximas 24 h. Persisten noticias de seguridad relevantes (hackeo de 6.300 M$ a Binance en octubre con reanudación gradual de retiradas, congelación de 1.100 M$ en USDC, incidentes en Keplr y LNbits y sanciones a MEXC), que son negativas pero no afectan directamente a las monedas operadas. Dado el entorno de volatilidad e incertidumbre elevada, pero sin riesgo grave e inmediato sobre las monedas del bot, se recomienda cautela general.",
   "motivos": [
-    "Capitalización total -4.75% en 24 h con venta global de activos tecnológicos: volatilidad elevada.",
-    "Índice Miedo/Codicia en 29 (miedo) y sostenido en la franja de miedo durante la última semana.",
-    "Secuela del hackeo de Binance (6.300 M$) y sanción de FinCEN a MEXC: noticias negativas relevantes pero no afectan directamente a las monedas operadas.",
-    "Sin eventos económicos USD de alto impacto en las próximas 24 h; BTC cae solo -0.7% en 24 h, sin señal de pánico de mercado.",
-    "Ni el caso de Binance ni el de MEXC implican halt, depeg o delist de las 10 monedas del bot, por lo que no justifican pausa."
+    "Capitalización total -4.6% en 24 h con miedo (índice 29) y caídas en todas las monedas operadas.",
+    "Noticias negativas relevantes de seguridad (hackeo a Binance de ~6.300 M$, incidentes en Keplr y LNbits, sanciones a MEXC) que aumentan la incertidumbre, pero no son una situación grave e inmediata para las monedas del bot.",
+    "Sin eventos macro de alto impacto en las próximas 24 h, lo que descarta una pausa por dato macro.",
+    "No hay anomalías en las monedas operadas (sin halt, depeg ni delist), por lo que no se justifican restricciones por moneda."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-09T02:06:26+00:00",
-  "valido_hasta": "2026-11-09T05:06:26+00:00",
+  "generado": "2026-11-09T02:54:02+00:00",
+  "valido_hasta": "2026-11-09T05:54:02+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -4.75,
-    "noticias_analizadas": 18,
+    "cambio_mercado_24h": -4.6,
+    "noticias_analizadas": 19,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +61,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6760,
+    "input_tokens": 6914,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 625,
+    "output_tokens": 617,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
