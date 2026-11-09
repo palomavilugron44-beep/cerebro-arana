@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "La capitalización total cae un 6.18% en 24 h y el índice Miedo/Codicia está en 29 (miedo), con todas las monedas en negativo y caídas de entre -6% y -13% en 7 días. Las noticias recientes (hackeo de Binance de unos 6.300 M$ en octubre, con recuperación parcial en curso, y congelaciones de USDC y un exploit de LNbits) elevan la incertidumbre, pero no hay un evento grave e inmediato confirmado en las monedas operadas ni macro de alto impacto en 24 h. Se elige cautela general como medida prudente, sin pausa ni alerta sobre posiciones.",
+  "resumen": "El mercado está en miedo (índice 29) tras una caída de capitalización total del -4.54% en 24 h, con liquidaciones de más de 1.000 M$ el domingo y BTC perdiendo el nivel de 75.000 USD. Hay además un hackeo previo de Binance de 6.300 M$ todavía en recuperación, pero no hay evento macro de alto impacto en las próximas 24 h ni anomalía en las monedas operadas. Se recomienda cautela (mitad del tamaño) y no pausa, porque la caída no es catastrófica y el stop de la estrategia ya limita el riesgo.",
   "motivos": [
-    "Caída de la capitalización total de -6.18% en 24 h, cercana al umbral de pausa (-7%) sin llegar a él.",
-    "Índice Miedo/Codicia en 29 (miedo), con tendencia bajista en la última semana.",
-    "Todas las monedas operadas en negativo en 24 h y entre -4% y -13% en 7 días; XRP (-12.97% en 7 d) y ETH (-6.13% en 24 h) son las más débiles.",
-    "Contexto de seguridad: hackeo de Binance de unos 6.300 M$ (octubre) con retiradas restableciéndose gradualmente y congelación de 1.100 M$ en USDC; exploit de LNbits. No afectan directamente a las monedas operadas.",
-    "Sin eventos macro de alto impacto USD en las próximas 24 h."
+    "Miedo (índice 29) y capitalización total -4.54% en 24 h con más de 1.000 M$ en liquidaciones.",
+    "Salidas netas de ETFs de BTC de 1.280 M$ la última semana, la mayor desde junio.",
+    "Hackeo de Binance de 6.300 M$ (29 de octubre) aún en recuperación; riesgo de sentimiento negativo, pero sin nueva anomalía confirmada.",
+    "Caídas 7 días de -6% a -12% en las altcoins, con volatilidad elevada.",
+    "Sin eventos macro USD de alto impacto en 24 h; no se justifica pausa.",
+    "Ninguna moneda muestra halt, depeg ni delist; no se aplican restricciones específicas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-09T07:23:20+00:00",
-  "valido_hasta": "2026-11-09T10:23:20+00:00",
+  "generado": "2026-11-09T09:07:26+00:00",
+  "valido_hasta": "2026-11-09T12:07:26+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -6.18,
+    "cambio_mercado_24h": -4.54,
     "noticias_analizadas": 27,
     "articulos_leidos": 8,
     "fuentes": {
@@ -30,6 +31,11 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
+    {
+      "titulo": "Bitcoin Price Drops Below $74,000 as Liquidations Top $1 Billion",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-flash-drop-73477-liquidations/"
+    },
     {
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
@@ -51,25 +57,20 @@
       "link": "https://news.bitcoin.com/crypto-news/binance-restores-hype-apt-as-data-reveals-billions-in-reserve-outflows/"
     },
     {
-      "titulo": "Circle Says It Froze $1.1B in USDC Linked to Binance Hack Investigation",
-      "fuente": "NewsBTC",
-      "link": "https://www.newsbtc.com/security/circle-says-it-froze-1-1b-in-usdc-linked-to-binance-hack-investigation/"
-    },
-    {
-      "titulo": "Solana moves to scrap the transaction feature used in the $270 million Drift hack",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/tech/2026/11/09/solana-moves-to-scrap-the-transaction-feature-used-in-the-usd270-million-drift-hack"
+      "titulo": "Bitcoin ETFs shed $1.3B in biggest weekly outflow since late June",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/bitcoin-etfs-13b-biggest-weekly-outflow-late-june?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7790,
+    "input_tokens": 7890,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 639,
+    "output_tokens": 599,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
