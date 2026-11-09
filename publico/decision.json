@@ -1,25 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "La capitalización total cae un 4.94% en 24 h y el índice Miedo/Codicia está en 29 (miedo), con el mercado devolviendo las ganancias post-electorales en medio de una venta global de acciones tecnológicas. Tras el hackeo de ~6.300 M$ a Binance (29 de octubre) hay noticias de seguridad y regulatorias (FinCEN contra MEXC, incidente en Keplr y LNbits), pero no hay evento macro de alto impacto en las próximas 24 h ni una moneda en situación anómala. Ante la incertidumbre elevada se recomienda cautela global, sin pausa, dado que la caída no alcanza el umbral de -7% y los riesgos no afectan directamente a las monedas del bot.",
+  "resumen": "El mercado está en miedo (índice 29) con la capitalización total cayendo un 5.22% en 24 h, sin eventos macro de alto impacto en las próximas 24 h. Hay una secuela de seguridad relevante (hackeo de Binance de unos 6.300 M$ en octubre, con withdrawals aún reactivándose, y exploits en Keplr, LNbits y el puente tBTC), pero no afecta directamente a las monedas operadas ni hay una caída brusca con liquidaciones masivas que justifique pausar. Por ello se recomienda cautela global (mitad de tamaño) y no pausa.",
   "motivos": [
-    "Caída de la capitalización total del -4.94% en 24 h con liquidaciones de posiciones alcistas apalancadas, sin llegar al umbral de -7% para pausa.",
-    "Índice Miedo/Codicia en 29 (miedo) con tendencia negativa en los últimos 7 días, lo que indica incertidumbre elevada.",
-    "Noticias de seguridad relevantes pero no graves para las monedas operadas: secuela del hackeo de Binance, congelación de 1.100 M$ en USDC, restricciones a MEXC por FinCEN, incidentes en Keplr y LNbits.",
-    "Ninguna noticia indica hackeo, halt, depeg o delist de BTC, ETH, SOL, BNB, XRP, ADA, DOGE, LINK, AVAX o LTC.",
-    "No hay eventos económicos USD de alto impacto en las próximas 24 h."
+    "Miedo extremo sostenido (índice 29, con valores de 25-28 en varios días) y caída de la capitalización total de -5.22% en 24 h.",
+    "Secuela del hackeo de Binance (~6.300 M$, atribuido a hackers norcoreanos) con retiradas aún reactivándose: incertidumbre elevada sobre el exchange.",
+    "Exploits recientes en infraestructura (tBTC bridge pausado 9 días, Keplr/Web3Auth, LNbits) y sanciones de FinCEN contra MEXC: noticias negativas relevantes pero no operativas sobre las monedas del bot.",
+    "Ninguna moneda del bot muestra anomalía (halt, depeg, delist); todas caen entre -1% y -5% en 24 h, sin necesidad de tratamiento individual.",
+    "No hay eventos macro de alto impacto en 24 h; la decisión no se basa en ruido ni en titulares sensacionalistas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-09T03:54:33+00:00",
-  "valido_hasta": "2026-11-09T06:54:33+00:00",
+  "generado": "2026-11-09T05:01:55+00:00",
+  "valido_hasta": "2026-11-09T08:01:55+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -4.94,
-    "noticias_analizadas": 20,
-    "articulos_leidos": 7,
+    "cambio_mercado_24h": -5.22,
+    "noticias_analizadas": 24,
+    "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
@@ -31,9 +31,9 @@
   },
   "titulares": [
     {
-      "titulo": "Weekly Report: Crypto Market Erases $100B Rally as Bitcoin, XRP Prices Slide",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/weekly-report-crypto-market-erases-100b-rally-as-bitcoin-xrp-prices-slide/"
+      "titulo": "tBTC bridge partially resumes as $120M Aave reserve remains frozen",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/tbtc-bridge-resumes-aave-120m-reserve-frozen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "titulo": "Bitcoin drops, then pops as Nvidia cheating scandal and failed Iran talks trigger volatility",
@@ -56,20 +56,20 @@
       "link": "https://news.bitcoin.com/exchanges/okx-freezes-mexc-user-deposits-following-strict-fincen-order/"
     },
     {
-      "titulo": "Coinbase Explains Cold-Storage Defences After Binance Breach Shakes Crypto Industry",
+      "titulo": "BVNK Opens OUSD Minting and Payments Across Four Blockchains",
       "fuente": "NewsBTC",
-      "link": "https://www.newsbtc.com/security/coinbase-explains-cold-storage-defences-after-binance-breach-shakes-crypto-industry/"
+      "link": "https://www.newsbtc.com/technology/bvnk-opens-ousd-minting-and-payments-across-four-blockchains/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6709,
+    "input_tokens": 7473,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 698,
+    "output_tokens": 672,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
