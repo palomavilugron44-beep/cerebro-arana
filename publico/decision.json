@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 29) tras una caída de la capitalización total del -5.45% en 24 h, con XRP, ETH y el resto de altcoins cayendo entre -3% y -6%. Hay un clima de incertidumbre por el hackeo de Binance de octubre (~6.300 M$, con retiradas aún reactivándose), la clausura de Binance Francia y las secuelas de las elecciones de EE. UU.; no hay evento macro de alto impacto en 24 h. No llega a justificar una pausa, así que conviene la cautela (mitad de tamaño) de forma general.",
+  "resumen": "La capitalización total cae un 6.18% en 24 h y el índice Miedo/Codicia está en 29 (miedo), con todas las monedas en negativo y caídas de entre -6% y -13% en 7 días. Las noticias recientes (hackeo de Binance de unos 6.300 M$ en octubre, con recuperación parcial en curso, y congelaciones de USDC y un exploit de LNbits) elevan la incertidumbre, pero no hay un evento grave e inmediato confirmado en las monedas operadas ni macro de alto impacto en 24 h. Se elige cautela general como medida prudente, sin pausa ni alerta sobre posiciones.",
   "motivos": [
-    "Miedo en el mercado (índice 29) y caída de la capitalización total del -5.45% en 24 h, con volatilidad fuerte.",
-    "Incertidumbre por el hackeo de Binance de octubre (~6.300 M$) y el proceso de recuperación gradual de sus servicios.",
-    "Noticias negativas relevantes pero no graves: cierre de Binance Francia, sanciones del Tesoro de EE. UU. a casas de cambio canadienses, incidencia de Keplr/Web3Auth y LNbits.",
-    "No hay riesgo grave e inmediato contra una moneda concreta ni dato macro de alto impacto en las próximas 24 h, así que no procede pausa.",
-    "Sin monedas en situación anómala (halt, depeg o delist) según los datos."
+    "Caída de la capitalización total de -6.18% en 24 h, cercana al umbral de pausa (-7%) sin llegar a él.",
+    "Índice Miedo/Codicia en 29 (miedo), con tendencia bajista en la última semana.",
+    "Todas las monedas operadas en negativo en 24 h y entre -4% y -13% en 7 días; XRP (-12.97% en 7 d) y ETH (-6.13% en 24 h) son las más débiles.",
+    "Contexto de seguridad: hackeo de Binance de unos 6.300 M$ (octubre) con retiradas restableciéndose gradualmente y congelación de 1.100 M$ en USDC; exploit de LNbits. No afectan directamente a las monedas operadas.",
+    "Sin eventos macro de alto impacto USD en las próximas 24 h."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-09T06:01:34+00:00",
-  "valido_hasta": "2026-11-09T09:01:34+00:00",
+  "generado": "2026-11-09T07:23:20+00:00",
+  "valido_hasta": "2026-11-09T10:23:20+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -5.45,
-    "noticias_analizadas": 26,
+    "cambio_mercado_24h": -6.18,
+    "noticias_analizadas": 27,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -56,20 +56,20 @@
       "link": "https://www.newsbtc.com/security/circle-says-it-froze-1-1b-in-usdc-linked-to-binance-hack-investigation/"
     },
     {
-      "titulo": "BVNK Opens OUSD Minting and Payments Across Four Blockchains",
-      "fuente": "NewsBTC",
-      "link": "https://www.newsbtc.com/technology/bvnk-opens-ousd-minting-and-payments-across-four-blockchains/"
+      "titulo": "Solana moves to scrap the transaction feature used in the $270 million Drift hack",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/tech/2026/11/09/solana-moves-to-scrap-the-transaction-feature-used-in-the-usd270-million-drift-hack"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7676,
+    "input_tokens": 7790,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 604,
+    "output_tokens": 639,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
