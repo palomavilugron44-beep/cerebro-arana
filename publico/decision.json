@@ -1,23 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 29) con la capitalización total -2.98% en 24 h y liquidaciones de unos 1.200 M$, y BTC ha caído a mínimos de once semanas cerca de 73.500-75.000 USD. El dato de IPC de EE. UU. (CPI y Core CPI) se publica mañana 10 de noviembre a las 13:30 UTC, dentro de las próximas 24 h, lo que justifica cautela. No hay señales de hackeo que afecten a las monedas operadas ni de halt o depeg; el hackeo de Binance es un evento existente con contención según los analistas, así que no justifica pausa.",
+  "resumen": "El mercado está en miedo (índice 29) con la capitalización total cayendo un 3.29% en 24 h tras liquidaciones por más de 1.200 M$, y el BTC ronda los 75.000 USD cerca de mínimos de varias semanas. Además, mañana a las 13:30 UTC se publica el IPC de EE. UU., un dato macro de alto impacto dentro de las próximas 24 h, lo que justifica cautela general. El hackeo de Binance (6.300 M$) se considera contenido por los analistas y no altera por sí solo la estrategia, así que no se aplica pausa.",
   "motivos": [
-    "Evento macro de alto impacto (IPC de EE. UU.) previsto para el 10/11 a las 13:30 UTC, dentro de las próximas 24 h.",
-    "Miedo en el mercado (índice 29) y caída de la capitalización total de -2.98% en 24 h con más de 1.200 M$ en liquidaciones.",
-    "BTC en mínimos de once semanas y ETH, XRP y SOL con caídas de entre -3% y -5% en 24 h, aunque sin noticias de halt, depeg ni acción regulatoria grave sobre estas monedas.",
-    "El hackeo de Binance (6.300 M$) ya existe y los analistas no ven contagio; no se considera riesgo nuevo que justifique pausa."
+    "Índice Miedo/Codicia en 29 (Miedo) y capitalización total -3.29% en 24 h con liquidaciones de más de 1.200 M$.",
+    "Publicación del IPC (Core CPI y CPI m/m) el 10/11 a las 13:30 UTC, dentro de las próximas 24 h, con expectativas de posible subida de tipos de la Fed en diciembre.",
+    "Hackeo de Binance de ~6.300 M$: los analistas no ven contagio y Binance cubre las pérdidas de usuarios; riesgo relevante pero no grave para las monedas operadas.",
+    "ETH (-4.36% 24 h, -5.5% 7 d) y XRP (-4.78% 24 h, -11.88% 7 d) muestran la mayor debilidad, pero sin situación anómala (halt, depeg o delist), por lo que no se aplican restricciones por moneda."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-09T19:54:34+00:00",
-  "valido_hasta": "2026-11-09T22:54:34+00:00",
+  "generado": "2026-11-09T20:51:30+00:00",
+  "valido_hasta": "2026-11-09T23:51:30+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -2.98,
-    "noticias_analizadas": 59,
+    "cambio_mercado_24h": -3.29,
+    "noticias_analizadas": 61,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -50,25 +50,25 @@
       "link": "https://www.coindesk.com/business/2026/11/06/solana-lset-for-its-first-tokenized-stock-venue-under-sec-framework-listing-galaxy"
     },
     {
-      "titulo": "Binance Hack Launderers Mint Elon Musk and Animal Meme Coins to Move Stolen Crypto",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/382873/binance-hack-elon-musk-animal-meme-coins-launder-stolen-crypto"
+      "titulo": "Bitcoin’s 6% Price Drop After $6.3B Binance Hack Signals Maturity: Fitch Ratings",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/featured/bitcoin-6-percent-price-drop-after-binance-hack-signals-maturity-fitch/"
     },
     {
-      "titulo": "Bitcoin Price Struggles Below $75K as $1.2B in Crypto Bets Get Wiped Out",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-struggles-below-75k-1-2b-crypto-bets-wiped-out/"
+      "titulo": "North Korean hackers create memecoins to launder funds from Binance hack: Elliptic",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/north-korean-hackers-memecoins-launder-binance-hack-elliptic?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9497,
+    "input_tokens": 9527,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 605,
+    "output_tokens": 645,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
