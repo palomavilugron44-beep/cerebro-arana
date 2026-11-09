@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae un 4.6% en 24 h con miedo (índice 29) y se han borrado los avances tras las elecciones de EE. UU., aunque sin evento macro de alto impacto en las próximas 24 h. Persisten noticias de seguridad relevantes (hackeo de 6.300 M$ a Binance en octubre con reanudación gradual de retiradas, congelación de 1.100 M$ en USDC, incidentes en Keplr y LNbits y sanciones a MEXC), que son negativas pero no afectan directamente a las monedas operadas. Dado el entorno de volatilidad e incertidumbre elevada, pero sin riesgo grave e inmediato sobre las monedas del bot, se recomienda cautela general.",
+  "resumen": "La capitalización total cae un 4.94% en 24 h y el índice Miedo/Codicia está en 29 (miedo), con el mercado devolviendo las ganancias post-electorales en medio de una venta global de acciones tecnológicas. Tras el hackeo de ~6.300 M$ a Binance (29 de octubre) hay noticias de seguridad y regulatorias (FinCEN contra MEXC, incidente en Keplr y LNbits), pero no hay evento macro de alto impacto en las próximas 24 h ni una moneda en situación anómala. Ante la incertidumbre elevada se recomienda cautela global, sin pausa, dado que la caída no alcanza el umbral de -7% y los riesgos no afectan directamente a las monedas del bot.",
   "motivos": [
-    "Capitalización total -4.6% en 24 h con miedo (índice 29) y caídas en todas las monedas operadas.",
-    "Noticias negativas relevantes de seguridad (hackeo a Binance de ~6.300 M$, incidentes en Keplr y LNbits, sanciones a MEXC) que aumentan la incertidumbre, pero no son una situación grave e inmediata para las monedas del bot.",
-    "Sin eventos macro de alto impacto en las próximas 24 h, lo que descarta una pausa por dato macro.",
-    "No hay anomalías en las monedas operadas (sin halt, depeg ni delist), por lo que no se justifican restricciones por moneda."
+    "Caída de la capitalización total del -4.94% en 24 h con liquidaciones de posiciones alcistas apalancadas, sin llegar al umbral de -7% para pausa.",
+    "Índice Miedo/Codicia en 29 (miedo) con tendencia negativa en los últimos 7 días, lo que indica incertidumbre elevada.",
+    "Noticias de seguridad relevantes pero no graves para las monedas operadas: secuela del hackeo de Binance, congelación de 1.100 M$ en USDC, restricciones a MEXC por FinCEN, incidentes en Keplr y LNbits.",
+    "Ninguna noticia indica hackeo, halt, depeg o delist de BTC, ETH, SOL, BNB, XRP, ADA, DOGE, LINK, AVAX o LTC.",
+    "No hay eventos económicos USD de alto impacto en las próximas 24 h."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-09T02:54:02+00:00",
-  "valido_hasta": "2026-11-09T05:54:02+00:00",
+  "generado": "2026-11-09T03:54:33+00:00",
+  "valido_hasta": "2026-11-09T06:54:33+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -4.6,
-    "noticias_analizadas": 19,
-    "articulos_leidos": 8,
+    "cambio_mercado_24h": -4.94,
+    "noticias_analizadas": 20,
+    "articulos_leidos": 7,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
@@ -33,6 +34,11 @@
       "titulo": "Weekly Report: Crypto Market Erases $100B Rally as Bitcoin, XRP Prices Slide",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/weekly-report-crypto-market-erases-100b-rally-as-bitcoin-xrp-prices-slide/"
+    },
+    {
+      "titulo": "Bitcoin drops, then pops as Nvidia cheating scandal and failed Iran talks trigger volatility",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/09/bitcoin-drops-then-pops-as-nvidia-cheating-scandal-and-failed-iran-talks-trigger-volatility"
     },
     {
       "titulo": "Binance Restores HYPE, APT as Data Reveals Billions in Reserve Outflows",
@@ -50,25 +56,20 @@
       "link": "https://news.bitcoin.com/exchanges/okx-freezes-mexc-user-deposits-following-strict-fincen-order/"
     },
     {
-      "titulo": "Saylor Shares $64B Bitcoin Chart, Stirring Strategy Buy Questions",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/featured/saylor-shares-64b-bitcoin-chart-stirring-strategy-buy-questions/"
-    },
-    {
       "titulo": "Coinbase Explains Cold-Storage Defences After Binance Breach Shakes Crypto Industry",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/security/coinbase-explains-cold-storage-defences-after-binance-breach-shakes-crypto-industry/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6914,
+    "input_tokens": 6709,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 617,
+    "output_tokens": 698,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
