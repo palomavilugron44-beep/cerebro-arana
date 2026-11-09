@@ -1,25 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae un 4.72% en 24 h tras liquidaciones superiores a 1.000 M$, con el miedo en 29 y salidas de ETFs de BTC de 1.280 M$ la última semana. Hay incertidumbre elevada por la caída tecnológica ligada a Nvidia y por los datos de inflación (CPI/PPI) de esta semana, aunque no hay un evento de muy alto impacto en las próximas 2-3 horas ni un riesgo grave e inmediato sobre una red o exchange. Por ello se recomienda cautela global, sin pausa ni monedas específicas.",
+  "resumen": "La capitalización total cae -5.33% en 24 h y el índice Miedo/Codicia está en 29 (miedo), con liquidaciones de más de 1.000 M$ tras el fin de semana y salidas de ETF de Bitcoin de 1.300 M$ la semana pasada. Hay volatilidad elevada impulsada por la caída tecnológica ligada a Nvidia, y la inflación (CPI/PPI) de esta semana añade incertidumbre, aunque no hay un evento macro de alto impacto en las próximas 24 h. No se observa un exploit ni una situación anómala en las monedas operadas, así que se recomienda cautela (mitad de tamaño) en lugar de pausa.",
   "motivos": [
-    "Caída de capitalización total -4.72% en 24 h con más de 1.000 M$ liquidados en las últimas horas",
-    "Índice Miedo/Codicia en 29 (miedo) con tendencia bajista en la última semana",
-    "Salidas netas de 1.280 M$ de ETFs spot de BTC la semana pasada, las mayores desde junio",
-    "Incertidumbre por datos de inflación (CPI/PPI) de esta semana, con evento macro importante dentro de 24 h",
-    "Presión vendedora ligada a Nvidia que arrastra a BTC, ETH y las altcoins",
-    "Hackeo de Binance de 6.300 M$ mencionado en el contexto, pero sin evento nuevo que requiera pausa; el cierre de Binance France y la mina de Binance no son riesgos graves inmediatos"
+    "Caída de la capitalización total de -5.33% en 24 h con liquidaciones superiores a 1.000 M$ (volatilidad fuerte).",
+    "Índice Miedo/Codicia en 29 (miedo), con 7 días consecutivos en rango de miedo salvo un día puntual.",
+    "Salidas netas de 1.280 M$ de ETF spot de Bitcoin la semana pasada, la mayor desde junio.",
+    "Incertidumbre por la venta tecnológica ligada a Nvidia y por los datos de inflación (CPI/PPI) de esta semana.",
+    "Sin exploit ni anomalía confirmada en las monedas operadas; la noticia del hackeo de Binance es previa y no es un riesgo nuevo y grave para el bot.",
+    "La caída de la capitalización no llega al umbral de -7% para pausa, y no hay evento macro de muy alto impacto en 2-3 horas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-09T11:55:39+00:00",
-  "valido_hasta": "2026-11-09T14:55:39+00:00",
+  "generado": "2026-11-09T13:06:49+00:00",
+  "valido_hasta": "2026-11-09T16:06:49+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -4.72,
-    "noticias_analizadas": 40,
+    "cambio_mercado_24h": -5.33,
+    "noticias_analizadas": 45,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -31,6 +31,16 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
+    {
+      "titulo": "Solana set for its first tokenized stock venue under SEC framework, listing Galaxy",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/business/2026/11/06/solana-lset-for-its-first-tokenized-stock-venue-under-sec-framework-listing-galaxy"
+    },
+    {
+      "titulo": "Trump says he knows ‘nothing’ about World Liberty’s UAE ties as Justin Sun challenges filings",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/business/2026/11/09/trump-says-he-knows-nothing-about-world-liberty-s-uae-ties-as-justin-sun-challenges-filings"
+    },
     {
       "titulo": "Bitcoin Price Drops Below $74,000 as Liquidations Top $1 Billion",
       "fuente": "Bitcoin.com",
@@ -47,30 +57,20 @@
       "link": "https://cointelegraph.com/news/tbtc-bridge-resumes-aave-120m-reserve-frozen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "titulo": "Bitcoin drops, then pops as Nvidia cheating scandal and failed Iran talks trigger volatility",
+      "titulo": "Bitcoin drops as Nvidia cheating scandal and failed Iran talks trigger volatility",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/09/bitcoin-drops-then-pops-as-nvidia-cheating-scandal-and-failed-iran-talks-trigger-volatility"
-    },
-    {
-      "titulo": "Coinbase Joins Circle, Ripple With Final OCC Approval for Federal Trust Bank Charter",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/382816/coinbase-joins-circle-ripple-with-final-occ-approval-for-federal-trust-bank-charter"
-    },
-    {
-      "titulo": "Nvidia-led tech selloff weighs on crypto majors",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/09/tech-selloff-weighs-on-crypto-majors"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9319,
+    "input_tokens": 9237,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 625,
+    "output_tokens": 685,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
