@@ -1,24 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cae con miedo (índice 29) y la capitalización total baja un 3.15% en 24 h, con BTC cerca de mínimos de 11 semanas y más de 1.200 M$ en liquidaciones tras la última caída. Hay un evento macro de alto impacto mañana (CPI y Core CPI el 10/11 a las 13:30 UTC), dentro de las próximas 24 h, lo que justifica prudencia. No hay un riesgo grave e inmediato que obligue a pausar: el hackeo de Binance y el de Mercado Bitcoin son incidentes ya conocidos y contenidos, y las noticias institucionales son mayormente neutras o positivas.",
+  "resumen": "El mercado está en miedo (índice 29) con la capitalización total -2.98% en 24 h y liquidaciones de unos 1.200 M$, y BTC ha caído a mínimos de once semanas cerca de 73.500-75.000 USD. El dato de IPC de EE. UU. (CPI y Core CPI) se publica mañana 10 de noviembre a las 13:30 UTC, dentro de las próximas 24 h, lo que justifica cautela. No hay señales de hackeo que afecten a las monedas operadas ni de halt o depeg; el hackeo de Binance es un evento existente con contención según los analistas, así que no justifica pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 29 (miedo) y caída de capitalización total de -3.15% en 24 h.",
-    "Evento macro importante dentro de 24 h: CPI y Core CPI de USD el 10/11 a las 13:30 UTC, con el dato de CPI previsto (0.3%) por debajo del anterior (0.6%).",
-    "BTC en mínimos de unas 11 semanas (~73.500 USD) y más de 1.200 M$ en liquidaciones; volatilidad elevada.",
-    "Hackeo de Binance (6.300 M$) y hackeo de Mercado Bitcoin (49 M$) ya conocidos; los datos disponibles indican contención y no hay señales de contagio a todo el mercado.",
-    "XRP con caída de -12.5% en 7 días, pero sin situación anómala (halt, depeg o delist); no justifica medida por moneda."
+    "Evento macro de alto impacto (IPC de EE. UU.) previsto para el 10/11 a las 13:30 UTC, dentro de las próximas 24 h.",
+    "Miedo en el mercado (índice 29) y caída de la capitalización total de -2.98% en 24 h con más de 1.200 M$ en liquidaciones.",
+    "BTC en mínimos de once semanas y ETH, XRP y SOL con caídas de entre -3% y -5% en 24 h, aunque sin noticias de halt, depeg ni acción regulatoria grave sobre estas monedas.",
+    "El hackeo de Binance (6.300 M$) ya existe y los analistas no ven contagio; no se considera riesgo nuevo que justifique pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-09T18:53:05+00:00",
-  "valido_hasta": "2026-11-09T21:53:05+00:00",
+  "generado": "2026-11-09T19:54:34+00:00",
+  "valido_hasta": "2026-11-09T22:54:34+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -3.15,
-    "noticias_analizadas": 57,
+    "cambio_mercado_24h": -2.98,
+    "noticias_analizadas": 59,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -31,6 +30,16 @@
   },
   "titulares": [
     {
+      "titulo": "Bitcoin in Limbo as Stocks Rebound Ahead of US Inflation Report",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/382861/bitcoin-limbo-stocks-rebound-us-inflation"
+    },
+    {
+      "titulo": "US Sanctions More Prince Group-Linked Companies as Crypto Scam Network Crackdown Widens",
+      "fuente": "NewsBTC",
+      "link": "https://www.newsbtc.com/news/us-sanctions-more-prince-group-linked-companies-as-crypto-scam-network-crackdown-widens/"
+    },
+    {
       "titulo": "Charles Schwab Opens Crypto Trading Beyond Bitcoin and Ether",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/featured/charles-schwab-opens-crypto-trading-beyond-bitcoin-ether/"
@@ -41,35 +50,25 @@
       "link": "https://www.coindesk.com/business/2026/11/06/solana-lset-for-its-first-tokenized-stock-venue-under-sec-framework-listing-galaxy"
     },
     {
+      "titulo": "Binance Hack Launderers Mint Elon Musk and Animal Meme Coins to Move Stolen Crypto",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/382873/binance-hack-elon-musk-animal-meme-coins-launder-stolen-crypto"
+    },
+    {
       "titulo": "Bitcoin Price Struggles Below $75K as $1.2B in Crypto Bets Get Wiped Out",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-struggles-below-75k-1-2b-crypto-bets-wiped-out/"
-    },
-    {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "The $2.85B Binance hackers lost shows why the UK needs stablecoin freeze rules",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/opinion/285b-binance-hackers-lost-shows-why-uk-needs-stablecoin-freeze-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Trump says he knows ‘nothing’ about World Liberty’s UAE ties as Justin Sun challenges filings",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/business/2026/11/09/trump-says-he-knows-nothing-about-world-liberty-s-uae-ties-as-justin-sun-challenges-filings"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9576,
+    "input_tokens": 9497,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 670,
+    "output_tokens": 605,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
