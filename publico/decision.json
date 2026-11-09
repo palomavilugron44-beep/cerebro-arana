@@ -1,22 +1,22 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae un 4.51% en 24 h con miedo (índice 28) y la capitalización ha borrado las ganancias post-electorales, aunque no hay eventos macro de alto impacto en las próximas 24 h. Persisten noticias negativas relevantes (hackeo de 6.300 M$ a Binance en octubre con recuperación gradual, congelación de 1.100 M$ en USDC, sanciones de FinCEN contra MEXC y brecha en Keplr/LNbits), pero no afectan directamente a las monedas operadas ni son un riesgo grave e inmediato. Se opta por cautela global por la volatilidad y la incertidumbre, sin pausa.",
+  "resumen": "El mercado cripto cae -4.87% en 24 h (ETH -4.1%, XRP -3.85%) con miedo (índice 29) tras borrar las ganancias postelectorales, en un contexto de venta de acciones tecnológicas globales. Hay noticias negativas relevantes (hackeo de Binance de octubre por unos 6.300 M$ que sigue en recuperación, congelación de 1.100 M$ en USDC, sanciones de FinCEN contra MEXC y varias brechas de seguridad menores), pero no hay una caída de capitalización de -7% ni un halt, depeg o evento macro de alto impacto en las próximas 24 h. Se elige cautela general (mitad de tamaño) y no pausa, ya que la estrategia tiene su propio stop.",
   "motivos": [
-    "Capitalización total -4.51% en 24 h y miedo extremo (índice 28), con caídas de 7 días de entre -4% y -11% en las monedas operadas",
-    "Noticias negativas relevantes pero no graves: secuela del hackeo a Binance, sanciones de FinCEN contra MEXC, brechas en Keplr y LNbits",
-    "Sin eventos macro de alto impacto en las próximas 24 h, por lo que no procede pausa",
-    "Las monedas operadas caen en conjunto (-2% a -4% en 24 h), sin anomalías de halt, depeg o delist que justifiquen medidas por moneda"
+    "Capitalización total -4.87% en 24 h con miedo extremo (índice 29) y tendencia de caída en 7 días en casi todas las monedas.",
+    "Secuela del hackeo de Binance (~6.300 M$) y congelación de 1.100 M$ en USDC: incertidumbre sobre liquidez y riesgo de contraparte, sin afectar directamente a las monedas operadas.",
+    "Sanciones de FinCEN contra MEXC y cortes bancarios: noticia negativa relevante pero no grave para las monedas del bot.",
+    "No hay eventos macro de alto impacto en las próximas 24 h ni caída de -7% o peor, por lo que no procede pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-08T23:36:07+00:00",
-  "valido_hasta": "2026-11-09T02:36:07+00:00",
+  "generado": "2026-11-09T00:59:57+00:00",
+  "valido_hasta": "2026-11-09T03:59:57+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
-    "miedo_codicia": 28,
-    "cambio_mercado_24h": -4.51,
+    "miedo_codicia": 29,
+    "cambio_mercado_24h": -4.87,
     "noticias_analizadas": 19,
     "articulos_leidos": 8,
     "fuentes": {
@@ -61,14 +61,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6838,
+    "input_tokens": 6900,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 583,
+    "output_tokens": 633,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
