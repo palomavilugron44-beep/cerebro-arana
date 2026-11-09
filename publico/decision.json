@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 29) tras una caída de la capitalización total del -4.59% en 24 h, con liquidaciones superiores a 1.000 millones de dólares y BTC cerca de 74.000 USD, su nivel más bajo desde agosto. Hay además datos de inflación de EE. UU. (Core CPI y CPI m/m) previstos para mañana a las 13:30 UTC, dentro de las próximas 24 h, lo que justifica cautela. No hay un hackeo que afecte a las redes de las monedas operadas ni una medida regulatoria grave contra ellas, así que no procede pausa.",
+  "resumen": "El mercado está en miedo (índice 29) con la capitalización total cayendo -2.58% en 24 h tras una venta del sector tecnológico ligada a Nvidia y liquidaciones de más de 1.000 M$ el domingo. El dato de IPC de USD (CPI m/m y core) llega mañana a las 13:30 UTC, dentro de las próximas 24 h, lo que justifica cautela general. No hay un hackeo que afecte directamente a las monedas operadas, así que no se considera pausa; ETH muestra la peor caída relativa y se pone en cautela adicional.",
   "motivos": [
-    "Índice Miedo/Codicia en 29 (miedo) y caída de la capitalización total del -4.59% en 24 h con liquidaciones de más de 1.000 M$.",
-    "Publicación de Core CPI y CPI m/m de EE. UU. el 10/11 a las 13:30 UTC, evento macro importante dentro de las próximas 24 h.",
-    "Hackeo de Binance (6.300 M$) con cobertura de pérdidas anunciada por Binance y análisis que ven contención; no afecta directamente a las monedas operadas, por lo que no justifica pausa.",
-    "Monedas operadas en general con caídas de 7 días (XRP -12.3%, ETH -6.9%, SOL -7.7%) sin situación anómala (halt, depeg o delist) detectada."
+    "Índice Miedo/Codicia en 29 (Miedo) con tendencia bajista en la última semana.",
+    "Capitalización total -2.58% en 24 h y BTC -3.93% en 7 d; liquidaciones de más de 1.000 M$ el domingo.",
+    "IPC de EE. UU. (CPI y core m/m) previsto para mañana 2026-11-10 13:30 UTC: evento macro importante dentro de 24 h.",
+    "ETH cae -4.14% en 24 h y -6.91% en 7 d, la peor caída relativa del grupo junto con XRP en 7 d.",
+    "El hack de Binance (6.300 M$) se considera contenido según los analistas; no se identifica riesgo grave e inmediato sobre las monedas operadas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-09T14:22:27+00:00",
-  "valido_hasta": "2026-11-09T17:22:27+00:00",
+  "generado": "2026-11-09T15:59:03+00:00",
+  "valido_hasta": "2026-11-09T18:59:03+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -4.59,
-    "noticias_analizadas": 51,
+    "cambio_mercado_24h": -2.58,
+    "noticias_analizadas": 53,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -29,6 +30,11 @@
     "eventos_usd_24h": 2
   },
   "titulares": [
+    {
+      "titulo": "Charles Schwab Opens Crypto Trading Beyond Bitcoin and Ether",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/featured/charles-schwab-opens-crypto-trading-beyond-bitcoin-ether/"
+    },
     {
       "titulo": "Solana set for its first tokenized stock venue under SEC framework, listing Galaxy",
       "fuente": "CoinDesk",
@@ -53,22 +59,17 @@
       "titulo": "Bitcoin Price Drops Below $74,000 as Liquidations Top $1 Billion",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-flash-drop-73477-liquidations/"
-    },
-    {
-      "titulo": "tBTC bridge partially resumes as $120M Aave reserve remains frozen",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/tbtc-bridge-resumes-aave-120m-reserve-frozen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9438,
+    "input_tokens": 9462,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 614,
+    "output_tokens": 663,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
