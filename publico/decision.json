@@ -1,23 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 29) con la capitalización total -3.08% en 24 h y BTC cerca de 75.000 USD tras liquidaciones, en un contexto de tecnológicas bajo presión. Mañana a las 13:30 UTC se publican el IPC y el Core CPI, un dato macro de alto impacto dentro de las próximas 24 h, lo que justifica cautela general. El hackeo de Binance (~6.300 M USD) es grave, pero Binance cubre las pérdidas de usuarios y los analistas no ven contagio, así que no basta para pausar.",
+  "resumen": "El mercado está en miedo (índice 29) tras una semana volátil con liquidaciones y caídas de BTC hasta mínimos de 11 semanas, aunque la capitalización total apenas cae 0.42% en 24 h. Mañana a las 13:30 UTC se publican el IPC y el IPC subyacente de EE. UU., un dato macro de alto impacto dentro de las próximas 24 h, lo que justifica cautela general. No hay señales de hackeo que afecte directamente a las monedas operadas ni acción regulatoria grave contra ellas, así que no se aplica pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 29 (miedo) con caídas recientes de la capitalización total (-3.08% en 24 h).",
-    "Publicación de IPC y Core CPI de EE. UU. mañana 10/11 a las 13:30 UTC, dentro de las próximas 24 h, con expectativas de posible subida de tipos de la Fed en diciembre.",
-    "Hackeo de Binance por ~6.300 M USD: riesgo sistémico acotado según analistas, Binance cubre pérdidas de usuarios y BTC cayó solo ~6%; no se considera pausa.",
-    "Ninguna moneda muestra situación anómala (halt, depeg o delist); XRP y ETH caen más fuerte (-4.5% y -4.1% en 24 h) pero sin evento específico grave, por lo que no se aplica tratamiento individual."
+    "Índice Miedo/Codicia en 29 (miedo) con tendencia a la baja en la última semana.",
+    "IPC y IPC subyacente de EE. UU. el 10/11 a las 13:30 UTC, con posibilidad de apuesta por subida de tipos en diciembre.",
+    "Hackeo de Binance (~6.300 M$) con caída de BTC de ~6%, pero Binance cubre las pérdidas de usuarios y los analistas no ven contagio amplio; no justifica pausa.",
+    "Sin riesgo anómalo (halt, depeg, delist) ni sanción específica contra las 10 monedas operadas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-09T21:48:06+00:00",
-  "valido_hasta": "2026-11-10T00:48:06+00:00",
+  "generado": "2026-11-09T22:44:00+00:00",
+  "valido_hasta": "2026-11-10T01:44:00+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -3.08,
-    "noticias_analizadas": 61,
+    "cambio_mercado_24h": -0.42,
+    "noticias_analizadas": 59,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -40,6 +40,11 @@
       "link": "https://www.newsbtc.com/news/us-sanctions-more-prince-group-linked-companies-as-crypto-scam-network-crackdown-widens/"
     },
     {
+      "titulo": "North Korea’s $6.3B Binance Hack Takes a Strange Turn With Meme Coins",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/security/north-korea-binance-hack-takes-strange-turn-meme-coins/"
+    },
+    {
       "titulo": "Charles Schwab Opens Crypto Trading Beyond Bitcoin and Ether",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/featured/charles-schwab-opens-crypto-trading-beyond-bitcoin-ether/"
@@ -50,25 +55,20 @@
       "link": "https://www.coindesk.com/business/2026/11/06/solana-lset-for-its-first-tokenized-stock-venue-under-sec-framework-listing-galaxy"
     },
     {
-      "titulo": "Canton Hosts Tokenized US Share Trade Under SEC Innovation Exemption",
-      "fuente": "NewsBTC",
-      "link": "https://www.newsbtc.com/news/canton-hosts-tokenized-us-share-trade-under-sec-innovation-exemption/"
-    },
-    {
-      "titulo": "Bitcoin’s 6% Price Drop After $6.3B Binance Hack Signals Maturity: Fitch Ratings",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/featured/bitcoin-6-percent-price-drop-after-binance-hack-signals-maturity-fitch/"
+      "titulo": "Here’s what happened in crypto today",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9557,
+    "input_tokens": 9641,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 626,
+    "output_tokens": 551,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
