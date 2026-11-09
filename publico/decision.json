@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 29) con la capitalización total cayendo un 3.19% en 24 h y BTC cerca de 75.000 USD tras el peor nivel desde agosto, con salidas de ETFs de 1.300 M USD la semana pasada. Además, el dato de CPI (core y headline) sale mañana 10 de noviembre a las 13:30 UTC, dentro de las próximas 24 h, lo que justifica cautela. No hay una caída brusca de -7% ni una anomalía grave en una moneda concreta, por lo que no procede pausa.",
+  "resumen": "El miedo/codicia está en 29 (miedo) y la capitalización total cae un 3.09% en 24 h, con BTC cerca de 74-75K tras liquidaciones de unos 1.200 M$ y ventas de ETF. Hay evento macro de alto impacto (IPC/Core CPI) el 10 de noviembre a las 13:30 UTC, dentro de las próximas 24 h, lo que justifica cautela. No hay hackeo ni riesgo grave o inmediato que obligue a pausar; el ataque a Binance ya está contenido según los analistas y las noticias positivas no aumentan el riesgo.",
   "motivos": [
-    "Índice Miedo/Codicia en 29 (miedo) y con varios días en la zona de miedo.",
-    "Capitalización total -3.19% en 24 h, sin llegar al umbral de -7% que justificaría pausa.",
-    "Publicación de CPI de alto impacto el 10/11 a las 13:30 UTC, dentro de las próximas 24 h.",
-    "Hackeo de Binance de 6.300 M USD con fondos en gran parte congelados y analistas que no ven contagio generalizado; riesgo relevante pero no grave para las monedas operadas.",
-    "Salidas netas de ETFs de BTC y caída de ETH y XRP (-4.4% y -4.9% en 24 h) sin anomalía en ninguna moneda."
+    "Miedo en el índice Miedo/Codicia (29) con tendencia bajista en los últimos 7 días.",
+    "Capitalización total -3.09% en 24 h y más de 1.200 M$ en liquidaciones de cripto.",
+    "IPC de EE. UU. (Core CPI y CPI m/m) el 10/11 a las 13:30 UTC, evento macro importante dentro de 24 h.",
+    "XRP -11.8% en 7 días y cerca de 1,08 USD; ETH -6% en 7 días. Volatilidad elevada pero sin situación anómala.",
+    "El hackeo de Binance (6.300 M$) se considera contenido por los analistas; no se identifica un riesgo de pausa concreto."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-09T17:04:03+00:00",
-  "valido_hasta": "2026-11-09T20:04:03+00:00",
+  "generado": "2026-11-09T17:56:37+00:00",
+  "valido_hasta": "2026-11-09T20:56:37+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -3.19,
-    "noticias_analizadas": 52,
+    "cambio_mercado_24h": -3.09,
+    "noticias_analizadas": 56,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -41,6 +41,11 @@
       "link": "https://www.coindesk.com/business/2026/11/06/solana-lset-for-its-first-tokenized-stock-venue-under-sec-framework-listing-galaxy"
     },
     {
+      "titulo": "Bitcoin Price Struggles Below $75K as $1.2B in Crypto Bets Get Wiped Out",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-struggles-below-75k-1-2b-crypto-bets-wiped-out/"
+    },
+    {
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -54,22 +59,17 @@
       "titulo": "Trump says he knows ‘nothing’ about World Liberty’s UAE ties as Justin Sun challenges filings",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/business/2026/11/09/trump-says-he-knows-nothing-about-world-liberty-s-uae-ties-as-justin-sun-challenges-filings"
-    },
-    {
-      "titulo": "Strategy buys 1,036 Bitcoin as BTC holdings climb to 850,364",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/strategy-buy-1036-bitcoin-holdings-850364-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9473,
+    "input_tokens": 9589,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 580,
+    "output_tokens": 591,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
