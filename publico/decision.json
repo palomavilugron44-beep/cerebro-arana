@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 29) con la capitalización total cayendo un 5.22% en 24 h, sin eventos macro de alto impacto en las próximas 24 h. Hay una secuela de seguridad relevante (hackeo de Binance de unos 6.300 M$ en octubre, con withdrawals aún reactivándose, y exploits en Keplr, LNbits y el puente tBTC), pero no afecta directamente a las monedas operadas ni hay una caída brusca con liquidaciones masivas que justifique pausar. Por ello se recomienda cautela global (mitad de tamaño) y no pausa.",
+  "resumen": "El mercado está en miedo (índice 29) tras una caída de la capitalización total del -5.45% en 24 h, con XRP, ETH y el resto de altcoins cayendo entre -3% y -6%. Hay un clima de incertidumbre por el hackeo de Binance de octubre (~6.300 M$, con retiradas aún reactivándose), la clausura de Binance Francia y las secuelas de las elecciones de EE. UU.; no hay evento macro de alto impacto en 24 h. No llega a justificar una pausa, así que conviene la cautela (mitad de tamaño) de forma general.",
   "motivos": [
-    "Miedo extremo sostenido (índice 29, con valores de 25-28 en varios días) y caída de la capitalización total de -5.22% en 24 h.",
-    "Secuela del hackeo de Binance (~6.300 M$, atribuido a hackers norcoreanos) con retiradas aún reactivándose: incertidumbre elevada sobre el exchange.",
-    "Exploits recientes en infraestructura (tBTC bridge pausado 9 días, Keplr/Web3Auth, LNbits) y sanciones de FinCEN contra MEXC: noticias negativas relevantes pero no operativas sobre las monedas del bot.",
-    "Ninguna moneda del bot muestra anomalía (halt, depeg, delist); todas caen entre -1% y -5% en 24 h, sin necesidad de tratamiento individual.",
-    "No hay eventos macro de alto impacto en 24 h; la decisión no se basa en ruido ni en titulares sensacionalistas."
+    "Miedo en el mercado (índice 29) y caída de la capitalización total del -5.45% en 24 h, con volatilidad fuerte.",
+    "Incertidumbre por el hackeo de Binance de octubre (~6.300 M$) y el proceso de recuperación gradual de sus servicios.",
+    "Noticias negativas relevantes pero no graves: cierre de Binance Francia, sanciones del Tesoro de EE. UU. a casas de cambio canadienses, incidencia de Keplr/Web3Auth y LNbits.",
+    "No hay riesgo grave e inmediato contra una moneda concreta ni dato macro de alto impacto en las próximas 24 h, así que no procede pausa.",
+    "Sin monedas en situación anómala (halt, depeg o delist) según los datos."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-09T05:01:55+00:00",
-  "valido_hasta": "2026-11-09T08:01:55+00:00",
+  "generado": "2026-11-09T06:01:34+00:00",
+  "valido_hasta": "2026-11-09T09:01:34+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -5.22,
-    "noticias_analizadas": 24,
+    "cambio_mercado_24h": -5.45,
+    "noticias_analizadas": 26,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -30,6 +30,11 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
+    {
+      "titulo": "Here’s what happened in crypto today",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
     {
       "titulo": "tBTC bridge partially resumes as $120M Aave reserve remains frozen",
       "fuente": "Cointelegraph",
@@ -51,25 +56,20 @@
       "link": "https://www.newsbtc.com/security/circle-says-it-froze-1-1b-in-usdc-linked-to-binance-hack-investigation/"
     },
     {
-      "titulo": "OKX Freezes MEXC User Deposits Following Strict FinCEN Order",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/exchanges/okx-freezes-mexc-user-deposits-following-strict-fincen-order/"
-    },
-    {
       "titulo": "BVNK Opens OUSD Minting and Payments Across Four Blockchains",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/technology/bvnk-opens-ousd-minting-and-payments-across-four-blockchains/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7473,
+    "input_tokens": 7676,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 672,
+    "output_tokens": 604,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
