@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae un 5.13% en 24 h con el índice Miedo/Codicia en 29 (miedo) y liquidaciones de unos 1.000-1.100 millones de dólares, tras caídas ligadas a Nvidia, Irán y salidas de ETF de Bitcoin. Hay CPI y PPI esta semana, aunque los datos no marcan un evento macro de muy alto impacto en las próximas 2-3 horas ni una caída de -7% o peor. Se elige cautela general por la volatilidad y el miedo elevado, sin pausar el bot ni frenar monedas concretas.",
+  "resumen": "El mercado cripto cae un 4.72% en 24 h tras liquidaciones superiores a 1.000 M$, con el miedo en 29 y salidas de ETFs de BTC de 1.280 M$ la última semana. Hay incertidumbre elevada por la caída tecnológica ligada a Nvidia y por los datos de inflación (CPI/PPI) de esta semana, aunque no hay un evento de muy alto impacto en las próximas 2-3 horas ni un riesgo grave e inmediato sobre una red o exchange. Por ello se recomienda cautela global, sin pausa ni monedas específicas.",
   "motivos": [
-    "Capitalización total -5.13% en 24 h con liquidaciones cercanas a 1.000-1.100 M$, por debajo del umbral de -7% que justificaría pausa.",
-    "Índice Miedo/Codicia en 29 (miedo), con un 7 días de fuerte deterioro y volatilidad elevada.",
-    "Salidas netas de 1.280 M$ de ETF spot de Bitcoin la semana pasada, la mayor desde junio.",
-    "Datos de inflación EE. UU. (CPI/PPI) esta semana, aunque sin evento de alto impacto marcado en las próximas 24 h según los datos.",
-    "Problemas de seguridad (tBTC, Binance/hack) son noticias negativas relevantes pero no afectan de forma anómala a las monedas operadas; no hay halt, depeg ni delist."
+    "Caída de capitalización total -4.72% en 24 h con más de 1.000 M$ liquidados en las últimas horas",
+    "Índice Miedo/Codicia en 29 (miedo) con tendencia bajista en la última semana",
+    "Salidas netas de 1.280 M$ de ETFs spot de BTC la semana pasada, las mayores desde junio",
+    "Incertidumbre por datos de inflación (CPI/PPI) de esta semana, con evento macro importante dentro de 24 h",
+    "Presión vendedora ligada a Nvidia que arrastra a BTC, ETH y las altcoins",
+    "Hackeo de Binance de 6.300 M$ mencionado en el contexto, pero sin evento nuevo que requiera pausa; el cierre de Binance France y la mina de Binance no son riesgos graves inmediatos"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-09T10:55:59+00:00",
-  "valido_hasta": "2026-11-09T13:55:59+00:00",
+  "generado": "2026-11-09T11:55:39+00:00",
+  "valido_hasta": "2026-11-09T14:55:39+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -5.13,
-    "noticias_analizadas": 34,
+    "cambio_mercado_24h": -4.72,
+    "noticias_analizadas": 40,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -51,25 +52,25 @@
       "link": "https://www.coindesk.com/markets/2026/11/09/bitcoin-drops-then-pops-as-nvidia-cheating-scandal-and-failed-iran-talks-trigger-volatility"
     },
     {
-      "titulo": "Bitcoin ETFs shed $1.3B in biggest weekly outflow since late June",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/markets/bitcoin-etfs-13b-biggest-weekly-outflow-late-june?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "titulo": "Coinbase Joins Circle, Ripple With Final OCC Approval for Federal Trust Bank Charter",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/382816/coinbase-joins-circle-ripple-with-final-occ-approval-for-federal-trust-bank-charter"
     },
     {
-      "titulo": "Solana moves to scrap the transaction feature used in the $270 million Drift hack",
+      "titulo": "Nvidia-led tech selloff weighs on crypto majors",
       "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/tech/2026/11/09/solana-moves-to-scrap-the-transaction-feature-used-in-the-usd270-million-drift-hack"
+      "link": "https://www.coindesk.com/markets/2026/11/09/tech-selloff-weighs-on-crypto-majors"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8727,
+    "input_tokens": 9319,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 626,
+    "output_tokens": 625,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
