@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El miedo/codicia está en 29 (miedo) y la capitalización total cae un 3.09% en 24 h, con BTC cerca de 74-75K tras liquidaciones de unos 1.200 M$ y ventas de ETF. Hay evento macro de alto impacto (IPC/Core CPI) el 10 de noviembre a las 13:30 UTC, dentro de las próximas 24 h, lo que justifica cautela. No hay hackeo ni riesgo grave o inmediato que obligue a pausar; el ataque a Binance ya está contenido según los analistas y las noticias positivas no aumentan el riesgo.",
+  "resumen": "El mercado cae con miedo (índice 29) y la capitalización total baja un 3.15% en 24 h, con BTC cerca de mínimos de 11 semanas y más de 1.200 M$ en liquidaciones tras la última caída. Hay un evento macro de alto impacto mañana (CPI y Core CPI el 10/11 a las 13:30 UTC), dentro de las próximas 24 h, lo que justifica prudencia. No hay un riesgo grave e inmediato que obligue a pausar: el hackeo de Binance y el de Mercado Bitcoin son incidentes ya conocidos y contenidos, y las noticias institucionales son mayormente neutras o positivas.",
   "motivos": [
-    "Miedo en el índice Miedo/Codicia (29) con tendencia bajista en los últimos 7 días.",
-    "Capitalización total -3.09% en 24 h y más de 1.200 M$ en liquidaciones de cripto.",
-    "IPC de EE. UU. (Core CPI y CPI m/m) el 10/11 a las 13:30 UTC, evento macro importante dentro de 24 h.",
-    "XRP -11.8% en 7 días y cerca de 1,08 USD; ETH -6% en 7 días. Volatilidad elevada pero sin situación anómala.",
-    "El hackeo de Binance (6.300 M$) se considera contenido por los analistas; no se identifica un riesgo de pausa concreto."
+    "Índice Miedo/Codicia en 29 (miedo) y caída de capitalización total de -3.15% en 24 h.",
+    "Evento macro importante dentro de 24 h: CPI y Core CPI de USD el 10/11 a las 13:30 UTC, con el dato de CPI previsto (0.3%) por debajo del anterior (0.6%).",
+    "BTC en mínimos de unas 11 semanas (~73.500 USD) y más de 1.200 M$ en liquidaciones; volatilidad elevada.",
+    "Hackeo de Binance (6.300 M$) y hackeo de Mercado Bitcoin (49 M$) ya conocidos; los datos disponibles indican contención y no hay señales de contagio a todo el mercado.",
+    "XRP con caída de -12.5% en 7 días, pero sin situación anómala (halt, depeg o delist); no justifica medida por moneda."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-09T17:56:37+00:00",
-  "valido_hasta": "2026-11-09T20:56:37+00:00",
+  "generado": "2026-11-09T18:53:05+00:00",
+  "valido_hasta": "2026-11-09T21:53:05+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -3.09,
-    "noticias_analizadas": 56,
+    "cambio_mercado_24h": -3.15,
+    "noticias_analizadas": 57,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9589,
+    "input_tokens": 9576,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 591,
+    "output_tokens": 670,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
