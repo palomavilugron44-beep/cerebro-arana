@@ -1,25 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "La capitalización total cae -5.33% en 24 h y el índice Miedo/Codicia está en 29 (miedo), con liquidaciones de más de 1.000 M$ tras el fin de semana y salidas de ETF de Bitcoin de 1.300 M$ la semana pasada. Hay volatilidad elevada impulsada por la caída tecnológica ligada a Nvidia, y la inflación (CPI/PPI) de esta semana añade incertidumbre, aunque no hay un evento macro de alto impacto en las próximas 24 h. No se observa un exploit ni una situación anómala en las monedas operadas, así que se recomienda cautela (mitad de tamaño) en lugar de pausa.",
+  "resumen": "El mercado está en miedo (índice 29) tras una caída de la capitalización total del -4.59% en 24 h, con liquidaciones superiores a 1.000 millones de dólares y BTC cerca de 74.000 USD, su nivel más bajo desde agosto. Hay además datos de inflación de EE. UU. (Core CPI y CPI m/m) previstos para mañana a las 13:30 UTC, dentro de las próximas 24 h, lo que justifica cautela. No hay un hackeo que afecte a las redes de las monedas operadas ni una medida regulatoria grave contra ellas, así que no procede pausa.",
   "motivos": [
-    "Caída de la capitalización total de -5.33% en 24 h con liquidaciones superiores a 1.000 M$ (volatilidad fuerte).",
-    "Índice Miedo/Codicia en 29 (miedo), con 7 días consecutivos en rango de miedo salvo un día puntual.",
-    "Salidas netas de 1.280 M$ de ETF spot de Bitcoin la semana pasada, la mayor desde junio.",
-    "Incertidumbre por la venta tecnológica ligada a Nvidia y por los datos de inflación (CPI/PPI) de esta semana.",
-    "Sin exploit ni anomalía confirmada en las monedas operadas; la noticia del hackeo de Binance es previa y no es un riesgo nuevo y grave para el bot.",
-    "La caída de la capitalización no llega al umbral de -7% para pausa, y no hay evento macro de muy alto impacto en 2-3 horas."
+    "Índice Miedo/Codicia en 29 (miedo) y caída de la capitalización total del -4.59% en 24 h con liquidaciones de más de 1.000 M$.",
+    "Publicación de Core CPI y CPI m/m de EE. UU. el 10/11 a las 13:30 UTC, evento macro importante dentro de las próximas 24 h.",
+    "Hackeo de Binance (6.300 M$) con cobertura de pérdidas anunciada por Binance y análisis que ven contención; no afecta directamente a las monedas operadas, por lo que no justifica pausa.",
+    "Monedas operadas en general con caídas de 7 días (XRP -12.3%, ETH -6.9%, SOL -7.7%) sin situación anómala (halt, depeg o delist) detectada."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-09T13:06:49+00:00",
-  "valido_hasta": "2026-11-09T16:06:49+00:00",
+  "generado": "2026-11-09T14:22:27+00:00",
+  "valido_hasta": "2026-11-09T17:22:27+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -5.33,
-    "noticias_analizadas": 45,
+    "cambio_mercado_24h": -4.59,
+    "noticias_analizadas": 51,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -28,13 +26,23 @@
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
-    "eventos_usd_24h": 0
+    "eventos_usd_24h": 2
   },
   "titulares": [
     {
       "titulo": "Solana set for its first tokenized stock venue under SEC framework, listing Galaxy",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/business/2026/11/06/solana-lset-for-its-first-tokenized-stock-venue-under-sec-framework-listing-galaxy"
+    },
+    {
+      "titulo": "Here’s what happened in crypto today",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "The $2.85B Binance hackers lost shows why the UK needs stablecoin freeze rules",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/opinion/285b-binance-hackers-lost-shows-why-uk-needs-stablecoin-freeze-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "titulo": "Trump says he knows ‘nothing’ about World Liberty’s UAE ties as Justin Sun challenges filings",
@@ -47,30 +55,20 @@
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-flash-drop-73477-liquidations/"
     },
     {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
       "titulo": "tBTC bridge partially resumes as $120M Aave reserve remains frozen",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/tbtc-bridge-resumes-aave-120m-reserve-frozen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Bitcoin drops as Nvidia cheating scandal and failed Iran talks trigger volatility",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/09/bitcoin-drops-then-pops-as-nvidia-cheating-scandal-and-failed-iran-talks-trigger-volatility"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9237,
+    "input_tokens": 9438,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 685,
+    "output_tokens": 614,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
