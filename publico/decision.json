@@ -1,24 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cae hoy (capitalización -4.41% en 24 h) con miedo (índice 32) y se espera el dato de inflación de EE. UU. ya publicado, que salió más caliente de lo previsto (IPC +0.4% en octubre), reforzando la apuesta por una subida de tipos de la Fed en diciembre. Hay además salidas netas de ETF de bitcoin y unos 360 M$ en liquidaciones, lo que sugiere volatilidad elevada, pero no hay una caída brusca de -7% ni un evento macro de muy alto impacto en las próximas horas. Por ello se opta por cautela global, no pausa.",
+  "resumen": "El mercado cripto cae un 6% en 24 h con miedo (índice 32) tras un IPC de EE. UU. más caliente de lo esperado, que el mercado da casi por seguro como subida de tipos de la Fed en diciembre. BTC ronda 73.500 USD, cerca de mínimos de 11 semanas, con salidas de ETF y liquidaciones de unos 360-630 M USD. No hay una caída catastrófica ni un evento de seguridad o regulatorio grave, así que se recomienda cautela general (mitad de tamaño) en lugar de pausa.",
   "motivos": [
-    "Capitalización total -4.41% en 24 h y miedo en el índice (32), con volatilidad fuerte.",
-    "IPC de EE. UU. de octubre más alto de lo esperado (+0.4%); mercado descuenta una subida de tipos de la Fed en diciembre (evento macro importante en el horizonte).",
-    "Salidas netas de ETF de bitcoin (7 sesiones seguidas en IBIT) y unos 360 M$ en liquidaciones de derivados.",
-    "Caídas de 6-10% en 24 h en ETH, XRP, SOL, ADA, LINK y AVAX, pero sin halt, depeg ni incidente de seguridad en ninguna moneda.",
-    "Hackeo de Binance (6.3 mil M$) y sanciones a MEXC aparecen en noticias, pero no hay indicios de impacto directo en las monedas operadas en este momento; no se justifica pausa."
+    "Capitalización total -6.05% en 24 h con liquidaciones de posiciones apalancadas, que cumple el umbral de caída brusca en curso.",
+    "IPC de octubre por encima de previsiones (0.4% mensual frente a 0.3%) y subida de tipos de la Fed en diciembre prácticamente descontada; el próximo dato macro relevante cae dentro de 24 h.",
+    "Miedo extremo sostenido (índice 32) y salidas de ETF de BTC durante siete sesiones seguidas (1.66 mil millones USD en IBIT).",
+    "No hay evento de seguridad, exploit ni acción regulatoria grave contra una moneda concreta; la noticia de Binance sobre MEXC es un caso de exchange ajeno a las monedas operadas y no justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-10T15:47:08+00:00",
-  "valido_hasta": "2026-11-10T18:47:08+00:00",
+  "generado": "2026-11-10T16:50:55+00:00",
+  "valido_hasta": "2026-11-10T19:50:55+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 32,
-    "cambio_mercado_24h": -4.41,
-    "noticias_analizadas": 53,
+    "cambio_mercado_24h": -6.05,
+    "noticias_analizadas": 56,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -36,40 +35,40 @@
       "link": "https://cointelegraph.com/markets/bitcoin-price-eyes-74k-fed-rate-hike-expected-after-waller-speech?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "titulo": "Bitcoin Falls as Hot US Inflation Fuels Fears of Bigger Fed Rate Hike",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/382950/bitcoin-falls-hot-us-inflation-fears-bigger-fed-rate-hike"
+    },
+    {
+      "titulo": "Bitcoin nears 11-week low after ‘discouraging’ US CPI inflation beat",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/bitcoin-11-week-low-discouraging-us-cpi-inflation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Bitcoin Price Crashes to $72,787 After Hotter-Than-Expected CPI",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-crashes-72787-hotter-than-expected-cpi/"
+    },
+    {
       "titulo": "Bitcoin slips before U.S. inflation report as traders price in Fed rate increase",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/10/bitcoin-slips-before-u-s-inflation-report-as-traders-price-in-fed-rate-increase"
     },
     {
-      "titulo": "Live news: Bitcoin trading near $74,000 after disappointing inflation data",
+      "titulo": "Live news: Bitcoin falls to nearly three-month low after disappointing inflation data",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat"
-    },
-    {
-      "titulo": "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/10/u-s-cpi-rose-stronger-than-expected-0-4-in-october-core-rate-rose-0-3"
-    },
-    {
-      "titulo": "Bitcoin may benefit as global tightening slows, Binance Research says",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/markets/bitcoin-price-global-tightening-binance-research?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Bitcoin lags stock rebound in advance of U.S. inflation report",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/10/bitcoin-lags-stock-rebound-in-advance-of-u-s-inflation-report"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9566,
+    "input_tokens": 9538,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 666,
+    "output_tokens": 606,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
