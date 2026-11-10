@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El índice Miedo/Codicia está en 32 (miedo) y la capitalización total cae un 1.42% en 24 h, sin una caída brusca. Hay un evento macro de alto impacto hoy a las 13:30 UTC (IPC de EE. UU.), dentro de las próximas 24 h, y el hackeo de 6.3 mil millones de dólares a Binance es una noticia negativa relevante pero sin efecto de pánico (BTC cayó solo un 6%). Por ello se recomienda cautela general (mitad de tamaño) y no pausa.",
+  "resumen": "El índice Miedo/Codicia está en 32 (miedo) y el mercado cae un -0.41% en 24 h, sin caídas bruscas. Hay un dato macro de alto impacto (IPC de EE. UU. con core CPI a las 13:30 UTC, dentro de unas 5 horas), lo que justifica operar con cautela en lugar de normal. Las salidas de ETF de bitcoin y el hackeo de Binance (6.300 M$) son noticias negativas relevantes, pero no hay una señal de riesgo grave e inmediato que justifique pausar.",
   "motivos": [
-    "Dato macro de alto impacto (IPC de EE. UU.) a las 13:30 UTC de hoy, dentro de las próximas 24 h; por debajo del umbral de pausa salvo que quede a menos de 2-3 h.",
-    "Índice Miedo/Codicia en 32 (miedo) con una tendencia a la baja en la última semana.",
-    "Hackeo de unos 6.3 mil millones de dólares a Binance: riesgo de seguridad relevante, pero el mercado reaccionó con una caída moderada (BTC -6%) y no hay señales de halt, depeg o delist en las monedas operadas.",
-    "Capitalización total -1.42% en 24 h, sin caída brusca de -7% ni liquidaciones en cascada."
+    "Dato macro de alto impacto (Core CPI y CPI m/m de EE. UU.) previsto a las 13:30 UTC, dentro de las próximas 24 h.",
+    "Índice Miedo/Codicia en 32 (miedo), con volatilidad reciente y varias monedas en caída a 7 días (XRP -12%, ETH -5.7%).",
+    "Salidas netas de ETF spot de bitcoin durante siete sesiones seguidas (1.660 M$ en IBIT), noticia negativa relevante pero no grave.",
+    "Hackeo de Binance de unos 6.300 M$ atribuido a Corea del Norte: riesgo de noticia relevante, sin evidencia de impacto operativo directo en los precios ni en las monedas operadas.",
+    "La capitalización total cae solo un -0.41% en 24 h, por lo que no se cumple el umbral de caída brusca para pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-10T07:02:00+00:00",
-  "valido_hasta": "2026-11-10T10:02:00+00:00",
+  "generado": "2026-11-10T08:14:12+00:00",
+  "valido_hasta": "2026-11-10T11:14:12+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 32,
-    "cambio_mercado_24h": -1.42,
-    "noticias_analizadas": 38,
+    "cambio_mercado_24h": -0.41,
+    "noticias_analizadas": 36,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -30,14 +31,14 @@
   },
   "titulares": [
     {
-      "titulo": "Bitcoin in Limbo as Stocks Rebound Ahead of US Inflation Report",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/382861/bitcoin-limbo-stocks-rebound-us-inflation"
-    },
-    {
       "titulo": "Bitcoin faces U.S. CPI test as analysts warn inflation relief may not be enough",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/10/bitcoin-faces-u-s-cpi-test-as-analysts-warn-inflation-relief-may-not-be-enough"
+    },
+    {
+      "titulo": "BlackRock Bitcoin ETF outflows hit $1.66B over seven trading sessions",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/blackrock-ibit-bitcoin-etf-outflows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "titulo": "Ethereum Foundation and Vitalik Buterin Sued Over Employee Firing After ‘Suicide Pledge’",
@@ -55,20 +56,20 @@
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "titulo": "Canton Hosts Tokenized US Share Trade Under SEC Innovation Exemption",
-      "fuente": "NewsBTC",
-      "link": "https://www.newsbtc.com/news/canton-hosts-tokenized-us-share-trade-under-sec-innovation-exemption/"
+      "titulo": "North Korean hackers create memecoins to launder funds from Binance hack: Elliptic",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/north-korean-hackers-memecoins-launder-binance-hack-elliptic?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9580,
+    "input_tokens": 9409,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 579,
+    "output_tokens": 637,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
