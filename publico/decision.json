@@ -1,25 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 32) con la capitalización total en -2.74% en 24 h y BTC cerca de 74.000 USD tras las declaraciones de Waller sobre una posible subida de tasas en diciembre. El dato de CPI de alto impacto sale en menos de 30 minutos (13:30 UTC), lo que justifica reducir el tamaño de nuevas compras de forma temporal. No hay un hackeo ni una caída de -7% en el mercado, así que no se considera pausa.",
+  "resumen": "El mercado está en miedo (índice 32) con la capitalización total cayendo -3.76% en 24 h, y el dato de IPC de octubre salió más caliente de lo esperado (0.4% frente a 0.3% previsto), lo que consolida en los medios la expectativa de una subida de tipos de la Fed en diciembre. Las salidas de ETFs de bitcoin siguen acumulándose, pero no hay un hackeo, una medida regulatoria grave ni una caída de mercado que justifique pausar al bot. Se recomienda cautela general (mitad de tamaño) durante las próximas horas, sin alerta sobre posiciones.",
   "motivos": [
-    "Dato CPI (core y headline) previsto a las 13:30 UTC, dentro de la siguiente hora: evento macro de alto impacto con incertidumbre elevada.",
-    "Índice Miedo/Codicia en 32 (Miedo) y mercado a la baja: capitalización -2.74% en 24 h.",
-    "Mercado de tasas: las expectativas de subida de la Fed en diciembre se sitúan en torno al 96% tras el discurso de Waller.",
-    "Salidas netas de ETF spot de BTC durante siete sesiones (IBIT: 1.66 B USD), presión vendedora.",
-    "Noticia sobre MEXC (bloqueo de Binance a transferencias) es relevante para el ecosistema, pero no afecta directamente a las monedas operadas, así que no justifica pausa.",
-    "No hay señales de hackeo ni de halt, depeg o deslistado en las 10 monedas operadas; el riesgo de Binance por la vulnerabilidad de iOS es informativo."
+    "Dato de IPC de octubre por encima de lo previsto (0.4% vs 0.3%) con expectativa casi total de subida de tipos de la Fed en diciembre: evento macro de alto impacto ya publicado y con sesgo hawkish.",
+    "Índice Miedo/Codicia en 32 (miedo) y capitalización total -3.76% en 24 h: volatilidad elevada pero sin caída brusca de -7% que active pausa.",
+    "Salidas netas de ETFs spot de bitcoin durante siete sesiones seguidas (IBIT 1.66 mil millones USD): presión vendedora institucional.",
+    "Noticias de hackeo de Binance (6.300 millones USD) y restricciones de Binance a MEXC son relevantes pero no afectan directamente a las monedas operadas ni son un riesgo inmediato para ellas; no justifican pausa.",
+    "Caídas de 7 días en XRP (-16.8%), ETH (-9.3%) y SOL (-9.4%) suman incertidumbre, pero no son anómalas por sí mismas; la estrategia tiene su propio stop."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-10T12:58:27+00:00",
-  "valido_hasta": "2026-11-10T15:58:27+00:00",
+  "generado": "2026-11-10T14:09:45+00:00",
+  "valido_hasta": "2026-11-10T17:09:45+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 32,
-    "cambio_mercado_24h": -2.74,
-    "noticias_analizadas": 45,
+    "cambio_mercado_24h": -3.76,
+    "noticias_analizadas": 52,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -32,11 +31,6 @@
   },
   "titulares": [
     {
-      "titulo": "Live news: Bitcoin falls back to $74,000 ahead of CPI as traders fully price in Fed rate hike",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat"
-    },
-    {
       "titulo": "Bitcoin price eyes $74K as Fed rate-hike bets hit 96% after Waller speech",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/markets/bitcoin-price-eyes-74k-fed-rate-hike-expected-after-waller-speech?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -47,30 +41,35 @@
       "link": "https://www.coindesk.com/markets/2026/11/10/bitcoin-slips-before-u-s-inflation-report-as-traders-price-in-fed-rate-increase"
     },
     {
+      "titulo": "Live news: Bitcoin adds to losses after disappointing inflation data",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat"
+    },
+    {
       "titulo": "Bitcoin faces U.S. CPI test as analysts warn inflation relief may not be enough",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/10/bitcoin-faces-u-s-cpi-test-as-analysts-warn-inflation-relief-may-not-be-enough"
     },
     {
-      "titulo": "Bitcoin lags stock rebound in advance of U.S. inflation report",
+      "titulo": "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%",
       "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/10/bitcoin-lags-stock-rebound-in-advance-of-u-s-inflation-report"
+      "link": "https://www.coindesk.com/markets/2026/11/10/u-s-cpi-rose-stronger-than-expected-0-4-in-october-core-rate-rose-0-3"
     },
     {
-      "titulo": "MARA Dumps Over 13,500 Bitcoin for Over $1B to Wipe out Its BTC Loans",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/mining/mara-sells-13597-bitcoin-repays-750m-loans/"
+      "titulo": "Bitcoin may benefit as global tightening slows, Binance Research says",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/bitcoin-price-global-tightening-binance-research?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9764,
+    "input_tokens": 9620,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 647,
+    "output_tokens": 731,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
