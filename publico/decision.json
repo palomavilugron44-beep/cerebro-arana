@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cae hoy (capitalización -4.16% en 24 h) con miedo moderado (índice 32) tras un dato de inflación de EE. UU. más alto de lo esperado, que refuerza la expectativa de una subida de tipos de la Fed en diciembre. Esto supone un evento macro relevante en las próximas 24 h y volatilidad elevada, pero no hay una caída de -7% ni un evento de muy alto impacto inminente, por lo que no se justifica pausa. Las noticias de hackeos (Across, Mercado Bitcoin, Binance/MEXC) son específicas de plataformas o monedas no operadas por el bot, salvo el aviso general de Binance por una vulnerabilidad de iOS.",
+  "resumen": "El mercado cripto cae un 4.48% en 24 h con miedo (índice 32) tras un IPC de EE. UU. más alto de lo esperado, que refuerza la expectativa de una subida de tipos de la Fed en diciembre. Es un riesgo macro importante, pero no un evento inmediato de alto impacto en las próximas 2-3 horas ni hay señales de hackeo o problema regulatorio grave en las monedas operadas, por lo que se recomienda cautela y no pausa.",
   "motivos": [
-    "Dato de IPC de EE. UU. por encima de previsiones (0.4% mensual frente a 0.3%) que refuerza la expectativa de una subida de tipos de 0.25% (o más) en diciembre.",
-    "Capitalización total cripto -4.16% en 24 h con salidas de ETF de BTC y ETH y liquidaciones de unos 360 millones de dólares.",
-    "Índice Miedo/Codicia en 32 (miedo), con volatilidad elevada en las principales monedas.",
-    "Las brechas de seguridad recientes (Across Protocol, Mercado Bitcoin, MEXC) no afectan directamente a las monedas operadas por el bot.",
-    "No hay caída de -7% ni evento macro de muy alto impacto en las próximas 2-3 horas, así que no procede pausa."
+    "Caída del mercado de -4.48% en 24 h con BTC cerca de mínimos de 11 semanas (~73.500 USD) tras el IPC caliente",
+    "Miedo en el índice Fear & Greed (32), con varios días recientes en miedo",
+    "Expectativa de subida de tipos de la Fed en diciembre; riesgo macro importante dentro de 24 h pero sin evento de alto impacto en las próximas horas",
+    "Sin hackeo ni problema de seguridad que afecte directamente a las monedas operadas (los incidentes de Across, Mercado Bitcoin y MEXC no involucran a las 10 monedas del bot)",
+    "Todas las monedas operadas caen entre -2% y -4.4% en 24 h; no hay situación anómala individual que justifique un tratamiento específico"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-10T21:39:52+00:00",
-  "valido_hasta": "2026-11-11T00:39:52+00:00",
+  "generado": "2026-11-10T22:40:10+00:00",
+  "valido_hasta": "2026-11-11T01:40:10+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 32,
-    "cambio_mercado_24h": -4.16,
-    "noticias_analizadas": 64,
+    "cambio_mercado_24h": -4.48,
+    "noticias_analizadas": 63,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -30,11 +30,6 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
-    {
-      "titulo": "Bitcoin price eyes $74K as Fed rate-hike bets hit 96% after Waller speech",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/markets/bitcoin-price-eyes-74k-fed-rate-hike-expected-after-waller-speech?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
     {
       "titulo": "Bitcoin Falls as Hot US Inflation Fuels Fears of Bigger Fed Rate Hike",
       "fuente": "Decrypt",
@@ -59,17 +54,22 @@
       "titulo": "Bitcoin Faces a Tougher Rate Outlook After US October Inflation Rises 0.4%",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/bitcoin-news/bitcoin-us-october-cpi-04-percent-rate-outlook/"
+    },
+    {
+      "titulo": "Live news: Bitcoin falls to nearly three-month low after disappointing inflation data",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9412,
+    "input_tokens": 9374,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 658,
+    "output_tokens": 576,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
