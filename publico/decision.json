@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae -5.48% en 24 h con miedo (índice 32) tras un IPC más caliente de lo esperado, que refuerza la expectativa de una subida de tipos de la Fed en diciembre; BTC está cerca de mínimos de 11 semanas (~73.000 USD) y hay salidas de ETFs y liquidaciones de unos 360-630 M USD. No hay un shock de seguridad, regulatorio o de liquidez que justifique pausar, pero la incertidumbre macro es elevada, así que se recomienda cautela (mitad de tamaño) en lugar de operación normal. Binance restringió transferencias con MEXC, pero no afecta a las monedas operadas.",
+  "resumen": "El mercado cae con fuerza tras un dato de inflación (IPC de octubre) más alto de lo esperado, que refuerza las apuestas por una subida de tipos de la Fed en diciembre; la capitalización total baja un 4.38% en 24 h y el índice de miedo/codicia está en 32 (miedo). No hay una caída de -7% ni un hackeo o problema regulatorio grave y directo sobre una moneda, por lo que no procede pausa. Dado que el entorno de volatilidad y riesgo macro es elevado, se recomienda cautela general (mitad de tamaño en compras nuevas).",
   "motivos": [
-    "IPC de octubre superior a lo previsto (+0.4% m/m frente a +0.3%; subyacente +0.3%), con mercados casi descontando una subida de 0.25% de la Fed en diciembre.",
-    "Caída de capitalización total de -5.48% en 24 h; BTC cerca de mínimos de 11 semanas y ETH, SOL, XRP con caídas de 12-18% en 7 días.",
-    "Miedo en el índice (32) y salidas netas de ETFs de bitcoin (7 sesiones seguidas en IBIT, unos 1.66 mil millones USD).",
-    "Liquidaciones de posiciones apalancadas de cientos de millones de USD en 24 h, lo que indica estrés en derivados.",
-    "No hay eventos macro de alto impacto en las próximas 24 h ni incidente de seguridad, regulatorio o de liquidez que justifique pausa; el riesgo es elevado pero no grave."
+    "IPC de octubre por encima de lo previsto (0.4% mensual frente a 0.3%; subyacente 0.3% frente a 0.2%), que aumenta la probabilidad de una subida de tipos de la Fed en diciembre.",
+    "Capitalización total cripto -4.38% en 24 h, con liquidaciones de unos 360-630 millones de USD y salidas de ETF de bitcoin.",
+    "Índice Miedo/Codicia en 32 (miedo), con volatilidad y presión bajista generalizada en las 10 monedas.",
+    "Las noticias de seguridad (Binance/MEXC, vulnerabilidad iOS, hackeo de Mercado Bitcoin) son relevantes pero no afectan directamente a las monedas operadas, por lo que no justifican pausa.",
+    "No hay eventos macro de alto impacto en las próximas 24 h según los datos; el FOMC de diciembre queda fuera de ese horizonte."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-10T17:46:57+00:00",
-  "valido_hasta": "2026-11-10T20:46:57+00:00",
+  "generado": "2026-11-10T18:47:26+00:00",
+  "valido_hasta": "2026-11-10T21:47:26+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 32,
-    "cambio_mercado_24h": -5.48,
-    "noticias_analizadas": 57,
+    "cambio_mercado_24h": -4.38,
+    "noticias_analizadas": 59,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -56,20 +56,20 @@
       "link": "https://www.coindesk.com/markets/2026/11/10/bitcoin-slips-before-u-s-inflation-report-as-traders-price-in-fed-rate-increase"
     },
     {
-      "titulo": "Live news: Bitcoin falls to nearly three-month low after disappointing inflation data",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat"
+      "titulo": "Bitcoin Faces a Tougher Rate Outlook After US October Inflation Rises 0.4%",
+      "fuente": "NewsBTC",
+      "link": "https://www.newsbtc.com/bitcoin-news/bitcoin-us-october-cpi-04-percent-rate-outlook/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9547,
+    "input_tokens": 9473,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 693,
+    "output_tokens": 666,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
