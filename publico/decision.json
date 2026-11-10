@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 32) y la capitalización total cae un 1.31% en 24 h, con BTC cerca de 75.000 USD tras una ola de liquidaciones. Hoy a las 13:30 UTC hay dos datos de inflación de EE. UU. (CPI y Core CPI) de alto impacto, dentro de las próximas 24 h, lo que justifica prudencia. No hay riesgo grave e inmediato: el hackeo de Binance (~6.300 M USD) ha sido contenido según los analistas y Binance cubre las pérdidas de usuarios.",
+  "resumen": "El miedo/codicia está en Miedo (32) y la capitalización total cae un 1.89% en 24 h, con BTC cerca de 75.000 USD tras liquidaciones de la semana. Mañana a las 13:30 UTC se publican el IPC y el IPC subyacente de EE. UU., un dato macro de alto impacto dentro de las próximas 24 h, lo que justifica un modo de cautela. No hay señales de caída brusca (-7%) ni de un riesgo grave e inmediato en las monedas operadas.",
   "motivos": [
-    "Evento macro importante (CPI y Core CPI de EE. UU.) previsto hoy a las 13:30 UTC, dentro de las próximas 24 h.",
-    "Miedo en el mercado (índice 32) con caída de la capitalización total de -1.31% en 24 h y BTC cerca de 75.000 USD tras liquidaciones de 1.200 M USD.",
-    "Hackeo de Binance de ~6.300 M USD: es un riesgo relevante para el sector, pero los analistas no ven contagio y Binance cubre las pérdidas, por lo que no se considera grave para las monedas operadas.",
-    "No hay señales de anomalía en las monedas operadas (sin halt, depeg ni delist) ni acción regulatoria fuerte contra ellas."
+    "Evento macro importante dentro de 24 h: IPC (CPI m/m) y core CPI a las 13:30 UTC del 10/11, con previsiones que podrían afectar las apuestas sobre una subida de tipos de la Fed en diciembre.",
+    "Índice Miedo/Codicia en 32 (Miedo), con tendencia de la última semana en zona de miedo y volatilidad reciente.",
+    "Capitalización total -1.89% en 24 h y varias monedas con caídas de 7 días de entre -4% y -12%; sin caída brusca de -7% ni liquidaciones masivas en curso.",
+    "El hackeo de Binance (~6.300 M USD) ya ocurrió y el mercado lo absorbió (BTC -6%, según Fitch); no se detecta un problema activo que obligue a pausar las compras.",
+    "Noticias negativas sobre lavado de fondos y sanciones no afectan directamente a las monedas operadas; se descarta pausa por ruido."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-10T00:57:27+00:00",
-  "valido_hasta": "2026-11-10T03:57:27+00:00",
+  "generado": "2026-11-10T02:00:04+00:00",
+  "valido_hasta": "2026-11-10T05:00:04+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 32,
-    "cambio_mercado_24h": -1.31,
-    "noticias_analizadas": 50,
+    "cambio_mercado_24h": -1.89,
+    "noticias_analizadas": 44,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -50,25 +51,25 @@
       "link": "https://news.bitcoin.com/security/north-korea-binance-hack-takes-strange-turn-meme-coins/"
     },
     {
-      "titulo": "Charles Schwab Opens Crypto Trading Beyond Bitcoin and Ether",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/featured/charles-schwab-opens-crypto-trading-beyond-bitcoin-ether/"
-    },
-    {
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Canton Hosts Tokenized US Share Trade Under SEC Innovation Exemption",
+      "fuente": "NewsBTC",
+      "link": "https://www.newsbtc.com/news/canton-hosts-tokenized-us-share-trade-under-sec-innovation-exemption/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9720,
+    "input_tokens": 9877,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 594,
+    "output_tokens": 647,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
