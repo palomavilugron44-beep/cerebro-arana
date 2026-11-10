@@ -1,23 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 29) con la capitalización total apenas -0.83% en 24 h, sin caídas bruscas. Hay un dato macro de alto impacto (CPI de EE. UU. el 10 de noviembre a las 13:30 UTC), que cae dentro de las próximas 24 h, por lo que procede cautela general. No hay señales de pausa: el hackeo de Binance ya está en las noticias, pero los analistas describen contagio limitado y BTC ha caído solo ~6%.",
+  "resumen": "El mercado está en miedo (índice 32) y la capitalización total cae un 1.31% en 24 h, con BTC cerca de 75.000 USD tras una ola de liquidaciones. Hoy a las 13:30 UTC hay dos datos de inflación de EE. UU. (CPI y Core CPI) de alto impacto, dentro de las próximas 24 h, lo que justifica prudencia. No hay riesgo grave e inmediato: el hackeo de Binance (~6.300 M USD) ha sido contenido según los analistas y Binance cubre las pérdidas de usuarios.",
   "motivos": [
-    "Índice Miedo/Codicia en 29 (miedo) con tendencia bajista en la última semana.",
-    "Dato macro de alto impacto (CPI EE. UU.) el 10/11 a las 13:30 UTC, dentro de las próximas 24 h.",
-    "Hackeo de Binance (~6.300 M$) con analistas que no ven contagio amplio; capitalización total solo -0.83% en 24 h, sin caída brusca que justifique pausa.",
-    "Ninguna moneda muestra situación anómala (halt, depeg o delist) ni riesgo específico grave."
+    "Evento macro importante (CPI y Core CPI de EE. UU.) previsto hoy a las 13:30 UTC, dentro de las próximas 24 h.",
+    "Miedo en el mercado (índice 32) con caída de la capitalización total de -1.31% en 24 h y BTC cerca de 75.000 USD tras liquidaciones de 1.200 M USD.",
+    "Hackeo de Binance de ~6.300 M USD: es un riesgo relevante para el sector, pero los analistas no ven contagio y Binance cubre las pérdidas, por lo que no se considera grave para las monedas operadas.",
+    "No hay señales de anomalía en las monedas operadas (sin halt, depeg ni delist) ni acción regulatoria fuerte contra ellas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-09T23:38:57+00:00",
-  "valido_hasta": "2026-11-10T02:38:57+00:00",
+  "generado": "2026-11-10T00:57:27+00:00",
+  "valido_hasta": "2026-11-10T03:57:27+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
-    "miedo_codicia": 29,
-    "cambio_mercado_24h": -0.83,
-    "noticias_analizadas": 56,
+    "miedo_codicia": 32,
+    "cambio_mercado_24h": -1.31,
+    "noticias_analizadas": 50,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -40,6 +40,11 @@
       "link": "https://www.newsbtc.com/news/us-sanctions-more-prince-group-linked-companies-as-crypto-scam-network-crackdown-widens/"
     },
     {
+      "titulo": "Ethereum Foundation and Vitalik Buterin Sued Over Employee Firing After ‘Suicide Pledge’",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/regulation-and-legal/ethereum-foundation-vitalik-buterin-sued-employee-firing-suicide/"
+    },
+    {
       "titulo": "North Korea’s $6.3B Binance Hack Takes a Strange Turn With Meme Coins",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/security/north-korea-binance-hack-takes-strange-turn-meme-coins/"
@@ -50,25 +55,20 @@
       "link": "https://news.bitcoin.com/featured/charles-schwab-opens-crypto-trading-beyond-bitcoin-ether/"
     },
     {
-      "titulo": "Solana set for its first tokenized stock venue under SEC framework, listing Galaxy",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/business/2026/11/06/solana-lset-for-its-first-tokenized-stock-venue-under-sec-framework-listing-galaxy"
-    },
-    {
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9644,
+    "input_tokens": 9720,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 504,
+    "output_tokens": 594,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
