@@ -1,23 +1,22 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El miedo/codicia está en Miedo (32) y la capitalización total cae un 1.89% en 24 h, con BTC cerca de 75.000 USD tras liquidaciones de la semana. Mañana a las 13:30 UTC se publican el IPC y el IPC subyacente de EE. UU., un dato macro de alto impacto dentro de las próximas 24 h, lo que justifica un modo de cautela. No hay señales de caída brusca (-7%) ni de un riesgo grave e inmediato en las monedas operadas.",
+  "resumen": "El mercado está en miedo (índice 32) con la capitalización total cayendo un 2.07% en 24 h y BTC cerca de 75.000 USD tras liquidaciones. Hay un dato de alto impacto (IPC de EE. UU.) previsto para hoy a las 13:30 UTC, dentro de las próximas 24 h, lo que justifica operar con cautela. El hackeo de Binance (~6.300 M USD) es grave, pero los datos muestran que el impacto en precios ha sido contenido (BTC -6%), así que no se considera una pausa general.",
   "motivos": [
-    "Evento macro importante dentro de 24 h: IPC (CPI m/m) y core CPI a las 13:30 UTC del 10/11, con previsiones que podrían afectar las apuestas sobre una subida de tipos de la Fed en diciembre.",
-    "Índice Miedo/Codicia en 32 (Miedo), con tendencia de la última semana en zona de miedo y volatilidad reciente.",
-    "Capitalización total -1.89% en 24 h y varias monedas con caídas de 7 días de entre -4% y -12%; sin caída brusca de -7% ni liquidaciones masivas en curso.",
-    "El hackeo de Binance (~6.300 M USD) ya ocurrió y el mercado lo absorbió (BTC -6%, según Fitch); no se detecta un problema activo que obligue a pausar las compras.",
-    "Noticias negativas sobre lavado de fondos y sanciones no afectan directamente a las monedas operadas; se descarta pausa por ruido."
+    "Índice Miedo/Codicia en 32 (miedo) y capitalización total -2.07% en 24 h.",
+    "Publicación del IPC de EE. UU. (CPI m/m) el 10-nov a las 13:30 UTC, evento macro importante dentro de 24 h; el mercado debate una posible subida de tipos de la Fed en diciembre.",
+    "Hackeo de Binance de ~6.300 M USD: riesgo reputacional relevante, pero sin evidencia de halt, depeg o problema operativo en las monedas del bot; el mercado solo ha caído ~6% en BTC.",
+    "Caídas semanales generalizadas (XRP -12%, ETH -5.8%, SOL -6.5%), sin señal de caída brusca de -7% o peor en 24 h que justifique pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-10T02:00:04+00:00",
-  "valido_hasta": "2026-11-10T05:00:04+00:00",
+  "generado": "2026-11-10T02:48:29+00:00",
+  "valido_hasta": "2026-11-10T05:48:29+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 32,
-    "cambio_mercado_24h": -1.89,
+    "cambio_mercado_24h": -2.07,
     "noticias_analizadas": 44,
     "articulos_leidos": 8,
     "fuentes": {
@@ -62,14 +61,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9877,
+    "input_tokens": 9941,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 647,
+    "output_tokens": 601,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
