@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae un 4.48% en 24 h con miedo (índice 32) tras un IPC de EE. UU. más alto de lo esperado, que refuerza la expectativa de una subida de tipos de la Fed en diciembre. Es un riesgo macro importante, pero no un evento inmediato de alto impacto en las próximas 2-3 horas ni hay señales de hackeo o problema regulatorio grave en las monedas operadas, por lo que se recomienda cautela y no pausa.",
+  "resumen": "El mercado está a la baja tras un CPI de EE.UU. más alto de lo esperado, que aumenta la probabilidad de una subida de tipos de la Fed en diciembre; la capitalización total cae un 4.81% en 24 h y el miedo/codicia está en 32 (miedo). No hay un evento de caída de -7% ni un riesgo grave específico de una moneda, pero la incertidumbre macro justifica reducir el tamaño de las compras nuevas por ahora.",
   "motivos": [
-    "Caída del mercado de -4.48% en 24 h con BTC cerca de mínimos de 11 semanas (~73.500 USD) tras el IPC caliente",
-    "Miedo en el índice Fear & Greed (32), con varios días recientes en miedo",
-    "Expectativa de subida de tipos de la Fed en diciembre; riesgo macro importante dentro de 24 h pero sin evento de alto impacto en las próximas horas",
-    "Sin hackeo ni problema de seguridad que afecte directamente a las monedas operadas (los incidentes de Across, Mercado Bitcoin y MEXC no involucran a las 10 monedas del bot)",
-    "Todas las monedas operadas caen entre -2% y -4.4% en 24 h; no hay situación anómala individual que justifique un tratamiento específico"
+    "CPI de octubre por encima de previsiones (0.4% frente a 0.3%; core 0.3% frente a 0.2%) con mercado descontando una subida de 0.25% o más en diciembre.",
+    "Caída de la capitalización total del 4.81% en 24 h y liquidaciones de unos 632 M$ en posiciones apalancadas, aunque sin llegar al umbral de -7% para pausa.",
+    "Miedo/codicia en 32 (miedo) con salidas netas de ETF de Bitcoin (201 M$ el 9 de noviembre) y de ETH (184.6 M$).",
+    "Incidentes de seguridad como Near AI, Across Protocol y Mercado Bitcoin son relevantes, pero no afectan directamente a las monedas operadas ni son de magnitud sistémica.",
+    "No hay eventos macro de alto impacto USD en las próximas 24 h, por lo que no procede pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-10T22:40:10+00:00",
-  "valido_hasta": "2026-11-11T01:40:10+00:00",
+  "generado": "2026-11-10T23:34:49+00:00",
+  "valido_hasta": "2026-11-11T02:34:49+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 32,
-    "cambio_mercado_24h": -4.48,
-    "noticias_analizadas": 63,
+    "cambio_mercado_24h": -4.81,
+    "noticias_analizadas": 58,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -46,30 +46,30 @@
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-crashes-72787-hotter-than-expected-cpi/"
     },
     {
-      "titulo": "Bitcoin slips before U.S. inflation report as traders price in Fed rate increase",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/10/bitcoin-slips-before-u-s-inflation-report-as-traders-price-in-fed-rate-increase"
-    },
-    {
       "titulo": "Bitcoin Faces a Tougher Rate Outlook After US October Inflation Rises 0.4%",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/bitcoin-news/bitcoin-us-october-cpi-04-percent-rate-outlook/"
     },
     {
-      "titulo": "Live news: Bitcoin falls to nearly three-month low after disappointing inflation data",
+      "titulo": "Hot US inflation raises odds of half-point Fed hike in December",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/hot-us-inflation-raises-rate-hike-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Plume affiliate lands broker-dealer license to bring real U.S. assets onchain",
       "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat"
+      "link": "https://www.coindesk.com/markets/2026/11/10/emb-10-am-et-plume-affiliate-gets-the-legal-green-light-to-trade-regulated-security-entitlements-onchain"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9374,
+    "input_tokens": 9338,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 576,
+    "output_tokens": 611,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
