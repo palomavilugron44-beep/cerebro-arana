@@ -1,22 +1,22 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 32) con la capitalización total cayendo un 1.57% en 24 h y BTC cerca de 75.000 USD tras una ola de liquidaciones. Hoy a las 13:30 UTC se publican el IPC y el IPC subyacente de EE. UU., dato macro de alto impacto dentro de las próximas 24 h, lo que justifica cautela general. No hay señales de riesgo grave e inmediato sobre las monedas operadas.",
+  "resumen": "El índice Miedo/Codicia está en 32 (miedo) y la capitalización total cae un 1.42% en 24 h, sin una caída brusca. Hay un evento macro de alto impacto hoy a las 13:30 UTC (IPC de EE. UU.), dentro de las próximas 24 h, y el hackeo de 6.3 mil millones de dólares a Binance es una noticia negativa relevante pero sin efecto de pánico (BTC cayó solo un 6%). Por ello se recomienda cautela general (mitad de tamaño) y no pausa.",
   "motivos": [
-    "Evento macro de alto impacto (IPC y IPC subyacente de EE. UU.) a las 13:30 UTC, dentro de las próximas 24 h, con expectativas de posible subida de tipos de la Fed en diciembre.",
-    "Índice Miedo/Codicia en 32 (miedo) y capitalización total -1.57% en 24 h tras liquidaciones, con BTC cerca de 75.000 USD.",
-    "Noticias del hackeo de Binance (~6.300 M USD) son relevantes pero no afectan directamente a las monedas operadas ni a su liquidez; no justifican pausa.",
-    "Sin caída brusca de mercado (>7%), sin halt, depeg ni delist de las monedas operadas; la estrategia ya incluye stop a 3 ATR."
+    "Dato macro de alto impacto (IPC de EE. UU.) a las 13:30 UTC de hoy, dentro de las próximas 24 h; por debajo del umbral de pausa salvo que quede a menos de 2-3 h.",
+    "Índice Miedo/Codicia en 32 (miedo) con una tendencia a la baja en la última semana.",
+    "Hackeo de unos 6.3 mil millones de dólares a Binance: riesgo de seguridad relevante, pero el mercado reaccionó con una caída moderada (BTC -6%) y no hay señales de halt, depeg o delist en las monedas operadas.",
+    "Capitalización total -1.42% en 24 h, sin caída brusca de -7% ni liquidaciones en cascada."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-10T05:52:50+00:00",
-  "valido_hasta": "2026-11-10T08:52:50+00:00",
+  "generado": "2026-11-10T07:02:00+00:00",
+  "valido_hasta": "2026-11-10T10:02:00+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 32,
-    "cambio_mercado_24h": -1.57,
+    "cambio_mercado_24h": -1.42,
     "noticias_analizadas": 38,
     "articulos_leidos": 8,
     "fuentes": {
@@ -50,25 +50,25 @@
       "link": "https://news.bitcoin.com/security/north-korea-binance-hack-takes-strange-turn-meme-coins/"
     },
     {
+      "titulo": "Here’s what happened in crypto today",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "titulo": "Canton Hosts Tokenized US Share Trade Under SEC Innovation Exemption",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/news/canton-hosts-tokenized-us-share-trade-under-sec-innovation-exemption/"
-    },
-    {
-      "titulo": "Bitcoin’s 6% Price Drop After $6.3B Binance Hack Signals Maturity: Fitch Ratings",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/featured/bitcoin-6-percent-price-drop-after-binance-hack-signals-maturity-fitch/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9567,
+    "input_tokens": 9580,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 564,
+    "output_tokens": 579,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
