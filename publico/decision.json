@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae (-4.49% en 24 h) con miedo (índice 32) tras un dato de inflación de EE. UU. más alto de lo esperado, que refuerza las expectativas de una subida de tipos de la Fed en diciembre. Hay salidas netas de ETF y liquidaciones de unos 360 M$, pero no hay un hackeo, una acción regulatoria grave ni una caída catastrófica que justifique pausar. Se elige cautela general por volatilidad y presión macro, sin medidas específicas por moneda.",
+  "resumen": "El mercado cae hoy (capitalización -4.16% en 24 h) con miedo moderado (índice 32) tras un dato de inflación de EE. UU. más alto de lo esperado, que refuerza la expectativa de una subida de tipos de la Fed en diciembre. Esto supone un evento macro relevante en las próximas 24 h y volatilidad elevada, pero no hay una caída de -7% ni un evento de muy alto impacto inminente, por lo que no se justifica pausa. Las noticias de hackeos (Across, Mercado Bitcoin, Binance/MEXC) son específicas de plataformas o monedas no operadas por el bot, salvo el aviso general de Binance por una vulnerabilidad de iOS.",
   "motivos": [
-    "CPI de octubre por encima de lo previsto (+0.4% m/m frente a +0.3%) y mercado casi seguro de una subida de 25 pb en diciembre: evento macro relevante pero ya ocurrido, no una pausa.",
-    "Capitalización total -4.49% en 24 h con miedo (32) y salidas de ETF de BTC y ETH (-201 M$ y -184.6 M$), pero por debajo del umbral de -7% para pausa.",
-    "Liquidaciones de unos 360 M$ en 24 h, con todas las monedas del universo cayendo entre -2% y -4.4%; no hay señal de anomalía en una moneda concreta.",
-    "Incidentes de seguridad (hack de Mercado Bitcoin de 49 M$, aviso de Binance por vulnerabilidad de iOS, sanción de FinCEN a MEXC) no afectan directamente a las monedas operadas ni son graves para ellas."
+    "Dato de IPC de EE. UU. por encima de previsiones (0.4% mensual frente a 0.3%) que refuerza la expectativa de una subida de tipos de 0.25% (o más) en diciembre.",
+    "Capitalización total cripto -4.16% en 24 h con salidas de ETF de BTC y ETH y liquidaciones de unos 360 millones de dólares.",
+    "Índice Miedo/Codicia en 32 (miedo), con volatilidad elevada en las principales monedas.",
+    "Las brechas de seguridad recientes (Across Protocol, Mercado Bitcoin, MEXC) no afectan directamente a las monedas operadas por el bot.",
+    "No hay caída de -7% ni evento macro de muy alto impacto en las próximas 2-3 horas, así que no procede pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-10T20:44:29+00:00",
-  "valido_hasta": "2026-11-10T23:44:29+00:00",
+  "generado": "2026-11-10T21:39:52+00:00",
+  "valido_hasta": "2026-11-11T00:39:52+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 32,
-    "cambio_mercado_24h": -4.49,
-    "noticias_analizadas": 62,
+    "cambio_mercado_24h": -4.16,
+    "noticias_analizadas": 64,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -61,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9460,
+    "input_tokens": 9412,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 639,
+    "output_tokens": 658,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
