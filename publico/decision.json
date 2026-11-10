@@ -1,23 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 32) con la capitalización total cayendo un 2.58% en 24 h y BTC cerca de 74.400 USD tras liquidaciones recientes. Hoy a las 13:30 UTC se publica el IPC de EE. UU. (dato macro de alto impacto), que cae dentro de las próximas 24 h y justifica cautela, aunque no llega a la ventana de 2-3 horas que exigiría pausa. El hackeo de Binance (~6.300 M USD) es un riesgo serio pero ya ha sido absorbido por el mercado (BTC -6%) y no afecta directamente a las monedas operadas, así que no basta para pausar.",
+  "resumen": "El mercado está en miedo (índice 32) con la capitalización total -1.88% en 24 h y BTC cerca de 74.600 USD tras liquidaciones recientes. Hay un dato macro de alto impacto (IPC de EE. UU. con Core CPI) previsto para las 13:30 UTC, dentro de las próximas 24 h, lo que justifica cautela; el hackeo de Binance de 6.300 M USD es grave pero el mercado lo ha absorbido (BTC -6%), y no hay anomalías en las monedas operadas.",
   "motivos": [
-    "Índice Miedo/Codicia en 32 (Fear) con caída de capitalización total de -2.58% en 24 h.",
-    "Publicación del IPC de EE. UU. a las 13:30 UTC (evento macro importante dentro de 24 h); riesgo de volatilidad.",
-    "El hackeo de Binance ya se ha reflejado en precio (BTC -6%) y no hay señal de anomalía en las monedas operadas, por lo que no justifica pausa.",
-    "Ninguna moneda presenta situación anómala (halt, depeg, delist) ni caídas individuales que requieran un trato más prudente que el global."
+    "Evento macro importante en menos de 24 h: IPC de EE. UU. (Core CPI y CPI m/m) previsto para 2026-11-10 13:30 UTC, con temor a que tests de subidas de tipos en diciembre.",
+    "Índice Miedo/Codicia en 32 (miedo) y capitalización total -1.88% en 24 h, con volatilidad y BTC recuperando desde mínimos de 11 semanas.",
+    "El hackeo de Binance (~6.300 M USD) es un riesgo relevante, pero no hay indicios de problema operativo en Binance que obligue a pausar; el impacto en precios ha sido moderado (BTC -6%).",
+    "Ninguna moneda muestra situación anómala (halt, depeg o delist) y los cambios 24 h son moderados; no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-10T03:48:44+00:00",
-  "valido_hasta": "2026-11-10T06:48:44+00:00",
+  "generado": "2026-11-10T04:51:49+00:00",
+  "valido_hasta": "2026-11-10T07:51:49+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 32,
-    "cambio_mercado_24h": -2.58,
-    "noticias_analizadas": 44,
+    "cambio_mercado_24h": -1.88,
+    "noticias_analizadas": 42,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -61,14 +61,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9911,
+    "input_tokens": 9875,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 577,
+    "output_tokens": 600,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
