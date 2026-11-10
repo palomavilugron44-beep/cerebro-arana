@@ -1,24 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El índice Miedo/Codicia está en 32 (miedo) y el mercado cae un -0.41% en 24 h, sin caídas bruscas. Hay un dato macro de alto impacto (IPC de EE. UU. con core CPI a las 13:30 UTC, dentro de unas 5 horas), lo que justifica operar con cautela en lugar de normal. Las salidas de ETF de bitcoin y el hackeo de Binance (6.300 M$) son noticias negativas relevantes, pero no hay una señal de riesgo grave e inmediato que justifique pausar.",
+  "resumen": "El mercado está en miedo (índice 32) con la capitalización total cayendo un 2.74% en 24 h y salidas sostenidas de ETFs de Bitcoin. Hay un dato de IPC de EE. UU. de alto impacto a las 13:30 UTC de hoy, dentro de las próximas 24 h, lo que justifica un modo de cautela; no hay señales de caída brusca confirmada ni anomalías en las monedas operadas.",
   "motivos": [
-    "Dato macro de alto impacto (Core CPI y CPI m/m de EE. UU.) previsto a las 13:30 UTC, dentro de las próximas 24 h.",
-    "Índice Miedo/Codicia en 32 (miedo), con volatilidad reciente y varias monedas en caída a 7 días (XRP -12%, ETH -5.7%).",
-    "Salidas netas de ETF spot de bitcoin durante siete sesiones seguidas (1.660 M$ en IBIT), noticia negativa relevante pero no grave.",
-    "Hackeo de Binance de unos 6.300 M$ atribuido a Corea del Norte: riesgo de noticia relevante, sin evidencia de impacto operativo directo en los precios ni en las monedas operadas.",
-    "La capitalización total cae solo un -0.41% en 24 h, por lo que no se cumple el umbral de caída brusca para pausa."
+    "Evento macro importante en menos de 4 horas: IPC subyacente y general de EE. UU. a las 13:30 UTC, con previsión por debajo del dato anterior en el subyacente.",
+    "Índice Miedo/Codicia en 32 (miedo) y capitalización total -2.74% en 24 h, con volatilidad y tono bajista.",
+    "Salidas de ETFs spot de Bitcoin durante siete sesiones seguidas (1.66 mil millones de dólares en IBIT).",
+    "Noticias de hackeo de 6.3 mil millones de dólares en Binance y sanciones/temas regulatorios, pero sin acción concreta inmediata sobre las monedas operadas; no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-10T08:14:12+00:00",
-  "valido_hasta": "2026-11-10T11:14:12+00:00",
+  "generado": "2026-11-10T09:54:36+00:00",
+  "valido_hasta": "2026-11-10T12:54:36+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 32,
-    "cambio_mercado_24h": -0.41,
-    "noticias_analizadas": 36,
+    "cambio_mercado_24h": -2.74,
+    "noticias_analizadas": 34,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -46,9 +45,9 @@
       "link": "https://news.bitcoin.com/regulation-and-legal/ethereum-foundation-vitalik-buterin-sued-employee-firing-suicide/"
     },
     {
-      "titulo": "North Korea’s $6.3B Binance Hack Takes a Strange Turn With Meme Coins",
+      "titulo": "Bitcoin Slips Under $75K as Peter Schiff Says Sell Before a Short Window Closes",
       "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/security/north-korea-binance-hack-takes-strange-turn-meme-coins/"
+      "link": "https://news.bitcoin.com/market-updates/peter-schiff-sell-bitcoin-before-crash/"
     },
     {
       "titulo": "Here’s what happened in crypto today",
@@ -56,20 +55,20 @@
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "titulo": "North Korean hackers create memecoins to launder funds from Binance hack: Elliptic",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/north-korean-hackers-memecoins-launder-binance-hack-elliptic?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "titulo": "This Week in Crypto Law (November 8, 2026)",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/regulation-and-legal/this-week-in-crypto-law-november-8-2026/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9409,
+    "input_tokens": 9095,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 637,
+    "output_tokens": 531,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
