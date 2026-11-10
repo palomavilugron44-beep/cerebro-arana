@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae un 6% en 24 h con miedo (índice 32) tras un IPC de EE. UU. más caliente de lo esperado, que el mercado da casi por seguro como subida de tipos de la Fed en diciembre. BTC ronda 73.500 USD, cerca de mínimos de 11 semanas, con salidas de ETF y liquidaciones de unos 360-630 M USD. No hay una caída catastrófica ni un evento de seguridad o regulatorio grave, así que se recomienda cautela general (mitad de tamaño) en lugar de pausa.",
+  "resumen": "El mercado cripto cae -5.48% en 24 h con miedo (índice 32) tras un IPC más caliente de lo esperado, que refuerza la expectativa de una subida de tipos de la Fed en diciembre; BTC está cerca de mínimos de 11 semanas (~73.000 USD) y hay salidas de ETFs y liquidaciones de unos 360-630 M USD. No hay un shock de seguridad, regulatorio o de liquidez que justifique pausar, pero la incertidumbre macro es elevada, así que se recomienda cautela (mitad de tamaño) en lugar de operación normal. Binance restringió transferencias con MEXC, pero no afecta a las monedas operadas.",
   "motivos": [
-    "Capitalización total -6.05% en 24 h con liquidaciones de posiciones apalancadas, que cumple el umbral de caída brusca en curso.",
-    "IPC de octubre por encima de previsiones (0.4% mensual frente a 0.3%) y subida de tipos de la Fed en diciembre prácticamente descontada; el próximo dato macro relevante cae dentro de 24 h.",
-    "Miedo extremo sostenido (índice 32) y salidas de ETF de BTC durante siete sesiones seguidas (1.66 mil millones USD en IBIT).",
-    "No hay evento de seguridad, exploit ni acción regulatoria grave contra una moneda concreta; la noticia de Binance sobre MEXC es un caso de exchange ajeno a las monedas operadas y no justifica pausa."
+    "IPC de octubre superior a lo previsto (+0.4% m/m frente a +0.3%; subyacente +0.3%), con mercados casi descontando una subida de 0.25% de la Fed en diciembre.",
+    "Caída de capitalización total de -5.48% en 24 h; BTC cerca de mínimos de 11 semanas y ETH, SOL, XRP con caídas de 12-18% en 7 días.",
+    "Miedo en el índice (32) y salidas netas de ETFs de bitcoin (7 sesiones seguidas en IBIT, unos 1.66 mil millones USD).",
+    "Liquidaciones de posiciones apalancadas de cientos de millones de USD en 24 h, lo que indica estrés en derivados.",
+    "No hay eventos macro de alto impacto en las próximas 24 h ni incidente de seguridad, regulatorio o de liquidez que justifique pausa; el riesgo es elevado pero no grave."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-10T16:50:55+00:00",
-  "valido_hasta": "2026-11-10T19:50:55+00:00",
+  "generado": "2026-11-10T17:46:57+00:00",
+  "valido_hasta": "2026-11-10T20:46:57+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 32,
-    "cambio_mercado_24h": -6.05,
-    "noticias_analizadas": 56,
+    "cambio_mercado_24h": -5.48,
+    "noticias_analizadas": 57,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -61,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9538,
+    "input_tokens": 9547,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 606,
+    "output_tokens": 693,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
