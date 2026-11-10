@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 32) con la capitalización total cayendo un 2.74% en 24 h y salidas sostenidas de ETFs de Bitcoin. Hay un dato de IPC de EE. UU. de alto impacto a las 13:30 UTC de hoy, dentro de las próximas 24 h, lo que justifica un modo de cautela; no hay señales de caída brusca confirmada ni anomalías en las monedas operadas.",
+  "resumen": "El mercado está en miedo (índice 32) con la capitalización total cayendo un 2.91% en 24 h y BTC por debajo de 75.000 USD tras declaraciones de Waller a favor de una subida de tipos en diciembre. Hay un dato macro de alto impacto (CPI y Core CPI) a las 13:30 UTC, en menos de 3 horas, que puede generar volatilidad fuerte. Por ello se recomienda cautela general (compras a mitad de tamaño) hasta conocer el dato, sin pausar, ya que no hay una caída brusca confirmada ni un riesgo de seguridad activo para las monedas operadas.",
   "motivos": [
-    "Evento macro importante en menos de 4 horas: IPC subyacente y general de EE. UU. a las 13:30 UTC, con previsión por debajo del dato anterior en el subyacente.",
-    "Índice Miedo/Codicia en 32 (miedo) y capitalización total -2.74% en 24 h, con volatilidad y tono bajista.",
-    "Salidas de ETFs spot de Bitcoin durante siete sesiones seguidas (1.66 mil millones de dólares en IBIT).",
-    "Noticias de hackeo de 6.3 mil millones de dólares en Binance y sanciones/temas regulatorios, pero sin acción concreta inmediata sobre las monedas operadas; no se justifica pausa."
+    "Dato CPI y Core CPI de EE. UU. a las 13:30 UTC, dentro de las próximas 3 horas, con previsiones que pueden generar volatilidad.",
+    "Expectativas de subida de tipos de la Fed en diciembre (probabilidad ~96%) tras declaraciones de Waller, presionando al mercado.",
+    "Índice Miedo/Codicia en 32 (miedo) y capitalización total -2.91% en 24 h.",
+    "Salidas netas sostenidas de ETFs spot de BTC (IBIT siete sesiones consecutivas, 1.66 B USD).",
+    "No hay indicios de hackeo activo ni acción regulatoria grave; el hackeo de Binance mencionado es un evento previo sin detalles de riesgo inmediato para las monedas operadas, por lo que no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-10T09:54:36+00:00",
-  "valido_hasta": "2026-11-10T12:54:36+00:00",
+  "generado": "2026-11-10T10:52:47+00:00",
+  "valido_hasta": "2026-11-10T13:52:47+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 32,
-    "cambio_mercado_24h": -2.74,
-    "noticias_analizadas": 34,
+    "cambio_mercado_24h": -2.91,
+    "noticias_analizadas": 38,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -30,45 +31,45 @@
   },
   "titulares": [
     {
+      "titulo": "Bitcoin price eyes $74K as Fed rate-hike bets hit 96% after Waller speech",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/bitcoin-price-eyes-74k-fed-rate-hike-expected-after-waller-speech?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Bitcoin slips before U.S. inflation report as traders price in Fed rate increase",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/10/bitcoin-slips-before-u-s-inflation-report-as-traders-price-in-fed-rate-increase"
+    },
+    {
+      "titulo": "Live news: Traders price in fed rate hike for December as bitcoin and gold retreat",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat"
+    },
+    {
       "titulo": "Bitcoin faces U.S. CPI test as analysts warn inflation relief may not be enough",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/10/bitcoin-faces-u-s-cpi-test-as-analysts-warn-inflation-relief-may-not-be-enough"
     },
     {
+      "titulo": "MARA Dumps Over 13,500 Bitcoin for Over $1B to Wipe out Its BTC Loans",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/mining/mara-sells-13597-bitcoin-repays-750m-loans/"
+    },
+    {
       "titulo": "BlackRock Bitcoin ETF outflows hit $1.66B over seven trading sessions",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/markets/blackrock-ibit-bitcoin-etf-outflows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Ethereum Foundation and Vitalik Buterin Sued Over Employee Firing After ‘Suicide Pledge’",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/regulation-and-legal/ethereum-foundation-vitalik-buterin-sued-employee-firing-suicide/"
-    },
-    {
-      "titulo": "Bitcoin Slips Under $75K as Peter Schiff Says Sell Before a Short Window Closes",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/peter-schiff-sell-bitcoin-before-crash/"
-    },
-    {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "This Week in Crypto Law (November 8, 2026)",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/regulation-and-legal/this-week-in-crypto-law-november-8-2026/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9095,
+    "input_tokens": 9582,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 531,
+    "output_tokens": 643,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
