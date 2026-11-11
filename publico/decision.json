@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está a la baja tras un CPI de EE.UU. más alto de lo esperado, que aumenta la probabilidad de una subida de tipos de la Fed en diciembre; la capitalización total cae un 4.81% en 24 h y el miedo/codicia está en 32 (miedo). No hay un evento de caída de -7% ni un riesgo grave específico de una moneda, pero la incertidumbre macro justifica reducir el tamaño de las compras nuevas por ahora.",
+  "resumen": "El mercado cripto cae con fuerza (capitalización -4.8% en 24 h) tras un dato de inflación (IPC de octubre) más alto de lo esperado, que refuerza las expectativas de una subida de tipos de la Fed en diciembre. El índice Miedo/Codicia está en 29 (miedo) y hay salidas de ETFs de BTC y ETH, pero no hay un evento macro de alto impacto en las próximas 24 h ni una caída de mercado de -7% o peor. Se recomienda cautela general (mitad de tamaño) y no una pausa.",
   "motivos": [
-    "CPI de octubre por encima de previsiones (0.4% frente a 0.3%; core 0.3% frente a 0.2%) con mercado descontando una subida de 0.25% o más en diciembre.",
-    "Caída de la capitalización total del 4.81% en 24 h y liquidaciones de unos 632 M$ en posiciones apalancadas, aunque sin llegar al umbral de -7% para pausa.",
-    "Miedo/codicia en 32 (miedo) con salidas netas de ETF de Bitcoin (201 M$ el 9 de noviembre) y de ETH (184.6 M$).",
-    "Incidentes de seguridad como Near AI, Across Protocol y Mercado Bitcoin son relevantes, pero no afectan directamente a las monedas operadas ni son de magnitud sistémica.",
-    "No hay eventos macro de alto impacto USD en las próximas 24 h, por lo que no procede pausa."
+    "IPC de octubre por encima de previsiones (+0.4% mensual vs 0.3% esperado; subyacente +0.3%), con mercado descontando una subida de 0.25% o más de la Fed en diciembre.",
+    "Capitalización total -4.8% en 24 h y miedo extremo-moderado (índice 29), con salidas netas de ETFs spot de BTC (-201M USD el 9 de noviembre) y ETH (-184.6M USD).",
+    "Volatilidad elevada: XRP -17.5% y ETH -10.5% en 7 días; BTC cerca de mínimos de 11 semanas.",
+    "No hay evento macro de alto impacto en las próximas 24 h, y la caída de mercado no alcanza el umbral de pausa (-7%).",
+    "Incidentes de seguridad (Near AI, Across Protocol, Mercado Bitcoin, aviso de Binance sobre iOS) no afectan directamente a las monedas operadas ni son graves para ellas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-10T23:34:49+00:00",
-  "valido_hasta": "2026-11-11T02:34:49+00:00",
+  "generado": "2026-11-11T00:58:02+00:00",
+  "valido_hasta": "2026-11-11T03:58:02+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
-    "miedo_codicia": 32,
-    "cambio_mercado_24h": -4.81,
-    "noticias_analizadas": 58,
+    "miedo_codicia": 29,
+    "cambio_mercado_24h": -4.8,
+    "noticias_analizadas": 54,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9338,
+    "input_tokens": 9412,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 611,
+    "output_tokens": 665,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
