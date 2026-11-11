@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado muestra miedo (índice 29) y una caída de la capitalización total del -4.23% en 24 h, con todas las monedas en negativo y XRP y ETH en fuerte retroceso semanal. No hay eventos macro de alto impacto en las próximas 24 h, y las noticias de hackeos (Initia, Across, Near AI, LNbits) son relevantes pero no afectan directamente a las monedas operadas. Se elige cautela general por volatilidad y miedo, sin pausa, ya que no hay una caída de -7% ni una situación anómala en las monedas del bot.",
+  "resumen": "El mercado cripto cae con fuerza: capitalización total -4.21% en 24 h y el índice Miedo/Codicia en 29 (miedo). Las noticias sobre inflación caliente y posibles subidas de tipos de la Fed generan presión, aunque no hay eventos macro de alto impacto en las próximas 24 h y no se detecta una caída de -7% ni un incidente grave en una red importante. Se recomienda cautela general por volatilidad y miedo, y cautela específica en XRP por la presión vendedora.",
   "motivos": [
-    "Capitalización total -4.23% en 24 h con todas las monedas del bot en negativo.",
-    "Índice Miedo/Codicia en 29 (miedo), con tendencia bajista a 7 días en ETH (-10.36%), XRP (-17.29%) y SOL (-10.91%).",
-    "Varios exploits de seguridad (Initia, Across Protocol, Near AI, LNbits), pero ninguno afecta directamente a las monedas operadas por el bot.",
-    "Sin eventos macro de alto impacto en 24 h, pero la inflación caliente de EE. UU. aumenta el temor a una subida de tipos de la Fed."
+    "Miedo/Codicia en 29 (Miedo) y capitalización total -4.21% en 24 h: entorno de volatilidad y aversión al riesgo elevada.",
+    "Titular de inflación más alta de lo esperado con temores de una subida de tipos de la Fed en diciembre; evento macro relevante en el horizonte.",
+    "XRP -16.92% en 7 días y su tesorería ligada (XRPN) cayó 23.5% tras la liberación de hasta 73.7 millones de acciones para venta por insiders.",
+    "Incidentes de seguridad menores (Initia, Near AI, Across Protocol, LNbits) sin afectar directamente a las monedas operadas; no justifican pausa.",
+    "Sin eventos USD de alto impacto en 24 h y caídas de precio no catastróficas en el resto de monedas: no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-11T07:08:04+00:00",
-  "valido_hasta": "2026-11-11T10:08:04+00:00",
+  "generado": "2026-11-11T08:53:50+00:00",
+  "valido_hasta": "2026-11-11T11:53:50+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -4.23,
-    "noticias_analizadas": 39,
+    "cambio_mercado_24h": -4.21,
+    "noticias_analizadas": 33,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -29,6 +30,11 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
+    {
+      "titulo": "Ripple-Backed Evernorth Crashes Over 23% as Insiders Get Cleared to Sell",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/finance/evernorth-xrpn-crashes-73-7-million-share-resale/"
+    },
     {
       "titulo": "Initia confirms second exploit in 3 weeks, $3.27M stolen in latest attack",
       "fuente": "Cointelegraph",
@@ -45,11 +51,6 @@
       "link": "https://www.newsbtc.com/altcoin-news/charles-schwab-live-solana-avalanche-chainlink-trading/"
     },
     {
-      "titulo": "Bitcoin Could Rally Before Rate Cuts Begin, Binance Research Says",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/featured/bitcoin-could-rally-before-rate-cuts-begin-binance-research/"
-    },
-    {
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -61,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9146,
+    "input_tokens": 8542,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 551,
+    "output_tokens": 691,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
