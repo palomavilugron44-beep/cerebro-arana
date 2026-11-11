@@ -1,24 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 29) tras un CPI más caliente de lo esperado que eleva la probabilidad de una subida de tipos, con salidas de ETF de cuatro días y caída de stablecoins. La capitalización total cae un 2.5% en 24 h, pero no hay una caída brusca de -7% ni un evento de alto impacto en las próximas 24 h ni incidentes de seguridad graves. Se recomienda cautela general por volatilidad e incertidumbre, sin pausa.",
+  "resumen": "El índice Miedo/Codicia está en 29 (miedo) tras un CPI más caliente de lo esperado, la capitalización total cae un 2.62% en 24 h y las salidas de ETF de BTC suman varios días seguidos, con caídas semanales de entre -2.95% y -19.11% en las monedas vigiladas. No hay eventos macro de alto impacto en las próximas 24 h ni noticias de hackeo, regulación grave o halt de monedas; el aviso de Bitcoin Core es de severidad alta pero ya parcheado desde 2025. Dado el entorno de volatilidad y miedo, se recomienda cautela general (mitad de tamaño) sin pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 29 (miedo) con caídas de 7 días de entre -2% y -18% en las monedas principales.",
-    "CPI más caliente de lo esperado; el mercado descuenta ~90% de probabilidad de subida de tipos, lo que genera incertidumbre macro elevada.",
-    "Salidas netas de ETF de BTC durante cuatro días consecutivos y contracción de stablecoins (-14.2 mil M$ en 30 días), señal de menor liquidez.",
-    "Capitalización total -2.5% en 24 h: caída relevante pero lejos del umbral de -7% para pausa.",
-    "Sin eventos macro de alto impacto en las próximas 24 h ni incidentes de seguridad, regulatorios o de halt/depeg que justifiquen pausa."
+    "Miedo extremo moderado (índice 29) y caída de la capitalización total de -2.62% en 24 h.",
+    "Salidas netas de ETF de BTC durante cuatro días consecutivos y contracción de stablecoins (-14.2 mil millones en 30 días), señal de debilidad de demanda.",
+    "Tendencia semanal negativa generalizada (XRP -19%, ETH -15%, DOGE -12%, SOL -12%), con volatilidad elevada tras el dato de CPI.",
+    "No hay riesgo grave e inmediato: sin hackeo activo, sin acción regulatoria fuerte ni evento macro de alto impacto en 24 h; el fallo de Bitcoin Core ya está parcheado."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-11T22:49:25+00:00",
-  "valido_hasta": "2026-11-12T01:49:25+00:00",
+  "generado": "2026-11-11T23:47:17+00:00",
+  "valido_hasta": "2026-11-12T02:47:17+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -2.5,
-    "noticias_analizadas": 52,
+    "cambio_mercado_24h": -2.62,
+    "noticias_analizadas": 48,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -34,11 +33,6 @@
       "titulo": "Bitcoin Price Reclaims $74K After CPI Sell-Off Sparks Volatility",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-reclaims-74k-after-cpi-sell-off-sparks-volatility/"
-    },
-    {
-      "titulo": "Bitcoin sits out stock rebound as ETF outflows extend to fourth day",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/11/bitcoin-sits-out-stock-rebound-as-etf-outflows-extend-to-fourth-day"
     },
     {
       "titulo": "Bitmine Reports $6.3B Net Loss as Ether Plunges 44% During Fiscal Year",
@@ -59,17 +53,22 @@
       "titulo": "Bitcoin barely flinches at hot CPI as ETF selling slows",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/daybook-us/2026/11/11/bitcoin-barely-flinches-at-hot-cpi-as-etf-selling-slows"
+    },
+    {
+      "titulo": "Here’s what happened in crypto today",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9487,
+    "input_tokens": 9455,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 579,
+    "output_tokens": 617,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
