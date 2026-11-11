@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae un 4.58% en 24 h con miedo (índice 29) tras un dato de inflación de EE. UU. más alto de lo esperado, que eleva las expectativas de una subida de tipos de la Fed en diciembre. Hay además varios incidentes de seguridad (brecha en Near AI, alerta de LNbits, Across Protocol, Mercado Bitcoin, Binance restringiendo MEXC) pero sin señales de un problema grave que afecte directamente a las monedas operadas. Se elige cautela global por la incertidumbre macro y el sentimiento negativo, sin llegar a pausa.",
+  "resumen": "El mercado está en miedo (índice 29) tras un CPI de EE. UU. más caliente de lo esperado, que refuerza las expectativas de una subida de tipos de la Fed en diciembre; la capitalización total cae un 4.12% en 24 h y BTC se acerca a mínimos de 11 semanas. No hay una caída brusca de más del 7% ni un riesgo grave de seguridad que justifique una pausa, pero la incertidumbre es elevada. Se recomienda cautela global (mitad de tamaño en compras nuevas) sin restricciones adicionales por moneda.",
   "motivos": [
-    "Dato de IPC de EE. UU. de octubre por encima de previsiones (+0.4% mensual, subyacente +0.3%) y mercados que descuentan una subida de 0.25% de la Fed en diciembre.",
-    "Caída de la capitalización total del -4.58% en 24 h con miedo extremo (índice 29) y salidas de ETF de bitcoin y ether durante varios días.",
-    "Incidentes de seguridad (Near AI, LNbits, Across Protocol, Mercado Bitcoin) y restricciones de Binance a MEXC, pero no afectan directamente a las 10 monedas operadas ni constituyen una caída brusca de mercado que justifique pausa.",
-    "No hay eventos macro de alto impacto en las próximas 24 h, por lo que no se justifica pausa."
+    "CPI de octubre por encima de previsiones (0.4% mensual frente a 0.3%; core 0.3% frente a 0.2%), con mercados descontando una subida de 0.25% en diciembre.",
+    "Capitalización total cripto -4.12% en 24 h y miedo extremo-moderado (índice 29), con salidas de fondos en ETF de BTC y ETH en los últimos días.",
+    "Incidentes de seguridad en curso (brecha en Near AI, Mercado Bitcoin con hackeo de 49M, parche de emergencia en LNbits) sin afectar directamente a las monedas operadas.",
+    "Binance restringe transferencias con MEXC por alegaciones de finanzas ilícitas: noticia relevante pero no grave para las 10 monedas del bot.",
+    "No hay eventos macro de alto impacto en 24 h ni caídas de mercado de -7% o peor, por lo que no procede pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-11T02:48:05+00:00",
-  "valido_hasta": "2026-11-11T05:48:05+00:00",
+  "generado": "2026-11-11T03:52:56+00:00",
+  "valido_hasta": "2026-11-11T06:52:56+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -4.58,
-    "noticias_analizadas": 46,
+    "cambio_mercado_24h": -4.12,
+    "noticias_analizadas": 45,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -50,25 +51,25 @@
       "link": "https://cointelegraph.com/news/hot-us-inflation-raises-rate-hike-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "titulo": "Plume affiliate lands broker-dealer license to bring real U.S. assets onchain",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/10/emb-10-am-et-plume-affiliate-gets-the-legal-green-light-to-trade-regulated-security-entitlements-onchain"
-    },
-    {
       "titulo": "Charles Schwab Opens Live Solana, Avalanche and Chainlink Trading to Eligible Clients",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/altcoin-news/charles-schwab-live-solana-avalanche-chainlink-trading/"
+    },
+    {
+      "titulo": "Bitcoin Could Rally Before Rate Cuts Begin, Binance Research Says",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/featured/bitcoin-could-rally-before-rate-cuts-begin-binance-research/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9529,
+    "input_tokens": 9455,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 621,
+    "output_tokens": 649,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
