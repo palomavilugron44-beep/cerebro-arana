@@ -1,24 +1,25 @@
 {
-  "modo": "cautela",
+  "modo": "normal",
   "monedas": {},
-  "resumen": "El mercado cripto cae un 4.16% en 24 h con miedo extremo (índice 29) y salidas de los ETF de Bitcoin de unos 1.600 M$ en noviembre, y el dato de inflación más caliente de lo esperado eleva el temor a una subida de tipos de la Fed en diciembre. No hay eventos macro de alto impacto en las próximas 24 h ni una caída brusca de más de -7%, así que no procede pausar. Se elige cautela global por la incertidumbre elevada y el entorno bajista.",
+  "resumen": "El mercado está en miedo (índice 29) con la capitalización total cayendo un -3.61% en 24 h, pero sin una caída brusca que supere el umbral de -7% ni eventos macro de alto impacto en las próximas 24 h. Las noticias negativas relevantes (salidas de ETFs de BTC por 1.6 mil millones en noviembre, la caída de Evernorth/XRPN por desbloqueo de acciones) son preocupantes pero no graves. El incidente de Initia (red L1 de tamaño moderano, sin ser una moneda de nuestra lista) y el de LNbits no afectan directamente a las monedas operadas.",
   "motivos": [
-    "Miedo extremo (índice 29) y capitalización total -4.16% en 24 h con salidas netas de ETF de BTC.",
-    "Inflación de EE. UU. más alta de lo esperado: preocupación por una posible subida de tipos de la Fed en diciembre (evento importante dentro de 24 h, pero no de alto impacto inmediato).",
-    "Caídas en 7 días de XRP (-17.2%), ETH (-11.4%) y SOL (-10.4%) con tendencia bajista generalizada.",
-    "Incidentes de seguridad (Initia, 3.27 M$ robados; LNbits; Across Protocol), pero no afectan directamente a las monedas operadas y no justifican pausa global.",
-    "Salida de títulos de Evernorth (XRPN) por desbloqueo de acciones: riesgo de sentimiento sobre XRP, no un problema de la red."
+    "Índice Miedo/Codicia en 29 (miedo), con tendencia a la baja en la semana, pero sin llegar a miedo extremo.",
+    "Capitalización total -3.61% en 24 h, por debajo del umbral de -7% que justificaría pausa.",
+    "Sin eventos macro de alto impacto USD en las próximas 24 h; la inflación caliente solo genera preocupación a medio plazo por una posible subida de tipos en diciembre.",
+    "Salidas netas de ETFs spot de BTC (~1.6 mil millones en noviembre) y de ETH: presión vendedora relevante pero no un riesgo grave e inmediato.",
+    "Exploit de Initia (3.27 M$) y fallo de LNbits no afectan directamente a las monedas operadas; el riesgo se considera contenido.",
+    "Caída de XRPN (-23.5%) por desbloqueo de acciones de una empresa de tesorería: impacto indirecto sobre XRP, no un problema de la moneda en sí."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-11T10:00:31+00:00",
-  "valido_hasta": "2026-11-11T13:00:31+00:00",
+  "generado": "2026-11-11T10:57:54+00:00",
+  "valido_hasta": "2026-11-11T13:57:54+00:00",
   "origen": "claude:claude-haiku-5-5",
-  "multiplicador_riesgo": 0.5,
+  "multiplicador_riesgo": 1.0,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -4.16,
-    "noticias_analizadas": 31,
+    "cambio_mercado_24h": -3.61,
+    "noticias_analizadas": 35,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -51,25 +52,25 @@
       "link": "https://news.bitcoin.com/igaming/missouri-turns-federal-gambling-law-novig-polymarket-sues-state-ag/"
     },
     {
-      "titulo": "Charles Schwab Opens Live Solana, Avalanche and Chainlink Trading to Eligible Clients",
-      "fuente": "NewsBTC",
-      "link": "https://www.newsbtc.com/altcoin-news/charles-schwab-live-solana-avalanche-chainlink-trading/"
-    },
-    {
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Bitcoin ETFs Bleed for a 4th Straight Day as 2026 Outflows Top $1B Billion",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/bitcoin-etf/bitcoin-etfs-outflows-fourth-straight-day-2026/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8485,
+    "input_tokens": 8907,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 616,
+    "output_tokens": 695,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
