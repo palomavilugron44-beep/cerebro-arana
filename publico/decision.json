@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 29) tras un CPI de EE. UU. más caliente de lo esperado, que refuerza las expectativas de una subida de tipos de la Fed en diciembre; la capitalización total cae un 4.12% en 24 h y BTC se acerca a mínimos de 11 semanas. No hay una caída brusca de más del 7% ni un riesgo grave de seguridad que justifique una pausa, pero la incertidumbre es elevada. Se recomienda cautela global (mitad de tamaño en compras nuevas) sin restricciones adicionales por moneda.",
+  "resumen": "El mercado está en miedo (índice 29) con la capitalización total cayendo un -3.8% en 24 h, y la inflación de EE. UU. por encima de lo previsto aumenta la probabilidad de una subida de tipos de la Fed en diciembre. Aunque no hay eventos macro de alto impacto en las próximas 24 h, la combinación de presión bajista, salidas de ETFs de BTC y ETH y el contexto macro justifica reducir el tamaño de nuevas compras. Las noticias de hackeos (Mercado Bitcoin, Across, Near AI, LNbits) y el conflicto Binance–MEXC no afectan directamente a las monedas operadas, así que no motivan una pausa.",
   "motivos": [
-    "CPI de octubre por encima de previsiones (0.4% mensual frente a 0.3%; core 0.3% frente a 0.2%), con mercados descontando una subida de 0.25% en diciembre.",
-    "Capitalización total cripto -4.12% en 24 h y miedo extremo-moderado (índice 29), con salidas de fondos en ETF de BTC y ETH en los últimos días.",
-    "Incidentes de seguridad en curso (brecha en Near AI, Mercado Bitcoin con hackeo de 49M, parche de emergencia en LNbits) sin afectar directamente a las monedas operadas.",
-    "Binance restringe transferencias con MEXC por alegaciones de finanzas ilícitas: noticia relevante pero no grave para las 10 monedas del bot.",
-    "No hay eventos macro de alto impacto en 24 h ni caídas de mercado de -7% o peor, por lo que no procede pausa."
+    "Índice Miedo/Codicia en 29 (miedo) y capitalización total -3.8% en 24 h: volatilidad y presión bajista elevadas.",
+    "IPC de EE. UU. de octubre por encima de lo esperado (0.4% vs 0.3%; subyacente 0.3% vs 0.2%), aumentando la probabilidad de una subida de tipos de la Fed en diciembre.",
+    "Salidas netas de ETFs spot de BTC (-201M USD el 9 nov, tras -430M y -412M en días previos) y de ETH (-184.6M USD).",
+    "XRP -15% en 7 días y ETH -8% en 7 días; caídas generalizadas en el top de monedas.",
+    "Hackeos y brechas (Mercado Bitcoin, Across Protocol, Near AI, LNbits) no afectan directamente a las monedas operadas, por lo que no justifican pausa.",
+    "Sin eventos macro de alto impacto USD en las próximas 24 h, así que no se llega a pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-11T03:52:56+00:00",
-  "valido_hasta": "2026-11-11T06:52:56+00:00",
+  "generado": "2026-11-11T04:57:02+00:00",
+  "valido_hasta": "2026-11-11T07:57:02+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -4.12,
-    "noticias_analizadas": 45,
+    "cambio_mercado_24h": -3.8,
+    "noticias_analizadas": 44,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -31,24 +32,14 @@
   },
   "titulares": [
     {
-      "titulo": "Bitcoin Falls as Hot US Inflation Fuels Fears of Bigger Fed Rate Hike",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/382950/bitcoin-falls-hot-us-inflation-fears-bigger-fed-rate-hike"
-    },
-    {
-      "titulo": "Bitcoin nears 11-week low after ‘discouraging’ US CPI inflation beat",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/markets/bitcoin-11-week-low-discouraging-us-cpi-inflation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Bitcoin Faces a Tougher Rate Outlook After US October Inflation Rises 0.4%",
-      "fuente": "NewsBTC",
-      "link": "https://www.newsbtc.com/bitcoin-news/bitcoin-us-october-cpi-04-percent-rate-outlook/"
-    },
-    {
       "titulo": "Hot US inflation raises odds of half-point Fed hike in December",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/hot-us-inflation-raises-rate-hike-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Missouri Turns Federal Gambling Law on Novig as Polymarket Sues State AG",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/igaming/missouri-turns-federal-gambling-law-novig-polymarket-sues-state-ag/"
     },
     {
       "titulo": "Charles Schwab Opens Live Solana, Avalanche and Chainlink Trading to Eligible Clients",
@@ -59,17 +50,27 @@
       "titulo": "Bitcoin Could Rally Before Rate Cuts Begin, Binance Research Says",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/featured/bitcoin-could-rally-before-rate-cuts-begin-binance-research/"
+    },
+    {
+      "titulo": "Near AI Confirms Security Breach Affecting 100 Users and 18 Agents",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/security/near-ai-confirms-security-breach-affecting-100-users-18-agents/"
+    },
+    {
+      "titulo": "Here’s what happened in crypto today",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9455,
+    "input_tokens": 9280,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 649,
+    "output_tokens": 724,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
