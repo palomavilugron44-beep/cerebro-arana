@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza (capitalización -4.8% en 24 h) tras un dato de inflación (IPC de octubre) más alto de lo esperado, que refuerza las expectativas de una subida de tipos de la Fed en diciembre. El índice Miedo/Codicia está en 29 (miedo) y hay salidas de ETFs de BTC y ETH, pero no hay un evento macro de alto impacto en las próximas 24 h ni una caída de mercado de -7% o peor. Se recomienda cautela general (mitad de tamaño) y no una pausa.",
+  "resumen": "El mercado cripto cae un 4.33% en 24 h con miedo (índice 29) tras un IPC de EE. UU. más caliente de lo esperado, que refuerza la expectativa de una subida de tipos de la Fed en diciembre; BTC roza mínimos de 11 semanas cerca de 73.500 USD. Hay salidas de ETFs y varios incidentes de seguridad (Near AI, Mercado Bitcoin, LNbits, Across, MEXC), pero no afectan de forma directa a las monedas operadas ni hay un hackeo que comprometa a Binance o a una de estas redes. Dado el entorno de volatilidad y la macro negativa, se recomienda cautela general sin pausar.",
   "motivos": [
-    "IPC de octubre por encima de previsiones (+0.4% mensual vs 0.3% esperado; subyacente +0.3%), con mercado descontando una subida de 0.25% o más de la Fed en diciembre.",
-    "Capitalización total -4.8% en 24 h y miedo extremo-moderado (índice 29), con salidas netas de ETFs spot de BTC (-201M USD el 9 de noviembre) y ETH (-184.6M USD).",
-    "Volatilidad elevada: XRP -17.5% y ETH -10.5% en 7 días; BTC cerca de mínimos de 11 semanas.",
-    "No hay evento macro de alto impacto en las próximas 24 h, y la caída de mercado no alcanza el umbral de pausa (-7%).",
-    "Incidentes de seguridad (Near AI, Across Protocol, Mercado Bitcoin, aviso de Binance sobre iOS) no afectan directamente a las monedas operadas ni son graves para ellas."
+    "Caída de capitalización total de -4.33% en 24 h con índice de miedo en 29.",
+    "IPC de octubre por encima de lo previsto (0.4% m/m, subyacente 0.3%) que eleva la probabilidad de una subida de tipos de la Fed en diciembre.",
+    "Salidas netas de ETFs de BTC y ETH en los últimos días y BTC cerca de mínimos de 11 semanas.",
+    "Incidentes de seguridad y noticias negativas relevantes (MEXC bloqueado por Binance, brechas en Near AI, Mercado Bitcoin y LNbits) pero sin afectar de forma directa a las monedas operadas.",
+    "No hay pausa justificada: no hay hackeo de red o exchange que afecte a las monedas del bot, ni evento macro de alto impacto en las próximas 2-3 horas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-11T00:58:02+00:00",
-  "valido_hasta": "2026-11-11T03:58:02+00:00",
+  "generado": "2026-11-11T01:59:19+00:00",
+  "valido_hasta": "2026-11-11T04:59:19+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -4.8,
-    "noticias_analizadas": 54,
+    "cambio_mercado_24h": -4.33,
+    "noticias_analizadas": 50,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9412,
+    "input_tokens": 9492,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 665,
+    "output_tokens": 669,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
