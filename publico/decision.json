@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 29) con la capitalización total cayendo un 3.13% en 24 h y BTC cerca de 74.000 USD tras un dato de inflación caliente que eleva la probabilidad de una subida de tipos de la Fed. Hay salidas sostenidas de ETF de BTC y ETH y presión bajista en el mes, pero no hay una caída brusca de -7% ni un evento macro de alto impacto en las próximas 2-3 horas. Como la incertidumbre es elevada, recomiendo cautela general (mitad de tamaño), sin pausa.",
+  "resumen": "El mercado está en miedo (índice 29) tras una caída de la capitalización total de -4.37% en 24 h, con salidas de ETF de Bitcoin por cuarto día consecutivo y un dato de inflación caliente que eleva las probabilidades de una subida de tipos de la Fed. No hay eventos macro de alto impacto en las próximas 24 h ni una caída de -7% que justifique una pausa. Por ello se aplica cautela general por volatilidad y presión bajista, y cautela adicional en XRP por el desbloqueo de acciones de su empresa de tesorería.",
   "motivos": [
-    "Miedo en el mercado (índice 29) y capitalización total -3.13% en 24 h",
-    "Inflación caliente eleva a ~90% la probabilidad de subida de tipos de la Fed; evento macro importante dentro de 24 h",
-    "Cuatro días seguidos de salidas de ETF de BTC (~1.6 mil millones USD en noviembre) y ETH con salidas",
-    "BTC en mínimo de 11 semanas (~72.670 USD) por debajo de la media de coste de los tenedores a corto plazo",
-    "Sin exploit grave que afecte a las monedas operadas; el hackeo de Initia afecta a una red no incluida en la lista"
+    "Índice Miedo/Codicia en 29 (miedo) con tendencia bajista en la última semana y capitalización total -4.37% en 24 h.",
+    "Cuarta jornada consecutiva de salidas de ETF de Bitcoin (1.6 mil millones de dólares en noviembre) y BTC cerca de la EMA200 de 200 días según noticias, con liquidaciones al alza.",
+    "Dato de inflación más alto de lo esperado que eleva la probabilidad de una subida de tipos de la Fed; riesgo macro relevante pero sin evento programado en 24 h.",
+    "Initia (no operada por el bot) sufrió su segundo exploit en tres semanas; impacto directo limitado sobre las monedas del bot.",
+    "XRP cae 17.8% en 7 días; Evernorth (XRPN) se desplomó 23.5% tras autorizar la venta de hasta 73.7M de acciones por insiders."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-11T11:54:35+00:00",
-  "valido_hasta": "2026-11-11T14:54:35+00:00",
+  "generado": "2026-11-11T13:02:31+00:00",
+  "valido_hasta": "2026-11-11T16:02:31+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -3.13,
-    "noticias_analizadas": 37,
+    "cambio_mercado_24h": -4.37,
+    "noticias_analizadas": 46,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -46,6 +46,11 @@
       "link": "https://cointelegraph.com/news/initia-second-crypto-exploit-three-weeks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "titulo": "Bitcoin barely flinches at hot CPI as ETF selling slows",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/daybook-us/2026/11/11/bitcoin-barely-flinches-at-hot-cpi-as-etf-selling-slows"
+    },
+    {
       "titulo": "Stock ETF buyers pounce on dip as Bitcoin funds bleed $1.6 billion",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/markets/bitcoin-etf-outflows-persist-while-equity-investors-buy-the-dip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -54,22 +59,17 @@
       "titulo": "Missouri Turns Federal Gambling Law on Novig as Polymarket Sues State AG",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/igaming/missouri-turns-federal-gambling-law-novig-polymarket-sues-state-ag/"
-    },
-    {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9177,
+    "input_tokens": 9561,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 560,
+    "output_tokens": 733,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
