@@ -1,30 +1,29 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El índice Miedo/Codicia está en 29 (miedo), la capitalización total cae solo un -0.49% en 24 h y BTC se recupera por encima de 74.000 USD tras el dato de IPC más caliente de lo esperado. El mercado muestra incertidumbre elevada: salidas de ETF de BTC por más de 1.000 M USD en noviembre y un mercado de tipos con probabilidad alta de subida de la Fed, pero sin un evento grave ni inmediato. Se elige cautela general (mitad de tamaño) por el entorno macro y el miedo, sin pausa al no existir riesgo de seguridad, regulatorio o de caída brusca.",
+  "resumen": "El mercado está en miedo (índice 29) tras un IPC más caliente de lo esperado que eleva las probabilidades de una subida de tipos de la Fed, y los ETF de bitcoin acumulan cuatro días de salidas. Aun así, la capitalización total cae solo -1.11% en 24 h, no hay un evento macro de alto impacto en las próximas 24 h ni un riesgo grave o anómalo en ninguna moneda concreta. Por ello se recomienda cautela general (mitad de tamaño) y no una pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 29 (miedo) con una semana en torno a 25-32, indicando sentimiento bajista sostenido.",
-    "IPC de EE. UU. más alto de lo esperado eleva las probabilidades de una subida de tipos de la Fed; BTC cayó a 72.787 USD antes de recuperarse.",
-    "Salidas netas de ETF spot de BTC de unos 1.600 M USD en noviembre y cuatro días seguidos de salidas.",
-    "Las caídas de 7 días son notables (XRP -18.7%, ETH -14.4%), pero la capitalización total solo baja -0.49% en 24 h y no hay señal de caída brusca.",
-    "No hay hackeos, acciones regulatorias graves ni depegs; el único incidente de seguridad (bug de Bitcoin Core) ya está parcheado.",
-    "Las noticias sobre Evernorth (XRP) y desbloqueos de acciones son específicas de una empresa y no justifican pausar XRP."
+    "Índice Miedo/Codicia en 29 (miedo), con caída de la semana en la mayoría de monedas (XRP -18.6%, ETH -14.1% en 7 d).",
+    "IPC de EE. UU. más caliente de lo esperado; el mercado sitúa en torno al 90% la probabilidad de una subida de tipos, aunque sin evento macro programado en las próximas 24 h.",
+    "Salidas netas de ETF spot de bitcoin durante cuatro días seguidos (unos 1.6 mil millones de dólares en noviembre).",
+    "Sin hackeo, acción regulatoria grave, halt, depeg ni delist en las monedas operadas; la caída del mercado (-1.11% en 24 h) no alcanza el umbral de pausa.",
+    "Las noticias de la jornada son mayormente neutras o positivas en el sector (Deutsche Bank custodia, OKXICE), y no justifican cambios por moneda."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-11T17:53:58+00:00",
-  "valido_hasta": "2026-11-11T20:53:58+00:00",
+  "generado": "2026-11-11T18:54:21+00:00",
+  "valido_hasta": "2026-11-11T21:54:21+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -0.49,
-    "noticias_analizadas": 53,
+    "cambio_mercado_24h": -1.11,
+    "noticias_analizadas": 55,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
-      "Decrypt": 36,
+      "Decrypt": 37,
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
@@ -42,11 +41,6 @@
       "link": "https://www.coindesk.com/markets/2026/11/11/bitcoin-sits-out-stock-rebound-as-etf-outflows-extend-to-fourth-day"
     },
     {
-      "titulo": "Ripple-Backed Evernorth Crashes Over 23% as Insiders Get Cleared to Sell",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/finance/evernorth-xrpn-crashes-73-7-million-share-resale/"
-    },
-    {
       "titulo": "Bitcoin hovers near $74K as stocks rise despite US bond yield rebound",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/markets/bitcoin-74k-stocks-us-bond-yield-inflation-cpi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -60,17 +54,22 @@
       "titulo": "Stock ETF buyers pounce on dip as Bitcoin funds bleed $1.6 billion",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/markets/bitcoin-etf-outflows-persist-while-equity-investors-buy-the-dip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Deutsche Bank Brings Bitcoin Custody Into Its Institutional Banking Empire",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/crypto-news/deutsche-bank-brings-bitcoin-custody-institutional-banking-empire/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9722,
+    "input_tokens": 9688,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 707,
+    "output_tokens": 638,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
