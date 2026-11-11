@@ -1,24 +1,22 @@
 {
-  "modo": "normal",
+  "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado muestra miedo moderado (índice 29) con una caída de la capitalización total del -3.83% en 24 h, lejos del umbral de -7% que justificaría pausa. No hay eventos macro de alto impacto en las próximas 24 h. Las noticias de hackeos (Mercado Bitcoin, Near AI, Across Protocol) afectan a plataformas concretas y no a las monedas operadas, por lo que no justifican frenar al bot.",
+  "resumen": "El mercado muestra miedo (índice 29) y una caída de la capitalización total del -4.23% en 24 h, con todas las monedas en negativo y XRP y ETH en fuerte retroceso semanal. No hay eventos macro de alto impacto en las próximas 24 h, y las noticias de hackeos (Initia, Across, Near AI, LNbits) son relevantes pero no afectan directamente a las monedas operadas. Se elige cautela general por volatilidad y miedo, sin pausa, ya que no hay una caída de -7% ni una situación anómala en las monedas del bot.",
   "motivos": [
-    "Caída de capitalización total de -3.83% en 24 h, por debajo del umbral de -7% para pausa.",
-    "Índice Miedo/Codicia en 29 (miedo), sin llegar a miedo extremo.",
-    "Sin eventos económicos USD de alto impacto en las próximas 24 h.",
-    "Hackeos recientes (Mercado Bitcoin, Near AI, Across Protocol) afectan a plataformas concretas, no a las monedas operadas ni a una red.",
-    "Noticias regulatorias (Missouri vs. Novig, Kalshi/CFTC) no afectan directamente a las monedas operadas.",
-    "Las monedas muestran caídas de 24 h moderadas (entre -0.8% y -3.5%), sin situación anómala."
+    "Capitalización total -4.23% en 24 h con todas las monedas del bot en negativo.",
+    "Índice Miedo/Codicia en 29 (miedo), con tendencia bajista a 7 días en ETH (-10.36%), XRP (-17.29%) y SOL (-10.91%).",
+    "Varios exploits de seguridad (Initia, Across Protocol, Near AI, LNbits), pero ninguno afecta directamente a las monedas operadas por el bot.",
+    "Sin eventos macro de alto impacto en 24 h, pero la inflación caliente de EE. UU. aumenta el temor a una subida de tipos de la Fed."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-11T05:57:23+00:00",
-  "valido_hasta": "2026-11-11T08:57:23+00:00",
+  "generado": "2026-11-11T07:08:04+00:00",
+  "valido_hasta": "2026-11-11T10:08:04+00:00",
   "origen": "claude:claude-haiku-5-5",
-  "multiplicador_riesgo": 1.0,
+  "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -3.83,
+    "cambio_mercado_24h": -4.23,
     "noticias_analizadas": 39,
     "articulos_leidos": 8,
     "fuentes": {
@@ -31,6 +29,11 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
+    {
+      "titulo": "Initia confirms second exploit in 3 weeks, $3.27M stolen in latest attack",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/initia-second-crypto-exploit-three-weeks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
     {
       "titulo": "Missouri Turns Federal Gambling Law on Novig as Polymarket Sues State AG",
       "fuente": "Bitcoin.com",
@@ -47,30 +50,25 @@
       "link": "https://news.bitcoin.com/featured/bitcoin-could-rally-before-rate-cuts-begin-binance-research/"
     },
     {
+      "titulo": "Here’s what happened in crypto today",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "titulo": "Near AI Confirms Security Breach Affecting 100 Users and 18 Agents",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/security/near-ai-confirms-security-breach-affecting-100-users-18-agents/"
-    },
-    {
-      "titulo": "Formation Securities Plans Solana Tokenized Stock Trading Venue for Early 2027",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/finance/formation-securities-solana-tokenized-stock-trading-venue-early-2027/"
-    },
-    {
-      "titulo": "Can crypto trust firms compete with banks in US derivatives settlements?",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/crypto-trust-firms-compete-banks-us-derivatives-settlements?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9241,
+    "input_tokens": 9146,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 547,
+    "output_tokens": 551,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
