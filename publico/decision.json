@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 29) con la capitalización total cayendo un 3.07% en 24 h, BTC atascado bajo 74.000 USD y salidas de ETF de BTC durante cuatro días seguidos. Pesa un dato de inflación caliente que eleva a ~90% la probabilidad de una subida de tipos de la Fed, un riesgo macro relevante aunque sin evento programado en las próximas 24 h. No hay señales de hackeo grave que afecten a las monedas operadas; el exploit de Initia no afecta a las 10 monedas del bot, por lo que se mantiene cautela general y no pausa.",
+  "resumen": "El miedo sigue en 29 (Fear) con la capitalización total cayendo 1,3% en 24 h y BTC rondando los 74.000 USD tras un dato de inflación caliente que eleva la probabilidad de una subida de tipos de la Fed. Hay salidas de ETF de BTC durante cuatro días seguidos y el mercado está lateral, sin un colapso en curso. No hay ningún evento de alto impacto en las próximas 24 h, así que la cautela se justifica por la incertidumbre macro y no por una crisis.",
   "motivos": [
-    "Índice Miedo/Codicia en 29 (miedo), con caída de la capitalización total de -3.07% en 24 h.",
-    "Salidas de ETF de BTC durante cuatro días seguidos (~1.6 mil millones USD en noviembre) y liquidaciones en aumento.",
-    "Inflación más alta de lo esperado eleva la probabilidad de subida de tipos de la Fed; riesgo macro importante aunque sin evento de alto impacto programado en 24 h.",
-    "XRP cae un 17.5% en 7 días y se libera para venta hasta 73.7M de acciones de Evernorth (XRPN) vinculadas a Ripple, lo que añade presión vendedora.",
-    "El exploit de Initia (3.27M USD) y el hackeo de dominio de Across no afectan a las monedas del bot; no se justifica pausa."
+    "Índice Miedo/Codicia en 29 (Fear) con varios días de miedo; incertidumbre elevada pero no extrema.",
+    "Dato de inflación alta (IPC) eleva la probabilidad de subida de tipos de la Fed; riesgo macro relevante, aunque sin evento programado en 24 h.",
+    "Salidas netas de ETF de BTC de unos 1.600 M USD en noviembre y liquidaciones al alza.",
+    "XRP: desbloqueo de hasta 73,7M acciones de Evernorth (XRPN cae 23%) y XRP -18% en 7 días; presión vendedora específica.",
+    "Sin hackeo que afecte a las monedas operadas: el exploit de Initia (L1 distinta) no afecta a la lista del bot.",
+    "Capitalización total -1,3% en 24 h; no alcanza el umbral de -7% para pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-11T15:49:44+00:00",
-  "valido_hasta": "2026-11-11T18:49:44+00:00",
+  "generado": "2026-11-11T16:53:54+00:00",
+  "valido_hasta": "2026-11-11T19:53:54+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -3.07,
-    "noticias_analizadas": 50,
+    "cambio_mercado_24h": -1.3,
+    "noticias_analizadas": 52,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -46,6 +47,11 @@
       "link": "https://cointelegraph.com/news/initia-second-crypto-exploit-three-weeks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "titulo": "Bitcoin hovers near $74K as stocks rise despite US bond yield rebound",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/bitcoin-74k-stocks-us-bond-yield-inflation-cpi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "titulo": "Bitcoin barely flinches at hot CPI as ETF selling slows",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/daybook-us/2026/11/11/bitcoin-barely-flinches-at-hot-cpi-as-etf-selling-slows"
@@ -54,22 +60,17 @@
       "titulo": "Stock ETF buyers pounce on dip as Bitcoin funds bleed $1.6 billion",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/markets/bitcoin-etf-outflows-persist-while-equity-investors-buy-the-dip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Deutsche Bank Brings Bitcoin Custody Into Its Institutional Banking Empire",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/crypto-news/deutsche-bank-brings-bitcoin-custody-institutional-banking-empire/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9686,
+    "input_tokens": 9783,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 727,
+    "output_tokens": 698,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
