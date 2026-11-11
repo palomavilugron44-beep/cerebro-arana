@@ -1,25 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El miedo sigue en 29 (Fear) con la capitalización total cayendo 1,3% en 24 h y BTC rondando los 74.000 USD tras un dato de inflación caliente que eleva la probabilidad de una subida de tipos de la Fed. Hay salidas de ETF de BTC durante cuatro días seguidos y el mercado está lateral, sin un colapso en curso. No hay ningún evento de alto impacto en las próximas 24 h, así que la cautela se justifica por la incertidumbre macro y no por una crisis.",
+  "resumen": "El índice Miedo/Codicia está en 29 (miedo), la capitalización total cae solo un -0.49% en 24 h y BTC se recupera por encima de 74.000 USD tras el dato de IPC más caliente de lo esperado. El mercado muestra incertidumbre elevada: salidas de ETF de BTC por más de 1.000 M USD en noviembre y un mercado de tipos con probabilidad alta de subida de la Fed, pero sin un evento grave ni inmediato. Se elige cautela general (mitad de tamaño) por el entorno macro y el miedo, sin pausa al no existir riesgo de seguridad, regulatorio o de caída brusca.",
   "motivos": [
-    "Índice Miedo/Codicia en 29 (Fear) con varios días de miedo; incertidumbre elevada pero no extrema.",
-    "Dato de inflación alta (IPC) eleva la probabilidad de subida de tipos de la Fed; riesgo macro relevante, aunque sin evento programado en 24 h.",
-    "Salidas netas de ETF de BTC de unos 1.600 M USD en noviembre y liquidaciones al alza.",
-    "XRP: desbloqueo de hasta 73,7M acciones de Evernorth (XRPN cae 23%) y XRP -18% en 7 días; presión vendedora específica.",
-    "Sin hackeo que afecte a las monedas operadas: el exploit de Initia (L1 distinta) no afecta a la lista del bot.",
-    "Capitalización total -1,3% en 24 h; no alcanza el umbral de -7% para pausa."
+    "Índice Miedo/Codicia en 29 (miedo) con una semana en torno a 25-32, indicando sentimiento bajista sostenido.",
+    "IPC de EE. UU. más alto de lo esperado eleva las probabilidades de una subida de tipos de la Fed; BTC cayó a 72.787 USD antes de recuperarse.",
+    "Salidas netas de ETF spot de BTC de unos 1.600 M USD en noviembre y cuatro días seguidos de salidas.",
+    "Las caídas de 7 días son notables (XRP -18.7%, ETH -14.4%), pero la capitalización total solo baja -0.49% en 24 h y no hay señal de caída brusca.",
+    "No hay hackeos, acciones regulatorias graves ni depegs; el único incidente de seguridad (bug de Bitcoin Core) ya está parcheado.",
+    "Las noticias sobre Evernorth (XRP) y desbloqueos de acciones son específicas de una empresa y no justifican pausar XRP."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-11T16:53:54+00:00",
-  "valido_hasta": "2026-11-11T19:53:54+00:00",
+  "generado": "2026-11-11T17:53:58+00:00",
+  "valido_hasta": "2026-11-11T20:53:58+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -1.3,
-    "noticias_analizadas": 52,
+    "cambio_mercado_24h": -0.49,
+    "noticias_analizadas": 53,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -32,6 +32,11 @@
   },
   "titulares": [
     {
+      "titulo": "Bitcoin Price Reclaims $74K After CPI Sell-Off Sparks Volatility",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-reclaims-74k-after-cpi-sell-off-sparks-volatility/"
+    },
+    {
       "titulo": "Bitcoin sits out stock rebound as ETF outflows extend to fourth day",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/11/bitcoin-sits-out-stock-rebound-as-etf-outflows-extend-to-fourth-day"
@@ -40,11 +45,6 @@
       "titulo": "Ripple-Backed Evernorth Crashes Over 23% as Insiders Get Cleared to Sell",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/finance/evernorth-xrpn-crashes-73-7-million-share-resale/"
-    },
-    {
-      "titulo": "Initia confirms second exploit in 3 weeks, $3.27M stolen in latest attack",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/initia-second-crypto-exploit-three-weeks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "titulo": "Bitcoin hovers near $74K as stocks rise despite US bond yield rebound",
@@ -63,14 +63,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9783,
+    "input_tokens": 9722,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 698,
+    "output_tokens": 707,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
