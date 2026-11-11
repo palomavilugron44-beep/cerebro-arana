@@ -1,25 +1,24 @@
 {
-  "modo": "normal",
+  "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 29) con la capitalización total cayendo un -3.61% en 24 h, pero sin una caída brusca que supere el umbral de -7% ni eventos macro de alto impacto en las próximas 24 h. Las noticias negativas relevantes (salidas de ETFs de BTC por 1.6 mil millones en noviembre, la caída de Evernorth/XRPN por desbloqueo de acciones) son preocupantes pero no graves. El incidente de Initia (red L1 de tamaño moderano, sin ser una moneda de nuestra lista) y el de LNbits no afectan directamente a las monedas operadas.",
+  "resumen": "El mercado está en miedo (índice 29) con la capitalización total cayendo un 3.13% en 24 h y BTC cerca de 74.000 USD tras un dato de inflación caliente que eleva la probabilidad de una subida de tipos de la Fed. Hay salidas sostenidas de ETF de BTC y ETH y presión bajista en el mes, pero no hay una caída brusca de -7% ni un evento macro de alto impacto en las próximas 2-3 horas. Como la incertidumbre es elevada, recomiendo cautela general (mitad de tamaño), sin pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 29 (miedo), con tendencia a la baja en la semana, pero sin llegar a miedo extremo.",
-    "Capitalización total -3.61% en 24 h, por debajo del umbral de -7% que justificaría pausa.",
-    "Sin eventos macro de alto impacto USD en las próximas 24 h; la inflación caliente solo genera preocupación a medio plazo por una posible subida de tipos en diciembre.",
-    "Salidas netas de ETFs spot de BTC (~1.6 mil millones en noviembre) y de ETH: presión vendedora relevante pero no un riesgo grave e inmediato.",
-    "Exploit de Initia (3.27 M$) y fallo de LNbits no afectan directamente a las monedas operadas; el riesgo se considera contenido.",
-    "Caída de XRPN (-23.5%) por desbloqueo de acciones de una empresa de tesorería: impacto indirecto sobre XRP, no un problema de la moneda en sí."
+    "Miedo en el mercado (índice 29) y capitalización total -3.13% en 24 h",
+    "Inflación caliente eleva a ~90% la probabilidad de subida de tipos de la Fed; evento macro importante dentro de 24 h",
+    "Cuatro días seguidos de salidas de ETF de BTC (~1.6 mil millones USD en noviembre) y ETH con salidas",
+    "BTC en mínimo de 11 semanas (~72.670 USD) por debajo de la media de coste de los tenedores a corto plazo",
+    "Sin exploit grave que afecte a las monedas operadas; el hackeo de Initia afecta a una red no incluida en la lista"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-11T10:57:54+00:00",
-  "valido_hasta": "2026-11-11T13:57:54+00:00",
+  "generado": "2026-11-11T11:54:35+00:00",
+  "valido_hasta": "2026-11-11T14:54:35+00:00",
   "origen": "claude:claude-haiku-5-5",
-  "multiplicador_riesgo": 1.0,
+  "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -3.61,
-    "noticias_analizadas": 35,
+    "cambio_mercado_24h": -3.13,
+    "noticias_analizadas": 37,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -31,6 +30,11 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
+    {
+      "titulo": "Bitcoin sits out stock rebound as ETF outflows extend to fourth day",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/11/bitcoin-sits-out-stock-rebound-as-etf-outflows-extend-to-fourth-day"
+    },
     {
       "titulo": "Ripple-Backed Evernorth Crashes Over 23% as Insiders Get Cleared to Sell",
       "fuente": "Bitcoin.com",
@@ -55,22 +59,17 @@
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Bitcoin ETFs Bleed for a 4th Straight Day as 2026 Outflows Top $1B Billion",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/bitcoin-etf/bitcoin-etfs-outflows-fourth-straight-day-2026/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8907,
+    "input_tokens": 9177,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 695,
+    "output_tokens": 560,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
