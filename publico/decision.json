@@ -1,24 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae un 4.33% en 24 h con miedo (índice 29) tras un IPC de EE. UU. más caliente de lo esperado, que refuerza la expectativa de una subida de tipos de la Fed en diciembre; BTC roza mínimos de 11 semanas cerca de 73.500 USD. Hay salidas de ETFs y varios incidentes de seguridad (Near AI, Mercado Bitcoin, LNbits, Across, MEXC), pero no afectan de forma directa a las monedas operadas ni hay un hackeo que comprometa a Binance o a una de estas redes. Dado el entorno de volatilidad y la macro negativa, se recomienda cautela general sin pausar.",
+  "resumen": "El mercado cripto cae un 4.58% en 24 h con miedo (índice 29) tras un dato de inflación de EE. UU. más alto de lo esperado, que eleva las expectativas de una subida de tipos de la Fed en diciembre. Hay además varios incidentes de seguridad (brecha en Near AI, alerta de LNbits, Across Protocol, Mercado Bitcoin, Binance restringiendo MEXC) pero sin señales de un problema grave que afecte directamente a las monedas operadas. Se elige cautela global por la incertidumbre macro y el sentimiento negativo, sin llegar a pausa.",
   "motivos": [
-    "Caída de capitalización total de -4.33% en 24 h con índice de miedo en 29.",
-    "IPC de octubre por encima de lo previsto (0.4% m/m, subyacente 0.3%) que eleva la probabilidad de una subida de tipos de la Fed en diciembre.",
-    "Salidas netas de ETFs de BTC y ETH en los últimos días y BTC cerca de mínimos de 11 semanas.",
-    "Incidentes de seguridad y noticias negativas relevantes (MEXC bloqueado por Binance, brechas en Near AI, Mercado Bitcoin y LNbits) pero sin afectar de forma directa a las monedas operadas.",
-    "No hay pausa justificada: no hay hackeo de red o exchange que afecte a las monedas del bot, ni evento macro de alto impacto en las próximas 2-3 horas."
+    "Dato de IPC de EE. UU. de octubre por encima de previsiones (+0.4% mensual, subyacente +0.3%) y mercados que descuentan una subida de 0.25% de la Fed en diciembre.",
+    "Caída de la capitalización total del -4.58% en 24 h con miedo extremo (índice 29) y salidas de ETF de bitcoin y ether durante varios días.",
+    "Incidentes de seguridad (Near AI, LNbits, Across Protocol, Mercado Bitcoin) y restricciones de Binance a MEXC, pero no afectan directamente a las 10 monedas operadas ni constituyen una caída brusca de mercado que justifique pausa.",
+    "No hay eventos macro de alto impacto en las próximas 24 h, por lo que no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-11T01:59:19+00:00",
-  "valido_hasta": "2026-11-11T04:59:19+00:00",
+  "generado": "2026-11-11T02:48:05+00:00",
+  "valido_hasta": "2026-11-11T05:48:05+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -4.33,
-    "noticias_analizadas": 50,
+    "cambio_mercado_24h": -4.58,
+    "noticias_analizadas": 46,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -41,11 +40,6 @@
       "link": "https://cointelegraph.com/markets/bitcoin-11-week-low-discouraging-us-cpi-inflation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "titulo": "Bitcoin Price Crashes to $72,787 After Hotter-Than-Expected CPI",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-crashes-72787-hotter-than-expected-cpi/"
-    },
-    {
       "titulo": "Bitcoin Faces a Tougher Rate Outlook After US October Inflation Rises 0.4%",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/bitcoin-news/bitcoin-us-october-cpi-04-percent-rate-outlook/"
@@ -59,17 +53,22 @@
       "titulo": "Plume affiliate lands broker-dealer license to bring real U.S. assets onchain",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/10/emb-10-am-et-plume-affiliate-gets-the-legal-green-light-to-trade-regulated-security-entitlements-onchain"
+    },
+    {
+      "titulo": "Charles Schwab Opens Live Solana, Avalanche and Chainlink Trading to Eligible Clients",
+      "fuente": "NewsBTC",
+      "link": "https://www.newsbtc.com/altcoin-news/charles-schwab-live-solana-avalanche-chainlink-trading/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9492,
+    "input_tokens": 9529,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 669,
+    "output_tokens": 621,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
