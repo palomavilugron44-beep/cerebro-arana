@@ -1,25 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 29) con la capitalización total cayendo -1.61% en 24 h tras un dato de inflación (CPI) más caliente de lo esperado, que eleva las probabilidades de una subida de tipos de la Fed. Hay salidas de ETFs de Bitcoin durante cuatro días seguidos (unos 1.600 millones de dólares en noviembre), aunque BTC se recupera sobre 74.000 dólares y las liquidaciones son moderadas. No hay ninguna amenaza de seguridad, regulatoria ni de liquidez grave, por lo que se recomienda cautela general (mitad de tamaño) en lugar de pausa.",
+  "resumen": "El mercado está en miedo (índice 29) tras un CPI más caliente de lo esperado que elevó las probabilidades de una subida de tipos de la Fed, y la capitalización total cae un 1.7% en 24 h con salidas de ETF de bitcoin durante cuatro días seguidos. No hay un evento de alto impacto en las próximas 24 h ni una caída brusca de mercado (-7% o peor), ni incidentes de seguridad o regulatorios graves en las monedas operadas. Se opta por cautela general por volatilidad e incertidumbre macro, sin pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 29 (miedo), con una semana de niveles bajos",
-    "Dato de inflación (CPI) más alto de lo esperado que eleva el riesgo de subida de tipos de la Fed en diciembre, aunque sin evento macro de alto impacto en las próximas 24 h",
-    "Salidas netas de ETFs de Bitcoin durante cuatro días consecutivos, unos 1.600 millones de dólares en noviembre",
-    "Capitalización total -1.61% en 24 h, sin caída brusca (no llega al -7%)",
-    "BTC recupera la zona de 74.000 dólares y las liquidaciones son moderadas (51 millones de 199 millones), sin señales de pánico",
-    "Noticias sobre fallo de seguridad en Bitcoin Core ya parcheado, sin impacto en precio ni en las monedas operadas"
+    "Índice Miedo/Codicia en 29 (miedo), con tendencia bajista en la última semana.",
+    "Dato de inflación (CPI) más caliente de lo esperado; el mercado descuenta una alta probabilidad de subida de tipos de la Fed en diciembre.",
+    "Salidas netas de ETF spot de bitcoin durante cuatro días consecutivos (más de 1.000 M USD en 2026).",
+    "Capitalización total -1.7% en 24 h, lejos del umbral de -7% que justificaría pausa.",
+    "Sin eventos macro de alto impacto en 24 h y sin incidentes de seguridad, hackeos o acciones regulatorias graves contra las monedas operadas.",
+    "Caídas semanales amplias (XRP -18%, ETH -13.5%), pero sin noticias de halt, depeg o delist."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-11T19:57:12+00:00",
-  "valido_hasta": "2026-11-11T22:57:12+00:00",
+  "generado": "2026-11-11T21:32:42+00:00",
+  "valido_hasta": "2026-11-12T00:32:42+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -1.61,
-    "noticias_analizadas": 56,
+    "cambio_mercado_24h": -1.7,
+    "noticias_analizadas": 53,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -57,20 +57,20 @@
       "link": "https://www.coindesk.com/daybook-us/2026/11/11/bitcoin-barely-flinches-at-hot-cpi-as-etf-selling-slows"
     },
     {
-      "titulo": "Stock ETF buyers pounce on dip as Bitcoin funds bleed $1.6 billion",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/markets/bitcoin-etf-outflows-persist-while-equity-investors-buy-the-dip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "titulo": "Deutsche Bank Brings Bitcoin Custody Into Its Institutional Banking Empire",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/crypto-news/deutsche-bank-brings-bitcoin-custody-institutional-banking-empire/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9655,
+    "input_tokens": 9583,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 662,
+    "output_tokens": 620,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
