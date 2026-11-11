@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 29) tras un IPC más caliente de lo esperado que eleva las probabilidades de una subida de tipos de la Fed, y los ETF de bitcoin acumulan cuatro días de salidas. Aun así, la capitalización total cae solo -1.11% en 24 h, no hay un evento macro de alto impacto en las próximas 24 h ni un riesgo grave o anómalo en ninguna moneda concreta. Por ello se recomienda cautela general (mitad de tamaño) y no una pausa.",
+  "resumen": "El mercado está en miedo (índice 29) con la capitalización total cayendo -1.61% en 24 h tras un dato de inflación (CPI) más caliente de lo esperado, que eleva las probabilidades de una subida de tipos de la Fed. Hay salidas de ETFs de Bitcoin durante cuatro días seguidos (unos 1.600 millones de dólares en noviembre), aunque BTC se recupera sobre 74.000 dólares y las liquidaciones son moderadas. No hay ninguna amenaza de seguridad, regulatoria ni de liquidez grave, por lo que se recomienda cautela general (mitad de tamaño) en lugar de pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 29 (miedo), con caída de la semana en la mayoría de monedas (XRP -18.6%, ETH -14.1% en 7 d).",
-    "IPC de EE. UU. más caliente de lo esperado; el mercado sitúa en torno al 90% la probabilidad de una subida de tipos, aunque sin evento macro programado en las próximas 24 h.",
-    "Salidas netas de ETF spot de bitcoin durante cuatro días seguidos (unos 1.6 mil millones de dólares en noviembre).",
-    "Sin hackeo, acción regulatoria grave, halt, depeg ni delist en las monedas operadas; la caída del mercado (-1.11% en 24 h) no alcanza el umbral de pausa.",
-    "Las noticias de la jornada son mayormente neutras o positivas en el sector (Deutsche Bank custodia, OKXICE), y no justifican cambios por moneda."
+    "Índice Miedo/Codicia en 29 (miedo), con una semana de niveles bajos",
+    "Dato de inflación (CPI) más alto de lo esperado que eleva el riesgo de subida de tipos de la Fed en diciembre, aunque sin evento macro de alto impacto en las próximas 24 h",
+    "Salidas netas de ETFs de Bitcoin durante cuatro días consecutivos, unos 1.600 millones de dólares en noviembre",
+    "Capitalización total -1.61% en 24 h, sin caída brusca (no llega al -7%)",
+    "BTC recupera la zona de 74.000 dólares y las liquidaciones son moderadas (51 millones de 199 millones), sin señales de pánico",
+    "Noticias sobre fallo de seguridad en Bitcoin Core ya parcheado, sin impacto en precio ni en las monedas operadas"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-11T18:54:21+00:00",
-  "valido_hasta": "2026-11-11T21:54:21+00:00",
+  "generado": "2026-11-11T19:57:12+00:00",
+  "valido_hasta": "2026-11-11T22:57:12+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -1.11,
-    "noticias_analizadas": 55,
+    "cambio_mercado_24h": -1.61,
+    "noticias_analizadas": 56,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -41,6 +42,11 @@
       "link": "https://www.coindesk.com/markets/2026/11/11/bitcoin-sits-out-stock-rebound-as-etf-outflows-extend-to-fourth-day"
     },
     {
+      "titulo": "Bitmine Reports $6.3B Net Loss as Ether Plunges 44% During Fiscal Year",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/finance/bitmine-6-3b-net-loss-ether-plunges-44-percent-fiscal-year/"
+    },
+    {
       "titulo": "Bitcoin hovers near $74K as stocks rise despite US bond yield rebound",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/markets/bitcoin-74k-stocks-us-bond-yield-inflation-cpi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -54,22 +60,17 @@
       "titulo": "Stock ETF buyers pounce on dip as Bitcoin funds bleed $1.6 billion",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/markets/bitcoin-etf-outflows-persist-while-equity-investors-buy-the-dip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Deutsche Bank Brings Bitcoin Custody Into Its Institutional Banking Empire",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/crypto-news/deutsche-bank-brings-bitcoin-custody-institutional-banking-empire/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9688,
+    "input_tokens": 9655,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 638,
+    "output_tokens": 662,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
