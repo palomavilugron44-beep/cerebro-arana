@@ -1,29 +1,29 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 29) tras una caída de la capitalización total de -4.37% en 24 h, con salidas de ETF de Bitcoin por cuarto día consecutivo y un dato de inflación caliente que eleva las probabilidades de una subida de tipos de la Fed. No hay eventos macro de alto impacto en las próximas 24 h ni una caída de -7% que justifique una pausa. Por ello se aplica cautela general por volatilidad y presión bajista, y cautela adicional en XRP por el desbloqueo de acciones de su empresa de tesorería.",
+  "resumen": "El miedo extremo (índice 29) y la caída de la capitalización total (-2.86% en 24 h) reflejan un mercado débil, con salidas de ETF de BTC por cuarto día consecutivo y expectativas de una subida de tipos de la Fed tras un IPC caliente. No hay evento macro de alto impacto en las próximas 24 h ni una caída brusca de -7% que justifique pausar, por lo que la decisión es cautela general. Los incidentes puntuales (exploit de Initia, caída de XRPN por desbloqueo de acciones) no afectan directamente a las monedas operadas.",
   "motivos": [
-    "Índice Miedo/Codicia en 29 (miedo) con tendencia bajista en la última semana y capitalización total -4.37% en 24 h.",
-    "Cuarta jornada consecutiva de salidas de ETF de Bitcoin (1.6 mil millones de dólares en noviembre) y BTC cerca de la EMA200 de 200 días según noticias, con liquidaciones al alza.",
-    "Dato de inflación más alto de lo esperado que eleva la probabilidad de una subida de tipos de la Fed; riesgo macro relevante pero sin evento programado en 24 h.",
-    "Initia (no operada por el bot) sufrió su segundo exploit en tres semanas; impacto directo limitado sobre las monedas del bot.",
-    "XRP cae 17.8% en 7 días; Evernorth (XRPN) se desplomó 23.5% tras autorizar la venta de hasta 73.7M de acciones por insiders."
+    "Índice Miedo/Codicia en 29 (miedo) y tendencia de siete días débil, con capitalización total -2.86% en 24 h.",
+    "Cuarto día consecutivo de salidas de ETF de BTC (~1.6 mil millones USD en noviembre) y BTC cerca de la EMA/media de 200 días sin romperla al alza.",
+    "Probabilidad de subida de tipos de la Fed elevada tras IPC caliente, con posible subida de medio punto en diciembre; evento macro relevante en un horizonte de días, no de 2-3 horas.",
+    "Exploit de Initia (3.27 M USD) y caída de XRPN por desbloqueo de acciones: noticias negativas no graves y sin relación directa con las monedas operadas.",
+    "Ninguna moneda muestra situación anómala (halt, depeg o delist); no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-11T13:02:31+00:00",
-  "valido_hasta": "2026-11-11T16:02:31+00:00",
+  "generado": "2026-11-11T14:15:17+00:00",
+  "valido_hasta": "2026-11-11T17:15:17+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -4.37,
-    "noticias_analizadas": 46,
+    "cambio_mercado_24h": -2.86,
+    "noticias_analizadas": 51,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
-      "Decrypt": 38,
+      "Decrypt": 37,
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9561,
+    "input_tokens": 9675,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 733,
+    "output_tokens": 703,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
