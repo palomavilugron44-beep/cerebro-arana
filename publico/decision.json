@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza: capitalización total -4.21% en 24 h y el índice Miedo/Codicia en 29 (miedo). Las noticias sobre inflación caliente y posibles subidas de tipos de la Fed generan presión, aunque no hay eventos macro de alto impacto en las próximas 24 h y no se detecta una caída de -7% ni un incidente grave en una red importante. Se recomienda cautela general por volatilidad y miedo, y cautela específica en XRP por la presión vendedora.",
+  "resumen": "El mercado cripto cae un 4.16% en 24 h con miedo extremo (índice 29) y salidas de los ETF de Bitcoin de unos 1.600 M$ en noviembre, y el dato de inflación más caliente de lo esperado eleva el temor a una subida de tipos de la Fed en diciembre. No hay eventos macro de alto impacto en las próximas 24 h ni una caída brusca de más de -7%, así que no procede pausar. Se elige cautela global por la incertidumbre elevada y el entorno bajista.",
   "motivos": [
-    "Miedo/Codicia en 29 (Miedo) y capitalización total -4.21% en 24 h: entorno de volatilidad y aversión al riesgo elevada.",
-    "Titular de inflación más alta de lo esperado con temores de una subida de tipos de la Fed en diciembre; evento macro relevante en el horizonte.",
-    "XRP -16.92% en 7 días y su tesorería ligada (XRPN) cayó 23.5% tras la liberación de hasta 73.7 millones de acciones para venta por insiders.",
-    "Incidentes de seguridad menores (Initia, Near AI, Across Protocol, LNbits) sin afectar directamente a las monedas operadas; no justifican pausa.",
-    "Sin eventos USD de alto impacto en 24 h y caídas de precio no catastróficas en el resto de monedas: no se justifica pausa."
+    "Miedo extremo (índice 29) y capitalización total -4.16% en 24 h con salidas netas de ETF de BTC.",
+    "Inflación de EE. UU. más alta de lo esperado: preocupación por una posible subida de tipos de la Fed en diciembre (evento importante dentro de 24 h, pero no de alto impacto inmediato).",
+    "Caídas en 7 días de XRP (-17.2%), ETH (-11.4%) y SOL (-10.4%) con tendencia bajista generalizada.",
+    "Incidentes de seguridad (Initia, 3.27 M$ robados; LNbits; Across Protocol), pero no afectan directamente a las monedas operadas y no justifican pausa global.",
+    "Salida de títulos de Evernorth (XRPN) por desbloqueo de acciones: riesgo de sentimiento sobre XRP, no un problema de la red."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-11T08:53:50+00:00",
-  "valido_hasta": "2026-11-11T11:53:50+00:00",
+  "generado": "2026-11-11T10:00:31+00:00",
+  "valido_hasta": "2026-11-11T13:00:31+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 29,
-    "cambio_mercado_24h": -4.21,
-    "noticias_analizadas": 33,
+    "cambio_mercado_24h": -4.16,
+    "noticias_analizadas": 31,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -41,6 +41,11 @@
       "link": "https://cointelegraph.com/news/initia-second-crypto-exploit-three-weeks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "titulo": "Stock ETF buyers pounce on dip as Bitcoin funds bleed $1.6 billion",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/bitcoin-etf-outflows-persist-while-equity-investors-buy-the-dip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "titulo": "Missouri Turns Federal Gambling Law on Novig as Polymarket Sues State AG",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/igaming/missouri-turns-federal-gambling-law-novig-polymarket-sues-state-ag/"
@@ -54,22 +59,17 @@
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Near AI Confirms Security Breach Affecting 100 Users and 18 Agents",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/security/near-ai-confirms-security-breach-affecting-100-users-18-agents/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8542,
+    "input_tokens": 8485,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 691,
+    "output_tokens": 616,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
