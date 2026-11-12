@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto está en miedo (índice 28) con la capitalización total cayendo -3.99% en 24 h y salidas sostenidas de ETFs de Bitcoin (cinco días seguidos). Las caídas son generalizadas, con XRP, ETH y SOL bajando más de 13% en 7 días, pero no hay un evento grave confirmado ni una caída de -7% que justifique pausar. Por ello se recomienda cautela general, con la mitad del tamaño en compras nuevas, sin medidas por moneda.",
+  "resumen": "El mercado cripto cae con fuerza (capitalización -4.57% en 24 h) y el índice Miedo/Codicia está en 28 (miedo), con salidas de ETF de Bitcoin durante cinco sesiones seguidas por unos 1.440 M$. Hay un evento macro de impacto alto (PPI y Core PPI el 13/11 a las 13:30 UTC) dentro de las próximas 24 h, por lo que conviene reducir el tamaño de las compras nuevas. No veo un riesgo grave e inmediato como hackeo de red, caída de más del 7% ni decisión regulatoria fuerte, así que no justifica pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 28 (miedo) sostenido durante 7 días, con volatilidad y presión bajista generalizada.",
-    "Capitalización total -3.99% en 24 h; ninguna moneda de la lista sube en las últimas 24 h y varias superan -13% en 7 días.",
-    "Salidas netas de ETFs spot de Bitcoin durante cinco días consecutivos (1.44 mil millones de dólares) y reducción de stablecoins en 30 días.",
-    "Noticias de seguridad (Binance, hackeos en exchanges surcoreanos) y ruido por Nvidia son relevantes pero no constituyen un riesgo grave e inmediato sobre estas monedas.",
-    "No hay eventos macro de alto impacto USD en las próximas 24 h, por lo que no se activa pausa."
+    "Miedo en el mercado (índice 28) y caída de la capitalización total de -4.57% en 24 h.",
+    "Cinco días consecutivos de salidas de ETF de Bitcoin (unos 1.440 M$) y salidas también en ETF de Ether.",
+    "Publicación de PPI y Core PPI (datos macro de impacto alto) el 13/11 a las 13:30 UTC, dentro de las próximas 24 h.",
+    "Ninguna moneda muestra situación anómala (halt, depeg o delist) ni hay hackeo o problema de seguridad de la red que afecte a las monedas operadas.",
+    "Las noticias de hackeos y regulación son de carácter general y no graves para las monedas operadas, por lo que no se pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-12T13:04:46+00:00",
-  "valido_hasta": "2026-11-12T16:04:46+00:00",
+  "generado": "2026-11-12T14:20:05+00:00",
+  "valido_hasta": "2026-11-12T17:20:05+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -3.99,
-    "noticias_analizadas": 34,
+    "cambio_mercado_24h": -4.57,
+    "noticias_analizadas": 45,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -27,9 +27,14 @@
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
-    "eventos_usd_24h": 0
+    "eventos_usd_24h": 2
   },
   "titulares": [
+    {
+      "titulo": "Bitcoin ETFs Lose $1.44B in 5 Days as Selling Deepens",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/bitcoin-etf/bitcoin-etfs-lose-1-44b-in-5-days-as-selling-deepens/"
+    },
     {
       "titulo": "Tether, Tron and Chainalysis Unite to Freeze Stolen Crypto Before It Moves",
       "fuente": "Bitcoin.com",
@@ -54,22 +59,17 @@
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/12/bitcoin-listless-nvidia-perps-crash-7-as-ceo-jensen-huang-reportedly-faces-the-axe"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8656,
+    "input_tokens": 9320,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 595,
+    "output_tokens": 611,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
