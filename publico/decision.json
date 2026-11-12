@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza (capitalización total -5.69% en 24 h) y el índice Miedo/Codicia está en 28 (miedo), con cinco sesiones seguidas de salidas de ETFs de Bitcoin por unos 1.440 M$. Además, el martes 13 de noviembre a las 13:30 UTC (dentro de 24 h) se publican el PPI y el Core PPI de EE. UU., un dato macro de impacto relevante. No hay un hackeo, halt ni medida regulatoria grave que justifique una pausa, así que se recomienda cautela (mitad de tamaño) en lugar de pausa.",
+  "resumen": "El mercado cripto cae un 5.27% en 24 h con el índice Miedo/Codicia en 28 (miedo) y BTC en mínimos desde agosto, con salidas de ETF acumuladas de unos 1.440 M$ en cinco sesiones. Además, mañana a las 13:30 UTC (dentro de las próximas 24 h) se publican el PPI y el Core PPI, un dato macro importante, por lo que conviene reducir el tamaño de las compras nuevas. No hay indicios de hackeo que afecte a las monedas operadas ni de anomalías de cotización, así que no se justifica pausa.",
   "motivos": [
-    "Caída de la capitalización total de -5.69% en 24 h con Bitcoin en mínimos desde agosto (~71.400 USD).",
-    "Índice Miedo/Codicia en 28 (miedo) y sostenido en miedo los últimos 7 días.",
-    "Cinco sesiones consecutivas de salidas de ETFs spot de Bitcoin (~1.440 M$), señal de demanda débil.",
-    "Publicación de PPI y Core PPI de EE. UU. el 13/11 a las 13:30 UTC, dentro de las próximas 24 h.",
-    "El hackeo de Binance (6.300 M$) es un hecho antiguo ya conocido y no hay un nuevo incidente grave; las noticias regulatorias recientes no son graves ni inmediatas.",
-    "Los datos del mercado son consistentes con ruido y volatilidad, no con una situación anómala de una moneda concreta (sin halts ni depegs)."
+    "Caída de la capitalización total del -5.27% en 24 h con BTC cerca de 71K y en su nivel más bajo desde agosto.",
+    "Índice Miedo/Codicia en 28 (miedo), sostenido en el rango 25-32 durante 7 días.",
+    "Publicación de PPI y Core PPI el 13/11 a las 13:30 UTC, dentro de las próximas 24 h (dato macro importante, pero no de impacto máximo como FOMC o IPC en las próximas 2-3 h).",
+    "Salidas netas persistentes de ETF de Bitcoin (5 sesiones seguidas, ~1.440 M$).",
+    "El hackeo de Binance y la acción del DOJ son noticias negativas relevantes pero no afectan directamente a la operativa de las monedas listadas; no justifican pausa.",
+    "Sin anomalías de cotización (halt, depeg o delist) en las 10 monedas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-12T22:44:49+00:00",
-  "valido_hasta": "2026-11-13T01:44:49+00:00",
+  "generado": "2026-11-12T23:41:55+00:00",
+  "valido_hasta": "2026-11-13T02:41:55+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -5.69,
+    "cambio_mercado_24h": -5.27,
     "noticias_analizadas": 62,
     "articulos_leidos": 8,
     "fuentes": {
@@ -32,6 +32,11 @@
   },
   "titulares": [
     {
+      "titulo": "North Korea's Binance hack faces U.S. crackdown as DOJ targets $1.2 billion in stolen crypto",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/policy/2026/11/12/north-korea-s-binance-hack-faces-u-s-crackdown-as-doj-targets-usd1-2-billion-in-stolen-crypto"
+    },
+    {
       "titulo": "‘Shadow Stocks’: Wall Street Watchdog Fights Massive CFTC Stock Perps Push",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/regulation-and-legal/shadow-stocks-wall-street-watchdog-fights-cftc-stock-perpetuals-push/"
@@ -40,11 +45,6 @@
       "titulo": "Bitcoin ETFs Lose $299.8M as Five-Session Outflow Streak Reaches $1.44B",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/bitcoin-news/bitcoin-etf-outflows-november-11-2026-five-sessions/"
-    },
-    {
-      "titulo": "Bitcoin dips with Nvidia as ETF outflows reach day five",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/12/bitcoin-dips-with-nvidia-as-etf-outflows-reach-day-five"
     },
     {
       "titulo": "NK hackers join memecoin trenches, xStocks adds Hong Kong equities: Asia Express",
@@ -63,14 +63,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9700,
+    "input_tokens": 9702,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 671,
+    "output_tokens": 659,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
