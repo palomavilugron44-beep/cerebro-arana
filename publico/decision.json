@@ -1,25 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 28) tras una caída de capitalización del -2.98% en 24 h, con BTC cerca de 73.5K y ETH, XRP y SOL con caídas de 7 días entre -13% y -20%. Hay salidas de stablecoins y de ETFs, y Bitfinex advierte de un posible descenso prolongado de BTC, pero no hay evento macro de alto impacto en 24 h. Se mantiene cautela general (mitad del tamaño) por volatilidad y debilidad del mercado, sin llegar a pausa porque no hay una caída brusca confirmada de -7% ni una emergencia de seguridad que afecte a las monedas operadas.",
+  "resumen": "El miedo extremo (índice 28) y la caída de la capitalización total de -2.74% en 24 h, con las altcoins hundidas entre -12% y -20% en 7 días, reflejan un mercado frágil con salidas de stablecoins y flujos débiles en ETF. No hay evento macro de alto impacto en 24 h ni una caída brusca de -7% que justifique pausa. Por ello se recomienda cautela general, sin medidas específicas por moneda.",
   "motivos": [
-    "Índice Miedo/Codicia en 28 (Fear) de forma sostenida durante 7 días, con sentimiento social bajista según Santiment.",
-    "Capitalización total -2.98% en 24 h y caídas de 7 días de -8% a -20% en las monedas operadas.",
-    "Contracción de stablecoins (-14.2 mil millones en 30 días) y salidas de ETFs de BTC, según Glassnode.",
-    "Bitfinex advierte de posible descenso prolongado de BTC tras perder su base de coste de 75.7K.",
-    "Bitcoin Core revela fallos de seguridad de severidad alta, pero ya parcheados en octubre de 2025; no afecta directamente a las operaciones.",
-    "Hackeo de Binance de 6.300 millones citado en noticias: riesgo de seguridad del exchange que justifica mayor prudencia, aunque no hay señal de caída operativa ni acción regulatoria inmediata."
+    "Índice Miedo/Codicia en 28 (Fear), con lecturas bajas sostenidas durante 7 días.",
+    "Capitalización total cripto -2.74% en 24 h y altcoins con caídas semanales de -12% a -20%.",
+    "Contracción de stablecoins (-14.2 mil millones en 30 días) y flujos débiles en ETF según Glassnode.",
+    "Hackeo de 6.3 mil millones a Binance y avisos de seguridad (Corea del Sur, Bitcoin Core), pero sin riesgo grave e inmediato sobre las monedas operadas.",
+    "Sin eventos macro de alto impacto USD en las próximas 24 h; no se cumple ningún criterio de pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-12T05:59:17+00:00",
-  "valido_hasta": "2026-11-12T08:59:17+00:00",
+  "generado": "2026-11-12T07:12:35+00:00",
+  "valido_hasta": "2026-11-12T10:12:35+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -2.98,
-    "noticias_analizadas": 28,
+    "cambio_mercado_24h": -2.74,
+    "noticias_analizadas": 29,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -32,6 +31,11 @@
   },
   "titulares": [
     {
+      "titulo": "South Korea to permit crypto withdrawal freezes during hacking threats",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/south-korea-crypto-withdrawal-freezes-suspected-hacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "titulo": "Bitmine Reports $6.3B Net Loss as Ether Plunges 44% During Fiscal Year",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/finance/bitmine-6-3b-net-loss-ether-plunges-44-percent-fiscal-year/"
@@ -42,6 +46,11 @@
       "link": "https://decrypt.co/383094/stablecoin-drain-etf-outflows-bitcoin-running-empty"
     },
     {
+      "titulo": "Here’s what happened in crypto today",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "titulo": "Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/12/bitcoin-listless-nvidia-perps-crash-7-as-ceo-jensen-huang-reportedly-faces-the-axe"
@@ -50,27 +59,17 @@
       "titulo": "BTC, ETH and XRP Fear Hits ‘Boiling Point’ as Rally Hopes Rise",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/btc-eth-and-xrp-fear-hits-boiling-point-as-rally-hopes-rise/"
-    },
-    {
-      "titulo": "Bitcoin Core Discloses High-Severity Security Bug That Could Halt Mining Nodes",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/security/bitcoin-core-discloses-high-severity-security-bug-halt-mining-nodes/"
-    },
-    {
-      "titulo": "Elizabeth Warren May Finally Have the Firepower to Fuel Her Anti-Crypto Army",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/regulation-and-legal/elizabeth-warren-finally-have-firepower-fuel-her-anti-crypto-army/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7979,
+    "input_tokens": 8114,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 690,
+    "output_tokens": 538,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
