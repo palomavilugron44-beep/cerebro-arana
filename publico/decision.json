@@ -1,24 +1,24 @@
 {
-  "modo": "normal",
+  "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 28) con la capitalización total cayendo un -2.44% en 24 h y caídas de 7 días de entre -3% y -20% según la moneda, pero sin una caída brusca de -7% ni liquidaciones masivas (las liquidaciones de BTC fueron de unos 199 M$ en el mercado). No hay eventos macro de alto impacto en las próximas 24 h. Las noticias negativas (salidas de ETF, caída de stablecoins, fallo de seguridad de Bitcoin Core ya parcheado, presión regulatoria de Warren) no son graves ni inmediatas, así que se mantiene el modo normal.",
+  "resumen": "El mercado está en miedo (índice 28) con la capitalización total cayendo -2.69% en 24 h, aunque BTC se mantiene estable cerca de 74K tras el CPI. Las caídas en 7 días son fuertes (XRP -19.7%, ETH -15.4%, SOL -13.2%) y hay salidas de ETFs y contracción de stablecoins, lo que justifica prudencia sin llegar a un riesgo grave. No hay evento macro de alto impacto en las próximas 24 h ni hackeos o acciones regulatorias concretas contra las monedas operadas.",
   "motivos": [
-    "Capitalización total -2.44% en 24 h, por debajo del umbral de -7% que justificaría pausa",
-    "Sin eventos económicos USD de alto impacto en las próximas 24 h",
-    "Bug de Bitcoin Core (CVE-2025-62861) ya parcheado desde octubre de 2025; no hay hackeo ni exploit activo",
-    "Salidas de ETF y contracción de stablecoins son presión de mercado, no un riesgo grave e inmediato",
-    "Miedo moderado (28), no extremo; la estrategia ya incluye stop a 3 ATR"
+    "Índice Miedo/Codicia en 28 (miedo) sostenido durante la última semana.",
+    "Capitalización total -2.69% en 24 h y caídas semanales de 11-20% en la mayoría de las monedas operadas.",
+    "Salidas netas de ETFs de BTC (4 días consecutivos) y contracción de stablecoins de 14.2 mil millones en 30 días, según Glassnode.",
+    "Advertencia de Bitfinex sobre posible caída a 70K, pero sin evento concreto ni grave; el CPI ya fue digerido.",
+    "Sin eventos macro de alto impacto en 24 h; el bug de Bitcoin Core ya está parcheado y no afecta a precios de forma directa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-12T02:14:46+00:00",
-  "valido_hasta": "2026-11-12T05:14:46+00:00",
+  "generado": "2026-11-12T03:53:33+00:00",
+  "valido_hasta": "2026-11-12T06:53:33+00:00",
   "origen": "claude:claude-haiku-5-5",
-  "multiplicador_riesgo": 1.0,
+  "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -2.44,
-    "noticias_analizadas": 31,
+    "cambio_mercado_24h": -2.69,
+    "noticias_analizadas": 30,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8534,
+    "input_tokens": 8405,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 557,
+    "output_tokens": 580,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
