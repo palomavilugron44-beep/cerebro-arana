@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 28) con la capitalización total cayendo -2.69% en 24 h, aunque BTC se mantiene estable cerca de 74K tras el CPI. Las caídas en 7 días son fuertes (XRP -19.7%, ETH -15.4%, SOL -13.2%) y hay salidas de ETFs y contracción de stablecoins, lo que justifica prudencia sin llegar a un riesgo grave. No hay evento macro de alto impacto en las próximas 24 h ni hackeos o acciones regulatorias concretas contra las monedas operadas.",
+  "resumen": "El mercado está en miedo (índice 28) con la capitalización total cayendo un 2.81% en 24 h y varias altcoins con caídas de 12-20% en 7 días. Hay presión vendedora (salidas de ETF, caída de stablecoins), pero no hay eventos macro de alto impacto en las próximas 24 h ni un hackeo o problema grave confirmado en una red o exchange. Por ello se elige cautela general, no pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 28 (miedo) sostenido durante la última semana.",
-    "Capitalización total -2.69% en 24 h y caídas semanales de 11-20% en la mayoría de las monedas operadas.",
-    "Salidas netas de ETFs de BTC (4 días consecutivos) y contracción de stablecoins de 14.2 mil millones en 30 días, según Glassnode.",
-    "Advertencia de Bitfinex sobre posible caída a 70K, pero sin evento concreto ni grave; el CPI ya fue digerido.",
-    "Sin eventos macro de alto impacto en 24 h; el bug de Bitcoin Core ya está parcheado y no afecta a precios de forma directa."
+    "Índice Miedo/Codicia en 28 (miedo) y sostenido en 25-32 durante 7 días, indicando incertidumbre elevada.",
+    "Capitalización total -2.81% en 24 h y altcoins con caídas de 12-20% en 7 días (XRP -19.8%, ETH -15.4%, SOL -13.5%).",
+    "Salidas netas de ETF de bitcoin (4 días consecutivos) y caída de 14.2 mil millones en stablecoins en 30 días, señal de menor liquidez.",
+    "Sin eventos macro de alto impacto en 24 h; el vulnerabilidad de Bitcoin Core reportada tiene parche y no supone riesgo grave inmediato.",
+    "Noticias negativas relevantes pero no graves; no justifican pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-12T03:53:33+00:00",
-  "valido_hasta": "2026-11-12T06:53:33+00:00",
+  "generado": "2026-11-12T04:57:49+00:00",
+  "valido_hasta": "2026-11-12T07:57:49+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -2.69,
-    "noticias_analizadas": 30,
+    "cambio_mercado_24h": -2.81,
+    "noticias_analizadas": 28,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -46,9 +46,9 @@
       "link": "https://decrypt.co/383094/stablecoin-drain-etf-outflows-bitcoin-running-empty"
     },
     {
-      "titulo": "Bitcoin hovers near $74K as stocks rise despite US bond yield rebound",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/markets/bitcoin-74k-stocks-us-bond-yield-inflation-cpi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "titulo": "Bitcoin listless, Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/12/bitcoin-listless-nvidia-perps-crash-7-as-ceo-jensen-huang-reportedly-faces-the-axe"
     },
     {
       "titulo": "BTC, ETH and XRP Fear Hits ‘Boiling Point’ as Rally Hopes Rise",
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8405,
+    "input_tokens": 8052,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 580,
+    "output_tokens": 556,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
