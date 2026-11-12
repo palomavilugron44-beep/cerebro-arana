@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El índice Miedo/Codicia está en 29 (miedo) tras un CPI más caliente de lo esperado, la capitalización total cae un 2.62% en 24 h y las salidas de ETF de BTC suman varios días seguidos, con caídas semanales de entre -2.95% y -19.11% en las monedas vigiladas. No hay eventos macro de alto impacto en las próximas 24 h ni noticias de hackeo, regulación grave o halt de monedas; el aviso de Bitcoin Core es de severidad alta pero ya parcheado desde 2025. Dado el entorno de volatilidad y miedo, se recomienda cautela general (mitad de tamaño) sin pausa.",
+  "resumen": "El mercado está en miedo (índice 28) con la capitalización total cayendo un 2.25% en 24 h y caídas de 7 días de entre -2% y -19% en la mayoría de monedas, tras un dato de IPC más caliente de lo esperado que provocó volatilidad en BTC. No hay eventos macro de alto impacto en las próximas 24 h ni hackeos o acciones regulatorias graves; la caída no alcanza el umbral de -7% en 24 h. Por incertidumbre elevada y salidas de ETF y stablecoins, se recomienda cautela global, sin pausa.",
   "motivos": [
-    "Miedo extremo moderado (índice 29) y caída de la capitalización total de -2.62% en 24 h.",
-    "Salidas netas de ETF de BTC durante cuatro días consecutivos y contracción de stablecoins (-14.2 mil millones en 30 días), señal de debilidad de demanda.",
-    "Tendencia semanal negativa generalizada (XRP -19%, ETH -15%, DOGE -12%, SOL -12%), con volatilidad elevada tras el dato de CPI.",
-    "No hay riesgo grave e inmediato: sin hackeo activo, sin acción regulatoria fuerte ni evento macro de alto impacto en 24 h; el fallo de Bitcoin Core ya está parcheado."
+    "Índice Miedo/Codicia en 28 (Miedo), sostenido durante la última semana.",
+    "Capitalización total -2.25% en 24 h y caídas de 7 días de hasta -19% (XRP) y -15% (ETH).",
+    "Salidas netas de ETF de BTC (4 días seguidos) y contracción de stablecoins de 14.2 mil M$ en 30 días según Glassnode.",
+    "Dato de IPC de EE. UU. más caliente de lo esperado; sin eventos macro de alto impacto en las próximas 24 h.",
+    "La noticia de vulnerabilidad en Bitcoin Core tiene parche aplicado y no es un riesgo grave; no hay hackeo ni caída brusca del mercado que justifique pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-11T23:47:17+00:00",
-  "valido_hasta": "2026-11-12T02:47:17+00:00",
+  "generado": "2026-11-12T01:05:31+00:00",
+  "valido_hasta": "2026-11-12T04:05:31+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
-    "miedo_codicia": 29,
-    "cambio_mercado_24h": -2.62,
-    "noticias_analizadas": 48,
+    "miedo_codicia": 28,
+    "cambio_mercado_24h": -2.25,
+    "noticias_analizadas": 35,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -50,25 +51,25 @@
       "link": "https://cointelegraph.com/markets/bitcoin-74k-stocks-us-bond-yield-inflation-cpi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "titulo": "Bitcoin barely flinches at hot CPI as ETF selling slows",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/daybook-us/2026/11/11/bitcoin-barely-flinches-at-hot-cpi-as-etf-selling-slows"
-    },
-    {
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Bitcoin Core Discloses High-Severity Security Bug That Could Halt Mining Nodes",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/security/bitcoin-core-discloses-high-severity-security-bug-halt-mining-nodes/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9455,
+    "input_tokens": 8987,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 617,
+    "output_tokens": 596,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
