@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 28) con la capitalización total -3.32% en 24 h y flujos negativos en ETFs de Bitcoin, pero sin caída brusca de -7% ni dato macro de alto impacto en las próximas 24 h. El hackeo de Binance ($6.3B) es antiguo y no afecta directamente a las monedas operadas, y la noticia sobre Corea del Sur es una medida preventiva, no un incidente en curso. Se opta por cautela global por volatilidad e incertidumbre elevada, sin pausa ni alerta sobre posiciones.",
+  "resumen": "El mercado está en miedo (índice 28) con la capitalización total cayendo -3.1% en 24 h y salidas sostenidas de ETFs de Bitcoin (IBIT más de 2.000 M$ en nueve sesiones). No hay evento macro de alto impacto en las próximas 24 h ni una caída brusca de -7% que justifique pausa. Por ello se recomienda cautela general (mitad de tamaño) mientras persiste la volatilidad y la presión bajista.",
   "motivos": [
-    "Índice Miedo/Codicia en 28 (Fear) y capitalización total -3.32% en 24 h: incertidumbre elevada.",
-    "Salidas netas de ETFs spot de Bitcoin (más de 2.000 M$ en IBIT en nueve sesiones) y caída de la liquidez en stablecoins (-14.200 M$ en 30 días).",
-    "Advertencias de Bitfinex sobre posible caída de BTC hacia 70K, aunque no es un evento confirmado.",
-    "Hackeo de Binance de 6.300 M$ y medidas de seguridad en Corea del Sur: incidentes relevantes pero no en curso que afecten a las monedas operadas; no justifican pausa.",
-    "Sin eventos macro USD de alto impacto en 24 h y sin movimientos de -7% o peor, por lo que no procede pausa."
+    "Índice Miedo/Codicia en 28 (miedo) de forma sostenida durante 7 días.",
+    "Capitalización total -3.1% en 24 h; altcoins con caídas de -12% a -20% en 7 días (XRP -20.4%, ETH -15.1%).",
+    "Salidas netas de ETFs spot de Bitcoin (IBIT más de 2.000 M$ en nueve sesiones), señal de demanda institucional débil.",
+    "Noticias de seguridad (brecha de 6.300 M$ en Binance y nuevas medidas de Corea del Sur) son relevantes pero no afectan directamente a precios de estas monedas ni constituyen riesgo grave inmediato.",
+    "Sin eventos macro USD de alto impacto en 24 h; no se cumplen criterios de pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-12T08:57:50+00:00",
-  "valido_hasta": "2026-11-12T11:57:50+00:00",
+  "generado": "2026-11-12T09:57:50+00:00",
+  "valido_hasta": "2026-11-12T12:57:50+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -3.32,
-    "noticias_analizadas": 27,
+    "cambio_mercado_24h": -3.1,
+    "noticias_analizadas": 26,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -34,11 +34,6 @@
       "titulo": "South Korea to permit crypto withdrawal freezes during hacking threats",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/south-korea-crypto-withdrawal-freezes-suspected-hacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Stablecoin Drain, ETF Outflows Leave Bitcoin 'Running on Empty'",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/383094/stablecoin-drain-etf-outflows-bitcoin-running-empty"
     },
     {
       "titulo": "Here’s what happened in crypto today",
@@ -59,17 +54,22 @@
       "titulo": "BlackRock Bitcoin ETF outflows hit $2B over nine sessions",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/markets/blackrock-bitcoin-etf-ibit-outflows-nine-day-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Judge Says CFTC Kalshi Order ‘Smacks of a Collusive Effort’ in Novig Ruling",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/igaming/judge-says-cftcs-kalshi-order-smacks-collusive-effort-novig-ruling/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7903,
+    "input_tokens": 7736,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 626,
+    "output_tokens": 573,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
