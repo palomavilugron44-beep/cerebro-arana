@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 28, con lecturas similares durante la última semana) y la capitalización total cae un 3.17% en 24 h, con salidas sostenidas de ETFs de bitcoin (IBIT más de 2.000 M$ en nueve sesiones). No hay una caída brusca de -7% ni un evento macro de alto impacto en las próximas 24 h, y el hackeo de Binance ya es un hecho pasado, sin señales de nuevo incidente en curso. Por ello se recomienda cautela general, sin pausa, por la incertidumbre elevada del entorno.",
+  "resumen": "El mercado cripto cae un 4.03% en 24 h con miedo (índice 28) y salidas sostenidas de ETFs de Bitcoin (cinco días seguidos, unos 1.440 M$). No hay eventos macro de alto impacto en 24 h, pero la presión bajista y la volatilidad justifican reducir a la mitad el tamaño de las compras nuevas. No hay un hackeo, una acción regulatoria grave ni una anomalía en las monedas operadas que justifique una pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 28 (Miedo) con lecturas similares durante 7 días",
-    "Capitalización total -3.17% en 24 h y salidas de ETFs spot de bitcoin de unos 1.440 M$ en cinco sesiones",
-    "Sin eventos macro de alto impacto en las próximas 24 h, y sin caída de -7% ni incidente de seguridad activo que justifique pausa",
-    "Noticias de hackeo (Binance, Prabang) son hechos pasados; no afectan directamente a las monedas operadas en tiempo real"
+    "Capitalización total -4.03% en 24 h con índice Miedo/Codicia en 28 (miedo) y varios días en esa zona.",
+    "Cinco días consecutivos de salidas de ETFs spot de Bitcoin (unos 1.440 M$ entre el 5 y el 11 de noviembre) y caída de la demanda institucional.",
+    "Altcoins con caídas fuertes a 7 días (XRP -20.5%, ETH -15.5%, SOL -14.3%), con volatilidad elevada.",
+    "Noticias negativas relevantes pero no graves: contracción de stablecoins (-14.200 M$ en 30 días), salida de Strategy del índice MSCI, incidentes de seguridad en exchanges ya conocidos (Binance, con brecha de 6.300 M$ previa).",
+    "Sin evento macro de alto impacto en 24 h y sin anomalía de precio, halt o depeg en las monedas operadas; no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-12T10:59:19+00:00",
-  "valido_hasta": "2026-11-12T13:59:19+00:00",
+  "generado": "2026-11-12T11:55:38+00:00",
+  "valido_hasta": "2026-11-12T14:55:38+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -3.17,
-    "noticias_analizadas": 27,
+    "cambio_mercado_24h": -4.03,
+    "noticias_analizadas": 31,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -30,9 +31,24 @@
   },
   "titulares": [
     {
+      "titulo": "Tether, Tron and Chainalysis Unite to Freeze Stolen Crypto Before It Moves",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/security/tether-tron-and-chainalysis-unite-to-freeze-stolen-crypto-before-it-moves/"
+    },
+    {
       "titulo": "South Korea to permit crypto withdrawal freezes during hacking threats",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/south-korea-crypto-withdrawal-freezes-suspected-hacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Bitcoin dips with Nvidia as ETF outflows reach day five",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/12/bitcoin-dips-with-nvidia-as-etf-outflows-reach-day-five"
+    },
+    {
+      "titulo": "Bitcoin ETFs Bleed $1.4B in Five Days as Investors Cut Risk",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/383122/bitcoin-etfs-bleed-1-4b-in-five-days-as-investors-cut-risk"
     },
     {
       "titulo": "Here’s what happened in crypto today",
@@ -43,32 +59,17 @@
       "titulo": "Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/12/bitcoin-listless-nvidia-perps-crash-7-as-ceo-jensen-huang-reportedly-faces-the-axe"
-    },
-    {
-      "titulo": "BTC, ETH and XRP Fear Hits ‘Boiling Point’ as Rally Hopes Rise",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/btc-eth-and-xrp-fear-hits-boiling-point-as-rally-hopes-rise/"
-    },
-    {
-      "titulo": "Live updates: Bitcoin ETFs bleed $300 million as AI stocks slide again",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/tech/2026/11/12/live-news-strategy-kicked-out-of-msci-indexes-as-nvidia-slump-rattles-markets"
-    },
-    {
-      "titulo": "BlackRock Bitcoin ETF outflows hit $2B over nine sessions",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/markets/blackrock-bitcoin-etf-ibit-outflows-nine-day-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7822,
+    "input_tokens": 8360,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 529,
+    "output_tokens": 635,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
