@@ -1,24 +1,22 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza: capitalización total -5.84% en 24 h, BTC bajo 72.000 USD y más de 656 M USD liquidados, con miedo (índice 28) y salidas récord de ETFs de BTC (5 sesiones, 1.440 M USD). No hay un riesgo grave e inmediato como hackeo, acción regulatoria fuerte o dato macro en las próximas 2-3 horas (el PPI llega mañana, fuera de esa ventana), por lo que se aplica cautela global en lugar de pausa. Se añade cautela extra a XRP y ETH por sus caídas semanales más pronunciadas.",
+  "resumen": "El mercado cripto cae con fuerza (capitalización total -5.91% en 24 h, BTC bajo 72K) con liquidaciones de unos 656 M$ y salidas sostenidas de ETF spot de BTC, y el índice Miedo/Codicia está en 28 (miedo). Hay además un dato macro de impacto alto (PPI, previsto para el 13/11 a las 13:30 UTC) dentro de las próximas 24 h, pero no en las próximas 2-3 h. No hay hackeo, anomalía de moneda ni acción regulatoria grave contra una moneda o Binance, así que se opta por cautela (no pausa).",
   "motivos": [
-    "Caída de la capitalización total de -5.84% en 24 h con 656 M USD en liquidaciones de derivados.",
-    "Índice Miedo/Codicia en 28 (miedo) con valores bajos sostenidos durante 7 días.",
-    "Cinco sesiones consecutivas de salidas de ETFs de BTC por 1.440 M USD y 2.000 M USD de salidas de IBIT en nueve sesiones.",
-    "Evento macro de alto impacto (PPI y Core PPI) previsto para mañana 13 de noviembre a las 13:30 UTC, dentro de las próximas 24 h pero fuera de la ventana de 2-3 h para pausa.",
-    "XRP cae -17.29% y ETH -11.05% en 7 días, por encima de la caída del resto del grupo.",
-    "No hay indicios de hackeo grave, acción regulatoria fuerte ni anomalía de moneda en los datos entregados."
+    "Caída del mercado de -5.91% en 24 h con liquidaciones de ~656 M$ y BTC por debajo de 72K",
+    "Miedo extremo en el índice Miedo/Codicia (28) con racha de cinco sesiones de salidas en ETF spot de BTC (~1.44 B$)",
+    "Dato macro de impacto alto (Core PPI y PPI) previsto para mañana 13/11 a las 13:30 UTC, dentro de las próximas 24 h pero fuera de la ventana de 2-3 h",
+    "No hay hackeo, depeg, halt ni acción regulatoria grave que justifique pausa"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-12T18:53:02+00:00",
-  "valido_hasta": "2026-11-12T21:53:02+00:00",
+  "generado": "2026-11-12T19:53:46+00:00",
+  "valido_hasta": "2026-11-12T22:53:46+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -5.84,
+    "cambio_mercado_24h": -5.91,
     "noticias_analizadas": 56,
     "articulos_leidos": 8,
     "fuentes": {
@@ -37,9 +35,9 @@
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-breaks-below-72k-656m-liquidation-bloodbath/"
     },
     {
-      "titulo": "Bitcoin ETFs Lose $1.44B in 5 Days as Selling Deepens",
+      "titulo": "‘Shadow Stocks’: Wall Street Watchdog Fights Massive CFTC Stock Perps Push",
       "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/bitcoin-etf/bitcoin-etfs-lose-1-44b-in-5-days-as-selling-deepens/"
+      "link": "https://news.bitcoin.com/regulation-and-legal/shadow-stocks-wall-street-watchdog-fights-cftc-stock-perpetuals-push/"
     },
     {
       "titulo": "Bitcoin ETFs Lose $299.8M as Five-Session Outflow Streak Reaches $1.44B",
@@ -63,14 +61,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9532,
+    "input_tokens": 9536,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 792,
+    "output_tokens": 569,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
