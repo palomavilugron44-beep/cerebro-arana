@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza (capitalización total -5.91% en 24 h, BTC bajo 72K) con liquidaciones de unos 656 M$ y salidas sostenidas de ETF spot de BTC, y el índice Miedo/Codicia está en 28 (miedo). Hay además un dato macro de impacto alto (PPI, previsto para el 13/11 a las 13:30 UTC) dentro de las próximas 24 h, pero no en las próximas 2-3 h. No hay hackeo, anomalía de moneda ni acción regulatoria grave contra una moneda o Binance, así que se opta por cautela (no pausa).",
+  "resumen": "El mercado cripto cae con fuerza (capitalización total -5.72% en 24 h, BTC bajo 72.000 USD tras liquidaciones de unos 656 M USD) y el índice Miedo/Codicia está en 28 (miedo). Además, mañana a las 13:30 UTC se publican el PPI y el Core PPI de EE. UU., un dato macro relevante dentro de las próximas 24 h, y los ETF de BTC acumulan cinco sesiones de salidas. No hay hackeos ni acciones regulatorias graves sobre las monedas operadas, así que se recomienda cautela (mitad de tamaño) y no pausa.",
   "motivos": [
-    "Caída del mercado de -5.91% en 24 h con liquidaciones de ~656 M$ y BTC por debajo de 72K",
-    "Miedo extremo en el índice Miedo/Codicia (28) con racha de cinco sesiones de salidas en ETF spot de BTC (~1.44 B$)",
-    "Dato macro de impacto alto (Core PPI y PPI) previsto para mañana 13/11 a las 13:30 UTC, dentro de las próximas 24 h pero fuera de la ventana de 2-3 h",
-    "No hay hackeo, depeg, halt ni acción regulatoria grave que justifique pausa"
+    "Caída de la capitalización total cripto de -5.72% en 24 h, por debajo del umbral de -7% para pausa, pero con presión vendedora clara.",
+    "Liquidaciones de derivados superiores a 650 M USD en 24 h y salidas de ETF de BTC por cinco sesiones consecutivas (1.440 M USD).",
+    "Índice Miedo/Codicia en 28 (miedo) con tendencia baja en la última semana.",
+    "PPI y Core PPI de EE. UU. programados para 2026-11-13 a las 13:30 UTC, dentro de las próximas 24 h (evento macro importante, no de muy alto impacto dentro de 2-3 h).",
+    "Sin noticias de hackeo, deslistado ni anomalía en las 10 monedas operadas; las noticias de hackeos y regulación no afectan directamente a ellas, por lo que no se justifica pausa por moneda."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-12T19:53:46+00:00",
-  "valido_hasta": "2026-11-12T22:53:46+00:00",
+  "generado": "2026-11-12T20:48:21+00:00",
+  "valido_hasta": "2026-11-12T23:48:21+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -5.91,
-    "noticias_analizadas": 56,
+    "cambio_mercado_24h": -5.72,
+    "noticias_analizadas": 58,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -61,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9536,
+    "input_tokens": 9455,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 569,
+    "output_tokens": 666,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
