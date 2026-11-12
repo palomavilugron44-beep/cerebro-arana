@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza (capitalización total -5.09% en 24 h) y el índice Miedo/Codicia está en 28 (miedo), con salidas continuadas de ETFs de bitcoin y liquidaciones de unos 656 M$ en 24 h. Hay además un evento macro relevante en menos de 24 h (PPI de EE. UU. el 13 de noviembre a las 13:30 UTC), por lo que conviene reducir el tamaño de las compras nuevas. No hay hackeo, regulación grave ni anomalía de moneda que justifique una pausa, así que se aplica cautela global.",
+  "resumen": "El mercado cae con fuerza: la capitalización total baja un 5.24% en 24 h, BTC rompe por debajo de 72.000 USD y hay unos 656 M USD en liquidaciones, con el miedo/codicia en 28 (miedo). Hay salidas sostenidas de ETF (1.44 B USD en cinco sesiones) y un clima macro tenso por la subida de tipos y la salida de Jensen Huang de Nvidia. Además, hay un evento macro relevante en 24 h (PPI el 13 de noviembre a las 13:30 UTC), por lo que procede cautela general, sin pausa, al no haber un riesgo grave de seguridad, regulatorio ni de exchange que lo justifique.",
   "motivos": [
-    "Capitalización total cripto -5.09% en 24 h con BTC por debajo de 72.000 USD y liquidaciones de unos 656 M$.",
-    "Índice Miedo/Codicia en 28 (miedo), en la zona de miedo durante toda la última semana.",
-    "Salidas de ETFs de bitcoin de 1.44 mil millones USD en 5 sesiones y 2 mil millones en 9 sesiones para IBIT.",
-    "Eventos PPI de EE. UU. (Core PPI y PPI) el 13 de noviembre a las 13:30 UTC, dentro de las próximas 24 h.",
-    "Ninguna señal de hackeo grave, acción regulatoria fuerte o anomalía en las monedas operadas; no se justifica pausa."
+    "Caída de capitalización total de -5.24% en 24 h con liquidaciones de unos 656 M USD.",
+    "Índice Miedo/Codicia en 28 (miedo), en rango de miedo durante toda la semana.",
+    "Salidas de ETF de Bitcoin por 1.44 B USD en cinco sesiones consecutivas.",
+    "Publicación de PPI (core y general) el 13/11 a las 13:30 UTC, evento macro importante dentro de 24 h.",
+    "Sin hackeo grave, medida regulatoria fuerte ni anomalía de moneda que justifique pausa; las noticias de hacks (Unocoin, Binance pasado) afectan a exchanges concretos y no a las monedas operadas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-12T15:59:12+00:00",
-  "valido_hasta": "2026-11-12T18:59:12+00:00",
+  "generado": "2026-11-12T16:59:37+00:00",
+  "valido_hasta": "2026-11-12T19:59:37+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -5.09,
-    "noticias_analizadas": 53,
+    "cambio_mercado_24h": -5.24,
+    "noticias_analizadas": 57,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -51,25 +51,25 @@
       "link": "https://cointelegraph.com/news/south-korea-crypto-withdrawal-freezes-suspected-hacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "titulo": "Bitcoin ETFs Lose $299.8M as Five-Session Outflow Streak Reaches $1.44B",
+      "fuente": "NewsBTC",
+      "link": "https://www.newsbtc.com/bitcoin-news/bitcoin-etf-outflows-november-11-2026-five-sessions/"
+    },
+    {
       "titulo": "Bitcoin dips with Nvidia as ETF outflows reach day five",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/12/bitcoin-dips-with-nvidia-as-etf-outflows-reach-day-five"
-    },
-    {
-      "titulo": "Live updates: Bitcoin slumps below $72,000 as Nvidia's Huang resigns, interest rates surge",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/tech/2026/11/12/live-news-strategy-kicked-out-of-msci-indexes-as-nvidia-slump-rattles-markets"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9457,
+    "input_tokens": 9396,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 606,
+    "output_tokens": 628,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
