@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "La capitalización total cripto cae un 5.65% en 24 h con 656 M$ en liquidaciones, el miedo se mantiene en 28 y BTC ha perdido los 72.000 $ tras cinco días de salidas de ETF. El PPI de EE. UU. se publica mañana a las 13:30 UTC, dentro de las próximas 24 h, lo que justifica cautela, aunque no una pausa al no haber hackeo, regulación grave ni dato de impacto inminente en 2-3 h. No hay señales de anomalía en las monedas operadas, así que no se aplican restricciones individuales.",
+  "resumen": "El mercado cripto cae con fuerza: capitalización total -5.84% en 24 h, BTC bajo 72.000 USD y más de 656 M USD liquidados, con miedo (índice 28) y salidas récord de ETFs de BTC (5 sesiones, 1.440 M USD). No hay un riesgo grave e inmediato como hackeo, acción regulatoria fuerte o dato macro en las próximas 2-3 horas (el PPI llega mañana, fuera de esa ventana), por lo que se aplica cautela global en lugar de pausa. Se añade cautela extra a XRP y ETH por sus caídas semanales más pronunciadas.",
   "motivos": [
-    "Caída de la capitalización total del -5.65% en 24 h con 656 M$ en liquidaciones de derivados, pero sin llegar al umbral de -7% para pausa.",
-    "Miedo en 28 (Fear), sostenido durante la última semana con salidas de ETF de BTC por 1.44 mil millones en 5 sesiones.",
-    "Evento macro relevante (Core PPI y PPI m/m) el 13/11 a las 13:30 UTC, dentro de las próximas 24 h pero fuera de la ventana de 2-3 h que exige pausa.",
-    "Noticias negativas relevantes (ventas de Nvidia, presión tecnológica) pero no graves; los hacks citados (Unocoin, Binance previo) no afectan directamente a las monedas operadas.",
-    "Ninguna moneda muestra halt, depeg o delist; todas caen en un rango similar (-3.4% a -5.2%)."
+    "Caída de la capitalización total de -5.84% en 24 h con 656 M USD en liquidaciones de derivados.",
+    "Índice Miedo/Codicia en 28 (miedo) con valores bajos sostenidos durante 7 días.",
+    "Cinco sesiones consecutivas de salidas de ETFs de BTC por 1.440 M USD y 2.000 M USD de salidas de IBIT en nueve sesiones.",
+    "Evento macro de alto impacto (PPI y Core PPI) previsto para mañana 13 de noviembre a las 13:30 UTC, dentro de las próximas 24 h pero fuera de la ventana de 2-3 h para pausa.",
+    "XRP cae -17.29% y ETH -11.05% en 7 días, por encima de la caída del resto del grupo.",
+    "No hay indicios de hackeo grave, acción regulatoria fuerte ni anomalía de moneda en los datos entregados."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-12T17:51:34+00:00",
-  "valido_hasta": "2026-11-12T20:51:34+00:00",
+  "generado": "2026-11-12T18:53:02+00:00",
+  "valido_hasta": "2026-11-12T21:53:02+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -5.65,
+    "cambio_mercado_24h": -5.84,
     "noticias_analizadas": 56,
     "articulos_leidos": 8,
     "fuentes": {
@@ -41,11 +42,6 @@
       "link": "https://news.bitcoin.com/bitcoin-etf/bitcoin-etfs-lose-1-44b-in-5-days-as-selling-deepens/"
     },
     {
-      "titulo": "South Korea to permit crypto withdrawal freezes during hacking threats",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/south-korea-crypto-withdrawal-freezes-suspected-hacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
       "titulo": "Bitcoin ETFs Lose $299.8M as Five-Session Outflow Streak Reaches $1.44B",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/bitcoin-news/bitcoin-etf-outflows-november-11-2026-five-sessions/"
@@ -59,17 +55,22 @@
       "titulo": "Live updates: Bitcoin slumps below $72,000 as Nvidia's Huang resigns, interest rates surge",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/tech/2026/11/12/live-news-strategy-kicked-out-of-msci-indexes-as-nvidia-slump-rattles-markets"
+    },
+    {
+      "titulo": "CFIX Secures VARA In-Principle Approval, Advancing CFI Financial Group’s Virtual Assets Strategy",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/press-releases/cfix-secures-vara-in-principle-approval-advancing-cfi-financial-groups-virtual-assets-strategy/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9454,
+    "input_tokens": 9532,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 653,
+    "output_tokens": 792,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
