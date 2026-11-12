@@ -1,24 +1,24 @@
 {
-  "modo": "cautela",
+  "modo": "normal",
   "monedas": {},
-  "resumen": "El mercado está en miedo (índice 28) con la capitalización total cayendo un 2.25% en 24 h y caídas de 7 días de entre -2% y -19% en la mayoría de monedas, tras un dato de IPC más caliente de lo esperado que provocó volatilidad en BTC. No hay eventos macro de alto impacto en las próximas 24 h ni hackeos o acciones regulatorias graves; la caída no alcanza el umbral de -7% en 24 h. Por incertidumbre elevada y salidas de ETF y stablecoins, se recomienda cautela global, sin pausa.",
+  "resumen": "El mercado está en miedo (índice 28) con la capitalización total cayendo un -2.44% en 24 h y caídas de 7 días de entre -3% y -20% según la moneda, pero sin una caída brusca de -7% ni liquidaciones masivas (las liquidaciones de BTC fueron de unos 199 M$ en el mercado). No hay eventos macro de alto impacto en las próximas 24 h. Las noticias negativas (salidas de ETF, caída de stablecoins, fallo de seguridad de Bitcoin Core ya parcheado, presión regulatoria de Warren) no son graves ni inmediatas, así que se mantiene el modo normal.",
   "motivos": [
-    "Índice Miedo/Codicia en 28 (Miedo), sostenido durante la última semana.",
-    "Capitalización total -2.25% en 24 h y caídas de 7 días de hasta -19% (XRP) y -15% (ETH).",
-    "Salidas netas de ETF de BTC (4 días seguidos) y contracción de stablecoins de 14.2 mil M$ en 30 días según Glassnode.",
-    "Dato de IPC de EE. UU. más caliente de lo esperado; sin eventos macro de alto impacto en las próximas 24 h.",
-    "La noticia de vulnerabilidad en Bitcoin Core tiene parche aplicado y no es un riesgo grave; no hay hackeo ni caída brusca del mercado que justifique pausa."
+    "Capitalización total -2.44% en 24 h, por debajo del umbral de -7% que justificaría pausa",
+    "Sin eventos económicos USD de alto impacto en las próximas 24 h",
+    "Bug de Bitcoin Core (CVE-2025-62861) ya parcheado desde octubre de 2025; no hay hackeo ni exploit activo",
+    "Salidas de ETF y contracción de stablecoins son presión de mercado, no un riesgo grave e inmediato",
+    "Miedo moderado (28), no extremo; la estrategia ya incluye stop a 3 ATR"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-12T01:05:31+00:00",
-  "valido_hasta": "2026-11-12T04:05:31+00:00",
+  "generado": "2026-11-12T02:14:46+00:00",
+  "valido_hasta": "2026-11-12T05:14:46+00:00",
   "origen": "claude:claude-haiku-5-5",
-  "multiplicador_riesgo": 0.5,
+  "multiplicador_riesgo": 1.0,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -2.25,
-    "noticias_analizadas": 35,
+    "cambio_mercado_24h": -2.44,
+    "noticias_analizadas": 31,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -51,25 +51,25 @@
       "link": "https://cointelegraph.com/markets/bitcoin-74k-stocks-us-bond-yield-inflation-cpi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "titulo": "BTC, ETH and XRP Fear Hits ‘Boiling Point’ as Rally Hopes Rise",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/btc-eth-and-xrp-fear-hits-boiling-point-as-rally-hopes-rise/"
+    },
+    {
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Bitcoin Core Discloses High-Severity Security Bug That Could Halt Mining Nodes",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/security/bitcoin-core-discloses-high-severity-security-bug-halt-mining-nodes/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8987,
+    "input_tokens": 8534,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 596,
+    "output_tokens": 557,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
