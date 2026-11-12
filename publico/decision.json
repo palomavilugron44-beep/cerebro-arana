@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza (capitalización total -5.72% en 24 h, BTC bajo 72.000 USD tras liquidaciones de unos 656 M USD) y el índice Miedo/Codicia está en 28 (miedo). Además, mañana a las 13:30 UTC se publican el PPI y el Core PPI de EE. UU., un dato macro relevante dentro de las próximas 24 h, y los ETF de BTC acumulan cinco sesiones de salidas. No hay hackeos ni acciones regulatorias graves sobre las monedas operadas, así que se recomienda cautela (mitad de tamaño) y no pausa.",
+  "resumen": "El mercado cripto cae con fuerza: capitalización total -5.98% en 24 h, miedo (índice 28) sostenido durante la última semana y liquidaciones de unos 656 M$ en derivados, con BTC por debajo de 72.000 $. Hay además salidas netas de ETFs de Bitcoin durante cinco sesiones y un dato macro de alto impacto (PPI) mañana 13 de noviembre a las 13:30 UTC, dentro de las próximas 24 h. No llega al nivel de caída de -7% ni a un riesgo de seguridad o regulatorio grave, así que se recomienda cautela (mitad de tamaño) y no pausa.",
   "motivos": [
-    "Caída de la capitalización total cripto de -5.72% en 24 h, por debajo del umbral de -7% para pausa, pero con presión vendedora clara.",
-    "Liquidaciones de derivados superiores a 650 M USD en 24 h y salidas de ETF de BTC por cinco sesiones consecutivas (1.440 M USD).",
-    "Índice Miedo/Codicia en 28 (miedo) con tendencia baja en la última semana.",
-    "PPI y Core PPI de EE. UU. programados para 2026-11-13 a las 13:30 UTC, dentro de las próximas 24 h (evento macro importante, no de muy alto impacto dentro de 2-3 h).",
-    "Sin noticias de hackeo, deslistado ni anomalía en las 10 monedas operadas; las noticias de hackeos y regulación no afectan directamente a ellas, por lo que no se justifica pausa por moneda."
+    "Capitalización total -5.98% en 24 h con liquidaciones de derivados de unos 656 M$, aún por debajo del umbral de -7% que justificaría pausa.",
+    "Miedo extremo sostenido (índice 28 durante 7 días) y volatilidad fuerte en todas las monedas de la lista.",
+    "Publicación del PPI (Core PPI y PPI m/m) el 13/11 a las 13:30 UTC, dato macro importante dentro de las próximas 24 h.",
+    "Cinco sesiones consecutivas de salidas de ETFs de Bitcoin (unos 1.44 B$), señal de demanda débil.",
+    "No se detectan exploits, halts, depegs ni acciones regulatorias graves que justifiquen pausa; las noticias de hackeos (Unocoin) son de una plataforma concreta y no afectan a las monedas operadas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-12T20:48:21+00:00",
-  "valido_hasta": "2026-11-12T23:48:21+00:00",
+  "generado": "2026-11-12T21:45:14+00:00",
+  "valido_hasta": "2026-11-13T00:45:14+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -5.72,
-    "noticias_analizadas": 58,
+    "cambio_mercado_24h": -5.98,
+    "noticias_analizadas": 60,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -51,25 +51,25 @@
       "link": "https://www.coindesk.com/markets/2026/11/12/bitcoin-dips-with-nvidia-as-etf-outflows-reach-day-five"
     },
     {
-      "titulo": "Live updates: Bitcoin slumps below $72,000 as Nvidia's Huang resigns, interest rates surge",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/tech/2026/11/12/live-news-strategy-kicked-out-of-msci-indexes-as-nvidia-slump-rattles-markets"
-    },
-    {
       "titulo": "CFIX Secures VARA In-Principle Approval, Advancing CFI Financial Group’s Virtual Assets Strategy",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/press-releases/cfix-secures-vara-in-principle-approval-advancing-cfi-financial-groups-virtual-assets-strategy/"
+    },
+    {
+      "titulo": "Jupiter adds Anchorage-backed USDGO to its $1 billion Solana lending platform",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/business/2026/11/12/jupiter-adds-anchorage-backed-usdgo-to-its-usd1-billion-solana-lending-platform"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9455,
+    "input_tokens": 9486,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 666,
+    "output_tokens": 660,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
