@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae un 4.03% en 24 h con miedo (índice 28) y salidas sostenidas de ETFs de Bitcoin (cinco días seguidos, unos 1.440 M$). No hay eventos macro de alto impacto en 24 h, pero la presión bajista y la volatilidad justifican reducir a la mitad el tamaño de las compras nuevas. No hay un hackeo, una acción regulatoria grave ni una anomalía en las monedas operadas que justifique una pausa.",
+  "resumen": "El mercado cripto está en miedo (índice 28) con la capitalización total cayendo -3.99% en 24 h y salidas sostenidas de ETFs de Bitcoin (cinco días seguidos). Las caídas son generalizadas, con XRP, ETH y SOL bajando más de 13% en 7 días, pero no hay un evento grave confirmado ni una caída de -7% que justifique pausar. Por ello se recomienda cautela general, con la mitad del tamaño en compras nuevas, sin medidas por moneda.",
   "motivos": [
-    "Capitalización total -4.03% en 24 h con índice Miedo/Codicia en 28 (miedo) y varios días en esa zona.",
-    "Cinco días consecutivos de salidas de ETFs spot de Bitcoin (unos 1.440 M$ entre el 5 y el 11 de noviembre) y caída de la demanda institucional.",
-    "Altcoins con caídas fuertes a 7 días (XRP -20.5%, ETH -15.5%, SOL -14.3%), con volatilidad elevada.",
-    "Noticias negativas relevantes pero no graves: contracción de stablecoins (-14.200 M$ en 30 días), salida de Strategy del índice MSCI, incidentes de seguridad en exchanges ya conocidos (Binance, con brecha de 6.300 M$ previa).",
-    "Sin evento macro de alto impacto en 24 h y sin anomalía de precio, halt o depeg en las monedas operadas; no se justifica pausa."
+    "Índice Miedo/Codicia en 28 (miedo) sostenido durante 7 días, con volatilidad y presión bajista generalizada.",
+    "Capitalización total -3.99% en 24 h; ninguna moneda de la lista sube en las últimas 24 h y varias superan -13% en 7 días.",
+    "Salidas netas de ETFs spot de Bitcoin durante cinco días consecutivos (1.44 mil millones de dólares) y reducción de stablecoins en 30 días.",
+    "Noticias de seguridad (Binance, hackeos en exchanges surcoreanos) y ruido por Nvidia son relevantes pero no constituyen un riesgo grave e inmediato sobre estas monedas.",
+    "No hay eventos macro de alto impacto USD en las próximas 24 h, por lo que no se activa pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-12T11:55:38+00:00",
-  "valido_hasta": "2026-11-12T14:55:38+00:00",
+  "generado": "2026-11-12T13:04:46+00:00",
+  "valido_hasta": "2026-11-12T16:04:46+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -4.03,
-    "noticias_analizadas": 31,
+    "cambio_mercado_24h": -3.99,
+    "noticias_analizadas": 34,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8360,
+    "input_tokens": 8656,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 635,
+    "output_tokens": 595,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
