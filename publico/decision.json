@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza (capitalización -4.57% en 24 h) y el índice Miedo/Codicia está en 28 (miedo), con salidas de ETF de Bitcoin durante cinco sesiones seguidas por unos 1.440 M$. Hay un evento macro de impacto alto (PPI y Core PPI el 13/11 a las 13:30 UTC) dentro de las próximas 24 h, por lo que conviene reducir el tamaño de las compras nuevas. No veo un riesgo grave e inmediato como hackeo de red, caída de más del 7% ni decisión regulatoria fuerte, así que no justifica pausa.",
+  "resumen": "El mercado cripto cae con fuerza (capitalización total -5.09% en 24 h) y el índice Miedo/Codicia está en 28 (miedo), con salidas continuadas de ETFs de bitcoin y liquidaciones de unos 656 M$ en 24 h. Hay además un evento macro relevante en menos de 24 h (PPI de EE. UU. el 13 de noviembre a las 13:30 UTC), por lo que conviene reducir el tamaño de las compras nuevas. No hay hackeo, regulación grave ni anomalía de moneda que justifique una pausa, así que se aplica cautela global.",
   "motivos": [
-    "Miedo en el mercado (índice 28) y caída de la capitalización total de -4.57% en 24 h.",
-    "Cinco días consecutivos de salidas de ETF de Bitcoin (unos 1.440 M$) y salidas también en ETF de Ether.",
-    "Publicación de PPI y Core PPI (datos macro de impacto alto) el 13/11 a las 13:30 UTC, dentro de las próximas 24 h.",
-    "Ninguna moneda muestra situación anómala (halt, depeg o delist) ni hay hackeo o problema de seguridad de la red que afecte a las monedas operadas.",
-    "Las noticias de hackeos y regulación son de carácter general y no graves para las monedas operadas, por lo que no se pausa."
+    "Capitalización total cripto -5.09% en 24 h con BTC por debajo de 72.000 USD y liquidaciones de unos 656 M$.",
+    "Índice Miedo/Codicia en 28 (miedo), en la zona de miedo durante toda la última semana.",
+    "Salidas de ETFs de bitcoin de 1.44 mil millones USD en 5 sesiones y 2 mil millones en 9 sesiones para IBIT.",
+    "Eventos PPI de EE. UU. (Core PPI y PPI) el 13 de noviembre a las 13:30 UTC, dentro de las próximas 24 h.",
+    "Ninguna señal de hackeo grave, acción regulatoria fuerte o anomalía en las monedas operadas; no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-12T14:20:05+00:00",
-  "valido_hasta": "2026-11-12T17:20:05+00:00",
+  "generado": "2026-11-12T15:59:12+00:00",
+  "valido_hasta": "2026-11-12T18:59:12+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -4.57,
-    "noticias_analizadas": 45,
+    "cambio_mercado_24h": -5.09,
+    "noticias_analizadas": 53,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -30,6 +30,11 @@
     "eventos_usd_24h": 2
   },
   "titulares": [
+    {
+      "titulo": "Bitcoin Price Breaks Below $72K as $656M Liquidation Bloodbath Hits Crypto",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-breaks-below-72k-656m-liquidation-bloodbath/"
+    },
     {
       "titulo": "Bitcoin ETFs Lose $1.44B in 5 Days as Selling Deepens",
       "fuente": "Bitcoin.com",
@@ -51,25 +56,20 @@
       "link": "https://www.coindesk.com/markets/2026/11/12/bitcoin-dips-with-nvidia-as-etf-outflows-reach-day-five"
     },
     {
-      "titulo": "Bitcoin ETFs Bleed $1.4B in Five Days as Investors Cut Risk",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/383122/bitcoin-etfs-bleed-1-4b-in-five-days-as-investors-cut-risk"
-    },
-    {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "titulo": "Live updates: Bitcoin slumps below $72,000 as Nvidia's Huang resigns, interest rates surge",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/tech/2026/11/12/live-news-strategy-kicked-out-of-msci-indexes-as-nvidia-slump-rattles-markets"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9320,
+    "input_tokens": 9457,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 611,
+    "output_tokens": 606,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
