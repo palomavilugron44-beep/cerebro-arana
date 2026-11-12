@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza: capitalización total -5.98% en 24 h, miedo (índice 28) sostenido durante la última semana y liquidaciones de unos 656 M$ en derivados, con BTC por debajo de 72.000 $. Hay además salidas netas de ETFs de Bitcoin durante cinco sesiones y un dato macro de alto impacto (PPI) mañana 13 de noviembre a las 13:30 UTC, dentro de las próximas 24 h. No llega al nivel de caída de -7% ni a un riesgo de seguridad o regulatorio grave, así que se recomienda cautela (mitad de tamaño) y no pausa.",
+  "resumen": "El mercado cripto cae con fuerza (capitalización total -5.69% en 24 h) y el índice Miedo/Codicia está en 28 (miedo), con cinco sesiones seguidas de salidas de ETFs de Bitcoin por unos 1.440 M$. Además, el martes 13 de noviembre a las 13:30 UTC (dentro de 24 h) se publican el PPI y el Core PPI de EE. UU., un dato macro de impacto relevante. No hay un hackeo, halt ni medida regulatoria grave que justifique una pausa, así que se recomienda cautela (mitad de tamaño) en lugar de pausa.",
   "motivos": [
-    "Capitalización total -5.98% en 24 h con liquidaciones de derivados de unos 656 M$, aún por debajo del umbral de -7% que justificaría pausa.",
-    "Miedo extremo sostenido (índice 28 durante 7 días) y volatilidad fuerte en todas las monedas de la lista.",
-    "Publicación del PPI (Core PPI y PPI m/m) el 13/11 a las 13:30 UTC, dato macro importante dentro de las próximas 24 h.",
-    "Cinco sesiones consecutivas de salidas de ETFs de Bitcoin (unos 1.44 B$), señal de demanda débil.",
-    "No se detectan exploits, halts, depegs ni acciones regulatorias graves que justifiquen pausa; las noticias de hackeos (Unocoin) son de una plataforma concreta y no afectan a las monedas operadas."
+    "Caída de la capitalización total de -5.69% en 24 h con Bitcoin en mínimos desde agosto (~71.400 USD).",
+    "Índice Miedo/Codicia en 28 (miedo) y sostenido en miedo los últimos 7 días.",
+    "Cinco sesiones consecutivas de salidas de ETFs spot de Bitcoin (~1.440 M$), señal de demanda débil.",
+    "Publicación de PPI y Core PPI de EE. UU. el 13/11 a las 13:30 UTC, dentro de las próximas 24 h.",
+    "El hackeo de Binance (6.300 M$) es un hecho antiguo ya conocido y no hay un nuevo incidente grave; las noticias regulatorias recientes no son graves ni inmediatas.",
+    "Los datos del mercado son consistentes con ruido y volatilidad, no con una situación anómala de una moneda concreta (sin halts ni depegs)."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-12T21:45:14+00:00",
-  "valido_hasta": "2026-11-13T00:45:14+00:00",
+  "generado": "2026-11-12T22:44:49+00:00",
+  "valido_hasta": "2026-11-13T01:44:49+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 28,
-    "cambio_mercado_24h": -5.98,
-    "noticias_analizadas": 60,
+    "cambio_mercado_24h": -5.69,
+    "noticias_analizadas": 62,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -30,11 +31,6 @@
     "eventos_usd_24h": 2
   },
   "titulares": [
-    {
-      "titulo": "Bitcoin Price Breaks Below $72K as $656M Liquidation Bloodbath Hits Crypto",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-breaks-below-72k-656m-liquidation-bloodbath/"
-    },
     {
       "titulo": "‘Shadow Stocks’: Wall Street Watchdog Fights Massive CFTC Stock Perps Push",
       "fuente": "Bitcoin.com",
@@ -51,25 +47,30 @@
       "link": "https://www.coindesk.com/markets/2026/11/12/bitcoin-dips-with-nvidia-as-etf-outflows-reach-day-five"
     },
     {
-      "titulo": "CFIX Secures VARA In-Principle Approval, Advancing CFI Financial Group’s Virtual Assets Strategy",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/press-releases/cfix-secures-vara-in-principle-approval-advancing-cfi-financial-groups-virtual-assets-strategy/"
+      "titulo": "NK hackers join memecoin trenches, xStocks adds Hong Kong equities: Asia Express",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/magazine/nk-hackers-join-memecoin-trenches-xstocks-adds-hong-kong-equities-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "titulo": "Jupiter adds Anchorage-backed USDGO to its $1 billion Solana lending platform",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/business/2026/11/12/jupiter-adds-anchorage-backed-usdgo-to-its-usd1-billion-solana-lending-platform"
+      "titulo": "Here’s what happened in crypto today",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Russia Sets November 22 Start for Exchange Crypto Trading, Subject to Approval",
+      "fuente": "NewsBTC",
+      "link": "https://www.newsbtc.com/regulation/russia-exchange-crypto-trading-november-22-rules/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9486,
+    "input_tokens": 9700,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 660,
+    "output_tokens": 671,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
