@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza: la capitalización total baja un 7.66% en 24 h, BTC cae por debajo de 70.000 USD y el índice Miedo/Codicia está en 20 (miedo extremo), con liquidaciones en futuros. Además, hay dos datos del PPI de EE. UU. (Core PPI y PPI) previstos para las 13:30 UTC, dentro de las próximas 24 h. No hay señales de hackeo o problema de seguridad que afecte a una moneda concreta, aunque el hackeo de Binance y la acción del DOJ son noticias negativas relevantes pero no graves; por ello se elige cautela general, sin pausa.",
+  "resumen": "El mercado cripto cae con fuerza (capitalización total -8.24% en 24 h, BTC bajo 70.000 USD y ETH bajo 2.000 USD) con miedo extremo (índice 20) y liquidaciones en futuros. Hay publicación de PPI de EE. UU. (Core PPI y PPI) a las 13:30 UTC, dentro de las próximas 24 h pero no en las próximas 2-3 horas, lo que justifica prudencia y no pausa. No hay indicios de hackeo ni anomalía en las monedas operadas, así que se aplica cautela global con el tamaño reducido a la mitad.",
   "motivos": [
-    "Caída de la capitalización total del -7.66% en 24 h con liquidaciones en futuros, cerca del umbral de pausa pero sin llegar a -7% con noticias de liquidaciones masivas de forma sostenida.",
-    "Índice Miedo/Codicia en 20 (Extreme Fear), con tendencia a la baja desde 32 hace una semana.",
-    "Datos de PPI de EE. UU. a las 13:30 UTC dentro de las próximas 24 h: evento macro importante, pero no de muy alto impacto como FOMC o IPC dentro de 2-3 horas.",
-    "Noticias negativas relevantes no graves: el dólar en máximos de 19 meses, el hackeo de Binance de 6.3 mil millones y la acción del DOJ, sin afectar de forma directa a las monedas operadas.",
-    "Todas las monedas de la lista caen entre -2.75% y -6.42% en 24 h, así que el riesgo es general y no de una moneda concreta; no se ven situaciones anómalas (halt, depeg, delist)."
+    "Capitalización total cripto -8.24% en 24 h con liquidaciones en futuros: volatilidad fuerte, aunque sin noticias de caída sistémica por un evento de riesgo grave.",
+    "Índice Miedo/Codicia en 20 (Extreme Fear), con tendencia a la baja en los últimos 7 días.",
+    "Evento macro relevante (PPI EE. UU.) a las 13:30 UTC, dentro de las próximas 24 h; no está en la ventana de 2-3 horas que exigiría pausa.",
+    "Noticias sobre el hackeo de Binance y la acción del DOJ son negativas pero no implican riesgo inmediato para la operativa del bot ni para las monedas listadas.",
+    "No hay anomalías (halt, depeg, delist) en ninguna de las 10 monedas; todas caen en línea con el mercado, sin caída diferencial que justifique restricción por moneda."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-13T03:52:33+00:00",
-  "valido_hasta": "2026-11-13T06:52:33+00:00",
+  "generado": "2026-11-13T04:57:12+00:00",
+  "valido_hasta": "2026-11-13T07:57:12+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 20,
-    "cambio_mercado_24h": -7.66,
-    "noticias_analizadas": 46,
+    "cambio_mercado_24h": -8.24,
+    "noticias_analizadas": 42,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9634,
+    "input_tokens": 9604,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 726,
+    "output_tokens": 663,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
