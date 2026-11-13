@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae un 6.88% en 24 h con miedo extremo (índice 20) y BTC perdiendo el soporte de la EMA200 semanal (200 semanas) en torno a 68.000 USD, con más de 1.000 M$ en liquidaciones. Hay un dato macro de impacto alto (PPI) previsto para las 13:30 UTC, dentro de las próximas 3 horas, lo que añade incertidumbre. No hay hackeo ni medida regulatoria grave contra las monedas operadas, así que no justifica pausa, pero sí reducir el tamaño de las compras nuevas a la mitad.",
+  "resumen": "El mercado cripto está en miedo extremo (índice 20) tras una caída de la capitalización total del -6.65% en 24 h, con BTC perdiendo el soporte de 70.000 USD y liquidaciones superiores a 1.600 M USD. Hay además datos de PPI de EE. UU. a las 13:30 UTC (dentro de las próximas 2 horas), lo que aumenta la volatilidad a corto plazo. No se observa una amenaza de seguridad, exploit ni acción regulatoria grave contra las monedas operadas, así que se recomienda cautela (mitad de tamaño) y no pausa.",
   "motivos": [
-    "Caída de capitalización total de -6.88% en 24 h con liquidaciones de más de 1.000 M$.",
-    "Índice Miedo/Codicia en 20 (miedo extremo), en mínimos de más de cuatro meses.",
-    "Publicación de PPI (Core PPI y PPI) a las 13:30 UTC, dato macro de impacto alto dentro de las próximas 3 horas.",
-    "BTC cae por debajo de la media de 200 semanas y salidas netas de ETF de Bitcoin por más de 1.500 M$ en el año.",
-    "Noticias de Unocoin (exchange de la India) y Trezor no afectan directamente a las monedas operadas; no se justifica una pausa."
+    "Índice Miedo/Codicia en 20 (Extreme Fear), el nivel más bajo en más de cuatro meses.",
+    "Capitalización total -6.65% en 24 h con liquidaciones de más de 1.600 M USD y BTC por debajo de 70.000 USD.",
+    "Publicación de PPI (Core PPI y PPI m/m) de EE. UU. a las 13:30 UTC, dato macro importante dentro de las próximas horas.",
+    "Salidas netas de ETF de Bitcoin de más de 1.500 M USD en el año y tendencia de demanda debilitada.",
+    "No hay riesgo grave de seguridad, exploit o regulatorio que justifique pausa; las noticias de incidentes (Unocoin, Chainstack, Binance/DOJ) no afectan directamente a las monedas operadas.",
+    "Ninguna moneda muestra anomalía (halt, depeg o delist), por lo que no se aplican restricciones específicas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-13T10:57:36+00:00",
-  "valido_hasta": "2026-11-13T13:57:36+00:00",
+  "generado": "2026-11-13T11:53:42+00:00",
+  "valido_hasta": "2026-11-13T14:53:42+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 20,
-    "cambio_mercado_24h": -6.88,
-    "noticias_analizadas": 35,
+    "cambio_mercado_24h": -6.65,
+    "noticias_analizadas": 36,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -41,6 +42,16 @@
       "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-dips-below-usd70-000-as-selloff-gathers-pace"
     },
     {
+      "titulo": "Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-hits-12-week-low-as-dollar-rallies-on-interest-rate-outlook-liquidations-top-usd1-6-billion"
+    },
+    {
+      "titulo": "Louisiana Judge Orders Kalshi, Polymarket to Halt Event Contracts",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/igaming/louisiana-judge-orders-kalshi-polymarket-to-halt-event-contracts/"
+    },
+    {
       "titulo": "Unocoin keeps deposits and withdrawals halted over suspect transfers",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/unocoin-withdrawals-halted-bitgo-wallet-transfer-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -49,27 +60,17 @@
       "titulo": "Jane Street boosts Fidelity Bitcoin ETF holdings nearly 8x, trims IBIT",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/jane-street-add-fidelity-bitcoin-etf-ibit-cut-q3-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Bitcoin ETFs are now down over $1.5 billion in net outflows for the year",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-etfs-are-now-down-over-usd1-5-billion-in-net-outflows-for-the-year"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8847,
+    "input_tokens": 9039,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 588,
+    "output_tokens": 673,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
