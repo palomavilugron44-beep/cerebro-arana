@@ -1,23 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 20) tras una caída de la capitalización total del -5.86% en 24 h, con BTC cerca de 68.600 USD, en mínimos de unos tres meses y con liquidaciones superiores a 1.600 M USD. Hay presión por salidas de ETF y subida de expectativas de tasas de la Fed, pero no hay evento macro de alto impacto en las próximas 24 h ni una noticia de seguridad o regulatoria grave sobre las monedas operadas. Por ello se recomienda cautela general (mitad de tamaño en compras nuevas) en lugar de pausa.",
+  "resumen": "El mercado cripto está en miedo extremo (índice 20) tras una caída de la capitalización total del -5.57% en 24 h, con BTC en mínimos de 12 semanas (~68.9k USD) y liquidaciones superiores a 1.6 mil millones. El sesgo macro es hawkish (expectativas de subida de tasas, salidas de ETF), pero no hay evento de alto impacto en las próximas 24 h ni un riesgo grave de seguridad o regulatorio que afecte directamente a las monedas operadas. Por ello se recomienda cautela general (mitad de tamaño en nuevas compras) y no una pausa total.",
   "motivos": [
-    "Miedo extremo (índice 20) y caída de la capitalización total de -5.86% en 24 h con liquidaciones de unos 1.600 M USD.",
-    "BTC en mínimos de unos tres meses (~68.600 USD) y ETH, BNB y SOL cayendo más de 2% en 24 h, con ETH -13% en 7 días.",
-    "Salidas netas de ETF de bitcoin (más de 1.500 M USD en el año, seis días consecutivos de salidas) y expectativas de subida de tipos por la Fed.",
-    "Sin eventos macro de alto impacto USD en las próximas 24 h, y las noticias de seguridad (Unocoin, Chainstack, Safepal) afectan a empresas concretas, no a las monedas operadas.",
-    "El IPC más caliente de lo esperado ya se publicó; el PPI más reciente salió por debajo de lo esperado, lo que no justifica una pausa."
+    "Miedo extremo (índice 20) con tendencia a la baja en la última semana y capitalización total -5.57% en 24 h.",
+    "BTC en mínimos de 12 semanas, con liquidaciones de más de 1.6 mil millones USD y presión macro por expectativas de subida de tasas.",
+    "Sin eventos macro USD de alto impacto en 24 h; el dato de PPI ya se publicó y reaccionó tibiamente.",
+    "No hay hackeo ni acción regulatoria grave contra las monedas operadas; las incidencias (Unocoin, SafePal, Chainstack) no afectan directamente a los pares del bot.",
+    "Los precios de las 10 monedas están en rango normal sin halts, depegs ni deslistados."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-13T16:52:33+00:00",
-  "valido_hasta": "2026-11-13T19:52:33+00:00",
+  "generado": "2026-11-13T17:49:27+00:00",
+  "valido_hasta": "2026-11-13T20:49:27+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 20,
-    "cambio_mercado_24h": -5.86,
+    "cambio_mercado_24h": -5.57,
     "noticias_analizadas": 43,
     "articulos_leidos": 8,
     "fuentes": {
@@ -30,6 +30,11 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
+    {
+      "titulo": "Bitcoin Hits 12-Week Low as Fed Rate Fears Undo Most of Summer Rally",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/383231/bitcoin-hits-12-week-low-fed-rate-fears-undo-summer-rally"
+    },
     {
       "titulo": "Bitcoin Price Crashes Below $68K as Crypto Liquidations Hit $1.6B",
       "fuente": "Bitcoin.com",
@@ -54,22 +59,17 @@
       "titulo": "Louisiana Judge Orders Kalshi, Polymarket to Halt Event Contracts",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/igaming/louisiana-judge-orders-kalshi-polymarket-to-halt-event-contracts/"
-    },
-    {
-      "titulo": "JPMorgan Boosts Blackrock Bitcoin ETF, Strategy, Coinbase Exposure",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/finance/jpmorgan-boosts-blackrock-bitcoin-etf-strategy-coinbase-exposure/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9575,
+    "input_tokens": 9613,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 662,
+    "output_tokens": 605,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
