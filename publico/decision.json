@@ -1,23 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza (capitalización total -8.24% en 24 h, BTC bajo 70.000 USD y ETH bajo 2.000 USD) con miedo extremo (índice 20) y liquidaciones en futuros. Hay publicación de PPI de EE. UU. (Core PPI y PPI) a las 13:30 UTC, dentro de las próximas 24 h pero no en las próximas 2-3 horas, lo que justifica prudencia y no pausa. No hay indicios de hackeo ni anomalía en las monedas operadas, así que se aplica cautela global con el tamaño reducido a la mitad.",
+  "resumen": "El mercado cripto cae con fuerza: la capitalización total baja -8.09% en 24 h, BTC perdió por debajo de 70.000 USD y el índice Miedo/Codicia está en 20 (miedo extremo), con salidas de ETFs de BTC de más de 1.500 M USD en el año. Hay además datos PPI de alto impacto en las próximas horas (13:30 UTC), que no alcanzan el nivel de IPC/FOMC pero sí justifican prudencia. No hay hackeo que afecte directamente a las monedas operadas ni una situación anómala de una moneda concreta, así que se recomienda cautela general y no pausa.",
   "motivos": [
-    "Capitalización total cripto -8.24% en 24 h con liquidaciones en futuros: volatilidad fuerte, aunque sin noticias de caída sistémica por un evento de riesgo grave.",
-    "Índice Miedo/Codicia en 20 (Extreme Fear), con tendencia a la baja en los últimos 7 días.",
-    "Evento macro relevante (PPI EE. UU.) a las 13:30 UTC, dentro de las próximas 24 h; no está en la ventana de 2-3 horas que exigiría pausa.",
-    "Noticias sobre el hackeo de Binance y la acción del DOJ son negativas pero no implican riesgo inmediato para la operativa del bot ni para las monedas listadas.",
-    "No hay anomalías (halt, depeg, delist) en ninguna de las 10 monedas; todas caen en línea con el mercado, sin caída diferencial que justifique restricción por moneda."
+    "Caída brusca del mercado: capitalización total -8.09% en 24 h, con liquidaciones en futuros y BTC bajo 70.000 USD (mínimo desde agosto).",
+    "Miedo extremo (índice 20) con tendencia a la baja en la última semana.",
+    "Salidas netas de más de 1.500 M USD en ETFs de BTC en el año y presión vendedora generalizada en las 10 monedas.",
+    "Datos PPI (Core PPI y PPI m/m) a las 13:30 UTC, evento macro importante dentro de las próximas 24 h, aunque no de impacto máximo como IPC/FOMC.",
+    "El hackeo de Binance y la acción del DOJ son noticias negativas relevantes pero no afectan directamente a la operativa de estas monedas; no justifican pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-13T04:57:12+00:00",
-  "valido_hasta": "2026-11-13T07:57:12+00:00",
+  "generado": "2026-11-13T05:58:15+00:00",
+  "valido_hasta": "2026-11-13T08:58:15+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 20,
-    "cambio_mercado_24h": -8.24,
+    "cambio_mercado_24h": -8.09,
     "noticias_analizadas": 42,
     "articulos_leidos": 8,
     "fuentes": {
@@ -46,6 +46,11 @@
       "link": "https://news.bitcoin.com/regulation-and-legal/shadow-stocks-wall-street-watchdog-fights-cftc-stock-perpetuals-push/"
     },
     {
+      "titulo": "Bitcoin ETFs are now down over $1.5 billion in net outflows for the year",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-etfs-are-now-down-over-usd1-5-billion-in-net-outflows-for-the-year"
+    },
+    {
       "titulo": "Brazil Regulator Warns That 30% of Crypto Exchanges Fail New Capital Rules",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/regulation-and-legal/brazil-regulator-warns-30-percent-crypto-exchanges-fail-new-capital-rules/"
@@ -54,22 +59,17 @@
       "titulo": "NK hackers join memecoin trenches, xStocks adds Hong Kong equities: Asia Express",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/magazine/nk-hackers-join-memecoin-trenches-xstocks-adds-hong-kong-equities-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9604,
+    "input_tokens": 9485,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 663,
+    "output_tokens": 633,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
