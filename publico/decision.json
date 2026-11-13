@@ -1,23 +1,22 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto está en miedo extremo (índice 20) tras una caída de la capitalización total del -5.57% en 24 h, con BTC en mínimos de 12 semanas (~68.9k USD) y liquidaciones superiores a 1.6 mil millones. El sesgo macro es hawkish (expectativas de subida de tasas, salidas de ETF), pero no hay evento de alto impacto en las próximas 24 h ni un riesgo grave de seguridad o regulatorio que afecte directamente a las monedas operadas. Por ello se recomienda cautela general (mitad de tamaño en nuevas compras) y no una pausa total.",
+  "resumen": "El mercado cripto cae con fuerza: capitalización total -5.78% en 24 h, BTC en mínimos de 12 semanas (~68.8k USD) y el miedo/codicia en 20 (Extreme Fear), con liquidaciones de más de 1.6 mil millones de dólares. El motor es la expectativa de nuevas subidas de tipos de la Fed, tras un dato de PPI algo más suave, pero no hay evento macro de alto impacto en las próximas 24 h ni un riesgo grave e inmediato. Dado el miedo extremo y la volatilidad, se recomienda cautela (mitad de tamaño) sin pausar y sin alertar sobre posiciones.",
   "motivos": [
-    "Miedo extremo (índice 20) con tendencia a la baja en la última semana y capitalización total -5.57% en 24 h.",
-    "BTC en mínimos de 12 semanas, con liquidaciones de más de 1.6 mil millones USD y presión macro por expectativas de subida de tasas.",
-    "Sin eventos macro USD de alto impacto en 24 h; el dato de PPI ya se publicó y reaccionó tibiamente.",
-    "No hay hackeo ni acción regulatoria grave contra las monedas operadas; las incidencias (Unocoin, SafePal, Chainstack) no afectan directamente a los pares del bot.",
-    "Los precios de las 10 monedas están en rango normal sin halts, depegs ni deslistados."
+    "Miedo extremo (índice 20) con capitalización total -5.78% en 24 h y BTC en mínimos de 12 semanas.",
+    "Liquidaciones superiores a 1.6 mil millones de dólares y expectativas de nueva subida de tipos de la Fed que presionan los activos de riesgo.",
+    "No hay eventos macro de alto impacto USD en las próximas 24 h, y no se detectan hackeos ni problemas regulatorios graves contra las monedas operadas; el caso de Binance (incautación DOJ) no es una amenaza inmediata para las posiciones.",
+    "Ninguna moneda muestra una situación anómala (halt, depeg o delist) que justifique un trato específico."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-13T17:49:27+00:00",
-  "valido_hasta": "2026-11-13T20:49:27+00:00",
+  "generado": "2026-11-13T18:50:23+00:00",
+  "valido_hasta": "2026-11-13T21:50:23+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 20,
-    "cambio_mercado_24h": -5.57,
+    "cambio_mercado_24h": -5.78,
     "noticias_analizadas": 43,
     "articulos_leidos": 8,
     "fuentes": {
@@ -36,9 +35,9 @@
       "link": "https://decrypt.co/383231/bitcoin-hits-12-week-low-fed-rate-fears-undo-summer-rally"
     },
     {
-      "titulo": "Bitcoin Price Crashes Below $68K as Crypto Liquidations Hit $1.6B",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-crashes-below-68k-as-crypto-liquidations-hit-1-6b/"
+      "titulo": "Fed Chair Warsh Wants Answers on AI Inflation—and Bitcoin May Feel the Impact",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/383259/fed-chair-warsh-wants-answers-ai-inflation-bitcoin"
     },
     {
       "titulo": "Live updates: Bitcoin plunges back towards bear market lows, wiping out late summer rally",
@@ -62,14 +61,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9613,
+    "input_tokens": 9635,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 605,
+    "output_tokens": 608,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
