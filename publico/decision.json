@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza (capitalización total -6.11% en 24 h) y el índice Miedo/Codicia está en 20 (miedo extremo), con BTC en mínimos de 12 semanas (~68.100 USD) por expectativas de subidas de tipos de la Fed y salidas de ETF. No hay un evento macro de alto impacto en las próximas 24 h ni un riesgo de seguridad, regulatorio o de anomalía de moneda que justifique pausar, por lo que se recomienda cautela general (mitad de tamaño) en lugar de pausa. Las noticias sobre Unocoin, Chainstack o Kalshi son ajenas a las monedas operadas y no alteran la decisión.",
+  "resumen": "El mercado cripto cae con fuerza: capitalización total -6.13% en 24 h, BTC en mínimos de 12 semanas (~68.000 USD) y miedo extremo (índice 20), con liquidaciones de más de 1.600 M USD. Hay presión por expectativas de subida de tipos de la Fed y flujos de salida de ETFs, sin eventos macro de alto impacto en las próximas 24 h. No hay hackeos, depegs ni acciones regulatorias graves contra las monedas operadas, por lo que se recomienda cautela general (mitad de tamaño) en lugar de pausa.",
   "motivos": [
-    "Miedo extremo (índice 20) con caída de la capitalización total de -6.11% en 24 h y liquidaciones superiores a 1.600 M USD.",
-    "BTC en mínimos de 12 semanas por expectativas de nuevas subidas de tipos y salidas de ETF; todas las monedas operadas caen entre -1.9% y -4.8% en 24 h y entre -0.2% y -13.8% en 7 días.",
-    "Volatilidad elevada, pero sin evento macro de alto impacto en 24 h (la PPI ya se publicó), sin exploit ni anomalía en las monedas operadas y sin acción regulatoria grave contra ellas, por lo que no procede pausa.",
-    "Sin motivo específico para restringir una moneda concreta; el stop de 3 ATR de la estrategia sigue protegiendo las operaciones."
+    "Caída de capitalización total -6.13% en 24 h con liquidaciones superiores a 1.600 M USD: riesgo de mercado elevado.",
+    "Índice Miedo/Codicia en 20 (Extreme Fear), con tendencia a la baja en la última semana.",
+    "Presión macro por expectativas de subida de tipos de la Fed y salidas de ETFs de BTC; no hay dato macro de alto impacto en las próximas 24 h.",
+    "Todas las monedas operadas caen entre -1.5% y -4.4% en 24 h y entre -0.7% y -13.6% en 7 d; no hay anomalías específicas (halt, depeg, delist) ni incidentes de seguridad reportados.",
+    "Noticias negativas relevantes pero no graves (regulatorias sin acción directa sobre las monedas), por lo que no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-13T21:46:33+00:00",
-  "valido_hasta": "2026-11-14T00:46:33+00:00",
+  "generado": "2026-11-13T22:42:33+00:00",
+  "valido_hasta": "2026-11-14T01:42:33+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 20,
-    "cambio_mercado_24h": -6.11,
-    "noticias_analizadas": 41,
+    "cambio_mercado_24h": -6.13,
+    "noticias_analizadas": 42,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -61,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9578,
+    "input_tokens": 9620,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 669,
+    "output_tokens": 635,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
