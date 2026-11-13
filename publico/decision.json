@@ -1,28 +1,29 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza: capitalización total -5.78% en 24 h, BTC en mínimos de 12 semanas (~68.8k USD) y el miedo/codicia en 20 (Extreme Fear), con liquidaciones de más de 1.6 mil millones de dólares. El motor es la expectativa de nuevas subidas de tipos de la Fed, tras un dato de PPI algo más suave, pero no hay evento macro de alto impacto en las próximas 24 h ni un riesgo grave e inmediato. Dado el miedo extremo y la volatilidad, se recomienda cautela (mitad de tamaño) sin pausar y sin alertar sobre posiciones.",
+  "resumen": "El mercado cripto cae con fuerza (capitalización total -5.49% en 24 h) con miedo extremo (índice 20) y liquidaciones por encima de 1.600 millones de dólares, con BTC en mínimos de 12 semanas cerca de 68.800 USD. El motivo principal es el temor a nuevas subidas de tipos de la Fed y la salida de capital de ETF, sin eventos macro de alto impacto en las próximas 24 h. No hay señales de hackeo, depeg, halt o acción regulatoria grave contra una moneda concreta (los incidentes de Unocoin y Binance son ajenos a las monedas operadas), así que se recomienda cautela general, no pausa.",
   "motivos": [
-    "Miedo extremo (índice 20) con capitalización total -5.78% en 24 h y BTC en mínimos de 12 semanas.",
-    "Liquidaciones superiores a 1.6 mil millones de dólares y expectativas de nueva subida de tipos de la Fed que presionan los activos de riesgo.",
-    "No hay eventos macro de alto impacto USD en las próximas 24 h, y no se detectan hackeos ni problemas regulatorios graves contra las monedas operadas; el caso de Binance (incautación DOJ) no es una amenaza inmediata para las posiciones.",
-    "Ninguna moneda muestra una situación anómala (halt, depeg o delist) que justifique un trato específico."
+    "Capitalización total -5.49% en 24 h y miedo extremo (índice 20), con liquidaciones superiores a 1.600 M USD.",
+    "BTC en mínimos de 12 semanas (~68.800 USD) y ETH, SOL y BNB con caídas de 2-3% en 24 h y de 8-13% en 7 días.",
+    "Expectativas de nueva subida de tipos de la Fed y reforzamiento del dólar; no hay dato macro de alto impacto en las próximas 24 h.",
+    "No hay riesgo grave e inmediato concreto (hackeo, depeg, halt o delist) en las monedas operadas; el mercado no justifica pausa.",
+    "AVAX muestra leve subida 24 h y no presenta anomalías, por lo que no requiere modo más prudente."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-13T18:50:23+00:00",
-  "valido_hasta": "2026-11-13T21:50:23+00:00",
+  "generado": "2026-11-13T19:52:49+00:00",
+  "valido_hasta": "2026-11-13T22:52:49+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 20,
-    "cambio_mercado_24h": -5.78,
+    "cambio_mercado_24h": -5.49,
     "noticias_analizadas": 43,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
-      "Decrypt": 38,
+      "Decrypt": 39,
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
@@ -40,9 +41,9 @@
       "link": "https://decrypt.co/383259/fed-chair-warsh-wants-answers-ai-inflation-bitcoin"
     },
     {
-      "titulo": "Live updates: Bitcoin plunges back towards bear market lows, wiping out late summer rally",
+      "titulo": "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
       "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/tech/2026/11/13/live-news-bitcoin-drops-below-200-week-moving-average-as-dollar-strength-pressures-risk-assets"
+      "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-slides-to-usd68k-as-nvidia-turmoil-anthropic-ipo-fuel-broader-market-sell-off"
     },
     {
       "titulo": "Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms",
@@ -55,20 +56,20 @@
       "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-hits-12-week-low-as-dollar-rallies-on-interest-rate-outlook-liquidations-top-usd1-6-billion"
     },
     {
-      "titulo": "Louisiana Judge Orders Kalshi, Polymarket to Halt Event Contracts",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/igaming/louisiana-judge-orders-kalshi-polymarket-to-halt-event-contracts/"
+      "titulo": "Trump’s First Democratic Picks for SEC and CFTC Could Reshape Crypto’s Regulators",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/383260/trump-first-democratic-picks-sec-cftc-could-reshape-crypto"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9635,
+    "input_tokens": 9681,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 608,
+    "output_tokens": 642,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
