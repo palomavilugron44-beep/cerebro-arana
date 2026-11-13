@@ -1,25 +1,23 @@
 {
-  "modo": "cautela",
+  "modo": "pausa",
   "monedas": {},
-  "resumen": "El mercado cripto cae un 6.48% en 24 h con BTC por debajo de 69.000 USD y ETH por debajo de 2.000 USD, y el índice Miedo/Codicia está en 20 (miedo extremo). Las noticias señalan salidas de ETF, liquidez fina y liquidaciones de más de 1.000 M USD, pero no hay un hackeo, una acción regulatoria o una anomalía de moneda que justifique una pausa. Se recomienda cautela (la mitad del tamaño en compras nuevas) mientras dure la volatilidad.",
+  "resumen": "La capitalización total cripto cae un 7.28% en 24 h con miedo extremo (índice 20) y liquidaciones superiores a $1.6B, y BTC ha perdido el nivel de 68-70K y la EMA de 200 semanas. Además, hay datos PPI de alto impacto (Core PPI y PPI m/m) a las 13:30 UTC, dentro de las próximas 2-3 horas. Dada la caída brusca del mercado en curso con noticias de liquidaciones y el dato macro inminente, conviene pausar las compras nuevas de forma general.",
   "motivos": [
-    "Caída de la capitalización total del -6.48% en 24 h, cerca del umbral de -7% que justificaría pausa, con liquidaciones de más de 1.000 M USD.",
-    "Índice Miedo/Codicia en 20 (miedo extremo), el nivel más bajo en más de cuatro meses.",
-    "Salidas netas de más de 1.500 M USD de ETF de BTC en el año y baja liquidez según analistas.",
-    "BTC y ETH en mínimos de casi tres meses; ETH cerca de la zona en la que la deuda de BTCS podría liquidarse (~1.700 USD), aunque es un riesgo de terceros y no del protocolo.",
-    "Noticias sobre el hackeo de Binance y la acción del DOJ son antiguas y no suponen un riesgo nuevo e inmediato para las monedas operadas.",
-    "Sin evento macro de muy alto impacto documentado en las próximas 2-3 horas; no hay anomalías de moneda (halt, depeg, delist)."
+    "Caída de la capitalización total cripto de -7.28% en 24 h con noticias de liquidaciones por más de $1.6B, cumpliendo el criterio de caída brusca en curso.",
+    "Publicación de Core PPI y PPI m/m a las 13:30 UTC, dentro de las próximas 2-3 horas, dato macro de alto impacto.",
+    "Índice Miedo/Codicia en 20 (Extreme Fear), el nivel más bajo en más de cuatro meses, con salidas netas de ETF de Bitcoin de más de $1.5B en el año.",
+    "Todas las monedas de la lista caen en 24 h (entre -1.5% y -5.9%) y en 7 días (entre -6.6% y -13.3%, salvo AVAX), por lo que el deterioro es generalizado."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-13T08:55:30+00:00",
-  "valido_hasta": "2026-11-13T11:55:30+00:00",
+  "generado": "2026-11-13T09:57:21+00:00",
+  "valido_hasta": "2026-11-13T12:57:21+00:00",
   "origen": "claude:claude-haiku-5-5",
-  "multiplicador_riesgo": 0.5,
+  "multiplicador_riesgo": 0.0,
   "datos": {
     "miedo_codicia": 20,
-    "cambio_mercado_24h": -6.48,
-    "noticias_analizadas": 41,
+    "cambio_mercado_24h": -7.28,
+    "noticias_analizadas": 39,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -28,7 +26,7 @@
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
-    "eventos_usd_24h": 0
+    "eventos_usd_24h": 2
   },
   "titulares": [
     {
@@ -47,6 +45,11 @@
       "link": "https://www.coindesk.com/policy/2026/11/12/north-korea-s-binance-hack-faces-u-s-crackdown-as-doj-targets-usd1-2-billion-in-stolen-crypto"
     },
     {
+      "titulo": "Jane Street boosts Fidelity Bitcoin ETF holdings nearly 8x, trims IBIT",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/jane-street-add-fidelity-bitcoin-etf-ibit-cut-q3-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -55,22 +58,17 @@
       "titulo": "Bitcoin ETFs are now down over $1.5 billion in net outflows for the year",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-etfs-are-now-down-over-usd1-5-billion-in-net-outflows-for-the-year"
-    },
-    {
-      "titulo": "Brazil Regulator Warns That 30% of Crypto Exchanges Fail New Capital Rules",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/regulation-and-legal/brazil-regulator-warns-30-percent-crypto-exchanges-fail-new-capital-rules/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9441,
+    "input_tokens": 9423,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 673,
+    "output_tokens": 602,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
