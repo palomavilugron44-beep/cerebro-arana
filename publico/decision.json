@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 20) tras una caída de la capitalización total de -6.14% en 24 h, con BTC bajo 69.000 USD por liquidaciones de más de 1.600 M$ y salidas netas de ETF. Hoy a las 13:30 UTC se publican el PPI y el Core PPI, un dato macro de impacto alto dentro de la ventana inmediata. No hay un evento de seguridad, regulatorio o de anomalía que justifique pausar, así que se recomienda cautela (mitad de tamaño) y no pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 20) tras una caída de la capitalización total del -5.44% en 24 h, con BTC cerca de 68-69K USD, mínimos de tres meses y liquidaciones superiores a 1.600 M USD. Hay presión vendedora por salidas de ETF y un dólar fuerte, y los datos de PPI ya se publicaron hoy, aunque no hay evidencia de un riesgo grave e inmediato como un hackeo de red o una acción regulatoria fuerte contra una moneda. Por ello se recomienda cautela general (mitad de tamaño en compras nuevas) en lugar de pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 20 (Extreme Fear), el nivel más bajo en más de cuatro meses.",
-    "Caída de la capitalización total de -6.14% en 24 h con liquidaciones de más de 1.600 M$ y BTC en mínimos de unos tres meses.",
-    "Salidas netas de ETF de Bitcoin durante seis días seguidos y más de 1.500 M$ de salidas en el año.",
-    "Publicación del PPI y Core PPI a las 13:30 UTC, dato macro de impacto alto dentro de la ventana de 2-3 horas, pero sin justificar una pausa general.",
-    "Ninguna moneda muestra una situación anómala (halt, depeg o delist) según los datos; los incidentes de Unocoin y Binance no afectan directamente al par del bot."
+    "Miedo extremo (índice 20), mínimo de más de cuatro meses, y caída de capitalización del -5.44% en 24 h.",
+    "BTC perdió la EMA de referencia de 200 semanas y cotiza cerca de 68-69K USD con liquidaciones de más de 1.600 M USD.",
+    "Salidas netas de ETF de BTC durante varios días seguidos y tensión del dólar por expectativas de tipos.",
+    "Datos PPI publicados hoy a las 13:30 UTC; el evento macro ya ocurrió, así que no justifica pausa, pero sí cautela adicional.",
+    "Noticias de hackeo (Binance/DOJ, Chainstack, Unocoin) son antiguas, no afectan directamente a las monedas operadas ni son riesgos inmediatos."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-13T13:02:01+00:00",
-  "valido_hasta": "2026-11-13T16:02:01+00:00",
+  "generado": "2026-11-13T14:13:17+00:00",
+  "valido_hasta": "2026-11-13T17:13:17+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 20,
-    "cambio_mercado_24h": -6.14,
-    "noticias_analizadas": 37,
+    "cambio_mercado_24h": -5.44,
+    "noticias_analizadas": 41,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -56,20 +56,20 @@
       "link": "https://news.bitcoin.com/igaming/louisiana-judge-orders-kalshi-polymarket-to-halt-event-contracts/"
     },
     {
-      "titulo": "Unocoin keeps deposits and withdrawals halted over suspect transfers",
+      "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/unocoin-withdrawals-halted-bitgo-wallet-transfer-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9139,
+    "input_tokens": 9517,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 605,
+    "output_tokens": 629,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
