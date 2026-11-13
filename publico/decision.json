@@ -1,24 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 20) tras una caída de la capitalización total del -5.83% en 24 h, con BTC cerca de 70.8K USD y fuerte presión vendedora. Hay un evento macro de alto impacto a las 13:30 UTC (PPI y Core PPI), dentro de las próximas 24 h, por lo que se recomienda cautela y no pausa, ya que la caída no alcanza el umbral de -7% y no hay una noticia de seguridad que afecte a una moneda concreta. Las noticias del hackeo de Binance son relevantes, pero no implican una situación anómala de las monedas operadas.",
+  "resumen": "El mercado cripto cayó un 6.13% en 24 h con miedo extremo (índice 20) y BTC cerca de mínimos de agosto, en un contexto de caídas generalizadas en las 10 monedas. Hay además publicación de PPI de EE. UU. a las 13:30 UTC (dentro de unas 11 horas), un evento macro importante pero no de impacto inmediato tipo FOMC/IPC en las próximas 2-3 horas. Las noticias sobre el hackeo de Binance son relevantes pero no implican un riesgo nuevo y grave para las monedas operadas, por lo que se recomienda cautela y no pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 20 (Extreme Fear) y tendencia a la baja en los últimos 7 días.",
-    "Capitalización total -5.83% en 24 h; BTC -3.73% y ETH -1.88% en el día, con caídas de 7 días de hasta -15% en XRP.",
-    "Datos PPI (Core y general) a las 13:30 UTC del 13/11, evento macro importante dentro de las próximas 24 h.",
-    "Noticias negativas relevantes (hackeo de Binance de 6.3 mil millones, procesos regulatorios sobre perpetuos de acciones) pero sin riesgo grave e inmediato para las monedas operadas.",
-    "La caída no alcanza el umbral de -7% en 24 h que justificaría pausa; no hay halt, depeg ni delist conocidos."
+    "Capitalización total -6.13% en 24 h con miedo extremo (índice 20) y BTC en mínimos desde el 20 de agosto.",
+    "Caídas generalizadas en las 10 monedas operadas (entre -1% y -5% en 24 h; XRP -15% en 7 días).",
+    "Publicación de Core PPI y PPI m/m a las 13:30 UTC, dentro de las próximas 24 h: evento macro importante, no de impacto inmediato (más de 2-3 h).",
+    "Hackeo de Binance por 6.3 mil millones con persecución del DOJ: noticia relevante pero sin señales de problema operativo en las monedas del bot."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-13T02:04:06+00:00",
-  "valido_hasta": "2026-11-13T05:04:06+00:00",
+  "generado": "2026-11-13T02:49:01+00:00",
+  "valido_hasta": "2026-11-13T05:49:01+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 20,
-    "cambio_mercado_24h": -5.83,
-    "noticias_analizadas": 50,
+    "cambio_mercado_24h": -6.13,
+    "noticias_analizadas": 48,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +61,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9611,
+    "input_tokens": 9560,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 634,
+    "output_tokens": 581,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
