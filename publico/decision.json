@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cayó un 6.13% en 24 h con miedo extremo (índice 20) y BTC cerca de mínimos de agosto, en un contexto de caídas generalizadas en las 10 monedas. Hay además publicación de PPI de EE. UU. a las 13:30 UTC (dentro de unas 11 horas), un evento macro importante pero no de impacto inmediato tipo FOMC/IPC en las próximas 2-3 horas. Las noticias sobre el hackeo de Binance son relevantes pero no implican un riesgo nuevo y grave para las monedas operadas, por lo que se recomienda cautela y no pausa.",
+  "resumen": "El mercado cripto cae con fuerza: la capitalización total baja un 7.66% en 24 h, BTC cae por debajo de 70.000 USD y el índice Miedo/Codicia está en 20 (miedo extremo), con liquidaciones en futuros. Además, hay dos datos del PPI de EE. UU. (Core PPI y PPI) previstos para las 13:30 UTC, dentro de las próximas 24 h. No hay señales de hackeo o problema de seguridad que afecte a una moneda concreta, aunque el hackeo de Binance y la acción del DOJ son noticias negativas relevantes pero no graves; por ello se elige cautela general, sin pausa.",
   "motivos": [
-    "Capitalización total -6.13% en 24 h con miedo extremo (índice 20) y BTC en mínimos desde el 20 de agosto.",
-    "Caídas generalizadas en las 10 monedas operadas (entre -1% y -5% en 24 h; XRP -15% en 7 días).",
-    "Publicación de Core PPI y PPI m/m a las 13:30 UTC, dentro de las próximas 24 h: evento macro importante, no de impacto inmediato (más de 2-3 h).",
-    "Hackeo de Binance por 6.3 mil millones con persecución del DOJ: noticia relevante pero sin señales de problema operativo en las monedas del bot."
+    "Caída de la capitalización total del -7.66% en 24 h con liquidaciones en futuros, cerca del umbral de pausa pero sin llegar a -7% con noticias de liquidaciones masivas de forma sostenida.",
+    "Índice Miedo/Codicia en 20 (Extreme Fear), con tendencia a la baja desde 32 hace una semana.",
+    "Datos de PPI de EE. UU. a las 13:30 UTC dentro de las próximas 24 h: evento macro importante, pero no de muy alto impacto como FOMC o IPC dentro de 2-3 horas.",
+    "Noticias negativas relevantes no graves: el dólar en máximos de 19 meses, el hackeo de Binance de 6.3 mil millones y la acción del DOJ, sin afectar de forma directa a las monedas operadas.",
+    "Todas las monedas de la lista caen entre -2.75% y -6.42% en 24 h, así que el riesgo es general y no de una moneda concreta; no se ven situaciones anómalas (halt, depeg, delist)."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-13T02:49:01+00:00",
-  "valido_hasta": "2026-11-13T05:49:01+00:00",
+  "generado": "2026-11-13T03:52:33+00:00",
+  "valido_hasta": "2026-11-13T06:52:33+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 20,
-    "cambio_mercado_24h": -6.13,
-    "noticias_analizadas": 48,
+    "cambio_mercado_24h": -7.66,
+    "noticias_analizadas": 46,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -30,6 +31,11 @@
   },
   "titulares": [
     {
+      "titulo": "Bitcoin dips below $70,000 as Dollar Index hits 19-month high",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-dips-below-usd70-000-as-selloff-gathers-pace"
+    },
+    {
       "titulo": "North Korea's Binance hack faces U.S. crackdown as DOJ targets $1.2 billion in stolen crypto",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/policy/2026/11/12/north-korea-s-binance-hack-faces-u-s-crackdown-as-doj-targets-usd1-2-billion-in-stolen-crypto"
@@ -40,6 +46,11 @@
       "link": "https://news.bitcoin.com/regulation-and-legal/shadow-stocks-wall-street-watchdog-fights-cftc-stock-perpetuals-push/"
     },
     {
+      "titulo": "Brazil Regulator Warns That 30% of Crypto Exchanges Fail New Capital Rules",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/regulation-and-legal/brazil-regulator-warns-30-percent-crypto-exchanges-fail-new-capital-rules/"
+    },
+    {
       "titulo": "NK hackers join memecoin trenches, xStocks adds Hong Kong equities: Asia Express",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/magazine/nk-hackers-join-memecoin-trenches-xstocks-adds-hong-kong-equities-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -48,27 +59,17 @@
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Russia Sets November 22 Start for Exchange Crypto Trading, Subject to Approval",
-      "fuente": "NewsBTC",
-      "link": "https://www.newsbtc.com/regulation/russia-exchange-crypto-trading-november-22-rules/"
-    },
-    {
-      "titulo": "Strategy stock sheds 5% amid MSCI index removal, Bitcoin sell-off",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/markets/strategy-shares-fall-5-msci-index-removal-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9560,
+    "input_tokens": 9634,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 581,
+    "output_tokens": 726,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
