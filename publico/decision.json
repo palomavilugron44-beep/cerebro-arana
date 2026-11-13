@@ -1,24 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza: capitalización total -6.13% en 24 h, BTC en mínimos de 12 semanas (~68.000 USD) y miedo extremo (índice 20), con liquidaciones de más de 1.600 M USD. Hay presión por expectativas de subida de tipos de la Fed y flujos de salida de ETFs, sin eventos macro de alto impacto en las próximas 24 h. No hay hackeos, depegs ni acciones regulatorias graves contra las monedas operadas, por lo que se recomienda cautela general (mitad de tamaño) en lugar de pausa.",
+  "resumen": "El mercado cripto cae con fuerza (capitalización total -6.31% en 24 h) y el índice Miedo/Codicia está en 20 (miedo extremo), con BTC en mínimos de 12 semanas (~68.100 USD) por temores de inflación y de una nueva subida de tipos de la Fed. Hay liquidaciones por más de 1.600 millones de USD, pero no se detecta exploit, regulación grave ni halt o depeg, y no hay eventos macro de alto impacto en las próximas 24 h. Se elige cautela general (compras con la mitad del tamaño) por volatilidad elevada y miedo extremo, sin llegar a pausa.",
   "motivos": [
-    "Caída de capitalización total -6.13% en 24 h con liquidaciones superiores a 1.600 M USD: riesgo de mercado elevado.",
-    "Índice Miedo/Codicia en 20 (Extreme Fear), con tendencia a la baja en la última semana.",
-    "Presión macro por expectativas de subida de tipos de la Fed y salidas de ETFs de BTC; no hay dato macro de alto impacto en las próximas 24 h.",
-    "Todas las monedas operadas caen entre -1.5% y -4.4% en 24 h y entre -0.7% y -13.6% en 7 d; no hay anomalías específicas (halt, depeg, delist) ni incidentes de seguridad reportados.",
-    "Noticias negativas relevantes pero no graves (regulatorias sin acción directa sobre las monedas), por lo que no se justifica pausa."
+    "Miedo extremo (índice 20) y capitalización total -6.31% en 24 h con liquidaciones superiores a 1.600 M USD.",
+    "BTC en mínimo de 12 semanas (~68.100 USD) y todas las monedas de la lista en caída de 1.5% a 4.5% en 24 h.",
+    "Preocupación por inflación y posible subida de tipos de la Fed, sin evento macro de alto impacto confirmado en las próximas 24 h.",
+    "No hay señales de hackeo, exploit, halt, depeg ni acción regulatoria grave contra las monedas operadas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-13T22:42:33+00:00",
-  "valido_hasta": "2026-11-14T01:42:33+00:00",
+  "generado": "2026-11-13T23:39:30+00:00",
+  "valido_hasta": "2026-11-14T02:39:30+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 20,
-    "cambio_mercado_24h": -6.13,
-    "noticias_analizadas": 42,
+    "cambio_mercado_24h": -6.31,
+    "noticias_analizadas": 41,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +61,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9620,
+    "input_tokens": 9659,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 635,
+    "output_tokens": 564,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
