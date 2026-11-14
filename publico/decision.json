@@ -1,25 +1,24 @@
 {
-  "modo": "cautela",
+  "modo": "pausa",
   "monedas": {},
-  "resumen": "El mercado cripto está en miedo extremo (índice 13) tras una caída de la capitalización total del -7.54% en 24 h, con BTC por debajo de 67.000 USD y la mayoría de las monedas bajando entre un -4% y un -8%. No hay eventos macro de alto impacto en las próximas 24 h ni hackeos o acciones regulatorias graves contra las monedas operadas. Por ello se recomienda cautela general (mitad de tamaño en compras nuevas) y no una pausa, dejando que el stop de 3 ATR de la estrategia gestione el riesgo.",
+  "resumen": "La capitalización total cae un -7.28% en 24 h con miedo extremo (índice 13) y liquidaciones de unos 330 M$, lo que cumple el criterio de caída brusca del mercado en curso. Además, Binance sufrió un hackeo de 6.300 M$ el 29 de octubre y todavía está restaurando retiradas, un riesgo de seguridad de un exchange importante. Se pausan las compras nuevas en general hasta que el mercado se estabilice.",
   "motivos": [
-    "Índice Miedo/Codicia en 13 (Extreme Fear), con valores bajos durante toda la última semana.",
-    "Capitalización total cripto -7.54% en 24 h, en el límite de la caída brusca, aunque sin noticias de liquidaciones que justifiquen pausa.",
-    "BTC por debajo de 67.000 USD, mínimos desde agosto, con salidas de ETF de Bitcoin por encima de 1.000 M USD semanales; ETH también bajo 2.000 USD por ventas de la Ethereum Foundation.",
-    "XRP por debajo de 1 USD, su mínimo desde noviembre de 2024; SOL con ventas recurrentes de Pump.fun, pero sin evento de seguridad ni regulatorio grave.",
-    "Sin eventos económicos USD de alto impacto en las próximas 24 h.",
-    "Noticias sobre Nakamoto, Saylor y el FBI son relevantes pero no afectan directamente de forma grave a las monedas operadas."
+    "Capitalización total -7.28% en 24 h, por encima del umbral de -7% con noticias de liquidaciones (más de 330 M$ en dos horas).",
+    "Índice Miedo/Codicia en 13 (miedo extremo) y tendencia descendente durante la última semana.",
+    "Binance sufrió un hackeo de 6.300 M$ el 29 de octubre y aún está reabriendo retiradas en 87 redes, un problema de seguridad de un exchange principal.",
+    "Todas las monedas de la lista caen entre -4.9% y -9.6% en 24 h, sin excepción, con caídas de -11% a -18% en 7 días.",
+    "Retiradas de ETFs de Bitcoin por 2.350 M$ en dos semanas y presión vendedora de fondos y tesorerías cripto (p. ej. Strategy, Nakamoto con deuda superior a su capitalización)."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-14T15:37:24+00:00",
-  "valido_hasta": "2026-11-14T18:37:24+00:00",
+  "generado": "2026-11-14T16:38:50+00:00",
+  "valido_hasta": "2026-11-14T19:38:50+00:00",
   "origen": "claude:claude-haiku-5-5",
-  "multiplicador_riesgo": 0.5,
+  "multiplicador_riesgo": 0.0,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -7.54,
-    "noticias_analizadas": 18,
+    "cambio_mercado_24h": -7.28,
+    "noticias_analizadas": 21,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -31,6 +30,11 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
+    {
+      "titulo": "Binance Reopens 87 Networks Following Historic $6.3 Billion Breach",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/featured/binance-reopens-87-networks-following-historic-6-3-billion-breach/"
+    },
     {
       "titulo": "Nakamoto Debt Dwarfs Market Cap as Bitcoin Price Plunges Below $67K",
       "fuente": "Bitcoin.com",
@@ -55,22 +59,17 @@
       "titulo": "A behind the scenes force may amplify bitcoin and ether price volatility",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/14/a-behind-the-scenes-force-may-amplify-bitcoin-and-ether-price-volatility"
-    },
-    {
-      "titulo": "Pump.fun Has Sold Nearly $888 Million in SOL and Shows No Sign of Slowing Down",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/crypto-news/pump-fun-sold-888m-sol-kraken-deposit/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6996,
+    "input_tokens": 7268,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 678,
+    "output_tokens": 601,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
