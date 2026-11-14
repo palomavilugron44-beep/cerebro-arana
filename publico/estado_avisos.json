@@ -2,9 +2,7 @@
   "ultimo_resumen": "2026-11-14",
   "huella": {
     "modo": "cautela",
-    "monedas": {
-      "XRPUSDT": "pausa"
-    },
+    "monedas": {},
     "alerta": ""
   }
 }

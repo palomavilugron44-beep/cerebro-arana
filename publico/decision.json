@@ -1,29 +1,23 @@
 {
   "modo": "cautela",
-  "monedas": {
-    "XRPUSDT": {
-      "modo": "pausa",
-      "motivo": "XRP perfora 1 USD a mínimos desde nov-2024 con liquidaciones en curso; situación de caída brusca.",
-      "multiplicador_riesgo": 0.0
-    }
-  },
-  "resumen": "El mercado cripto cae con fuerza (capitalización total -7.83% en 24 h) y el índice Miedo/Codicia está en 13 (miedo extremo), con todas las monedas vigentes en negativo entre -5% y -12.6% en 24 h. Se suman el hackeo de Binance de 6.300 M$ aún en recuperación y expectativas de subida de tipos de la Fed casi seguras, aunque el evento macro está fuera de la ventana de 2-3 horas. Como el riesgo es amplio pero no hay un evento grave e inmediato, se aplica cautela global; XRP pasa a pausa por la ruptura de 1 USD y BNB a cautela por el riesgo específico de Binance.",
+  "monedas": {},
+  "resumen": "El mercado está en miedo extremo (índice 13) tras una caída de la capitalización total de -8.83% en 24 h, con BTC cerca de 65.000 USD y varias altcoins perdiendo entre -8% y -14%. Las probabilidades de una subida de tipos de la Fed en diciembre son casi certeras, aunque no hay eventos macro de alto impacto en las próximas 24 h. Ante la volatilidad y la incertidumbre elevada, se recomienda cautela global, sin pausa, ya que no hay una situación anómala de moneda ni un riesgo grave e inmediato.",
   "motivos": [
-    "Miedo extremo (13) y caída de capitalización total de -7.83% en 24 h con liquidaciones de más de 330 M$ reportadas.",
-    "XRP perforó 1 USD y marca mínimos desde nov-2024; caída de -8.62% en 24 h.",
-    "Binance sufrió un hackeo de 6.300 M$ el 29-oct y todavía está reabriendo retiradas por redes, lo que afecta a BNB.",
-    "Probabilidad casi segura de subida de tipos de la Fed en diciembre (88.5% de 25 pb), evento fuera de la ventana inmediata de 2-3 horas.",
-    "Sin eventos macro de alto impacto USD en las próximas 24 h; no hay halt, depeg ni delist de ninguna moneda."
+    "Índice Miedo/Codicia en 13 (Extreme Fear), con una tendencia de deterioro desde 32 hace una semana.",
+    "Capitalización total -8.83% en 24 h; todas las monedas operadas caen entre -5% y -14% en 24 h y entre -12% y -21% en 7 días.",
+    "Probabilidad casi certera (88.5% subida de 25 pb, 11.5% de 50 pb) de subida de tipos de la Fed en la reunión del 8-9 de diciembre, fuera de la ventana de 24 h pero dentro del horizonte de tendencia.",
+    "Binance reabriendo retiradas tras el hackeo de 6.300 M USD del 29 de octubre: riesgo de exchange en recuperación, pero sin situación anómala actual en las monedas operadas.",
+    "No hay eventos macro de alto impacto USD en las próximas 24 h, por lo que no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-14T20:36:53+00:00",
-  "valido_hasta": "2026-11-14T23:36:53+00:00",
+  "generado": "2026-11-14T21:36:33+00:00",
+  "valido_hasta": "2026-11-15T00:36:33+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -7.83,
+    "cambio_mercado_24h": -8.83,
     "noticias_analizadas": 22,
     "articulos_leidos": 8,
     "fuentes": {
@@ -62,20 +56,20 @@
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "titulo": "Ether Price Dips Below $2K as Ethereum Foundation Dumps 5000 ETH in 5 Day",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/ethereum-foundation-sells-5000-eth-five-days/"
+      "titulo": "Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/policy/2026/11/13/britain-could-turn-wasted-scottish-wind-power-into-bitcoin-to-cut-its-usd1-3-billion-grid-bill"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7429,
+    "input_tokens": 7384,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 784,
+    "output_tokens": 655,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
