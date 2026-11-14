@@ -1,22 +1,22 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cayó un 6.59% en 24 h con el índice Miedo/Codicia en 13 (miedo extremo) y BTC en mínimos de 12 semanas por expectativas de subida de tipos de la Fed e inflación persistente. No hay un evento macro de alto impacto en las próximas 24 h ni un hackeo, regulación grave o anomalía de moneda en los datos, por lo que la situación encaja en incertidumbre elevada y no en pausa. Se recomienda cautela global (mitad de tamaño en compras nuevas) y no se aplica ninguna restricción adicional por moneda.",
+  "resumen": "El mercado cripto cae con fuerza (capitalización -6.42% en 24 h) y el índice Miedo/Codicia está en 13 (miedo extremo), con BTC en mínimos de 12 semanas cerca de 67-68k USD por expectativas de subidas de tipos de la Fed e salidas de ETF. No hay eventos macro de alto impacto en las próximas 24 h ni hackeos, regulación grave o anomalías de moneda en los datos. Por la volatilidad y el miedo extremo, se recomienda cautela general (mitad de tamaño) y no pausa.",
   "motivos": [
-    "Miedo extremo (índice 13) con caída de capitalización total de -6.59% en 24 h: incertidumbre elevada.",
-    "BTC en mínimo de 12 semanas y ETH/SOL con caídas de 7 días de -14% aproximadamente; presión bajista generalizada.",
-    "Expectativas de nueva subida de tipos de la Fed por inflación persistente, con evento de la Fed (foro sobre IA del 16 de noviembre) fuera de la ventana de 2-3 horas y sin dato macro de alto impacto en 24 h.",
-    "No hay riesgo grave e inmediato (sin hackeo, halt, depeg, delist ni acción regulatoria fuerte): no procede pausa ni alerta de posiciones."
+    "Miedo extremo (índice 13) y caída de la capitalización total de -6.42% en 24 h, por debajo del umbral de pausa de -7%.",
+    "BTC en mínimos de 12 semanas (~67-68k USD) con presión por expectativas de subida de tipos de la Fed y salidas de ETF.",
+    "Volatilidad elevada: SOL -4.24% en 24 h y -15.98% en 7 d; ETH -14.93% en 7 d.",
+    "Sin eventos macro de alto impacto en las próximas 24 h y sin indicios de hackeo, acción regulatoria grave o anomalía de moneda en los datos."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-14T02:49:09+00:00",
-  "valido_hasta": "2026-11-14T05:49:09+00:00",
+  "generado": "2026-11-14T03:49:45+00:00",
+  "valido_hasta": "2026-11-14T06:49:45+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -6.59,
+    "cambio_mercado_24h": -6.42,
     "noticias_analizadas": 31,
     "articulos_leidos": 8,
     "fuentes": {
@@ -61,14 +61,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8652,
+    "input_tokens": 8653,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 598,
+    "output_tokens": 551,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
