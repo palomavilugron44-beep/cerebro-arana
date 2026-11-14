@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto está en miedo extremo (índice 13) tras una caída de capitalización total del -7% en 24 h, con BTC por debajo de 66-70K y salidas sostenidas de ETFs spot. No hay eventos macro de alto impacto en las próximas 24 h ni hackeos o acciones regulatorias graves en los datos. Dado el riesgo elevado de volatilidad, se recomienda operar con cautela (mitad de tamaño) en lugar de pausar, ya que la estrategia tiene su propio stop.",
+  "resumen": "El mercado cripto está en miedo extremo (índice 13) tras una caída de la capitalización total del -7.54% en 24 h, con BTC por debajo de 67.000 USD y la mayoría de las monedas bajando entre un -4% y un -8%. No hay eventos macro de alto impacto en las próximas 24 h ni hackeos o acciones regulatorias graves contra las monedas operadas. Por ello se recomienda cautela general (mitad de tamaño en compras nuevas) y no una pausa, dejando que el stop de 3 ATR de la estrategia gestione el riesgo.",
   "motivos": [
-    "Índice Miedo/Codicia en 13 (Extreme Fear) con tendencia descendente en los últimos 7 días.",
-    "Capitalización total cripto -7.0% en 24 h, con liquidaciones de más de 330 M$ según las noticias.",
-    "Todas las monedas de la lista caen entre -4.5% y -9.3% en 24 h; SOL, ADA y AVAX presentan las caídas diarias más fuertes.",
-    "Salidas de ETFs de Bitcoin por más de 2.350 M$ en dos semanas y venta de 5.000 ETH por la Ethereum Foundation.",
-    "No hay eventos macro de alto impacto en 24 h ni riesgo de hackeo o regulación grave identificado; no se justifica pausa."
+    "Índice Miedo/Codicia en 13 (Extreme Fear), con valores bajos durante toda la última semana.",
+    "Capitalización total cripto -7.54% en 24 h, en el límite de la caída brusca, aunque sin noticias de liquidaciones que justifiquen pausa.",
+    "BTC por debajo de 67.000 USD, mínimos desde agosto, con salidas de ETF de Bitcoin por encima de 1.000 M USD semanales; ETH también bajo 2.000 USD por ventas de la Ethereum Foundation.",
+    "XRP por debajo de 1 USD, su mínimo desde noviembre de 2024; SOL con ventas recurrentes de Pump.fun, pero sin evento de seguridad ni regulatorio grave.",
+    "Sin eventos económicos USD de alto impacto en las próximas 24 h.",
+    "Noticias sobre Nakamoto, Saylor y el FBI son relevantes pero no afectan directamente de forma grave a las monedas operadas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-14T14:41:13+00:00",
-  "valido_hasta": "2026-11-14T17:41:13+00:00",
+  "generado": "2026-11-14T15:37:24+00:00",
+  "valido_hasta": "2026-11-14T18:37:24+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -7.0,
-    "noticias_analizadas": 16,
+    "cambio_mercado_24h": -7.54,
+    "noticias_analizadas": 18,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -30,6 +31,11 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
+    {
+      "titulo": "Nakamoto Debt Dwarfs Market Cap as Bitcoin Price Plunges Below $67K",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/finance/nakamoto-debt-dwarfs-market-cap-as-bitcoin-price-plunges-below-67k/"
+    },
     {
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
@@ -54,22 +60,17 @@
       "titulo": "Pump.fun Has Sold Nearly $888 Million in SOL and Shows No Sign of Slowing Down",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/crypto-news/pump-fun-sold-888m-sol-kraken-deposit/"
-    },
-    {
-      "titulo": "XRP Sinks Below $1 to Its Lowest Since 2024 as XRP ETFs Turn One",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/price-predictions/xrp-price-below-1-lowest-since-2024-xrp-etfs-turn-one/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6735,
+    "input_tokens": 6996,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 574,
+    "output_tokens": 678,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
