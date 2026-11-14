@@ -1,23 +1,22 @@
 {
   "modo": "pausa",
   "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza: capitalización total -6.77% en 24 h, miedo extremo (13) y BTC en mínimos de 3 meses cerca de 65.000 USD con liquidaciones de más de 330 M USD. Además, Binance sufrió una brecha de 6.300 M USD el 29 de oct. y aún está reabriendo retiradas, y la probabilidad de una subida de tipos de la Fed en diciembre es casi segura, aunque el dato no cae en las próximas 2-3 horas. Dado que la caída es brusca y en curso, con un riesgo de contagio a todas las monedas vigiladas, se recomienda pausar nuevas compras.",
+  "resumen": "El mercado cripto cae con fuerza: la capitalización total baja -7.36% en 24 h, el miedo está en 13 (Extreme Fear) y casi todas las monedas del universo caen entre -5% y -12%. Además, la Fed tiene casi asegurada una subida de tipos en su reunión del 8-9 de diciembre según CME, un dato macro de alto impacto que queda fuera de la ventana de 2-3 horas pero refuerza la presión bajista. Ante una caída brusca de mercado en curso con liquidaciones (más de 330 millones en dos horas), se decide pausar las compras nuevas de forma global.",
   "motivos": [
-    "Caída brusca del mercado en curso: capitalización total -6.77% en 24 h, con más de 330 M USD en liquidaciones y BTC en mínimos de 3 meses.",
-    "Todas las monedas vigiladas caen entre -4.2% y -10.6% en 24 h, lo que indica un movimiento generalizado y no un problema aislado.",
-    "Miedo extremo (índice 13), con una tendencia de deterioro durante la última semana.",
-    "Riesgo de seguridad vigente en Binance (brecha de 6.300 M USD el 29 de oct.), que todavía está en proceso de recuperación.",
-    "Expectativa casi segura de subida de tipos de la Fed en diciembre, con ruido macro hawkish; no hay evento de alto impacto en las próximas 24 h."
+    "Capitalización total -7.36% en 24 h con noticias de liquidaciones por encima de 330 M$ en dos horas, cumpliendo el criterio de caída brusca de mercado.",
+    "Índice Miedo/Codicia en 13 (Extreme Fear), con caída de 7 días en casi todas las monedas (ETH -18%, SOL -19%, XRP -18%).",
+    "Probabilidad cercana al 100% de subida de tipos de la Fed en diciembre según CME, con BTC en mínimos de 3 meses (~65.000 USD).",
+    "Hackeo de Binance de 6.300 M$ el 29 de oct. y pérdidas de Unocoin, con retiradas aún parcialmente restauradas en Binance: riesgo de seguridad del exchange."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-14T18:41:13+00:00",
-  "valido_hasta": "2026-11-14T21:41:13+00:00",
+  "generado": "2026-11-14T19:41:17+00:00",
+  "valido_hasta": "2026-11-14T22:41:17+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.0,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -6.77,
+    "cambio_mercado_24h": -7.36,
     "noticias_analizadas": 23,
     "articulos_leidos": 8,
     "fuentes": {
@@ -62,14 +61,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7528,
+    "input_tokens": 7536,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 637,
+    "output_tokens": 615,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
