@@ -1,23 +1,30 @@
 {
-  "modo": "pausa",
-  "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza: la capitalización total baja -7.36% en 24 h, el miedo está en 13 (Extreme Fear) y casi todas las monedas del universo caen entre -5% y -12%. Además, la Fed tiene casi asegurada una subida de tipos en su reunión del 8-9 de diciembre según CME, un dato macro de alto impacto que queda fuera de la ventana de 2-3 horas pero refuerza la presión bajista. Ante una caída brusca de mercado en curso con liquidaciones (más de 330 millones en dos horas), se decide pausar las compras nuevas de forma global.",
+  "modo": "cautela",
+  "monedas": {
+    "XRPUSDT": {
+      "modo": "pausa",
+      "motivo": "XRP perfora 1 USD a mínimos desde nov-2024 con liquidaciones en curso; situación de caída brusca.",
+      "multiplicador_riesgo": 0.0
+    }
+  },
+  "resumen": "El mercado cripto cae con fuerza (capitalización total -7.83% en 24 h) y el índice Miedo/Codicia está en 13 (miedo extremo), con todas las monedas vigentes en negativo entre -5% y -12.6% en 24 h. Se suman el hackeo de Binance de 6.300 M$ aún en recuperación y expectativas de subida de tipos de la Fed casi seguras, aunque el evento macro está fuera de la ventana de 2-3 horas. Como el riesgo es amplio pero no hay un evento grave e inmediato, se aplica cautela global; XRP pasa a pausa por la ruptura de 1 USD y BNB a cautela por el riesgo específico de Binance.",
   "motivos": [
-    "Capitalización total -7.36% en 24 h con noticias de liquidaciones por encima de 330 M$ en dos horas, cumpliendo el criterio de caída brusca de mercado.",
-    "Índice Miedo/Codicia en 13 (Extreme Fear), con caída de 7 días en casi todas las monedas (ETH -18%, SOL -19%, XRP -18%).",
-    "Probabilidad cercana al 100% de subida de tipos de la Fed en diciembre según CME, con BTC en mínimos de 3 meses (~65.000 USD).",
-    "Hackeo de Binance de 6.300 M$ el 29 de oct. y pérdidas de Unocoin, con retiradas aún parcialmente restauradas en Binance: riesgo de seguridad del exchange."
+    "Miedo extremo (13) y caída de capitalización total de -7.83% en 24 h con liquidaciones de más de 330 M$ reportadas.",
+    "XRP perforó 1 USD y marca mínimos desde nov-2024; caída de -8.62% en 24 h.",
+    "Binance sufrió un hackeo de 6.300 M$ el 29-oct y todavía está reabriendo retiradas por redes, lo que afecta a BNB.",
+    "Probabilidad casi segura de subida de tipos de la Fed en diciembre (88.5% de 25 pb), evento fuera de la ventana inmediata de 2-3 horas.",
+    "Sin eventos macro de alto impacto USD en las próximas 24 h; no hay halt, depeg ni delist de ninguna moneda."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-14T19:41:17+00:00",
-  "valido_hasta": "2026-11-14T22:41:17+00:00",
+  "generado": "2026-11-14T20:36:53+00:00",
+  "valido_hasta": "2026-11-14T23:36:53+00:00",
   "origen": "claude:claude-haiku-5-5",
-  "multiplicador_riesgo": 0.0,
+  "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -7.36,
-    "noticias_analizadas": 23,
+    "cambio_mercado_24h": -7.83,
+    "noticias_analizadas": 22,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -61,14 +68,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7536,
+    "input_tokens": 7429,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 615,
+    "output_tokens": 784,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
