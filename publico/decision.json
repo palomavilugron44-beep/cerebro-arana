@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 13) con la capitalización total -3.39% en 24 h y salidas sostenidas de ETFs de Bitcoin, y las principales monedas caen entre -1% y -5% en el día. No hay un evento grave (hackeo, regulación fuerte, halt o dato macro de alto impacto en 24 h), así que no justifica pausa. Se recomienda cautela global, con la mitad del tamaño en nuevas compras.",
+  "resumen": "El mercado cripto cae con fuerza (capitalización total -4.86% en 24 h) y el índice Miedo/Codicia está en 13 (miedo extremo), con BTC por debajo de 67.000 USD y ETH bajo 1.900 USD. Hay noticias negativas relevantes (salidas de ETFs de BTC por más de 2.000 millones en dos semanas y venta de ETH por parte de una wallet vinculada a la Ethereum Foundation), pero no hay hackeo, acción regulatoria grave ni evento macro de alto impacto en las próximas 24 h. Por ello se recomienda cautela general (mitad de tamaño en compras nuevas) y no pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 13 (Extreme Fear), con tendencia bajista durante la última semana.",
-    "Capitalización total cripto -3.39% en 24 h; todas las monedas de la lista en negativo.",
-    "Salidas de ETFs spot de Bitcoin por 2.35 mil millones USD en dos semanas.",
+    "Miedo extremo (índice 13) con caída de la capitalización total de -4.86% en 24 h.",
+    "Salidas netas de más de 2.000 millones USD en ETFs spot de BTC en dos semanas consecutivas.",
     "Venta de 5.000 ETH por una wallet vinculada a la Ethereum Foundation, con ETH por debajo de 1.900 USD.",
-    "Sin eventos macro de alto impacto USD en las próximas 24 h; no hay riesgo grave que justifique pausa."
+    "Ninguna alerta de hackeo, acción regulatoria grave ni dato macro de alto impacto en las próximas 24 h.",
+    "Las caídas de 24 h son similares en casi todas las monedas, sin una situación anómala de una moneda concreta."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-14T09:44:09+00:00",
-  "valido_hasta": "2026-11-14T12:44:09+00:00",
+  "generado": "2026-11-14T10:40:46+00:00",
+  "valido_hasta": "2026-11-14T13:40:46+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -3.39,
-    "noticias_analizadas": 15,
+    "cambio_mercado_24h": -4.86,
+    "noticias_analizadas": 13,
     "articulos_leidos": 6,
     "fuentes": {
       "CoinDesk": 25,
@@ -36,11 +36,6 @@
       "link": "https://news.bitcoin.com/market-updates/ethereum-foundation-sells-5000-eth-five-days/"
     },
     {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
       "titulo": "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock’s losing streak hits 11",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/markets/bitcoin-etf-outflows-2-35-billion-blackrock-11-session-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -56,20 +51,25 @@
       "link": "https://www.coindesk.com/markets/2026/11/13/satoshi-era-wallet-served-in-a-usd260-billion-lawsuit-moves-75-btc-it-held-since-2011"
     },
     {
+      "titulo": "Microsoft confirms global outage resolved, rules out cyberattack",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/microsoft-365-outage-resolved-cyberattack-ruled-out?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "titulo": "Peter Schiff Calls Bitcoin a ‘Slow Bleed’ While Gold Slides Below $3,900",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/finance/peter-schiff-calls-bitcoin-a-slow-bleed-while-gold-slides-below-3900/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6061,
+    "input_tokens": 5832,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 504,
+    "output_tokens": 589,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
