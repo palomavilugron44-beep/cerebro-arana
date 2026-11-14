@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto está en miedo extremo (índice 13) tras una caída de la capitalización total del -5.95% en 24 h, con BTC en mínimos de 12 semanas (~68.000 USD) por temores de inflación y posibles subidas de tipos de la Fed. No hay eventos macro de alto impacto en las próximas 24 h ni hackeos o acciones regulatorias graves contra las monedas del bot, por lo que no justifica una pausa. Se recomienda cautela (mitad de tamaño en compras nuevas) mientras dura la volatilidad.",
+  "resumen": "El mercado cripto está en miedo extremo (índice 13) tras una caída de la capitalización total del -5.79% en 24 h, con BTC en mínimos de 12 semanas (~68.000 USD) por temores de inflación y de nuevas subidas de tipos. No hay eventos macro de alto impacto en las próximas 24 h ni hallazgos de hackeo, regulación grave o anomalías en las monedas operadas. Se recomienda cautela general (mitad de tamaño en compras nuevas) en lugar de pausa, dado que la caída no alcanza el umbral de -7% y no hay riesgos concretos y graves.",
   "motivos": [
-    "Índice Miedo/Codicia en 13 (Extreme Fear), con tendencia bajista desde 28-32 hace una semana.",
-    "Capitalización total cripto -5.95% en 24 h; todas las monedas del bot caen entre -1.2% y -4.5% en 24 h y entre -1.5% y -14% en 7 días.",
-    "BTC en mínimo de 12 semanas por expectativas de subida de tipos de la Fed y salidas de ETF; el sentimiento de riesgo es negativo.",
-    "Sin eventos macro de alto impacto en las próximas 24 h, por lo que no se activa pausa por calendario.",
-    "No se detectan hackeos, deslistados ni acciones regulatorias graves contra las monedas operadas; las noticias regulatorias son de tramitación ordinaria."
+    "Índice Miedo/Codicia en 13 (Extreme Fear), con tendencia bajista durante la última semana.",
+    "Capitalización total cripto -5.79% en 24 h, cerca pero por debajo del umbral de -7% para pausa.",
+    "BTC en mínimo de 12 semanas (~68.000 USD) por expectativas de subida de tipos de la Fed e inflación persistente.",
+    "Todas las monedas operadas caen entre -1.6% y -5.2% en 24 h, sin caídas anómalas de una moneda concreta.",
+    "Sin eventos económicos USD de alto impacto en las próximas 24 h; el PPI ya se publicó sin sorpresas negativas graves.",
+    "Noticias de salidas de ETF y regulación sin riesgo grave o inmediato identificado para las monedas operadas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-14T00:56:28+00:00",
-  "valido_hasta": "2026-11-14T03:56:28+00:00",
+  "generado": "2026-11-14T01:59:20+00:00",
+  "valido_hasta": "2026-11-14T04:59:20+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -5.95,
-    "noticias_analizadas": 37,
+    "cambio_mercado_24h": -5.79,
+    "noticias_analizadas": 32,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +63,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9312,
+    "input_tokens": 8751,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 602,
+    "output_tokens": 629,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
