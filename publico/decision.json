@@ -1,22 +1,23 @@
 {
   "modo": "pausa",
   "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza: capitalización total -6.91% en 24 h, miedo extremo (13) y BTC en mínimos de 3 meses (~65.000 USD). Además, Binance sufrió un hackeo de 6.300 millones de USD el 29 de octubre y todavía está reabriendo retiradas por red, lo que es un riesgo de seguridad de un exchange principal. Dado que la caída de -7% en 24 h con liquidaciones y el hackeo de un exchange son motivos concretos y graves según los criterios, se recomienda pausar nuevas compras en general.",
+  "resumen": "El mercado cripto cae con fuerza: capitalización total -6.77% en 24 h, miedo extremo (13) y BTC en mínimos de 3 meses cerca de 65.000 USD con liquidaciones de más de 330 M USD. Además, Binance sufrió una brecha de 6.300 M USD el 29 de oct. y aún está reabriendo retiradas, y la probabilidad de una subida de tipos de la Fed en diciembre es casi segura, aunque el dato no cae en las próximas 2-3 horas. Dado que la caída es brusca y en curso, con un riesgo de contagio a todas las monedas vigiladas, se recomienda pausar nuevas compras.",
   "motivos": [
-    "Capitalización total cripto -6.91% en 24 h, cerca del umbral de caída brusca (-7%), con liquidaciones masivas reportadas (más de 330 M USD en dos horas).",
-    "Hackeo de Binance por 6.300 M USD el 29/10/2026; el exchange sigue reabriendo retiradas por red, riesgo de seguridad sobre un exchange principal.",
-    "Miedo extremo (índice 13) y tendencia bajista de 7 días en todas las monedas (entre -8.7% y -19%).",
-    "Salidas netas de ETFs de BTC por 2.35 B USD en dos semanas y BTC en mínimos de 3 meses."
+    "Caída brusca del mercado en curso: capitalización total -6.77% en 24 h, con más de 330 M USD en liquidaciones y BTC en mínimos de 3 meses.",
+    "Todas las monedas vigiladas caen entre -4.2% y -10.6% en 24 h, lo que indica un movimiento generalizado y no un problema aislado.",
+    "Miedo extremo (índice 13), con una tendencia de deterioro durante la última semana.",
+    "Riesgo de seguridad vigente en Binance (brecha de 6.300 M USD el 29 de oct.), que todavía está en proceso de recuperación.",
+    "Expectativa casi segura de subida de tipos de la Fed en diciembre, con ruido macro hawkish; no hay evento de alto impacto en las próximas 24 h."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-14T17:34:28+00:00",
-  "valido_hasta": "2026-11-14T20:34:28+00:00",
+  "generado": "2026-11-14T18:41:13+00:00",
+  "valido_hasta": "2026-11-14T21:41:13+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.0,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -6.91,
+    "cambio_mercado_24h": -6.77,
     "noticias_analizadas": 23,
     "articulos_leidos": 8,
     "fuentes": {
@@ -29,6 +30,11 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
+    {
+      "titulo": "Fed Rate Hike Odds Reach Near-Certainty as Bitcoin Price Falls to $65K",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/fed-rate-hike-odds-reach-near-certainty-as-bitcoin-price-falls-to-65k/"
+    },
     {
       "titulo": "OpenAI, Anthropic, Google and Other AI Giants Face Lawsuit Demanding Development Freeze",
       "fuente": "Decrypt",
@@ -53,22 +59,17 @@
       "titulo": "Ether Price Dips Below $2K as Ethereum Foundation Dumps 5000 ETH in 5 Day",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/ethereum-foundation-sells-5000-eth-five-days/"
-    },
-    {
-      "titulo": "Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/policy/2026/11/13/britain-could-turn-wasted-scottish-wind-power-into-bitcoin-to-cut-its-usd1-3-billion-grid-bill"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7575,
+    "input_tokens": 7528,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 566,
+    "output_tokens": 637,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
