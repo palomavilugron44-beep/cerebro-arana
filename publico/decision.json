@@ -1,22 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae un 5.76% en 24 h con miedo extremo (índice 13) y la dominancia de BTC en 58.7%; BTC ronda 66.8k USD tras perder los 70k. Hay salidas sostenidas de ETFs de BTC, venta de ETH por la Ethereum Foundation y liquidaciones de más de 330 M USD, pero no hay un evento grave, anomalía de moneda ni dato macro de alto impacto en las próximas 24 h. Por ello se recomienda modo cautela global, con cautela adicional en las monedas con caídas más bruscas o rupturas técnicas.",
+  "resumen": "El mercado cripto está en miedo extremo (índice 13) tras una caída de capitalización total del -7% en 24 h, con BTC por debajo de 66-70K y salidas sostenidas de ETFs spot. No hay eventos macro de alto impacto en las próximas 24 h ni hackeos o acciones regulatorias graves en los datos. Dado el riesgo elevado de volatilidad, se recomienda operar con cautela (mitad de tamaño) en lugar de pausar, ya que la estrategia tiene su propio stop.",
   "motivos": [
-    "Índice Miedo/Codicia en 13 (miedo extremo), con caídas de todo el mercado de -5.76% en 24 h.",
-    "Salidas de ETFs spot de BTC por 2.35 B USD en dos semanas y venta de 5.000 ETH por una wallet de la Ethereum Foundation.",
-    "XRP perdió 1 USD (mínimo desde nov-2024) y SOL, ADA y AVAX caen más de 7% en 24 h.",
-    "Sin eventos macro de alto impacto en 24 h ni incidentes de seguridad o anomalías de moneda: no se justifica pausa."
+    "Índice Miedo/Codicia en 13 (Extreme Fear) con tendencia descendente en los últimos 7 días.",
+    "Capitalización total cripto -7.0% en 24 h, con liquidaciones de más de 330 M$ según las noticias.",
+    "Todas las monedas de la lista caen entre -4.5% y -9.3% en 24 h; SOL, ADA y AVAX presentan las caídas diarias más fuertes.",
+    "Salidas de ETFs de Bitcoin por más de 2.350 M$ en dos semanas y venta de 5.000 ETH por la Ethereum Foundation.",
+    "No hay eventos macro de alto impacto en 24 h ni riesgo de hackeo o regulación grave identificado; no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-14T13:50:19+00:00",
-  "valido_hasta": "2026-11-14T16:50:19+00:00",
+  "generado": "2026-11-14T14:41:13+00:00",
+  "valido_hasta": "2026-11-14T17:41:13+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -5.76,
+    "cambio_mercado_24h": -7.0,
     "noticias_analizadas": 16,
     "articulos_leidos": 8,
     "fuentes": {
@@ -61,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6763,
+    "input_tokens": 6735,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 818,
+    "output_tokens": 574,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
