@@ -1,23 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza (capitalización -6.42% en 24 h) y el índice Miedo/Codicia está en 13 (miedo extremo), con BTC en mínimos de 12 semanas cerca de 67-68k USD por expectativas de subidas de tipos de la Fed e salidas de ETF. No hay eventos macro de alto impacto en las próximas 24 h ni hackeos, regulación grave o anomalías de moneda en los datos. Por la volatilidad y el miedo extremo, se recomienda cautela general (mitad de tamaño) y no pausa.",
+  "resumen": "El mercado cripto está en miedo extremo (índice 13) tras una caída de la capitalización total del -4.6% en 24 h, con BTC en mínimos de 12 semanas por temores de inflación y de nuevas subidas de tipos de la Fed. No hay eventos macro de alto impacto USD en las próximas 24 h, ni hackeos, acciones regulatorias graves o anomalías de monedas. La caída es relevante pero no alcanza el umbral de pausa (-7% o peor), así que se recomienda cautela general.",
   "motivos": [
-    "Miedo extremo (índice 13) y caída de la capitalización total de -6.42% en 24 h, por debajo del umbral de pausa de -7%.",
-    "BTC en mínimos de 12 semanas (~67-68k USD) con presión por expectativas de subida de tipos de la Fed y salidas de ETF.",
-    "Volatilidad elevada: SOL -4.24% en 24 h y -15.98% en 7 d; ETH -14.93% en 7 d.",
-    "Sin eventos macro de alto impacto en las próximas 24 h y sin indicios de hackeo, acción regulatoria grave o anomalía de moneda en los datos."
+    "Índice Miedo/Codicia en 13 (Extreme Fear), con valores bajos durante toda la última semana.",
+    "Capitalización total -4.6% en 24 h y BTC en mínimos de 12 semanas (~68.5k USD) por expectativas de subidas de tipos e inflación.",
+    "Sin eventos macro de alto impacto USD en 24 h y sin incidentes graves (hackeo, halt, depeg o acción regulatoria fuerte) en las noticias.",
+    "La caída no llega al umbral de -7% para pausa; el resto de monedas se mueve de forma ordenada, por lo que no se justifica un modo más prudente por moneda."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-14T03:49:45+00:00",
-  "valido_hasta": "2026-11-14T06:49:45+00:00",
+  "generado": "2026-11-14T04:51:07+00:00",
+  "valido_hasta": "2026-11-14T07:51:07+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -6.42,
-    "noticias_analizadas": 31,
+    "cambio_mercado_24h": -4.6,
+    "noticias_analizadas": 29,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -50,25 +50,25 @@
       "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-slides-to-usd68k-as-nvidia-turmoil-anthropic-ipo-fuel-broader-market-sell-off"
     },
     {
-      "titulo": "Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-heads-for-sixth-weekly-loss-as-anthropic-s-blockbuster-ipo-looms"
-    },
-    {
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Trump’s First Democratic Picks for SEC and CFTC Could Reshape Crypto’s Regulators",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/383260/trump-first-democratic-picks-sec-cftc-could-reshape-crypto"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8653,
+    "input_tokens": 8347,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 551,
+    "output_tokens": 539,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
