@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cayó un 4.43% en 24 h con miedo extremo (índice 13) y BTC cerca de 66.9k USD tras perder terreno en la semana. No hay eventos macro de alto impacto en las próximas 24 h ni noticias de hackeos, regulación grave o anomalías de moneda. Se opta por cautela general por volatilidad y miedo extremo, sin pausa ni modo especial por moneda.",
+  "resumen": "El índice Miedo/Codicia está en 13 (miedo extremo) y la capitalización total cae un 3.46% en 24 h, con salidas de unos 2.350 millones de dólares de ETFs spot de Bitcoin en dos semanas. No hay eventos macro de alto impacto en las próximas 24 h ni hallazgos de hackeo, halt, depeg o acción regulatoria grave contra alguna moneda de la lista. Por ello se recomienda cautela general por miedo extremo y volatilidad, sin pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 13 (Extreme Fear), con tendencia bajista en la última semana.",
-    "Capitalización total -4.43% en 24 h con salida de capital hacia activos de IA (Anthropic) según los titulares.",
-    "Caídas de 7 días de entre -6.8% y -16% en las principales monedas, incluido BTC -11.6%.",
-    "Sin evento macro de alto impacto en 24 h ni riesgo grave de seguridad o regulatorio confirmado: no se justifica pausa."
+    "Índice Miedo/Codicia en 13 (Extreme Fear), con tendencia descendente en los últimos 7 días.",
+    "Capitalización total -3.46% en 24 h y todas las monedas de la lista en negativo en 24 h y 7 días.",
+    "Salidas netas de unos 2.35 mil millones de dólares de ETFs spot de Bitcoin en dos semanas consecutivas.",
+    "Noticias regulatorias (DOJ/CFTC vs. Arkansas, Kalshi) y sobre prediction markets son negativas pero no graves ni dirigidas a una moneda concreta.",
+    "Sin eventos económicos USD de alto impacto en las próximas 24 h, por lo que no procede pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-14T05:49:08+00:00",
-  "valido_hasta": "2026-11-14T08:49:08+00:00",
+  "generado": "2026-11-14T06:55:55+00:00",
+  "valido_hasta": "2026-11-14T09:55:55+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -4.43,
-    "noticias_analizadas": 26,
+    "cambio_mercado_24h": -3.46,
+    "noticias_analizadas": 22,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -30,19 +31,9 @@
   },
   "titulares": [
     {
-      "titulo": "Fed Chair Warsh Wants Answers on AI Inflation—and Bitcoin May Feel the Impact",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/383259/fed-chair-warsh-wants-answers-ai-inflation-bitcoin"
-    },
-    {
       "titulo": "DOJ, CFTC Sue Arkansas to Block Kalshi Crackdown as Prediction Market Battle Escalates",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/regulation-and-legal/doj-cftc-sue-arkansas-block-kalshi-crackdown-prediction-market-battle/"
-    },
-    {
-      "titulo": "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-slides-to-usd68k-as-nvidia-turmoil-anthropic-ipo-fuel-broader-market-sell-off"
     },
     {
       "titulo": "Here’s what happened in crypto today",
@@ -50,25 +41,35 @@
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "titulo": "Trump’s First Democratic Picks for SEC and CFTC Could Reshape Crypto’s Regulators",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/383260/trump-first-democratic-picks-sec-cftc-could-reshape-crypto"
+      "titulo": "Bitcoin ETFs shed $2.35B in two weeks as BlackRock’s losing streak hits 11 sessions",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/bitcoin-etf-outflows-2-35-billion-blackrock-11-session-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "titulo": "FBI’s Largest Dark Web Drug Sweep Seizes $234M in Cash and Crypto",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/regulation-and-legal/fbi-largest-dark-web-drug-sweep-seizes-234m-cash-crypto/"
+    },
+    {
+      "titulo": "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/13/satoshi-era-wallet-served-in-a-usd260-billion-lawsuit-moves-75-btc-it-held-since-2011"
+    },
+    {
+      "titulo": "Should Government Officials Be Banned From Prediction Markets? House Oversight Says Maybe",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/383271/government-officials-banned-prediction-markets-house-oversight"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7918,
+    "input_tokens": 7496,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 461,
+    "output_tokens": 562,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
