@@ -1,23 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto está en miedo extremo (índice 13) tras una caída de la capitalización total del -4.6% en 24 h, con BTC en mínimos de 12 semanas por temores de inflación y de nuevas subidas de tipos de la Fed. No hay eventos macro de alto impacto USD en las próximas 24 h, ni hackeos, acciones regulatorias graves o anomalías de monedas. La caída es relevante pero no alcanza el umbral de pausa (-7% o peor), así que se recomienda cautela general.",
+  "resumen": "El mercado cripto cayó un 4.43% en 24 h con miedo extremo (índice 13) y BTC cerca de 66.9k USD tras perder terreno en la semana. No hay eventos macro de alto impacto en las próximas 24 h ni noticias de hackeos, regulación grave o anomalías de moneda. Se opta por cautela general por volatilidad y miedo extremo, sin pausa ni modo especial por moneda.",
   "motivos": [
-    "Índice Miedo/Codicia en 13 (Extreme Fear), con valores bajos durante toda la última semana.",
-    "Capitalización total -4.6% en 24 h y BTC en mínimos de 12 semanas (~68.5k USD) por expectativas de subidas de tipos e inflación.",
-    "Sin eventos macro de alto impacto USD en 24 h y sin incidentes graves (hackeo, halt, depeg o acción regulatoria fuerte) en las noticias.",
-    "La caída no llega al umbral de -7% para pausa; el resto de monedas se mueve de forma ordenada, por lo que no se justifica un modo más prudente por moneda."
+    "Índice Miedo/Codicia en 13 (Extreme Fear), con tendencia bajista en la última semana.",
+    "Capitalización total -4.43% en 24 h con salida de capital hacia activos de IA (Anthropic) según los titulares.",
+    "Caídas de 7 días de entre -6.8% y -16% en las principales monedas, incluido BTC -11.6%.",
+    "Sin evento macro de alto impacto en 24 h ni riesgo grave de seguridad o regulatorio confirmado: no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-14T04:51:07+00:00",
-  "valido_hasta": "2026-11-14T07:51:07+00:00",
+  "generado": "2026-11-14T05:49:08+00:00",
+  "valido_hasta": "2026-11-14T08:49:08+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -4.6,
-    "noticias_analizadas": 29,
+    "cambio_mercado_24h": -4.43,
+    "noticias_analizadas": 26,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -29,11 +29,6 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
-    {
-      "titulo": "Bitcoin Hits 12-Week Low as Fed Rate Fears Undo Most of Summer Rally",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/383231/bitcoin-hits-12-week-low-fed-rate-fears-undo-summer-rally"
-    },
     {
       "titulo": "Fed Chair Warsh Wants Answers on AI Inflation—and Bitcoin May Feel the Impact",
       "fuente": "Decrypt",
@@ -58,17 +53,22 @@
       "titulo": "Trump’s First Democratic Picks for SEC and CFTC Could Reshape Crypto’s Regulators",
       "fuente": "Decrypt",
       "link": "https://decrypt.co/383260/trump-first-democratic-picks-sec-cftc-could-reshape-crypto"
+    },
+    {
+      "titulo": "FBI’s Largest Dark Web Drug Sweep Seizes $234M in Cash and Crypto",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/regulation-and-legal/fbi-largest-dark-web-drug-sweep-seizes-234m-cash-crypto/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8347,
+    "input_tokens": 7918,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 539,
+    "output_tokens": 461,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
