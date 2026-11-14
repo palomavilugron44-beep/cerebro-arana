@@ -1,30 +1,23 @@
 {
-  "modo": "cautela",
-  "monedas": {
-    "AVAXUSDT": {
-      "modo": "pausa",
-      "motivo": "Binance reabre retiradas tras hackeo de 6.300 M$; AVAX cae -14.41% en 24 h y el exchange sigue en recuperación (riesgo de seguridad concreto).",
-      "multiplicador_riesgo": 0.0
-    }
-  },
-  "resumen": "El mercado cripto cae con fuerza (capitalización -8.96% en 24 h, miedo extremo con índice 13) y el BTC ha perdido el nivel de 65.000 USD, con mercados de futuros que dan casi certeza a una subida de tipos de la Fed en diciembre. Hay además un riesgo de seguridad concreto: el hackeo de 6.300 M$ a Binance del 29 de octubre, que aún se está recuperando. Como el riesgo es alto pero no es una caída de más de -7% con liquidaciones en curso a nivel de todo el mercado ni un evento macro en las próximas 2-3 horas, se elige cautela global, y pausa solo para AVAX por ser la moneda más castigada en 24 h y estar entre las afectadas por la reapertura de redes tras el hackeo.",
+  "modo": "pausa",
+  "monedas": {},
+  "resumen": "La capitalización total cae un 8.75% en 24 h con miedo extremo (índice 13) y todas las monedas del universo en caídas de entre -6.7% y -14% en un día. Además, el mercado descuenta casi con certeza una subida de tipos de la Fed en diciembre y Binance acaba de sufrir un hackeo de 6.300 millones de dólares, lo que hace que la caída sea brusca y generalizada en curso. Por ello se pausa la apertura de compras nuevas en general.",
   "motivos": [
-    "Índice Miedo/Codicia en 13 (Extreme Fear) con caída de la capitalización total del -8.96% en 24 h y liquidaciones reportadas (>330 M$ en dos horas).",
-    "BTC cae a ~64.000 USD (-6.66% en 24 h, -14.81% en 7 d); la mayoría de altcoins caen entre -11% y -14% en 24 h.",
-    "Probabilidad casi segura (88.5%) de subida de tipos de la Fed en diciembre según CME Fedwatch; el evento está fuera de la ventana de 2-3 h y no hay eventos de alto impacto en 24 h, así que no se activa pausa global.",
-    "Binance sufrió un hackeo de 6.300 M$ el 29/10/2026 y aún está reabriendo retiradas en 87 redes; riesgo de seguridad de exchange vigente.",
-    "AVAX tiene la mayor caída en 24 h (-14.41%) y sus redes están entre las afectadas por la reapertura de Binance; se aplica pausa solo para esa moneda."
+    "Caída de capitalización total del -8.75% en 24 h con noticias de liquidaciones y capitulación, lo que cumple el criterio de caída brusca en curso.",
+    "Todas las monedas del universo caen entre -6.7% y -14% en 24 h, sin excepciones, por lo que el riesgo es sistémico y no de una moneda concreta.",
+    "Miedo extremo (índice 13) con la tendencia de 7 días en mínimos, y una probabilidad del 88.5% de subida de tipos de la Fed en diciembre según CME Fedwatch.",
+    "Hackeo de Binance por 6.300 millones de dólares el 29 de octubre, con retiradas aún reabriéndose; riesgo de seguridad sobre el exchange principal."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-14T22:37:08+00:00",
-  "valido_hasta": "2026-11-15T01:37:08+00:00",
+  "generado": "2026-11-14T23:34:41+00:00",
+  "valido_hasta": "2026-11-15T02:34:41+00:00",
   "origen": "claude:claude-haiku-5-5",
-  "multiplicador_riesgo": 0.5,
+  "multiplicador_riesgo": 0.0,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -8.96,
-    "noticias_analizadas": 21,
+    "cambio_mercado_24h": -8.75,
+    "noticias_analizadas": 20,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -47,6 +40,11 @@
       "link": "https://decrypt.co/383270/openai-anthropic-google-ai-giants-lawsuit-development-freeze"
     },
     {
+      "titulo": "Bitcoin crashes to 3-month low below $64,000 as analyst flags fourth capitulation wave",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst"
+    },
+    {
       "titulo": "Binance Reopens 87 Networks Following Historic $6.3 Billion Breach",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/featured/binance-reopens-87-networks-following-historic-6-3-billion-breach/"
@@ -57,25 +55,20 @@
       "link": "https://news.bitcoin.com/finance/nakamoto-debt-dwarfs-market-cap-as-bitcoin-price-plunges-below-67k/"
     },
     {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
       "titulo": "Bitcoin Plunges, but Michael Saylor Says STRC Still Delivers Gains",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/featured/bitcoin-plunges-but-michael-saylor-says-strc-still-delivers-gains/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7286,
+    "input_tokens": 7089,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 875,
+    "output_tokens": 560,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
