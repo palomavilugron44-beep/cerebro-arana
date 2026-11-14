@@ -1,25 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto está en miedo extremo (índice 13) tras una caída de la capitalización total del -5.79% en 24 h, con BTC en mínimos de 12 semanas (~68.000 USD) por temores de inflación y de nuevas subidas de tipos. No hay eventos macro de alto impacto en las próximas 24 h ni hallazgos de hackeo, regulación grave o anomalías en las monedas operadas. Se recomienda cautela general (mitad de tamaño en compras nuevas) en lugar de pausa, dado que la caída no alcanza el umbral de -7% y no hay riesgos concretos y graves.",
+  "resumen": "El mercado cripto cayó un 6.59% en 24 h con el índice Miedo/Codicia en 13 (miedo extremo) y BTC en mínimos de 12 semanas por expectativas de subida de tipos de la Fed e inflación persistente. No hay un evento macro de alto impacto en las próximas 24 h ni un hackeo, regulación grave o anomalía de moneda en los datos, por lo que la situación encaja en incertidumbre elevada y no en pausa. Se recomienda cautela global (mitad de tamaño en compras nuevas) y no se aplica ninguna restricción adicional por moneda.",
   "motivos": [
-    "Índice Miedo/Codicia en 13 (Extreme Fear), con tendencia bajista durante la última semana.",
-    "Capitalización total cripto -5.79% en 24 h, cerca pero por debajo del umbral de -7% para pausa.",
-    "BTC en mínimo de 12 semanas (~68.000 USD) por expectativas de subida de tipos de la Fed e inflación persistente.",
-    "Todas las monedas operadas caen entre -1.6% y -5.2% en 24 h, sin caídas anómalas de una moneda concreta.",
-    "Sin eventos económicos USD de alto impacto en las próximas 24 h; el PPI ya se publicó sin sorpresas negativas graves.",
-    "Noticias de salidas de ETF y regulación sin riesgo grave o inmediato identificado para las monedas operadas."
+    "Miedo extremo (índice 13) con caída de capitalización total de -6.59% en 24 h: incertidumbre elevada.",
+    "BTC en mínimo de 12 semanas y ETH/SOL con caídas de 7 días de -14% aproximadamente; presión bajista generalizada.",
+    "Expectativas de nueva subida de tipos de la Fed por inflación persistente, con evento de la Fed (foro sobre IA del 16 de noviembre) fuera de la ventana de 2-3 horas y sin dato macro de alto impacto en 24 h.",
+    "No hay riesgo grave e inmediato (sin hackeo, halt, depeg, delist ni acción regulatoria fuerte): no procede pausa ni alerta de posiciones."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-14T01:59:20+00:00",
-  "valido_hasta": "2026-11-14T04:59:20+00:00",
+  "generado": "2026-11-14T02:49:09+00:00",
+  "valido_hasta": "2026-11-14T05:49:09+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -5.79,
-    "noticias_analizadas": 32,
+    "cambio_mercado_24h": -6.59,
+    "noticias_analizadas": 31,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -63,14 +61,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8751,
+    "input_tokens": 8652,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 629,
+    "output_tokens": 598,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
