@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 13) tras una caída de la capitalización total de -5.08% en 24 h, con todas las monedas del universo en negativo y salidas de fondos de Bitcoin ETF por más de 1.000 M$ semanales durante dos semanas. No hay eventos macro de alto impacto en 24 h ni hackeos o acciones regulatorias graves contra estas monedas; las noticias son en su mayoría regulatorias de EE. UU. sin afectar directamente a las monedas operadas. Dado que la caída no supera el umbral de -7% ni hay un riesgo concreto y grave, se recomienda cautela general (mitad de tamaño) y no pausa.",
+  "resumen": "El miedo extremo (índice 13) y la caída de la capitalización total del -4.58% en 24 h, con salidas de ETFs de BTC por más de 2.350 M$ en dos semanas, indican un entorno de alta incertidumbre. No hay eventos macro de alto impacto en 24 h ni un riesgo grave de seguridad o regulatorio, así que la caída no alcanza el umbral de pausa del -7%. Se recomienda operar con la mitad del tamaño de compra de forma global.",
   "motivos": [
-    "Miedo extremo (índice 13) con tendencia de caída en la última semana y capitalización total -5.08% en 24 h.",
-    "Salidas netas de ETF de Bitcoin por 2.35 mil M$ en dos semanas, indicando presión vendedora institucional.",
-    "SOL, ADA y XRP caen más de 4% en 24 h; la caída es generalizada, no limitada a una moneda concreta.",
-    "No hay eventos macro de alto impacto en 24 h ni riesgo de seguridad, halt o depeg que justifique pausa."
+    "Índice Miedo/Codicia en 13 (Extreme Fear), con tendencia bajista durante la última semana.",
+    "Capitalización total cripto -4.58% en 24 h, por debajo del umbral de pausa (-7%) pero con volatilidad fuerte.",
+    "Salidas netas de ETFs spot de BTC por unos 2.350 M$ en dos semanas consecutivas, la mayor salida semanal desde junio.",
+    "Todas las monedas de la lista caen entre -1.5% y -5.9% en 24 h y entre -4% y -16.6% en 7 días.",
+    "No hay eventos macro de alto impacto USD en las próximas 24 h ni noticias de hackeo, halt o acción regulatoria grave contra alguna moneda."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-14T07:58:59+00:00",
-  "valido_hasta": "2026-11-14T10:58:59+00:00",
+  "generado": "2026-11-14T08:48:20+00:00",
+  "valido_hasta": "2026-11-14T11:48:20+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -5.08,
-    "noticias_analizadas": 19,
-    "articulos_leidos": 8,
+    "cambio_mercado_24h": -4.58,
+    "noticias_analizadas": 18,
+    "articulos_leidos": 7,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
@@ -29,11 +30,6 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
-    {
-      "titulo": "DOJ, CFTC Sue Arkansas to Block Kalshi Crackdown as Prediction Market Battle Escalates",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/regulation-and-legal/doj-cftc-sue-arkansas-block-kalshi-crackdown-prediction-market-battle/"
-    },
     {
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
@@ -58,17 +54,22 @@
       "titulo": "Should Government Officials Be Banned From Prediction Markets? House Oversight Says Maybe",
       "fuente": "Decrypt",
       "link": "https://decrypt.co/383271/government-officials-banned-prediction-markets-house-oversight"
+    },
+    {
+      "titulo": "Peter Schiff Calls Bitcoin a ‘Slow Bleed’ While Gold Slides Below $3,900",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/finance/peter-schiff-calls-bitcoin-a-slow-bleed-while-gold-slides-below-3900/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7016,
+    "input_tokens": 6552,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 559,
+    "output_tokens": 561,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
