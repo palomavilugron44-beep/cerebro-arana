@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza (capitalización total -6.31% en 24 h) y el índice Miedo/Codicia está en 20 (miedo extremo), con BTC en mínimos de 12 semanas (~68.100 USD) por temores de inflación y de una nueva subida de tipos de la Fed. Hay liquidaciones por más de 1.600 millones de USD, pero no se detecta exploit, regulación grave ni halt o depeg, y no hay eventos macro de alto impacto en las próximas 24 h. Se elige cautela general (compras con la mitad del tamaño) por volatilidad elevada y miedo extremo, sin llegar a pausa.",
+  "resumen": "El mercado cripto está en miedo extremo (índice 13) tras una caída de la capitalización total del -5.95% en 24 h, con BTC en mínimos de 12 semanas (~68.000 USD) por temores de inflación y posibles subidas de tipos de la Fed. No hay eventos macro de alto impacto en las próximas 24 h ni hackeos o acciones regulatorias graves contra las monedas del bot, por lo que no justifica una pausa. Se recomienda cautela (mitad de tamaño en compras nuevas) mientras dura la volatilidad.",
   "motivos": [
-    "Miedo extremo (índice 20) y capitalización total -6.31% en 24 h con liquidaciones superiores a 1.600 M USD.",
-    "BTC en mínimo de 12 semanas (~68.100 USD) y todas las monedas de la lista en caída de 1.5% a 4.5% en 24 h.",
-    "Preocupación por inflación y posible subida de tipos de la Fed, sin evento macro de alto impacto confirmado en las próximas 24 h.",
-    "No hay señales de hackeo, exploit, halt, depeg ni acción regulatoria grave contra las monedas operadas."
+    "Índice Miedo/Codicia en 13 (Extreme Fear), con tendencia bajista desde 28-32 hace una semana.",
+    "Capitalización total cripto -5.95% en 24 h; todas las monedas del bot caen entre -1.2% y -4.5% en 24 h y entre -1.5% y -14% en 7 días.",
+    "BTC en mínimo de 12 semanas por expectativas de subida de tipos de la Fed y salidas de ETF; el sentimiento de riesgo es negativo.",
+    "Sin eventos macro de alto impacto en las próximas 24 h, por lo que no se activa pausa por calendario.",
+    "No se detectan hackeos, deslistados ni acciones regulatorias graves contra las monedas operadas; las noticias regulatorias son de tramitación ordinaria."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-13T23:39:30+00:00",
-  "valido_hasta": "2026-11-14T02:39:30+00:00",
+  "generado": "2026-11-14T00:56:28+00:00",
+  "valido_hasta": "2026-11-14T03:56:28+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
-    "miedo_codicia": 20,
-    "cambio_mercado_24h": -6.31,
-    "noticias_analizadas": 41,
+    "miedo_codicia": 13,
+    "cambio_mercado_24h": -5.95,
+    "noticias_analizadas": 37,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -55,20 +56,20 @@
       "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-heads-for-sixth-weekly-loss-as-anthropic-s-blockbuster-ipo-looms"
     },
     {
-      "titulo": "Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-hits-12-week-low-as-dollar-rallies-on-interest-rate-outlook-liquidations-top-usd1-6-billion"
+      "titulo": "Here’s what happened in crypto today",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9659,
+    "input_tokens": 9312,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 564,
+    "output_tokens": 602,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
