@@ -1,24 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El índice Miedo/Codicia está en 13 (miedo extremo) y la capitalización total cae un 3.46% en 24 h, con salidas de unos 2.350 millones de dólares de ETFs spot de Bitcoin en dos semanas. No hay eventos macro de alto impacto en las próximas 24 h ni hallazgos de hackeo, halt, depeg o acción regulatoria grave contra alguna moneda de la lista. Por ello se recomienda cautela general por miedo extremo y volatilidad, sin pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 13) tras una caída de la capitalización total de -5.08% en 24 h, con todas las monedas del universo en negativo y salidas de fondos de Bitcoin ETF por más de 1.000 M$ semanales durante dos semanas. No hay eventos macro de alto impacto en 24 h ni hackeos o acciones regulatorias graves contra estas monedas; las noticias son en su mayoría regulatorias de EE. UU. sin afectar directamente a las monedas operadas. Dado que la caída no supera el umbral de -7% ni hay un riesgo concreto y grave, se recomienda cautela general (mitad de tamaño) y no pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 13 (Extreme Fear), con tendencia descendente en los últimos 7 días.",
-    "Capitalización total -3.46% en 24 h y todas las monedas de la lista en negativo en 24 h y 7 días.",
-    "Salidas netas de unos 2.35 mil millones de dólares de ETFs spot de Bitcoin en dos semanas consecutivas.",
-    "Noticias regulatorias (DOJ/CFTC vs. Arkansas, Kalshi) y sobre prediction markets son negativas pero no graves ni dirigidas a una moneda concreta.",
-    "Sin eventos económicos USD de alto impacto en las próximas 24 h, por lo que no procede pausa."
+    "Miedo extremo (índice 13) con tendencia de caída en la última semana y capitalización total -5.08% en 24 h.",
+    "Salidas netas de ETF de Bitcoin por 2.35 mil M$ en dos semanas, indicando presión vendedora institucional.",
+    "SOL, ADA y XRP caen más de 4% en 24 h; la caída es generalizada, no limitada a una moneda concreta.",
+    "No hay eventos macro de alto impacto en 24 h ni riesgo de seguridad, halt o depeg que justifique pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-14T06:55:55+00:00",
-  "valido_hasta": "2026-11-14T09:55:55+00:00",
+  "generado": "2026-11-14T07:58:59+00:00",
+  "valido_hasta": "2026-11-14T10:58:59+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -3.46,
-    "noticias_analizadas": 22,
+    "cambio_mercado_24h": -5.08,
+    "noticias_analizadas": 19,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -41,7 +40,7 @@
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "titulo": "Bitcoin ETFs shed $2.35B in two weeks as BlackRock’s losing streak hits 11 sessions",
+      "titulo": "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock’s losing streak hits 11",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/markets/bitcoin-etf-outflows-2-35-billion-blackrock-11-session-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
@@ -62,14 +61,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7496,
+    "input_tokens": 7016,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 562,
+    "output_tokens": 559,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
