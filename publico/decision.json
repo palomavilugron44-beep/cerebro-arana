@@ -1,25 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) tras una caída de la capitalización total del -5.31% en 24 h, con BTC rebotando desde un mínimo de cuatro meses cerca de 62.000 USD y salidas continuas de ETFs de Bitcoin (siete días seguidos, unos 2.100 M USD en noviembre). No hay un evento macro de alto impacto en las próximas 24 h ni un exploit grave en una red o exchange; el incidente de Coinone es una brecha de datos de un proveedor externo, no un riesgo de fondos inmediato. Por ello se elige cautela general (mitad de tamaño en compras nuevas), sin pausa ni alerta sobre posiciones.",
+  "resumen": "El mercado está en miedo extremo (índice 10) tras una caída de la capitalización total del -4.31% en 24 h y de alrededor del -15% a -20% semanal en las principales monedas, con salidas sostenidas de ETF de Bitcoin y liquidaciones de unos 1.700 M$. No hay un evento de seguridad, regulatorio o de exchange que sea grave y concreto, y la caída no ha llegado a la magnitud de -7% que justificaría pausa. Se recomienda cautela global (mitad de tamaño) por la volatilidad y el miedo extremo, y revisar el riesgo antes de la intervención de la Fed prevista para mañana.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear), con tendencia muy bajista en los últimos 7 días.",
-    "Capitalización total -5.31% en 24 h y caídas semanales de 12-20% en las 10 monedas operadas.",
-    "Salidas netas de ETFs de Bitcoin durante siete sesiones consecutivas (unos 2.100 M USD en noviembre).",
-    "Liquidaciones de unos 1.600 M USD reportadas, lo que indica volatilidad elevada.",
-    "No hay eventos macro de alto impacto en 24 h; la brecha de Coinone afecta a datos de clientes de un proveedor, no a fondos de la plataforma.",
-    "No se detectan riesgos graves ni anomalías (halt, depeg, delist) que justifiquen una pausa."
+    "Miedo extremo (índice 10) con tendencia descendente desde 29-32 hace una semana.",
+    "Capitalización total -4.31% en 24 h y ~130.000 M$ perdidos desde el viernes; BTC toca mínimos de 4 meses cerca de 62.000 USD.",
+    "Salidas de ETF de Bitcoin durante siete días seguidos (~2.100 M$ en noviembre) y 1.710 M$ en liquidaciones.",
+    "Evento macro de alto impacto: Fed (Warsh) previsto el 16/11 a las 17:00 UTC, dentro de las próximas 24 h.",
+    "Ninguna moneda muestra una situación anómala (halt, depeg, delist) ni hay un hackeo o acción regulatoria grave identificada; la filtración de datos de Coinone es de un exchange surcoreano sin impacto directo en Binance."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-15T16:39:52+00:00",
-  "valido_hasta": "2026-11-15T19:39:52+00:00",
+  "generado": "2026-11-15T17:35:41+00:00",
+  "valido_hasta": "2026-11-15T20:35:41+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -5.31,
-    "noticias_analizadas": 15,
+    "cambio_mercado_24h": -4.31,
+    "noticias_analizadas": 17,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -28,9 +27,14 @@
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
-    "eventos_usd_24h": 0
+    "eventos_usd_24h": 1
   },
   "titulares": [
+    {
+      "titulo": "Crypto Market Rout Deepens as XRP Price Hits 2-Year Low and ETF Money Flees",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/crypto-market-rout-deepens-as-xrp-price-hits-2-year-low-and-etf-money-flees/"
+    },
     {
       "titulo": "Bitcoin falls to four-month low near $62K as crypto selloff deepens",
       "fuente": "Cointelegraph",
@@ -55,22 +59,17 @@
       "titulo": "Bitcoin ETFs Lose $2.1 Billion in November as Outflow Streak Hits Seven Days",
       "fuente": "Decrypt",
       "link": "https://decrypt.co/383282/bitcoin-etfs-lose-2-1-billion-november-outflow-streak-seven-days"
-    },
-    {
-      "titulo": "Michael Saylor Hints at Another Strategy Bitcoin Buy as BTC Slides",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/featured/michael-saylor-hints-at-another-strategy-bitcoin-buy-as-btc-slides/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6477,
+    "input_tokens": 6854,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 654,
+    "output_tokens": 664,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
