@@ -1,25 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo -6.07% en 24 h y BTC cerca de 65K tras perder terreno durante semanas. Las expectativas de subida de tipos de la Fed en diciembre (88.5% de probabilidad de +25 pb) y el riesgo de liquidaciones en cascada justifican reducir el tamaño de las nuevas compras, sin llegar a pausar. No se detectan hechos de seguridad o anomalías graves en las monedas del bot que exijan una pausa total.",
+  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo un 5.25% en 24 h y BTC cerca de 65K con riesgo de cascada de liquidaciones según Glassnode. Además, la probabilidad de una subida de tipos de la Fed en diciembre es casi segura, aunque el evento cae fuera de las próximas 2-3 horas. No hay un hackeo que afecte directamente a las monedas operadas ni una pausa justificada, así que se recomienda reducir el tamaño de las compras nuevas.",
   "motivos": [
-    "Miedo extremo (índice 10) y caída de la capitalización total de -6.07% en 24 h, con todas las monedas del bot en negativo.",
-    "Expectativas hawkish: futuros asignan 88.5% a una subida de tipos de la Fed el 8-9 de diciembre, evento macro importante dentro de las próximas 24 h o semanas, con posible presión adicional sobre cripto.",
-    "Riesgo de liquidaciones en cascada: Glassnode advierte de un cluster de liquidaciones cerca de 60K en BTC; BTC ya cotiza en mínimos de 3 meses bajo 63K.",
-    "Salidas de ETF y contracción de stablecoins (-26 mil millones desde el pico de mayo); XRP en mínimos desde noviembre de 2024.",
-    "El hackeo a Binance (robo atribuido a Corea del Norte) es un incidente previo ya en recuperación; no se considera un riesgo nuevo y grave para el bot. Sin halts, depegs ni deslistados reportados.",
-    "No hay evento macro de alto impacto en las próximas 2-3 horas, por lo que no se justifica pausa."
+    "Miedo extremo (índice 10) y caída de la capitalización total de -5.25% en 24 h, con todas las monedas de la lista en negativo.",
+    "Glassnode advierte de un cluster de liquidaciones de largos cerca de 60K en BTC, lo que podría profundizar la caída.",
+    "Probabilidad casi segura de subida de tipos de la Fed en la reunión del 8-9 de diciembre (evento macro importante dentro de 24 h o más, no inmediato).",
+    "Hackeo de Unocoin (200K USD) y robo a Binance investigado por la DOJ: incidentes relevantes pero no afectan directamente a las monedas operadas ni son graves para ellas.",
+    "No hay señal de anomalía (halt, depeg o delist) en las monedas operadas, por lo que no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-15T03:52:18+00:00",
-  "valido_hasta": "2026-11-15T06:52:18+00:00",
+  "generado": "2026-11-15T04:53:59+00:00",
+  "valido_hasta": "2026-11-15T07:53:59+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -6.07,
-    "noticias_analizadas": 15,
+    "cambio_mercado_24h": -5.25,
+    "noticias_analizadas": 13,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -63,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6357,
+    "input_tokens": 6198,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 715,
+    "output_tokens": 601,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
