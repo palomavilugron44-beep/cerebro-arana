@@ -1,23 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) tras una caída de la capitalización de -3.11% en 24 h y pérdidas semanales de entre -11% y -20% en las monedas vigiladas, con salidas netas de ETFs de Bitcoin y Ether. Hay además un evento macro de alto impacto (intervención de la Fed) previsto para dentro de unas 19 horas, lo que justifica reducir el tamaño de las compras nuevas. No se detecta un exploit que afecte directamente a las monedas operadas ni una situación anómala de halt, depeg o delist, por lo que no se pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 10) tras una caída de fin de semana que ha restado más de 130.000 millones de dólares, con BTC cerca de 62.000 USD y 1.710 millones en liquidaciones. Hay además un evento macro relevante (intervención de Warsh de la Fed) previsto en menos de 24 horas, aunque fuera de la ventana de 2-3 horas que marcaría pausa. No hay un hackeo que afecte a las monedas operadas ni una acción regulatoria grave, así que se recomienda cautela (mitad de tamaño) y no pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear), con caídas semanales de -11% a -20% en las 10 monedas.",
-    "Capitalización total -3.11% en 24 h, con liquidaciones de unos 1.7 mil millones de dólares y salidas de ETFs de Bitcoin durante siete días seguidos.",
-    "Intervención de la Fed (Warsh) prevista el 16/11 a las 17:00 UTC, dentro de las próximas 24 h: evento macro importante.",
-    "El hackeo de Luxor (minería) y la brecha de datos de Coinone son incidentes no directos sobre las monedas operadas; no justifican pausa.",
-    "Precio de XRP bajo 1 USD y mínimos de 4 meses en BTC, sin señal de anomalía de la moneda (no halt ni depeg)."
+    "Índice Miedo/Codicia en 10 (Extreme Fear), con caída de capitalización total de -2,15% en 24 h y más de 130.000 M$ perdidos desde el viernes.",
+    "Evento macro de alto impacto (Fed Chairman Warsh) previsto a las 17:00 UTC del 16 de noviembre, dentro de las próximas 24 h pero no en las próximas 2-3 h.",
+    "Flujos negativos sostenidos en ETF de BTC y ETH (siete días seguidos de salidas en BTC) e incertidumbre elevada en el mercado.",
+    "Incidentes de seguridad (exploit en Kava Lend, brecha de datos en Coinone, hackeo en Luxor) son de impacto acotado a protocolos o plataformas concretas y no afectan a las monedas operadas; no justifican pausa global ni por moneda.",
+    "Los rebotes de 24 h en todas las monedas y las noticias positivas no justifican un modo más agresivo; se mantiene la prudencia."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-15T21:36:50+00:00",
-  "valido_hasta": "2026-11-16T00:36:50+00:00",
+  "generado": "2026-11-15T22:38:23+00:00",
+  "valido_hasta": "2026-11-16T01:38:23+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -3.11,
+    "cambio_mercado_24h": -2.15,
     "noticias_analizadas": 22,
     "articulos_leidos": 8,
     "fuentes": {
@@ -36,9 +36,9 @@
       "link": "https://news.bitcoin.com/market-updates/crypto-market-rout-deepens-as-xrp-price-hits-2-year-low-and-etf-money-flees/"
     },
     {
-      "titulo": "Bitcoin falls to four-month low near $62K as crypto selloff deepens",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "titulo": "Kava Lend Exploit Exposes a Dangerous Gap in DeFi Collateral Accounting",
+      "fuente": "NewsBTC",
+      "link": "https://www.newsbtc.com/news/defi/kava-lend-exploit-collateral-busd-market-55-million/"
     },
     {
       "titulo": "Luxor Confirms Bitcoin Mining Hack and Reveals AI-Enabled Attack",
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7539,
+    "input_tokens": 7562,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 630,
+    "output_tokens": 688,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
