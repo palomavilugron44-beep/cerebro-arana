@@ -1,25 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza (capitalización total -6.47% en 24 h) y el miedo extremo (índice 10) se mantiene desde hace una semana, con BTC cerca de 64K y riesgo de liquidaciones en torno a 60K según Glassnode. No hay eventos macro de alto impacto en 24 h ni una caída que supere claramente el umbral de -7%, por lo que se recomienda cautela en lugar de pausa. Los hackeos (Binance/Unocoin) y el colapso de XRP son noticias negativas relevantes pero no afectan directamente la operativa de las monedas del bot de forma anómala.",
+  "resumen": "El mercado cripto está en miedo extremo (índice 10) tras una caída de la capitalización total del -7.2% en 24 h, con todas las monedas en rojo y SOL, DOGE y ADA cayendo más del 7%. Hay riesgo de liquidaciones forzadas cerca de 60K en BTC según Glassnode, y XRP marca mínimos desde noviembre de 2024 por salidas de ETF. No hay eventos macro de alto impacto en 24 h ni un riesgo grave y concreto que justifique pausar, así que se recomienda cautela general (mitad de tamaño) en lugar de pausa.",
   "motivos": [
-    "Miedo extremo (índice 10) sostenido durante 7 días con caída de capitalización total de -6.47% en 24 h",
-    "Riesgo de liquidaciones en cascada cerca de 60K para BTC según Glassnode, con presión vendedora activa",
-    "Caídas de -8% a -11% en 24 h en AVAX, DOGE, ADA y LTC indican volatilidad fuerte",
-    "Noticias de hackeo (robo a Binance atribuido a Norcorea) y de Unocoin son relevantes pero no implican halt, depeg ni delist de las monedas operadas",
-    "Sin eventos macro de alto impacto en las próximas 24 h y caída no alcanza el umbral de -7% para pausa"
+    "Miedo extremo (índice 10) con caída de capitalización total de -7.2% en 24 h, que supera el umbral de volatilidad fuerte.",
+    "Glassnode advierte de un cluster de liquidaciones de longs cerca de 60K en BTC, con riesgo de ventas forzadas en cascada.",
+    "XRP en mínimos desde nov. 2024 por salidas de ETF y contracción de stablecoins; presión vendedora generalizada en el mercado.",
+    "Noticias sobre el hackeo de Binance (robo atribuido a Corea del Norte) son antiguas y ya están en proceso de recuperación; no suponen un riesgo nuevo para el bot.",
+    "No hay eventos macro USD de alto impacto en las próximas 24 h, por lo que no se activa pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-15T06:59:15+00:00",
-  "valido_hasta": "2026-11-15T09:59:15+00:00",
+  "generado": "2026-11-15T08:04:33+00:00",
+  "valido_hasta": "2026-11-15T11:04:33+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -6.47,
-    "noticias_analizadas": 11,
-    "articulos_leidos": 7,
+    "cambio_mercado_24h": -7.2,
+    "noticias_analizadas": 10,
+    "articulos_leidos": 6,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 5593,
+    "input_tokens": 5215,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 598,
+    "output_tokens": 619,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
