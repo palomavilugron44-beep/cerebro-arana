@@ -1,26 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto está en miedo extremo (índice 10) tras una caída de la capitalización total del -5.42% en 24 h, con BTC tocando un mínimo de cuatro meses cerca de 62K y rebotando a 65.5K. Hay un cluster de liquidaciones de largos cerca de 60K según Glassnode, lo que aumenta la volatilidad a corto plazo. No hay eventos macro de alto impacto en 24 h ni una anomalía grave en las monedas, por lo que se recomienda cautela (mitad de tamaño) y no pausa.",
+  "resumen": "El mercado cripto está en miedo extremo (índice 10) con una caída de capitalización total del -5.1% en 24 h y BTC probando un mínimo de cuatro meses cerca de 62.000 USD antes de rebotar sobre 65.000. Hay liquidaciones de 1.600 M USD y un cluster de liquidaciones de largos cerca de 60.000 según Glassnode, lo que justifica cautela, pero no hay evento macro de alto impacto en 24 h ni una anomalía concreta de moneda o exchange que obligue a pausar. Las noticias sobre el hackeo de Binance (con fondos recuperándose) y la brecha de Coinone son incidentes ajenos a las monedas operadas, por lo que no se aplica pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear), con tendencia a la baja en la última semana.",
-    "Capitalización total cripto -5.42% en 24 h; BTC en mínimo de cuatro meses cerca de 62K.",
-    "Glassnode advierte de un cluster de liquidaciones de largos cerca de 60K que podría profundizar la caída.",
-    "Salidas de ETF y menor liquidez; XRP en mínimos desde noviembre de 2024.",
-    "Robo de más de 6.000 M$ a Binance atribuido a hackers norcoreanos (oct. 29); recuperación de fondos en curso, sin señal de riesgo operativo inmediato para Binance.",
-    "Sin eventos macro de alto impacto en las próximas 24 h; no se detecta halt, depeg ni delist."
+    "Miedo extremo (índice 10) con tendencia de deterioro durante 7 días y volatilidad fuerte.",
+    "Capitalización total -5.1% en 24 h, con liquidaciones de 1.600 M USD y riesgo de liquidaciones forzadas cerca de 60.000 USD en BTC.",
+    "Ninguna moneda operada muestra halt, depeg o delist; no hay evento macro de alto impacto en las próximas 24 h.",
+    "El hackeo de Binance y la brecha de Coinone no afectan directamente a las monedas operadas y no alcanzan el nivel de riesgo grave para pausar."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-15T10:42:35+00:00",
-  "valido_hasta": "2026-11-15T13:42:35+00:00",
+  "generado": "2026-11-15T11:38:44+00:00",
+  "valido_hasta": "2026-11-15T14:38:44+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -5.42,
-    "noticias_analizadas": 12,
-    "articulos_leidos": 6,
+    "cambio_mercado_24h": -5.1,
+    "noticias_analizadas": 13,
+    "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
@@ -42,6 +40,16 @@
       "link": "https://www.coindesk.com/markets/2026/11/15/xrp-crashes-to-its-lowest-since-november-2024-as-money-leaves-crypto"
     },
     {
+      "titulo": "Bitcoin Falls, DTCC Chooses Solana for Tokenization Expansion, and More – Weekly Recap",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/featured/bitcoin-falls-dtcc-chooses-solana-for-tokenization-expansion-and-more-weekly-recap/"
+    },
+    {
+      "titulo": "Here’s what happened in crypto today",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "titulo": "Nubank Secures Brazil Banking License to Save Its Iconic Name",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/finance/nubank-secures-brazil-banking-license-to-save-its-iconic-name/"
@@ -50,27 +58,17 @@
       "titulo": "DOJ Secures Court Approval Targeting $1.2B in Stolen Binance Crypto",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/regulation-and-legal/doj-secures-court-approval-targeting-1-2b-in-stolen-binance-crypto/"
-    },
-    {
-      "titulo": "Bitcoin Faces Massive Liquidation Cluster Near $60K, Glassnode Warns",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/bitcoin-faces-massive-liquidation-cluster-near-60k-glassnode-warns/"
-    },
-    {
-      "titulo": "Coinone warns of phishing, identity theft after customer data breach",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/coinone-data-breach-phishing-identity-theft-customer-information?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 5462,
+    "input_tokens": 6117,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 643,
+    "output_tokens": 607,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
