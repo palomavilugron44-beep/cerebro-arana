@@ -1,25 +1,26 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo un 5.25% en 24 h y BTC cerca de 65K con riesgo de cascada de liquidaciones según Glassnode. Además, la probabilidad de una subida de tipos de la Fed en diciembre es casi segura, aunque el evento cae fuera de las próximas 2-3 horas. No hay un hackeo que afecte directamente a las monedas operadas ni una pausa justificada, así que se recomienda reducir el tamaño de las compras nuevas.",
+  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo un 5.79% en 24 h y BTC cerca de 65K tras perder más de un 14% en 7 días. Las expectativas de subida de tipos de la Fed en diciembre (88.5% de probabilidad de +25 pb) y el riesgo de liquidaciones en cascada cerca de 60K justifican reducir el tamaño de nuevas compras, aunque no hay un evento de riesgo grave e inmediato que obligue a pausar. Las noticias de hackeo de Binance y Unocoin son de incidentes ya conocidos y sin impacto directo en las monedas operadas, por lo que no se aplica pausa.",
   "motivos": [
-    "Miedo extremo (índice 10) y caída de la capitalización total de -5.25% en 24 h, con todas las monedas de la lista en negativo.",
-    "Glassnode advierte de un cluster de liquidaciones de largos cerca de 60K en BTC, lo que podría profundizar la caída.",
-    "Probabilidad casi segura de subida de tipos de la Fed en la reunión del 8-9 de diciembre (evento macro importante dentro de 24 h o más, no inmediato).",
-    "Hackeo de Unocoin (200K USD) y robo a Binance investigado por la DOJ: incidentes relevantes pero no afectan directamente a las monedas operadas ni son graves para ellas.",
-    "No hay señal de anomalía (halt, depeg o delist) en las monedas operadas, por lo que no se justifica pausa."
+    "Índice Miedo/Codicia en 10 (Extreme Fear) con tendencia a la baja en la última semana.",
+    "Capitalización total -5.79% en 24 h; todas las monedas operadas caen entre -3.3% y -10.4% en 24 h.",
+    "Probabilidad de 88.5% de subida de tipos de la Fed el 8-9 de diciembre, con ~24 h sin evento macro de alto impacto pero evento relevante próximo.",
+    "Glassnode advierte de un cluster de liquidaciones de longs cerca de 60K en BTC, lo que puede profundizar la caída.",
+    "Salidas de ETF y contracción de stablecoins presionan el mercado (XRP en mínimos desde nov. 2024).",
+    "Robo de Binance (~6000 M$ atribuido a Norcorea) y hackeo de Unocoin: incidentes no graves para las monedas operadas, no justifican pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-15T04:53:59+00:00",
-  "valido_hasta": "2026-11-15T07:53:59+00:00",
+  "generado": "2026-11-15T05:51:59+00:00",
+  "valido_hasta": "2026-11-15T08:51:59+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -5.25,
-    "noticias_analizadas": 13,
-    "articulos_leidos": 8,
+    "cambio_mercado_24h": -5.79,
+    "noticias_analizadas": 11,
+    "articulos_leidos": 7,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
@@ -56,20 +57,20 @@
       "link": "https://news.bitcoin.com/market-updates/bitcoin-faces-massive-liquidation-cluster-near-60k-glassnode-warns/"
     },
     {
-      "titulo": "OpenAI, Anthropic, Google and Other AI Giants Face Lawsuit Demanding Development Freeze",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/383270/openai-anthropic-google-ai-giants-lawsuit-development-freeze"
+      "titulo": "Bitcoin Plunges, but Michael Saylor Says STRC Still Delivers Gains",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/featured/bitcoin-plunges-but-michael-saylor-says-strc-still-delivers-gains/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6198,
+    "input_tokens": 5665,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 601,
+    "output_tokens": 690,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
