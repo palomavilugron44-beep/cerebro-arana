@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto está en miedo extremo (índice 10) tras una caída de capitalización total del -5.22% en 24 h, con BTC cerca de 62-65 mil USD y salidas sostenidas de ETFs de bitcoin. El riesgo es elevado pero no hay una caída de -7% ni un evento grave confirmado, y la macro de alto impacto (Fed, Warsh) cae en unas 22 horas, fuera de la ventana de 2-3 horas. Se recomienda cautela general: el bot debe reducir a la mitad el tamaño de las compras nuevas, sin pausa.",
+  "resumen": "El mercado cripto está en miedo extremo (índice 10) tras una caída de la capitalización total del -4.37% en 24 h, con BTC cerca de 62-65k USD y XRP bajo 1 USD, y salidas de ETF de bitcoin durante siete días seguidos. No hay hackeos, acciones regulatorias graves ni caídas de tipo -7% en 24 h, así que no justifica pausa. Se elige cautela general por volatilidad y miedo extremo, con la reunión de la Fed (Warsh) prevista en menos de 24 h como factor adicional.",
   "motivos": [
-    "Miedo extremo (índice 10) con racha de caídas y capitalización total -5.22% en 24 h",
-    "Salidas de ETFs de bitcoin durante siete sesiones seguidas (unos 2.1-2.35 mil millones USD en noviembre)",
-    "Evento macro importante (Fed, Warsh) dentro de las próximas 24 h, fuera de la ventana de pausa",
-    "Caídas de 7 días de entre -12% y -20% en las 10 monedas, sin hechos de seguridad o regulatorios graves confirmados",
-    "Noticias sobre el hackeo de Coinone y la caída de XRP bajo 1 USD son negativas pero no graves a nivel de mercado"
+    "Índice Miedo/Codicia en 10 (Extreme Fear) y tendencia descendente en la última semana.",
+    "Capitalización total -4.37% en 24 h y caídas de 7 días entre -12% y -20% en las 10 monedas.",
+    "Salidas de ETF de bitcoin durante siete días consecutivos y liquidaciones de unos 1.7 mil millones USD.",
+    "Intervención de Warsh (Fed) prevista en las próximas 24 h, evento macro importante aunque no de impacto inmediato en 2-3 h.",
+    "Sin hackeos, depegs, halts ni acciones regulatorias graves que justifiquen pausa; la caída no supera -7% en 24 h."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-15T18:42:29+00:00",
-  "valido_hasta": "2026-11-15T21:42:29+00:00",
+  "generado": "2026-11-15T19:42:53+00:00",
+  "valido_hasta": "2026-11-15T22:42:53+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -5.22,
-    "noticias_analizadas": 18,
+    "cambio_mercado_24h": -4.37,
+    "noticias_analizadas": 21,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -41,35 +41,35 @@
       "link": "https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "titulo": "Tom Lee Predicts Massive Crypto Supercycle Despite Market Crash",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/crypto-news/tom-lee-predicts-massive-crypto-supercycle-despite-market-crash/"
+    },
+    {
       "titulo": "Bitcoin Falls, DTCC Chooses Solana for Tokenization Expansion, and More – Weekly Recap",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/featured/bitcoin-falls-dtcc-chooses-solana-for-tokenization-expansion-and-more-weekly-recap/"
     },
     {
+      "titulo": "XRP Briefly Drops to $0.89 as Crypto Liquidity Retreats",
+      "fuente": "NewsBTC",
+      "link": "https://www.newsbtc.com/xrp-news/xrp-falls-089-november-2026-market-liquidity/"
+    },
+    {
       "titulo": "Strategist Sees Bitcoin Path to $170K Despite Selloff, Says ‘Buy the Fear’",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/strategist-sees-bitcoin-path-to-170k-despite-selloff-says-buy-the-fear/"
-    },
-    {
-      "titulo": "Bitcoin Mining Hits Breaking Point as Difficulty Plunges 9.13%",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/mining/bitcoin-mining-hits-breaking-point-as-difficulty-plunges-9-13/"
-    },
-    {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7073,
+    "input_tokens": 7437,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 577,
+    "output_tokens": 571,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
