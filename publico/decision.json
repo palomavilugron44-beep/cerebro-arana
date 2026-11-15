@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto está en miedo extremo (índice 10) tras una caída de la capitalización total del -4.85% en 24 h, con BTC cerca de 65.000 USD y riesgo de liquidaciones en cascada según Glassnode. No hay eventos macro de alto impacto en las próximas 24 h ni una señal de hackeo que afecte directamente a las monedas operadas, por lo que no justifica pausa. Se recomienda cautela general (compras a mitad de tamaño) mientras dure la volatilidad.",
+  "resumen": "El mercado cripto está en miedo extremo (índice 10) tras una caída de la capitalización total del -5.42% en 24 h, con BTC tocando un mínimo de cuatro meses cerca de 62K y rebotando a 65.5K. Hay un cluster de liquidaciones de largos cerca de 60K según Glassnode, lo que aumenta la volatilidad a corto plazo. No hay eventos macro de alto impacto en 24 h ni una anomalía grave en las monedas, por lo que se recomienda cautela (mitad de tamaño) y no pausa.",
   "motivos": [
-    "Miedo extremo (índice 10) con caída de capitalización total de -4.85% en 24 h y tendencia de 7 días muy negativa.",
-    "Glassnode advierte de un cluster de liquidaciones de longs cerca de 60K USD en BTC, lo que podría profundizar la caída.",
-    "Salidas de ETF y reducción de stablecoins presionan al mercado; XRP en mínimos desde noviembre de 2024.",
-    "Hackeo de Binance (~6.000 M USD atribuido a hackers norcoreanos) y brecha en Coinone son noticias negativas relevantes pero no afectan directamente a las monedas operadas ni son de riesgo inmediato grave.",
-    "No hay eventos económicos USD de alto impacto en 24 h, por lo que no se activa pausa."
+    "Índice Miedo/Codicia en 10 (Extreme Fear), con tendencia a la baja en la última semana.",
+    "Capitalización total cripto -5.42% en 24 h; BTC en mínimo de cuatro meses cerca de 62K.",
+    "Glassnode advierte de un cluster de liquidaciones de largos cerca de 60K que podría profundizar la caída.",
+    "Salidas de ETF y menor liquidez; XRP en mínimos desde noviembre de 2024.",
+    "Robo de más de 6.000 M$ a Binance atribuido a hackers norcoreanos (oct. 29); recuperación de fondos en curso, sin señal de riesgo operativo inmediato para Binance.",
+    "Sin eventos macro de alto impacto en las próximas 24 h; no se detecta halt, depeg ni delist."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-15T09:45:11+00:00",
-  "valido_hasta": "2026-11-15T12:45:11+00:00",
+  "generado": "2026-11-15T10:42:35+00:00",
+  "valido_hasta": "2026-11-15T13:42:35+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -4.85,
+    "cambio_mercado_24h": -5.42,
     "noticias_analizadas": 12,
     "articulos_leidos": 6,
     "fuentes": {
@@ -30,6 +31,11 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
+    {
+      "titulo": "Bitcoin falls to four-month low near $62K as crypto selloff deepens",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
     {
       "titulo": "XRP crashes to its lowest since November 2024 as money leaves crypto",
       "fuente": "CoinDesk",
@@ -51,25 +57,20 @@
       "link": "https://news.bitcoin.com/market-updates/bitcoin-faces-massive-liquidation-cluster-near-60k-glassnode-warns/"
     },
     {
-      "titulo": "Bitcoin Plunges, but Michael Saylor Says STRC Still Delivers Gains",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/featured/bitcoin-plunges-but-michael-saylor-says-strc-still-delivers-gains/"
-    },
-    {
       "titulo": "Coinone warns of phishing, identity theft after customer data breach",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/coinone-data-breach-phishing-identity-theft-customer-information?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 5455,
+    "input_tokens": 5462,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 583,
+    "output_tokens": 643,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
