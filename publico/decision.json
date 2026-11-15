@@ -1,23 +1,25 @@
 {
   "modo": "pausa",
   "monedas": {},
-  "resumen": "La capitalización total cae un 8.75% en 24 h con miedo extremo (índice 13) y todas las monedas del universo en caídas de entre -6.7% y -14% en un día. Además, el mercado descuenta casi con certeza una subida de tipos de la Fed en diciembre y Binance acaba de sufrir un hackeo de 6.300 millones de dólares, lo que hace que la caída sea brusca y generalizada en curso. Por ello se pausa la apertura de compras nuevas en general.",
+  "resumen": "El mercado cripto sufre una caída brusca: capitalización total -9.16% en 24 h, BTC cerca de 63-65K con un cluster de liquidaciones de largos cerca de 60K según Glassnode, y miedo extremo (índice 10). Además, Binance sigue recuperándose de un hackeo de 6.300 M$ y la Fed tiene casi asegurada una subida de tipos en diciembre, aunque no hay evento macro de alto impacto en las próximas 24 h. Dado el riesgo de caída en curso y el problema de seguridad de Binance, se pausan las compras globalmente, con la pausa adicional en BNB.",
   "motivos": [
-    "Caída de capitalización total del -8.75% en 24 h con noticias de liquidaciones y capitulación, lo que cumple el criterio de caída brusca en curso.",
-    "Todas las monedas del universo caen entre -6.7% y -14% en 24 h, sin excepciones, por lo que el riesgo es sistémico y no de una moneda concreta.",
-    "Miedo extremo (índice 13) con la tendencia de 7 días en mínimos, y una probabilidad del 88.5% de subida de tipos de la Fed en diciembre según CME Fedwatch.",
-    "Hackeo de Binance por 6.300 millones de dólares el 29 de octubre, con retiradas aún reabriéndose; riesgo de seguridad sobre el exchange principal."
+    "Caída de capitalización total de -9.16% en 24 h con noticias de liquidaciones y cluster de largos cerca de 60K (Glassnode), lo que cumple el criterio de caída brusca en curso.",
+    "Índice Miedo/Codicia en 10 (Extreme Fear), con tendencia descendente en 7 días.",
+    "Hackeo de 6.300 M$ a Binance el 29-oct, con retiradas aún reabriéndose en varias redes: riesgo de seguridad del exchange.",
+    "BNB opera en Binance: se pausa su par por el riesgo directo sobre el exchange emisor.",
+    "AVAX cae -15% en 24 h, la mayor caída del grupo; se aplica cautela adicional.",
+    "Probabilidad casi certera de subida de tipos de la Fed en diciembre (fuera de la ventana de 2-3 h y sin evento de alto impacto en 24 h)."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-14T23:34:41+00:00",
-  "valido_hasta": "2026-11-15T02:34:41+00:00",
+  "generado": "2026-11-15T00:59:15+00:00",
+  "valido_hasta": "2026-11-15T03:59:15+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.0,
   "datos": {
-    "miedo_codicia": 13,
-    "cambio_mercado_24h": -8.75,
-    "noticias_analizadas": 20,
+    "miedo_codicia": 10,
+    "cambio_mercado_24h": -9.16,
+    "noticias_analizadas": 19,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -33,6 +35,11 @@
       "titulo": "Fed Rate Hike Odds Reach Near-Certainty as Bitcoin Price Falls to $65K",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/fed-rate-hike-odds-reach-near-certainty-as-bitcoin-price-falls-to-65k/"
+    },
+    {
+      "titulo": "Bitcoin Faces Massive Liquidation Cluster Near $60K, Glassnode Warns",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-faces-massive-liquidation-cluster-near-60k-glassnode-warns/"
     },
     {
       "titulo": "OpenAI, Anthropic, Google and Other AI Giants Face Lawsuit Demanding Development Freeze",
@@ -53,22 +60,17 @@
       "titulo": "Nakamoto Debt Dwarfs Market Cap as Bitcoin Price Plunges Below $67K",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/finance/nakamoto-debt-dwarfs-market-cap-as-bitcoin-price-plunges-below-67k/"
-    },
-    {
-      "titulo": "Bitcoin Plunges, but Michael Saylor Says STRC Still Delivers Gains",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/featured/bitcoin-plunges-but-michael-saylor-says-strc-still-delivers-gains/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7089,
+    "input_tokens": 6950,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 560,
+    "output_tokens": 819,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
