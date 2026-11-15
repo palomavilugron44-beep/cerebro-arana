@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto está en miedo extremo (índice 10) tras un fin de semana de ventas con capitalización total -4.53% en 24 h y unos 1.710 M$ en liquidaciones; BTC tocó 61.947 USD en mínimos intradía y ahora cotiza cerca de 65.000. Hay además un evento macro de alto impacto (Fed, Warsh) a las 17:00 UTC del 16 de noviembre, dentro de las próximas 24 h pero fuera de la ventana de 2-3 horas, por lo que no justifica pausa. Se opta por cautela global, reduciendo a la mitad el tamaño de las compras nuevas hasta que se despeje el evento.",
+  "resumen": "El mercado está en miedo extremo (índice 10) tras una caída de la capitalización de -3.11% en 24 h y pérdidas semanales de entre -11% y -20% en las monedas vigiladas, con salidas netas de ETFs de Bitcoin y Ether. Hay además un evento macro de alto impacto (intervención de la Fed) previsto para dentro de unas 19 horas, lo que justifica reducir el tamaño de las compras nuevas. No se detecta un exploit que afecte directamente a las monedas operadas ni una situación anómala de halt, depeg o delist, por lo que no se pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear) con tendencia bajista durante la última semana.",
-    "Caída de capitalización total de -4.53% en 24 h con 1.710 M$ en liquidaciones y salidas de ETF de BTC durante siete días seguidos.",
-    "Evento macro de alto impacto (Fed Chairman Warsh) previsto para 2026-11-16 17:00 UTC, dentro de las próximas 24 h: cautela, no pausa, porque no está dentro de las 2-3 horas.",
-    "No se detecta exploit, delist, depeg ni acción regulatoria contra una moneda concreta; el incidente de Coinone es un exchange surcoreano sin relación directa con las monedas operadas.",
-    "Las monedas operadas muestran caídas semanales de entre -11% y -20%, sin una anomalía individual que justifique restricción por moneda."
+    "Índice Miedo/Codicia en 10 (Extreme Fear), con caídas semanales de -11% a -20% en las 10 monedas.",
+    "Capitalización total -3.11% en 24 h, con liquidaciones de unos 1.7 mil millones de dólares y salidas de ETFs de Bitcoin durante siete días seguidos.",
+    "Intervención de la Fed (Warsh) prevista el 16/11 a las 17:00 UTC, dentro de las próximas 24 h: evento macro importante.",
+    "El hackeo de Luxor (minería) y la brecha de datos de Coinone son incidentes no directos sobre las monedas operadas; no justifican pausa.",
+    "Precio de XRP bajo 1 USD y mínimos de 4 meses en BTC, sin señal de anomalía de la moneda (no halt ni depeg)."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-15T20:38:19+00:00",
-  "valido_hasta": "2026-11-15T23:38:19+00:00",
+  "generado": "2026-11-15T21:36:50+00:00",
+  "valido_hasta": "2026-11-16T00:36:50+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -4.53,
-    "noticias_analizadas": 21,
+    "cambio_mercado_24h": -3.11,
+    "noticias_analizadas": 22,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -41,6 +41,11 @@
       "link": "https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "titulo": "Luxor Confirms Bitcoin Mining Hack and Reveals AI-Enabled Attack",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/security/luxor-confirms-bitcoin-mining-hack-and-reveals-ai-enabled-attack/"
+    },
+    {
       "titulo": "Tom Lee Predicts Massive Crypto Supercycle Despite Market Crash",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/crypto-news/tom-lee-predicts-massive-crypto-supercycle-despite-market-crash/"
@@ -54,22 +59,17 @@
       "titulo": "XRP Briefly Drops to $0.89 as Crypto Liquidity Retreats",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/xrp-news/xrp-falls-089-november-2026-market-liquidity/"
-    },
-    {
-      "titulo": "Strategist Sees Bitcoin Path to $170K Despite Selloff, Says ‘Buy the Fear’",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/strategist-sees-bitcoin-path-to-170k-despite-selloff-says-buy-the-fear/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7466,
+    "input_tokens": 7539,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 677,
+    "output_tokens": 630,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
