@@ -1,25 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto está en miedo extremo (índice 10) tras una caída de la capitalización total del -6.24% en 24 h, con BTC cerca de mínimos de cuatro meses (~62K, rebote a ~65K) y ETH, SOL y XRP con caídas de dos dígitos semanales. Hay liquidaciones de 1.6 mil millones y salidas de ETF, pero no hay evento macro de alto impacto en 24 h ni una amenaza grave y concreta a Binance o a una moneda concreta. Por ello se opta por cautela global, no pausa, dado que la estrategia ya incluye stop a 3 ATR.",
+  "resumen": "El mercado cripto está en miedo extremo (índice 10) tras una caída de la capitalización total de -5.95% en 24 h, con BTC cerca de mínimos de cuatro meses y liquidaciones por 1.600 M$. No hay eventos macro de alto impacto en las próximas 24 h ni un riesgo grave de seguridad o regulatorio que justifique pausar. Se recomienda cautela global, con refuerzo en AVAX y DOGE por su caída más pronunciada.",
   "motivos": [
-    "Miedo extremo (índice 10) con tendencia de deterioro en los últimos 7 días y caída de capitalización total de -6.24% en 24 h.",
-    "Liquidaciones de unos 1.6 mil millones de dólares y salidas de ETF, que indican volatilidad elevada.",
-    "El hackeo de Binance (~6 mil millones atribuidos a Corea del Norte el 29 de octubre) es un hecho antiguo y ya en proceso de recuperación, no un riesgo nuevo que justifique pausa.",
-    "Brecha de datos de Coinone es un incidente de un exchange surcoreano sin impacto directo en las monedas operadas; no justifica pausa.",
-    "No hay eventos macro de alto impacto en las próximas 24 h, por lo que no se activa pausa por ese motivo."
+    "Índice Miedo/Codicia en 10 (Extreme Fear) y caída de capitalización total de -5.95% en 24 h: volatilidad fuerte.",
+    "Liquidaciones cercanas a 1.600 M$ y BTC en mínimos de cuatro meses, con salidas de ETF.",
+    "Sin eventos macro de alto impacto en 24 h, y los incidentes (brecha de datos de Coinone, cierre de stUSDT) no afectan directamente a las monedas operadas.",
+    "AVAX (-7.97%) y DOGE (-5.2%) presentan las caídas diarias más fuertes del grupo."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-15T12:48:38+00:00",
-  "valido_hasta": "2026-11-15T15:48:38+00:00",
+  "generado": "2026-11-15T13:51:54+00:00",
+  "valido_hasta": "2026-11-15T16:51:54+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -6.24,
-    "noticias_analizadas": 12,
-    "articulos_leidos": 7,
+    "cambio_mercado_24h": -5.95,
+    "noticias_analizadas": 11,
+    "articulos_leidos": 6,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
@@ -56,20 +55,20 @@
       "link": "https://news.bitcoin.com/finance/nubank-secures-brazil-banking-license-to-save-its-iconic-name/"
     },
     {
-      "titulo": "DOJ Secures Court Approval Targeting $1.2B in Stolen Binance Crypto",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/regulation-and-legal/doj-secures-court-approval-targeting-1-2b-in-stolen-binance-crypto/"
+      "titulo": "Coinone warns of phishing, identity theft after customer data breach",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/coinone-data-breach-phishing-identity-theft-customer-information?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 5752,
+    "input_tokens": 5384,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 630,
+    "output_tokens": 638,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
