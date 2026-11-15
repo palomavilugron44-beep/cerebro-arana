@@ -1,25 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) tras una caída de la capitalización total del -7.24% en 24 h, con BTC cerca de 64-65K USD y mínimos de 3 meses. Hay una tendencia bajista fuerte (-17% a -24% en 7 días) y un tema macro alcista de tipos (la Fed casi segura de subir en diciembre), pero no hay evento de alto impacto en 24 h. El hackeo de Binance ya se produjo el 29 de octubre y el exchange está reabriendo retiradas, así que no es un riesgo nuevo e inmediato.",
+  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo -6.07% en 24 h y BTC cerca de 65K tras perder terreno durante semanas. Las expectativas de subida de tipos de la Fed en diciembre (88.5% de probabilidad de +25 pb) y el riesgo de liquidaciones en cascada justifican reducir el tamaño de las nuevas compras, sin llegar a pausar. No se detectan hechos de seguridad o anomalías graves en las monedas del bot que exijan una pausa total.",
   "motivos": [
-    "Miedo extremo (índice 10) y caída de la capitalización total del -7.24% en 24 h: volatilidad y estrés elevados.",
-    "Todas las monedas caen entre -4% y -12% en 24 h y entre -17% y -24% en 7 días; BTC en mínimos de 3 meses.",
-    "Riesgo de liquidaciones en cascada: Glassnode advierte de un cluster de longs cerca de 60K en BTC.",
-    "Expectativas de subida de tipos de la Fed casi seguras (88.5% de +25 pb en diciembre), noticia negativa relevante pero no inmediata (reunión el 8-9 de dic.).",
-    "AVAX cae -12.41% en 24 h, la peor del grupo; se aplica cautela solo a esta moneda por su caída adicional.",
-    "El hackeo de Binance (29 oct., ~6.3 mil M USD) es antiguo; Binance está reabriendo retiradas y no hay halt ni depeg en las monedas operadas."
+    "Miedo extremo (índice 10) y caída de la capitalización total de -6.07% en 24 h, con todas las monedas del bot en negativo.",
+    "Expectativas hawkish: futuros asignan 88.5% a una subida de tipos de la Fed el 8-9 de diciembre, evento macro importante dentro de las próximas 24 h o semanas, con posible presión adicional sobre cripto.",
+    "Riesgo de liquidaciones en cascada: Glassnode advierte de un cluster de liquidaciones cerca de 60K en BTC; BTC ya cotiza en mínimos de 3 meses bajo 63K.",
+    "Salidas de ETF y contracción de stablecoins (-26 mil millones desde el pico de mayo); XRP en mínimos desde noviembre de 2024.",
+    "El hackeo a Binance (robo atribuido a Corea del Norte) es un incidente previo ya en recuperación; no se considera un riesgo nuevo y grave para el bot. Sin halts, depegs ni deslistados reportados.",
+    "No hay evento macro de alto impacto en las próximas 2-3 horas, por lo que no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-15T02:50:27+00:00",
-  "valido_hasta": "2026-11-15T05:50:27+00:00",
+  "generado": "2026-11-15T03:52:18+00:00",
+  "valido_hasta": "2026-11-15T06:52:18+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -7.24,
-    "noticias_analizadas": 16,
+    "cambio_mercado_24h": -6.07,
+    "noticias_analizadas": 15,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -32,9 +32,19 @@
   },
   "titulares": [
     {
+      "titulo": "XRP crashes to its lowest since November 2024 as money leaves crypto",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/15/xrp-crashes-to-its-lowest-since-november-2024-as-money-leaves-crypto"
+    },
+    {
       "titulo": "Fed Rate Hike Odds Reach Near-Certainty as Bitcoin Price Falls to $65K",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/fed-rate-hike-odds-reach-near-certainty-as-bitcoin-price-falls-to-65k/"
+    },
+    {
+      "titulo": "Nubank Secures Brazil Banking License to Save Its Iconic Name",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/finance/nubank-secures-brazil-banking-license-to-save-its-iconic-name/"
     },
     {
       "titulo": "DOJ Secures Court Approval Targeting $1.2B in Stolen Binance Crypto",
@@ -50,27 +60,17 @@
       "titulo": "OpenAI, Anthropic, Google and Other AI Giants Face Lawsuit Demanding Development Freeze",
       "fuente": "Decrypt",
       "link": "https://decrypt.co/383270/openai-anthropic-google-ai-giants-lawsuit-development-freeze"
-    },
-    {
-      "titulo": "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst"
-    },
-    {
-      "titulo": "Binance Reopens 87 Networks Following Historic $6.3 Billion Breach",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/featured/binance-reopens-87-networks-following-historic-6-3-billion-breach/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6486,
+    "input_tokens": 6357,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 780,
+    "output_tokens": 715,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
