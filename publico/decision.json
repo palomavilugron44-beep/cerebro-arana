@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) tras una caída de la capitalización total del -4.31% en 24 h y de alrededor del -15% a -20% semanal en las principales monedas, con salidas sostenidas de ETF de Bitcoin y liquidaciones de unos 1.700 M$. No hay un evento de seguridad, regulatorio o de exchange que sea grave y concreto, y la caída no ha llegado a la magnitud de -7% que justificaría pausa. Se recomienda cautela global (mitad de tamaño) por la volatilidad y el miedo extremo, y revisar el riesgo antes de la intervención de la Fed prevista para mañana.",
+  "resumen": "El mercado cripto está en miedo extremo (índice 10) tras una caída de capitalización total del -5.22% en 24 h, con BTC cerca de 62-65 mil USD y salidas sostenidas de ETFs de bitcoin. El riesgo es elevado pero no hay una caída de -7% ni un evento grave confirmado, y la macro de alto impacto (Fed, Warsh) cae en unas 22 horas, fuera de la ventana de 2-3 horas. Se recomienda cautela general: el bot debe reducir a la mitad el tamaño de las compras nuevas, sin pausa.",
   "motivos": [
-    "Miedo extremo (índice 10) con tendencia descendente desde 29-32 hace una semana.",
-    "Capitalización total -4.31% en 24 h y ~130.000 M$ perdidos desde el viernes; BTC toca mínimos de 4 meses cerca de 62.000 USD.",
-    "Salidas de ETF de Bitcoin durante siete días seguidos (~2.100 M$ en noviembre) y 1.710 M$ en liquidaciones.",
-    "Evento macro de alto impacto: Fed (Warsh) previsto el 16/11 a las 17:00 UTC, dentro de las próximas 24 h.",
-    "Ninguna moneda muestra una situación anómala (halt, depeg, delist) ni hay un hackeo o acción regulatoria grave identificada; la filtración de datos de Coinone es de un exchange surcoreano sin impacto directo en Binance."
+    "Miedo extremo (índice 10) con racha de caídas y capitalización total -5.22% en 24 h",
+    "Salidas de ETFs de bitcoin durante siete sesiones seguidas (unos 2.1-2.35 mil millones USD en noviembre)",
+    "Evento macro importante (Fed, Warsh) dentro de las próximas 24 h, fuera de la ventana de pausa",
+    "Caídas de 7 días de entre -12% y -20% en las 10 monedas, sin hechos de seguridad o regulatorios graves confirmados",
+    "Noticias sobre el hackeo de Coinone y la caída de XRP bajo 1 USD son negativas pero no graves a nivel de mercado"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-15T17:35:41+00:00",
-  "valido_hasta": "2026-11-15T20:35:41+00:00",
+  "generado": "2026-11-15T18:42:29+00:00",
+  "valido_hasta": "2026-11-15T21:42:29+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -4.31,
-    "noticias_analizadas": 17,
+    "cambio_mercado_24h": -5.22,
+    "noticias_analizadas": 18,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -46,6 +46,11 @@
       "link": "https://news.bitcoin.com/featured/bitcoin-falls-dtcc-chooses-solana-for-tokenization-expansion-and-more-weekly-recap/"
     },
     {
+      "titulo": "Strategist Sees Bitcoin Path to $170K Despite Selloff, Says ‘Buy the Fear’",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/strategist-sees-bitcoin-path-to-170k-despite-selloff-says-buy-the-fear/"
+    },
+    {
       "titulo": "Bitcoin Mining Hits Breaking Point as Difficulty Plunges 9.13%",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/mining/bitcoin-mining-hits-breaking-point-as-difficulty-plunges-9-13/"
@@ -54,22 +59,17 @@
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Bitcoin ETFs Lose $2.1 Billion in November as Outflow Streak Hits Seven Days",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/383282/bitcoin-etfs-lose-2-1-billion-november-outflow-streak-seven-days"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6854,
+    "input_tokens": 7073,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 664,
+    "output_tokens": 577,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
