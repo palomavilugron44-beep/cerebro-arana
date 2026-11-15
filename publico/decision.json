@@ -1,26 +1,26 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) tras una caída de la capitalización total del -5.47% en 24 h, con BTC cerca de mínimos de cuatro meses (~62K) y salidas de ETF durante siete días seguidos. No hay un evento de seguridad, regulatorio ni macro de alto impacto confirmado en las próximas horas, así que no justifica pausa, pero la volatilidad y el riesgo de nuevas caídas aconsejan reducir el tamaño de las compras. Las monedas se mueven de forma similar, por lo que no se aplican restricciones adicionales por moneda.",
+  "resumen": "El mercado está en miedo extremo (índice 10) tras una caída de la capitalización total del -5.31% en 24 h, con BTC rebotando desde un mínimo de cuatro meses cerca de 62.000 USD y salidas continuas de ETFs de Bitcoin (siete días seguidos, unos 2.100 M USD en noviembre). No hay un evento macro de alto impacto en las próximas 24 h ni un exploit grave en una red o exchange; el incidente de Coinone es una brecha de datos de un proveedor externo, no un riesgo de fondos inmediato. Por ello se elige cautela general (mitad de tamaño en compras nuevas), sin pausa ni alerta sobre posiciones.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear) y en niveles bajos durante toda la semana.",
-    "Capitalización total -5.47% en 24 h y BTC en mínimos de cuatro meses cerca de 62K, con caídas de 14-20% en 7 días en la mayoría de monedas.",
-    "Salidas de ETF de Bitcoin durante siete sesiones consecutivas (~2.1 mil millones de dólares en noviembre).",
-    "Liquidaciones de unos 1.6 mil millones de dólares según las noticias; la volatilidad es elevada.",
-    "Sin eventos macro de alto impacto en 24 h ni riesgo grave confirmado (la brecha de Coinone afecta a un proveedor de datos, no a una red o moneda operada).",
-    "Las noticias negativas son relevantes pero no graves, por lo que se mantiene la cautela y no la pausa."
+    "Índice Miedo/Codicia en 10 (Extreme Fear), con tendencia muy bajista en los últimos 7 días.",
+    "Capitalización total -5.31% en 24 h y caídas semanales de 12-20% en las 10 monedas operadas.",
+    "Salidas netas de ETFs de Bitcoin durante siete sesiones consecutivas (unos 2.100 M USD en noviembre).",
+    "Liquidaciones de unos 1.600 M USD reportadas, lo que indica volatilidad elevada.",
+    "No hay eventos macro de alto impacto en 24 h; la brecha de Coinone afecta a datos de clientes de un proveedor, no a fondos de la plataforma.",
+    "No se detectan riesgos graves ni anomalías (halt, depeg, delist) que justifiquen una pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-15T15:37:55+00:00",
-  "valido_hasta": "2026-11-15T18:37:55+00:00",
+  "generado": "2026-11-15T16:39:52+00:00",
+  "valido_hasta": "2026-11-15T19:39:52+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -5.47,
-    "noticias_analizadas": 14,
-    "articulos_leidos": 7,
+    "cambio_mercado_24h": -5.31,
+    "noticias_analizadas": 15,
+    "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
@@ -57,20 +57,20 @@
       "link": "https://decrypt.co/383282/bitcoin-etfs-lose-2-1-billion-november-outflow-streak-seven-days"
     },
     {
-      "titulo": "Coinone warns of phishing, identity theft after customer data breach",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/coinone-data-breach-phishing-identity-theft-customer-information?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "titulo": "Michael Saylor Hints at Another Strategy Bitcoin Buy as BTC Slides",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/featured/michael-saylor-hints-at-another-strategy-bitcoin-buy-as-btc-slides/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6099,
+    "input_tokens": 6477,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 651,
+    "output_tokens": 654,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
