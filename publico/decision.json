@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza (capitalización total -5.93% en 24 h) y el índice Miedo/Codicia está en 10 (miedo extremo), con altcoins como AVAX, ADA, DOGE y LTC cayendo entre -7% y -11%. Hay además noticias negativas relevantes: salidas de ETF, XRP en mínimos desde noviembre de 2024 y un posible cluster de liquidaciones de BTC cerca de 60K. Sin embargo, no hay un evento grave concreto (hackeo que afecte a la operativa, acción regulatoria fuerte o dato macro en las próximas horas), así que se opta por cautela general en lugar de pausa.",
+  "resumen": "El mercado cripto está en miedo extremo (índice 10) tras una caída de la capitalización total del -4.85% en 24 h, con BTC cerca de 65.000 USD y riesgo de liquidaciones en cascada según Glassnode. No hay eventos macro de alto impacto en las próximas 24 h ni una señal de hackeo que afecte directamente a las monedas operadas, por lo que no justifica pausa. Se recomienda cautela general (compras a mitad de tamaño) mientras dure la volatilidad.",
   "motivos": [
-    "Miedo extremo (índice 10) con caída de capitalización total de -5.93% en 24 h",
-    "Salidas de ETF y contracción de stablecoins según CoinDesk, con XRP en mínimos desde nov. 2024",
-    "Riesgo de liquidaciones forzadas de BTC cerca de 60K señalado por Glassnode",
-    "Caídas de 7 días de -12% a -21% en las 10 monedas, sin evento macro de alto impacto en 24 h",
-    "Hackeo de Binance (robo atribuido a Corea del Norte) y brecha en Coinone son incidentes previos o sin impacto directo en la operativa, por lo que no justifican pausa"
+    "Miedo extremo (índice 10) con caída de capitalización total de -4.85% en 24 h y tendencia de 7 días muy negativa.",
+    "Glassnode advierte de un cluster de liquidaciones de longs cerca de 60K USD en BTC, lo que podría profundizar la caída.",
+    "Salidas de ETF y reducción de stablecoins presionan al mercado; XRP en mínimos desde noviembre de 2024.",
+    "Hackeo de Binance (~6.000 M USD atribuido a hackers norcoreanos) y brecha en Coinone son noticias negativas relevantes pero no afectan directamente a las monedas operadas ni son de riesgo inmediato grave.",
+    "No hay eventos económicos USD de alto impacto en 24 h, por lo que no se activa pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-15T08:52:33+00:00",
-  "valido_hasta": "2026-11-15T11:52:33+00:00",
+  "generado": "2026-11-15T09:45:11+00:00",
+  "valido_hasta": "2026-11-15T12:45:11+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -5.93,
-    "noticias_analizadas": 11,
+    "cambio_mercado_24h": -4.85,
+    "noticias_analizadas": 12,
     "articulos_leidos": 6,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 5303,
+    "input_tokens": 5455,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 600,
+    "output_tokens": 583,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
