@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto está en miedo extremo (índice 10) tras una caída de la capitalización total de -5.95% en 24 h, con BTC cerca de mínimos de cuatro meses y liquidaciones por 1.600 M$. No hay eventos macro de alto impacto en las próximas 24 h ni un riesgo grave de seguridad o regulatorio que justifique pausar. Se recomienda cautela global, con refuerzo en AVAX y DOGE por su caída más pronunciada.",
+  "resumen": "El mercado cripto está en miedo extremo (índice 10) tras una caída de la capitalización total de -5.24% en 24 h, con BTC tocando un mínimo de cuatro meses cerca de 62.000 USD y salidas de ETFs de Bitcoin durante siete días seguidos. Las caídas de 7 días rondan el -11% a -19% en las principales monedas, lo que justifica prudencia pero no una parada. No hay hackeos graves relevantes ni eventos macro de alto impacto en las próximas 24 h (el incidente de Coinone afecta a datos de clientes de un exchange surcoreano, no a una red ni a una moneda del bot). Se aplica cautela global, con cautela adicional en AVAX por su caída diaria más fuerte.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear) y caída de capitalización total de -5.95% en 24 h: volatilidad fuerte.",
-    "Liquidaciones cercanas a 1.600 M$ y BTC en mínimos de cuatro meses, con salidas de ETF.",
-    "Sin eventos macro de alto impacto en 24 h, y los incidentes (brecha de datos de Coinone, cierre de stUSDT) no afectan directamente a las monedas operadas.",
-    "AVAX (-7.97%) y DOGE (-5.2%) presentan las caídas diarias más fuertes del grupo."
+    "Índice Miedo/Codicia en 10 (Extreme Fear), con tendencia bajista sostenida durante la última semana.",
+    "Capitalización total cripto -5.24% en 24 h; BTC en mínimos de cuatro meses y ETFs de Bitcoin con siete días de salidas (aprox. 2.1 mil millones USD en noviembre).",
+    "Liquidaciones de unos 1.6 mil millones USD según las noticias, señal de volatilidad elevada.",
+    "AVAX con -7.04% en 24 h, la caída diaria más pronunciada de las monedas operadas.",
+    "Sin eventos macro de alto impacto en 24 h y sin hackeo que afecte directamente a las redes operadas; por eso no se recomienda pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-15T13:51:54+00:00",
-  "valido_hasta": "2026-11-15T16:51:54+00:00",
+  "generado": "2026-11-15T14:42:42+00:00",
+  "valido_hasta": "2026-11-15T17:42:42+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -5.95,
-    "noticias_analizadas": 11,
-    "articulos_leidos": 6,
+    "cambio_mercado_24h": -5.24,
+    "noticias_analizadas": 15,
+    "articulos_leidos": 7,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
@@ -55,20 +56,20 @@
       "link": "https://news.bitcoin.com/finance/nubank-secures-brazil-banking-license-to-save-its-iconic-name/"
     },
     {
-      "titulo": "Coinone warns of phishing, identity theft after customer data breach",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/coinone-data-breach-phishing-identity-theft-customer-information?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "titulo": "Bitcoin ETFs Lose $2.1 Billion in November as Outflow Streak Hits Seven Days",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/383282/bitcoin-etfs-lose-2-1-billion-november-outflow-streak-seven-days"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 5384,
+    "input_tokens": 6140,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 638,
+    "output_tokens": 721,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
