@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto está en miedo extremo (índice 10) tras una caída de la capitalización total de -5.24% en 24 h, con BTC tocando un mínimo de cuatro meses cerca de 62.000 USD y salidas de ETFs de Bitcoin durante siete días seguidos. Las caídas de 7 días rondan el -11% a -19% en las principales monedas, lo que justifica prudencia pero no una parada. No hay hackeos graves relevantes ni eventos macro de alto impacto en las próximas 24 h (el incidente de Coinone afecta a datos de clientes de un exchange surcoreano, no a una red ni a una moneda del bot). Se aplica cautela global, con cautela adicional en AVAX por su caída diaria más fuerte.",
+  "resumen": "El mercado está en miedo extremo (índice 10) tras una caída de la capitalización total del -5.47% en 24 h, con BTC cerca de mínimos de cuatro meses (~62K) y salidas de ETF durante siete días seguidos. No hay un evento de seguridad, regulatorio ni macro de alto impacto confirmado en las próximas horas, así que no justifica pausa, pero la volatilidad y el riesgo de nuevas caídas aconsejan reducir el tamaño de las compras. Las monedas se mueven de forma similar, por lo que no se aplican restricciones adicionales por moneda.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear), con tendencia bajista sostenida durante la última semana.",
-    "Capitalización total cripto -5.24% en 24 h; BTC en mínimos de cuatro meses y ETFs de Bitcoin con siete días de salidas (aprox. 2.1 mil millones USD en noviembre).",
-    "Liquidaciones de unos 1.6 mil millones USD según las noticias, señal de volatilidad elevada.",
-    "AVAX con -7.04% en 24 h, la caída diaria más pronunciada de las monedas operadas.",
-    "Sin eventos macro de alto impacto en 24 h y sin hackeo que afecte directamente a las redes operadas; por eso no se recomienda pausa."
+    "Índice Miedo/Codicia en 10 (Extreme Fear) y en niveles bajos durante toda la semana.",
+    "Capitalización total -5.47% en 24 h y BTC en mínimos de cuatro meses cerca de 62K, con caídas de 14-20% en 7 días en la mayoría de monedas.",
+    "Salidas de ETF de Bitcoin durante siete sesiones consecutivas (~2.1 mil millones de dólares en noviembre).",
+    "Liquidaciones de unos 1.6 mil millones de dólares según las noticias; la volatilidad es elevada.",
+    "Sin eventos macro de alto impacto en 24 h ni riesgo grave confirmado (la brecha de Coinone afecta a un proveedor de datos, no a una red o moneda operada).",
+    "Las noticias negativas son relevantes pero no graves, por lo que se mantiene la cautela y no la pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-15T14:42:42+00:00",
-  "valido_hasta": "2026-11-15T17:42:42+00:00",
+  "generado": "2026-11-15T15:37:55+00:00",
+  "valido_hasta": "2026-11-15T18:37:55+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -5.24,
-    "noticias_analizadas": 15,
+    "cambio_mercado_24h": -5.47,
+    "noticias_analizadas": 14,
     "articulos_leidos": 7,
     "fuentes": {
       "CoinDesk": 25,
@@ -36,14 +37,14 @@
       "link": "https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "titulo": "XRP crashes to its lowest since November 2024 as money leaves crypto",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/15/xrp-crashes-to-its-lowest-since-november-2024-as-money-leaves-crypto"
-    },
-    {
       "titulo": "Bitcoin Falls, DTCC Chooses Solana for Tokenization Expansion, and More – Weekly Recap",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/featured/bitcoin-falls-dtcc-chooses-solana-for-tokenization-expansion-and-more-weekly-recap/"
+    },
+    {
+      "titulo": "Bitcoin Mining Hits Breaking Point as Difficulty Plunges 9.13%",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/mining/bitcoin-mining-hits-breaking-point-as-difficulty-plunges-9-13/"
     },
     {
       "titulo": "Here’s what happened in crypto today",
@@ -51,25 +52,25 @@
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "titulo": "Nubank Secures Brazil Banking License to Save Its Iconic Name",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/finance/nubank-secures-brazil-banking-license-to-save-its-iconic-name/"
-    },
-    {
       "titulo": "Bitcoin ETFs Lose $2.1 Billion in November as Outflow Streak Hits Seven Days",
       "fuente": "Decrypt",
       "link": "https://decrypt.co/383282/bitcoin-etfs-lose-2-1-billion-november-outflow-streak-seven-days"
+    },
+    {
+      "titulo": "Coinone warns of phishing, identity theft after customer data breach",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/coinone-data-breach-phishing-identity-theft-customer-information?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6140,
+    "input_tokens": 6099,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 721,
+    "output_tokens": 651,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
