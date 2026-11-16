@@ -1,23 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) tras una caída fuerte de la semana, con BTC cerca de 65.000 USD (-13% en 7 días) y salidas sostenidas de ETFs. Hay un evento macro de alto impacto (discurso del presidente de la Fed, Warsh, a las 17:00 UTC, dentro de 24 h), lo que justifica reducir el tamaño de las compras nuevas sin pausarlas. Los incidentes de seguridad (Luxor, Kava Lend, Coinone) son relevantes pero no afectan directamente a las monedas operadas, así que no se justifica pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 10) tras una semana de fuerte caída: BTC ronda los 65.000 USD (-14% en 7 d), con salidas de ETF de más de 1.000 M$ semanales durante dos semanas y $130.000 M evaporados desde el viernes. La caída de las últimas 24 h es moderada (cap. total -0.32%) y no hay un evento grave de seguridad que afecte a las monedas operadas, pero hay un evento macro de alto impacto (discurso del presidente de la Fed, Warsh) a las 17:00 UTC, dentro de las próximas 24 h. Por eso se recomienda cautela general, con un refuerzo para XRP y SOL.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear), con caída de capitalización total de -1.7% en 24 h y BTC -13% en 7 días.",
-    "Evento macro importante dentro de las próximas 24 h: discurso de Fed Chairman Warsh a las 17:00 UTC (no es FOMC/IPC inmediato en 2-3 h).",
-    "Salidas netas persistentes de ETFs de BTC (2.35 mil millones en dos semanas) y de ETH (siete semanas consecutivas).",
-    "Incidentes de seguridad (Luxor, Kava Lend, Coinone) no afectan directamente a las monedas operadas por el bot, por lo que no justifican pausa."
+    "Índice Miedo/Codicia en 10 (Extreme Fear) y tendencia descendente en la última semana.",
+    "Capitalización total cayó más de 130.000 M$ desde el viernes; BTC -13.9% y ETH -15.7% en 7 días.",
+    "Salidas netas de ETF de BTC (2.350 M$ en dos semanas) y de ETF de ETH (siete semanas consecutivas).",
+    "Discurso de Fed Chairman Warsh previsto a las 17:00 UTC, evento macro importante dentro de 24 h.",
+    "XRP en mínimos de dos años por debajo de 1 USD; SOL con la mayor caída semanal (-18.5%).",
+    "Incidentes de seguridad (Luxor, Coinone, Kava Lend) son de terceros y no afectan directamente a las monedas operadas; no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-16T01:18:21+00:00",
-  "valido_hasta": "2026-11-16T04:18:21+00:00",
+  "generado": "2026-11-16T02:54:36+00:00",
+  "valido_hasta": "2026-11-16T05:54:36+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -1.7,
-    "noticias_analizadas": 26,
+    "cambio_mercado_24h": -0.32,
+    "noticias_analizadas": 25,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -40,6 +42,11 @@
       "link": "https://news.bitcoin.com/market-updates/crypto-market-rout-deepens-as-xrp-price-hits-2-year-low-and-etf-money-flees/"
     },
     {
+      "titulo": "Why Are Crypto Prices Down? Binance Founder CZ Lists Possible Reasons",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/why-are-crypto-prices-down-binance-founder-cz-lists-possible-reasons/"
+    },
+    {
       "titulo": "Kava Lend Exploit Exposes a Dangerous Gap in DeFi Collateral Accounting",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/news/defi/kava-lend-exploit-collateral-busd-market-55-million/"
@@ -53,22 +60,17 @@
       "titulo": "Tom Lee Predicts Massive Crypto Supercycle Despite Market Crash",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/crypto-news/tom-lee-predicts-massive-crypto-supercycle-despite-market-crash/"
-    },
-    {
-      "titulo": "Ripple’s David Schwartz Once Held 26 Million XRP. Now Just 3 Million",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/featured/ripples-david-schwartz-once-held-26-million-xrp-now-just-3-million/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8068,
+    "input_tokens": 8010,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 594,
+    "output_tokens": 811,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
