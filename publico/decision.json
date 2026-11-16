@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) tras una caída semanal cercana al 12-17% en las principales monedas, con salidas de ETF y presión por resultados de Nvidia. La capitalización total cae -1.52% en 24 h, sin una caída brusca de -7% ni un dato macro de alto impacto en las próximas 2-3 horas. Las ventas de comercio minorista de EE. UU. (17 de noviembre) quedan dentro de las próximas 24 h, lo que justifica cautela general, no pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 10) tras seis semanas de caídas, con unos 2.000 M$ en liquidaciones el fin de semana y BTC cerca de mínimos de cuatro meses (~65.000 USD, con mínimo de 62.100). Hay salidas de ETF y un dato macro relevante (ventas minoristas de EE. UU. el 17 de noviembre, dentro de las próximas 24 h), lo que justifica cautela general. No hay señales de hackeo que afecte a las redes de las monedas operadas ni de un crash en curso con datos de -7% en 24 h, así que no procede pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear), con tendencia bajista durante la última semana.",
-    "Caída semanal de 12-17% en las 10 monedas y BTC cerca de mínimos de cuatro meses; salidas de ETF de bitcoin de 1.07 mil millones de dólares en la última semana.",
-    "Evento macro importante dentro de 24 h: ventas minoristas de EE. UU. el 17 de noviembre a las 13:30 UTC.",
-    "Incidentes de seguridad (Lighter, Trezor/Skladon) y la incautación de fondos vinculados al hackeo de Binance son noticias negativas relevantes pero no afectan directamente a las monedas operadas ni son de gravedad grave.",
-    "No se alcanza el umbral de pausa: la caída de capitalización total en 24 h es -1.52%, no -7%, y no hay halt, depeg ni delist entre las monedas operadas."
+    "Índice Miedo/Codicia en 10 (Extreme Fear) y tendencia de caída de 7 días, con 2.000 M$ en liquidaciones el fin de semana.",
+    "BTC cerca de mínimos desde julio y ETF de BTC con salidas de 2,35 M$ en dos semanas; todas las monedas operadas caen entre -13% y -17% en 7 días.",
+    "Dato macro de alto impacto (ventas minoristas EE. UU., 17-nov 13:30 UTC) dentro de las próximas 24 h.",
+    "Capitalización total con -1,31% en 24 h: no alcanza el umbral de caída brusca (-7%) que justificaría pausa.",
+    "El exploit de Lighter y el incidente de Luxor afectan a plataformas o empresas concretas, no a las monedas que opera el bot; el caso Binance es una incautación de fondos de un hackeo de octubre, sin acción directa contra BNB."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-16T20:49:21+00:00",
-  "valido_hasta": "2026-11-16T23:49:21+00:00",
+  "generado": "2026-11-16T21:47:36+00:00",
+  "valido_hasta": "2026-11-17T00:47:36+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -1.52,
-    "noticias_analizadas": 61,
+    "cambio_mercado_24h": -1.31,
+    "noticias_analizadas": 60,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -41,6 +41,11 @@
       "link": "https://news.bitcoin.com/security/lighter-confirms-security-breach-lit-token-dives-15-swapped/"
     },
     {
+      "titulo": "Bitcoin's $2 Billion Liquidation Weekend Leaves Traders Watching $60,000",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/383366/bitcoin-2-billion-liquidation-weekend-traders-watching-60000"
+    },
+    {
       "titulo": "Bitcoin Price Sheds 14% in a Week as Market Recovery Faces Fresh Test",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-sheds-14-percent-week-market-recovery-faces-fresh-test/"
@@ -54,22 +59,17 @@
       "titulo": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/16/bitcoin-risks-falling-below-usd60-000-as-nvidia-earnings-threaten-to-deepen-crypto-sell-off"
-    },
-    {
-      "titulo": "Hackers Strike Trezor Shipping Partner, Exposing Wallet Buyers’ Personal Details",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/security/hackers-strike-trezor-shipping-partner-exposing-wallet-buyers-personal-details/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9611,
+    "input_tokens": 9691,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 637,
+    "output_tokens": 674,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
