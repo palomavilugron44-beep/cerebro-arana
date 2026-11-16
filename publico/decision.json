@@ -1,24 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) tras una semana de caídas fuertes: BTC cerca de 65.000 USD tras tocar 61.947 y salidas de capital en los ETF. La capitalización total solo baja -0.95% en 24 h, así que no hay una caída brusca en curso, y no se han detectado hechos graves sobre las monedas operadas. Se recomienda cautela general por la volatilidad y el evento macro de la Fed (Warsh) dentro de 24 h, sin pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 10) tras una caída fuerte de la semana, con BTC cerca de 65.000 USD (-13% en 7 días) y salidas sostenidas de ETFs. Hay un evento macro de alto impacto (discurso del presidente de la Fed, Warsh, a las 17:00 UTC, dentro de 24 h), lo que justifica reducir el tamaño de las compras nuevas sin pausarlas. Los incidentes de seguridad (Luxor, Kava Lend, Coinone) son relevantes pero no afectan directamente a las monedas operadas, así que no se justifica pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear), con tendencia bajista durante la última semana.",
-    "Evento macro de alto impacto: intervención del presidente de la Fed Warsh a las 17:00 UTC del 16 de noviembre, dentro de las próximas 24 h.",
-    "Volatilidad elevada: BTC -11.9% y SOL -15.6% en 7 días; salidas de ETF de Bitcoin y Ethereum durante varias semanas.",
-    "Incidentes de seguridad (Luxor, Coinone, Kava Lend) afectan a empresas y protocolos concretos, no a las monedas operadas ni a la red principal; no justifican pausa.",
-    "La capitalización total cae solo -0.95% en 24 h y varias monedas rebotan (+4% a +8%), por lo que no hay caída brusca en curso."
+    "Índice Miedo/Codicia en 10 (Extreme Fear), con caída de capitalización total de -1.7% en 24 h y BTC -13% en 7 días.",
+    "Evento macro importante dentro de las próximas 24 h: discurso de Fed Chairman Warsh a las 17:00 UTC (no es FOMC/IPC inmediato en 2-3 h).",
+    "Salidas netas persistentes de ETFs de BTC (2.35 mil millones en dos semanas) y de ETH (siete semanas consecutivas).",
+    "Incidentes de seguridad (Luxor, Kava Lend, Coinone) no afectan directamente a las monedas operadas por el bot, por lo que no justifican pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-15T23:44:36+00:00",
-  "valido_hasta": "2026-11-16T02:44:36+00:00",
+  "generado": "2026-11-16T01:18:21+00:00",
+  "valido_hasta": "2026-11-16T04:18:21+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -0.95,
-    "noticias_analizadas": 23,
+    "cambio_mercado_24h": -1.7,
+    "noticias_analizadas": 26,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -31,7 +30,7 @@
   },
   "titulares": [
     {
-      "titulo": "US sellers drive Bitcoin crash, Jensen plots comeback: Hodler’s Digest",
+      "titulo": "US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler’s Digest",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/magazine/us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
@@ -56,20 +55,20 @@
       "link": "https://news.bitcoin.com/crypto-news/tom-lee-predicts-massive-crypto-supercycle-despite-market-crash/"
     },
     {
-      "titulo": "XRP Briefly Drops to $0.89 as Crypto Liquidity Retreats",
-      "fuente": "NewsBTC",
-      "link": "https://www.newsbtc.com/xrp-news/xrp-falls-089-november-2026-market-liquidity/"
+      "titulo": "Ripple’s David Schwartz Once Held 26 Million XRP. Now Just 3 Million",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/featured/ripples-david-schwartz-once-held-26-million-xrp-now-just-3-million/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7662,
+    "input_tokens": 8068,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 603,
+    "output_tokens": 594,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
