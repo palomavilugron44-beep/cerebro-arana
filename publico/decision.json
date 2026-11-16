@@ -1,25 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) tras una caída de la semana de entre -13% y -18% en las monedas vigiladas, aunque en las últimas 24 h el movimiento es plano o ligeramente positivo (capitalización total -0.79%). Hay un evento macro relevante en menos de 24 h (ventas minoristas de EE. UU. el 17 de noviembre y comparecencia de Warsh), lo que justifica cautela general sin llegar a pausa. El hackeo de Lighter afecta a una plataforma DEX que no opera el bot, y la incautación de activos vinculada al hackeo de Binance es un hecho de enforcement sin impacto directo sobre las monedas listadas.",
+  "resumen": "El mercado cripto está en miedo extremo (índice 10) tras una caída de aproximadamente 13-17% en 7 días en las monedas vigiladas, con BTC cerca de mínimos de cuatro meses, aunque la variación de las últimas 24 h es moderada (-1.14% en capitalización total). Hay un dato macro de alto impacto (Retail Sales, 17 nov 13:30 UTC) dentro de las próximas 24 h, lo que justifica cautela general sin llegar a pausa, ya que no hay una caída brusca de -7% en 24 h ni un riesgo inmediato sobre las monedas operadas. Los incidentes de seguridad (Lighter, Trezor/Skladon) afectan a plataformas y proveedores ajenos a nuestras monedas.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear), con tendencia de 7 días aún muy baja.",
-    "Caída semanal de -13% a -18% en las 10 monedas; BTC cerca de mínimos de cuatro meses.",
-    "Retail Sales de EE. UU. (17-nov 13:30 UTC) y comparecencia de Warsh (16-nov 17:00 UTC) dentro de las próximas 24 h.",
-    "Capitalización total cae solo -0.79% en 24 h: no hay caída brusca en curso que justifique pausa.",
-    "Hackeo de Lighter (DEX ajena a las monedas operadas) y decomiso de activos ligados al hackeo de Binance: no afectan directamente a los pares del bot.",
-    "Ninguna moneda muestra anomalía (halt, depeg o delist), por lo que no se aplican restricciones por moneda."
+    "Índice Miedo/Codicia en 10 (Extreme Fear) con tendencia bajista durante 7 días.",
+    "Caída de 13-17% en 7 días en todas las monedas operadas; BTC cerca de mínimos de cuatro meses.",
+    "Dato macro de alto impacto (Retail Sales) previsto el 17 nov a las 13:30 UTC, dentro de las próximas 24 h.",
+    "Brechas de seguridad (Lighter, proveedor de Trezor) no afectan directamente a las 10 monedas operadas; no justifican pausa.",
+    "Variación de 24 h moderada (-1.14% capitalización), sin caída brusca que active pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-16T18:54:17+00:00",
-  "valido_hasta": "2026-11-16T21:54:17+00:00",
+  "generado": "2026-11-16T19:54:55+00:00",
+  "valido_hasta": "2026-11-16T22:54:55+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -0.79,
-    "noticias_analizadas": 58,
+    "cambio_mercado_24h": -1.14,
+    "noticias_analizadas": 60,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -28,7 +27,7 @@
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
-    "eventos_usd_24h": 3
+    "eventos_usd_24h": 2
   },
   "titulares": [
     {
@@ -52,25 +51,25 @@
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-sheds-14-percent-week-market-recovery-faces-fresh-test/"
     },
     {
-      "titulo": "Bitcoin Holds $64K After Weekend Crash, but Bears Remain in Control",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/bitcoin-holds-64k-after-weekend-crash-but-bears-remain-in-control/"
-    },
-    {
       "titulo": "US Seeks to Seize More Than $1.2 Billion Linked to Binance Hack",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/security/doj-binance-hack-one-point-two-billion-seizure-order/"
+    },
+    {
+      "titulo": "Hackers Strike Trezor Shipping Partner, Exposing Wallet Buyers’ Personal Details",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/security/hackers-strike-trezor-shipping-partner-exposing-wallet-buyers-personal-details/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9755,
+    "input_tokens": 9660,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 680,
+    "output_tokens": 634,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
