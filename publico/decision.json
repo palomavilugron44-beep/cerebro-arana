@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) tras una caída de la capitalización total de -3.54% en 24 h y de unos -13% a -18% en 7 días en las principales monedas, con BTC cerca de 64.5K USD. Hay además un evento macro de alto impacto (intervención del presidente de la Fed, Warsh) previsto a las 17:00 UTC, dentro de las próximas 24 h. No hay señales de hackeo grave ni de medida regulatoria fuerte contra las monedas que opera el bot, así que se recomienda cautela general en lugar de pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 10) tras una caída de la capitalización total del -3.75% en 24 h, con BTC en mínimos de 18 semanas cerca de 64.000 USD. Hay un evento macro importante dentro de 24 h (intervención de Warsh a las 17:00 UTC y Nvidia earnings), lo que justifica reducir el tamaño de las compras nuevas. No hay hackeo grave que afecte directamente a las monedas operadas ni caída de más de -7%, así que no procede pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear), con tendencia bajista durante la última semana.",
-    "Capitalización total -3.54% en 24 h y caídas de 7 días de entre -11% y -18% en las 10 monedas.",
-    "Evento macro de alto impacto (Fed Chairman Warsh) previsto a las 17:00 UTC, dentro de las próximas 24 h pero fuera de la ventana de 2-3 horas que justificaría pausa.",
-    "Incidentes de seguridad recientes (hackeo a Luxor, Aster) afectan a empresas concretas, no a las monedas operadas ni a Binance, por lo que no justifican pausa.",
-    "No hay datos de halt, depeg ni delist en las monedas operadas."
+    "Índice Miedo/Codicia en 10 (miedo extremo), con tendencia bajista durante la última semana.",
+    "Capitalización total -3.75% en 24 h y BTC en mínimos de 18 semanas tras la venta del fin de semana.",
+    "Intervención de Fed Chairman Warsh a las 17:00 UTC dentro de las próximas 24 h, con mercado pendiente de resultados de Nvidia y subida de expectativas de tasas.",
+    "Las noticias de exploit (Luxor, Aster) y la incautación de fondos vinculados al hackeo de Binance son incidentes no dirigidos a las monedas operadas y no alteran su seguridad; no justifican pausa.",
+    "Todas las monedas operadas caen entre -0.5% y -2% en 24 h, sin anomalías individuales (halt, depeg, delist)."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-16T10:40:22+00:00",
-  "valido_hasta": "2026-11-16T13:40:22+00:00",
+  "generado": "2026-11-16T12:04:30+00:00",
+  "valido_hasta": "2026-11-16T15:04:30+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -3.54,
-    "noticias_analizadas": 39,
+    "cambio_mercado_24h": -3.75,
+    "noticias_analizadas": 41,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -36,9 +36,14 @@
       "link": "https://cointelegraph.com/news/harvard-dartmouth-bitcoin-etf-ibit-up-q3?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "titulo": "US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler’s Digest",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/magazine/us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "titulo": "Bitcoin Holds $64K After Weekend Crash, but Bears Remain in Control",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-holds-64k-after-weekend-crash-but-bears-remain-in-control/"
+    },
+    {
+      "titulo": "US Seeks to Seize More Than $1.2 Billion Linked to Binance Hack",
+      "fuente": "NewsBTC",
+      "link": "https://www.newsbtc.com/security/doj-binance-hack-one-point-two-billion-seizure-order/"
     },
     {
       "titulo": "Why Are Crypto Prices Down? Binance Founder CZ Lists Possible Reasons",
@@ -54,22 +59,17 @@
       "titulo": "Aster CEO suspects foul play after token plunges 32% in minutes",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/markets/aster-ceo-suspects-foul-play-after-token-plunges-32-in-minutes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Ripple’s David Schwartz Once Held 26 Million XRP. Now Just 3 Million",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/featured/ripples-david-schwartz-once-held-26-million-xrp-now-just-3-million/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9740,
+    "input_tokens": 9745,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 594,
+    "output_tokens": 606,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
