@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) tras una caída de fin de semana que llevó BTC a mínimos de unas 18 semanas, con las principales monedas cayendo entre 14% y 20% en 7 días, aunque la capitalización total sólo baja 1% en 24 h. Hay un evento macro relevante en las próximas horas (intervención del presidente de la Fed Warsh a las 17:00 UTC) y ventas minoristas de EE. UU. mañana, por lo que conviene reducir el tamaño de nuevas compras. No hay una caída brusca en curso ni un riesgo grave que justifique pausar.",
+  "resumen": "El mercado está en miedo extremo (índice 10) tras una caída de la semana de entre -13% y -18% en las monedas vigiladas, aunque en las últimas 24 h el movimiento es plano o ligeramente positivo (capitalización total -0.79%). Hay un evento macro relevante en menos de 24 h (ventas minoristas de EE. UU. el 17 de noviembre y comparecencia de Warsh), lo que justifica cautela general sin llegar a pausa. El hackeo de Lighter afecta a una plataforma DEX que no opera el bot, y la incautación de activos vinculada al hackeo de Binance es un hecho de enforcement sin impacto directo sobre las monedas listadas.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear), mínimo histórico reciente y en descenso durante 7 días.",
-    "BTC, ETH, SOL, XRP, DOGE, AVAX y demás caen entre -14% y -20% en 7 días; BTC toca mínimos de unas 18 semanas.",
-    "Intervención de Warsh (Fed) a las 17:00 UTC y ventas minoristas de EE. UU. mañana a las 13:30 UTC dentro de 24 h, evento macro importante.",
-    "Hackeo de Lighter (~15 M$) y exchange descentralizado de derivados sin impacto directo en las monedas operadas; no justifica pausa.",
-    "La caída total del mercado en 24 h es de -1%, por lo que no alcanza el umbral de pausa (-7%)."
+    "Índice Miedo/Codicia en 10 (Extreme Fear), con tendencia de 7 días aún muy baja.",
+    "Caída semanal de -13% a -18% en las 10 monedas; BTC cerca de mínimos de cuatro meses.",
+    "Retail Sales de EE. UU. (17-nov 13:30 UTC) y comparecencia de Warsh (16-nov 17:00 UTC) dentro de las próximas 24 h.",
+    "Capitalización total cae solo -0.79% en 24 h: no hay caída brusca en curso que justifique pausa.",
+    "Hackeo de Lighter (DEX ajena a las monedas operadas) y decomiso de activos ligados al hackeo de Binance: no afectan directamente a los pares del bot.",
+    "Ninguna moneda muestra anomalía (halt, depeg o delist), por lo que no se aplican restricciones por moneda."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-16T17:59:43+00:00",
-  "valido_hasta": "2026-11-16T20:59:43+00:00",
+  "generado": "2026-11-16T18:54:17+00:00",
+  "valido_hasta": "2026-11-16T21:54:17+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -1.02,
-    "noticias_analizadas": 57,
+    "cambio_mercado_24h": -0.79,
+    "noticias_analizadas": 58,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -30,6 +31,11 @@
     "eventos_usd_24h": 3
   },
   "titulares": [
+    {
+      "titulo": "Retail Sales and Fed Minutes Put Bitcoin’s Rate Outlook Back in Focus",
+      "fuente": "NewsBTC",
+      "link": "https://www.newsbtc.com/bitcoin-news/bitcoin-week-ahead-retail-sales-fed-minutes-november-2026/"
+    },
     {
       "titulo": "Lighter Confirms Security Breach, LIT Token Dives After $15M Swiped",
       "fuente": "Bitcoin.com",
@@ -54,22 +60,17 @@
       "titulo": "US Seeks to Seize More Than $1.2 Billion Linked to Binance Hack",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/security/doj-binance-hack-one-point-two-billion-seizure-order/"
-    },
-    {
-      "titulo": "Bitmine’s Ethereum Treasury Hits 6.08M ETH Despite Brutal Price Decline",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/crypto-news/bitmine-ethereum-treasury-6-08m-eth-despite-brutal-price-decline/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9816,
+    "input_tokens": 9755,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 632,
+    "output_tokens": 680,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
