@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) tras seis semanas de caídas, con unos 2.000 M$ en liquidaciones el fin de semana y BTC cerca de 62-65k USD, mientras la capitalización total apenas cambia en 24 h (-1%). Hay un evento macro de alto impacto en menos de 24 h (ventas minoristas de EE. UU. el 17 de noviembre a las 13:30 UTC) y salidas de ETF, lo que justifica operar con cautela en lugar de normal. No se identifica un riesgo grave e inmediato que requiera pausa global ni acción sobre posiciones; los hackeos de Lighter y Trezor afectan a plataformas o proveedores concretos, no a las monedas que opera el bot.",
+  "resumen": "El mercado está en miedo extremo (índice 10) tras un fin de semana de liquidaciones de unos 2.000 M$ y seis semanas consecutivas de caídas, con BTC cerca de 62-65 mil USD y el resto de altcoins bajando entre -12% y -17% en 7 días. Hay además publicación de ventas minoristas de EE. UU. el 17 de noviembre (dentro de las próximas 24 h) y salidas netas de ETF, por lo que la incertidumbre es elevada. No hay una caída brusca de capitalización de -7% ni un riesgo grave e inmediato que justifique una pausa, así que se recomienda cautela general.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear) con tendencia bajista durante la última semana.",
-    "Liquidaciones cercanas a 2.000 M$ el fin de semana y BTC en mínimos desde julio; todas las monedas operadas caen entre -12% y -17% en 7 días.",
-    "Ventas minoristas de EE. UU. (alto impacto) el 17/11 a las 13:30 UTC, dentro de las próximas 24 h.",
-    "Salidas netas de ETF de bitcoin durante tres semanas consecutivas (2 semanas: 2.350 M$).",
-    "Hackeos de Lighter (DEX) y Trezor (proveedor de envíos) y el decomiso de fondos ligados a Binance son incidentes relevantes pero no afectan directamente a las 10 monedas operadas; no justifican pausa.",
-    "La caída del mercado total en 24 h es de -1%, por lo que no se cumple el umbral de pausa por caída brusca."
+    "Índice Miedo/Codicia en 10 (miedo extremo) y tendencia descendente durante la última semana.",
+    "Liquidaciones de unos 2.000 M$ en derivados el fin de semana y BTC en mínimos desde julio.",
+    "Publicación de Retail Sales de EE. UU. (evento macro importante) el 17 de noviembre a las 13:30 UTC, dentro de las próximas 24 h.",
+    "Salidas netas de ETF de bitcoin durante tres semanas seguidas (2 semanas: 2.350 M$).",
+    "Caída de la capitalización total de -1.78% en 24 h, por debajo del umbral de pausa (-7%).",
+    "Incidentes de seguridad (brecha en proveedor de Trezor, exploit de Lighter de 10,4 M$, hackeo de Luxor) no afectan directamente a las monedas operadas ni son de riesgo sistémico."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-16T22:45:49+00:00",
-  "valido_hasta": "2026-11-17T01:45:49+00:00",
+  "generado": "2026-11-16T23:42:22+00:00",
+  "valido_hasta": "2026-11-17T02:42:22+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -1.01,
+    "cambio_mercado_24h": -1.78,
     "noticias_analizadas": 60,
     "articulos_leidos": 8,
     "fuentes": {
@@ -37,11 +37,6 @@
       "link": "https://www.newsbtc.com/bitcoin-news/bitcoin-week-ahead-retail-sales-fed-minutes-november-2026/"
     },
     {
-      "titulo": "Lighter Confirms Security Breach, LIT Token Dives After $15M Swiped",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/security/lighter-confirms-security-breach-lit-token-dives-15-swapped/"
-    },
-    {
       "titulo": "Bitcoin's $2 Billion Liquidation Weekend Leaves Traders Watching $60,000",
       "fuente": "Decrypt",
       "link": "https://decrypt.co/383366/bitcoin-2-billion-liquidation-weekend-traders-watching-60000"
@@ -52,25 +47,30 @@
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-sheds-14-percent-week-market-recovery-faces-fresh-test/"
     },
     {
-      "titulo": "US Seeks to Seize More Than $1.2 Billion Linked to Binance Hack",
-      "fuente": "NewsBTC",
-      "link": "https://www.newsbtc.com/security/doj-binance-hack-one-point-two-billion-seizure-order/"
-    },
-    {
       "titulo": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/16/bitcoin-risks-falling-below-usd60-000-as-nvidia-earnings-threaten-to-deepen-crypto-sell-off"
+    },
+    {
+      "titulo": "Bitcoin Price Holiday Forecast: Claude and ChatGPT See Red, Grok Goes Green",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/price-predictions/bitcoins-holiday-forecast-claude-chatgpt-see-red-grok-goes-green/"
+    },
+    {
+      "titulo": "Custodia Bank loses Supreme Court bid for direct Fed payment access",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/custodia-bank-loses-supreme-court-bid-for-direct-fed-payment-access?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9679,
+    "input_tokens": 9672,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 734,
+    "output_tokens": 672,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
