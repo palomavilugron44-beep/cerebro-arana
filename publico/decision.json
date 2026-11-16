@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) tras una caída semanal de alrededor del 13-18% en las principales monedas y una capitalización total que cayó un 3.58% en 24 h, con liquidaciones de $1.71 mil millones. El evento macro de alto impacto (discurso de Fed Chairman Warsh a las 17:00 UTC) cae dentro de las próximas 24 h, pero no dentro de las 2-3 horas, y no hay señales de halt, depeg ni delist. Se opta por cautela global, con la mitad del tamaño para compras nuevas, sin pausa ni alerta sobre posiciones.",
+  "resumen": "El mercado está en miedo extremo (índice 10) tras una caída de BTC de más de 12% en la semana, con la capitalización total -4% en 24 h y liquidaciones relevantes. Hay un evento macro de alto impacto (intervención de Warsh, presidente de la Fed) a las 17:00 UTC, dentro de las próximas 24 h pero fuera de la ventana de 2-3 horas, lo que justifica prudencia y no una pausa. Las noticias de hackeos (Luxor, Coinone, Kava, Aster) son incidentes concretos pero no afectan directamente a las monedas operadas, así que no se justifica pausar por moneda.",
   "motivos": [
-    "Miedo extremo (índice 10) con caída semanal de 10-18% en todas las monedas monitorizadas",
-    "Capitalización total -3.58% en 24 h con liquidaciones de $1.71 mil millones",
-    "Evento macro (discurso de Fed Chairman Warsh) previsto a las 17:00 UTC, dentro de las próximas 24 h",
-    "Incidentes de seguridad (Luxor, Coinone, Kava Lend) son ajenos a las monedas operadas o no graves a nivel de red, por lo que no justifican pausa",
-    "No hay evidencia de halt, depeg ni delist en las monedas del bot"
+    "Índice Miedo/Codicia en 10 (Extreme Fear) con tendencia reciente de miedo extremo desde hace una semana.",
+    "Capitalización total -4% en 24 h y todas las monedas operadas caen entre -10% y -19% en 7 días.",
+    "Intervención de la Fed (Warsh) prevista a las 17:00 UTC, dentro de las próximas 24 h: incertidumbre macro elevada.",
+    "Incidentes de seguridad (Luxor, Coinone, Kava, Aster) no afectan directamente a las 10 monedas operadas; no se justifica pausa.",
+    "Sin dato macro de muy alto impacto dentro de 2-3 horas, por lo que no procede pausa global."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-16T04:09:41+00:00",
-  "valido_hasta": "2026-11-16T07:09:41+00:00",
+  "generado": "2026-11-16T06:06:14+00:00",
+  "valido_hasta": "2026-11-16T09:06:14+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -3.58,
-    "noticias_analizadas": 24,
+    "cambio_mercado_24h": -4.0,
+    "noticias_analizadas": 27,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -34,11 +34,6 @@
       "titulo": "US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler’s Digest",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/magazine/us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Crypto Market Rout Deepens as XRP Price Hits 2-Year Low and ETF Money Flees",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/crypto-market-rout-deepens-as-xrp-price-hits-2-year-low-and-etf-money-flees/"
     },
     {
       "titulo": "Why Are Crypto Prices Down? Binance Founder CZ Lists Possible Reasons",
@@ -59,17 +54,22 @@
       "titulo": "Tom Lee Predicts Massive Crypto Supercycle Despite Market Crash",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/crypto-news/tom-lee-predicts-massive-crypto-supercycle-despite-market-crash/"
+    },
+    {
+      "titulo": "Aster CEO suspects foul play after token plunges 32% in minutes",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/aster-ceo-suspects-foul-play-after-token-plunges-32-in-minutes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7874,
+    "input_tokens": 8108,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 567,
+    "output_tokens": 606,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
