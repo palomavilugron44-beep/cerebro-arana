@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) tras una caída de la capitalización total del -3.75% en 24 h, con BTC en mínimos de 18 semanas cerca de 64.000 USD. Hay un evento macro importante dentro de 24 h (intervención de Warsh a las 17:00 UTC y Nvidia earnings), lo que justifica reducir el tamaño de las compras nuevas. No hay hackeo grave que afecte directamente a las monedas operadas ni caída de más de -7%, así que no procede pausa.",
+  "resumen": "El índice Miedo/Codicia está en 10 (Extreme Fear) tras una caída de fin de semana que llevó BTC por debajo de 62.000 USD, con todas las monedas vigentes un 12-18% a la baja en 7 días, aunque la capitalización total solo cae 0.99% en 24 h. Hay una cadena de eventos macro en las próximas 24 h (intervención de Warsh a las 17:00 UTC y ventas minoristas de EE. UU. mañana), que justifica cautela, pero no un dato de impacto máximo en las próximas 2-3 horas. Las noticias de hackeos (Binance, Lighter, Aster) son incidentes de terceros o acciones de decomiso sin señales de problema sistémico en las monedas operadas, por lo que no bastan para pausar.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (miedo extremo), con tendencia bajista durante la última semana.",
-    "Capitalización total -3.75% en 24 h y BTC en mínimos de 18 semanas tras la venta del fin de semana.",
-    "Intervención de Fed Chairman Warsh a las 17:00 UTC dentro de las próximas 24 h, con mercado pendiente de resultados de Nvidia y subida de expectativas de tasas.",
-    "Las noticias de exploit (Luxor, Aster) y la incautación de fondos vinculados al hackeo de Binance son incidentes no dirigidos a las monedas operadas y no alteran su seguridad; no justifican pausa.",
-    "Todas las monedas operadas caen entre -0.5% y -2% en 24 h, sin anomalías individuales (halt, depeg, delist)."
+    "Índice Miedo/Codicia en 10 (Extreme Fear) con tendencia descendente durante la última semana.",
+    "BTC perdió más de 17% en el mes y tocó mínimos de 18 semanas; todas las monedas operadas caen entre -12% y -18% en 7 días.",
+    "Intervención del presidente de la Fed (Warsh) a las 17:00 UTC y ventas minoristas de EE. UU. mañana a las 13:30 UTC dentro de 24 h: evento macro importante.",
+    "Noticias de hackeos y congelaciones (Binance, Lighter, Aster) son incidentes de terceros sin afectar directamente a las monedas operadas; no justifican pausa.",
+    "La caída del mercado total en 24 h es de -0.99%, no alcanza el umbral de caída brusca para pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-16T12:04:30+00:00",
-  "valido_hasta": "2026-11-16T15:04:30+00:00",
+  "generado": "2026-11-16T15:03:49+00:00",
+  "valido_hasta": "2026-11-16T18:03:49+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -3.75,
-    "noticias_analizadas": 41,
+    "cambio_mercado_24h": -0.99,
+    "noticias_analizadas": 51,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -27,7 +27,7 @@
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
-    "eventos_usd_24h": 1
+    "eventos_usd_24h": 3
   },
   "titulares": [
     {
@@ -46,14 +46,14 @@
       "link": "https://www.newsbtc.com/security/doj-binance-hack-one-point-two-billion-seizure-order/"
     },
     {
-      "titulo": "Why Are Crypto Prices Down? Binance Founder CZ Lists Possible Reasons",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/why-are-crypto-prices-down-binance-founder-cz-lists-possible-reasons/"
-    },
-    {
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Bitcoin was supposed to gain as AI faltered, but it crashed. Here's why.",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/daybook-us/2026/11/16/bitcoin-was-supposed-to-gain-as-ai-faltered-but-it-crashed-here-s-why"
     },
     {
       "titulo": "Aster CEO suspects foul play after token plunges 32% in minutes",
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9745,
+    "input_tokens": 9880,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 606,
+    "output_tokens": 691,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
