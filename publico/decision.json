@@ -1,25 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) tras una semana de fuerte caída: BTC ronda los 65.000 USD (-14% en 7 d), con salidas de ETF de más de 1.000 M$ semanales durante dos semanas y $130.000 M evaporados desde el viernes. La caída de las últimas 24 h es moderada (cap. total -0.32%) y no hay un evento grave de seguridad que afecte a las monedas operadas, pero hay un evento macro de alto impacto (discurso del presidente de la Fed, Warsh) a las 17:00 UTC, dentro de las próximas 24 h. Por eso se recomienda cautela general, con un refuerzo para XRP y SOL.",
+  "resumen": "El mercado está en miedo extremo (índice 10) tras una caída semanal de alrededor del 13-18% en las principales monedas y una capitalización total que cayó un 3.58% en 24 h, con liquidaciones de $1.71 mil millones. El evento macro de alto impacto (discurso de Fed Chairman Warsh a las 17:00 UTC) cae dentro de las próximas 24 h, pero no dentro de las 2-3 horas, y no hay señales de halt, depeg ni delist. Se opta por cautela global, con la mitad del tamaño para compras nuevas, sin pausa ni alerta sobre posiciones.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear) y tendencia descendente en la última semana.",
-    "Capitalización total cayó más de 130.000 M$ desde el viernes; BTC -13.9% y ETH -15.7% en 7 días.",
-    "Salidas netas de ETF de BTC (2.350 M$ en dos semanas) y de ETF de ETH (siete semanas consecutivas).",
-    "Discurso de Fed Chairman Warsh previsto a las 17:00 UTC, evento macro importante dentro de 24 h.",
-    "XRP en mínimos de dos años por debajo de 1 USD; SOL con la mayor caída semanal (-18.5%).",
-    "Incidentes de seguridad (Luxor, Coinone, Kava Lend) son de terceros y no afectan directamente a las monedas operadas; no se justifica pausa."
+    "Miedo extremo (índice 10) con caída semanal de 10-18% en todas las monedas monitorizadas",
+    "Capitalización total -3.58% en 24 h con liquidaciones de $1.71 mil millones",
+    "Evento macro (discurso de Fed Chairman Warsh) previsto a las 17:00 UTC, dentro de las próximas 24 h",
+    "Incidentes de seguridad (Luxor, Coinone, Kava Lend) son ajenos a las monedas operadas o no graves a nivel de red, por lo que no justifican pausa",
+    "No hay evidencia de halt, depeg ni delist en las monedas del bot"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-16T02:54:36+00:00",
-  "valido_hasta": "2026-11-16T05:54:36+00:00",
+  "generado": "2026-11-16T04:09:41+00:00",
+  "valido_hasta": "2026-11-16T07:09:41+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -0.32,
-    "noticias_analizadas": 25,
+    "cambio_mercado_24h": -3.58,
+    "noticias_analizadas": 24,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -63,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8010,
+    "input_tokens": 7874,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 811,
+    "output_tokens": 567,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
