@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) tras una caída de BTC de más de 12% en la semana, con la capitalización total -4% en 24 h y liquidaciones relevantes. Hay un evento macro de alto impacto (intervención de Warsh, presidente de la Fed) a las 17:00 UTC, dentro de las próximas 24 h pero fuera de la ventana de 2-3 horas, lo que justifica prudencia y no una pausa. Las noticias de hackeos (Luxor, Coinone, Kava, Aster) son incidentes concretos pero no afectan directamente a las monedas operadas, así que no se justifica pausar por moneda.",
+  "resumen": "El mercado está en miedo extremo (índice 10) tras una caída de BTC de alrededor del 12% en la semana, con la capitalización total -2.99% en 24 h y el mercado algo estabilizado en las últimas horas. Hay un evento macro relevante (discurso del presidente de la Fed Warsh a las 17:00 UTC, dentro de las próximas 24 h, pero fuera de la ventana de 2-3 horas), por lo que la prudencia es razonable sin llegar a pausa. Los incidentes de seguridad detectados (hackeo a Luxor, afectado solo a clientes de minería, y la volatilidad anómala de ASTER en otro exchange) no afectan directamente a las monedas operadas.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear) con tendencia reciente de miedo extremo desde hace una semana.",
-    "Capitalización total -4% en 24 h y todas las monedas operadas caen entre -10% y -19% en 7 días.",
-    "Intervención de la Fed (Warsh) prevista a las 17:00 UTC, dentro de las próximas 24 h: incertidumbre macro elevada.",
-    "Incidentes de seguridad (Luxor, Coinone, Kava, Aster) no afectan directamente a las 10 monedas operadas; no se justifica pausa.",
-    "Sin dato macro de muy alto impacto dentro de 2-3 horas, por lo que no procede pausa global."
+    "Índice Miedo/Codicia en 10 (Extreme Fear), con tendencia de 7 días que pasó de 10 a 32 pero sigue en miedo extremo.",
+    "Caída semanal de 11-17% en las 10 monedas y BTC cerca de 64.500 USD tras un desplome de más de 10.000 USD en la semana.",
+    "Discurso de Warsh (Fed) a las 17:00 UTC del 16/11, evento macro importante dentro de las próximas 24 h.",
+    "Hackeo de Luxor (minería, solo clientes afectados, contenido) no implica riesgo directo para las monedas operadas; no se considera riesgo grave para pausa.",
+    "Caída de la capitalización de -2.99% en 24 h sin liquidaciones masivas confirmadas en las últimas horas: no alcanza el umbral de pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-16T06:06:14+00:00",
-  "valido_hasta": "2026-11-16T09:06:14+00:00",
+  "generado": "2026-11-16T08:44:52+00:00",
+  "valido_hasta": "2026-11-16T11:44:52+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -4.0,
-    "noticias_analizadas": 27,
+    "cambio_mercado_24h": -2.99,
+    "noticias_analizadas": 31,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -31,6 +31,11 @@
   },
   "titulares": [
     {
+      "titulo": "Harvard, Dartmouth keep Bitcoin ETF stakes steady as fund gains 42% in Q3",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/harvard-dartmouth-bitcoin-etf-ibit-up-q3?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "titulo": "US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler’s Digest",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/magazine/us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -41,19 +46,14 @@
       "link": "https://news.bitcoin.com/market-updates/why-are-crypto-prices-down-binance-founder-cz-lists-possible-reasons/"
     },
     {
-      "titulo": "Kava Lend Exploit Exposes a Dangerous Gap in DeFi Collateral Accounting",
-      "fuente": "NewsBTC",
-      "link": "https://www.newsbtc.com/news/defi/kava-lend-exploit-collateral-busd-market-55-million/"
-    },
-    {
       "titulo": "Luxor Confirms Bitcoin Mining Hack and Reveals AI-Enabled Attack",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/security/luxor-confirms-bitcoin-mining-hack-and-reveals-ai-enabled-attack/"
     },
     {
-      "titulo": "Tom Lee Predicts Massive Crypto Supercycle Despite Market Crash",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/crypto-news/tom-lee-predicts-massive-crypto-supercycle-despite-market-crash/"
+      "titulo": "Here’s what happened in crypto today",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "titulo": "Aster CEO suspects foul play after token plunges 32% in minutes",
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8108,
+    "input_tokens": 8744,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 606,
+    "output_tokens": 671,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
