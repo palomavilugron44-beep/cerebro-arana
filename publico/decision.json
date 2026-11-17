@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12) con la capitalización total cayendo un 3.89% en 24 h y BTC perdiendo el soporte de su media de 200 semanas, cerca de 64.000 USD. Hay además presión de salidas de ETF, comentarios de la Fed sobre posibles subidas de tipos y el hackeo de Binance (6.300 M USD) con fondos robados aún en movimiento. No hay señales de pausa total ni eventos macro de alto impacto en 24 h, así que la opción prudente es operar con la mitad del tamaño de compra.",
+  "resumen": "El mercado está en miedo extremo (índice 12) tras una caída de la capitalización total del -3.97% en 24 h, con BTC cerca de 63.700 USD, por debajo de su media de 200 semanas y con salidas de ETF. Hay un evento macro relevante (minutas del FOMC) en las próximas 24 h, lo que justifica prudencia, pero no un riesgo grave e inmediato que obligue a pausar. Se elige cautela general sin restricciones adicionales por moneda.",
   "motivos": [
-    "Índice Miedo/Codicia en 12 (Extreme Fear) y caída de la capitalización total del -3.89% en 24 h.",
-    "BTC por debajo de su media de 200 semanas (~68.000 USD) con salidas netas de ETF y riesgo de nuevas caídas comentado por Wintermute.",
-    "Hackeo de Binance de 6.300 M USD con movimientos recientes de ETH robado: riesgo reputacional y de sentimiento, pero sin evidencia de problema operativo en las monedas del bot.",
-    "Sin eventos macro de alto impacto en 24 h, por lo que no se justifica pausa total; las caídas no alcanzan el umbral de -7% en 24 h."
+    "Miedo extremo (índice 12) con capitalización total -3.97% en 24 h y todas las monedas con caídas del 9-14% en 7 días.",
+    "BTC por debajo de la media móvil de 200 semanas (~68.000 USD) con salidas netas de ETF, según análisis de Wintermute y CoinDesk.",
+    "Evento macro de alto impacto (minutas del FOMC) previsto en las próximas 24 h, con tono hawkish de la Fed.",
+    "Hackeo de Binance (6.300 M USD) con movimientos de fondos robados: riesgo de noticias negativas relevantes pero no una amenaza directa a las monedas operadas, por lo que no se pausa.",
+    "Ninguna moneda muestra halt, depeg o delist; no hay motivo para restringir monedas concretas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-17T18:57:34+00:00",
-  "valido_hasta": "2026-11-17T21:57:34+00:00",
+  "generado": "2026-11-17T20:02:16+00:00",
+  "valido_hasta": "2026-11-17T23:02:16+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -3.89,
-    "noticias_analizadas": 60,
+    "cambio_mercado_24h": -3.97,
+    "noticias_analizadas": 63,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -26,18 +27,13 @@
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
-    "eventos_usd_24h": 0
+    "eventos_usd_24h": 1
   },
   "titulares": [
     {
       "titulo": "Bitcoin Price Hits $65K Wall Again as Analysts Warn of More Pain Ahead",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-hits-65k-wall-again-analysts-warn-more-pain-ahead/"
-    },
-    {
-      "titulo": "Bitcoin could slide into the $50,000s as Fed rate hike bets build, Wintermute says",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/17/bitcoin-could-slide-into-the-usd50-000s-as-fed-rate-hike-bets-build-wintermute-says"
     },
     {
       "titulo": "Bitcoin Price Could Drop Below $60K, Wintermute Warns—Here’s Why",
@@ -55,20 +51,25 @@
       "link": "https://cointelegraph.com/news/goldman-sachs-reports-122b-ether-etfs-etha-shares-jumps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "titulo": "Kalshi Axes Trump Mention Markets After CFTC Raises Concerns: CNBC",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/regulation-and-legal/kalshi-axes-trump-mention-markets-cftc-raises-concerns/"
+    },
+    {
       "titulo": "Bitcoin remains penned in near $64,000 even as ETF outflow streak ends",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/17/bitcoin-remains-penned-in-near-usd64-000-even-as-etf-outflow-streak-ends"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9664,
+    "input_tokens": 9566,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 574,
+    "output_tokens": 580,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
