@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12) con la capitalización total cayendo un 3.21% en 24 h y BTC por debajo de su media de 200 semanas tras una caída de ~13% en la semana. Hay un evento macro de alto impacto (minutas del FOMC) previsto para dentro de unas 21 horas, y un hackeo de 6.3 mil millones de dólares en Binance que sigue generando noticias. No llega al nivel de caída brusca o hackeo con riesgo inmediato para justificar pausa, por lo que se recomienda cautela general.",
+  "resumen": "El mercado está en miedo extremo (índice 12) con la capitalización total cayendo un 3,1% en 24 h y BTC bajo su media de 200 semanas tras una caída de casi 14% en la semana. Hay un evento macro relevante (FOMC Minutes) en las próximas 24 h, aunque no de impacto inmediato dentro de 2-3 horas. El hackeo de Binance (6.300 M$) es un riesgo noticioso serio, pero no hay señales de anomalía en las monedas operadas, así que se opta por cautela global sin pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 12 (Extreme Fear) con una caída de capitalización total del -3.21% en 24 h.",
-    "BTC cerró por debajo de la media móvil de 200 semanas tras caer ~13.7%; todas las monedas de la lista caen entre -9% y -14% en 7 días.",
-    "Evento macro importante (FOMC Meeting Minutes) previsto dentro de las próximas 24 h, con retórica de la Fed favorable a subidas de tipos.",
-    "Noticias negativas relevantes (hackeo de 6.3 mil millones en Binance con movimientos de fondos robados) pero sin impacto directo confirmado sobre las monedas operadas ni señal de pausa."
+    "Índice Miedo/Codicia en 12 (Extreme Fear) con tendencia bajista durante la última semana.",
+    "Capitalización total -3,1% en 24 h y BTC por debajo de la EMA/media de 200 semanas (~68.000 USD) con noticias de retirada de flujos en ETF.",
+    "Evento macro de alto impacto (FOMC Meeting Minutes) previsto dentro de las próximas 24 h.",
+    "El hackeo de Binance y el movimiento de fondos robados son riesgo reputacional, pero no hay indicios de anomalía (halt, depeg, delist) en las 10 monedas operadas.",
+    "Sin señales de riesgo grave e inmediato que justifiquen pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-17T21:52:43+00:00",
-  "valido_hasta": "2026-11-18T00:52:43+00:00",
+  "generado": "2026-11-17T22:53:18+00:00",
+  "valido_hasta": "2026-11-18T01:53:18+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -3.21,
-    "noticias_analizadas": 63,
+    "cambio_mercado_24h": -3.1,
+    "noticias_analizadas": 61,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -45,6 +46,11 @@
       "link": "https://cointelegraph.com/news/us-senators-sec-tokenized-stock-safeguards?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "titulo": "Ocean Mining Rejects Complicity Claims Over Luxor Bitcoin Pool Hack",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/mining/ocean-mining-rejects-complicity-claims-luxor-bitcoin-pool-hack/"
+    },
+    {
       "titulo": "Kalshi Axes Trump Mention Markets After CFTC Raises Concerns: CNBC",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/regulation-and-legal/kalshi-axes-trump-mention-markets-cftc-raises-concerns/"
@@ -53,22 +59,17 @@
       "titulo": "Bitcoin remains penned in near $64,000 even as ETF outflow streak ends",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/17/bitcoin-remains-penned-in-near-usd64-000-even-as-etf-outflow-streak-ends"
-    },
-    {
-      "titulo": "Live updates: Bitcoin and stocks continue slump as Huang signals interest in returning to Nvidia",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/business/2026/11/17/live-updates-bitcoin-holds-near-usd64-000-as-tech-slides-ahead-of-nvidia-earnings"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9650,
+    "input_tokens": 9593,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 574,
+    "output_tokens": 573,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
