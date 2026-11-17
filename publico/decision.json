@@ -1,25 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12) tras una liquidación de unos 2.000 millones de dólares el fin de semana, y BTC cotiza cerca de 64.300 USD con seis semanas consecutivas de caídas. Hoy hay un dato macro de alto impacto (ventas minoristas de EE. UU. a las 13:30 UTC), lo que justifica cautela, aunque la caída de la capitalización en 24 h (-2%) no alcanza el umbral de pausa. No hay un hackeo o una acción regulatoria grave contra una moneda del universo operado.",
+  "resumen": "El índice Miedo/Codicia está en 12 (miedo extremo) y el mercado cae de forma sostenida: BTC -13.8% y el resto de altcoins entre -11% y -16% en 7 días, con capitalización total -2.46% en 24 h. Hay un dato macro de alto impacto (Retail Sales de EEUU) a las 13:30 UTC, dentro de las próximas 24 h, y noticias sobre riesgo de subidas de tipos. No hay un evento grave e inmediato (exploit con impacto en precios, halt o depeg), así que se recomienda cautela en lugar de pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 12 (Extreme Fear), con tendencia bajista durante la última semana.",
-    "Liquidaciones de unos 2.000 millones de dólares el fin de semana y BTC en mínimos desde julio.",
-    "Publicación de ventas minoristas de EE. UU. (alto impacto) a las 13:30 UTC, dentro de las próximas 24 h.",
-    "La capitalización total cae un 2.03% en 24 h, por debajo del umbral de -7% que justificaría pausa.",
-    "Incidentes de seguridad (malware en 178 webs, filtración de datos de Trezor) no afectan directamente a las monedas operadas y no son graves a nivel de red o exchange.",
-    "Las monedas operadas caen entre un 12% y un 16% en 7 días de forma similar, sin una moneda en situación anómala que requiera tratamiento individual."
+    "Miedo extremo (índice 12) con tendencia descendente en la última semana.",
+    "Caída de 7 días de entre -11% y -16% en todas las monedas operadas; BTC cerca de perder la media de 200 semanas según Wintermute.",
+    "Retail Sales de EEUU (alto impacto) publicado a las 13:30 UTC del 17/11, dentro de las próximas 24 h.",
+    "Hackeo de Binance (ETH robados, 63M$) y campaña de malware en 178 webs son noticias negativas relevantes pero no afectan directamente a una moneda en situación anómala.",
+    "No hay halt, depeg ni delist ni caída de capitalización de -7% o peor en 24 h, por lo que no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-17T08:58:03+00:00",
-  "valido_hasta": "2026-11-17T11:58:03+00:00",
+  "generado": "2026-11-17T10:00:41+00:00",
+  "valido_hasta": "2026-11-17T13:00:41+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -2.03,
-    "noticias_analizadas": 37,
+    "cambio_mercado_24h": -2.46,
+    "noticias_analizadas": 40,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -37,9 +36,14 @@
       "link": "https://www.coindesk.com/markets/2026/11/17/bitcoin-could-slide-into-the-usd50-000s-as-fed-rate-hike-bets-build-wintermute-says"
     },
     {
-      "titulo": "Bitcoin's $2 Billion Liquidation Weekend Leaves Traders Watching $60,000",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/383366/bitcoin-2-billion-liquidation-weekend-traders-watching-60000"
+      "titulo": "Goldman Sachs reports $1.22B in Ether ETFs as ETHA share count jumps",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/goldman-sachs-reports-122b-ether-etfs-etha-shares-jumps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Binance hacker moves $63 million in stolen ether after 2 weeks of silence",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/business/2026/11/17/binance-hacker-moves-usd63-million-in-stolen-ether-after-two-weeks-of-silence"
     },
     {
       "titulo": "7 Major Banks Reveal XRP ETF Holdings in Latest SEC Filings",
@@ -55,22 +59,17 @@
       "titulo": "FBI Seizes 900+ Webcam Videos in $400M North Korean Crypto Crime Scheme",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/regulation-and-legal/fbi-seizes-900-webcam-videos-400m-north-korean-crypto-crime/"
-    },
-    {
-      "titulo": "Bitcoin Price Holiday Forecast: Claude and ChatGPT See Red, Grok Goes Green",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/price-predictions/bitcoins-holiday-forecast-claude-chatgpt-see-red-grok-goes-green/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9213,
+    "input_tokens": 9551,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 634,
+    "output_tokens": 596,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
