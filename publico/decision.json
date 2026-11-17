@@ -1,25 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12) tras una caída de la capitalización total del -3.75% en 24 h, con BTC cerrando bajo su media de 200 semanas y salidas netas de ETF. Hay además un evento macro relevante (minutas del FOMC) dentro de las próximas 24 h y un hackeo de Binance de 6.300 M$ que ya se conocía, sin nuevos movimientos graves en las monedas operadas. No se alcanza el umbral de pausa, por lo que se recomienda cautela general y, para BTC, cautela reforzada por su ruptura técnica.",
+  "resumen": "El mercado está en miedo extremo (índice 12) con la capitalización total cayendo un 3.21% en 24 h y BTC por debajo de su media de 200 semanas tras una caída de ~13% en la semana. Hay un evento macro de alto impacto (minutas del FOMC) previsto para dentro de unas 21 horas, y un hackeo de 6.3 mil millones de dólares en Binance que sigue generando noticias. No llega al nivel de caída brusca o hackeo con riesgo inmediato para justificar pausa, por lo que se recomienda cautela general.",
   "motivos": [
-    "Índice Miedo/Codicia en 12 (Extreme Fear) con tendencia bajista durante la última semana.",
-    "Capitalización total -3.75% en 24 h; BTC cerró bajo su media móvil de 200 semanas (~68K) con precio cerca de 63.9K.",
-    "Salidas netas de ETF de Bitcoin y señales de rechazo en 65K; riesgo de caída hacia 60K según Wintermute.",
-    "Minutas del FOMC previstas en las próximas 24 h, con retórica hawkish de la Fed (posibles subidas de tipos).",
-    "Hackeo de Binance (6.300 M$) ya conocido; los fondos robados se están moviendo, pero no hay anomalía de exchange ni halt de monedas operadas.",
-    "Las altcoins caen en línea con BTC (-10% a -14% en 7 días) sin situación anómala individual; no se justifica pausa."
+    "Índice Miedo/Codicia en 12 (Extreme Fear) con una caída de capitalización total del -3.21% en 24 h.",
+    "BTC cerró por debajo de la media móvil de 200 semanas tras caer ~13.7%; todas las monedas de la lista caen entre -9% y -14% en 7 días.",
+    "Evento macro importante (FOMC Meeting Minutes) previsto dentro de las próximas 24 h, con retórica de la Fed favorable a subidas de tipos.",
+    "Noticias negativas relevantes (hackeo de 6.3 mil millones en Binance con movimientos de fondos robados) pero sin impacto directo confirmado sobre las monedas operadas ni señal de pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-17T20:53:05+00:00",
-  "valido_hasta": "2026-11-17T23:53:05+00:00",
+  "generado": "2026-11-17T21:52:43+00:00",
+  "valido_hasta": "2026-11-18T00:52:43+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -3.75,
-    "noticias_analizadas": 65,
+    "cambio_mercado_24h": -3.21,
+    "noticias_analizadas": 63,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -47,11 +45,6 @@
       "link": "https://cointelegraph.com/news/us-senators-sec-tokenized-stock-safeguards?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "titulo": "Goldman Sachs reports $1.22B in Ether ETFs as ETHA share count jumps",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/goldman-sachs-reports-122b-ether-etfs-etha-shares-jumps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
       "titulo": "Kalshi Axes Trump Mention Markets After CFTC Raises Concerns: CNBC",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/regulation-and-legal/kalshi-axes-trump-mention-markets-cftc-raises-concerns/"
@@ -60,17 +53,22 @@
       "titulo": "Bitcoin remains penned in near $64,000 even as ETF outflow streak ends",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/17/bitcoin-remains-penned-in-near-usd64-000-even-as-etf-outflow-streak-ends"
+    },
+    {
+      "titulo": "Live updates: Bitcoin and stocks continue slump as Huang signals interest in returning to Nvidia",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/business/2026/11/17/live-updates-bitcoin-holds-near-usd64-000-as-tech-slides-ahead-of-nvidia-earnings"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9581,
+    "input_tokens": 9650,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 752,
+    "output_tokens": 574,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
