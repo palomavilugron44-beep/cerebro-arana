@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12) con la capitalización total cayendo un 3.82% en 24 h y BTC atascado bajo 65.000 USD con salidas de ETF y expectativas de subidas de tipos de la Fed. No hay eventos macro de alto impacto en las próximas 24 h ni un riesgo grave e inmediato que justifique pausar. Por ello se recomienda cautela general (mitad de tamaño en compras nuevas) sin pausa ni alerta sobre posiciones.",
+  "resumen": "El mercado está en miedo extremo (índice 12) tras una caída de la capitalización total del -3.86% en 24 h, con BTC atascado bajo 65.000 USD, salidas de ETF y presión por posibles subidas de tipos de la Fed. No hay eventos macro de alto impacto en las próximas 24 h ni una caída con liquidaciones que justifique una pausa. Se recomienda cautela general, sin restricciones adicionales por moneda.",
   "motivos": [
-    "Miedo extremo (índice 12) y caída de la capitalización total del -3.82% en 24 h.",
-    "Salidas netas de ETF de BTC y BTC incapaz de superar 65.000 USD; riesgo de nuevas caídas según algunos analistas.",
-    "Declaraciones hawkish de la Fed y expectativas de subidas de tipos, sin evento macro de alto impacto en 24 h.",
-    "Hackeo de Optimizely que afectó a 178 webs (no a una red o exchange concreta), sin implicación directa en las monedas operadas.",
-    "Ninguna moneda muestra situación anómala (halt, depeg o delist) ni riesgo regulatorio grave específico."
+    "Índice Miedo/Codicia en 12 (Extreme Fear), con valores bajos durante toda la última semana.",
+    "Capitalización total -3.86% en 24 h y todas las monedas del universo en caídas de entre -8% y -14% en 7 días.",
+    "Salidas de ETF de BTC y tono hawkish de la Fed (posibles subidas de tipos), aunque sin evento macro programado en las próximas 24 h.",
+    "Hackeo de Binance de 6.300 M USD (octubre) con fondos robados moviéndose de nuevo; riesgo reputacional para el ecosistema, pero sin impacto directo anómalo en los precios ni en las monedas operadas.",
+    "No se observa halt, depeg, delist ni acción regulatoria directa contra las monedas del universo, por lo que no procede pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-17T17:00:32+00:00",
-  "valido_hasta": "2026-11-17T20:00:32+00:00",
+  "generado": "2026-11-17T17:58:43+00:00",
+  "valido_hasta": "2026-11-17T20:58:43+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -3.82,
-    "noticias_analizadas": 58,
+    "cambio_mercado_24h": -3.86,
+    "noticias_analizadas": 60,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9567,
+    "input_tokens": 9731,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 545,
+    "output_tokens": 568,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
