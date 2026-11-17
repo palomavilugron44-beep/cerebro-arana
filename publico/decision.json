@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12, mínimo desde junio) tras una semana de caídas cercanas al 14-16% en las principales monedas, con BTC cerca de 64.000 USD y advertencias de posibles nuevos mínimos. Hay un evento macro de alto impacto en menos de 2 horas (Retail Sales a las 13:30 UTC), pero no se detecta una caída brusca de -7% en 24 h ni un riesgo grave que justifique pausar. Por ello se recomienda cautela general, sin pausa.",
+  "resumen": "El miedo extremo (índice 12, mínimo reciente de 10) y la caída de 7 días de entre -10% y -14% en las diez monedas justifican cautela, pero no hay una caída brusca de mercado hoy (cap. total -1.85% en 24 h) ni un riesgo grave que exija pausa. Hay además datos de ventas minoristas de EE. UU. a las 13:30 UTC, un evento macro relevante aunque no de tipo FOMC/IPC. El hackeo de Optimizely afecta a sitios web de terceros y no a una red o exchange concreta, por lo que no se aplica pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 12 (Extreme Fear), con caídas de 7 días de entre -12% y -16% en las 10 monedas.",
-    "Dato macro de alto impacto (Retail Sales, Core Retail Sales) a las 13:30 UTC, dentro de las próximas 24 h.",
-    "Capitalización total con -2.15% en 24 h: caída relevante pero por debajo del umbral de pausa (-7%).",
-    "Los hackeos recientes (Optimizely, 178 webs) y el robo en Binance son incidentes de seguridad sin afectación directa identificada a las monedas operadas; no justifican pausa.",
-    "No hay evidencia de halt, depeg o delist en las monedas operadas."
+    "Índice Miedo/Codicia en 12 (Extreme Fear), con mínimo de 10 en los últimos 7 días.",
+    "Todas las monedas caen entre -10% y -14% en 7 días; BTC pierde el soporte de su media de 200 semanas según noticias.",
+    "Publicación de Core Retail Sales y Retail Sales m/m de EE. UU. a las 13:30 UTC, dentro de las próximas 24 h.",
+    "La caída de capitalización en 24 h es -1.85%, por debajo del umbral de -7% para pausa.",
+    "Los ataques recientes (Optimizely, robo de ETH de Binance por TraderTraitor) afectan a terceros o a fondos ya robados, sin un exploit activo sobre las monedas operadas.",
+    "Sin anomalías como halt, depeg o delist en las monedas operadas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-17T11:50:16+00:00",
-  "valido_hasta": "2026-11-17T14:50:16+00:00",
+  "generado": "2026-11-17T13:02:25+00:00",
+  "valido_hasta": "2026-11-17T16:02:25+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -2.15,
-    "noticias_analizadas": 47,
+    "cambio_mercado_24h": -1.85,
+    "noticias_analizadas": 52,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +63,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9537,
+    "input_tokens": 9518,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 567,
+    "output_tokens": 635,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
