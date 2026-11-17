@@ -1,30 +1,29 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El miedo extremo (índice 12, mínimo reciente de 10) y la caída de 7 días de entre -10% y -14% en las diez monedas justifican cautela, pero no hay una caída brusca de mercado hoy (cap. total -1.85% en 24 h) ni un riesgo grave que exija pausa. Hay además datos de ventas minoristas de EE. UU. a las 13:30 UTC, un evento macro relevante aunque no de tipo FOMC/IPC. El hackeo de Optimizely afecta a sitios web de terceros y no a una red o exchange concreta, por lo que no se aplica pausa.",
+  "resumen": "El índice Miedo/Codicia está en 12 (miedo extremo) y el mercado cripto cae un 1.4% en 24 h, con BTC cerca de 64.000 USD tras perder su media de 200 semanas y con salidas de ETF previas. Hay además dos datos macro de alto impacto (Core Retail Sales y Retail Sales) publicados hoy a las 13:30 UTC, lo que justifica prudencia sin llegar a una pausa. No hay indicios de caída brusca de capitalización (-7% o peor) ni de hackeo que afecte directamente a las monedas operadas: el ataque Optimizely es un problema de sitios web, no de redes o exchanges.",
   "motivos": [
-    "Índice Miedo/Codicia en 12 (Extreme Fear), con mínimo de 10 en los últimos 7 días.",
-    "Todas las monedas caen entre -10% y -14% en 7 días; BTC pierde el soporte de su media de 200 semanas según noticias.",
-    "Publicación de Core Retail Sales y Retail Sales m/m de EE. UU. a las 13:30 UTC, dentro de las próximas 24 h.",
-    "La caída de capitalización en 24 h es -1.85%, por debajo del umbral de -7% para pausa.",
-    "Los ataques recientes (Optimizely, robo de ETH de Binance por TraderTraitor) afectan a terceros o a fondos ya robados, sin un exploit activo sobre las monedas operadas.",
-    "Sin anomalías como halt, depeg o delist en las monedas operadas."
+    "Índice Miedo/Codicia en 12 (Extreme Fear) con tendencia descendente en la última semana, lo que indica incertidumbre elevada.",
+    "Capitalización total -1.4% en 24 h y todas las monedas operadas caen entre -9.5% y -14.4% en 7 días, con BTC perdiendo su media de 200 semanas.",
+    "Datos de Retail Sales (alto impacto) publicados hoy a las 13:30 UTC; evento macro importante dentro de la ventana de 24 h.",
+    "Riesgos negativos relevantes pero no graves: ataque de address-swapping en Optimizely (no afecta a redes ni exchanges), hackeo de 63 M en ETH de un grupo norcoreano ya ocurrido, y rumores de caída de BTC a los 50.000 sin confirmación.",
+    "No se cumplen los criterios de pausa: no hay caída de mercado de -7% o peor en 24 h, ni dato de muy alto impacto (FOMC/IPC) en las próximas 2-3 horas, ni anomalía en ninguna moneda."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-17T13:02:25+00:00",
-  "valido_hasta": "2026-11-17T16:02:25+00:00",
+  "generado": "2026-11-17T14:17:40+00:00",
+  "valido_hasta": "2026-11-17T17:17:40+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -1.85,
-    "noticias_analizadas": 52,
+    "cambio_mercado_24h": -1.4,
+    "noticias_analizadas": 54,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
-      "Decrypt": 39,
+      "Decrypt": 38,
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
@@ -63,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9518,
+    "input_tokens": 9666,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 635,
+    "output_tokens": 740,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
