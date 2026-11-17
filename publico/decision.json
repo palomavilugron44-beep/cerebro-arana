@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12) tras una caída de la capitalización total del -3.97% en 24 h, con BTC cerca de 63.700 USD, por debajo de su media de 200 semanas y con salidas de ETF. Hay un evento macro relevante (minutas del FOMC) en las próximas 24 h, lo que justifica prudencia, pero no un riesgo grave e inmediato que obligue a pausar. Se elige cautela general sin restricciones adicionales por moneda.",
+  "resumen": "El mercado está en miedo extremo (índice 12) tras una caída de la capitalización total del -3.75% en 24 h, con BTC cerrando bajo su media de 200 semanas y salidas netas de ETF. Hay además un evento macro relevante (minutas del FOMC) dentro de las próximas 24 h y un hackeo de Binance de 6.300 M$ que ya se conocía, sin nuevos movimientos graves en las monedas operadas. No se alcanza el umbral de pausa, por lo que se recomienda cautela general y, para BTC, cautela reforzada por su ruptura técnica.",
   "motivos": [
-    "Miedo extremo (índice 12) con capitalización total -3.97% en 24 h y todas las monedas con caídas del 9-14% en 7 días.",
-    "BTC por debajo de la media móvil de 200 semanas (~68.000 USD) con salidas netas de ETF, según análisis de Wintermute y CoinDesk.",
-    "Evento macro de alto impacto (minutas del FOMC) previsto en las próximas 24 h, con tono hawkish de la Fed.",
-    "Hackeo de Binance (6.300 M USD) con movimientos de fondos robados: riesgo de noticias negativas relevantes pero no una amenaza directa a las monedas operadas, por lo que no se pausa.",
-    "Ninguna moneda muestra halt, depeg o delist; no hay motivo para restringir monedas concretas."
+    "Índice Miedo/Codicia en 12 (Extreme Fear) con tendencia bajista durante la última semana.",
+    "Capitalización total -3.75% en 24 h; BTC cerró bajo su media móvil de 200 semanas (~68K) con precio cerca de 63.9K.",
+    "Salidas netas de ETF de Bitcoin y señales de rechazo en 65K; riesgo de caída hacia 60K según Wintermute.",
+    "Minutas del FOMC previstas en las próximas 24 h, con retórica hawkish de la Fed (posibles subidas de tipos).",
+    "Hackeo de Binance (6.300 M$) ya conocido; los fondos robados se están moviendo, pero no hay anomalía de exchange ni halt de monedas operadas.",
+    "Las altcoins caen en línea con BTC (-10% a -14% en 7 días) sin situación anómala individual; no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-17T20:02:16+00:00",
-  "valido_hasta": "2026-11-17T23:02:16+00:00",
+  "generado": "2026-11-17T20:53:05+00:00",
+  "valido_hasta": "2026-11-17T23:53:05+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -3.97,
-    "noticias_analizadas": 63,
+    "cambio_mercado_24h": -3.75,
+    "noticias_analizadas": 65,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +63,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9566,
+    "input_tokens": 9581,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 580,
+    "output_tokens": 752,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
