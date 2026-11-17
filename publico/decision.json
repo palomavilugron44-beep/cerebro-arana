@@ -1,23 +1,22 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El índice Miedo/Codicia está en 12 (miedo extremo) y el mercado cae de forma sostenida: BTC -13.8% y el resto de altcoins entre -11% y -16% en 7 días, con capitalización total -2.46% en 24 h. Hay un dato macro de alto impacto (Retail Sales de EEUU) a las 13:30 UTC, dentro de las próximas 24 h, y noticias sobre riesgo de subidas de tipos. No hay un evento grave e inmediato (exploit con impacto en precios, halt o depeg), así que se recomienda cautela en lugar de pausa.",
+  "resumen": "El índice Miedo/Codicia está en 12 (miedo extremo) tras una semana de caídas cercanas al -14% en las principales monedas, y la capitalización total cae -2.65% en 24 h. Hay un evento macro de alto impacto hoy a las 13:30 UTC (Retail Sales), dentro de las próximas 24 h, por lo que la prudencia justifica reducir el tamaño de las compras nuevas. No hay una caída brusca de más de -7% ni un hackeo que afecte directamente a estas monedas, así que no procede pausar.",
   "motivos": [
-    "Miedo extremo (índice 12) con tendencia descendente en la última semana.",
-    "Caída de 7 días de entre -11% y -16% en todas las monedas operadas; BTC cerca de perder la media de 200 semanas según Wintermute.",
-    "Retail Sales de EEUU (alto impacto) publicado a las 13:30 UTC del 17/11, dentro de las próximas 24 h.",
-    "Hackeo de Binance (ETH robados, 63M$) y campaña de malware en 178 webs son noticias negativas relevantes pero no afectan directamente a una moneda en situación anómala.",
-    "No hay halt, depeg ni delist ni caída de capitalización de -7% o peor en 24 h, por lo que no se justifica pausa."
+    "Miedo extremo (índice 12) con caídas de alrededor de -13% a -16% en 7 días en las 10 monedas.",
+    "Dato macro de alto impacto (Retail Sales, 13:30 UTC) dentro de las próximas 24 h.",
+    "Riesgo de hackeo (inyección de malware en 178 webs, incl. Ledger) sin afectar a las redes ni a las monedas operadas; no justifica pausa.",
+    "Caída de capitalización total de -2.65% en 24 h, por debajo del umbral de -7% para pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-17T10:00:41+00:00",
-  "valido_hasta": "2026-11-17T13:00:41+00:00",
+  "generado": "2026-11-17T10:59:43+00:00",
+  "valido_hasta": "2026-11-17T13:59:43+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -2.46,
+    "cambio_mercado_24h": -2.65,
     "noticias_analizadas": 40,
     "articulos_leidos": 8,
     "fuentes": {
@@ -51,25 +50,25 @@
       "link": "https://news.bitcoin.com/featured/7-major-banks-reveal-xrp-etf-holdings-latest-sec-filings/"
     },
     {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "titulo": "Hackers plant crypto-stealing code on 178 major websites, including HSBC and Ledger",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/tech/2026/11/17/hackers-planted-crypto-stealing-code-on-178-organizations-sites-including-hsbc-bbc-and-ledger"
     },
     {
-      "titulo": "FBI Seizes 900+ Webcam Videos in $400M North Korean Crypto Crime Scheme",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/regulation-and-legal/fbi-seizes-900-webcam-videos-400m-north-korean-crypto-crime/"
+      "titulo": "Google says hackers use AI agents to find and exploit software flaws",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/google-ai-agents-automated-cyberattacks-software-flaws?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9551,
+    "input_tokens": 9568,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 596,
+    "output_tokens": 513,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
