@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12) tras una liquidación de unos 2.000 M$ el fin de semana, con BTC cerca de 62-65k USD y caídas de 13-16% en 7 días en casi todas las monedas. Hay un evento macro de alto impacto a las 13:30 UTC (Core Retail Sales y Retail Sales), dentro de las próximas 24 h. No hay hackeo que afecte directamente a estas redes ni acción regulatoria grave contra Binance o las monedas operadas, así que se aplica cautela general y no pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 12) tras una liquidación de unos 2.000 M$ el fin de semana, con BTC cerca de 64.770 USD y caídas de alrededor del 12-16% en 7 días en todas las monedas vigiladas. La capitalización total solo cae un -1.11% en 24 h, sin una caída brusca en curso, y no hay hackeos de exchanges ni acciones regulatorias graves contra las monedas del bot. Hay un evento macro de alto impacto (Retail Sales EE. UU.) dentro de 24 h, por lo que se opta por cautela (mitad de tamaño) en lugar de pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 12 (Extreme Fear) con volatilidad alta y liquidaciones recientes de unos 2.000 M$.",
-    "Dato macro USD de alto impacto (Retail Sales) previsto para hoy a las 13:30 UTC, dentro de las próximas 24 h.",
-    "Caídas de 13-16% en 7 días en BTC, ETH, SOL, BNB, XRP, ADA, DOGE, LINK y AVAX, con salidas de ETF de BTC de 1.070 M$ en una semana.",
-    "Noticias de seguridad (Trezor, Luxor, malware en webs) son incidentes de terceros sin impacto directo grave sobre las monedas operadas, por lo que no justifican pausa.",
-    "No hay halt, depeg ni delist de ninguna de las monedas operadas; la caída del mercado no alcanza el umbral de -7% en 24 h (la capitalización total cayó -1.34%)."
+    "Índice Miedo/Codicia en 12 (Extreme Fear) con caídas del 12-16% en 7 días en las 10 monedas.",
+    "Liquidaciones de unos 2.000 M$ el fin de semana y salidas de ETF de BTC de 1.070 M$ en la última semana.",
+    "Evento macro de alto impacto (Core Retail Sales y Retail Sales m/m de EE. UU.) a las 13:30 UTC, dentro de las próximas 24 h pero no en las próximas 2-3 h.",
+    "La caída de 24 h del mercado total es moderada (-1.11%), así que no se cumple el umbral de pausa.",
+    "Las noticias de hackeos (Trezor, Luxor, FBI) no afectan directamente a las monedas operadas ni a Binance de forma grave."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-17T04:57:43+00:00",
-  "valido_hasta": "2026-11-17T07:57:43+00:00",
+  "generado": "2026-11-17T05:58:24+00:00",
+  "valido_hasta": "2026-11-17T08:58:24+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -1.34,
-    "noticias_analizadas": 46,
+    "cambio_mercado_24h": -1.11,
+    "noticias_analizadas": 44,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9701,
+    "input_tokens": 9640,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 659,
+    "output_tokens": 635,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
