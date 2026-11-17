@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12) tras seis semanas de caídas y una liquidación de unos 2.000 millones de dólares el fin de semana, con BTC cerca de 64.600 USD y todas las monedas entre -13% y -16% en 7 días. El cambio de 24 h es moderado (capitalización -1.24%), así que no hay una caída brusca en curso que justifique pausa. Hoy a las 13:30 UTC salen datos de ventas minoristas de EE. UU. (impacto alto pero no de FOMC/IPC), lo que justifica cautela general durante las próximas horas.",
+  "resumen": "El mercado está en miedo extremo (índice 12) tras una liquidación de unos 2.000 millones de dólares el fin de semana, y BTC cotiza cerca de 64.300 USD con seis semanas consecutivas de caídas. Hoy hay un dato macro de alto impacto (ventas minoristas de EE. UU. a las 13:30 UTC), lo que justifica cautela, aunque la caída de la capitalización en 24 h (-2%) no alcanza el umbral de pausa. No hay un hackeo o una acción regulatoria grave contra una moneda del universo operado.",
   "motivos": [
-    "Miedo extremo (índice 12) y tendencia a la baja de 7 días en todas las monedas (entre -12.8% y -16.5%).",
-    "Liquidaciones por unos 2.000 millones de dólares el fin de semana y salidas netas de ETF de bitcoin durante tres semanas.",
-    "Datos de ventas minoristas de EE. UU. a las 13:30 UTC, dentro de las próximas 24 h; impacto relevante pero no de máxima categoría.",
-    "Hackeos y filtraciones de datos (Trezor, malware en 178 sitios) sin afectar directamente a las monedas operadas; no justifican pausa.",
-    "Sin caída brusca de capitalización total (-1.24% en 24 h), por lo que no se activa pausa."
+    "Índice Miedo/Codicia en 12 (Extreme Fear), con tendencia bajista durante la última semana.",
+    "Liquidaciones de unos 2.000 millones de dólares el fin de semana y BTC en mínimos desde julio.",
+    "Publicación de ventas minoristas de EE. UU. (alto impacto) a las 13:30 UTC, dentro de las próximas 24 h.",
+    "La capitalización total cae un 2.03% en 24 h, por debajo del umbral de -7% que justificaría pausa.",
+    "Incidentes de seguridad (malware en 178 webs, filtración de datos de Trezor) no afectan directamente a las monedas operadas y no son graves a nivel de red o exchange.",
+    "Las monedas operadas caen entre un 12% y un 16% en 7 días de forma similar, sin una moneda en situación anómala que requiera tratamiento individual."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-17T07:13:45+00:00",
-  "valido_hasta": "2026-11-17T10:13:45+00:00",
+  "generado": "2026-11-17T08:58:03+00:00",
+  "valido_hasta": "2026-11-17T11:58:03+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -1.24,
-    "noticias_analizadas": 42,
+    "cambio_mercado_24h": -2.03,
+    "noticias_analizadas": 37,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -31,6 +32,11 @@
   },
   "titulares": [
     {
+      "titulo": "Bitcoin could slide into the $50,000s as Fed rate hike bets build, Wintermute says",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/17/bitcoin-could-slide-into-the-usd50-000s-as-fed-rate-hike-bets-build-wintermute-says"
+    },
+    {
       "titulo": "Bitcoin's $2 Billion Liquidation Weekend Leaves Traders Watching $60,000",
       "fuente": "Decrypt",
       "link": "https://decrypt.co/383366/bitcoin-2-billion-liquidation-weekend-traders-watching-60000"
@@ -39,11 +45,6 @@
       "titulo": "7 Major Banks Reveal XRP ETF Holdings in Latest SEC Filings",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/featured/7-major-banks-reveal-xrp-etf-holdings-latest-sec-filings/"
-    },
-    {
-      "titulo": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/16/bitcoin-risks-falling-below-usd60-000-as-nvidia-earnings-threaten-to-deepen-crypto-sell-off"
     },
     {
       "titulo": "Here’s what happened in crypto today",
@@ -62,14 +63,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9625,
+    "input_tokens": 9213,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 602,
+    "output_tokens": 634,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
