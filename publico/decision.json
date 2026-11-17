@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12) con la capitalización total cayendo un 3,96% en 24 h y todas las monedas en negativo a 7 días (entre -8% y -14%). Hay presión bajista sobre BTC (pérdida de la media de 200 semanas, salidas de ETF y riesgo de subidas de tipos), aunque no hay un evento macro de alto impacto en 24 h ni un hackeo que afecte directamente a las monedas operadas. Por ello se recomienda cautela general, sin pausa ni monedas específicas.",
+  "resumen": "El mercado está en miedo extremo (índice 12) con la capitalización total cayendo un 3.82% en 24 h y BTC atascado bajo 65.000 USD con salidas de ETF y expectativas de subidas de tipos de la Fed. No hay eventos macro de alto impacto en las próximas 24 h ni un riesgo grave e inmediato que justifique pausar. Por ello se recomienda cautela general (mitad de tamaño en compras nuevas) sin pausa ni alerta sobre posiciones.",
   "motivos": [
-    "Índice Miedo/Codicia en 12 (Extreme Fear) y tendencia descendente durante la última semana.",
-    "Capitalización total -3,96% en 24 h; todas las monedas operadas caen entre -8% y -14% en 7 días.",
-    "Noticias negativas relevantes (BTC perdiendo la media de 200 semanas, salidas de ETF, riesgo de subidas de tipos), pero sin evento grave ni inmediato.",
-    "El hackeo de Optimizely afecta a sitios web de terceros, no a redes ni exchanges de las monedas operadas; no justifica pausa.",
-    "No hay eventos económicos USD de alto impacto en las próximas 24 h."
+    "Miedo extremo (índice 12) y caída de la capitalización total del -3.82% en 24 h.",
+    "Salidas netas de ETF de BTC y BTC incapaz de superar 65.000 USD; riesgo de nuevas caídas según algunos analistas.",
+    "Declaraciones hawkish de la Fed y expectativas de subidas de tipos, sin evento macro de alto impacto en 24 h.",
+    "Hackeo de Optimizely que afectó a 178 webs (no a una red o exchange concreta), sin implicación directa en las monedas operadas.",
+    "Ninguna moneda muestra situación anómala (halt, depeg o delist) ni riesgo regulatorio grave específico."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-17T15:55:11+00:00",
-  "valido_hasta": "2026-11-17T18:55:11+00:00",
+  "generado": "2026-11-17T17:00:32+00:00",
+  "valido_hasta": "2026-11-17T20:00:32+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -3.96,
-    "noticias_analizadas": 56,
+    "cambio_mercado_24h": -3.82,
+    "noticias_analizadas": 58,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -30,6 +30,11 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
+    {
+      "titulo": "Bitcoin Price Hits $65K Wall Again as Analysts Warn of More Pain Ahead",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-hits-65k-wall-again-analysts-warn-more-pain-ahead/"
+    },
     {
       "titulo": "Bitcoin could slide into the $50,000s as Fed rate hike bets build, Wintermute says",
       "fuente": "CoinDesk",
@@ -54,22 +59,17 @@
       "titulo": "Backpack, Tzero Win CFTC Approvals for US Crypto Derivatives",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/regulation-and-legal/backpack-tzero-win-cftc-approvals-for-us-crypto-derivatives/"
-    },
-    {
-      "titulo": "Binance hacker moves $63 million in stolen ether after 2 weeks of silence",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/business/2026/11/17/binance-hacker-moves-usd63-million-in-stolen-ether-after-two-weeks-of-silence"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9510,
+    "input_tokens": 9567,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 558,
+    "output_tokens": 545,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
