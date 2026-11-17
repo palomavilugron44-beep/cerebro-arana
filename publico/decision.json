@@ -1,23 +1,22 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12) tras una caída de la capitalización total del -3.86% en 24 h, con BTC atascado bajo 65.000 USD, salidas de ETF y presión por posibles subidas de tipos de la Fed. No hay eventos macro de alto impacto en las próximas 24 h ni una caída con liquidaciones que justifique una pausa. Se recomienda cautela general, sin restricciones adicionales por moneda.",
+  "resumen": "El mercado está en miedo extremo (índice 12) con la capitalización total cayendo un 3.89% en 24 h y BTC perdiendo el soporte de su media de 200 semanas, cerca de 64.000 USD. Hay además presión de salidas de ETF, comentarios de la Fed sobre posibles subidas de tipos y el hackeo de Binance (6.300 M USD) con fondos robados aún en movimiento. No hay señales de pausa total ni eventos macro de alto impacto en 24 h, así que la opción prudente es operar con la mitad del tamaño de compra.",
   "motivos": [
-    "Índice Miedo/Codicia en 12 (Extreme Fear), con valores bajos durante toda la última semana.",
-    "Capitalización total -3.86% en 24 h y todas las monedas del universo en caídas de entre -8% y -14% en 7 días.",
-    "Salidas de ETF de BTC y tono hawkish de la Fed (posibles subidas de tipos), aunque sin evento macro programado en las próximas 24 h.",
-    "Hackeo de Binance de 6.300 M USD (octubre) con fondos robados moviéndose de nuevo; riesgo reputacional para el ecosistema, pero sin impacto directo anómalo en los precios ni en las monedas operadas.",
-    "No se observa halt, depeg, delist ni acción regulatoria directa contra las monedas del universo, por lo que no procede pausa."
+    "Índice Miedo/Codicia en 12 (Extreme Fear) y caída de la capitalización total del -3.89% en 24 h.",
+    "BTC por debajo de su media de 200 semanas (~68.000 USD) con salidas netas de ETF y riesgo de nuevas caídas comentado por Wintermute.",
+    "Hackeo de Binance de 6.300 M USD con movimientos recientes de ETH robado: riesgo reputacional y de sentimiento, pero sin evidencia de problema operativo en las monedas del bot.",
+    "Sin eventos macro de alto impacto en 24 h, por lo que no se justifica pausa total; las caídas no alcanzan el umbral de -7% en 24 h."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-17T17:58:43+00:00",
-  "valido_hasta": "2026-11-17T20:58:43+00:00",
+  "generado": "2026-11-17T18:57:34+00:00",
+  "valido_hasta": "2026-11-17T21:57:34+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -3.86,
+    "cambio_mercado_24h": -3.89,
     "noticias_analizadas": 60,
     "articulos_leidos": 8,
     "fuentes": {
@@ -41,6 +40,11 @@
       "link": "https://www.coindesk.com/markets/2026/11/17/bitcoin-could-slide-into-the-usd50-000s-as-fed-rate-hike-bets-build-wintermute-says"
     },
     {
+      "titulo": "Bitcoin Price Could Drop Below $60K, Wintermute Warns—Here’s Why",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-drop-below-60k-wintermute-warns-why/"
+    },
+    {
       "titulo": "US senators seek SEC answers on tokenized stock money laundering risks",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/us-senators-sec-tokenized-stock-safeguards?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -54,22 +58,17 @@
       "titulo": "Bitcoin remains penned in near $64,000 even as ETF outflow streak ends",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/17/bitcoin-remains-penned-in-near-usd64-000-even-as-etf-outflow-streak-ends"
-    },
-    {
-      "titulo": "Backpack, Tzero Win CFTC Approvals for US Crypto Derivatives",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/regulation-and-legal/backpack-tzero-win-cftc-approvals-for-us-crypto-derivatives/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9731,
+    "input_tokens": 9664,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 568,
+    "output_tokens": 574,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
