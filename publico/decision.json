@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12) con la capitalización total cayendo un 3,1% en 24 h y BTC bajo su media de 200 semanas tras una caída de casi 14% en la semana. Hay un evento macro relevante (FOMC Minutes) en las próximas 24 h, aunque no de impacto inmediato dentro de 2-3 horas. El hackeo de Binance (6.300 M$) es un riesgo noticioso serio, pero no hay señales de anomalía en las monedas operadas, así que se opta por cautela global sin pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 12) con la capitalización total cayendo un 2.83% en 24 h y BTC bajo su media de 200 semanas tras una caída de casi 14% semanal. Hay un evento macro relevante (minutas del FOMC) en las próximas 24 h, lo que justifica prudencia sin llegar a pausar. No hay una caída brusca de más de -7% ni un hackeo que afecte directamente a las monedas operadas, por lo que no se activa pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 12 (Extreme Fear) con tendencia bajista durante la última semana.",
-    "Capitalización total -3,1% en 24 h y BTC por debajo de la EMA/media de 200 semanas (~68.000 USD) con noticias de retirada de flujos en ETF.",
-    "Evento macro de alto impacto (FOMC Meeting Minutes) previsto dentro de las próximas 24 h.",
-    "El hackeo de Binance y el movimiento de fondos robados son riesgo reputacional, pero no hay indicios de anomalía (halt, depeg, delist) en las 10 monedas operadas.",
-    "Sin señales de riesgo grave e inmediato que justifiquen pausa."
+    "Índice Miedo/Codicia en 12 (miedo extremo), con tendencia bajista en la última semana.",
+    "Capitalización total -2.83% en 24 h y BTC por debajo de la media móvil de 200 semanas, con flujos de salida de ETF.",
+    "Minutas del FOMC previstas para 2026-11-18 19:00 UTC, dentro de las próximas 24 h.",
+    "El hackeo de Binance (6.3 mil millones) y los movimientos de fondos robados son noticias negativas relevantes pero no afectan directamente a las monedas operadas ni son una caída en curso de gravedad suficiente para pausar.",
+    "Todas las monedas operadas caen entre -8% y -13% en 7 días, sin una anomalía específica (halt, depeg o delist)."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-17T22:53:18+00:00",
-  "valido_hasta": "2026-11-18T01:53:18+00:00",
+  "generado": "2026-11-17T23:49:12+00:00",
+  "valido_hasta": "2026-11-18T02:49:12+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -3.1,
-    "noticias_analizadas": 61,
+    "cambio_mercado_24h": -2.83,
+    "noticias_analizadas": 55,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -41,11 +41,6 @@
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-drop-below-60k-wintermute-warns-why/"
     },
     {
-      "titulo": "US senators seek SEC answers on tokenized stock money laundering risks",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/us-senators-sec-tokenized-stock-safeguards?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
       "titulo": "Ocean Mining Rejects Complicity Claims Over Luxor Bitcoin Pool Hack",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/mining/ocean-mining-rejects-complicity-claims-luxor-bitcoin-pool-hack/"
@@ -56,20 +51,25 @@
       "link": "https://news.bitcoin.com/regulation-and-legal/kalshi-axes-trump-mention-markets-cftc-raises-concerns/"
     },
     {
-      "titulo": "Bitcoin remains penned in near $64,000 even as ETF outflow streak ends",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/17/bitcoin-remains-penned-in-near-usd64-000-even-as-etf-outflow-streak-ends"
+      "titulo": "Here’s what happened in crypto today",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Fed’s Waller cites Binance hack in warning over tokenized finance",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/feds-waller-cites-binance-hack-in-warning-over-tokenized-finance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9593,
+    "input_tokens": 9665,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 573,
+    "output_tokens": 572,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
