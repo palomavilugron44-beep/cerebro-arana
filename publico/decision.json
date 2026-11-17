@@ -1,25 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) tras un fin de semana de liquidaciones de unos 2.000 M$ y seis semanas consecutivas de caídas, con BTC cerca de 62-65 mil USD y el resto de altcoins bajando entre -12% y -17% en 7 días. Hay además publicación de ventas minoristas de EE. UU. el 17 de noviembre (dentro de las próximas 24 h) y salidas netas de ETF, por lo que la incertidumbre es elevada. No hay una caída brusca de capitalización de -7% ni un riesgo grave e inmediato que justifique una pausa, así que se recomienda cautela general.",
+  "resumen": "El mercado está en miedo extremo (índice 12) tras una semana de caídas de alrededor del 13-18% en las principales monedas y una liquidación de unos 2.000 millones de dólares en derivados. Hay un evento macro de impacto alto (Retail Sales de EE. UU.) a las 13:30 UTC del 17 de noviembre, dentro de las próximas 24 h, lo que justifica cautela, pero sin llegar a pausa. No hay indicios de un exploit que afecte directamente a las monedas operadas ni de una caída brusca de capitalización de -7% o peor en 24 h (la caída es de -2.49%).",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (miedo extremo) y tendencia descendente durante la última semana.",
-    "Liquidaciones de unos 2.000 M$ en derivados el fin de semana y BTC en mínimos desde julio.",
-    "Publicación de Retail Sales de EE. UU. (evento macro importante) el 17 de noviembre a las 13:30 UTC, dentro de las próximas 24 h.",
-    "Salidas netas de ETF de bitcoin durante tres semanas seguidas (2 semanas: 2.350 M$).",
-    "Caída de la capitalización total de -1.78% en 24 h, por debajo del umbral de pausa (-7%).",
-    "Incidentes de seguridad (brecha en proveedor de Trezor, exploit de Lighter de 10,4 M$, hackeo de Luxor) no afectan directamente a las monedas operadas ni son de riesgo sistémico."
+    "Índice Miedo/Codicia en 12 (Extreme Fear), con caídas de 13-18% en 7 días en todas las monedas operadas.",
+    "Evento macro de impacto alto (Core Retail Sales y Retail Sales m/m) previsto para 2026-11-17 13:30 UTC, dentro de las próximas 24 h, sin llegar a la ventana de 2-3 horas.",
+    "Liquidaciones de unos 2.000 M$ el fin de semana y salidas de ETF de bitcoin de 1.070 M$ en una semana: presión vendedora relevante, pero la caída 24 h de la capitalización (-2.49%) no alcanza el umbral de pausa.",
+    "Los hackeos recientes (Trezor/Skladon, Lighter, Luxor) no afectan a las redes ni a las monedas operadas; el incidente de Binance se menciona sin datos concretos, por lo que no se considera riesgo grave para las monedas del bot."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-16T23:42:22+00:00",
-  "valido_hasta": "2026-11-17T02:42:22+00:00",
+  "generado": "2026-11-17T01:00:43+00:00",
+  "valido_hasta": "2026-11-17T04:00:43+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
-    "miedo_codicia": 10,
-    "cambio_mercado_24h": -1.78,
-    "noticias_analizadas": 60,
+    "miedo_codicia": 12,
+    "cambio_mercado_24h": -2.49,
+    "noticias_analizadas": 56,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -47,6 +45,11 @@
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-sheds-14-percent-week-market-recovery-faces-fresh-test/"
     },
     {
+      "titulo": "7 Major Banks Reveal XRP ETF Holdings in Latest SEC Filings",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/featured/7-major-banks-reveal-xrp-etf-holdings-latest-sec-filings/"
+    },
+    {
       "titulo": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/16/bitcoin-risks-falling-below-usd60-000-as-nvidia-earnings-threaten-to-deepen-crypto-sell-off"
@@ -55,22 +58,17 @@
       "titulo": "Bitcoin Price Holiday Forecast: Claude and ChatGPT See Red, Grok Goes Green",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/price-predictions/bitcoins-holiday-forecast-claude-chatgpt-see-red-grok-goes-green/"
-    },
-    {
-      "titulo": "Custodia Bank loses Supreme Court bid for direct Fed payment access",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/custodia-bank-loses-supreme-court-bid-for-direct-fed-payment-access?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9672,
+    "input_tokens": 9653,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 672,
+    "output_tokens": 680,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
