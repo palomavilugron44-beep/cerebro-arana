@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11) con la capitalización total cayendo un 3.89% en 24 h y BTC cerca de 62.700 USD, tras un descenso del 15% en 7 días en casi todas las monedas. Hay presión macro: Waller pide un recorte de 50 puntos básicos en diciembre y el FOMC publica sus actas a las 19:00 UTC, dentro de las próximas 24 h. No hay señales de pausa (no hay hackeo que afecte directamente a las monedas operadas ni halt o deslistado), así que se recomienda cautela general, con compras a la mitad del tamaño.",
+  "resumen": "El mercado está en miedo extremo (índice 11) con la capitalización total cayendo un 3.11% en 24 h y BTC perdiendo el soporte de 63.000 USD tras declaraciones halcónicas de la Fed (Waller pide subida de 50 pb) y salidas continuas de ETF. El FOMC Minutes a las 19:00 UTC es un evento macro importante dentro de las próximas 24 h, lo que justifica cautela, aunque no es un dato de muy alto impacto en las próximas 2-3 horas. No hay señales de hackeo, halt o acción regulatoria grave contra las monedas operadas, por lo que no se justifica pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear), con tendencia bajista sostenida durante la última semana.",
-    "Capitalización total -3.89% en 24 h y caída de 15% en 7 días en BTC, ETH, BNB, SOL, DOGE, ADA, LINK, LTC y AVAX.",
-    "Evento macro relevante en 24 h: actas del FOMC a las 19:00 UTC, con Waller defendiendo una subida de tipos de 50 pb en diciembre.",
-    "Salidas de ETF de BTC de 2.58 bn USD en noviembre y señal bajista de CryptoQuant.",
-    "Incidente de seguridad de Binance (hackeo del 29 de octubre) sin impacto confirmado directo sobre las monedas operadas; no justifica pausa."
+    "Índice Miedo/Codicia en 11 (Extreme Fear) y tendencia descendente en la última semana.",
+    "Capitalización total -3.11% en 24 h y BTC por debajo de 63.000 USD tras rechazo en 65.000.",
+    "Salidas netas de ETF de Bitcoin (2.58 mil millones USD en noviembre) y comentarios halcónicos de la Fed.",
+    "FOMC Meeting Minutes a las 19:00 UTC dentro de las próximas 24 h (evento macro importante).",
+    "Sin evidencia de hackeo, halt, depeg o acción regulatoria grave sobre las monedas operadas; el exploit de Binance es un incidente pasado sin confirmar venta de fondos."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-18T17:02:20+00:00",
-  "valido_hasta": "2026-11-18T20:02:20+00:00",
+  "generado": "2026-11-18T17:56:34+00:00",
+  "valido_hasta": "2026-11-18T20:56:34+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -3.89,
-    "noticias_analizadas": 47,
+    "cambio_mercado_24h": -3.11,
+    "noticias_analizadas": 50,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -30,6 +30,11 @@
     "eventos_usd_24h": 1
   },
   "titulares": [
+    {
+      "titulo": "Bitcoin Price Slides Near $62K as Citi Slashes 12-Month Target by 12%",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-slides-62k-citi-slashes-price-target-12-percent/"
+    },
     {
       "titulo": "Goldman Sachs Boosted Its XRP ETF Stake to $144M, Then XRP Crashed",
       "fuente": "Bitcoin.com",
@@ -54,22 +59,17 @@
       "titulo": "$500 Billion Vanishes From Precious Metals as Gold Crashes Below $3,800",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/gold-crashes-below-3800-500-billion-wiped-gold-silver-bitcoin/"
-    },
-    {
-      "titulo": "Live updates: Bitcoin falls below $63,000, with Strategy’s STRC hitting lowest since August",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/business/2026/11/18/live-updates-bitcoin-stuck-near-usd65-000-as-popular-basis-trade-returns-dry-up"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9625,
+    "input_tokens": 9593,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 627,
+    "output_tokens": 614,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
