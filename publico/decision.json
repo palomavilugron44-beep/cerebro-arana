@@ -1,23 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11) tras una caída de BTC de unos -13% semanal, con BTC cerca de 64.000 USD y por debajo de su media de 200 semanas. La capitalización total cae -2.44% en 24 h y hay un evento macro relevante (minutas del FOMC) previsto a las 19:00 UTC, dentro de las próximas 24 h, lo que justifica cautela general. No hay hackeo que afecte directamente a estas monedas ni una caída de -7% en 24 h, así que no se justifica pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 11) tras una caída de la capitalización total del -3.38% en 24 h y de BTC por debajo de su media de 200 semanas, con las altcoins cayendo alrededor de un 10-15% en 7 días. No hay una caída brusca en curso ni un evento de seguridad que afecte directamente a las monedas operadas, pero el hackeo de Binance de 6.300 millones (que sigue en movimiento) y el FOMC Minutes previsto a las 19:00 UTC, dentro de las próximas 24 h, justifican reducir el tamaño de las nuevas compras. No se justifica pausar, y no hay riesgo grave e inmediato sobre las posiciones abiertas.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear), con los últimos 7 días en niveles bajos similares.",
-    "Capitalización total -2.44% en 24 h y BTC y ETH en torno a -12/-13% en 7 días; volatilidad elevada.",
-    "Minutas del FOMC previstas a las 19:00 UTC, evento macro importante dentro de las próximas 24 h.",
-    "El hackeo de Binance (6.300 M USD) es un riesgo relevante pero no afecta directamente a las monedas operadas y ya era conocido, por lo que no implica pausa.",
-    "Sin caída de mercado de -7% o peor en 24 h ni anomalías (halt, depeg, delist) en las monedas operadas."
+    "Índice Miedo/Codicia en 11 (Extreme Fear), con tendencia a la baja en los últimos 7 días.",
+    "Capitalización total -3.38% en 24 h; BTC cerró por debajo de su media de 200 semanas tras caer cerca de un 13%.",
+    "Evento macro de impacto alto (FOMC Meeting Minutes) previsto hoy a las 19:00 UTC, dentro de las próximas 24 h.",
+    "Hackeo de Binance de 6.300 millones de dólares en octubre; fondos robados volviendo a moverse, con comentarios regulatorios de la Fed sobre el tema.",
+    "No hay caída brusca en curso que supere el umbral de -7% ni problema de seguridad que afecte directamente a las 10 monedas operadas, por lo que no procede pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-18T03:55:11+00:00",
-  "valido_hasta": "2026-11-18T06:55:11+00:00",
+  "generado": "2026-11-18T04:59:19+00:00",
+  "valido_hasta": "2026-11-18T07:59:19+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -2.44,
+    "cambio_mercado_24h": -3.38,
     "noticias_analizadas": 46,
     "articulos_leidos": 8,
     "fuentes": {
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9599,
+    "input_tokens": 9614,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 576,
+    "output_tokens": 662,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
