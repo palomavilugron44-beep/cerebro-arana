@@ -1,25 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11) tras una caída semanal cercana al -12% en las principales monedas, con la capitalización total -2.31% en 24 h y salidas de ETF de Bitcoin y Ether. No hay una caída brusca que supere el umbral de -7% en 24 h ni un evento de riesgo grave e inmediato, pero la incertidumbre es elevada. Se recomienda cautela general (mitad de tamaño en compras nuevas) con el dato de la FOMC Minutes previsto para las 19:00 UTC.",
+  "resumen": "El mercado está en miedo extremo (índice 11, similar a los mínimos recientes) tras una caída de 7 días de alrededor del -11% a -13% en la mayoría de monedas y con salidas netas de ETFs de Bitcoin y Ether. Hay un evento macro relevante en las próximas 24 h (actas del FOMC a las 19:00 UTC), pero no hay una caída brusca en curso (la capitalización total cae -2.59% en 24 h) ni un riesgo grave de seguridad que justifique pausar. Por ello se recomienda cautela general, sin restricciones adicionales por moneda.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear), con tendencia de 7 días desde 28 hasta 11 y sentimiento bajista según CryptoQuant.",
-    "Salidas netas de ETF spot de Bitcoin (~240 M$) y de Ether (~29 M$) el 18 de noviembre.",
-    "Caídas de ~10-17% en 7 días en casi todas las monedas operadas; BTC perdió la media de 200 semanas con un -12%.",
-    "Evento macro de alto impacto (FOMC Meeting Minutes) previsto a las 19:00 UTC, dentro de las próximas 24 h.",
-    "Hackeos y robos recientes (Binance, Ledger, Coldcard, Luxor) generan ruido, pero no afectan directamente a las monedas operadas ni son riesgos de pausa globales.",
-    "No se cumplen los criterios de pausa: la caída 24 h de capitalización (-2.31%) no alcanza -7% y no hay halt, depeg ni acción regulatoria fuerte contra una moneda operada."
+    "Índice Miedo/Codicia en 11 (Extreme Fear) con tendencia descendente en la última semana.",
+    "Caídas de 7 días de entre -5.8% (XRP) y -17.6% (AVAX) en las 10 monedas; BTC rompió por debajo de su EMA/200 semanas según noticias.",
+    "Salidas netas de ETFs spot de BTC (~240M USD) y ETH en la última jornada, y un analista de CryptoQuant con el sentimiento más bajista desde noviembre de 2025.",
+    "Evento macro de impacto alto (FOMC Meeting Minutes) a las 19:00 UTC, dentro de las próximas 24 h, lo que justifica cautela y no pausa al no ser dentro de 2-3 horas.",
+    "No hay caída brusca de capitalización (-2.59% en 24 h) ni incidente de seguridad que afecte directamente a las monedas operadas; los hackeos mencionados (Binance, Ledger, Coldcard, Lighter) no implican pausa para estas monedas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-18T09:59:24+00:00",
-  "valido_hasta": "2026-11-18T12:59:24+00:00",
+  "generado": "2026-11-18T11:00:58+00:00",
+  "valido_hasta": "2026-11-18T14:00:58+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -2.31,
-    "noticias_analizadas": 37,
+    "cambio_mercado_24h": -2.59,
+    "noticias_analizadas": 38,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -42,6 +41,11 @@
       "link": "https://cointelegraph.com/markets/bitcoin-etf-240-million-outflow-bearish-phase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "titulo": "Bitcoin outpaces gold even as both assets tumble ahead of a likely Fed rate hike",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/18/bitcoin-outpaces-gold-even-as-both-assets-tumble-ahead-of-a-likely-fed-rate-hike"
+    },
+    {
       "titulo": "$500 Billion Vanishes From Precious Metals as Gold Crashes Below $3,800",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/gold-crashes-below-3800-500-billion-wiped-gold-silver-bitcoin/"
@@ -52,25 +56,20 @@
       "link": "https://www.newsbtc.com/security/binance-hack-linked-wallet-moves-34-279-eth-but-investigators-see-no-confirmed-sale/"
     },
     {
-      "titulo": "Ocean Mining Rejects Complicity Claims Over Luxor Bitcoin Pool Hack",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/mining/ocean-mining-rejects-complicity-claims-luxor-bitcoin-pool-hack/"
-    },
-    {
-      "titulo": "Strategy stock could plunge 76% to $23, chart analyst warns",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/18/strategy-stock-could-crash-76-to-usd23-chart-analyst-warns"
+      "titulo": "Bitcoin steadies after Nvidia’s earnings beat as $60K bids stand out",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/bitcoin-60k-liquidity-stocks-gain-nvidia-1158b-earnings-beat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9346,
+    "input_tokens": 9577,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 689,
+    "output_tokens": 700,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
