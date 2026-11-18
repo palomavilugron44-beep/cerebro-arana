@@ -1,30 +1,30 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11, con una tendencia de siete días que venía de 10 a 28) y la capitalización total cae un 2.79% en 24 h, con BTC cerca de 64.600 USD tras perder la EMA de 200 semanas. Hay además un evento macro relevante en menos de 24 h (minutas de la FOMC a las 19:00 UTC), por lo que conviene reducir el tamaño de las compras nuevas. No hay indicios de un riesgo grave e inmediato (hackeos o caídas de mercado de -7% o más), así que no se justifica pausar.",
+  "resumen": "El mercado está en miedo extremo (índice 11) tras una caída semanal cercana al -12% en las principales monedas, con la capitalización total -2.31% en 24 h y salidas de ETF de Bitcoin y Ether. No hay una caída brusca que supere el umbral de -7% en 24 h ni un evento de riesgo grave e inmediato, pero la incertidumbre es elevada. Se recomienda cautela general (mitad de tamaño en compras nuevas) con el dato de la FOMC Minutes previsto para las 19:00 UTC.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) y cripto en caída de -11% a -15% en 7 días para la mayoría de monedas.",
-    "Minutas de la FOMC previstas a las 19:00 UTC, dentro de las próximas 24 h: evento macro importante, pero no de impacto inmediato (2-3 h) que justifique pausa.",
-    "Capitalización total -2.79% en 24 h, por debajo del umbral de pausa de -7%.",
-    "Salidas de ETF de BTC (~240 M USD) y ETH, y señales bearish de CryptoQuant: incertidumbre elevada pero sin evento grave confirmado.",
-    "Hackeos y robos (Binance, Ledger, Coldcard) son noticias negativas relevantes pero no afectan directamente a la operativa de estas monedas ni son de red o exchange de las monedas operadas en este momento.",
-    "Sin datos de anomalía (halt, depeg o delist) en las 10 monedas operadas."
+    "Índice Miedo/Codicia en 11 (Extreme Fear), con tendencia de 7 días desde 28 hasta 11 y sentimiento bajista según CryptoQuant.",
+    "Salidas netas de ETF spot de Bitcoin (~240 M$) y de Ether (~29 M$) el 18 de noviembre.",
+    "Caídas de ~10-17% en 7 días en casi todas las monedas operadas; BTC perdió la media de 200 semanas con un -12%.",
+    "Evento macro de alto impacto (FOMC Meeting Minutes) previsto a las 19:00 UTC, dentro de las próximas 24 h.",
+    "Hackeos y robos recientes (Binance, Ledger, Coldcard, Luxor) generan ruido, pero no afectan directamente a las monedas operadas ni son riesgos de pausa globales.",
+    "No se cumplen los criterios de pausa: la caída 24 h de capitalización (-2.31%) no alcanza -7% y no hay halt, depeg ni acción regulatoria fuerte contra una moneda operada."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-18T09:00:21+00:00",
-  "valido_hasta": "2026-11-18T12:00:21+00:00",
+  "generado": "2026-11-18T09:59:24+00:00",
+  "valido_hasta": "2026-11-18T12:59:24+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -2.79,
+    "cambio_mercado_24h": -2.31,
     "noticias_analizadas": 37,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
-      "Decrypt": 37,
+      "Decrypt": 36,
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
@@ -57,20 +57,20 @@
       "link": "https://news.bitcoin.com/mining/ocean-mining-rejects-complicity-claims-luxor-bitcoin-pool-hack/"
     },
     {
-      "titulo": "Google finds self-running AI hacking tool with Russian comments in its files",
+      "titulo": "Strategy stock could plunge 76% to $23, chart analyst warns",
       "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/tech/2026/11/18/google-finds-self-running-ai-hacking-tool-with-russian-comments-in-its-files"
+      "link": "https://www.coindesk.com/markets/2026/11/18/strategy-stock-could-crash-76-to-usd23-chart-analyst-warns"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9343,
+    "input_tokens": 9346,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 680,
+    "output_tokens": 689,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
