@@ -1,24 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11) tras una caída de la capitalización total del -3.38% en 24 h y de BTC por debajo de su media de 200 semanas, con las altcoins cayendo alrededor de un 10-15% en 7 días. No hay una caída brusca en curso ni un evento de seguridad que afecte directamente a las monedas operadas, pero el hackeo de Binance de 6.300 millones (que sigue en movimiento) y el FOMC Minutes previsto a las 19:00 UTC, dentro de las próximas 24 h, justifican reducir el tamaño de las nuevas compras. No se justifica pausar, y no hay riesgo grave e inmediato sobre las posiciones abiertas.",
+  "resumen": "El mercado cripto está en miedo extremo (índice 11) tras una caída de BTC por debajo de su media de 200 semanas, con la capitalización total -3.08% en 24 h y las principales monedas bajando alrededor de un 12% en 7 días. No hay hackeos graves, acciones regulatorias contra monedas concretas ni una caída en curso de -7% o peor, por lo que no procede pausar. Sin embargo, la volatilidad y la incertidumbre son elevadas y el FOMC Minutes llega en las próximas 24 h, así que se aconseja operar con cautela (mitad de tamaño).",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear), con tendencia a la baja en los últimos 7 días.",
-    "Capitalización total -3.38% en 24 h; BTC cerró por debajo de su media de 200 semanas tras caer cerca de un 13%.",
-    "Evento macro de impacto alto (FOMC Meeting Minutes) previsto hoy a las 19:00 UTC, dentro de las próximas 24 h.",
-    "Hackeo de Binance de 6.300 millones de dólares en octubre; fondos robados volviendo a moverse, con comentarios regulatorios de la Fed sobre el tema.",
-    "No hay caída brusca en curso que supere el umbral de -7% ni problema de seguridad que afecte directamente a las 10 monedas operadas, por lo que no procede pausa."
+    "Índice Miedo/Codicia en 11 (Extreme Fear), con tendencia reciente de miedo sostenido.",
+    "Capitalización total -3.08% en 24 h y BTC perdiendo la media de 200 semanas tras caer ~13.7%, con alta volatilidad.",
+    "Evento macro relevante (FOMC Meeting Minutes) dentro de las próximas 24 h, con riesgo de tipos altos según Wintermute.",
+    "No hay riesgo grave e inmediato (sin hackeo de exchange/red relevante para las monedas operadas, ni halt, depeg o delist), por lo que no se activa pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-18T04:59:19+00:00",
-  "valido_hasta": "2026-11-18T07:59:19+00:00",
+  "generado": "2026-11-18T06:00:38+00:00",
+  "valido_hasta": "2026-11-18T09:00:38+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -3.38,
-    "noticias_analizadas": 46,
+    "cambio_mercado_24h": -3.08,
+    "noticias_analizadas": 41,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -51,25 +50,25 @@
       "link": "https://news.bitcoin.com/regulation-and-legal/kalshi-axes-trump-mention-markets-cftc-raises-concerns/"
     },
     {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "titulo": "Senators Press CFTC on Geoblocks as Regulator Reportedly Probes Kalshi, Polymarket",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/igaming/senators-press-cftc-geoblocks-regulator-reportedly-probes-kalshi-polymarket/"
     },
     {
-      "titulo": "Fed’s Waller cites Binance hack in warning over tokenized finance",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/feds-waller-cites-binance-hack-in-warning-over-tokenized-finance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "titulo": "Bitcoin's 12% slide through key support looks scary, but history says give it 3 months.",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/18/bitcoin-s-rare-12-crash-through-its-200-week-average-has-a-bullish-track-record"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9614,
+    "input_tokens": 9635,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 662,
+    "output_tokens": 561,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
