@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11) tras una caída de 7 días de alrededor del -10% a -13% en las principales monedas, y la capitalización total cae un 2.43% en 24 h. Hay un evento macro relevante (minutas del FOMC) a las 19:00 UTC, dentro de las próximas 24 h, pero no a 2-3 horas, y no hay señales de hackeo grave de una red o exchange que afecte directamente a las monedas del bot. Por ello se elige cautela general (no pausa) para reducir el tamaño de nuevas compras sin frenar la estrategia.",
+  "resumen": "El mercado está en miedo extremo (índice 11, con una tendencia de siete días que venía de 10 a 28) y la capitalización total cae un 2.79% en 24 h, con BTC cerca de 64.600 USD tras perder la EMA de 200 semanas. Hay además un evento macro relevante en menos de 24 h (minutas de la FOMC a las 19:00 UTC), por lo que conviene reducir el tamaño de las compras nuevas. No hay indicios de un riesgo grave e inmediato (hackeos o caídas de mercado de -7% o más), así que no se justifica pausar.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear), con caídas de -10% a -13% en 7 días en BTC, ETH, BNB, DOGE, LTC, ADA y AVAX.",
-    "Capitalización total -2.43% en 24 h; BTC ha perdido la media de 200 semanas según CoinDesk, señal de volatilidad y presión bajista.",
-    "Minutas del FOMC previstas a las 19:00 UTC, evento macro importante dentro de las próximas 24 h (no dentro de 2-3 h, por lo que no justifica pausa).",
-    "Incidentes de seguridad (hackeo de Binance de octubre, movimiento de 34,279 ETH sin venta confirmada, monederos Ledger manipulados) son relevantes pero no afectan de forma directa y grave a las monedas operadas; no se justifica pausa.",
-    "Sin anomalías de halt, depeg o delist en las 10 monedas; no se requiere modo más prudente por moneda."
+    "Índice Miedo/Codicia en 11 (Extreme Fear) y cripto en caída de -11% a -15% en 7 días para la mayoría de monedas.",
+    "Minutas de la FOMC previstas a las 19:00 UTC, dentro de las próximas 24 h: evento macro importante, pero no de impacto inmediato (2-3 h) que justifique pausa.",
+    "Capitalización total -2.79% en 24 h, por debajo del umbral de pausa de -7%.",
+    "Salidas de ETF de BTC (~240 M USD) y ETH, y señales bearish de CryptoQuant: incertidumbre elevada pero sin evento grave confirmado.",
+    "Hackeos y robos (Binance, Ledger, Coldcard) son noticias negativas relevantes pero no afectan directamente a la operativa de estas monedas ni son de red o exchange de las monedas operadas en este momento.",
+    "Sin datos de anomalía (halt, depeg o delist) en las 10 monedas operadas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-18T07:13:25+00:00",
-  "valido_hasta": "2026-11-18T10:13:25+00:00",
+  "generado": "2026-11-18T09:00:21+00:00",
+  "valido_hasta": "2026-11-18T12:00:21+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -2.43,
-    "noticias_analizadas": 39,
+    "cambio_mercado_24h": -2.79,
+    "noticias_analizadas": 37,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -36,6 +37,16 @@
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-could-gain-ai-slump-prompts-fed-pivot-coinshares-says/"
     },
     {
+      "titulo": "Bitcoin ETFs lose $240M as CryptoQuant flags bearish market phase",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/bitcoin-etf-240-million-outflow-bearish-phase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "$500 Billion Vanishes From Precious Metals as Gold Crashes Below $3,800",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/gold-crashes-below-3800-500-billion-wiped-gold-silver-bitcoin/"
+    },
+    {
       "titulo": "Binance Hack-Linked Wallet Moves 34,279 ETH, but Investigators See No Confirmed Sale",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/security/binance-hack-linked-wallet-moves-34-279-eth-but-investigators-see-no-confirmed-sale/"
@@ -46,30 +57,20 @@
       "link": "https://news.bitcoin.com/mining/ocean-mining-rejects-complicity-claims-luxor-bitcoin-pool-hack/"
     },
     {
-      "titulo": "Kalshi Axes Trump Mention Markets After CFTC Raises Concerns: CNBC",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/regulation-and-legal/kalshi-axes-trump-mention-markets-cftc-raises-concerns/"
-    },
-    {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Senators Press CFTC on Geoblocks as Regulator Reportedly Probes Kalshi, Polymarket",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/igaming/senators-press-cftc-geoblocks-regulator-reportedly-probes-kalshi-polymarket/"
+      "titulo": "Google finds self-running AI hacking tool with Russian comments in its files",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/tech/2026/11/18/google-finds-self-running-ai-hacking-tool-with-russian-comments-in-its-files"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9446,
+    "input_tokens": 9343,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 679,
+    "output_tokens": 680,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
