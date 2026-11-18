@@ -1,23 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11) con la capitalización total cayendo -3.21% en 24 h y BTC cerca de 62-63K tras salidas sostenidas de ETF. Hay un evento macro de alto impacto (minutas del FOMC a las 19:00 UTC) y el discurso hawkish de Waller sugiere posible subida de 50 pb en diciembre, lo que justifica reducir el tamaño de nuevas compras. No hay hackeo, halt ni caída de más del -7% que justifique pausar, así que se mantiene cautela global sin medidas por moneda.",
+  "resumen": "El mercado está en miedo extremo (índice 11) con la capitalización total cayendo un 3.84% en 24 h y BTC cerca de 62-63K USD, con salidas sostenidas de ETFs. Además, el FOMC Minutes llega en la próxima hora y el mercado descuenta un posible endurecimiento monetario en diciembre, lo que justifica cautela general. No hay señales de hackeo, halt, depeg ni caída de -7% que justifiquen pausa.",
   "motivos": [
-    "Miedo extremo (índice 11) con tendencia descendente en la última semana.",
-    "Capitalización total -3.21% en 24 h y BTC por debajo de 63K con salidas de ETF (2.58 B$ en noviembre).",
-    "Minutas del FOMC a las 19:00 UTC y comentarios hawkish de Waller sobre una posible subida de 50 pb en diciembre.",
-    "No hay riesgo grave e inmediato (sin hackeo confirmado de red, halt, depeg ni caída de -7% o peor), por lo que no se justifica pausa."
+    "Índice Miedo/Codicia en 11 (Extreme Fear), con la lectura más baja de la semana.",
+    "Capitalización total -3.84% en 24 h y BTC cerca de 62.6K, con caídas de -15% en 7 días para la mayoría de monedas.",
+    "Salidas netas de ETF de Bitcoin (≈2.58 B USD en noviembre) y riesgo macro: FOMC Minutes a las 19:00 UTC y declaraciones de Waller a favor de subir 50 pb en diciembre.",
+    "No hay evento de riesgo grave (hackeo, halt, depeg, acción regulatoria fuerte) ni caída de -7% en 24 h; el resto de la información es ruido de mercado."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-18T18:54:41+00:00",
-  "valido_hasta": "2026-11-18T21:54:41+00:00",
+  "generado": "2026-11-18T19:57:39+00:00",
+  "valido_hasta": "2026-11-18T22:57:39+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -3.21,
-    "noticias_analizadas": 52,
+    "cambio_mercado_24h": -3.84,
+    "noticias_analizadas": 51,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -33,6 +33,11 @@
       "titulo": "Bitcoin Price Slides Near $62K as Citi Slashes 12-Month Target by 12%",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-slides-62k-citi-slashes-price-target-12-percent/"
+    },
+    {
+      "titulo": "Bitcoin Tanks Ahead of Anthropic’s IPO. Should We Really Blame AI?",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/383551/bitcoin-tanks-ahead-anthropics-ipo-should-we-really-blame-ai"
     },
     {
       "titulo": "Goldman Sachs Boosted Its XRP ETF Stake to $144M, Then XRP Crashed",
@@ -53,22 +58,17 @@
       "titulo": "Bitcoin ETFs lose $240M as CryptoQuant flags bearish market phase",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/markets/bitcoin-etf-240-million-outflow-bearish-phase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Bitcoin outpaces gold even as both assets tumble ahead of a likely Fed rate hike",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/18/bitcoin-outpaces-gold-even-as-both-assets-tumble-ahead-of-a-likely-fed-rate-hike"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9656,
+    "input_tokens": 9753,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 531,
+    "output_tokens": 547,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
