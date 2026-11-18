@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11) tras una caída de la capitalización total del -4.95% en 24 h, con BTC cerca de 63.000 USD y en pérdida semanal superior al 13%. Hay un evento macro relevante (minutas del FOMC a las 19:00 UTC) y el contexto de salidas de ETF, pero no hay una caída en curso de -7% ni un riesgo de seguridad o regulatorio grave que justifique pausar. Se recomienda cautela general (mitad de tamaño) por la volatilidad y el evento macro, sin cerrar posiciones.",
+  "resumen": "El mercado está en miedo extremo (índice 11) con la capitalización total cayendo un 3.89% en 24 h y BTC cerca de 62.700 USD, tras un descenso del 15% en 7 días en casi todas las monedas. Hay presión macro: Waller pide un recorte de 50 puntos básicos en diciembre y el FOMC publica sus actas a las 19:00 UTC, dentro de las próximas 24 h. No hay señales de pausa (no hay hackeo que afecte directamente a las monedas operadas ni halt o deslistado), así que se recomienda cautela general, con compras a la mitad del tamaño.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear), con tendencia de 7 días muy bajista.",
-    "Capitalización total -4.95% en 24 h; todas las monedas de la lista caen en torno al -13% a 7 días (AVAX -17.6%).",
-    "Minutas del FOMC a las 19:00 UTC dentro de las próximas 24 h, evento macro importante.",
-    "Salidas de ETF de Bitcoin de 240 M USD en un día y 2.58 mil M en noviembre; CryptoQuant indica fase bajista.",
-    "No hay caída brusca de -7% en 24 h ni exploit, halt, depeg o acción regulatoria grave confirmada para estas monedas; el hackeo de Binance de octubre está en investigación sin venta confirmada, por lo que no se justifica pausa."
+    "Índice Miedo/Codicia en 11 (Extreme Fear), con tendencia bajista sostenida durante la última semana.",
+    "Capitalización total -3.89% en 24 h y caída de 15% en 7 días en BTC, ETH, BNB, SOL, DOGE, ADA, LINK, LTC y AVAX.",
+    "Evento macro relevante en 24 h: actas del FOMC a las 19:00 UTC, con Waller defendiendo una subida de tipos de 50 pb en diciembre.",
+    "Salidas de ETF de BTC de 2.58 bn USD en noviembre y señal bajista de CryptoQuant.",
+    "Incidente de seguridad de Binance (hackeo del 29 de octubre) sin impacto confirmado directo sobre las monedas operadas; no justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-18T15:58:10+00:00",
-  "valido_hasta": "2026-11-18T18:58:10+00:00",
+  "generado": "2026-11-18T17:02:20+00:00",
+  "valido_hasta": "2026-11-18T20:02:20+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -4.95,
-    "noticias_analizadas": 48,
+    "cambio_mercado_24h": -3.89,
+    "noticias_analizadas": 47,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -36,6 +36,11 @@
       "link": "https://news.bitcoin.com/finance/goldman-sachs-xrp-etf-stake-144m-q3-xrp-crash/"
     },
     {
+      "titulo": "Bitcoin, stocks wobble as Fed’s Waller talks of ‘shock’ 50-point rate hike",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/bitcoin-stocks-wobble-waller-talks-shock-50-point-rate-hike?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "titulo": "Bitcoin ETFs lose $240M as CryptoQuant flags bearish market phase",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/markets/bitcoin-etf-240-million-outflow-bearish-phase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -51,25 +56,20 @@
       "link": "https://news.bitcoin.com/market-updates/gold-crashes-below-3800-500-billion-wiped-gold-silver-bitcoin/"
     },
     {
-      "titulo": "Binance Hack-Linked Wallet Moves 34,279 ETH, but Investigators See No Confirmed Sale",
-      "fuente": "NewsBTC",
-      "link": "https://www.newsbtc.com/security/binance-hack-linked-wallet-moves-34-279-eth-but-investigators-see-no-confirmed-sale/"
-    },
-    {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "titulo": "Live updates: Bitcoin falls below $63,000, with Strategy’s STRC hitting lowest since August",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/business/2026/11/18/live-updates-bitcoin-stuck-near-usd65-000-as-popular-basis-trade-returns-dry-up"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9728,
+    "input_tokens": 9625,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 623,
+    "output_tokens": 627,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
