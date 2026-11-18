@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11) tras una caída del 13.7% de BTC que lo llevó por debajo de su media de 200 semanas, con capitalización total -3.1% en 24 h. Hay además un evento macro relevante (minutas del FOMC) en las próximas 24 h, aunque no dentro de las 2-3 horas, por lo que la respuesta razonable es cautela general sin pausa. No hay señales de riesgo grave e inmediato sobre las monedas operadas: el hackeo de Binance es de octubre y ya está en curso de recuperación, sin afectar a estas monedas directamente.",
+  "resumen": "El mercado está en miedo extremo (índice 11) tras una caída de BTC de unos -13% semanal, con BTC cerca de 64.000 USD y por debajo de su media de 200 semanas. La capitalización total cae -2.44% en 24 h y hay un evento macro relevante (minutas del FOMC) previsto a las 19:00 UTC, dentro de las próximas 24 h, lo que justifica cautela general. No hay hackeo que afecte directamente a estas monedas ni una caída de -7% en 24 h, así que no se justifica pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) y cayendo desde 28 hace una semana.",
-    "BTC cerró por debajo de su media móvil de 200 semanas tras caer 13.7%; el mercado total cae -3.1% en 24 h.",
-    "Minutas del FOMC previstas a las 19:00 UTC, dentro de las próximas 24 h (evento macro importante).",
-    "Todas las monedas operadas caen entre -7% y -15% en 7 días; volatilidad elevada.",
-    "No hay hackeo, delist, depeg ni halt que afecte directamente a las 10 monedas; el hackeo de Binance es de octubre y no justifica pausa."
+    "Índice Miedo/Codicia en 11 (Extreme Fear), con los últimos 7 días en niveles bajos similares.",
+    "Capitalización total -2.44% en 24 h y BTC y ETH en torno a -12/-13% en 7 días; volatilidad elevada.",
+    "Minutas del FOMC previstas a las 19:00 UTC, evento macro importante dentro de las próximas 24 h.",
+    "El hackeo de Binance (6.300 M USD) es un riesgo relevante pero no afecta directamente a las monedas operadas y ya era conocido, por lo que no implica pausa.",
+    "Sin caída de mercado de -7% o peor en 24 h ni anomalías (halt, depeg, delist) en las monedas operadas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-18T02:51:15+00:00",
-  "valido_hasta": "2026-11-18T05:51:15+00:00",
+  "generado": "2026-11-18T03:55:11+00:00",
+  "valido_hasta": "2026-11-18T06:55:11+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -3.1,
-    "noticias_analizadas": 48,
+    "cambio_mercado_24h": -2.44,
+    "noticias_analizadas": 46,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9624,
+    "input_tokens": 9599,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 581,
+    "output_tokens": 576,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
