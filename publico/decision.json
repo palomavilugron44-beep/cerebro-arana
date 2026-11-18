@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto está en miedo extremo (índice 11) tras una caída de BTC por debajo de su media de 200 semanas, con la capitalización total -3.08% en 24 h y las principales monedas bajando alrededor de un 12% en 7 días. No hay hackeos graves, acciones regulatorias contra monedas concretas ni una caída en curso de -7% o peor, por lo que no procede pausar. Sin embargo, la volatilidad y la incertidumbre son elevadas y el FOMC Minutes llega en las próximas 24 h, así que se aconseja operar con cautela (mitad de tamaño).",
+  "resumen": "El mercado está en miedo extremo (índice 11) tras una caída de 7 días de alrededor del -10% a -13% en las principales monedas, y la capitalización total cae un 2.43% en 24 h. Hay un evento macro relevante (minutas del FOMC) a las 19:00 UTC, dentro de las próximas 24 h, pero no a 2-3 horas, y no hay señales de hackeo grave de una red o exchange que afecte directamente a las monedas del bot. Por ello se elige cautela general (no pausa) para reducir el tamaño de nuevas compras sin frenar la estrategia.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear), con tendencia reciente de miedo sostenido.",
-    "Capitalización total -3.08% en 24 h y BTC perdiendo la media de 200 semanas tras caer ~13.7%, con alta volatilidad.",
-    "Evento macro relevante (FOMC Meeting Minutes) dentro de las próximas 24 h, con riesgo de tipos altos según Wintermute.",
-    "No hay riesgo grave e inmediato (sin hackeo de exchange/red relevante para las monedas operadas, ni halt, depeg o delist), por lo que no se activa pausa."
+    "Índice Miedo/Codicia en 11 (Extreme Fear), con caídas de -10% a -13% en 7 días en BTC, ETH, BNB, DOGE, LTC, ADA y AVAX.",
+    "Capitalización total -2.43% en 24 h; BTC ha perdido la media de 200 semanas según CoinDesk, señal de volatilidad y presión bajista.",
+    "Minutas del FOMC previstas a las 19:00 UTC, evento macro importante dentro de las próximas 24 h (no dentro de 2-3 h, por lo que no justifica pausa).",
+    "Incidentes de seguridad (hackeo de Binance de octubre, movimiento de 34,279 ETH sin venta confirmada, monederos Ledger manipulados) son relevantes pero no afectan de forma directa y grave a las monedas operadas; no se justifica pausa.",
+    "Sin anomalías de halt, depeg o delist en las 10 monedas; no se requiere modo más prudente por moneda."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-18T06:00:38+00:00",
-  "valido_hasta": "2026-11-18T09:00:38+00:00",
+  "generado": "2026-11-18T07:13:25+00:00",
+  "valido_hasta": "2026-11-18T10:13:25+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -3.08,
-    "noticias_analizadas": 41,
+    "cambio_mercado_24h": -2.43,
+    "noticias_analizadas": 39,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -35,9 +36,9 @@
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-could-gain-ai-slump-prompts-fed-pivot-coinshares-says/"
     },
     {
-      "titulo": "Bitcoin Price Could Drop Below $60K, Wintermute Warns—Here’s Why",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-drop-below-60k-wintermute-warns-why/"
+      "titulo": "Binance Hack-Linked Wallet Moves 34,279 ETH, but Investigators See No Confirmed Sale",
+      "fuente": "NewsBTC",
+      "link": "https://www.newsbtc.com/security/binance-hack-linked-wallet-moves-34-279-eth-but-investigators-see-no-confirmed-sale/"
     },
     {
       "titulo": "Ocean Mining Rejects Complicity Claims Over Luxor Bitcoin Pool Hack",
@@ -50,25 +51,25 @@
       "link": "https://news.bitcoin.com/regulation-and-legal/kalshi-axes-trump-mention-markets-cftc-raises-concerns/"
     },
     {
+      "titulo": "Here’s what happened in crypto today",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "titulo": "Senators Press CFTC on Geoblocks as Regulator Reportedly Probes Kalshi, Polymarket",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/igaming/senators-press-cftc-geoblocks-regulator-reportedly-probes-kalshi-polymarket/"
-    },
-    {
-      "titulo": "Bitcoin's 12% slide through key support looks scary, but history says give it 3 months.",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/18/bitcoin-s-rare-12-crash-through-its-200-week-average-has-a-bullish-track-record"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9635,
+    "input_tokens": 9446,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 561,
+    "output_tokens": 679,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
