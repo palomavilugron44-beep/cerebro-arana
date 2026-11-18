@@ -1,24 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11) con la capitalización total cayendo -4.7% en 24 h y BTC cerca de 62.000 USD, tras un retroceso de más del 16% en 7 días. Hay presión por salidas de ETF, expectativas de una subida de tipos de la Fed y cierto ruido sobre el hackeo de Binance, aunque sin evento macro de alto impacto en las próximas 24 h ni problema anómalo en las monedas operadas. No llega al nivel de pausa, pero la volatilidad y el sentimiento justifican reducir el tamaño de las compras nuevas.",
+  "resumen": "El mercado cripto está en miedo extremo (índice 11) tras una caída del 4.65% en 24 h de la capitalización total, con BTC cerca de 62-63K y sin alcanzar grandes caídas de liquidaciones confirmadas. Hay presión bajista por salidas de ETFs y expectativas de subidas de tipos de la Fed (posible 50 pb en diciembre), pero no hay evento macro de alto impacto en las próximas 24 h ni una anomalía concreta en las monedas del bot. Se opta por cautela global (mitad de tamaño en compras nuevas) como medida prudente, sin pausa ni alerta sobre posiciones.",
   "motivos": [
-    "Miedo extremo (índice 11) con caída de la capitalización total de -4.7% en 24 h y de todas las monedas entre -1.4% y -4.4% en 24 h.",
-    "Retrocesos de 9% a 19% en 7 días en las monedas del bot; BTC rompió la zona de 63.000 USD y los analistas señalan 58.000-62.000 como siguiente prueba.",
-    "Salidas netas de ETF de Bitcoin (2.58 mil millones USD en noviembre) y posible subida de tipos de la Fed (Waller pide 50 pb en diciembre), con el IPC por encima del 3%.",
-    "El hackeo de Binance (oct.) y el caso de los Ledger manipulados son noticias negativas relevantes pero no graves; no hay halt, depeg ni delist de ninguna moneda operada.",
-    "Sin eventos macro de alto impacto USD en las próximas 24 h, por lo que no se activa pausa."
+    "Miedo extremo (índice 11) y capitalización total -4.65% en 24 h, con todas las monedas del bot en rojo.",
+    "Salidas netas de ETFs de BTC (2.58 mil millones en noviembre) y declaraciones hawkish de la Fed sobre una posible subida de 50 pb en diciembre.",
+    "Sin eventos macro de alto impacto USD en 24 h y sin hackeo, halt, depeg ni acción regulatoria grave contra las monedas operadas; el incidente de Binance es un robo de octubre con acciones de recuperación, no un riesgo inmediato.",
+    "Caída de BTC hacia la zona de 62K con analistas señalando 58-62K como soporte clave, lo que justifica prudencia temporal."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-18T22:51:40+00:00",
-  "valido_hasta": "2026-11-19T01:51:40+00:00",
+  "generado": "2026-11-18T23:49:48+00:00",
+  "valido_hasta": "2026-11-19T02:49:48+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -4.7,
-    "noticias_analizadas": 50,
+    "cambio_mercado_24h": -4.65,
+    "noticias_analizadas": 48,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -56,20 +55,20 @@
       "link": "https://cointelegraph.com/markets/bitcoin-stocks-wobble-waller-talks-shock-50-point-rate-hike?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "titulo": "Bitcoin outpaces gold even as both assets tumble ahead of a likely Fed rate hike",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/18/bitcoin-outpaces-gold-even-as-both-assets-tumble-ahead-of-a-likely-fed-rate-hike"
+      "titulo": "Here’s what happened in crypto today",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9541,
+    "input_tokens": 9601,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 670,
+    "output_tokens": 619,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
