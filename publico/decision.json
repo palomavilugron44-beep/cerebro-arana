@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11) tras una caída de la capitalización total de -4.92% en 24 h, con BTC cerca de 63.000-64.000 USD y presión vendedora sostenida por salidas de ETF. Hay un evento macro relevante (minutas del FOMC a las 19:00 UTC, dentro de las próximas 24 h) y un posible sesgo de subida de tipos, lo que justifica cautela general. No hay hackeos confirmados que afecten a las monedas operadas ni caídas catastróficas, así que no se justifica pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 11) tras una caída de la capitalización total del -4.95% en 24 h, con BTC cerca de 63.000 USD y en pérdida semanal superior al 13%. Hay un evento macro relevante (minutas del FOMC a las 19:00 UTC) y el contexto de salidas de ETF, pero no hay una caída en curso de -7% ni un riesgo de seguridad o regulatorio grave que justifique pausar. Se recomienda cautela general (mitad de tamaño) por la volatilidad y el evento macro, sin cerrar posiciones.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) y capitalización total -4.92% en 24 h.",
-    "Minutas del FOMC previstas a las 19:00 UTC, dentro de las próximas 24 h, con noticias que mencionan una posible subida de tipos.",
-    "Salidas netas de ETF de Bitcoin (≈2.58 mil millones USD en noviembre) y caídas de 7 días de entre -6.7% y -16.8% en las 10 monedas.",
-    "No hay señales de hackeo confirmado ni halt/depeg que obliguen a pausar; el incidente de Binance se describe sin venta confirmada."
+    "Índice Miedo/Codicia en 11 (Extreme Fear), con tendencia de 7 días muy bajista.",
+    "Capitalización total -4.95% en 24 h; todas las monedas de la lista caen en torno al -13% a 7 días (AVAX -17.6%).",
+    "Minutas del FOMC a las 19:00 UTC dentro de las próximas 24 h, evento macro importante.",
+    "Salidas de ETF de Bitcoin de 240 M USD en un día y 2.58 mil M en noviembre; CryptoQuant indica fase bajista.",
+    "No hay caída brusca de -7% en 24 h ni exploit, halt, depeg o acción regulatoria grave confirmada para estas monedas; el hackeo de Binance de octubre está en investigación sin venta confirmada, por lo que no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-18T14:53:19+00:00",
-  "valido_hasta": "2026-11-18T17:53:19+00:00",
+  "generado": "2026-11-18T15:58:10+00:00",
+  "valido_hasta": "2026-11-18T18:58:10+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -4.92,
-    "noticias_analizadas": 46,
+    "cambio_mercado_24h": -4.95,
+    "noticias_analizadas": 48,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -68,7 +69,7 @@
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 552,
+    "output_tokens": 623,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
