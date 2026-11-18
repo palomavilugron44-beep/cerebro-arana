@@ -1,23 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11, similar a los mínimos recientes) tras una caída de 7 días de alrededor del -11% a -13% en la mayoría de monedas y con salidas netas de ETFs de Bitcoin y Ether. Hay un evento macro relevante en las próximas 24 h (actas del FOMC a las 19:00 UTC), pero no hay una caída brusca en curso (la capitalización total cae -2.59% en 24 h) ni un riesgo grave de seguridad que justifique pausar. Por ello se recomienda cautela general, sin restricciones adicionales por moneda.",
+  "resumen": "El mercado está en miedo extremo (índice 11) tras una caída de 7 días de alrededor del -11% a -13% en la mayoría de las monedas, y la capitalización total baja un 2.3% en 24 h. No hay una caída brusca de hoy de -7% ni un evento de muy alto impacto en las próximas 2-3 horas, ya que las actas del FOMC llegan a las 19:00 UTC. Por ello se recomienda cautela general, no pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) con tendencia descendente en la última semana.",
-    "Caídas de 7 días de entre -5.8% (XRP) y -17.6% (AVAX) en las 10 monedas; BTC rompió por debajo de su EMA/200 semanas según noticias.",
-    "Salidas netas de ETFs spot de BTC (~240M USD) y ETH en la última jornada, y un analista de CryptoQuant con el sentimiento más bajista desde noviembre de 2025.",
-    "Evento macro de impacto alto (FOMC Meeting Minutes) a las 19:00 UTC, dentro de las próximas 24 h, lo que justifica cautela y no pausa al no ser dentro de 2-3 horas.",
-    "No hay caída brusca de capitalización (-2.59% en 24 h) ni incidente de seguridad que afecte directamente a las monedas operadas; los hackeos mencionados (Binance, Ledger, Coldcard, Lighter) no implican pausa para estas monedas."
+    "Índice Miedo/Codicia en 11 (Extreme Fear), con salidas de ETF de BTC (unos 240 M USD) y ETH en el día.",
+    "Caída semanal generalizada de 11-18% en el universo de monedas; BTC por debajo de su EMA200 según las noticias de ruptura de la media de 200 semanas.",
+    "Evento macro de nivel medio (actas del FOMC) a las 19:00 UTC dentro de las próximas 24 h, sin ser un dato de decisión de tasas inmediato.",
+    "Hackeo de Binance de octubre con 34.279 ETH movidos, pero sin venta confirmada; riesgo relevante aunque no inmediato ni grave para las monedas operadas.",
+    "No hay halt, depeg ni delist ni acción regulatoria grave contra las monedas del universo; el resto de noticias no justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-18T11:00:58+00:00",
-  "valido_hasta": "2026-11-18T14:00:58+00:00",
+  "generado": "2026-11-18T11:58:08+00:00",
+  "valido_hasta": "2026-11-18T14:58:08+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -2.59,
+    "cambio_mercado_24h": -2.3,
     "noticias_analizadas": 38,
     "articulos_leidos": 8,
     "fuentes": {
@@ -34,6 +34,11 @@
       "titulo": "Bitcoin Price Could Gain If AI Slump Prompts Fed Pivot, Coinshares Says",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-could-gain-ai-slump-prompts-fed-pivot-coinshares-says/"
+    },
+    {
+      "titulo": "Goldman Sachs Boosted Its XRP ETF Stake to $144M, Then XRP Crashed",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/finance/goldman-sachs-xrp-etf-stake-144m-q3-xrp-crash/"
     },
     {
       "titulo": "Bitcoin ETFs lose $240M as CryptoQuant flags bearish market phase",
@@ -54,22 +59,17 @@
       "titulo": "Binance Hack-Linked Wallet Moves 34,279 ETH, but Investigators See No Confirmed Sale",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/security/binance-hack-linked-wallet-moves-34-279-eth-but-investigators-see-no-confirmed-sale/"
-    },
-    {
-      "titulo": "Bitcoin steadies after Nvidia’s earnings beat as $60K bids stand out",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/markets/bitcoin-60k-liquidity-stocks-gain-nvidia-1158b-earnings-beat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9577,
+    "input_tokens": 9565,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 700,
+    "output_tokens": 593,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
