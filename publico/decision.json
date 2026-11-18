@@ -1,22 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11) con la capitalización total cayendo -4.13% en 24 h y BTC cerca de 62.4K, con salidas sostenidas de ETFs y declaraciones de la Fed a favor de subir tipos 50 pb en diciembre. El FOMC Minutes figura como evento de alto impacto en las próximas 24 h, pero no hay un dato macro de muy alto impacto (IPC/decisión) en las próximas 2-3 horas. No hay hackeo activo ni medida regulatoria grave contra las monedas operadas; el hackeo de Binance de octubre es un hecho antiguo con acciones de recuperación en curso.",
+  "resumen": "El mercado está en miedo extremo (índice 11) con la capitalización total cayendo un 4.44% en 24 h y BTC cerca de 62.000 USD tras cinco o seis semanas de retroceso y salidas de ETFs. No hay eventos macro de alto impacto en las próximas 24 h, pero el hawkish comment de la Fed sobre una posible subida de 50 pb en diciembre mantiene la incertidumbre elevada. Ante esto, se recomienda cautela general, sin pausar ni cerrar posiciones, porque no hay un hackeo, acción regulatoria o depeg concreto que justifique una pausa.",
   "motivos": [
-    "Miedo extremo (índice 11) y caída de la capitalización total de -4.13% en 24 h, con ETFs de BTC con salidas de 2.58 B$ en noviembre.",
-    "Evento macro importante dentro de las próximas 24 h (FOMC Minutes) y comentarios hawkish de Waller sobre una posible subida de 50 pb en diciembre.",
-    "No se detecta riesgo grave e inmediato (sin hackeo activo, halt, depeg ni acción regulatoria fuerte), por lo que no se justifica pausa ni alerta de posiciones.",
-    "Las caídas del día son moderadas (BTC -2.2%, ETH -2.48%) y XRP, SOL y DOGE muestran variaciones cercanas a 0 o leves en 24 h, sin anomalías por moneda."
+    "Índice Miedo/Codicia en 11 (Extreme Fear) y tendencia descendente durante la última semana.",
+    "Capitalización total -4.44% en 24 h y todas las monedas del universo con caídas en 7 días entre -8.6% y -19%.",
+    "Salidas netas de ETFs de BTC (-2.58 mil millones en noviembre) y BTC cerca de 62.000 USD, con analistas señalando 58.000-62.000 como próximo soporte clave.",
+    "Comentarios hawkish de Waller sobre una posible subida de 50 pb en diciembre; evento macro relevante dentro de las próximas semanas, pero sin dato de alto impacto en 24 h.",
+    "Incidente de seguridad de Binance (hackeo de octubre) ya conocido y en fase de recuperación legal; no es un riesgo nuevo ni grave para las monedas operadas.",
+    "No hay evidencia de anomalías en monedas concretas (halt, depeg, delist), por lo que no se aplica modo más prudente por moneda."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-18T20:53:49+00:00",
-  "valido_hasta": "2026-11-18T23:53:49+00:00",
+  "generado": "2026-11-18T21:52:41+00:00",
+  "valido_hasta": "2026-11-19T00:52:41+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -4.13,
+    "cambio_mercado_24h": -4.44,
     "noticias_analizadas": 50,
     "articulos_leidos": 8,
     "fuentes": {
@@ -26,7 +28,7 @@
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
-    "eventos_usd_24h": 1
+    "eventos_usd_24h": 0
   },
   "titulares": [
     {
@@ -38,11 +40,6 @@
       "titulo": "Bitcoin Tanks Ahead of Anthropic’s IPO. Should We Really Blame AI?",
       "fuente": "Decrypt",
       "link": "https://decrypt.co/383551/bitcoin-tanks-ahead-anthropics-ipo-should-we-really-blame-ai"
-    },
-    {
-      "titulo": "Goldman Sachs Boosted Its XRP ETF Stake to $144M, Then XRP Crashed",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/finance/goldman-sachs-xrp-etf-stake-144m-q3-xrp-crash/"
     },
     {
       "titulo": "Binance says it obtained $6.5B worldwide freezing order after hack",
@@ -58,17 +55,22 @@
       "titulo": "Bitcoin, stocks wobble as Fed’s Waller talks of ‘shock’ 50-point rate hike",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/markets/bitcoin-stocks-wobble-waller-talks-shock-50-point-rate-hike?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Bitcoin outpaces gold even as both assets tumble ahead of a likely Fed rate hike",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/18/bitcoin-outpaces-gold-even-as-both-assets-tumble-ahead-of-a-likely-fed-rate-hike"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9681,
+    "input_tokens": 9559,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 644,
+    "output_tokens": 705,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
