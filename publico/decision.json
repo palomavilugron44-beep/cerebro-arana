@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11) tras una caída de 7 días de alrededor del -11% a -13% en la mayoría de las monedas, y la capitalización total baja un 2.3% en 24 h. No hay una caída brusca de hoy de -7% ni un evento de muy alto impacto en las próximas 2-3 horas, ya que las actas del FOMC llegan a las 19:00 UTC. Por ello se recomienda cautela general, no pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 11) tras una caída de la capitalización total del -3.68% en 24 h y de alrededor del -12% a -17% en 7 días en las principales monedas, con flujos negativos en ETF de BTC y ETH. Además, a las 19:00 UTC (dentro de las próximas 24 h, pero no en las próximas 2-3 horas) se publican las actas del FOMC, un evento macro importante que justifica cautela. No hay un evento de seguridad, regulatorio o de liquidez que llegue al nivel de pausa, así que se mantiene un modo prudente general.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear), con salidas de ETF de BTC (unos 240 M USD) y ETH en el día.",
-    "Caída semanal generalizada de 11-18% en el universo de monedas; BTC por debajo de su EMA200 según las noticias de ruptura de la media de 200 semanas.",
-    "Evento macro de nivel medio (actas del FOMC) a las 19:00 UTC dentro de las próximas 24 h, sin ser un dato de decisión de tasas inmediato.",
-    "Hackeo de Binance de octubre con 34.279 ETH movidos, pero sin venta confirmada; riesgo relevante aunque no inmediato ni grave para las monedas operadas.",
-    "No hay halt, depeg ni delist ni acción regulatoria grave contra las monedas del universo; el resto de noticias no justifica pausa."
+    "Índice Miedo/Codicia en 11 (Extreme Fear), con tendencia bajista sostenida en los últimos 7 días.",
+    "Capitalización total -3.68% en 24 h y caídas de -12% a -17% en 7 días en las 10 monedas; BTC rompió su media de 200 semanas.",
+    "Salidas netas de ETF de BTC (~240 M USD) y de ETH; CryptoQuant apunta a fase bajista.",
+    "Actas del FOMC a las 19:00 UTC, evento macro importante dentro de 24 h (no en 2-3 h, por lo que no justifica pausa).",
+    "Incidentes de seguridad (hack de Binance vinculado a 34k ETH, carteras Ledger/Coldcard) son noticias negativas relevantes pero no afectan directamente a una moneda concreta de la lista ni constituyen un riesgo grave e inmediato."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-18T11:58:08+00:00",
-  "valido_hasta": "2026-11-18T14:58:08+00:00",
+  "generado": "2026-11-18T13:07:51+00:00",
+  "valido_hasta": "2026-11-18T16:07:51+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -2.3,
-    "noticias_analizadas": 38,
+    "cambio_mercado_24h": -3.68,
+    "noticias_analizadas": 41,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -30,11 +30,6 @@
     "eventos_usd_24h": 1
   },
   "titulares": [
-    {
-      "titulo": "Bitcoin Price Could Gain If AI Slump Prompts Fed Pivot, Coinshares Says",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-could-gain-ai-slump-prompts-fed-pivot-coinshares-says/"
-    },
     {
       "titulo": "Goldman Sachs Boosted Its XRP ETF Stake to $144M, Then XRP Crashed",
       "fuente": "Bitcoin.com",
@@ -59,17 +54,22 @@
       "titulo": "Binance Hack-Linked Wallet Moves 34,279 ETH, but Investigators See No Confirmed Sale",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/security/binance-hack-linked-wallet-moves-34-279-eth-but-investigators-see-no-confirmed-sale/"
+    },
+    {
+      "titulo": "Bitcoin steadies after Nvidia’s earnings beat as $60K bids stand out",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/bitcoin-60k-liquidity-stocks-gain-nvidia-1158b-earnings-beat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9565,
+    "input_tokens": 9758,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 593,
+    "output_tokens": 648,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
