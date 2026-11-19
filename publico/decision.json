@@ -1,29 +1,30 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo un 3.42% en 24 h y BTC cerca de 63.000 USD tras seis semanas de retroceso. Hay incertidumbre elevada por el sesgo de subidas de tipos de la Fed, la salida de capital por la salida a bolsa de Anthropic y el hackeo de Binance, pero no hay una caída brusca con liquidaciones masivas ni un evento macro de alto impacto en las próximas 2-3 horas. Por ello se elige cautela general, sin pausa ni medidas específicas por moneda.",
+  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo un -4.04% en 24 h y BTC cerca de 63.000 USD tras retestar 62.000 USD, con salidas netas de los ETF de bitcoin. Tras el exploit de Binance (6.3 mil millones USD) y la incertidumbre por las subidas de tipos de la Fed, la volatilidad y el riesgo son elevados, pero no hay una caída brusca con liquidaciones ni un evento macro de alto impacto en las próximas horas, por lo que se opta por cautela global en lugar de pausa. Las monedas muestran caídas moderadas sin señales de anomalía, así que no se aplican restricciones adicionales por moneda.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear) y sostenido en niveles bajos durante 7 días.",
-    "Capitalización total -3.42% en 24 h y BTC cerca de 63.000 USD con seis semanas de caída; volatilidad elevada.",
-    "Sesgo de la Fed hacia nuevas subidas de tipos (minutas de FOMC, datos de IPC y nóminas calientes) con posible subida en diciembre; el evento macro importante cae dentro de 24 h.",
-    "Hackeo de Binance de 6.3 mil millones (noticia grave para el exchange, pero sin acción regulatoria fuerte ni riesgo inmediato para las monedas operadas).",
-    "No hay eventos macro de alto impacto en las próximas 2-3 horas ni liquidaciones masivas confirmadas, por lo que no se justifica pausa."
+    "Miedo extremo (índice 10) con tendencia de 7 días en niveles bajos.",
+    "Capitalización total -4.04% en 24 h y BTC cerca de 63.000 USD tras dos retestes de 62.000 USD.",
+    "Salidas netas de ETF de bitcoin (3 meses mínimo de activos, 2.5 mil millones USD de salidas en 2026).",
+    "Hackeo de Binance de 6.3 mil millones USD con noticias de congelación de fondos; riesgo reputacional, no una situación anómala de las monedas operadas.",
+    "Expectativas de nueva subida de tipos de la Fed en diciembre; sin evento macro de alto impacto en las próximas 24 h.",
+    "No hay señales de halt, depeg ni delist en las 10 monedas operadas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-19T07:12:38+00:00",
-  "valido_hasta": "2026-11-19T10:12:38+00:00",
+  "generado": "2026-11-19T09:00:35+00:00",
+  "valido_hasta": "2026-11-19T12:00:35+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -3.42,
-    "noticias_analizadas": 31,
+    "cambio_mercado_24h": -4.04,
+    "noticias_analizadas": 28,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
-      "Decrypt": 37,
+      "Decrypt": 36,
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
@@ -41,14 +42,9 @@
       "link": "https://www.coindesk.com/markets/2026/11/19/fed-s-push-for-more-rate-hikes-leans-on-backward-looking-data-as-gas-prices-slide-analysts-argue"
     },
     {
-      "titulo": "Bitcoin Tanks Ahead of Anthropic’s IPO. Should We Really Blame AI?",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/383551/bitcoin-tanks-ahead-anthropics-ipo-should-we-really-blame-ai"
-    },
-    {
-      "titulo": "Binance says it obtained $6.5B worldwide freezing order after hack",
+      "titulo": "Bitcoin ETF assets fall to three-month low as 2026 net outflows top $2.5B",
       "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "link": "https://cointelegraph.com/markets/bitcoin-etf-assets-three-month-low-78-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "titulo": "LeBron James Sues Bron App Makers, Says AI Ad Falsely Tied Him to Kalshi",
@@ -59,17 +55,22 @@
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Binance hackers stole 192 tokens across 11 networks, court docs show",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/binance-hackers-stole-192-tokens-across-11-networks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8482,
+    "input_tokens": 8127,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 642,
+    "output_tokens": 658,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
