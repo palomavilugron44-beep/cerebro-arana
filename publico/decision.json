@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo un 2.82% en 24 h y BTC cerca de 62-64k USD tras salidas netas de ETFs por unos 2.9 mil millones en noviembre. Hay expectativas de nuevas subidas de tipos de la Fed, aunque no hay un evento macro de alto impacto en las próximas 24 h ni una caída brusca de mercado con liquidaciones masivas. Se opta por cautela general, sin pausa ni alerta sobre posiciones, porque no hay un riesgo grave e inmediato.",
+  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo un 3.57% en 24 h y las monedas acumulando caídas de alrededor del 10-15% en 7 días. Hay presión de salidas en los ETF de Bitcoin y temor a nuevas subidas de tipos de la Fed, aunque no hay eventos macro de alto impacto en las próximas 24 h ni una caída brusca del tipo -7% que justifique una pausa. Por ello se recomienda cautela general (mitad de tamaño) sin pausar monedas concretas.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear) y sostenido en miedo durante los últimos 7 días.",
-    "Capitalización total -2.82% en 24 h, con salidas netas de ETFs de BTC (unos 306 M USD el miércoles y cerca de 2.9 mil millones en noviembre) y expectativas de subidas de tipos de la Fed.",
-    "Ninguna moneda muestra una situación anómala (halt, depeg o delist) ni hay evento macro de alto impacto en las próximas 24 h.",
-    "El hackeo a Binance es un incidente ya en gestión (Binance reembolsó los activos robados); no se considera un riesgo grave para las monedas operadas."
+    "Índice Miedo/Codicia en 10 (miedo extremo), con valores bajos sostenidos durante la última semana.",
+    "Capitalización total -3.57% en 24 h y caídas de 7 días de entre -5% y -15% en las 10 monedas.",
+    "Salidas netas de los ETF spot de Bitcoin (más de 300 M$ el miércoles y 2.5 B$ en el año) y presión por posibles subidas de tipos de la Fed.",
+    "Hackeo a Binance (robo atribuido a Corea del Norte), pero Binance ya repuso los activos y obtuvo una orden de congelación; no supone un riesgo grave para el bot.",
+    "No hay eventos macro de alto impacto USD en las próximas 24 h ni caída brusca del mercado que justifique pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-19T18:58:05+00:00",
-  "valido_hasta": "2026-11-19T21:58:05+00:00",
+  "generado": "2026-11-19T20:00:49+00:00",
+  "valido_hasta": "2026-11-19T23:00:49+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -2.82,
-    "noticias_analizadas": 51,
+    "cambio_mercado_24h": -3.57,
+    "noticias_analizadas": 53,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -61,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9529,
+    "input_tokens": 9569,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 580,
+    "output_tokens": 600,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
