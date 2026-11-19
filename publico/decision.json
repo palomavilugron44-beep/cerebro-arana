@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo un 3.52% en 24 h y BTC cerca de 62-63K tras perder cerca de un 14% en 7 días, con salidas persistentes de ETFs. Además, la Fed podría subir tipos en diciembre y hay presión macro por IPC y payrolls calientes, aunque no hay eventos de alto impacto en las próximas 24 h. No veo un riesgo grave e inmediato (hackeo en curso, halt o deslistado) que justifique pausa, así que se recomienda cautela general, con la mitad del tamaño en compras nuevas.",
+  "resumen": "El mercado está en miedo extremo (índice 10) tras una caída de la capitalización total del -3.74% en 24 h, con BTC cerca de 63.000 USD y una tendencia bajista de una semana. Pesan la incertidumbre macro (Fed con sesgo a subir tipos en diciembre) y la salida de capital hacia la IPO de Anthropic, aunque no hay un evento de alto impacto en las próximas 24 h ni una caída del -7% que justifique pausa. Se recomienda cautela general, con compras a la mitad del tamaño.",
   "motivos": [
-    "Miedo extremo (índice 10) con caída de la capitalización total de -3.52% en 24 h",
-    "BTC rompiendo soportes (~62-63K) tras -13.86% en 7 días, con salidas de ETFs y apalancamiento liquidado",
-    "Presión macro: Fed con posible subida en diciembre y debate sobre un movimiento de 50 pb, aunque sin eventos de alto impacto en 24 h",
-    "El hackeo de Binance de octubre es un hecho antiguo; las noticias recientes sobre congelación de fondos no implican riesgo inmediato para las monedas operadas",
-    "No hay anomalías de mercado (halt, depeg, deslistado) en las 10 monedas operadas"
+    "Índice Miedo/Codicia en 10 (Extreme Fear), con valores bajos sostenidos durante 7 días.",
+    "Capitalización total -3.74% en 24 h; BTC -14% y ETH -12% en 7 días.",
+    "Sesgo hawkish de la Fed: actas y declaraciones de Waller apuntan a posibles subidas en diciembre (reunión 8-9 dic), fuera de la ventana de 2-3 h de pausa.",
+    "Hackeo de Binance (29 oct) con recuperación de fondos en curso: riesgo reputacional relevante pero no un problema activo de la red o del exchange que obligue a pausar.",
+    "Sin eventos macro de alto impacto USD en las próximas 24 h, por lo que no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-19T05:02:47+00:00",
-  "valido_hasta": "2026-11-19T08:02:47+00:00",
+  "generado": "2026-11-19T06:00:54+00:00",
+  "valido_hasta": "2026-11-19T09:00:54+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -3.52,
-    "noticias_analizadas": 33,
+    "cambio_mercado_24h": -3.74,
+    "noticias_analizadas": 31,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -30,11 +30,6 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
-    {
-      "titulo": "Bitcoin Price Slides Near $62K as Citi Slashes 12-Month Target by 12%",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-slides-62k-citi-slashes-price-target-12-percent/"
-    },
     {
       "titulo": "Fed officials saw October rate hold as a ‘close call,’ minutes show",
       "fuente": "Cointelegraph",
@@ -56,20 +51,25 @@
       "link": "https://decrypt.co/383566/fed-waller-50-basis-point-rate-hike-tokenized-finance-banks"
     },
     {
-      "titulo": "Here’s what happened in crypto today",
+      "titulo": "Binance hackers stole 192 tokens across 11 networks, court docs show",
       "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "link": "https://cointelegraph.com/news/binance-hackers-stole-192-tokens-across-11-networks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Bitcoin Price Worst-Case Scenarios: Analysts Talk $50K, $40K and $10K",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/opinion-and-analysis/bitcoin-price-worst-case-scenarios-analysts-talk-50k-40k-10k/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8770,
+    "input_tokens": 8532,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 595,
+    "output_tokens": 589,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
