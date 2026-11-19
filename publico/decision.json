@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10, con mínimos sostenidos durante la última semana) y la capitalización total cae un 3.47% en 24 h, con BTC en torno a 63.800 USD tras perder por debajo de 63.000 y 62.000. Hay presión macro por posibles subidas de tipos de la Fed (minutas con apetito por subidas y expectativa de una subida en diciembre) y salidas de fondos ETF de Bitcoin, aunque no hay eventos de alto impacto en las próximas 24 h. El hackeo de Binance (6.300 M USD) es grave pero ya afectó días atrás y no es una amenaza inmediata para las monedas operadas, por lo que se opta por cautela y no por pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo un 3.4% en 24 h y BTC cerca de 63.800 USD tras perder un 13% en la semana por salidas de ETFs y expectativas de nueva subida de tipos de la Fed. Pese al entorno bajista, no hay un evento de riesgo grave e inmediato (no hay datos macro de alto impacto en 24 h, ni exploit que afecte directamente a las monedas operadas), así que se recomienda cautela general y no pausa. El hackeo de Binance es un incidente grave para el exchange, pero no hay en los datos una anomalía sobre las monedas del bot ni una caída de mercado que justifique parar las compras.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear), con valores bajos durante toda la última semana.",
-    "Capitalización total -3.47% en 24 h y BTC cerca de 63.000 USD, con caídas de -13% en 7 días en la mayoría de monedas.",
-    "Expectativa de nueva subida de tipos de la Fed en diciembre según las minutas, lo que añade incertidumbre macro aunque no haya un evento de alto impacto en 24 h.",
-    "Salidas netas de fondos ETF de Bitcoin (306 M USD en un día; 2.5 mil M USD en el año).",
-    "El hackeo a Binance es grave, pero no hay señales de anomalía en los precios ni de halt, depeg o delist de las monedas operadas, por lo que no justifica pausa."
+    "Índice Miedo/Codicia en 10 (Extreme Fear) y sostenido por varios días en niveles similares.",
+    "Capitalización total -3.4% en 24 h y BTC -13% en 7 días con salidas netas de ETFs spot (más de 2.500 M USD en el año).",
+    "Expectativas de nueva subida de tipos de la Fed tras las actas de FOMC y datos de inflación calientes, con riesgo para activos de riesgo.",
+    "Hackeo de 6.300 M USD a Binance: riesgo reputacional y de liquidez para el exchange, pero sin anomalía directa en las monedas operadas (no hay halt, depeg ni delist).",
+    "Sin eventos macro USD de alto impacto en las próximas 24 h, por lo que no procede pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-19T10:02:23+00:00",
-  "valido_hasta": "2026-11-19T13:02:23+00:00",
+  "generado": "2026-11-19T10:59:33+00:00",
+  "valido_hasta": "2026-11-19T13:59:33+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -3.47,
-    "noticias_analizadas": 24,
+    "cambio_mercado_24h": -3.4,
+    "noticias_analizadas": 30,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -41,6 +41,11 @@
       "link": "https://cointelegraph.com/markets/fed-officials-saw-october-rate-hold-as-close-call-minutes-show?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "titulo": "Bitcoin Struggles to Hold $64,000 as ETF Outflows Hit $2.9B in November",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/383597/bitcoin-struggles-to-hold-64000-as-etf-outflows-hit-2-9b-in-november"
+    },
+    {
       "titulo": "Fed's rate hike push may be a mistake. Here's why",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/19/fed-s-push-for-more-rate-hikes-leans-on-backward-looking-data-as-gas-prices-slide-analysts-argue"
@@ -54,22 +59,17 @@
       "titulo": "LeBron James Sues Bron App Makers, Says AI Ad Falsely Tied Him to Kalshi",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/igaming/lebron-james-sues-bron-app-says-ai-falsely-tied-kalshi/"
-    },
-    {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7661,
+    "input_tokens": 8388,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 663,
+    "output_tokens": 650,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
