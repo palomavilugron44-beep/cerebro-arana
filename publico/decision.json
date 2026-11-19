@@ -1,30 +1,29 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo un 2.74% en 24 h y BTC cerca de 63.800 USD tras una caída de alrededor del 13% en la semana, con salidas de ETF de bitcoin y temor a nuevas subidas de tipos de la Fed. No hay evento macro de alto impacto en las próximas 24 h ni una anomalía en las monedas operadas, y el hackeo de Binance es un hecho antiguo que ya está en proceso de recuperación. Por ello se recomienda cautela general (mitad de tamaño en compras nuevas), sin pausa ni alerta sobre posiciones.",
+  "resumen": "El miedo extremo (índice 10) y la caída semanal de alrededor del 8-15% en todas las monedas, con salidas de ETF de Bitcoin y presión por subidas de tipos de la Fed, justifican un modo de cautela general. No hay un evento grave e inmediato que obligue a pausar: el hackeo de Binance ya está en curso de recuperación y no afecta a la operativa de las monedas listadas. Las cifras de 24 h son planas o positivas, por lo que no hay caída brusca del mercado en curso.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear), con valores bajos sostenidos durante la última semana.",
-    "Capitalización total -2.74% en 24 h y BTC -12% a 7 días; caída fuerte pero sin señales de liquidaciones en cascada ni de colapso que justifique pausa.",
-    "Salidas netas de ETF de bitcoin (más de 300 M USD el miércoles; 2.5-2.9 B USD en el año) y expectativa de nuevas subidas de tipos de la Fed, incertidumbre elevada.",
-    "Sin eventos económicos USD de alto impacto en las próximas 24 h, por lo que no procede pausa por macro.",
-    "El hackeo a Binance es noticia antigua con congelación de fondos en curso; no es un riesgo nuevo grave para las monedas operadas.",
-    "Ninguna de las 10 monedas muestra anomalía (halt, depeg, delist); todas se mueven entre +0.4% y +1.3% en 24 h."
+    "Índice Miedo/Codicia en 10 (Extreme Fear) y sostenido durante la última semana, lo que indica incertidumbre elevada.",
+    "Bitcoin cayó alrededor de un 12-13% en 7 días y perdió el nivel de 64.000 USD; todas las monedas listadas tienen caídas semanales de entre -4% y -15%.",
+    "Salidas netas de ETF de Bitcoin (más de 2.500 M USD en el año) y expectativas de nuevas subidas de tipos por parte de la Fed, con riesgo para activos de riesgo.",
+    "El hackeo de Binance y la orden de congelación de 6.500 M USD son noticias negativas relevantes pero no afectan directamente a las monedas operadas; no justifican pausa.",
+    "No hay eventos macro de alto impacto en las próximas 24 h ni caída brusca del mercado en curso (capitalización -2,53% en 24 h), por lo que no procede pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-19T13:11:21+00:00",
-  "valido_hasta": "2026-11-19T16:11:21+00:00",
+  "generado": "2026-11-19T14:53:18+00:00",
+  "valido_hasta": "2026-11-19T17:53:18+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -2.74,
-    "noticias_analizadas": 40,
+    "cambio_mercado_24h": -2.53,
+    "noticias_analizadas": 43,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
-      "Decrypt": 36,
+      "Decrypt": 35,
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
@@ -63,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9654,
+    "input_tokens": 9681,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 706,
+    "output_tokens": 644,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
