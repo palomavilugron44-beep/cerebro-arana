@@ -1,24 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo un 3.57% en 24 h y las monedas acumulando caídas de alrededor del 10-15% en 7 días. Hay presión de salidas en los ETF de Bitcoin y temor a nuevas subidas de tipos de la Fed, aunque no hay eventos macro de alto impacto en las próximas 24 h ni una caída brusca del tipo -7% que justifique una pausa. Por ello se recomienda cautela general (mitad de tamaño) sin pausar monedas concretas.",
+  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total -3.34% en 24 h y BTC cerca de 62.000 USD tras una caída de -13% en 7 días, con salidas de ETFs de bitcoin y expectativas de nuevas subidas de tipos de la Fed. No hay evento macro de alto impacto en las próximas 24 h ni hay una caída brusca superior al -7% ni un riesgo de seguridad que afecte directamente a estas monedas. Por ello se recomienda cautela general, sin pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (miedo extremo), con valores bajos sostenidos durante la última semana.",
-    "Capitalización total -3.57% en 24 h y caídas de 7 días de entre -5% y -15% en las 10 monedas.",
-    "Salidas netas de los ETF spot de Bitcoin (más de 300 M$ el miércoles y 2.5 B$ en el año) y presión por posibles subidas de tipos de la Fed.",
-    "Hackeo a Binance (robo atribuido a Corea del Norte), pero Binance ya repuso los activos y obtuvo una orden de congelación; no supone un riesgo grave para el bot.",
-    "No hay eventos macro de alto impacto USD en las próximas 24 h ni caída brusca del mercado que justifique pausa."
+    "Índice Miedo/Codicia en 10 (Extreme Fear) y sostenido en niveles bajos durante la última semana.",
+    "Capitalización total -3.34% en 24 h y BTC -13% en 7 días con salidas netas de ETFs (más de 2.900 M USD en noviembre).",
+    "Expectativas de nuevas subidas de tipos de la Fed generan presión vendedora; sin evento macro de muy alto impacto en las próximas 2-3 horas.",
+    "El hackeo de Binance es un incidente ya en gestión (congelación de fondos por 6.500 M USD) y no afecta a la operativa de las monedas listadas; no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-19T20:00:49+00:00",
-  "valido_hasta": "2026-11-19T23:00:49+00:00",
+  "generado": "2026-11-19T20:52:37+00:00",
+  "valido_hasta": "2026-11-19T23:52:37+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -3.57,
-    "noticias_analizadas": 53,
+    "cambio_mercado_24h": -3.34,
+    "noticias_analizadas": 55,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -30,11 +29,6 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
-    {
-      "titulo": "Schiff Warns Fed Rate Hikes Will Trigger 2008-Style Crisis",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/finance/schiff-warns-fed-rate-hikes-will-trigger-2008-style-crisis/"
-    },
     {
       "titulo": "Bitcoin holds above $63,750 but Fed rate-hike threats loom large",
       "fuente": "CoinDesk",
@@ -59,17 +53,22 @@
       "titulo": "Trump's Democratic SEC pick suggests tokenization policy deserves full rule process",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/policy/2026/11/19/trump-s-democratic-sec-pick-suggests-tokenization-policy-deserves-full-rule-process"
+    },
+    {
+      "titulo": "Hackers Leak Visa, Mastercard and JPMorgan Customer Data",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/383663/hackers-leak-visa-mastercard-jpmorgan-data"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9569,
+    "input_tokens": 9471,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 600,
+    "output_tokens": 549,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
