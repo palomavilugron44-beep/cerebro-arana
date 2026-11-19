@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo un 3.56% en 24 h y BTC cerca de 63.000 USD tras salidas récord de ETFs y expectativas de nuevas subidas de tipos de la Fed. No hay un evento macro de alto impacto en las próximas 24 h ni una caída brusca de -7% que justifique pausar, pero la incertidumbre es elevada. Por ello se recomienda cautela general (compras a la mitad de tamaño) y no una pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo un 3.16% en 24 h y BTC cerca de 62-64k USD tras flujos netos de salida de ETFs y expectativas de nueva subida de tipos de la Fed. No hay eventos macro de alto impacto en las próximas 24 h ni una caída de -7% o peor, así que no se justifica pausa. Se recomienda cautela general (mitad de tamaño) por la incertidumbre elevada.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear), con valores bajos durante toda la semana.",
-    "Capitalización total -3.56% en 24 h y BTC -12% en 7 días, con salidas de ETFs de BTC de unos 306 M USD en un día y casi 2.9 B USD en noviembre.",
-    "Expectativas de nuevas subidas de tipos de la Fed, que suponen un riesgo para los activos de riesgo; sin embargo, no hay un dato macro de alto impacto en las próximas 24 h.",
-    "El hackeo de Binance es un hecho antiguo; Binance ya ha obtenido una orden de congelación de 6.5 B USD y ha repuesto los activos, por lo que no se considera un riesgo grave e inmediato.",
-    "Las noticias sobre ETFs, la IPO de Anthropic y otros titulares no implican una situación anómala de ninguna moneda concreta."
+    "Índice Miedo/Codicia en 10 (Extreme Fear) durante varios días seguidos.",
+    "Capitalización total -3.16% en 24 h y BTC -12% en 7 días con salidas de ETFs de bitcoin (más de 2.5 mil millones en 2026).",
+    "Expectativas de nuevas subidas de tipos de la Fed, aunque sin evento de alto impacto confirmado en las próximas 24 h.",
+    "Hackeo de Binance (6.3 mil millones) ya en fase de recuperación; no es un riesgo nuevo y grave para las monedas operadas.",
+    "Ninguna moneda muestra anomalía (halt, depeg o delist) en los datos."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-19T15:57:50+00:00",
-  "valido_hasta": "2026-11-19T18:57:50+00:00",
+  "generado": "2026-11-19T17:03:28+00:00",
+  "valido_hasta": "2026-11-19T20:03:28+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -3.56,
-    "noticias_analizadas": 45,
+    "cambio_mercado_24h": -3.16,
+    "noticias_analizadas": 49,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9665,
+    "input_tokens": 9592,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 631,
+    "output_tokens": 539,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
