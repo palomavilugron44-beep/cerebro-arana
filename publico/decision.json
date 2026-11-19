@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto está en miedo extremo (índice 11) tras una caída del 4.65% en 24 h de la capitalización total, con BTC cerca de 62-63K y sin alcanzar grandes caídas de liquidaciones confirmadas. Hay presión bajista por salidas de ETFs y expectativas de subidas de tipos de la Fed (posible 50 pb en diciembre), pero no hay evento macro de alto impacto en las próximas 24 h ni una anomalía concreta en las monedas del bot. Se opta por cautela global (mitad de tamaño en compras nuevas) como medida prudente, sin pausa ni alerta sobre posiciones.",
+  "resumen": "El miedo es extremo (índice 10) y la capitalización total cae un 4.46% en 24 h, con BTC cerca de 62-63K tras salidas de ETF y un tono hawkish de la Fed (posible subida en diciembre). No hay un evento macro de alto impacto en las próximas 24 h ni una caída de -7% ni una anomalía de moneda, así que no justifica pausa. Se recomienda cautela general para reducir el tamaño de nuevas compras.",
   "motivos": [
-    "Miedo extremo (índice 11) y capitalización total -4.65% en 24 h, con todas las monedas del bot en rojo.",
-    "Salidas netas de ETFs de BTC (2.58 mil millones en noviembre) y declaraciones hawkish de la Fed sobre una posible subida de 50 pb en diciembre.",
-    "Sin eventos macro de alto impacto USD en 24 h y sin hackeo, halt, depeg ni acción regulatoria grave contra las monedas operadas; el incidente de Binance es un robo de octubre con acciones de recuperación, no un riesgo inmediato.",
-    "Caída de BTC hacia la zona de 62K con analistas señalando 58-62K como soporte clave, lo que justifica prudencia temporal."
+    "Índice Miedo/Codicia en 10 (Extreme Fear) y sostenido durante la última semana.",
+    "Capitalización total -4.46% en 24 h; BTC perdiendo el soporte de 63K y acercándose a 62K.",
+    "Salidas de ETF de BTC por 2.58 mil millones en noviembre y tono hawkish de la Fed con posible subida de tipos en diciembre (evento macro relevante, fuera de las próximas 3 horas).",
+    "Caída del 13-14% en 7 días en BTC, ETH y BNB; el contexto de volatilidad justifica reducir el tamaño de compras.",
+    "Noticias sobre el hackeo de Binance y la liquidación de posiciones son negativas pero no implican riesgo grave e inmediato para las monedas operadas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-18T23:49:48+00:00",
-  "valido_hasta": "2026-11-19T02:49:48+00:00",
+  "generado": "2026-11-19T01:06:25+00:00",
+  "valido_hasta": "2026-11-19T04:06:25+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
-    "miedo_codicia": 11,
-    "cambio_mercado_24h": -4.65,
-    "noticias_analizadas": 48,
+    "miedo_codicia": 10,
+    "cambio_mercado_24h": -4.46,
+    "noticias_analizadas": 43,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -33,6 +34,11 @@
       "titulo": "Bitcoin Price Slides Near $62K as Citi Slashes 12-Month Target by 12%",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-slides-62k-citi-slashes-price-target-12-percent/"
+    },
+    {
+      "titulo": "Fed officials saw October rate hold as a ‘close call,’ minutes show",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/fed-officials-saw-october-rate-hold-as-close-call-minutes-show?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "titulo": "Bitcoin Tanks Ahead of Anthropic’s IPO. Should We Really Blame AI?",
@@ -53,22 +59,17 @@
       "titulo": "Bitcoin, stocks wobble as Fed’s Waller talks of ‘shock’ 50-point rate hike",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/markets/bitcoin-stocks-wobble-waller-talks-shock-50-point-rate-hike?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9601,
+    "input_tokens": 9597,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 619,
+    "output_tokens": 566,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
