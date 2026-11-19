@@ -1,29 +1,29 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo un 3.16% en 24 h y BTC cerca de 62-64k USD tras flujos netos de salida de ETFs y expectativas de nueva subida de tipos de la Fed. No hay eventos macro de alto impacto en las próximas 24 h ni una caída de -7% o peor, así que no se justifica pausa. Se recomienda cautela general (mitad de tamaño) por la incertidumbre elevada.",
+  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo un 2.44% en 24 h y BTC cerca de 62-64k USD tras una caída de alrededor del 12% en 7 días. Los flujos hacia ETFs de BTC son negativos y crece la preocupación por nuevas subidas de tipos de la Fed, aunque no hay un evento macro de alto impacto confirmado en las próximas 24 h. No hay hackeo, depeg ni acción regulatoria grave que justifique pausar, por lo que se recomienda cautela (compras a mitad de tamaño) en lugar de pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear) durante varios días seguidos.",
-    "Capitalización total -3.16% en 24 h y BTC -12% en 7 días con salidas de ETFs de bitcoin (más de 2.5 mil millones en 2026).",
-    "Expectativas de nuevas subidas de tipos de la Fed, aunque sin evento de alto impacto confirmado en las próximas 24 h.",
-    "Hackeo de Binance (6.3 mil millones) ya en fase de recuperación; no es un riesgo nuevo y grave para las monedas operadas.",
-    "Ninguna moneda muestra anomalía (halt, depeg o delist) en los datos."
+    "Miedo extremo (índice 10) con caídas de 7 días de entre -5% y -17% en las monedas vigiladas.",
+    "Salidas netas de ETFs spot de BTC (-306 M USD el miércoles; -2.9 mil M en noviembre) y menor apetito por cripto.",
+    "Expectativas de nuevas subidas de tipos de la Fed generan incertidumbre, pero sin evento de alto impacto confirmado en 24 h.",
+    "El hackeo de Binance ya está siendo gestionado (orden de congelación de 6.5 mil M USD y reposición de activos con fondos propios), sin señal de riesgo grave inmediato.",
+    "No hay halts, depegs ni delistings en las monedas operadas; la estrategia mantiene su propio stop a 3 ATR."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-19T17:03:28+00:00",
-  "valido_hasta": "2026-11-19T20:03:28+00:00",
+  "generado": "2026-11-19T17:54:56+00:00",
+  "valido_hasta": "2026-11-19T20:54:56+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -3.16,
-    "noticias_analizadas": 49,
+    "cambio_mercado_24h": -2.44,
+    "noticias_analizadas": 48,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
-      "Decrypt": 35,
+      "Decrypt": 36,
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9592,
+    "input_tokens": 9545,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 539,
+    "output_tokens": 619,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
