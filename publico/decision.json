@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10, sostenido durante la última semana) y la capitalización total cae un 2.86% en 24 h, con BTC cerca de mínimos desde julio y las bolsas tecnológicas en caída de más del 2% el jueves. No hay evento macro de alto impacto en las próximas 24 h ni una caída brusca de -7%, y el hackeo de Binance es un incidente ya conocido que ha sido respondido con fondos propios y una orden de congelación, por lo que no justifica pausar. Se recomienda cautela general (mitad de tamaño) por la volatilidad y el miedo extremo, sin medidas específicas por moneda.",
+  "resumen": "El mercado está en miedo extremo (índice 10, con 7 días en la zona de 10-20) y la capitalización total cae un -3.13% en 24 h, con BTC y ETH cerca de -13% en la semana y salidas de ETFs de BTC. Esto justifica cautela general, pero no una caída de -7% ni un evento macro de alto impacto en las próximas horas, así que no hay motivo para pausar. El hackeo de Binance de octubre ya es un hecho antiguo y la noticia del congelamiento de 6.5 mil millones es positiva para la recuperación, por lo que no se aplica pausa por ese motivo.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear) y sostenido en niveles de miedo extremo durante 7 días.",
-    "Capitalización total -2.86% en 24 h y BTC en mínimos desde julio; salidas de ETFs de BTC de unos 300 M$ en un día.",
-    "Caídas de más de 2% en Nasdaq, S&P 500 y DJIA el jueves, con riesgo de contagio macro por tasas (amenazas de subida de la Fed).",
-    "Hackeo de Binance (oct. 29) ya conocido; Binance ha repuesto los activos con fondos propios y obtuvo una orden de congelación de 6.5 B$, sin señal de riesgo sistémico inmediato.",
-    "Sin eventos económicos USD de alto impacto en las próximas 24 h; caída de mercado no alcanza el umbral de -7%."
+    "Índice Miedo/Codicia en 10 (Extreme Fear), persistentemente bajo durante la última semana.",
+    "Capitalización total -3.13% en 24 h y BTC/ETH/SOL/AVAX cerca de -10% a -16% en 7 días.",
+    "Salidas netas de ETFs de Bitcoin (unos 306 M USD el miércoles) y presión por posible subida de tipos de la Fed.",
+    "No hay eventos económicos de alto impacto USD en las próximas 24 h, y no hay halt, depeg, delist ni hackeo nuevo que afecte a las monedas operadas.",
+    "Riesgo de volatilidad elevada en un mercado bajista, por lo que se reduce el tamaño de las nuevas compras a la mitad."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-19T22:48:54+00:00",
-  "valido_hasta": "2026-11-20T01:48:54+00:00",
+  "generado": "2026-11-19T23:43:41+00:00",
+  "valido_hasta": "2026-11-20T02:43:41+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -2.86,
-    "noticias_analizadas": 52,
+    "cambio_mercado_24h": -3.13,
+    "noticias_analizadas": 46,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9416,
+    "input_tokens": 9407,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 664,
+    "output_tokens": 611,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
