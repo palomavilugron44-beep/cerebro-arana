@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total -3.97% en 24 h y BTC cerca de 63.000 USD tras caídas por salidas de ETF y presión de tipos (Fed con sesgo a subir en diciembre). No hay evento macro de alto impacto en las próximas 24 h ni señales de caída de -7% o de problema de seguridad que justifique pausa. Se recomienda cautela general, con la mitad del tamaño en compras nuevas.",
+  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo un 3.52% en 24 h y BTC cerca de 62-63K tras perder cerca de un 14% en 7 días, con salidas persistentes de ETFs. Además, la Fed podría subir tipos en diciembre y hay presión macro por IPC y payrolls calientes, aunque no hay eventos de alto impacto en las próximas 24 h. No veo un riesgo grave e inmediato (hackeo en curso, halt o deslistado) que justifique pausa, así que se recomienda cautela general, con la mitad del tamaño en compras nuevas.",
   "motivos": [
-    "Miedo extremo (índice 10) sostenido durante 7 días y capitalización total -3.97% en 24 h",
-    "Presión bajista por salidas de ETF y declaraciones hawkish de la Fed (posible subida en diciembre, reunión 8-9 dic)",
-    "Todas las monedas caen entre -0.8% y -1.5% en 24 h y entre -8% y -18% en 7 días, con BTC cerca de soporte clave en 62.000",
-    "Noticias de hackeo de Binance (octubre) y manipulación de hardware wallets son relevantes pero no afectan directamente a las monedas operadas ni son riesgo grave inmediato",
-    "No hay evento macro de alto impacto en las próximas 24 h ni caída de mercado de -7% o peor"
+    "Miedo extremo (índice 10) con caída de la capitalización total de -3.52% en 24 h",
+    "BTC rompiendo soportes (~62-63K) tras -13.86% en 7 días, con salidas de ETFs y apalancamiento liquidado",
+    "Presión macro: Fed con posible subida en diciembre y debate sobre un movimiento de 50 pb, aunque sin eventos de alto impacto en 24 h",
+    "El hackeo de Binance de octubre es un hecho antiguo; las noticias recientes sobre congelación de fondos no implican riesgo inmediato para las monedas operadas",
+    "No hay anomalías de mercado (halt, depeg, deslistado) en las 10 monedas operadas"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-19T03:56:49+00:00",
-  "valido_hasta": "2026-11-19T06:56:49+00:00",
+  "generado": "2026-11-19T05:02:47+00:00",
+  "valido_hasta": "2026-11-19T08:02:47+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -3.97,
-    "noticias_analizadas": 36,
+    "cambio_mercado_24h": -3.52,
+    "noticias_analizadas": 33,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -56,20 +56,20 @@
       "link": "https://decrypt.co/383566/fed-waller-50-basis-point-rate-hike-tokenized-finance-banks"
     },
     {
-      "titulo": "Bitcoin, stocks wobble as Fed’s Waller talks of ‘shock’ 50-point rate hike",
+      "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/markets/bitcoin-stocks-wobble-waller-talks-shock-50-point-rate-hike?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9142,
+    "input_tokens": 8770,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 561,
+    "output_tokens": 595,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
