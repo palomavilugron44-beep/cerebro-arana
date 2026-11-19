@@ -1,23 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) tras una caída semanal de alrededor del 10-13% en las principales monedas y salidas netas de ETF de Bitcoin, con el mercado presionado por expectativas de nueva subida de tipos de la Fed. La capitalización total cae -2.98% en 24 h, pero sin liquidaciones masivas ni caídas de -7% que justifiquen una pausa. El hackeo de Binance ya ocurrió y se está documentando judicialmente, por lo que no lo consideramos un riesgo nuevo que obligue a pausar; se recomienda cautela general.",
+  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo un 2.74% en 24 h y BTC cerca de 63.800 USD tras una caída de alrededor del 13% en la semana, con salidas de ETF de bitcoin y temor a nuevas subidas de tipos de la Fed. No hay evento macro de alto impacto en las próximas 24 h ni una anomalía en las monedas operadas, y el hackeo de Binance es un hecho antiguo que ya está en proceso de recuperación. Por ello se recomienda cautela general (mitad de tamaño en compras nuevas), sin pausa ni alerta sobre posiciones.",
   "motivos": [
-    "Miedo extremo sostenido (índice 10, con 7 días por debajo de 21) y volatilidad elevada.",
-    "Caída semanal de 10-13% en BTC, ETH, BNB, SOL, DOGE, ADA y LTC; AVAX cae -18.4% en 7 días.",
-    "Salidas netas de ETF spot de Bitcoin (más de 2.500 M$ en el año) y expectativas de nueva subida de tipos de la Fed, con riesgo de que se mantenga la presión bajista.",
-    "No hay eventos macro de alto impacto en 24 h ni caída de capitalización de -7% o peor; el hackeo de Binance es un hecho previo y no se identifica una amenaza inmediata que justifique pausa."
+    "Índice Miedo/Codicia en 10 (Extreme Fear), con valores bajos sostenidos durante la última semana.",
+    "Capitalización total -2.74% en 24 h y BTC -12% a 7 días; caída fuerte pero sin señales de liquidaciones en cascada ni de colapso que justifique pausa.",
+    "Salidas netas de ETF de bitcoin (más de 300 M USD el miércoles; 2.5-2.9 B USD en el año) y expectativa de nuevas subidas de tipos de la Fed, incertidumbre elevada.",
+    "Sin eventos económicos USD de alto impacto en las próximas 24 h, por lo que no procede pausa por macro.",
+    "El hackeo a Binance es noticia antigua con congelación de fondos en curso; no es un riesgo nuevo grave para las monedas operadas.",
+    "Ninguna de las 10 monedas muestra anomalía (halt, depeg, delist); todas se mueven entre +0.4% y +1.3% en 24 h."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-19T11:57:08+00:00",
-  "valido_hasta": "2026-11-19T14:57:08+00:00",
+  "generado": "2026-11-19T13:11:21+00:00",
+  "valido_hasta": "2026-11-19T16:11:21+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -2.98,
-    "noticias_analizadas": 34,
+    "cambio_mercado_24h": -2.74,
+    "noticias_analizadas": 40,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -35,9 +37,9 @@
       "link": "https://news.bitcoin.com/finance/schiff-warns-fed-rate-hikes-will-trigger-2008-style-crisis/"
     },
     {
-      "titulo": "Fed officials saw October rate hold as a ‘close call,’ minutes show",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/markets/fed-officials-saw-october-rate-hold-as-close-call-minutes-show?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "titulo": "Bitcoin holds above $63,750 but Fed rate-hike threats loom large",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/19/bitcoin-holds-above-usd63-750-but-fed-rate-hike-threats-loom-large"
     },
     {
       "titulo": "Bitcoin Struggles to Hold $64,000 as ETF Outflows Hit $2.9B in November",
@@ -50,25 +52,25 @@
       "link": "https://www.coindesk.com/markets/2026/11/19/fed-s-push-for-more-rate-hikes-leans-on-backward-looking-data-as-gas-prices-slide-analysts-argue"
     },
     {
+      "titulo": "Binance Wins $6.5B Freezing Order Over Hack That Can Be Served via the Blockchain",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/383608/binance-wins-6-5b-freezing-order-over-hack-that-can-be-served-via-the-blockchain"
+    },
+    {
       "titulo": "Bitcoin ETF assets fall to three-month low as 2026 net outflows top $2.5B",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/markets/bitcoin-etf-assets-three-month-low-78-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "LeBron James Sues Bron App Makers, Says AI Ad Falsely Tied Him to Kalshi",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/igaming/lebron-james-sues-bron-app-says-ai-falsely-tied-kalshi/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8910,
+    "input_tokens": 9654,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 596,
+    "output_tokens": 706,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
