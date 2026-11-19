@@ -1,24 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El miedo es extremo (índice 10) y la capitalización total cae un 4.46% en 24 h, con BTC cerca de 62-63K tras salidas de ETF y un tono hawkish de la Fed (posible subida en diciembre). No hay un evento macro de alto impacto en las próximas 24 h ni una caída de -7% ni una anomalía de moneda, así que no justifica pausa. Se recomienda cautela general para reducir el tamaño de nuevas compras.",
+  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo un 4.49% en 24 h y BTC cerca de 62.8K, tras una caída de alrededor del 15% en 7 días. Hay presión hawkish de la Fed (posible subida en diciembre) y salidas de ETF, pero no hay un evento macro de alto impacto en las próximas 24 h ni una caída de -7% ni un hackeo que afecte directamente a las monedas operadas. Por ello se elige cautela global, sin pausa ni alerta sobre posiciones.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear) y sostenido durante la última semana.",
-    "Capitalización total -4.46% en 24 h; BTC perdiendo el soporte de 63K y acercándose a 62K.",
-    "Salidas de ETF de BTC por 2.58 mil millones en noviembre y tono hawkish de la Fed con posible subida de tipos en diciembre (evento macro relevante, fuera de las próximas 3 horas).",
-    "Caída del 13-14% en 7 días en BTC, ETH y BNB; el contexto de volatilidad justifica reducir el tamaño de compras.",
-    "Noticias sobre el hackeo de Binance y la liquidación de posiciones son negativas pero no implican riesgo grave e inmediato para las monedas operadas."
+    "Miedo extremo (índice 10) y 7 días consecutivos en miedo, con volatilidad y presión bajista generalizada.",
+    "Capitalización total -4.49% en 24 h, por debajo del umbral de -7% que justificaría pausa.",
+    "Sesgo hawkish de la Fed (posible subida en diciembre) y salidas de ETF: riesgo macro relevante pero no inmediato (no hay evento de alto impacto en 24 h).",
+    "El hackeo de Binance de octubre y los fallos de Ledger son noticias negativas pero no afectan directamente a las monedas operadas ni son riesgos inmediatos para ellas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-19T01:06:25+00:00",
-  "valido_hasta": "2026-11-19T04:06:25+00:00",
+  "generado": "2026-11-19T02:16:29+00:00",
+  "valido_hasta": "2026-11-19T05:16:29+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -4.46,
-    "noticias_analizadas": 43,
+    "cambio_mercado_24h": -4.49,
+    "noticias_analizadas": 39,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +61,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9597,
+    "input_tokens": 9458,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 566,
+    "output_tokens": 548,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
