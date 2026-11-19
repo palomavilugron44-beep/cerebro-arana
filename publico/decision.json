@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El miedo extremo (índice 10) y la caída semanal de alrededor del 8-15% en todas las monedas, con salidas de ETF de Bitcoin y presión por subidas de tipos de la Fed, justifican un modo de cautela general. No hay un evento grave e inmediato que obligue a pausar: el hackeo de Binance ya está en curso de recuperación y no afecta a la operativa de las monedas listadas. Las cifras de 24 h son planas o positivas, por lo que no hay caída brusca del mercado en curso.",
+  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo un 3.56% en 24 h y BTC cerca de 63.000 USD tras salidas récord de ETFs y expectativas de nuevas subidas de tipos de la Fed. No hay un evento macro de alto impacto en las próximas 24 h ni una caída brusca de -7% que justifique pausar, pero la incertidumbre es elevada. Por ello se recomienda cautela general (compras a la mitad de tamaño) y no una pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear) y sostenido durante la última semana, lo que indica incertidumbre elevada.",
-    "Bitcoin cayó alrededor de un 12-13% en 7 días y perdió el nivel de 64.000 USD; todas las monedas listadas tienen caídas semanales de entre -4% y -15%.",
-    "Salidas netas de ETF de Bitcoin (más de 2.500 M USD en el año) y expectativas de nuevas subidas de tipos por parte de la Fed, con riesgo para activos de riesgo.",
-    "El hackeo de Binance y la orden de congelación de 6.500 M USD son noticias negativas relevantes pero no afectan directamente a las monedas operadas; no justifican pausa.",
-    "No hay eventos macro de alto impacto en las próximas 24 h ni caída brusca del mercado en curso (capitalización -2,53% en 24 h), por lo que no procede pausa."
+    "Índice Miedo/Codicia en 10 (Extreme Fear), con valores bajos durante toda la semana.",
+    "Capitalización total -3.56% en 24 h y BTC -12% en 7 días, con salidas de ETFs de BTC de unos 306 M USD en un día y casi 2.9 B USD en noviembre.",
+    "Expectativas de nuevas subidas de tipos de la Fed, que suponen un riesgo para los activos de riesgo; sin embargo, no hay un dato macro de alto impacto en las próximas 24 h.",
+    "El hackeo de Binance es un hecho antiguo; Binance ya ha obtenido una orden de congelación de 6.5 B USD y ha repuesto los activos, por lo que no se considera un riesgo grave e inmediato.",
+    "Las noticias sobre ETFs, la IPO de Anthropic y otros titulares no implican una situación anómala de ninguna moneda concreta."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-19T14:53:18+00:00",
-  "valido_hasta": "2026-11-19T17:53:18+00:00",
+  "generado": "2026-11-19T15:57:50+00:00",
+  "valido_hasta": "2026-11-19T18:57:50+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -2.53,
-    "noticias_analizadas": 43,
+    "cambio_mercado_24h": -3.56,
+    "noticias_analizadas": 45,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -51,25 +51,25 @@
       "link": "https://www.coindesk.com/markets/2026/11/19/fed-s-push-for-more-rate-hikes-leans-on-backward-looking-data-as-gas-prices-slide-analysts-argue"
     },
     {
+      "titulo": "Anthropic IPO Tests Bitcoin ETFs as Blackrock Leads $306M Exit",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/bitcoin-etf/anthropic-ipo-tests-bitcoin-etfs-blackrock-leads-306m-exit/"
+    },
+    {
       "titulo": "Binance Wins $6.5B Freezing Order Over Hack That Can Be Served via the Blockchain",
       "fuente": "Decrypt",
       "link": "https://decrypt.co/383608/binance-wins-6-5b-freezing-order-over-hack-that-can-be-served-via-the-blockchain"
-    },
-    {
-      "titulo": "Bitcoin ETF assets fall to three-month low as 2026 net outflows top $2.5B",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/markets/bitcoin-etf-assets-three-month-low-78-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9681,
+    "input_tokens": 9665,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 644,
+    "output_tokens": 631,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
