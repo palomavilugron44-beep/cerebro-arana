@@ -1,25 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo un -4.04% en 24 h y BTC cerca de 63.000 USD tras retestar 62.000 USD, con salidas netas de los ETF de bitcoin. Tras el exploit de Binance (6.3 mil millones USD) y la incertidumbre por las subidas de tipos de la Fed, la volatilidad y el riesgo son elevados, pero no hay una caída brusca con liquidaciones ni un evento macro de alto impacto en las próximas horas, por lo que se opta por cautela global en lugar de pausa. Las monedas muestran caídas moderadas sin señales de anomalía, así que no se aplican restricciones adicionales por moneda.",
+  "resumen": "El mercado está en miedo extremo (índice 10, con mínimos sostenidos durante la última semana) y la capitalización total cae un 3.47% en 24 h, con BTC en torno a 63.800 USD tras perder por debajo de 63.000 y 62.000. Hay presión macro por posibles subidas de tipos de la Fed (minutas con apetito por subidas y expectativa de una subida en diciembre) y salidas de fondos ETF de Bitcoin, aunque no hay eventos de alto impacto en las próximas 24 h. El hackeo de Binance (6.300 M USD) es grave pero ya afectó días atrás y no es una amenaza inmediata para las monedas operadas, por lo que se opta por cautela y no por pausa.",
   "motivos": [
-    "Miedo extremo (índice 10) con tendencia de 7 días en niveles bajos.",
-    "Capitalización total -4.04% en 24 h y BTC cerca de 63.000 USD tras dos retestes de 62.000 USD.",
-    "Salidas netas de ETF de bitcoin (3 meses mínimo de activos, 2.5 mil millones USD de salidas en 2026).",
-    "Hackeo de Binance de 6.3 mil millones USD con noticias de congelación de fondos; riesgo reputacional, no una situación anómala de las monedas operadas.",
-    "Expectativas de nueva subida de tipos de la Fed en diciembre; sin evento macro de alto impacto en las próximas 24 h.",
-    "No hay señales de halt, depeg ni delist en las 10 monedas operadas."
+    "Índice Miedo/Codicia en 10 (Extreme Fear), con valores bajos durante toda la última semana.",
+    "Capitalización total -3.47% en 24 h y BTC cerca de 63.000 USD, con caídas de -13% en 7 días en la mayoría de monedas.",
+    "Expectativa de nueva subida de tipos de la Fed en diciembre según las minutas, lo que añade incertidumbre macro aunque no haya un evento de alto impacto en 24 h.",
+    "Salidas netas de fondos ETF de Bitcoin (306 M USD en un día; 2.5 mil M USD en el año).",
+    "El hackeo a Binance es grave, pero no hay señales de anomalía en los precios ni de halt, depeg o delist de las monedas operadas, por lo que no justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-19T09:00:35+00:00",
-  "valido_hasta": "2026-11-19T12:00:35+00:00",
+  "generado": "2026-11-19T10:02:23+00:00",
+  "valido_hasta": "2026-11-19T13:02:23+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -4.04,
-    "noticias_analizadas": 28,
+    "cambio_mercado_24h": -3.47,
+    "noticias_analizadas": 24,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -31,6 +30,11 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
+    {
+      "titulo": "Schiff Warns Fed Rate Hikes Will Trigger 2008-Style Crisis",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/finance/schiff-warns-fed-rate-hikes-will-trigger-2008-style-crisis/"
+    },
     {
       "titulo": "Fed officials saw October rate hold as a ‘close call,’ minutes show",
       "fuente": "Cointelegraph",
@@ -55,22 +59,17 @@
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Binance hackers stole 192 tokens across 11 networks, court docs show",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/binance-hackers-stole-192-tokens-across-11-networks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8127,
+    "input_tokens": 7661,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 658,
+    "output_tokens": 663,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
