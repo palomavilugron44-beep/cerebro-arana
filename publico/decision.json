@@ -1,29 +1,28 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo un 2.44% en 24 h y BTC cerca de 62-64k USD tras una caída de alrededor del 12% en 7 días. Los flujos hacia ETFs de BTC son negativos y crece la preocupación por nuevas subidas de tipos de la Fed, aunque no hay un evento macro de alto impacto confirmado en las próximas 24 h. No hay hackeo, depeg ni acción regulatoria grave que justifique pausar, por lo que se recomienda cautela (compras a mitad de tamaño) en lugar de pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo un 2.82% en 24 h y BTC cerca de 62-64k USD tras salidas netas de ETFs por unos 2.9 mil millones en noviembre. Hay expectativas de nuevas subidas de tipos de la Fed, aunque no hay un evento macro de alto impacto en las próximas 24 h ni una caída brusca de mercado con liquidaciones masivas. Se opta por cautela general, sin pausa ni alerta sobre posiciones, porque no hay un riesgo grave e inmediato.",
   "motivos": [
-    "Miedo extremo (índice 10) con caídas de 7 días de entre -5% y -17% en las monedas vigiladas.",
-    "Salidas netas de ETFs spot de BTC (-306 M USD el miércoles; -2.9 mil M en noviembre) y menor apetito por cripto.",
-    "Expectativas de nuevas subidas de tipos de la Fed generan incertidumbre, pero sin evento de alto impacto confirmado en 24 h.",
-    "El hackeo de Binance ya está siendo gestionado (orden de congelación de 6.5 mil M USD y reposición de activos con fondos propios), sin señal de riesgo grave inmediato.",
-    "No hay halts, depegs ni delistings en las monedas operadas; la estrategia mantiene su propio stop a 3 ATR."
+    "Índice Miedo/Codicia en 10 (Extreme Fear) y sostenido en miedo durante los últimos 7 días.",
+    "Capitalización total -2.82% en 24 h, con salidas netas de ETFs de BTC (unos 306 M USD el miércoles y cerca de 2.9 mil millones en noviembre) y expectativas de subidas de tipos de la Fed.",
+    "Ninguna moneda muestra una situación anómala (halt, depeg o delist) ni hay evento macro de alto impacto en las próximas 24 h.",
+    "El hackeo a Binance es un incidente ya en gestión (Binance reembolsó los activos robados); no se considera un riesgo grave para las monedas operadas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-19T17:54:56+00:00",
-  "valido_hasta": "2026-11-19T20:54:56+00:00",
+  "generado": "2026-11-19T18:58:05+00:00",
+  "valido_hasta": "2026-11-19T21:58:05+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -2.44,
-    "noticias_analizadas": 48,
+    "cambio_mercado_24h": -2.82,
+    "noticias_analizadas": 51,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
-      "Decrypt": 36,
+      "Decrypt": 37,
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
@@ -46,11 +45,6 @@
       "link": "https://decrypt.co/383597/bitcoin-struggles-to-hold-64000-as-etf-outflows-hit-2-9b-in-november"
     },
     {
-      "titulo": "Fed's rate hike push may be a mistake. Here's why",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/19/fed-s-push-for-more-rate-hikes-leans-on-backward-looking-data-as-gas-prices-slide-analysts-argue"
-    },
-    {
       "titulo": "Anthropic IPO Tests Bitcoin ETFs as Blackrock Leads $306M Exit",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/bitcoin-etf/anthropic-ipo-tests-bitcoin-etfs-blackrock-leads-306m-exit/"
@@ -59,17 +53,22 @@
       "titulo": "Binance Wins $6.5B Freezing Order Over Hack That Can Be Served via the Blockchain",
       "fuente": "Decrypt",
       "link": "https://decrypt.co/383608/binance-wins-6-5b-freezing-order-over-hack-that-can-be-served-via-the-blockchain"
+    },
+    {
+      "titulo": "Trump's Democratic SEC pick suggests tokenization policy deserves full rule process",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/policy/2026/11/19/trump-s-democratic-sec-pick-suggests-tokenization-policy-deserves-full-rule-process"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9545,
+    "input_tokens": 9529,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 619,
+    "output_tokens": 580,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
