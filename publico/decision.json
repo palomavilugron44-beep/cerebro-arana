@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo un -3.88% en 24 h y BTC en torno a 61.5k, un -13% en la semana, con salidas netas de ETFs y expectativas de subida de tipos de la Fed. Sin embargo, no hay una caída brusca superior al -7%, ni hackeo que afecte a las redes de las monedas operadas (el exploit de Binance afecta a un robo ya gestionado y no a la plataforma en sí), ni dato macro de alto impacto en las próximas 2-3 horas, por lo que no se justifica pausar. Se elige cautela global por la volatilidad y el miedo extremo.",
+  "resumen": "El mercado está en miedo extremo (índice 10, sostenido durante la última semana) y la capitalización total cae un 2.86% en 24 h, con BTC cerca de mínimos desde julio y las bolsas tecnológicas en caída de más del 2% el jueves. No hay evento macro de alto impacto en las próximas 24 h ni una caída brusca de -7%, y el hackeo de Binance es un incidente ya conocido que ha sido respondido con fondos propios y una orden de congelación, por lo que no justifica pausar. Se recomienda cautela general (mitad de tamaño) por la volatilidad y el miedo extremo, sin medidas específicas por moneda.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear) con tendencia sostenida a la baja durante la última semana.",
-    "Capitalización total -3.88% en 24 h, por debajo del umbral de -7% que exigiría pausa.",
-    "BTC -13% en 7 días con salidas de ETFs de ~2.9 mil millones de dólares en noviembre y expectativas de nueva subida de tipos de la Fed; incertidumbre macro elevada.",
-    "Hackeo de Binance del 29 de octubre: Binance ya ha repuesto los activos y consiguió una orden de congelación; no se detecta un riesgo activo que obligue a pausar.",
-    "Sin eventos macro de alto impacto en USD en las próximas 24 h; no hay anomalías (halt, depeg, delist) en las 10 monedas."
+    "Índice Miedo/Codicia en 10 (Extreme Fear) y sostenido en niveles de miedo extremo durante 7 días.",
+    "Capitalización total -2.86% en 24 h y BTC en mínimos desde julio; salidas de ETFs de BTC de unos 300 M$ en un día.",
+    "Caídas de más de 2% en Nasdaq, S&P 500 y DJIA el jueves, con riesgo de contagio macro por tasas (amenazas de subida de la Fed).",
+    "Hackeo de Binance (oct. 29) ya conocido; Binance ha repuesto los activos con fondos propios y obtuvo una orden de congelación de 6.5 B$, sin señal de riesgo sistémico inmediato.",
+    "Sin eventos económicos USD de alto impacto en las próximas 24 h; caída de mercado no alcanza el umbral de -7%."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-19T21:51:02+00:00",
-  "valido_hasta": "2026-11-20T00:51:02+00:00",
+  "generado": "2026-11-19T22:48:54+00:00",
+  "valido_hasta": "2026-11-20T01:48:54+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -3.88,
-    "noticias_analizadas": 56,
+    "cambio_mercado_24h": -2.86,
+    "noticias_analizadas": 52,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -36,9 +36,9 @@
       "link": "https://www.coindesk.com/markets/2026/11/19/bitcoin-holds-above-usd63-750-but-fed-rate-hike-threats-loom-large"
     },
     {
-      "titulo": "Bitcoin Struggles to Hold $64,000 as ETF Outflows Hit $2.9B in November",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/383597/bitcoin-struggles-to-hold-64000-as-etf-outflows-hit-2-9b-in-november"
+      "titulo": "Binance’s $6.5B freeze order, Hong Kong ‘suspicious’ of HYPE: Asia Express",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/magazine/binances-65b-freeze-order-hong-kong-suspicious-of-hype-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "titulo": "A New Recovery Model? Binance Wins $6.5B Freezing Order Across 26K Wallets",
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9559,
+    "input_tokens": 9416,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 649,
+    "output_tokens": 664,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
