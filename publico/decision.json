@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo un 4.49% en 24 h y BTC cerca de 62.8K, tras una caída de alrededor del 15% en 7 días. Hay presión hawkish de la Fed (posible subida en diciembre) y salidas de ETF, pero no hay un evento macro de alto impacto en las próximas 24 h ni una caída de -7% ni un hackeo que afecte directamente a las monedas operadas. Por ello se elige cautela global, sin pausa ni alerta sobre posiciones.",
+  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total -3.97% en 24 h y BTC cerca de 63.000 USD tras caídas por salidas de ETF y presión de tipos (Fed con sesgo a subir en diciembre). No hay evento macro de alto impacto en las próximas 24 h ni señales de caída de -7% o de problema de seguridad que justifique pausa. Se recomienda cautela general, con la mitad del tamaño en compras nuevas.",
   "motivos": [
-    "Miedo extremo (índice 10) y 7 días consecutivos en miedo, con volatilidad y presión bajista generalizada.",
-    "Capitalización total -4.49% en 24 h, por debajo del umbral de -7% que justificaría pausa.",
-    "Sesgo hawkish de la Fed (posible subida en diciembre) y salidas de ETF: riesgo macro relevante pero no inmediato (no hay evento de alto impacto en 24 h).",
-    "El hackeo de Binance de octubre y los fallos de Ledger son noticias negativas pero no afectan directamente a las monedas operadas ni son riesgos inmediatos para ellas."
+    "Miedo extremo (índice 10) sostenido durante 7 días y capitalización total -3.97% en 24 h",
+    "Presión bajista por salidas de ETF y declaraciones hawkish de la Fed (posible subida en diciembre, reunión 8-9 dic)",
+    "Todas las monedas caen entre -0.8% y -1.5% en 24 h y entre -8% y -18% en 7 días, con BTC cerca de soporte clave en 62.000",
+    "Noticias de hackeo de Binance (octubre) y manipulación de hardware wallets son relevantes pero no afectan directamente a las monedas operadas ni son riesgo grave inmediato",
+    "No hay evento macro de alto impacto en las próximas 24 h ni caída de mercado de -7% o peor"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-19T02:16:29+00:00",
-  "valido_hasta": "2026-11-19T05:16:29+00:00",
+  "generado": "2026-11-19T03:56:49+00:00",
+  "valido_hasta": "2026-11-19T06:56:49+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -4.49,
-    "noticias_analizadas": 39,
+    "cambio_mercado_24h": -3.97,
+    "noticias_analizadas": 36,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -61,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9458,
+    "input_tokens": 9142,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 548,
+    "output_tokens": 561,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
