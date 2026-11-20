@@ -1,25 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12, con valores de 10 a 13 durante 7 días) y la capitalización total cae un 4.06% en 24 h, con BTC cerca de 62.000 USD tras perder niveles de 64.000 y con retrocesos de hasta -16% en 7 días. No hay eventos macro de alto impacto en las próximas 24 h, y la noticia más grave (el hackeo de Binance de octubre) ya está en proceso de recuperación con una orden de congelación de 6.500 M$, por lo que no justifica una pausa. Se recomienda cautela global (mitad de tamaño) por la volatilidad y el miedo extremo, sin medidas específicas por moneda.",
+  "resumen": "El índice Miedo/Codicia está en 12 (miedo extremo) y la capitalización total cae un 4.35% en 24 h, con BTC cerca de 62.000 USD tras perder terreno y con señales técnicas bajistas (death cross). No hay eventos macro de alto impacto en 24 h y las noticias de hackeo de Binance son negativas pero no suponen un riesgo grave e inmediato para las monedas del bot. Dado el miedo extremo y la volatilidad, se recomienda cautela global, con un refuerzo para LTC por su debilidad relativa.",
   "motivos": [
-    "Índice Miedo/Codicia en 12 (Extreme Fear) de forma sostenida durante 7 días.",
-    "Capitalización total -4.06% en 24 h y BTC rompiendo soporte de 62.000 USD con señal de 'death cross' en el gráfico diario.",
-    "Caídas de 7 días entre -7% y -16% en todas las monedas vigiladas; LTC cae -4.66% en 24 h.",
-    "Salidas netas de ETF de bitcoin (306 M$ el miércoles) y presión de capital hacia la salida de Anthropic.",
-    "Sin eventos macro de alto impacto en 24 h; el hackeo de Binance está en fase de recuperación de activos, sin señal de riesgo inmediato sobre las monedas operadas.",
-    "No hay anomalías de moneda (halt, depeg, delist) que justifiquen pausa."
+    "Miedo extremo (índice 12) sostenido durante toda la última semana.",
+    "Caída de la capitalización total de -4.35% en 24 h y de la mayoría de monedas entre -13% y -17% en 7 días.",
+    "Sin eventos macro de alto impacto USD en las próximas 24 h, por lo que no hay motivo para pausa.",
+    "Hackeo de Binance (6.500 M$ en fondos congelados) y otras noticias negativas: relevantes pero no graves ni directamente vinculadas a las monedas operadas.",
+    "LTC muestra la peor evolución del grupo (-5.54% en 24 h, -17.3% en 7 días)."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-20T00:59:43+00:00",
-  "valido_hasta": "2026-11-20T03:59:43+00:00",
+  "generado": "2026-11-20T02:08:23+00:00",
+  "valido_hasta": "2026-11-20T05:08:23+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -4.06,
-    "noticias_analizadas": 41,
+    "cambio_mercado_24h": -4.35,
+    "noticias_analizadas": 36,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -63,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9445,
+    "input_tokens": 8990,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 671,
+    "output_tokens": 627,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
