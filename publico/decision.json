@@ -1,25 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12, sostenido una semana) tras una caída de la capitalización total de -4.39% en 24 h, con BTC por debajo de 62.000 USD, salidas récord de ETF de BTC y liquidaciones de unos 727 M USD. Aunque el riesgo es elevado, no hay una señal de pausa: no hay exploit confirmado en un exchange ni evento macro de alto impacto en las próximas 24 h, y la estrategia ya incluye su propio stop. Por ello se opta por cautela global, con un refuerzo para LTC y AVAX por su peor comportamiento semanal.",
+  "resumen": "El mercado está en miedo extremo (índice 12) tras una caída de la capitalización total del 6% en 24 h, con BTC por debajo de 62.000 USD, salidas récord de ETFs y liquidaciones de unos 727 M USD. Las noticias más graves (hackeo de ~600 M USD en ETH vinculado a Binance) afectan a fondos robados y no a un fallo de la red ni del exchange, y no hay eventos macro de alto impacto en 24 h. Por ello se recomienda cautela general (mitad de tamaño) sin pausar el bot.",
   "motivos": [
-    "Miedo extremo (índice 12) sostenido durante 7 días y codicia ausente en todo el período.",
-    "Caída de la capitalización total de -4.39% en 24 h y BTC en mínimos desde julio, con sell-off generalizado en las 10 monedas.",
-    "Salidas récord de ETF spot de BTC (582 M USD el jueves, IBIT con 541 M) y 727 M USD en liquidaciones, mayormente largos.",
-    "Incertidumbre macro: expectativas de subida de tipos de la Fed y caída de bolsas asiáticas, aunque sin evento de alto impacto en 24 h.",
-    "Hackeo de ~600 M USD en ETH de Binance que se mueve por puentes; es un riesgo reputacional, pero no afecta directamente a los precios operados ni a la liquidez del exchange según los datos disponibles.",
-    "LTC (-14.9% en 7 días) y AVAX (-17.05%) son las monedas con peor comportamiento semanal."
+    "Miedo extremo (índice 12, en esa zona durante toda la última semana) y caída de la capitalización total del -6% en 24 h.",
+    "Salidas récord de ETFs de bitcoin (IBIT con 541 M USD en un día) y 727 M USD en liquidaciones, la mayoría en largos.",
+    "Volatilidad elevada y caída generalizada: todas las monedas de la lista están en negativo en 24 h y en -8% a -19% en 7 días.",
+    "Hackeo de ~600 M USD en ETH vinculado a Binance: noticia negativa relevante, pero no afecta a la operativa del bot ni hay evidencia de fallo de red o exchange, por lo que no justifica pausa.",
+    "No hay eventos macro de alto impacto USD en las próximas 24 h, así que no se activa pausa por macro."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-20T11:56:39+00:00",
-  "valido_hasta": "2026-11-20T14:56:39+00:00",
+  "generado": "2026-11-20T13:06:18+00:00",
+  "valido_hasta": "2026-11-20T16:06:18+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -4.39,
-    "noticias_analizadas": 32,
+    "cambio_mercado_24h": -6.0,
+    "noticias_analizadas": 35,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -63,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8548,
+    "input_tokens": 8913,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 826,
+    "output_tokens": 613,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
