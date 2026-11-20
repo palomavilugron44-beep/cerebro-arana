@@ -1,24 +1,24 @@
 {
-  "modo": "cautela",
+  "modo": "pausa",
   "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza (capitalización -5.91% en 24 h) y el índice Miedo/Codicia está en 12 (miedo extremo), con salidas récord de ETFs de BTC y caídas generalizadas por la venta de tecnológicas tras el debut de Anthropic. Las subidas de tipos de la Fed y el dato de cambio de tendencia en BTC (cruce de la muerte) añaden incertidumbre, aunque no hay un evento macro de alto impacto en las próximas 24 h. No hay hackeo que afecte directamente a las monedas operadas ni una situación anómala de alguna moneda, por lo que se recomienda cautela general en lugar de pausa.",
+  "resumen": "El mercado cripto cae con fuerza (capitalización total -8.47% en 24 h) con miedo extremo (índice 12) y salidas récord de ETF de Bitcoin, tras una venta global de renta variable ligada al debut de Anthropic. Hay además un hackeo de Binance con unos 600 millones de dólares en ETH movidos por los atacantes, lo que constituye un riesgo de seguridad grave y de alcance amplio. Ante una caída brusca del mercado en curso con noticias de liquidaciones y un incidente de seguridad de un exchange, se decide pausar las compras nuevas.",
   "motivos": [
-    "Miedo extremo (índice 12) y capitalización total -5.91% en 24 h: volatilidad fuerte y caída del mercado en curso, pero sin liquidaciones masivas que superen el umbral de pausa.",
-    "Salidas récord de ETFs spot de BTC (IBIT -541 M$ en un día; -1.12 mil M$ en la semana) y rumores de subida de tipos de la Fed que presionan al mercado.",
-    "Todas las monedas operadas caen entre -3% y -6% en 24 h y entre -7% y -19% en 7 días, por lo que el riesgo es general y no de una moneda concreta.",
-    "Hackeo de Binance con fondos en ETH (~600 M$) es un incidente relevante, pero no se confirma un fallo de seguridad de la red de Ethereum ni de Binance que obligue a pausar; se mantiene cautela.",
-    "No hay eventos macro de alto impacto USD en las próximas 24 h, así que no se justifica pausa."
+    "Capitalización total cripto -8.47% en 24 h, con todas las monedas monitorizadas entre -6% y -8% en el día.",
+    "Índice Miedo/Codicia en 12 (miedo extremo), con valores entre 10 y 13 durante los últimos 7 días.",
+    "Salidas récord de ETF de Bitcoin (1.12 mil millones de dólares en tres sesiones) y 727 millones de dólares en liquidaciones en 24 h.",
+    "Hackeo de Binance: los atacantes han movido cerca de 600 millones de dólares en ETH a través de THORChain y Chainflip, riesgo de seguridad relevante para un exchange que opera el bot.",
+    "El BTC rompe niveles clave (cruz de la muerte) y cae a mínimos desde julio, lo que indica una caída del mercado en curso."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-20T14:21:58+00:00",
-  "valido_hasta": "2026-11-20T17:21:58+00:00",
+  "generado": "2026-11-20T15:56:03+00:00",
+  "valido_hasta": "2026-11-20T18:56:03+00:00",
   "origen": "claude:claude-haiku-5-5",
-  "multiplicador_riesgo": 0.5,
+  "multiplicador_riesgo": 0.0,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -5.91,
-    "noticias_analizadas": 40,
+    "cambio_mercado_24h": -8.47,
+    "noticias_analizadas": 42,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -46,30 +46,30 @@
       "link": "https://news.bitcoin.com/bitcoin-etf/blackrock-drives-899m-of-bitcoin-etfs-1-12b-outflows-this-week/"
     },
     {
-      "titulo": "SEC Charges 8 Entities in $37 Million Fake Crypto Platform Case",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/regulation-and-legal/sec-charges-8-entities-37-million-fake-crypto-platform-case/"
+      "titulo": "Senate Passes Bill Banning Prediction Market Bets on War, Terrorism and Death",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/383700/senate-passes-bill-banning-prediction-market-bets-on-war-terrorism-and-death"
     },
     {
-      "titulo": "Live news: Bitcoin hovers just above $61,000 as Anthropic slides after Nasdaq debut",
+      "titulo": "U.S. Senate passes bill to ban prediction market bets on war and death",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/policy/2026/11/20/u-s-senated-passes-bill-to-ban-prediction-market-best-on-war-and-death"
+    },
+    {
+      "titulo": "Live news: Bitcoin slips to fresh lows near $60,000 as Anthropic slides after Nasdaq debut",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/tech/2026/11/20/live-news-bitcoin-hovers-just-above-usd61-000-as-anthropic-slides-13-after-nasdaq-debut"
-    },
-    {
-      "titulo": "Binance hacker moves nearly $600M in ETH, routes funds through THORChain, Chainflip",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/binance-hacker-600m-eth-routes-thorchain-chainflip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9396,
+    "input_tokens": 9360,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 711,
+    "output_tokens": 626,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
