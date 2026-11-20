@@ -1,25 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12, sostenido toda la semana) y la capitalización total cae un -5.23% en 24 h, con BTC en mínimos de cuatro meses tras la IPO de Anthropic y tensión en tecnológicas. No hay evento macro de alto impacto en las próximas 24 h ni una anomalía de moneda o exchange que justifique pausar. Las noticias de hackeo de Binance son antiguas (29 oct) y se están gestionando legalmente, por lo que se mantiene cautela general y se refuerza para LTC y AVAX por su caída más pronunciada.",
+  "resumen": "El mercado está en miedo extremo (índice 12) tras una caída de la capitalización total del -5.33% en 24 h, con BTC en mínimos desde julio y salidas récord de ETFs de bitcoin. No hay eventos macro de alto impacto en 24 h ni un exploit o problema de seguridad que afecte directamente a las monedas operadas, por lo que no justifica pausar, pero sí conviene reducir el tamaño de las compras nuevas. Las posiciones existentes siguen protegidas por el stop de 3 ATR de la estrategia.",
   "motivos": [
-    "Índice Miedo/Codicia en 12 (Extreme Fear) con valores de 10-13 durante los últimos 7 días.",
-    "Capitalización total -5.23% en 24 h, con todas las monedas en negativo; caída relevante pero por debajo del umbral de -7% para pausa.",
-    "Sin eventos macro de alto impacto USD en las próximas 24 h.",
-    "Hack de Binance del 29 de octubre ya en fase de recuperación legal (orden de congelación de 6.5B); no es un riesgo nuevo y grave para el bot.",
-    "LTC (-13.8% en 7 d) y AVAX (-14.55% en 7 d) presentan la debilidad más marcada; se aplica cautela adicional.",
-    "Noticias de SEC y Hong Kong sobre plataformas fraudulentas no afectan directamente a las monedas operadas."
+    "Miedo extremo (índice 12, rachas de 10-13 durante 7 días) y caída de capitalización total de -5.33% en 24 h.",
+    "BTC en su nivel más bajo desde julio (~61.300 USD) y salidas récord de IBIT (541 M USD) con liquidaciones de longs de más de 175 M USD en 4 horas.",
+    "Caídas generalizadas de todas las monedas operadas en 24 h (entre -2.4% y -6.5%) y de 5% a 16% en 7 días, lo que indica volatilidad y tendencia bajista.",
+    "Sin eventos macro de alto impacto en 24 h; el ataque a Binance y las noticias regulatorias (SEC, Hong Kong sobre Hyperliquid) no afectan directamente a las monedas operadas.",
+    "No hay indicios de anomalía en las monedas operadas (sin halt, depeg ni delist), por lo que no procede la pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-20T07:13:10+00:00",
-  "valido_hasta": "2026-11-20T10:13:10+00:00",
+  "generado": "2026-11-20T08:59:54+00:00",
+  "valido_hasta": "2026-11-20T11:59:54+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -5.23,
-    "noticias_analizadas": 29,
+    "cambio_mercado_24h": -5.33,
+    "noticias_analizadas": 27,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -31,6 +30,11 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
+    {
+      "titulo": "Bitcoin Price Sinks to $61,300, Its Lowest Level since July as Asian Stocks Crash",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-lowest-since-july-asian-stocks-crash-kospi/"
+    },
     {
       "titulo": "SEC Charges 8 Entities in $37 Million Fake Crypto Platform Case",
       "fuente": "Bitcoin.com",
@@ -47,30 +51,25 @@
       "link": "https://news.bitcoin.com/regulation-and-legal/new-recovery-model-binance-wins-6-5b-freeze-26k-wallets/"
     },
     {
+      "titulo": "Wrapped Monero token plunges 99% as issuer-linked wallet sells $13.5 million",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/20/wrapped-monero-token-plunges-99-as-issuer-linked-wallet-sells-usd13-5-million"
+    },
+    {
       "titulo": "VanEck drops Gemini as custodian of its bitcoin, ether and SOL ETFs",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/20/vaneck-drops-gemini-as-custodian-of-its-bitcoin-ether-and-sol-etfs"
-    },
-    {
-      "titulo": "Institutions pile back into US Bitcoin ETFs in Q3 after selling streak",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/markets/institutional-bitcoin-etf-holdings-clock-record-quarter-after-selling-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8082,
+    "input_tokens": 7934,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 762,
+    "output_tokens": 645,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
