@@ -1,25 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12, sostenido una semana) tras una caída de la capitalización total de -4.4% en 24 h, con BTC cerca de 61.300-61.800 USD, su nivel más bajo desde julio, y salidas récord de ETF de BTC. No hay eventos macro de alto impacto en 24 h ni un hackeo o problema regulatorio grave que afecte a una moneda concreta; la caída es brusca pero no supera el umbral de -7% total. Se recomienda cautela general por volatilidad y miedo extremo, con cautela adicional en LTC por su peor comportamiento.",
+  "resumen": "El mercado está en miedo extremo (índice 12, mínimo de la semana) tras una caída de la capitalización total del -4.11% en 24 h, con BTC en mínimos desde julio y salidas récord de ETF de BTC (IBIT). No hay una caída de -7% ni un evento macro de alto impacto en las próximas 24 h, y las noticias de seguridad o regulación no son graves para las monedas operadas, así que no procede pausa. Se recomienda cautela general por volatilidad y miedo extremo, con refuerzo sobre LTC por su peor comportamiento.",
   "motivos": [
     "Índice Miedo/Codicia en 12 (Extreme Fear) y sostenido entre 10 y 13 durante 7 días.",
-    "Capitalización total -4.4% en 24 h y BTC en mínimos desde julio tras liquidaciones de largos por más de 175 M USD.",
-    "Salidas récord de ETF spot de BTC (IBIT -541 M USD el jueves) con ventas institucionales de nuevo en el trimestre.",
-    "LTC cae -7.05% en 24 h y -14.57% en 7 d, el peor comportamiento de las monedas vigiladas.",
-    "No hay eventos macro USD de alto impacto en 24 h; las noticias de hackeo (Binance) y SEC no afectan directamente a las monedas operadas con gravedad inmediata.",
-    "Riesgo grave o anómalo de moneda (halt, depeg, delist) no detectado."
+    "Capitalización total -4.11% en 24 h y BTC en mínimos desde julio tras liquidaciones de longs de más de 175 M USD.",
+    "Salidas récord de ETF spot de BTC (582 M USD netos el jueves, IBIT 541 M USD), señal de presión vendedora institucional.",
+    "LTC con -6.69% en 24 h y -14.94% en 7 días, la moneda más débil del grupo en el corto plazo.",
+    "Noticias de seguridad y regulación (cargos de la SEC por fraude de 37 M USD, token envuelto de Monero) no afectan directamente a las monedas operadas ni son graves.",
+    "Sin eventos macro USD de alto impacto en las próximas 24 h."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-20T09:59:26+00:00",
-  "valido_hasta": "2026-11-20T12:59:26+00:00",
+  "generado": "2026-11-20T10:59:21+00:00",
+  "valido_hasta": "2026-11-20T13:59:21+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -4.4,
-    "noticias_analizadas": 26,
+    "cambio_mercado_24h": -4.11,
+    "noticias_analizadas": 29,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -42,11 +42,6 @@
       "link": "https://news.bitcoin.com/regulation-and-legal/sec-charges-8-entities-37-million-fake-crypto-platform-case/"
     },
     {
-      "titulo": "Binance’s $6.5B freeze order, Hong Kong ‘suspicious’ of HYPE: Asia Express",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/magazine/binances-65b-freeze-order-hong-kong-suspicious-of-hype-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
       "titulo": "Wrapped Monero token plunges 99% as issuer-linked wallet sells $13.5 million",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/20/wrapped-monero-token-plunges-99-as-issuer-linked-wallet-sells-usd13-5-million"
@@ -60,17 +55,22 @@
       "titulo": "Institutions pile back into US Bitcoin ETFs in Q3 after selling streak",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/markets/institutional-bitcoin-etf-holdings-clock-record-quarter-after-selling-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "VanEck to end Gemini ETF custody deals, keeps Coinbase",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/vaneck-gemini-etf-custody-end-keep-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7838,
+    "input_tokens": 8185,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 711,
+    "output_tokens": 696,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
