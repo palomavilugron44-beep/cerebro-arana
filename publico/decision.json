@@ -1,35 +1,39 @@
 {
   "modo": "pausa",
   "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza (capitalización total -8.47% en 24 h) con miedo extremo (índice 12) y salidas récord de ETF de Bitcoin, tras una venta global de renta variable ligada al debut de Anthropic. Hay además un hackeo de Binance con unos 600 millones de dólares en ETH movidos por los atacantes, lo que constituye un riesgo de seguridad grave y de alcance amplio. Ante una caída brusca del mercado en curso con noticias de liquidaciones y un incidente de seguridad de un exchange, se decide pausar las compras nuevas.",
+  "resumen": "El mercado cripto cae con fuerza: la capitalización total baja un 7.93% en 24 h, BTC perfora los 60.000 USD y el índice Miedo/Codicia está en 12 (miedo extremo) tras una semana de ventas sostenidas. Hay además un hackeo de Binance con unos 600 M USD en ETH en movimiento y salidas récord de ETFs de BTC. Dado que la caída de capitalización supera el umbral de -7% en 24 h con liquidaciones, decido pausar las compras nuevas para todas las monedas.",
   "motivos": [
-    "Capitalización total cripto -8.47% en 24 h, con todas las monedas monitorizadas entre -6% y -8% en el día.",
-    "Índice Miedo/Codicia en 12 (miedo extremo), con valores entre 10 y 13 durante los últimos 7 días.",
-    "Salidas récord de ETF de Bitcoin (1.12 mil millones de dólares en tres sesiones) y 727 millones de dólares en liquidaciones en 24 h.",
-    "Hackeo de Binance: los atacantes han movido cerca de 600 millones de dólares en ETH a través de THORChain y Chainflip, riesgo de seguridad relevante para un exchange que opera el bot.",
-    "El BTC rompe niveles clave (cruz de la muerte) y cae a mínimos desde julio, lo que indica una caída del mercado en curso."
+    "Capitalización total cripto -7.93% en 24 h, con liquidaciones de largos por más de 700 M USD (criterio de caída brusca).",
+    "Hackeo a Binance con unos 600 M USD en ETH movidos por los atacantes: riesgo de seguridad de un exchange grave.",
+    "Miedo extremo (índice 12), con salidas récord de ETFs de BTC (1.12 B USD en tres sesiones) y BTC por debajo de 60.000 USD.",
+    "Todas las monedas vigiladas caen entre -5% y -8% en 24 h, por lo que la pausa aplica a todo el universo."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-20T15:56:03+00:00",
-  "valido_hasta": "2026-11-20T18:56:03+00:00",
+  "generado": "2026-11-20T16:57:34+00:00",
+  "valido_hasta": "2026-11-20T19:57:34+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.0,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -8.47,
-    "noticias_analizadas": 42,
+    "cambio_mercado_24h": -7.93,
+    "noticias_analizadas": 47,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
-      "Decrypt": 36,
+      "Decrypt": 37,
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
     "eventos_usd_24h": 0
   },
   "titulares": [
+    {
+      "titulo": "As traditional giants rush into digital dollars, USDD’s Yvonne Chia explains why 24/7 access, self-custody, and transparent yield give decentralized stablecoins an edge banks can’t replicate. 20 November – Road Town, Totorla, British Virgin Islands – Decentralized stablecoin protocol USDD is accelerating its multichain utility across TRON, Ethereum, and BNB Chain—combining automated sUSDD yield via its Smart Allocator with GasFree zero-TRX transfers—as traditional financial giants race to build competing stablecoin rails. In a recent industry interview with instant exchange partner ChangeNOW, USDD Head of Communications Yvonne Chia outlined why self-custody, 24/7 settlement, and transparent onchain reserves give decentralized digital dollars a structural advantage over bank-issued alternatives. 1. Permissionless Access vs. Gatekept Accounts For billions of people globally, opening and maintaining a traditional bank account still involves paperwork, minimum balance requirements, geographic restrictions, and approval delays. Even when banks integrate stablecoin rails behind the scenes, those services remain gated behind legacy compliance walls and intermediary control. Crypto-native stablecoins flip that model on its head. As Yvonne Chia highlighted during the interview: “Compare this to a stablecoin like USDD, where all you need is a phone, a working internet connection, you can immediately start a wallet and you have access to your funds right away.” With USDD, users can access and manage their digital dollars directly through their own wallets, without depending on traditional financial intermediaries. This represents a fundamental shift in financial access: users are no longer limited to the services, operating hours, or account structures of a single institution. Instead, they have the freedom to hold, manage, and transfer their assets on their own terms. Self-custody also gives users greater autonomy over their financial decisions. They can choose which wallets to use, where to transfer their assets, and which supported decentralized applications to interact with, without needing to route every transaction through a centralized financial institution. With USDD, users’ digital dollars can move with them across an open blockchain ecosystem, rather than remaining tied to a particular bank or service provider. 2. 24/7 Global Settlement vs. “Banking Hours” Legacy payment networks still operate on decades-old schedules: weekend cutoffs, bank holidays, and multi-day cross-border settlement delays accompanied by hefty wire fees. Blockchain networks never close. Whether it is a Sunday night or a public holiday, USDD moves globally without depending on traditional banking operating hours or settlement windows. “We are able to have transfers 24/7 and we’re not limited to any traditional banking hours. So I think that in some ways, stablecoins are not just becoming banks, but exceeding what traditional banks can offer to users.” To make everyday transfers even smoother than fintech apps, USDD introduced GasFree integration on TRON, allowing users on supported wallets to pay network fees directly in USDD without needing to hold TRX. This removes another practical barrier to stablecoin adoption: having to acquire and maintain a separate gas token just to transfer digital dollars. With GasFree, eligible users can pay approximately 0.5 USDD per transaction, compared with around 1.5 USDT for a standard USDT transfer under the referenced fee conditions. These improvements matter because the usefulness of a stablecoin is not determined by its peg alone. Low-cost transfers, straightforward wallet experiences, and around-the-clock availability are what make digital dollars practical for everyday payments and global value transfers. 3. Passing Yield Back to Users vs. Bank Spreads Perhaps the sharpest contrast between banks and decentralized stablecoins lies in how yield is distributed. In traditional banking, institutions take customer deposits, deploy them into yield-generating markets, and retain a significant portion of the returns. Everyday depositors may receive relatively low interest rates, while higher-yielding products often come with eligibility requirements, minimum deposits, or fixed maturity periods. Stablecoins introduce another way to participate in digital-dollar opportunities. Rather than keeping capital entirely within a traditional deposit account, users can access onchain yield opportunities through decentralized protocols and transparent investment mechanisms. USDD was built to return that value directly to holders. Through USDD Earn, users can deposit USDD to receive sUSDD, earning automated, competitive yield powered by our Smart Allocator system, with no fixed lock-up periods restricting access to their capital. For users, the distinction is important: USDD Earn provides access to a productive stablecoin while maintaining flexibility, rather than requiring users to commit their capital to a conventional fixed-term product. 4. Onchain Verification vs. Institutional Trust Traditional banks ask customers to trust closed-door balance sheets and periodic regulatory filings—until a crisis proves otherwise. USDD takes a different approach through its “Don’t trust, verify” ethos, emphasizing publicly accessible onchain information and independent verification. Onchain Transparency: Smart contract addresses, collateral reserves, and Smart Allocator deployments are publicly viewable, allowing users to examine relevant information directly on the blockchain. Structured Disclosures: Quarterly Treasury Reports provide additional information about reserve positions, financial performance, and operational developments. Independent Security Reviews: USDD undergoes third-party security audits to assess its smart contracts and identify potential vulnerabilities. Transparency does not eliminate financial or technical risks, but it changes how users can evaluate them. Instead of relying exclusively on an institution’s assurances, users have access to information that can be independently examined and verified. 5. Beyond a Single Network: An Open, Multichain Financial Ecosystem Financial freedom is not just about holding digital dollars. It is also about being able to use them wherever opportunities and applications exist. A stablecoin confined to a single network or limited use case cannot fully realize the potential of open blockchain finance. Following its January 2025 protocol upgrade, USDD expanded natively from TRON onto Ethereum and BNB Chain, extending its reach across multiple blockchain ecosystems. This multichain presence allows USDD to connect with different communities, liquidity environments, and decentralized applications. Its sUSDD product has also expanded into DeFi integrations, including Pendle and Morpho, giving users additional ways to access yield strategies across supported ecosystems. The bigger picture is an interconnected financial ecosystem in which users can move between holding, transferring, exchanging, and deploying their stablecoins according to their own needs. These are not isolated functions. Together, they make stablecoins more useful as everyday financial infrastructure. The Future: Interconnected, Open, and Multichain Banks will undoubtedly continue using stablecoin rails to modernize their back-end settlement. However, true financial freedom comes from open networks where assets flow freely across protocols without intermediaries. For USDD, the opportunity goes beyond offering a dollar-pegged asset. It is about making digital dollars accessible, transferable, and productive across an interconnected financial ecosystem. From self-custody and 24/7 transfers to flexible yield opportunities and multichain DeFi access, these capabilities give users more ways to put their money to work. Banks may be bringing stablecoins into traditional finance. Crypto-native protocols are showing what stablecoins can make possible beyond it.",
+      "fuente": "NewsBTC",
+      "link": "https://www.newsbtc.com/news/as-traditional-giants-rush-into-digital-dollars-usdds-yvonne-chia-explains-why-24-7-access-self-custody-and-transparent-yield-give-decentralized-stablecoins-an-edge-banks-cant-rep/"
+    },
     {
       "titulo": "Bitcoin ETFs Shed $582M in a Day as BTC Drops Below $62K",
       "fuente": "Decrypt",
@@ -41,35 +45,30 @@
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-lowest-since-july-asian-stocks-crash-kospi/"
     },
     {
+      "titulo": "US Senate advances prediction market restrictions with DEATH BETS Act",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/us-senate-advances-prediction-market-restrictions-with-death-bets-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "titulo": "Blackrock Drives $899M of Bitcoin ETFs’ $1.12B Outflows This Week",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/bitcoin-etf/blackrock-drives-899m-of-bitcoin-etfs-1-12b-outflows-this-week/"
     },
     {
-      "titulo": "Senate Passes Bill Banning Prediction Market Bets on War, Terrorism and Death",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/383700/senate-passes-bill-banning-prediction-market-bets-on-war-terrorism-and-death"
-    },
-    {
-      "titulo": "U.S. Senate passes bill to ban prediction market bets on war and death",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/policy/2026/11/20/u-s-senated-passes-bill-to-ban-prediction-market-best-on-war-and-death"
-    },
-    {
-      "titulo": "Live news: Bitcoin slips to fresh lows near $60,000 as Anthropic slides after Nasdaq debut",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/tech/2026/11/20/live-news-bitcoin-hovers-just-above-usd61-000-as-anthropic-slides-13-after-nasdaq-debut"
+      "titulo": "SEC charges 8 firms over fake crypto platforms tied to $37M fraud",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/sec-charges-eight-fake-crypto-platforms-37m-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9360,
+    "input_tokens": 11929,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 626,
+    "output_tokens": 537,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
