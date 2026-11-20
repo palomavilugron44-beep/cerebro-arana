@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12, sostenido toda la semana) con la capitalización total cayendo -3.53% en 24 h y BTC en un mínimo de cuatro meses cerca de 62.000 USD tras salidas de ETF. No hay evento macro de alto impacto en las próximas 24 h ni una caída de -7% o peor, ni hackeo o noticia regulatoria grave contra una moneda concreta, por lo que no procede pausa. Se recomienda cautela general por la volatilidad y el sentimiento negativo, sin medidas específicas por moneda.",
+  "resumen": "El mercado está en miedo extremo (índice 12, racha de 7 días por debajo de 15) con la capitalización total cayendo un 5.13% en 24 h y BTC en mínimos de cuatro meses tras la OPV de Anthropic y la presión sobre las tecnológicas. No hay eventos macro de alto impacto en las próximas 24 h ni una caída de -7% o peor, y los titulares de Binance (orden de congelación de 6.5 mil millones) son de recuperación de fondos robados, no un riesgo directo para las monedas operadas. Se elige cautela global por volatilidad y miedo extremo, sin pausa ni alerta sobre posiciones.",
   "motivos": [
-    "Índice Miedo/Codicia en 12 (Extreme Fear) y en miedo extremo durante los últimos 7 días",
-    "Capitalización total -3.53% en 24 h y BTC en mínimo de cuatro meses tras salidas netas de ETF de bitcoin",
-    "Todas las monedas de la lista en caídas diarias y semanales (-7% a -18% en 7 d), sin una anomalía específica de una sola moneda",
-    "El hackeo de Binance del 29 de octubre y la orden de congelación son asuntos de recuperación de activos ya conocidos, no un riesgo nuevo para las monedas operadas",
-    "No hay eventos económicos USD de alto impacto en 24 h, así que no se justifica pausa"
+    "Índice Miedo/Codicia en 12 (Extreme Fear), con valores entre 10 y 13 durante los últimos 7 días.",
+    "Capitalización total -5.13% en 24 h y todas las monedas operadas en caída de entre -1.5% y -7% en 24 h.",
+    "BTC en mínimos de cuatro meses tras la OPV de Anthropic y caída de tecnológicas; el bot debe reducir tamaño en lugar de frenar por completo.",
+    "Sin eventos económicos USD de alto impacto en las próximas 24 h, por lo que no se activa pausa macro.",
+    "La caída no alcanza el umbral de -7% en 24 h, y los titulares de Binance y hackeos son recuperaciones o casos judiciales sin impacto directo en las monedas operadas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-20T03:53:25+00:00",
-  "valido_hasta": "2026-11-20T06:53:25+00:00",
+  "generado": "2026-11-20T04:58:57+00:00",
+  "valido_hasta": "2026-11-20T07:58:57+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -3.53,
-    "noticias_analizadas": 36,
+    "cambio_mercado_24h": -5.13,
+    "noticias_analizadas": 31,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -41,9 +41,9 @@
       "link": "https://news.bitcoin.com/regulation-and-legal/new-recovery-model-binance-wins-6-5b-freeze-26k-wallets/"
     },
     {
-      "titulo": "Anthropic IPO Tests Bitcoin ETFs as Blackrock Leads $306M Exit",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/bitcoin-etf/anthropic-ipo-tests-bitcoin-etfs-blackrock-leads-306m-exit/"
+      "titulo": "VanEck drops Gemini as custodian of its bitcoin, ether and SOL ETFs",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/20/vaneck-drops-gemini-as-custodian-of-its-bitcoin-ether-and-sol-etfs"
     },
     {
       "titulo": "Institutions pile back into US Bitcoin ETFs in Q3 after selling streak",
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9076,
+    "input_tokens": 8330,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 581,
+    "output_tokens": 635,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
