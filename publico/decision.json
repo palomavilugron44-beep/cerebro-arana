@@ -1,25 +1,24 @@
 {
-  "modo": "pausa",
+  "modo": "cautela",
   "monedas": {},
-  "resumen": "La capitalización total cripto cae un 7.75% en 24 h, con BTC perforando los 58.000 USD (mínimo desde 2024), más de 1.500 M$ en liquidaciones y miedo extremo (índice 12). Además, la caída coincide con un entorno macro adverso (subidas de tipos de la Fed en el horizonte y salidas récord de ETFs de BTC), lo que cumple el criterio de caída brusca del mercado en curso con noticias de liquidaciones. Por ello se pausan las compras nuevas en general; el exploit de XMR1 es un token envuelto ajeno a las monedas operadas y no afecta directamente al universo del bot.",
+  "resumen": "El mercado cripto está en pánico extremo (índice Miedo/Codicia 12) tras una caída de la capitalización total de -6.64% en 24 h, con BTC perdiendo el nivel de 60K y acercándose a 58K, y ETH, BNB y DOGE cayendo entre -6% y -8%. Hay liquidaciones masivas y salidas de ETFs, pero no hay un evento macro de alto impacto en las próximas 24 h ni un riesgo de seguridad sobre las monedas que opera el bot. Por ello se elige cautela global (mitad del tamaño en compras nuevas) en lugar de pausa, sin alerta sobre posiciones.",
   "motivos": [
-    "Capitalización total cripto -7.75% en 24 h, cumpliendo el umbral de caída brusca (-7% o peor) con noticias de liquidaciones (más de 1.500 M$ según Bitcoin.com/CoinDesk).",
-    "BTC perfora los 58.000 USD, nivel más bajo desde 2024, con cruz de la muerte y salidas récord de ETFs (IBIT con 541 M$ en un día).",
-    "Todas las monedas operadas caen entre -3.7% y -6.9% en 24 h y entre -13.5% y -23.5% en 7 días; ninguna se diferencia en riesgo del conjunto.",
-    "Índice Miedo/Codicia en 12 (Extreme Fear), mínimo sostenido en la última semana.",
-    "Incertidumbre macro: se menciona posible subida de tipos de la Fed y caída de bolsas tecnológicas; sin datos oficiales de fecha de evento en las próximas 2-3 h.",
-    "El exploit de XMR1 y el caso de Binance/ETH no afectan directamente a las monedas del universo del bot."
+    "Miedo extremo (12) y caída de la capitalización total de -6.64% en 24 h: incertidumbre elevada que justifica cautela.",
+    "BTC por debajo de 60K, mínimos desde 2024, con más de 700M en liquidaciones y salidas récord de ETFs de bitcoin.",
+    "Ninguna de las 10 monedas operadas tiene un problema de seguridad, halt, depeg ni delist; el exploit de XMR1 no afecta a la lista del bot.",
+    "No hay eventos macro de alto impacto USD confirmados en las próximas 24 h, así que no se justifica pausa total.",
+    "La caída es fuerte pero no ha alcanzado el umbral de -7% en capitalización total, por lo que no se pausa el bot."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-20T21:47:54+00:00",
-  "valido_hasta": "2026-11-21T00:47:54+00:00",
+  "generado": "2026-11-20T22:46:18+00:00",
+  "valido_hasta": "2026-11-21T01:46:18+00:00",
   "origen": "claude:claude-haiku-5-5",
-  "multiplicador_riesgo": 0.0,
+  "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -7.75,
-    "noticias_analizadas": 47,
+    "cambio_mercado_24h": -6.64,
+    "noticias_analizadas": 44,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -52,25 +51,25 @@
       "link": "https://cointelegraph.com/news/us-senate-advances-prediction-market-restrictions-with-death-bets-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "titulo": "Strategy, Coinbase Shares Battered as Bitcoin Price Hits 2-Year Low and AI Stocks Bleed",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/strategy-coinbase-shares-battered-bitcoin-price-2-year-low-ai-stocks-bleed/"
+    },
+    {
       "titulo": "Wrapped Monero Token XMR1 Crashes After $13M Exploit, Founder Vows Repayment",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/security/wrapped-monero-token-xmr1-crashes-13m-exploit-founder-vows-repayment/"
-    },
-    {
-      "titulo": "Wrapped Monero token crashes 99.8% amid suspected $13.5M exploit",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/wrapped-monero-token-crashes-998-amid-suspected-135m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9470,
+    "input_tokens": 9430,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 738,
+    "output_tokens": 660,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
