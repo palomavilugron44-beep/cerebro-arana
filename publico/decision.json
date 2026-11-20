@@ -1,29 +1,29 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12) tras una caída de la capitalización total del 6% en 24 h, con BTC por debajo de 62.000 USD, salidas récord de ETFs y liquidaciones de unos 727 M USD. Las noticias más graves (hackeo de ~600 M USD en ETH vinculado a Binance) afectan a fondos robados y no a un fallo de la red ni del exchange, y no hay eventos macro de alto impacto en 24 h. Por ello se recomienda cautela general (mitad de tamaño) sin pausar el bot.",
+  "resumen": "El mercado cripto cae con fuerza (capitalización -5.91% en 24 h) y el índice Miedo/Codicia está en 12 (miedo extremo), con salidas récord de ETFs de BTC y caídas generalizadas por la venta de tecnológicas tras el debut de Anthropic. Las subidas de tipos de la Fed y el dato de cambio de tendencia en BTC (cruce de la muerte) añaden incertidumbre, aunque no hay un evento macro de alto impacto en las próximas 24 h. No hay hackeo que afecte directamente a las monedas operadas ni una situación anómala de alguna moneda, por lo que se recomienda cautela general en lugar de pausa.",
   "motivos": [
-    "Miedo extremo (índice 12, en esa zona durante toda la última semana) y caída de la capitalización total del -6% en 24 h.",
-    "Salidas récord de ETFs de bitcoin (IBIT con 541 M USD en un día) y 727 M USD en liquidaciones, la mayoría en largos.",
-    "Volatilidad elevada y caída generalizada: todas las monedas de la lista están en negativo en 24 h y en -8% a -19% en 7 días.",
-    "Hackeo de ~600 M USD en ETH vinculado a Binance: noticia negativa relevante, pero no afecta a la operativa del bot ni hay evidencia de fallo de red o exchange, por lo que no justifica pausa.",
-    "No hay eventos macro de alto impacto USD en las próximas 24 h, así que no se activa pausa por macro."
+    "Miedo extremo (índice 12) y capitalización total -5.91% en 24 h: volatilidad fuerte y caída del mercado en curso, pero sin liquidaciones masivas que superen el umbral de pausa.",
+    "Salidas récord de ETFs spot de BTC (IBIT -541 M$ en un día; -1.12 mil M$ en la semana) y rumores de subida de tipos de la Fed que presionan al mercado.",
+    "Todas las monedas operadas caen entre -3% y -6% en 24 h y entre -7% y -19% en 7 días, por lo que el riesgo es general y no de una moneda concreta.",
+    "Hackeo de Binance con fondos en ETH (~600 M$) es un incidente relevante, pero no se confirma un fallo de seguridad de la red de Ethereum ni de Binance que obligue a pausar; se mantiene cautela.",
+    "No hay eventos macro de alto impacto USD en las próximas 24 h, así que no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-20T13:06:18+00:00",
-  "valido_hasta": "2026-11-20T16:06:18+00:00",
+  "generado": "2026-11-20T14:21:58+00:00",
+  "valido_hasta": "2026-11-20T17:21:58+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -6.0,
-    "noticias_analizadas": 35,
+    "cambio_mercado_24h": -5.91,
+    "noticias_analizadas": 40,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
-      "Decrypt": 37,
+      "Decrypt": 36,
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
@@ -41,35 +41,35 @@
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-lowest-since-july-asian-stocks-crash-kospi/"
     },
     {
+      "titulo": "Blackrock Drives $899M of Bitcoin ETFs’ $1.12B Outflows This Week",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/bitcoin-etf/blackrock-drives-899m-of-bitcoin-etfs-1-12b-outflows-this-week/"
+    },
+    {
       "titulo": "SEC Charges 8 Entities in $37 Million Fake Crypto Platform Case",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/regulation-and-legal/sec-charges-8-entities-37-million-fake-crypto-platform-case/"
     },
     {
+      "titulo": "Live news: Bitcoin hovers just above $61,000 as Anthropic slides after Nasdaq debut",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/tech/2026/11/20/live-news-bitcoin-hovers-just-above-usd61-000-as-anthropic-slides-13-after-nasdaq-debut"
+    },
+    {
       "titulo": "Binance hacker moves nearly $600M in ETH, routes funds through THORChain, Chainflip",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/binance-hacker-600m-eth-routes-thorchain-chainflip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Senate Outlaws Betting on Death and War in Bipartisan Vote",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/regulation-and-legal/senate-outlaws-betting-on-death-and-war-in-bipartisan-vote/"
-    },
-    {
-      "titulo": "Wrapped Monero token plunges 99% as issuer-linked wallet sells $13.5 million",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/20/wrapped-monero-token-plunges-99-as-issuer-linked-wallet-sells-usd13-5-million"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8913,
+    "input_tokens": 9396,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 613,
+    "output_tokens": 711,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
