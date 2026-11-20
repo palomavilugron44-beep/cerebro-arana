@@ -1,24 +1,24 @@
 {
   "modo": "pausa",
   "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza: la capitalización total baja un 8.45% en 24 h, el miedo/codicia está en 12 (miedo extremo) y BTC perfora los 58.000 USD, su nivel más bajo desde 2024, con 1.500 M$ en liquidaciones. Además hay un drenaje de ETFs de BTC (más de 1.100 M$ en la semana) y un fuerte sell-off en bolsa tecnológica, sin eventos macro de alto impacto en 24 h. Se elige pausa general porque la caída brusca en curso con liquidaciones cumple el criterio de riesgo grave; las compras nuevas se reanudan cuando el mercado se estabilice.",
+  "resumen": "La capitalización total cripto cae un 7.75% en 24 h, con BTC perforando los 58.000 USD (mínimo desde 2024), más de 1.500 M$ en liquidaciones y miedo extremo (índice 12). Además, la caída coincide con un entorno macro adverso (subidas de tipos de la Fed en el horizonte y salidas récord de ETFs de BTC), lo que cumple el criterio de caída brusca del mercado en curso con noticias de liquidaciones. Por ello se pausan las compras nuevas en general; el exploit de XMR1 es un token envuelto ajeno a las monedas operadas y no afecta directamente al universo del bot.",
   "motivos": [
-    "Capitalización total -8.45% en 24 h con noticias de liquidaciones masivas (más de 1.500 M$ en un día), por encima del umbral de -7%.",
-    "BTC por debajo de 58.000 USD, mínimo desde 2024, con formación de cruce de muerte y salidas récord de ETFs.",
-    "Índice Miedo/Codicia en 12 (miedo extremo), sostenido durante la última semana.",
-    "Todas las monedas vigiladas caen entre -5.8% y -8.9% en 24 h y entre -12% y -23% en 7 días, así que la caída es generalizada.",
-    "El hackeo de XMR1 (token envuelto en Hyperliquid) afecta a un activo fuera de la lista del bot; no se considera riesgo directo para las 10 monedas operadas.",
-    "No hay eventos macro de alto impacto USD en las próximas 24 h."
+    "Capitalización total cripto -7.75% en 24 h, cumpliendo el umbral de caída brusca (-7% o peor) con noticias de liquidaciones (más de 1.500 M$ según Bitcoin.com/CoinDesk).",
+    "BTC perfora los 58.000 USD, nivel más bajo desde 2024, con cruz de la muerte y salidas récord de ETFs (IBIT con 541 M$ en un día).",
+    "Todas las monedas operadas caen entre -3.7% y -6.9% en 24 h y entre -13.5% y -23.5% en 7 días; ninguna se diferencia en riesgo del conjunto.",
+    "Índice Miedo/Codicia en 12 (Extreme Fear), mínimo sostenido en la última semana.",
+    "Incertidumbre macro: se menciona posible subida de tipos de la Fed y caída de bolsas tecnológicas; sin datos oficiales de fecha de evento en las próximas 2-3 h.",
+    "El exploit de XMR1 y el caso de Binance/ETH no afectan directamente a las monedas del universo del bot."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-20T20:49:48+00:00",
-  "valido_hasta": "2026-11-20T23:49:48+00:00",
+  "generado": "2026-11-20T21:47:54+00:00",
+  "valido_hasta": "2026-11-21T00:47:54+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.0,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -8.45,
+    "cambio_mercado_24h": -7.75,
     "noticias_analizadas": 47,
     "articulos_leidos": 8,
     "fuentes": {
@@ -70,7 +70,7 @@
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 677,
+    "output_tokens": 738,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
