@@ -1,24 +1,23 @@
 {
-  "modo": "cautela",
+  "modo": "pausa",
   "monedas": {},
-  "resumen": "El mercado cripto está en pánico extremo (índice Miedo/Codicia 12) tras una caída de la capitalización total de -6.64% en 24 h, con BTC perdiendo el nivel de 60K y acercándose a 58K, y ETH, BNB y DOGE cayendo entre -6% y -8%. Hay liquidaciones masivas y salidas de ETFs, pero no hay un evento macro de alto impacto en las próximas 24 h ni un riesgo de seguridad sobre las monedas que opera el bot. Por ello se elige cautela global (mitad del tamaño en compras nuevas) en lugar de pausa, sin alerta sobre posiciones.",
+  "resumen": "La capitalización total cae un 7.46% en 24 h con miedo extremo (índice 12) y liquidaciones de unos 1.5 mil millones, y BTC ha perdido por debajo de 58.000 USD, su nivel más bajo desde 2024. Hay además un exploit en XMR1 y un fuerte sell-off tecnológico ligado a Anthropic, con salidas de ETF de BTC de más de 1.1 mil millones esta semana. Dada la caída brusca del mercado en curso con liquidaciones, la decisión es pausar nuevas compras en todas las monedas operables.",
   "motivos": [
-    "Miedo extremo (12) y caída de la capitalización total de -6.64% en 24 h: incertidumbre elevada que justifica cautela.",
-    "BTC por debajo de 60K, mínimos desde 2024, con más de 700M en liquidaciones y salidas récord de ETFs de bitcoin.",
-    "Ninguna de las 10 monedas operadas tiene un problema de seguridad, halt, depeg ni delist; el exploit de XMR1 no afecta a la lista del bot.",
-    "No hay eventos macro de alto impacto USD confirmados en las próximas 24 h, así que no se justifica pausa total.",
-    "La caída es fuerte pero no ha alcanzado el umbral de -7% en capitalización total, por lo que no se pausa el bot."
+    "Capitalización total -7.46% en 24 h con noticias de liquidaciones superiores a 1.5 mil millones de USD, que cumple el criterio de caída brusca del mercado en curso.",
+    "BTC perforó 58.000 USD, mínimo desde 2024, con salidas de ETF de BTC de más de 1.1 mil millones en la semana y 'death cross' en gráfico diario.",
+    "Todas las monedas operables caen entre -3.9% y -7.6% en 24 h y entre -9.9% y -20.6% en 7 días.",
+    "Miedo extremo sostenido (índice 12, mínimo de la semana 10), sin eventos macro USD de alto impacto en 24 h."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-20T22:46:18+00:00",
-  "valido_hasta": "2026-11-21T01:46:18+00:00",
+  "generado": "2026-11-20T23:47:14+00:00",
+  "valido_hasta": "2026-11-21T02:47:14+00:00",
   "origen": "claude:claude-haiku-5-5",
-  "multiplicador_riesgo": 0.5,
+  "multiplicador_riesgo": 0.0,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -6.64,
-    "noticias_analizadas": 44,
+    "cambio_mercado_24h": -7.46,
+    "noticias_analizadas": 39,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +61,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9430,
+    "input_tokens": 9276,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 660,
+    "output_tokens": 622,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
