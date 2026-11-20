@@ -1,24 +1,24 @@
 {
   "modo": "pausa",
   "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza: la capitalización total baja -8.8% en 24 h, BTC ha perdido los 60.000 USD y el índice Miedo/Codicia está en 12 (miedo extremo), con liquidaciones de más de 1.500 M$ y salidas récord de ETFs. Además, el hackeo de Binance con unos 600 M$ en ETH movidos por THORChain y Chainflip supone un riesgo de seguridad grave para ETH. Por ello se pausan las compras globalmente, con pausa adicional en ETH y en las altcoins con mayores caídas semanales, mientras no hay eventos macro de alto impacto en las próximas 24 h.",
+  "resumen": "El mercado cripto se encuentra en una caída brusca en curso: la capitalización total cae un 8.81% en 24 h, el miedo/codicia está en 12 (miedo extremo) y BTC ha perdido por debajo de 58.000 USD con liquidaciones de más de 1.500 M USD. Además hay salidas récord de ETFs de BTC y expectativas de subida de tipos de la Fed, lo que cumple el criterio de caída brusca con noticias de liquidaciones. Se decide pausa global de nuevas compras, sin alerta sobre posiciones, ya que el riesgo es de mercado y no de un fallo de una moneda o exchange concreto.",
   "motivos": [
-    "Caída de mercado en curso: capitalización total -8.82% en 24 h con liquidaciones superiores a 1.500 M$ (criterio de pausa).",
-    "Miedo extremo sostenido (índice 12, con mínimos de 10 en la última semana), y ETFs de BTC con salidas récord de 582 M$ en un día.",
-    "Hackeo de Binance: más de 600 M$ en ETH movidos por redes de puente y cross-chain, riesgo de seguridad sobre ETH.",
-    "Altcoins con caídas de -17% a -22% en 7 días (AVAX, ADA, DOGE, LTC) en situación de mercado anómalo y sin suelo claro.",
-    "Sin eventos macro de alto impacto USD en las próximas 24 h, por lo que no se aplica pausa macro general."
+    "Caída de la capitalización total de -8.81% en 24 h, por encima del umbral de -7% con noticias de liquidaciones (más de 1.500 M USD según Bitcoin.com/CoinDesk).",
+    "Todas las monedas vigentes del bot caen entre -6.7% y -9.1% en 24 h y entre -10.97% y -21.5% en 7 días.",
+    "Índice Miedo/Codicia en 12 (Extreme Fear), con tendencia persistentemente baja durante la última semana.",
+    "Salidas récord de ETFs de BTC (582 M USD en un día, más de 1.120 M USD en tres sesiones) y expectativas de subida de tipos de la Fed, un factor macro bajista.",
+    "BTC rompe soportes clave (por debajo de 60.000 y 58.000 USD) y forma un death cross, con riesgo de nuevos mínimos cercanos a 57.700 USD."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-20T18:57:25+00:00",
-  "valido_hasta": "2026-11-20T21:57:25+00:00",
+  "generado": "2026-11-20T19:58:24+00:00",
+  "valido_hasta": "2026-11-20T22:58:24+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.0,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -8.82,
-    "noticias_analizadas": 47,
+    "cambio_mercado_24h": -8.81,
+    "noticias_analizadas": 49,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -36,14 +36,14 @@
       "link": "https://decrypt.co/383685/bitcoin-etfs-shed-582m-in-a-day-as-btc-drops-below-62k"
     },
     {
+      "titulo": "Bitcoin Hits Lowest Price Since 2024 After Peter Brandt Warns of Deflation",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/peter-brandt-warns-deflation-bitcoin-lowest-price-since-2024/"
+    },
+    {
       "titulo": "Bitcoin Price Crashes Below $59K as Crypto Liquidations Top $1.5B",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-crashes-below-59k-crypto-liquidations-top-1-5b/"
-    },
-    {
-      "titulo": "Bitcoin Price Sinks to $61,300, Its Lowest Level since July as Asian Stocks Crash",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-lowest-since-july-asian-stocks-crash-kospi/"
     },
     {
       "titulo": "US Senate advances prediction market restrictions with DEATH BETS Act",
@@ -51,25 +51,25 @@
       "link": "https://cointelegraph.com/news/us-senate-advances-prediction-market-restrictions-with-death-bets-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "titulo": "Wrapped Monero token crashes 99.8% amid suspected $13.5M exploit",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/wrapped-monero-token-crashes-998-amid-suspected-135m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "titulo": "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/20/bitcoin-plunges-below-usd59-000-as-rush-to-cash-puts-new-bear-market-lows-back-in-play"
-    },
-    {
-      "titulo": "Blackrock Drives $899M of Bitcoin ETFs’ $1.12B Outflows This Week",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/bitcoin-etf/blackrock-drives-899m-of-bitcoin-etfs-1-12b-outflows-this-week/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9454,
+    "input_tokens": 9411,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 969,
+    "output_tokens": 675,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
