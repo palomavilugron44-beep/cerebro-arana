@@ -1,23 +1,24 @@
 {
   "modo": "pausa",
   "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza: la capitalización total baja un 7.93% en 24 h, BTC perfora los 60.000 USD y el índice Miedo/Codicia está en 12 (miedo extremo) tras una semana de ventas sostenidas. Hay además un hackeo de Binance con unos 600 M USD en ETH en movimiento y salidas récord de ETFs de BTC. Dado que la caída de capitalización supera el umbral de -7% en 24 h con liquidaciones, decido pausar las compras nuevas para todas las monedas.",
+  "resumen": "La capitalización total cripto cae un 8.23% en 24 h, con liquidaciones superiores a 1.500 M USD, BTC perforando los 60.000 USD por primera vez desde julio e índice de miedo en 12 (miedo extremo). La caída es una venta generalizada en curso, vinculada a salidas récord de ETFs y a una corrección bursátil tecnológica, lo que cumple el criterio de caída brusca de mercado con noticias de liquidaciones. Se recomienda pausar nuevas compras en todas las monedas hasta que el mercado se estabilice.",
   "motivos": [
-    "Capitalización total cripto -7.93% en 24 h, con liquidaciones de largos por más de 700 M USD (criterio de caída brusca).",
-    "Hackeo a Binance con unos 600 M USD en ETH movidos por los atacantes: riesgo de seguridad de un exchange grave.",
-    "Miedo extremo (índice 12), con salidas récord de ETFs de BTC (1.12 B USD en tres sesiones) y BTC por debajo de 60.000 USD.",
-    "Todas las monedas vigiladas caen entre -5% y -8% en 24 h, por lo que la pausa aplica a todo el universo."
+    "Capitalización total cripto -8.23% en 24 h con liquidaciones de más de 1.500 M USD, cumpliendo el umbral de caída brusca con noticias de liquidaciones.",
+    "BTC por debajo de 60.000 USD, mínimo desde julio, con salidas de ETFs de 1.120 M USD en tres sesiones y un récord de salida en IBIT.",
+    "Índice Miedo/Codicia en 12 (miedo extremo), lectura que se mantiene en niveles muy bajos durante toda la semana.",
+    "Caída generalizada en las 10 monedas operadas, con caídas de 7 días de entre -11% y -22%.",
+    "Sin datos macro de alto impacto en 24 h; el riesgo principal es la propia venta del mercado en curso."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-20T16:57:34+00:00",
-  "valido_hasta": "2026-11-20T19:57:34+00:00",
+  "generado": "2026-11-20T17:56:27+00:00",
+  "valido_hasta": "2026-11-20T20:56:27+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.0,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -7.93,
-    "noticias_analizadas": 47,
+    "cambio_mercado_24h": -8.23,
+    "noticias_analizadas": 46,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -40,6 +41,11 @@
       "link": "https://decrypt.co/383685/bitcoin-etfs-shed-582m-in-a-day-as-btc-drops-below-62k"
     },
     {
+      "titulo": "Bitcoin Price Crashes Below $59K as Crypto Liquidations Top $1.5B",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-crashes-below-59k-crypto-liquidations-top-1-5b/"
+    },
+    {
       "titulo": "Bitcoin Price Sinks to $61,300, Its Lowest Level since July as Asian Stocks Crash",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-lowest-since-july-asian-stocks-crash-kospi/"
@@ -53,22 +59,17 @@
       "titulo": "Blackrock Drives $899M of Bitcoin ETFs’ $1.12B Outflows This Week",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/bitcoin-etf/blackrock-drives-899m-of-bitcoin-etfs-1-12b-outflows-this-week/"
-    },
-    {
-      "titulo": "SEC charges 8 firms over fake crypto platforms tied to $37M fraud",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/sec-charges-eight-fake-crypto-platforms-37m-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 11929,
+    "input_tokens": 11960,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 537,
+    "output_tokens": 1222,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
