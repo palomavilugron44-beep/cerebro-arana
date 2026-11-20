@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12, racha de 7 días por debajo de 15) con la capitalización total cayendo un 5.13% en 24 h y BTC en mínimos de cuatro meses tras la OPV de Anthropic y la presión sobre las tecnológicas. No hay eventos macro de alto impacto en las próximas 24 h ni una caída de -7% o peor, y los titulares de Binance (orden de congelación de 6.5 mil millones) son de recuperación de fondos robados, no un riesgo directo para las monedas operadas. Se elige cautela global por volatilidad y miedo extremo, sin pausa ni alerta sobre posiciones.",
+  "resumen": "El mercado está en miedo extremo (índice 12, racha de 7 días por debajo de 14) y la capitalización total cae un 5% en 24 h, con BTC cerca de mínimos de cuatro meses y un death cross en el gráfico diario. No hay señales de hackeo activo que afecten a las monedas operadas ni una caída de -7% o peor, así que no justifica pausa. Se recomienda cautela general (mitad de tamaño en compras nuevas) mientras dure la volatilidad.",
   "motivos": [
-    "Índice Miedo/Codicia en 12 (Extreme Fear), con valores entre 10 y 13 durante los últimos 7 días.",
-    "Capitalización total -5.13% en 24 h y todas las monedas operadas en caída de entre -1.5% y -7% en 24 h.",
-    "BTC en mínimos de cuatro meses tras la OPV de Anthropic y caída de tecnológicas; el bot debe reducir tamaño en lugar de frenar por completo.",
-    "Sin eventos económicos USD de alto impacto en las próximas 24 h, por lo que no se activa pausa macro.",
-    "La caída no alcanza el umbral de -7% en 24 h, y los titulares de Binance y hackeos son recuperaciones o casos judiciales sin impacto directo en las monedas operadas."
+    "Índice Miedo/Codicia en 12 (Extreme Fear) y sostenido en miedo extremo los últimos 7 días.",
+    "Capitalización total -5.02% en 24 h; BTC en mínimos de cuatro meses tras el IPO de Anthropic, con death cross en gráfico diario.",
+    "Las 10 monedas caen entre -0.5% y -6.3% en 24 h y entre -3.6% y -14.2% en 7 días: correlación alta y presión bajista generalizada.",
+    "El hackeo de Binance (29 oct, ~6.300 M$ atribuidos a Corea del Norte) tiene una orden de congelación de 6.500 M$ en curso; riesgo reputacional, pero no un evento activo que afecte a las monedas operadas.",
+    "Noticias regulatorias (SEC contra entidades de fraude) y del sector no son de impacto directo en las monedas operadas; no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-20T04:58:57+00:00",
-  "valido_hasta": "2026-11-20T07:58:57+00:00",
+  "generado": "2026-11-20T06:01:08+00:00",
+  "valido_hasta": "2026-11-20T09:01:08+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -5.13,
-    "noticias_analizadas": 31,
+    "cambio_mercado_24h": -5.02,
+    "noticias_analizadas": 30,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -30,6 +30,11 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
+    {
+      "titulo": "SEC Charges 8 Entities in $37 Million Fake Crypto Platform Case",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/regulation-and-legal/sec-charges-8-entities-37-million-fake-crypto-platform-case/"
+    },
     {
       "titulo": "Binance’s $6.5B freeze order, Hong Kong ‘suspicious’ of HYPE: Asia Express",
       "fuente": "Cointelegraph",
@@ -54,22 +59,17 @@
       "titulo": "Trump's Democratic SEC pick suggests tokenization policy deserves full rule process",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/policy/2026/11/19/trump-s-democratic-sec-pick-suggests-tokenization-policy-deserves-full-rule-process"
-    },
-    {
-      "titulo": "Hackers Leak Visa, Mastercard and JPMorgan Customer Data",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/383663/hackers-leak-visa-mastercard-jpmorgan-data"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8330,
+    "input_tokens": 8180,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 635,
+    "output_tokens": 622,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
