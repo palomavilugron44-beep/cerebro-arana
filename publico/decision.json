@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10, con 7 días en la zona de 10-20) y la capitalización total cae un -3.13% en 24 h, con BTC y ETH cerca de -13% en la semana y salidas de ETFs de BTC. Esto justifica cautela general, pero no una caída de -7% ni un evento macro de alto impacto en las próximas horas, así que no hay motivo para pausar. El hackeo de Binance de octubre ya es un hecho antiguo y la noticia del congelamiento de 6.5 mil millones es positiva para la recuperación, por lo que no se aplica pausa por ese motivo.",
+  "resumen": "El mercado está en miedo extremo (índice 12, con valores de 10 a 13 durante 7 días) y la capitalización total cae un 4.06% en 24 h, con BTC cerca de 62.000 USD tras perder niveles de 64.000 y con retrocesos de hasta -16% en 7 días. No hay eventos macro de alto impacto en las próximas 24 h, y la noticia más grave (el hackeo de Binance de octubre) ya está en proceso de recuperación con una orden de congelación de 6.500 M$, por lo que no justifica una pausa. Se recomienda cautela global (mitad de tamaño) por la volatilidad y el miedo extremo, sin medidas específicas por moneda.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear), persistentemente bajo durante la última semana.",
-    "Capitalización total -3.13% en 24 h y BTC/ETH/SOL/AVAX cerca de -10% a -16% en 7 días.",
-    "Salidas netas de ETFs de Bitcoin (unos 306 M USD el miércoles) y presión por posible subida de tipos de la Fed.",
-    "No hay eventos económicos de alto impacto USD en las próximas 24 h, y no hay halt, depeg, delist ni hackeo nuevo que afecte a las monedas operadas.",
-    "Riesgo de volatilidad elevada en un mercado bajista, por lo que se reduce el tamaño de las nuevas compras a la mitad."
+    "Índice Miedo/Codicia en 12 (Extreme Fear) de forma sostenida durante 7 días.",
+    "Capitalización total -4.06% en 24 h y BTC rompiendo soporte de 62.000 USD con señal de 'death cross' en el gráfico diario.",
+    "Caídas de 7 días entre -7% y -16% en todas las monedas vigiladas; LTC cae -4.66% en 24 h.",
+    "Salidas netas de ETF de bitcoin (306 M$ el miércoles) y presión de capital hacia la salida de Anthropic.",
+    "Sin eventos macro de alto impacto en 24 h; el hackeo de Binance está en fase de recuperación de activos, sin señal de riesgo inmediato sobre las monedas operadas.",
+    "No hay anomalías de moneda (halt, depeg, delist) que justifiquen pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-19T23:43:41+00:00",
-  "valido_hasta": "2026-11-20T02:43:41+00:00",
+  "generado": "2026-11-20T00:59:43+00:00",
+  "valido_hasta": "2026-11-20T03:59:43+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
-    "miedo_codicia": 10,
-    "cambio_mercado_24h": -3.13,
-    "noticias_analizadas": 46,
+    "miedo_codicia": 12,
+    "cambio_mercado_24h": -4.06,
+    "noticias_analizadas": 41,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -30,11 +31,6 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
-    {
-      "titulo": "Bitcoin holds above $63,750 but Fed rate-hike threats loom large",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/19/bitcoin-holds-above-usd63-750-but-fed-rate-hike-threats-loom-large"
-    },
     {
       "titulo": "Binance’s $6.5B freeze order, Hong Kong ‘suspicious’ of HYPE: Asia Express",
       "fuente": "Cointelegraph",
@@ -51,25 +47,30 @@
       "link": "https://news.bitcoin.com/bitcoin-etf/anthropic-ipo-tests-bitcoin-etfs-blackrock-leads-306m-exit/"
     },
     {
-      "titulo": "Binance Wins $6.5B Freezing Order Over Hack That Can Be Served via the Blockchain",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/383608/binance-wins-6-5b-freezing-order-over-hack-that-can-be-served-via-the-blockchain"
-    },
-    {
       "titulo": "Trump's Democratic SEC pick suggests tokenization policy deserves full rule process",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/policy/2026/11/19/trump-s-democratic-sec-pick-suggests-tokenization-policy-deserves-full-rule-process"
+    },
+    {
+      "titulo": "Here’s what happened in crypto today",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Hackers Leak Visa, Mastercard and JPMorgan Customer Data",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/383663/hackers-leak-visa-mastercard-jpmorgan-data"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9407,
+    "input_tokens": 9445,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 611,
+    "output_tokens": 671,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
