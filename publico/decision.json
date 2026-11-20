@@ -1,24 +1,25 @@
 {
   "modo": "pausa",
   "monedas": {},
-  "resumen": "El mercado cripto se encuentra en una caída brusca en curso: la capitalización total cae un 8.81% en 24 h, el miedo/codicia está en 12 (miedo extremo) y BTC ha perdido por debajo de 58.000 USD con liquidaciones de más de 1.500 M USD. Además hay salidas récord de ETFs de BTC y expectativas de subida de tipos de la Fed, lo que cumple el criterio de caída brusca con noticias de liquidaciones. Se decide pausa global de nuevas compras, sin alerta sobre posiciones, ya que el riesgo es de mercado y no de un fallo de una moneda o exchange concreto.",
+  "resumen": "El mercado cripto cae con fuerza: la capitalización total baja un 8.45% en 24 h, el miedo/codicia está en 12 (miedo extremo) y BTC perfora los 58.000 USD, su nivel más bajo desde 2024, con 1.500 M$ en liquidaciones. Además hay un drenaje de ETFs de BTC (más de 1.100 M$ en la semana) y un fuerte sell-off en bolsa tecnológica, sin eventos macro de alto impacto en 24 h. Se elige pausa general porque la caída brusca en curso con liquidaciones cumple el criterio de riesgo grave; las compras nuevas se reanudan cuando el mercado se estabilice.",
   "motivos": [
-    "Caída de la capitalización total de -8.81% en 24 h, por encima del umbral de -7% con noticias de liquidaciones (más de 1.500 M USD según Bitcoin.com/CoinDesk).",
-    "Todas las monedas vigentes del bot caen entre -6.7% y -9.1% en 24 h y entre -10.97% y -21.5% en 7 días.",
-    "Índice Miedo/Codicia en 12 (Extreme Fear), con tendencia persistentemente baja durante la última semana.",
-    "Salidas récord de ETFs de BTC (582 M USD en un día, más de 1.120 M USD en tres sesiones) y expectativas de subida de tipos de la Fed, un factor macro bajista.",
-    "BTC rompe soportes clave (por debajo de 60.000 y 58.000 USD) y forma un death cross, con riesgo de nuevos mínimos cercanos a 57.700 USD."
+    "Capitalización total -8.45% en 24 h con noticias de liquidaciones masivas (más de 1.500 M$ en un día), por encima del umbral de -7%.",
+    "BTC por debajo de 58.000 USD, mínimo desde 2024, con formación de cruce de muerte y salidas récord de ETFs.",
+    "Índice Miedo/Codicia en 12 (miedo extremo), sostenido durante la última semana.",
+    "Todas las monedas vigiladas caen entre -5.8% y -8.9% en 24 h y entre -12% y -23% en 7 días, así que la caída es generalizada.",
+    "El hackeo de XMR1 (token envuelto en Hyperliquid) afecta a un activo fuera de la lista del bot; no se considera riesgo directo para las 10 monedas operadas.",
+    "No hay eventos macro de alto impacto USD en las próximas 24 h."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-20T19:58:24+00:00",
-  "valido_hasta": "2026-11-20T22:58:24+00:00",
+  "generado": "2026-11-20T20:49:48+00:00",
+  "valido_hasta": "2026-11-20T23:49:48+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.0,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -8.81,
-    "noticias_analizadas": 49,
+    "cambio_mercado_24h": -8.45,
+    "noticias_analizadas": 47,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -51,25 +52,25 @@
       "link": "https://cointelegraph.com/news/us-senate-advances-prediction-market-restrictions-with-death-bets-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "titulo": "Wrapped Monero Token XMR1 Crashes After $13M Exploit, Founder Vows Repayment",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/security/wrapped-monero-token-xmr1-crashes-13m-exploit-founder-vows-repayment/"
+    },
+    {
       "titulo": "Wrapped Monero token crashes 99.8% amid suspected $13.5M exploit",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/wrapped-monero-token-crashes-998-amid-suspected-135m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/20/bitcoin-plunges-below-usd59-000-as-rush-to-cash-puts-new-bear-market-lows-back-in-play"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9411,
+    "input_tokens": 9470,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 675,
+    "output_tokens": 677,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
