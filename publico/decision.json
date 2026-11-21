@@ -1,31 +1,32 @@
 {
-  "modo": "pausa",
+  "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto está en una caída brusca: capitalización -7.29% en 24 h, liquidaciones de más de 1.500 M$, BTC en mínimos desde 2024 y miedo extremo sostenido durante la última semana. Además, unos 860 M$ en ETH robados en un hackeo a Binance siguen moviéndose, lo que añade un riesgo de seguridad grave sobre Ethereum. Por ello se recomienda pausar las compras nuevas de forma global y mantener la pausa específica para ETH.",
+  "resumen": "El mercado está en miedo extremo (índice 12, mínimo en 7 días) tras una caída de la capitalización total de -6.6% en 24 h, con BTC perdiendo los 58.000 USD y liquidaciones por encima de 1.500 M$. Hay además un hackeo de unos 860 M$ en ETH robados a Binance, sin noticias que indiquen una parada de la red o de las monedas operadas. Como la incertidumbre es alta pero no hay un riesgo grave e inmediato, se recomienda cautela general y más cautela en BTC, ETH, BNB y AVAX.",
   "motivos": [
-    "Capitalización total cripto -7.29% en 24 h con liquidaciones de más de 1.500 M$, cumpliendo el criterio de caída brusca de mercado en curso.",
-    "Miedo extremo (índice 12) sostenido durante 7 días, con BTC en mínimos desde 2024 y 7 días de caídas en casi todas las monedas.",
-    "Hackeo a Binance: unos 860 M$ en ETH robados por hackers vinculados a Corea del Norte siguen moviéndose, lo que constituye un riesgo de seguridad grave para ETH y para el exchange.",
-    "XMR1 (token envuelto de Monero) colapsó 99% por exploit; no es una de las monedas operadas, pero indica riesgo en tokens envueltos.",
-    "Sin eventos macro de alto impacto en 24 h; la decisión global de pausa se basa en la caída de mercado y el hackeo."
+    "Miedo extremo (índice 12) sostenido durante 7 días y caída de capitalización total de -6.59% en 24 h.",
+    "BTC perdió 58.000 USD (mínimo desde 2024) con -13.7% en 7 días y más de 1.500 M$ en liquidaciones.",
+    "Hackeo de unos 860 M$ en ETH robados a Binance, que afecta a ETH y BNB; no se reporta parada de red ni de exchange.",
+    "AVAX presenta la mayor caída semanal (-21%) del grupo.",
+    "El token XMR1 (envuelto de Monero, no operado por el bot) colapsó por un exploit; no afecta directamente a las monedas del bot.",
+    "No hay eventos macro de alto impacto en 24 h; la decisión global se mantiene en cautela y no en pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-21T01:05:14+00:00",
-  "valido_hasta": "2026-11-21T04:05:14+00:00",
+  "generado": "2026-11-21T02:11:15+00:00",
+  "valido_hasta": "2026-11-21T05:11:15+00:00",
   "origen": "claude:claude-haiku-5-5",
-  "multiplicador_riesgo": 0.0,
+  "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -7.29,
-    "noticias_analizadas": 34,
+    "cambio_mercado_24h": -6.59,
+    "noticias_analizadas": 29,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
       "Decrypt": 37,
       "Bitcoin.com": 10,
-      "NewsBTC": 0
+      "NewsBTC": 10
     },
     "eventos_usd_24h": 0
   },
@@ -62,14 +63,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8575,
+    "input_tokens": 8128,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 804,
+    "output_tokens": 921,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
