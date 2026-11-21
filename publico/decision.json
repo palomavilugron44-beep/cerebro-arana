@@ -1,24 +1,23 @@
 {
   "modo": "pausa",
   "monedas": {},
-  "resumen": "El mercado cripto está en una caída fuerte (capitalización -8.5% en 24 h) con miedo extremo sostenido y BTC en mínimos de dos años. Hay además un riesgo de seguridad concreto: un hackeo de unos 860 M$ en ETH robado a Binance que se está blanqueando, lo que justifica pausar las compras de ETH. AVAX, con la peor caída semanal (-22%), también se pausa por precaución.",
+  "resumen": "La capitalización total cae un 8.12% en 24 h con miedo extremo (índice 12) y noticias de ventas masivas de fin de semana, con BTC en mínimos de dos años (bajo 57.000 USD) y ETH, XRP y AVAX en mínimos de ciclo. Se cumple el criterio de caída brusca del mercado en curso (-7% o peor con liquidaciones), por lo que se pausan las compras nuevas en general. No hay evento macro de alto impacto en 24 h ni noticia de hackeo que afecte directamente a las monedas operadas, aunque el robo de 860 M USD en ETH de Binance es un factor de riesgo a vigilar.",
   "motivos": [
-    "Caída de la capitalización total del -8.52% en 24 h con liquidaciones de posiciones largas, cumpliendo el umbral de caída brusca (-7% o peor) con noticias de liquidaciones.",
-    "Miedo extremo (índice 12) sostenido durante 7 días, sin señales de rebote.",
-    "Bitcoin perforó los 57.000 y 56.000 USD, mínimos desde septiembre de 2024; el precio del BTC cae cerca de un tercio en un mes.",
-    "Hackers vinculados a Corea del Norte están moviendo ~860 M$ en ETH robados de Binance, riesgo de seguridad sobre un exchange y sobre el activo ETH.",
-    "Un exploit de 13,5 M$ en XMR1 (token envuelto) muestra riesgo de seguridad en tokens envueltos, aunque no afecta a las monedas operadas por el bot.",
-    "No hay eventos macro de alto impacto en 24 h, pero el fin de semana con mercado vendedor eleva el riesgo de nuevos mínimos en las próximas horas."
+    "Capitalización total -8.12% en 24 h, cumpliendo el umbral de caída brusca (-7% o peor) con liquidaciones de largos según las noticias.",
+    "Índice Miedo/Codicia en 12 (Extreme Fear) y sostenido en niveles 10-12 durante 7 días.",
+    "BTC perdió casi un 17% en la semana y cotiza en mínimos de dos años; ETH, XRP, AVAX y LTC también en mínimos recientes.",
+    "Las 10 monedas operadas caen entre -4.8% y -7.9% en 24 h, sin excepciones que justifiquen un trato diferenciado.",
+    "Sin eventos macro de USD de alto impacto en las próximas 24 h; el riesgo principal es la dinámica del propio mercado y el fin de semana."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-21T08:13:20+00:00",
-  "valido_hasta": "2026-11-21T11:13:20+00:00",
+  "generado": "2026-11-21T09:47:33+00:00",
+  "valido_hasta": "2026-11-21T12:47:33+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.0,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -8.52,
+    "cambio_mercado_24h": -8.12,
     "noticias_analizadas": 16,
     "articulos_leidos": 8,
     "fuentes": {
@@ -47,11 +46,6 @@
       "link": "https://news.bitcoin.com/market-updates/strategy-coinbase-shares-battered-bitcoin-price-2-year-low-ai-stocks-bleed/"
     },
     {
-      "titulo": "Wrapped Monero Token XMR1 Crashes After $13M Exploit, Founder Vows Repayment",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/security/wrapped-monero-token-xmr1-crashes-13m-exploit-founder-vows-repayment/"
-    },
-    {
       "titulo": "Peter Schiff Warns of Weekend Crypto Crash Sending ETH to $1K",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/peter-schiff-warns-of-weekend-crypto-crash-sending-eth-to-1k/"
@@ -60,17 +54,22 @@
       "titulo": "Bitcoin Sinks Below $56K as Arthur Hayes Says Wait for the Bailout",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/bitcoin-sinks-below-56k-as-arthur-hayes-says-wait-for-the-bailout/"
+    },
+    {
+      "titulo": "Bitcoin tanks below $57,000 for the first time in two years, and its not alone",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/21/bitcoin-tanks-below-usd57-000-for-the-first-time-in-two-years-and-its-not-alone"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6452,
+    "input_tokens": 6530,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 818,
+    "output_tokens": 641,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
