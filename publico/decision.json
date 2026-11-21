@@ -1,23 +1,29 @@
 {
   "modo": "cautela",
-  "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza: capitalización total -6.67% en 24 h, BTC por debajo de 58.000 USD (mínimos de dos años) y miedo extremo (índice 12, valores bajos durante toda la semana). No hay eventos macro de alto impacto en las próximas 24 h ni hackeos, problemas regulatorios graves o anomalías de moneda en las noticias. La caída es fuerte y no llega al umbral de -7% en 24 h, así que se aplica cautela general (compras con la mitad del tamaño) en lugar de pausa.",
+  "monedas": {
+    "XRPUSDT": {
+      "modo": "pausa",
+      "motivo": "Cayó ~10% en 24 h, rompió mínimos de noviembre y está bajo 0.90 USD con salidas de ETF; caída anómala en curso.",
+      "multiplicador_riesgo": 0.0
+    }
+  },
+  "resumen": "El mercado está en miedo extremo (índice 12, persistentemente bajo en 7 días) tras una caída de la capitalización total del -4% en 24 h, con BTC por debajo de 58.000 USD y en mínimos de casi dos años. No hay eventos macro de alto impacto en las próximas 24 h, y no se observa un hackeo, halt o acción regulatoria grave, por lo que no justifica una pausa global. Se recomienda cautela general y pausa solo para XRP por su ruptura de mínimos y salidas de ETF.",
   "motivos": [
-    "Miedo extremo sostenido (índice 12, 7 días entre 10 y 12).",
-    "Capitalización total -6.67% en 24 h, cerca del umbral de pausa (-7%) pero sin llegar a él.",
-    "BTC por debajo de 58.000 USD, mínimos desde hace dos años; todas las monedas vigentes bajan entre -3% y -6% en 24 h.",
-    "XRP cae por debajo de 0.90 USD con salidas de ETF y liquidaciones de largos; ETH y BTCS con riesgo de liquidación en Aave (noticia no grave para el mercado en general).",
-    "Sin eventos macro de alto impacto en 24 h ni incidentes de seguridad o regulatorios graves en las noticias."
+    "Miedo extremo sostenido (índice 12 y valores 10-12 en los últimos 7 días) con caída de 7 días de todas las monedas entre -9% y -19%.",
+    "Capitalización total -4.01% en 24 h con BTC bajo 58.000 USD, en mínimos desde julio y con noticias de fuertes salidas de ETF.",
+    "XRP cae ~10% en 24 h, pierde 1 USD y ETF de XRP con salidas récord; situación de caída brusca en curso.",
+    "AVAX y LTC con las peores caídas semanales del grupo (-19% y -19% en 7 días) sin señal de estabilización.",
+    "Sin eventos macro de alto impacto en 24 h; noticias negativas relevantes pero sin hackeo, halt o acción regulatoria grave."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-21T12:52:25+00:00",
-  "valido_hasta": "2026-11-21T15:52:25+00:00",
+  "generado": "2026-11-21T13:57:51+00:00",
+  "valido_hasta": "2026-11-21T16:57:51+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -6.67,
+    "cambio_mercado_24h": -4.01,
     "noticias_analizadas": 18,
     "articulos_leidos": 8,
     "fuentes": {
@@ -69,7 +75,7 @@
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 582,
+    "output_tokens": 798,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
