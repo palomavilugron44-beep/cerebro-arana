@@ -1,23 +1,22 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza: capitalización total -7.82% en 24 h, BTC por debajo de 57.000 USD (mínimos de dos años) y el índice Miedo/Codicia en 12 (miedo extremo) durante toda la última semana. No hay eventos macro de alto impacto en las próximas 24 h, y los riesgos concretos (hackeo de ~860 M USD en ETH de Binance por parte de hackers norcoreanos, caída de XRP bajo 0.90 USD) son relevantes pero no afectan directamente a una pausa general. Se recomienda cautela (mitad de tamaño en compras nuevas) mientras dure la volatilidad.",
+  "resumen": "El mercado cripto atraviesa una fuerte caída: la capitalización total cayó un 7.8% en 24 h, BTC perdió por debajo de 60.000 USD y el índice Miedo/Codicia marca 12 (miedo extremo) desde hace una semana. No hay eventos macro de alto impacto en las próximas 24 h ni hay noticias de hackeos, regulación grave o anomalías de moneda, así que no justifica pausar. Dado el miedo extremo y la volatilidad, conviene que el bot opere con cautela (mitad de tamaño) en las compras nuevas.",
   "motivos": [
-    "Miedo extremo sostenido (índice 12, rango 10-12 en 7 días) y caída de capitalización total de -7.82% en 24 h.",
-    "BTC y ETH en mínimos de dos años (BTC bajo 57.000 USD, ETH cerca de 1.600 USD) con caídas de -13% a -20% en 7 días en la mayoría de monedas.",
-    "Hackeo de aproximadamente 860 M USD en ETH vinculado a Binance, con movimientos de fondos en curso: noticia negativa relevante, aunque no implica una anomalía de la moneda ni del exchange en el propio mercado.",
-    "XRP rompió mínimos de noviembre con salidas de ETF y liquidaciones de largos; el resto de monedas sigue la misma tendencia bajista.",
-    "No hay eventos macro USD de alto impacto en 24 h; no se justifica pausa total ni por moneda, pero sí reducir el tamaño de nuevas compras."
+    "Miedo extremo sostenido (índice 12, rango 10-12 en 7 días)",
+    "Caída de capitalización total de -7.8% en 24 h con BTC por debajo de 60.000 USD y ETH cerca de 1.600 USD",
+    "Volatilidad elevada y tendencia bajista en todas las monedas vigiladas (caídas de 4-7% en 24 h)",
+    "Sin evento macro de alto impacto en 24 h y sin riesgo grave de seguridad, regulatorio o de deslistado que justifique pausa"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-21T10:46:57+00:00",
-  "valido_hasta": "2026-11-21T13:46:57+00:00",
+  "generado": "2026-11-21T11:44:29+00:00",
+  "valido_hasta": "2026-11-21T14:44:29+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -7.82,
+    "cambio_mercado_24h": -7.8,
     "noticias_analizadas": 17,
     "articulos_leidos": 8,
     "fuentes": {
@@ -36,14 +35,14 @@
       "link": "https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion"
     },
     {
-      "titulo": "Binance Hackers Move $860 Million in Ether as Bitcoin Laundering Surges",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/security/binance-hackers-move-860-million-ether-bitcoin-laundering-surges/"
-    },
-    {
       "titulo": "Peter Schiff Warns of Weekend Crypto Crash Sending ETH to $1K",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/peter-schiff-warns-of-weekend-crypto-crash-sending-eth-to-1k/"
+    },
+    {
+      "titulo": "Here’s what happened in crypto today",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "titulo": "Biggest HYPE Whale Burns Through $50M of Profit and Nears Liquidation",
@@ -62,14 +61,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6698,
+    "input_tokens": 6718,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 696,
+    "output_tokens": 520,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
