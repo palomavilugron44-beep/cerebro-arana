@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12, días consecutivos en niveles similares) tras una fuerte caída de BTC hacia 55.000 USD con 2.670 millones en liquidaciones, y ahora rebota hacia 60.000 USD. La capitalización total apenas varía en 24 h y no hay eventos macro de alto impacto en las próximas 24 h, por lo que no hay motivo para pausar. Dado el entorno de volatilidad y miedo extremo, conviene operar con cautela (mitad de tamaño) en el global.",
+  "resumen": "El mercado vive miedo extremo (índice 12, sostenido una semana) tras una caída de BTC casi a 55.000 USD con unos 2.670 millones en liquidaciones, y ahora rebota hacia 60.000 USD con capitalización total plana en 24 h. Las pérdidas de la semana son fuertes (BTC -8.2%, ETH -8.3%) y las bolsas tecnológicas están en corrección, lo que justifica operar con la mitad del tamaño sin llegar a pausar. No hay eventos macro de alto impacto en 24 h ni riesgo sistémico confirmado.",
   "motivos": [
-    "Índice Miedo/Codicia en 12 (Extreme Fear) y sostenido durante los últimos 7 días.",
-    "BTC cayó a casi 55.000 USD con 2.670 millones en liquidaciones y luego rebotó a ~60.000 USD: volatilidad elevada.",
-    "Caídas semanales de -6% a -12% en BTC, ETH, DOGE, LTC y AVAX; mercado tecnológico en corrección por la caída de Nvidia y el Nasdaq.",
-    "No hay eventos macro de alto impacto USD en las próximas 24 h, y la caída no se considera pausa (la capitalización total cambia solo 0.01% en 24 h).",
-    "El exploit de Chainflip (4,86 millones de dólares) afecta a un protocolo concreto que no figura entre las monedas operadas, por lo que no se aplica una pausa por moneda."
+    "Índice Miedo/Codicia en 12 (Extreme Fear) durante los últimos 7 días, con volatilidad alta.",
+    "BTC tocó casi 55.000 USD con 2.670 M$ en liquidaciones en 24 h y luego rebotó a ~60.000 USD; caída fuerte de la semana en BTC y ETH.",
+    "Corrección en Nasdaq/S&P 500 por venta masiva de tecnológicas, con contagio al riesgo cripto.",
+    "Sin eventos macro de alto impacto en las próximas 24 h y sin noticias de hackeo que afecte a las monedas operadas (el exploit de Chainflip no afecta a las 10 monedas del bot).",
+    "Riesgo de pausa no justificado: no hay halt, depeg, delist ni acción regulatoria grave contra las monedas operadas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-21T20:40:10+00:00",
-  "valido_hasta": "2026-11-21T23:40:10+00:00",
+  "generado": "2026-11-21T21:39:01+00:00",
+  "valido_hasta": "2026-11-22T00:39:01+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": 0.01,
-    "noticias_analizadas": 19,
+    "cambio_mercado_24h": 0.37,
+    "noticias_analizadas": 18,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6997,
+    "input_tokens": 6824,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 620,
+    "output_tokens": 631,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
