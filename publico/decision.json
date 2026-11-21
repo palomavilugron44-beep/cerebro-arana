@@ -1,41 +1,25 @@
 {
-  "modo": "cautela",
-  "monedas": {
-    "XRPUSDT": {
-      "modo": "pausa",
-      "motivo": "Caída del 10% con liquidaciones de largos y rotura de mínimos de noviembre; ETF bajo 1.000 M$.",
-      "multiplicador_riesgo": 0.0
-    },
-    "AVAXUSDT": {
-      "modo": "pausa",
-      "motivo": "Peor comportamiento semanal (-21.9% 7d) con caída de 8.4% en 24 h durante la venta.",
-      "multiplicador_riesgo": 0.0
-    },
-    "LTCUSDT": {
-      "modo": "pausa",
-      "motivo": "Caída de -20.1% en 7 días, la segunda peor del grupo, en medio de la venta masiva.",
-      "multiplicador_riesgo": 0.0
-    }
-  },
-  "resumen": "El mercado sufre una venta generalizada: la capitalización total cae un 8.22% en 24 h, BTC perfora los 57.000 USD por primera vez en dos años y el índice Miedo/Codicia está en 12 (miedo extremo) desde hace una semana. No hay eventos macro de alto impacto en las próximas 24 h y el hackeo de ether y el exploit de XMR1 afectan a activos concretos, no a la infraestructura de las monedas que opera el bot. Por ello se opta por cautela global (la mitad del tamaño) y pausa solo para XRP, AVAX y LTC, que muestran las caídas más fuertes.",
+  "modo": "pausa",
+  "monedas": {},
+  "resumen": "El mercado cripto está en una caída fuerte (capitalización -8.5% en 24 h) con miedo extremo sostenido y BTC en mínimos de dos años. Hay además un riesgo de seguridad concreto: un hackeo de unos 860 M$ en ETH robado a Binance que se está blanqueando, lo que justifica pausar las compras de ETH. AVAX, con la peor caída semanal (-22%), también se pausa por precaución.",
   "motivos": [
-    "Capitalización total -8.22% en 24 h con liquidaciones de posiciones largas, lo que encaja con caída brusca del mercado en curso.",
-    "Índice Miedo/Codicia en 12 (miedo extremo) sostenido durante 7 días.",
-    "BTC en mínimos de dos años (por debajo de 57.000 USD) y ETH con rupturas de soporte; el mercado en general sigue vulnerable el fin de semana.",
-    "Hackeo de ~860 M$ en ETH robado de Binance por hackers vinculados a Corea del Norte: riesgo reputacional y de mercado, pero sin afectar a la seguridad de las monedas operadas en este momento.",
-    "XRP cae 10% con ruptura de mínimos de noviembre y ETFs bajo 1.000 M$; AVAX (-21.9% 7 d) y LTC (-20.1% 7 d) muestran los peores retornos semanales.",
-    "Exploit de XMR1 (token envuelto de Monero) no afecta a las monedas del bot, por lo que no se considera riesgo para la lista."
+    "Caída de la capitalización total del -8.52% en 24 h con liquidaciones de posiciones largas, cumpliendo el umbral de caída brusca (-7% o peor) con noticias de liquidaciones.",
+    "Miedo extremo (índice 12) sostenido durante 7 días, sin señales de rebote.",
+    "Bitcoin perforó los 57.000 y 56.000 USD, mínimos desde septiembre de 2024; el precio del BTC cae cerca de un tercio en un mes.",
+    "Hackers vinculados a Corea del Norte están moviendo ~860 M$ en ETH robados de Binance, riesgo de seguridad sobre un exchange y sobre el activo ETH.",
+    "Un exploit de 13,5 M$ en XMR1 (token envuelto) muestra riesgo de seguridad en tokens envueltos, aunque no afecta a las monedas operadas por el bot.",
+    "No hay eventos macro de alto impacto en 24 h, pero el fin de semana con mercado vendedor eleva el riesgo de nuevos mínimos en las próximas horas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-21T07:04:52+00:00",
-  "valido_hasta": "2026-11-21T10:04:52+00:00",
+  "generado": "2026-11-21T08:13:20+00:00",
+  "valido_hasta": "2026-11-21T11:13:20+00:00",
   "origen": "claude:claude-haiku-5-5",
-  "multiplicador_riesgo": 0.5,
+  "multiplicador_riesgo": 0.0,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -8.22,
-    "noticias_analizadas": 17,
+    "cambio_mercado_24h": -8.52,
+    "noticias_analizadas": 16,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -47,11 +31,6 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
-    {
-      "titulo": "Bitcoin Hits Lowest Price Since 2024 After Peter Brandt Warns of Deflation",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/peter-brandt-warns-deflation-bitcoin-lowest-price-since-2024/"
-    },
     {
       "titulo": "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion",
       "fuente": "CoinDesk",
@@ -73,20 +52,25 @@
       "link": "https://news.bitcoin.com/security/wrapped-monero-token-xmr1-crashes-13m-exploit-founder-vows-repayment/"
     },
     {
-      "titulo": "Wrapped Monero token crashes 99.8% amid suspected $13.5M exploit",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/wrapped-monero-token-crashes-998-amid-suspected-135m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "titulo": "Peter Schiff Warns of Weekend Crypto Crash Sending ETH to $1K",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/peter-schiff-warns-of-weekend-crypto-crash-sending-eth-to-1k/"
+    },
+    {
+      "titulo": "Bitcoin Sinks Below $56K as Arthur Hayes Says Wait for the Bailout",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-sinks-below-56k-as-arthur-hayes-says-wait-for-the-bailout/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6582,
+    "input_tokens": 6452,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 965,
+    "output_tokens": 818,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
