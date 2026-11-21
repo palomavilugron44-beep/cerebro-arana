@@ -1,25 +1,22 @@
 {
-  "modo": "cautela",
+  "modo": "pausa",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12, mínimo en 7 días) tras una caída de la capitalización total de -6.6% en 24 h, con BTC perdiendo los 58.000 USD y liquidaciones por encima de 1.500 M$. Hay además un hackeo de unos 860 M$ en ETH robados a Binance, sin noticias que indiquen una parada de la red o de las monedas operadas. Como la incertidumbre es alta pero no hay un riesgo grave e inmediato, se recomienda cautela general y más cautela en BTC, ETH, BNB y AVAX.",
+  "resumen": "El mercado cripto se encuentra en caída brusca: la capitalización total cae un 10.05% en 24 h, el índice Miedo/Codicia está en 12 (miedo extremo) y BTC perfora los 58.000 USD, en mínimos desde 2024. Hay además un hackeo de $860 millones en ETH vinculado a Binance y un colapso del token XMR1 por exploit, lo que supone riesgo grave de seguridad. Se recomienda no abrir compras nuevas hasta que el mercado se estabilice.",
   "motivos": [
-    "Miedo extremo (índice 12) sostenido durante 7 días y caída de capitalización total de -6.59% en 24 h.",
-    "BTC perdió 58.000 USD (mínimo desde 2024) con -13.7% en 7 días y más de 1.500 M$ en liquidaciones.",
-    "Hackeo de unos 860 M$ en ETH robados a Binance, que afecta a ETH y BNB; no se reporta parada de red ni de exchange.",
-    "AVAX presenta la mayor caída semanal (-21%) del grupo.",
-    "El token XMR1 (envuelto de Monero, no operado por el bot) colapsó por un exploit; no afecta directamente a las monedas del bot.",
-    "No hay eventos macro de alto impacto en 24 h; la decisión global se mantiene en cautela y no en pausa."
+    "Caída brusca del mercado en curso: capitalización total -10.05% en 24 h, por encima del umbral de -7% con liquidaciones de 1.5 mil millones USD.",
+    "Riesgo de seguridad grave: hackers vinculados a Corea del Norte han movido unos 860 millones USD en ETH robados de Binance, y el exploit de XMR1 supone pérdida de más del 99% de valor.",
+    "Miedo extremo sostenido (índice 12, con valores bajos durante 7 días) y BTC en mínimos de más de dos años, con riesgo de nuevas caídas según analistas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-21T02:11:15+00:00",
-  "valido_hasta": "2026-11-21T05:11:15+00:00",
+  "generado": "2026-11-21T03:51:33+00:00",
+  "valido_hasta": "2026-11-21T06:51:33+00:00",
   "origen": "claude:claude-haiku-5-5",
-  "multiplicador_riesgo": 0.5,
+  "multiplicador_riesgo": 0.0,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -6.59,
-    "noticias_analizadas": 29,
+    "cambio_mercado_24h": -10.05,
+    "noticias_analizadas": 24,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -63,14 +60,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8128,
+    "input_tokens": 7596,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 921,
+    "output_tokens": 521,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
