@@ -1,25 +1,26 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado vive miedo extremo (índice 12, sostenido una semana) tras una caída de BTC casi a 55.000 USD con unos 2.670 millones en liquidaciones, y ahora rebota hacia 60.000 USD con capitalización total plana en 24 h. Las pérdidas de la semana son fuertes (BTC -8.2%, ETH -8.3%) y las bolsas tecnológicas están en corrección, lo que justifica operar con la mitad del tamaño sin llegar a pausar. No hay eventos macro de alto impacto en 24 h ni riesgo sistémico confirmado.",
+  "resumen": "El mercado cripto está en miedo extremo (índice 12, sostenido una semana) tras una caída de BTC hasta casi 55.000 USD con unos 2.670 millones de dólares en liquidaciones, seguida de un rebote por encima de 60.000. Las bolsas tecnológicas en corrección y la caída semanal de cripto-equities aumentan la incertidumbre, aunque no hay evento macro de alto impacto en 24 h ni un riesgo grave de seguridad que afecte a Binance o a las monedas del bot. Se recomienda cautela general, con refuerzo para BTC y ETH por su volatilidad y la presión sobre el colateral de ETH.",
   "motivos": [
-    "Índice Miedo/Codicia en 12 (Extreme Fear) durante los últimos 7 días, con volatilidad alta.",
-    "BTC tocó casi 55.000 USD con 2.670 M$ en liquidaciones en 24 h y luego rebotó a ~60.000 USD; caída fuerte de la semana en BTC y ETH.",
-    "Corrección en Nasdaq/S&P 500 por venta masiva de tecnológicas, con contagio al riesgo cripto.",
-    "Sin eventos macro de alto impacto en las próximas 24 h y sin noticias de hackeo que afecte a las monedas operadas (el exploit de Chainflip no afecta a las 10 monedas del bot).",
-    "Riesgo de pausa no justificado: no hay halt, depeg, delist ni acción regulatoria grave contra las monedas operadas."
+    "Índice Miedo/Codicia en Extreme Fear (12) durante 7 días seguidos.",
+    "BTC cayó a ~55.000 USD con 2.670 M$ en liquidaciones en 24 h y luego rebotó a ~60.000; volatilidad muy elevada.",
+    "Corrección en Nasdaq y S&P 500 y caída fuerte de Nvidia: riesgo de contagio a cripto.",
+    "Presión sobre el colateral de la tesorería de ETH (préstamo Aave de BTCS) por caída del precio de ETH.",
+    "Exploit de ~4,86 M$ en el protocolo Chainflip (FLIP -30%): incidente relevante pero no afecta a las monedas del bot.",
+    "Sin eventos macro de alto impacto USD en las próximas 24 h."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-21T21:39:01+00:00",
-  "valido_hasta": "2026-11-22T00:39:01+00:00",
+  "generado": "2026-11-21T22:40:04+00:00",
+  "valido_hasta": "2026-11-22T01:40:04+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": 0.37,
-    "noticias_analizadas": 18,
-    "articulos_leidos": 8,
+    "cambio_mercado_24h": -0.79,
+    "noticias_analizadas": 15,
+    "articulos_leidos": 7,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
@@ -62,14 +63,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6824,
+    "input_tokens": 6143,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 631,
+    "output_tokens": 784,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
