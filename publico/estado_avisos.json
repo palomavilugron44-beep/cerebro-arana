@@ -1,8 +1,12 @@
 {
   "ultimo_resumen": "2026-11-20",
   "huella": {
-    "modo": "pausa",
-    "monedas": {},
+    "modo": "cautela",
+    "monedas": {
+      "XRPUSDT": "pausa",
+      "AVAXUSDT": "pausa",
+      "LTCUSDT": "pausa"
+    },
     "alerta": ""
   }
 }
