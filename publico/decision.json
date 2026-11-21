@@ -1,24 +1,24 @@
 {
-  "modo": "pausa",
+  "modo": "cautela",
   "monedas": {},
-  "resumen": "La capitalización total cae un 8.12% en 24 h con miedo extremo (índice 12) y noticias de ventas masivas de fin de semana, con BTC en mínimos de dos años (bajo 57.000 USD) y ETH, XRP y AVAX en mínimos de ciclo. Se cumple el criterio de caída brusca del mercado en curso (-7% o peor con liquidaciones), por lo que se pausan las compras nuevas en general. No hay evento macro de alto impacto en 24 h ni noticia de hackeo que afecte directamente a las monedas operadas, aunque el robo de 860 M USD en ETH de Binance es un factor de riesgo a vigilar.",
+  "resumen": "El mercado cripto cae con fuerza: capitalización total -7.82% en 24 h, BTC por debajo de 57.000 USD (mínimos de dos años) y el índice Miedo/Codicia en 12 (miedo extremo) durante toda la última semana. No hay eventos macro de alto impacto en las próximas 24 h, y los riesgos concretos (hackeo de ~860 M USD en ETH de Binance por parte de hackers norcoreanos, caída de XRP bajo 0.90 USD) son relevantes pero no afectan directamente a una pausa general. Se recomienda cautela (mitad de tamaño en compras nuevas) mientras dure la volatilidad.",
   "motivos": [
-    "Capitalización total -8.12% en 24 h, cumpliendo el umbral de caída brusca (-7% o peor) con liquidaciones de largos según las noticias.",
-    "Índice Miedo/Codicia en 12 (Extreme Fear) y sostenido en niveles 10-12 durante 7 días.",
-    "BTC perdió casi un 17% en la semana y cotiza en mínimos de dos años; ETH, XRP, AVAX y LTC también en mínimos recientes.",
-    "Las 10 monedas operadas caen entre -4.8% y -7.9% en 24 h, sin excepciones que justifiquen un trato diferenciado.",
-    "Sin eventos macro de USD de alto impacto en las próximas 24 h; el riesgo principal es la dinámica del propio mercado y el fin de semana."
+    "Miedo extremo sostenido (índice 12, rango 10-12 en 7 días) y caída de capitalización total de -7.82% en 24 h.",
+    "BTC y ETH en mínimos de dos años (BTC bajo 57.000 USD, ETH cerca de 1.600 USD) con caídas de -13% a -20% en 7 días en la mayoría de monedas.",
+    "Hackeo de aproximadamente 860 M USD en ETH vinculado a Binance, con movimientos de fondos en curso: noticia negativa relevante, aunque no implica una anomalía de la moneda ni del exchange en el propio mercado.",
+    "XRP rompió mínimos de noviembre con salidas de ETF y liquidaciones de largos; el resto de monedas sigue la misma tendencia bajista.",
+    "No hay eventos macro USD de alto impacto en 24 h; no se justifica pausa total ni por moneda, pero sí reducir el tamaño de nuevas compras."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-21T09:47:33+00:00",
-  "valido_hasta": "2026-11-21T12:47:33+00:00",
+  "generado": "2026-11-21T10:46:57+00:00",
+  "valido_hasta": "2026-11-21T13:46:57+00:00",
   "origen": "claude:claude-haiku-5-5",
-  "multiplicador_riesgo": 0.0,
+  "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -8.12,
-    "noticias_analizadas": 16,
+    "cambio_mercado_24h": -7.82,
+    "noticias_analizadas": 17,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -41,14 +41,14 @@
       "link": "https://news.bitcoin.com/security/binance-hackers-move-860-million-ether-bitcoin-laundering-surges/"
     },
     {
-      "titulo": "Strategy, Coinbase Shares Battered as Bitcoin Price Hits 2-Year Low and AI Stocks Bleed",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/strategy-coinbase-shares-battered-bitcoin-price-2-year-low-ai-stocks-bleed/"
-    },
-    {
       "titulo": "Peter Schiff Warns of Weekend Crypto Crash Sending ETH to $1K",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/peter-schiff-warns-of-weekend-crypto-crash-sending-eth-to-1k/"
+    },
+    {
+      "titulo": "Biggest HYPE Whale Burns Through $50M of Profit and Nears Liquidation",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/defi/biggest-hype-whale-adds-7m-dodge-liquidation-80m-long/"
     },
     {
       "titulo": "Bitcoin Sinks Below $56K as Arthur Hayes Says Wait for the Bailout",
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6530,
+    "input_tokens": 6698,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 641,
+    "output_tokens": 696,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
