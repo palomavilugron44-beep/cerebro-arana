@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12, estable en niveles muy bajos durante 7 días) tras una fuerte caída de BTC hasta cerca de 55.000 USD con 2.670 millones en liquidaciones, y ya se recupera hacia 60.000 USD. No hay eventos macro de alto impacto en las próximas 24 h ni un hackeo que afecte a las monedas operadas, así que no justifica pausar, pero sí prudencia ante la volatilidad. Se aplica cautela global y reforzada en XRP, LTC y AVAX por su debilidad.",
+  "resumen": "El mercado está en miedo extremo (índice 12, mínimos de la semana) tras una caída de BTC casi a 55.000 USD con unos 2.670 millones en liquidaciones, y luego rebotó a unos 60.300 USD. La capitalización total apenas varía en 24 h (-0.19%), no hay eventos macro de alto impacto en las próximas 24 h, y no se detectan amenazas graves para el conjunto del mercado. Se recomienda cautela general por volatilidad y sentimiento, y cautela adicional en XRP, LTC y AVAX por su debilidad técnica y de flujos.",
   "motivos": [
-    "Índice Miedo/Codicia en 12 (Extreme Fear) de forma sostenida durante la última semana.",
-    "BTC tocó cerca de 55.000 USD con 2.670 M$ en liquidaciones en 24 h; ya rebotó a ~60.000 USD, lo que indica volatilidad elevada.",
-    "Caída tecnológica en bolsa (Nasdaq -5.3% el viernes) y riesgo de contagio a cripto, sin dato macro de alto impacto en 24 h.",
-    "XRP cae por debajo de 0.90 USD por primera vez desde nov-2024 con salidas de ETFs.",
-    "Protocolo Chainflip (FLIP) sufrió un posible robo de 4.86 M$, pero no afecta a las monedas operadas por el bot.",
-    "Caídas semanales de LTC (-12%), AVAX (-11.7%) y DOGE/BTC (-8%) superiores a la media del grupo."
+    "Índice Miedo/Codicia en 12 (Extreme Fear), sostenido durante los últimos 7 días.",
+    "BTC cayó casi a 55.000 USD con unos 2.670 millones en liquidaciones en 24 h, aunque ya rebotó a unos 60.300 USD.",
+    "Mercado tecnológico en corrección (Nasdaq -18% desde máximos), lo que arrastra a las cripto.",
+    "XRP perforó 0.90 USD por primera vez desde 2024 con salidas de ETFs.",
+    "LTC (-12%) y AVAX (-11.5%) con las peores caídas semanales de la lista.",
+    "Incidente de seguridad aislado en Chainflip (FLIP, ~4.86 M USD), sin indicios de afectar a las monedas operadas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-21T18:44:09+00:00",
-  "valido_hasta": "2026-11-21T21:44:09+00:00",
+  "generado": "2026-11-21T19:46:53+00:00",
+  "valido_hasta": "2026-11-21T22:46:53+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -1.07,
+    "cambio_mercado_24h": -0.19,
     "noticias_analizadas": 20,
     "articulos_leidos": 8,
     "fuentes": {
@@ -70,7 +70,7 @@
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 876,
+    "output_tokens": 851,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
