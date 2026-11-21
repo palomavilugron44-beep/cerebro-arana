@@ -1,24 +1,31 @@
 {
-  "modo": "pausa",
-  "monedas": {},
-  "resumen": "El mercado cripto sufre una caída brusca en curso: la capitalización total cae un 5.12% en 24 h, BTC llegó a casi 55.000 USD con unos 2.670 millones de dólares en liquidaciones y el índice de miedo y codicia está en 12 (miedo extremo). Esto coincide con una venta generalizada en bolsa (Nasdaq -5.3% el viernes, S&P 500 en corrección) y no hay eventos macro de alto impacto en las próximas 24 h. Dado que la capitalización cae cerca del umbral de -7% y la situación es de liquidaciones en cadena, conviene pausar nuevas compras hasta que se estabilice el mercado.",
+  "modo": "cautela",
+  "monedas": {
+    "XRPUSDT": {
+      "modo": "pausa",
+      "motivo": "XRP perforó mínimos de noviembre (~0.87, mínimo desde nov-2024), caída de ~10% en 24 h con salidas de ETFs; situación de ruptura técnica severa.",
+      "multiplicador_riesgo": 0.0
+    }
+  },
+  "resumen": "El mercado está en miedo extremo (índice 12, sostenido durante toda la semana) tras una semana muy negativa: BTC tocó ~55.000 USD con unos 2.670 M$ en liquidaciones y la capitalización total cae un 1.84% en 24 h, con la bolsa tecnológica en corrección. No hay eventos macro de alto impacto USD en las próximas 24 h, y la caída es severa pero no un colapso de mercado con noticias de liquidaciones de -7% en 24 h, por lo que no justifica una pausa global. Se aplica cautela global y pausa solo para XRP por la ruptura técnica, más cautela para LTC y AVAX por su peor comportamiento semanal.",
   "motivos": [
-    "Capitalización total -5.12% en 24 h con noticias de liquidaciones por 2.670 M USD en 24 h, cerca del umbral de caída brusca (-7%).",
-    "BTC tocó casi 55.000 USD, mínimo desde septiembre 2024, y todas las monedas del universo están en caída de 7 días entre -6.5% y -16%.",
-    "Índice de miedo y codicia en 12 (miedo extremo) de forma sostenida durante la última semana.",
-    "Venta generalizada en tecnológicas (Nasdaq -5.3%, S&P 500 en corrección) que arrastra a los activos de riesgo.",
-    "Las noticias negativas por moneda (XRP bajo 0.90 USD con salidas de ETF) refuerzan el contexto bajista, pero no hay una moneda en situación anómala individual."
+    "Índice Miedo/Codicia en 12 (Extreme Fear) durante 7 días seguidos: incertidumbre elevada.",
+    "BTC cayó a ~55.000 USD con 2.67 mil M$ en liquidaciones en 24 h y el Nasdaq entró en corrección: volatilidad fuerte.",
+    "Capitalización total -1.84% en 24 h: caída relevante pero por debajo del umbral de -7% para pausa global.",
+    "XRP rompió mínimos de noviembre (~0.87 USD) con salidas de ETFs: pausa específica para XRPUSDT.",
+    "LTC (-14.4%) y AVAX (-13.8%) con peor comportamiento semanal: cautela específica.",
+    "Chainflip (FLIP) sufrió un posible exploit de 4.86 M$, pero no es una moneda de la lista del bot; no se justifica pausa global."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-21T15:44:35+00:00",
-  "valido_hasta": "2026-11-21T18:44:35+00:00",
+  "generado": "2026-11-21T16:44:27+00:00",
+  "valido_hasta": "2026-11-21T19:44:27+00:00",
   "origen": "claude:claude-haiku-5-5",
-  "multiplicador_riesgo": 0.0,
+  "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -5.12,
-    "noticias_analizadas": 19,
+    "cambio_mercado_24h": -1.84,
+    "noticias_analizadas": 20,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -51,25 +58,25 @@
       "link": "https://news.bitcoin.com/finance/wells-fargo-leads-us-institutions-hit-record-356k-bitcoin-holdings/"
     },
     {
+      "titulo": "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain"
+    },
+    {
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Biggest HYPE Whale Burns Through $50M of Profit and Nears Liquidation",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/defi/biggest-hype-whale-adds-7m-dodge-liquidation-80m-long/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7005,
+    "input_tokens": 7146,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 656,
+    "output_tokens": 915,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
