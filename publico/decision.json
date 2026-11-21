@@ -1,22 +1,24 @@
 {
   "modo": "pausa",
   "monedas": {},
-  "resumen": "El mercado cripto se encuentra en caída brusca: la capitalización total cae un 10.05% en 24 h, el índice Miedo/Codicia está en 12 (miedo extremo) y BTC perfora los 58.000 USD, en mínimos desde 2024. Hay además un hackeo de $860 millones en ETH vinculado a Binance y un colapso del token XMR1 por exploit, lo que supone riesgo grave de seguridad. Se recomienda no abrir compras nuevas hasta que el mercado se estabilice.",
+  "resumen": "La capitalización total cripto cae un 10.6% en 24 h, con miedo extremo (índice 12) y liquidaciones superiores a 1.500 M$, y BTC perfora los 57.000 USD, su mínimo en dos años. Además, se conoce un hackeo de unos 860 M$ en ETH robado a Binance que sigue moviéndose, y el token XMR1 colapsó tras un exploit de 13,5 M$. Dado que se trata de una caída brusca del mercado en curso con riesgos concretos de seguridad, se pausan las compras nuevas en general y en ETH.",
   "motivos": [
-    "Caída brusca del mercado en curso: capitalización total -10.05% en 24 h, por encima del umbral de -7% con liquidaciones de 1.5 mil millones USD.",
-    "Riesgo de seguridad grave: hackers vinculados a Corea del Norte han movido unos 860 millones USD en ETH robados de Binance, y el exploit de XMR1 supone pérdida de más del 99% de valor.",
-    "Miedo extremo sostenido (índice 12, con valores bajos durante 7 días) y BTC en mínimos de más de dos años, con riesgo de nuevas caídas según analistas."
+    "Caída de la capitalización total de -10.62% en 24 h con noticias de liquidaciones por más de 1.500 M$ (criterio de pausa).",
+    "Hackeo de unos 860 M$ en ETH sustraído de Binance (problema de seguridad de un exchange) con fondos aún en movimiento.",
+    "ETH perfora el soporte de 1.600 USD y el índice Miedo/Codicia está en 12 (miedo extremo, varios días seguidos).",
+    "BTC en mínimos de dos años (por debajo de 57.000 USD), con tendencia bajista en la semana (-16% en 7 días).",
+    "El token XMR1 (wrapped Monero) colapsó 99% por un exploit; no afecta directamente a las monedas operadas, pero aumenta la desconfianza en activos envueltos."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-21T03:51:33+00:00",
-  "valido_hasta": "2026-11-21T06:51:33+00:00",
+  "generado": "2026-11-21T04:55:02+00:00",
+  "valido_hasta": "2026-11-21T07:55:02+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.0,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -10.05,
-    "noticias_analizadas": 24,
+    "cambio_mercado_24h": -10.62,
+    "noticias_analizadas": 20,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -39,11 +41,6 @@
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-crashes-below-59k-crypto-liquidations-top-1-5b/"
     },
     {
-      "titulo": "US Senate advances prediction market restrictions with DEATH BETS Act",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/us-senate-advances-prediction-market-restrictions-with-death-bets-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
       "titulo": "Binance Hackers Move $860 Million in Ether as Bitcoin Laundering Surges",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/security/binance-hackers-move-860-million-ether-bitcoin-laundering-surges/"
@@ -57,17 +54,22 @@
       "titulo": "Wrapped Monero Token XMR1 Crashes After $13M Exploit, Founder Vows Repayment",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/security/wrapped-monero-token-xmr1-crashes-13m-exploit-founder-vows-repayment/"
+    },
+    {
+      "titulo": "Wrapped Monero token crashes 99.8% amid suspected $13.5M exploit",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/wrapped-monero-token-crashes-998-amid-suspected-135m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7596,
+    "input_tokens": 7045,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 521,
+    "output_tokens": 764,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
