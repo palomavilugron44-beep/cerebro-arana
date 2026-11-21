@@ -1,39 +1,35 @@
 {
   "modo": "pausa",
   "monedas": {},
-  "resumen": "La capitalización total cae un 7.46% en 24 h con miedo extremo (índice 12) y liquidaciones de unos 1.5 mil millones, y BTC ha perdido por debajo de 58.000 USD, su nivel más bajo desde 2024. Hay además un exploit en XMR1 y un fuerte sell-off tecnológico ligado a Anthropic, con salidas de ETF de BTC de más de 1.1 mil millones esta semana. Dada la caída brusca del mercado en curso con liquidaciones, la decisión es pausar nuevas compras en todas las monedas operables.",
+  "resumen": "El mercado cripto está en una caída brusca: capitalización -7.29% en 24 h, liquidaciones de más de 1.500 M$, BTC en mínimos desde 2024 y miedo extremo sostenido durante la última semana. Además, unos 860 M$ en ETH robados en un hackeo a Binance siguen moviéndose, lo que añade un riesgo de seguridad grave sobre Ethereum. Por ello se recomienda pausar las compras nuevas de forma global y mantener la pausa específica para ETH.",
   "motivos": [
-    "Capitalización total -7.46% en 24 h con noticias de liquidaciones superiores a 1.5 mil millones de USD, que cumple el criterio de caída brusca del mercado en curso.",
-    "BTC perforó 58.000 USD, mínimo desde 2024, con salidas de ETF de BTC de más de 1.1 mil millones en la semana y 'death cross' en gráfico diario.",
-    "Todas las monedas operables caen entre -3.9% y -7.6% en 24 h y entre -9.9% y -20.6% en 7 días.",
-    "Miedo extremo sostenido (índice 12, mínimo de la semana 10), sin eventos macro USD de alto impacto en 24 h."
+    "Capitalización total cripto -7.29% en 24 h con liquidaciones de más de 1.500 M$, cumpliendo el criterio de caída brusca de mercado en curso.",
+    "Miedo extremo (índice 12) sostenido durante 7 días, con BTC en mínimos desde 2024 y 7 días de caídas en casi todas las monedas.",
+    "Hackeo a Binance: unos 860 M$ en ETH robados por hackers vinculados a Corea del Norte siguen moviéndose, lo que constituye un riesgo de seguridad grave para ETH y para el exchange.",
+    "XMR1 (token envuelto de Monero) colapsó 99% por exploit; no es una de las monedas operadas, pero indica riesgo en tokens envueltos.",
+    "Sin eventos macro de alto impacto en 24 h; la decisión global de pausa se basa en la caída de mercado y el hackeo."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-20T23:47:14+00:00",
-  "valido_hasta": "2026-11-21T02:47:14+00:00",
+  "generado": "2026-11-21T01:05:14+00:00",
+  "valido_hasta": "2026-11-21T04:05:14+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.0,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -7.46,
-    "noticias_analizadas": 39,
+    "cambio_mercado_24h": -7.29,
+    "noticias_analizadas": 34,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
       "Decrypt": 37,
       "Bitcoin.com": 10,
-      "NewsBTC": 10
+      "NewsBTC": 0
     },
     "eventos_usd_24h": 0
   },
   "titulares": [
-    {
-      "titulo": "Bitcoin ETFs Shed $582M in a Day as BTC Drops Below $62K",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/383685/bitcoin-etfs-shed-582m-in-a-day-as-btc-drops-below-62k"
-    },
     {
       "titulo": "Bitcoin Hits Lowest Price Since 2024 After Peter Brandt Warns of Deflation",
       "fuente": "Bitcoin.com",
@@ -50,6 +46,11 @@
       "link": "https://cointelegraph.com/news/us-senate-advances-prediction-market-restrictions-with-death-bets-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "titulo": "Binance Hackers Move $860 Million in Ether as Bitcoin Laundering Surges",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/security/binance-hackers-move-860-million-ether-bitcoin-laundering-surges/"
+    },
+    {
       "titulo": "Strategy, Coinbase Shares Battered as Bitcoin Price Hits 2-Year Low and AI Stocks Bleed",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/strategy-coinbase-shares-battered-bitcoin-price-2-year-low-ai-stocks-bleed/"
@@ -61,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9276,
+    "input_tokens": 8575,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 622,
+    "output_tokens": 804,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
