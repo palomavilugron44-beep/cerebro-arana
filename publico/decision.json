@@ -1,24 +1,25 @@
 {
   "modo": "pausa",
   "monedas": {},
-  "resumen": "La capitalización total cripto cae un 10.6% en 24 h, con miedo extremo (índice 12) y liquidaciones superiores a 1.500 M$, y BTC perfora los 57.000 USD, su mínimo en dos años. Además, se conoce un hackeo de unos 860 M$ en ETH robado a Binance que sigue moviéndose, y el token XMR1 colapsó tras un exploit de 13,5 M$. Dado que se trata de una caída brusca del mercado en curso con riesgos concretos de seguridad, se pausan las compras nuevas en general y en ETH.",
+  "resumen": "El mercado cripto está en una caída brusca: la capitalización total cae -10.27% en 24 h, el índice Miedo/Codicia está en 12 (miedo extremo) y BTC perfora mínimos de dos años por debajo de 57.000 USD. Además, hay un hackeo masivo reciente (unos 860 M USD en ETH robados de Binance por hackers vinculados a Corea del Norte) y un exploit de 13.5 M USD en XMR1, lo que eleva el riesgo de seguridad. Dado que la caída de mercado supera el umbral de -7% con liquidaciones en curso, se decide pausar las compras nuevas en general, con pausa reforzada en AVAX y LTC.",
   "motivos": [
-    "Caída de la capitalización total de -10.62% en 24 h con noticias de liquidaciones por más de 1.500 M$ (criterio de pausa).",
-    "Hackeo de unos 860 M$ en ETH sustraído de Binance (problema de seguridad de un exchange) con fondos aún en movimiento.",
-    "ETH perfora el soporte de 1.600 USD y el índice Miedo/Codicia está en 12 (miedo extremo, varios días seguidos).",
-    "BTC en mínimos de dos años (por debajo de 57.000 USD), con tendencia bajista en la semana (-16% en 7 días).",
-    "El token XMR1 (wrapped Monero) colapsó 99% por un exploit; no afecta directamente a las monedas operadas, pero aumenta la desconfianza en activos envueltos."
+    "Capitalización total -10.27% en 24 h, por encima del umbral de -7% para pausa.",
+    "Miedo extremo (índice 12) sostenido durante los últimos 7 días.",
+    "BTC por debajo de 57.000 USD, mínimos de dos años, con noticias de liquidaciones y venta en activos tecnológicos y financieros.",
+    "Hackeo de unos 860 M USD en ETH de Binance atribuido a grupo vinculado a Norcorea, riesgo de seguridad de exchange.",
+    "AVAX (-23.4% en 7 d) y LTC (-20.3% en 7 d) muestran el peor deterioro semanal entre las monedas vigiladas.",
+    "Sin eventos macro de alto impacto en 24 h, pero la pausa global se justifica por la caída de mercado en curso."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-21T04:55:02+00:00",
-  "valido_hasta": "2026-11-21T07:55:02+00:00",
+  "generado": "2026-11-21T05:54:57+00:00",
+  "valido_hasta": "2026-11-21T08:54:57+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.0,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -10.62,
-    "noticias_analizadas": 20,
+    "cambio_mercado_24h": -10.27,
+    "noticias_analizadas": 19,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -34,11 +35,6 @@
       "titulo": "Bitcoin Hits Lowest Price Since 2024 After Peter Brandt Warns of Deflation",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/peter-brandt-warns-deflation-bitcoin-lowest-price-since-2024/"
-    },
-    {
-      "titulo": "Bitcoin Price Crashes Below $59K as Crypto Liquidations Top $1.5B",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-crashes-below-59k-crypto-liquidations-top-1-5b/"
     },
     {
       "titulo": "Binance Hackers Move $860 Million in Ether as Bitcoin Laundering Surges",
@@ -59,17 +55,22 @@
       "titulo": "Wrapped Monero token crashes 99.8% amid suspected $13.5M exploit",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/wrapped-monero-token-crashes-998-amid-suspected-135m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/20/bitcoin-plunges-below-usd59-000-as-rush-to-cash-puts-new-bear-market-lows-back-in-play"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7045,
+    "input_tokens": 6884,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 764,
+    "output_tokens": 793,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
