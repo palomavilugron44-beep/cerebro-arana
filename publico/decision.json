@@ -1,29 +1,23 @@
 {
-  "modo": "cautela",
-  "monedas": {
-    "XRPUSDT": {
-      "modo": "pausa",
-      "motivo": "Cae ~10% en 24 h, rompe mínimos de noviembre y está bajo 0,90 USD con salidas netas de ETF; caída anómala en curso.",
-      "multiplicador_riesgo": 0.0
-    }
-  },
-  "resumen": "El mercado cripto está en caída fuerte: capitalización total -4,9% en 24 h, BTC por debajo de 60.000 USD por primera vez desde julio y miedo extremo (índice 12, sostenido durante la semana). Las caídas coinciden con una venta amplia en bolsas tecnológicas (Nasdaq -5,3% el viernes, S&P 500 en corrección), un factor de riesgo macro externo. No hay evento macro de alto impacto USD en 24 h ni noticia de hackeo, regulación grave o halt, así que no se justifica pausa global, pero sí cautela; XRP merece pausa por su caída de ~10% y rotura de mínimos.",
+  "modo": "pausa",
+  "monedas": {},
+  "resumen": "El mercado cripto sufre una caída brusca en curso: la capitalización total cae un 5.12% en 24 h, BTC llegó a casi 55.000 USD con unos 2.670 millones de dólares en liquidaciones y el índice de miedo y codicia está en 12 (miedo extremo). Esto coincide con una venta generalizada en bolsa (Nasdaq -5.3% el viernes, S&P 500 en corrección) y no hay eventos macro de alto impacto en las próximas 24 h. Dado que la capitalización cae cerca del umbral de -7% y la situación es de liquidaciones en cadena, conviene pausar nuevas compras hasta que se estabilice el mercado.",
   "motivos": [
-    "Miedo extremo sostenido (índice 12 durante 7 días) y capitalización total -4,9% en 24 h.",
-    "BTC por debajo de 60.000 USD, mínimos de dos años en varias fuentes, y caídas de 7 días entre -6% y -17% en todas las monedas.",
-    "Venta amplia en tecnológicas (Nasdaq -5,3%, S&P 500 en corrección), factor macro de riesgo sin fecha de dato programado en 24 h.",
-    "XRP cae ~10% en 24 h, rompe mínimos de noviembre con salidas netas de ETF; situación de caída brusca específica de la moneda.",
-    "No hay eventos macro USD de alto impacto en las próximas 24 h ni hackeo, halt o acción regulatoria grave identificados."
+    "Capitalización total -5.12% en 24 h con noticias de liquidaciones por 2.670 M USD en 24 h, cerca del umbral de caída brusca (-7%).",
+    "BTC tocó casi 55.000 USD, mínimo desde septiembre 2024, y todas las monedas del universo están en caída de 7 días entre -6.5% y -16%.",
+    "Índice de miedo y codicia en 12 (miedo extremo) de forma sostenida durante la última semana.",
+    "Venta generalizada en tecnológicas (Nasdaq -5.3%, S&P 500 en corrección) que arrastra a los activos de riesgo.",
+    "Las noticias negativas por moneda (XRP bajo 0.90 USD con salidas de ETF) refuerzan el contexto bajista, pero no hay una moneda en situación anómala individual."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-21T14:50:23+00:00",
-  "valido_hasta": "2026-11-21T17:50:23+00:00",
+  "generado": "2026-11-21T15:44:35+00:00",
+  "valido_hasta": "2026-11-21T18:44:35+00:00",
   "origen": "claude:claude-haiku-5-5",
-  "multiplicador_riesgo": 0.5,
+  "multiplicador_riesgo": 0.0,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -4.9,
+    "cambio_mercado_24h": -5.12,
     "noticias_analizadas": 19,
     "articulos_leidos": 8,
     "fuentes": {
@@ -36,6 +30,11 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
+    {
+      "titulo": "Bitcoin Price Rebounds to $60K After Crash Near $55K, Leaving Billions in Liquidations",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-rebounds-60k-crash-near-55k-billions-liquidations/"
+    },
     {
       "titulo": "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion",
       "fuente": "CoinDesk",
@@ -60,22 +59,17 @@
       "titulo": "Biggest HYPE Whale Burns Through $50M of Profit and Nears Liquidation",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/defi/biggest-hype-whale-adds-7m-dodge-liquidation-80m-long/"
-    },
-    {
-      "titulo": "Bitcoin Sinks Below $56K as Arthur Hayes Says Wait for the Bailout",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/bitcoin-sinks-below-56k-as-arthur-hayes-says-wait-for-the-bailout/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7019,
+    "input_tokens": 7005,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 720,
+    "output_tokens": 656,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
