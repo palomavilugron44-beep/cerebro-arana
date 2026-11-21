@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12, sostenido en torno a 10-12 durante 7 días) tras una semana muy negativa: BTC tocó cerca de 55.000 USD con 2.670 M$ en liquidaciones y las bolsas tecnológicas entraron en corrección. No hay eventos macro de alto impacto en 24 h, y la caída es fuerte pero no llega al umbral de pausa. Se recomienda cautela general, con refuerzo en LTC y AVAX por su mayor caída semanal.",
+  "resumen": "El mercado está en miedo extremo (índice 12, estable en niveles muy bajos durante 7 días) tras una fuerte caída de BTC hasta cerca de 55.000 USD con 2.670 millones en liquidaciones, y ya se recupera hacia 60.000 USD. No hay eventos macro de alto impacto en las próximas 24 h ni un hackeo que afecte a las monedas operadas, así que no justifica pausar, pero sí prudencia ante la volatilidad. Se aplica cautela global y reforzada en XRP, LTC y AVAX por su debilidad.",
   "motivos": [
-    "Índice Miedo/Codicia en 12 (miedo extremo) y sostenido en la última semana.",
-    "Capitalización total -1.6% en 24 h tras una semana de caídas fuertes; BTC bajó de 60.000 USD y rebotó.",
-    "Liquidaciones de 2.670 M$ en 24 h y corrección en el Nasdaq y S&P 500: incertidumbre elevada, pero no una caída de -7% en 24 h.",
-    "Hackeo de Chainflip (FLIP, ~4.86 M$): problema de un protocolo cross-chain no operado por el bot, sin afectar a las monedas de la lista.",
-    "Sin eventos macro USD de alto impacto en 24 h.",
-    "LTC (-13.7%) y AVAX (-13.8%) son las monedas con peor comportamiento semanal."
+    "Índice Miedo/Codicia en 12 (Extreme Fear) de forma sostenida durante la última semana.",
+    "BTC tocó cerca de 55.000 USD con 2.670 M$ en liquidaciones en 24 h; ya rebotó a ~60.000 USD, lo que indica volatilidad elevada.",
+    "Caída tecnológica en bolsa (Nasdaq -5.3% el viernes) y riesgo de contagio a cripto, sin dato macro de alto impacto en 24 h.",
+    "XRP cae por debajo de 0.90 USD por primera vez desde nov-2024 con salidas de ETFs.",
+    "Protocolo Chainflip (FLIP) sufrió un posible robo de 4.86 M$, pero no afecta a las monedas operadas por el bot.",
+    "Caídas semanales de LTC (-12%), AVAX (-11.7%) y DOGE/BTC (-8%) superiores a la media del grupo."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-21T17:41:59+00:00",
-  "valido_hasta": "2026-11-21T20:41:59+00:00",
+  "generado": "2026-11-21T18:44:09+00:00",
+  "valido_hasta": "2026-11-21T21:44:09+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -1.6,
+    "cambio_mercado_24h": -1.07,
     "noticias_analizadas": 20,
     "articulos_leidos": 8,
     "fuentes": {
@@ -37,11 +37,6 @@
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-rebounds-60k-crash-near-55k-billions-liquidations/"
     },
     {
-      "titulo": "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion"
-    },
-    {
       "titulo": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated"
@@ -50,6 +45,11 @@
       "titulo": "Wells Fargo Leads as US Institutions Hit Record 356K Bitcoin Holdings: Galaxy",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/finance/wells-fargo-leads-us-institutions-hit-record-356k-bitcoin-holdings/"
+    },
+    {
+      "titulo": "Bitcoin bounces 9% from two-year low to retake $60,000 as traders eye Monday’s stock open",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open"
     },
     {
       "titulo": "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain",
@@ -63,14 +63,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7162,
+    "input_tokens": 7139,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 714,
+    "output_tokens": 876,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
