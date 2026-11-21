@@ -1,30 +1,24 @@
 {
   "modo": "cautela",
-  "monedas": {
-    "XRPUSDT": {
-      "modo": "pausa",
-      "motivo": "XRP perforó mínimos de noviembre (~0.87, mínimo desde nov-2024), caída de ~10% en 24 h con salidas de ETFs; situación de ruptura técnica severa.",
-      "multiplicador_riesgo": 0.0
-    }
-  },
-  "resumen": "El mercado está en miedo extremo (índice 12, sostenido durante toda la semana) tras una semana muy negativa: BTC tocó ~55.000 USD con unos 2.670 M$ en liquidaciones y la capitalización total cae un 1.84% en 24 h, con la bolsa tecnológica en corrección. No hay eventos macro de alto impacto USD en las próximas 24 h, y la caída es severa pero no un colapso de mercado con noticias de liquidaciones de -7% en 24 h, por lo que no justifica una pausa global. Se aplica cautela global y pausa solo para XRP por la ruptura técnica, más cautela para LTC y AVAX por su peor comportamiento semanal.",
+  "monedas": {},
+  "resumen": "El mercado está en miedo extremo (índice 12, sostenido en torno a 10-12 durante 7 días) tras una semana muy negativa: BTC tocó cerca de 55.000 USD con 2.670 M$ en liquidaciones y las bolsas tecnológicas entraron en corrección. No hay eventos macro de alto impacto en 24 h, y la caída es fuerte pero no llega al umbral de pausa. Se recomienda cautela general, con refuerzo en LTC y AVAX por su mayor caída semanal.",
   "motivos": [
-    "Índice Miedo/Codicia en 12 (Extreme Fear) durante 7 días seguidos: incertidumbre elevada.",
-    "BTC cayó a ~55.000 USD con 2.67 mil M$ en liquidaciones en 24 h y el Nasdaq entró en corrección: volatilidad fuerte.",
-    "Capitalización total -1.84% en 24 h: caída relevante pero por debajo del umbral de -7% para pausa global.",
-    "XRP rompió mínimos de noviembre (~0.87 USD) con salidas de ETFs: pausa específica para XRPUSDT.",
-    "LTC (-14.4%) y AVAX (-13.8%) con peor comportamiento semanal: cautela específica.",
-    "Chainflip (FLIP) sufrió un posible exploit de 4.86 M$, pero no es una moneda de la lista del bot; no se justifica pausa global."
+    "Índice Miedo/Codicia en 12 (miedo extremo) y sostenido en la última semana.",
+    "Capitalización total -1.6% en 24 h tras una semana de caídas fuertes; BTC bajó de 60.000 USD y rebotó.",
+    "Liquidaciones de 2.670 M$ en 24 h y corrección en el Nasdaq y S&P 500: incertidumbre elevada, pero no una caída de -7% en 24 h.",
+    "Hackeo de Chainflip (FLIP, ~4.86 M$): problema de un protocolo cross-chain no operado por el bot, sin afectar a las monedas de la lista.",
+    "Sin eventos macro USD de alto impacto en 24 h.",
+    "LTC (-13.7%) y AVAX (-13.8%) son las monedas con peor comportamiento semanal."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-21T16:44:27+00:00",
-  "valido_hasta": "2026-11-21T19:44:27+00:00",
+  "generado": "2026-11-21T17:41:59+00:00",
+  "valido_hasta": "2026-11-21T20:41:59+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -1.84,
+    "cambio_mercado_24h": -1.6,
     "noticias_analizadas": 20,
     "articulos_leidos": 8,
     "fuentes": {
@@ -69,14 +63,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7146,
+    "input_tokens": 7162,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 915,
+    "output_tokens": 714,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
