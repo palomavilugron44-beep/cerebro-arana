@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto atraviesa una fuerte caída: la capitalización total cayó un 7.8% en 24 h, BTC perdió por debajo de 60.000 USD y el índice Miedo/Codicia marca 12 (miedo extremo) desde hace una semana. No hay eventos macro de alto impacto en las próximas 24 h ni hay noticias de hackeos, regulación grave o anomalías de moneda, así que no justifica pausar. Dado el miedo extremo y la volatilidad, conviene que el bot opere con cautela (mitad de tamaño) en las compras nuevas.",
+  "resumen": "El mercado cripto cae con fuerza: capitalización total -6.67% en 24 h, BTC por debajo de 58.000 USD (mínimos de dos años) y miedo extremo (índice 12, valores bajos durante toda la semana). No hay eventos macro de alto impacto en las próximas 24 h ni hackeos, problemas regulatorios graves o anomalías de moneda en las noticias. La caída es fuerte y no llega al umbral de -7% en 24 h, así que se aplica cautela general (compras con la mitad del tamaño) en lugar de pausa.",
   "motivos": [
-    "Miedo extremo sostenido (índice 12, rango 10-12 en 7 días)",
-    "Caída de capitalización total de -7.8% en 24 h con BTC por debajo de 60.000 USD y ETH cerca de 1.600 USD",
-    "Volatilidad elevada y tendencia bajista en todas las monedas vigiladas (caídas de 4-7% en 24 h)",
-    "Sin evento macro de alto impacto en 24 h y sin riesgo grave de seguridad, regulatorio o de deslistado que justifique pausa"
+    "Miedo extremo sostenido (índice 12, 7 días entre 10 y 12).",
+    "Capitalización total -6.67% en 24 h, cerca del umbral de pausa (-7%) pero sin llegar a él.",
+    "BTC por debajo de 58.000 USD, mínimos desde hace dos años; todas las monedas vigentes bajan entre -3% y -6% en 24 h.",
+    "XRP cae por debajo de 0.90 USD con salidas de ETF y liquidaciones de largos; ETH y BTCS con riesgo de liquidación en Aave (noticia no grave para el mercado en general).",
+    "Sin eventos macro de alto impacto en 24 h ni incidentes de seguridad o regulatorios graves en las noticias."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-21T11:44:29+00:00",
-  "valido_hasta": "2026-11-21T14:44:29+00:00",
+  "generado": "2026-11-21T12:52:25+00:00",
+  "valido_hasta": "2026-11-21T15:52:25+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -7.8,
-    "noticias_analizadas": 17,
+    "cambio_mercado_24h": -6.67,
+    "noticias_analizadas": 18,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -35,9 +36,14 @@
       "link": "https://www.coindesk.com/markets/2026/11/21/xrp-falls-10-as-long-bets-unwind-and-etf-assets-slip-below-usd1-billion"
     },
     {
-      "titulo": "Peter Schiff Warns of Weekend Crypto Crash Sending ETH to $1K",
+      "titulo": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated"
+    },
+    {
+      "titulo": "Wells Fargo Leads as US Institutions Hit Record 356K Bitcoin Holdings: Galaxy",
       "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/peter-schiff-warns-of-weekend-crypto-crash-sending-eth-to-1k/"
+      "link": "https://news.bitcoin.com/finance/wells-fargo-leads-us-institutions-hit-record-356k-bitcoin-holdings/"
     },
     {
       "titulo": "Here’s what happened in crypto today",
@@ -53,22 +59,17 @@
       "titulo": "Bitcoin Sinks Below $56K as Arthur Hayes Says Wait for the Bailout",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/bitcoin-sinks-below-56k-as-arthur-hayes-says-wait-for-the-bailout/"
-    },
-    {
-      "titulo": "Bitcoin tanks below $57,000 for the first time in two years, and its not alone",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/21/bitcoin-tanks-below-usd57-000-for-the-first-time-in-two-years-and-its-not-alone"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6718,
+    "input_tokens": 6840,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 520,
+    "output_tokens": 582,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
