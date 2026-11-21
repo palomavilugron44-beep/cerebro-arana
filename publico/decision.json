@@ -1,26 +1,26 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto está en miedo extremo (índice 12, sostenido una semana) tras una caída de BTC hasta casi 55.000 USD con unos 2.670 millones de dólares en liquidaciones, seguida de un rebote por encima de 60.000. Las bolsas tecnológicas en corrección y la caída semanal de cripto-equities aumentan la incertidumbre, aunque no hay evento macro de alto impacto en 24 h ni un riesgo grave de seguridad que afecte a Binance o a las monedas del bot. Se recomienda cautela general, con refuerzo para BTC y ETH por su volatilidad y la presión sobre el colateral de ETH.",
+  "resumen": "El mercado está en miedo extremo (índice 12, sostenido una semana) tras un desplome de BTC casi a 55.000 USD con 2.670 M$ en liquidaciones, aunque ya se ha recuperado por encima de 60.000 USD y la capitalización total cae solo -1.04% en 24 h. No hay eventos macro de alto impacto en las próximas 24 h ni un riesgo sistémico confirmado en curso, por lo que la pausa no está justificada, pero la volatilidad y la incertidumbre elevada sí aconsejan operar con cautela. Como caso puntual, LTC acumula la peor caída semanal del grupo.",
   "motivos": [
-    "Índice Miedo/Codicia en Extreme Fear (12) durante 7 días seguidos.",
-    "BTC cayó a ~55.000 USD con 2.670 M$ en liquidaciones en 24 h y luego rebotó a ~60.000; volatilidad muy elevada.",
-    "Corrección en Nasdaq y S&P 500 y caída fuerte de Nvidia: riesgo de contagio a cripto.",
-    "Presión sobre el colateral de la tesorería de ETH (préstamo Aave de BTCS) por caída del precio de ETH.",
-    "Exploit de ~4,86 M$ en el protocolo Chainflip (FLIP -30%): incidente relevante pero no afecta a las monedas del bot.",
-    "Sin eventos macro de alto impacto USD en las próximas 24 h."
+    "Índice Miedo/Codicia en 'Extreme Fear' (12) de forma sostenida durante los últimos 7 días.",
+    "Caída reciente de BTC casi a 55.000 USD con 2.670 M$ en liquidaciones; rebote posterior por encima de 60.000 USD.",
+    "Nasdaq -5.3% y S&P 500 en correción por venta de tecnología, con riesgo de contagio a cripto.",
+    "Hackeo de Chainflip (FLIP, ~4.86 M$), protocolo cross-chain fuera de la lista de monedas operadas; sin impacto directo en las 10 monedas.",
+    "Sin eventos económicos USD de alto impacto en las próximas 24 h.",
+    "LTC con -10.47% en 7 días, la peor evolución del grupo."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-21T22:40:04+00:00",
-  "valido_hasta": "2026-11-22T01:40:04+00:00",
+  "generado": "2026-11-21T23:37:47+00:00",
+  "valido_hasta": "2026-11-22T02:37:47+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -0.79,
-    "noticias_analizadas": 15,
-    "articulos_leidos": 7,
+    "cambio_mercado_24h": -1.04,
+    "noticias_analizadas": 14,
+    "articulos_leidos": 6,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
@@ -57,20 +57,20 @@
       "link": "https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain"
     },
     {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "titulo": "Washington Politics Are Crushing Crypto Industry Ambitions, Warns Bitwise CIO",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/crypto-news/washington-politics-are-crushing-crypto-industry-ambitions-warns-bitwise-cio/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6143,
+    "input_tokens": 5772,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 784,
+    "output_tokens": 695,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
