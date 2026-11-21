@@ -1,25 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12, mínimos de la semana) tras una caída de BTC casi a 55.000 USD con unos 2.670 millones en liquidaciones, y luego rebotó a unos 60.300 USD. La capitalización total apenas varía en 24 h (-0.19%), no hay eventos macro de alto impacto en las próximas 24 h, y no se detectan amenazas graves para el conjunto del mercado. Se recomienda cautela general por volatilidad y sentimiento, y cautela adicional en XRP, LTC y AVAX por su debilidad técnica y de flujos.",
+  "resumen": "El mercado está en miedo extremo (índice 12, días consecutivos en niveles similares) tras una fuerte caída de BTC hacia 55.000 USD con 2.670 millones en liquidaciones, y ahora rebota hacia 60.000 USD. La capitalización total apenas varía en 24 h y no hay eventos macro de alto impacto en las próximas 24 h, por lo que no hay motivo para pausar. Dado el entorno de volatilidad y miedo extremo, conviene operar con cautela (mitad de tamaño) en el global.",
   "motivos": [
-    "Índice Miedo/Codicia en 12 (Extreme Fear), sostenido durante los últimos 7 días.",
-    "BTC cayó casi a 55.000 USD con unos 2.670 millones en liquidaciones en 24 h, aunque ya rebotó a unos 60.300 USD.",
-    "Mercado tecnológico en corrección (Nasdaq -18% desde máximos), lo que arrastra a las cripto.",
-    "XRP perforó 0.90 USD por primera vez desde 2024 con salidas de ETFs.",
-    "LTC (-12%) y AVAX (-11.5%) con las peores caídas semanales de la lista.",
-    "Incidente de seguridad aislado en Chainflip (FLIP, ~4.86 M USD), sin indicios de afectar a las monedas operadas."
+    "Índice Miedo/Codicia en 12 (Extreme Fear) y sostenido durante los últimos 7 días.",
+    "BTC cayó a casi 55.000 USD con 2.670 millones en liquidaciones y luego rebotó a ~60.000 USD: volatilidad elevada.",
+    "Caídas semanales de -6% a -12% en BTC, ETH, DOGE, LTC y AVAX; mercado tecnológico en corrección por la caída de Nvidia y el Nasdaq.",
+    "No hay eventos macro de alto impacto USD en las próximas 24 h, y la caída no se considera pausa (la capitalización total cambia solo 0.01% en 24 h).",
+    "El exploit de Chainflip (4,86 millones de dólares) afecta a un protocolo concreto que no figura entre las monedas operadas, por lo que no se aplica una pausa por moneda."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-21T19:46:53+00:00",
-  "valido_hasta": "2026-11-21T22:46:53+00:00",
+  "generado": "2026-11-21T20:40:10+00:00",
+  "valido_hasta": "2026-11-21T23:40:10+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -0.19,
-    "noticias_analizadas": 20,
+    "cambio_mercado_24h": 0.01,
+    "noticias_analizadas": 19,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -37,6 +36,11 @@
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-rebounds-60k-crash-near-55k-billions-liquidations/"
     },
     {
+      "titulo": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open"
+    },
+    {
       "titulo": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated"
@@ -45,11 +49,6 @@
       "titulo": "Wells Fargo Leads as US Institutions Hit Record 356K Bitcoin Holdings: Galaxy",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/finance/wells-fargo-leads-us-institutions-hit-record-356k-bitcoin-holdings/"
-    },
-    {
-      "titulo": "Bitcoin bounces 9% from two-year low to retake $60,000 as traders eye Monday’s stock open",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open"
     },
     {
       "titulo": "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain",
@@ -63,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7139,
+    "input_tokens": 6997,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 851,
+    "output_tokens": 620,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
