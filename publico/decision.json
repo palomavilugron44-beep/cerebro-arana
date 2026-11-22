@@ -1,23 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) tras una caída de la capitalización total del -3.12% en 24 h, con BTC por debajo de 60.000 USD en la sesión. No hay eventos macro de alto impacto en 24 h ni un hackeo, exploit o acción regulatoria grave contra alguna de las 10 monedas, por lo que no se justifica una pausa. Se recomienda cautela general (compras con la mitad del tamaño) por volatilidad y miedo extremo, sin medidas específicas por moneda.",
+  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) y la capitalización total cae -3.51% en 24 h, con BTC por debajo de 60.000 USD tras una venta en bolsas de EE. UU. que llevó el Nasdaq a caer 5.28%. No hay eventos macro de alto impacto en 24 h ni un hackeo o problema regulatorio grave confirmado: el incidente de Kraken (BTC/CAD) fue descartado por el propio exchange. Por volatilidad y miedo extremo, conviene reducir el tamaño de nuevas compras, sin pausar el bot.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) y sostenido entre 10 y 12 durante los últimos 7 días.",
-    "Capitalización total cripto -3.12% en 24 h y BTC cayendo por debajo de 60.000 USD por primera vez desde julio, con debilidad en bolsa de EE. UU.",
-    "Caídas de 7 días de -5% a -11% en la mayoría de las monedas (LTC -10.89%, AVAX -7.17%), lo que indica volatilidad elevada.",
-    "Incidente en Kraken (BTC/CAD) con ventas anómalas, pero el exchange confirmó que no hubo brecha de seguridad y que las operaciones se mantienen; no afecta directamente a las monedas operadas.",
-    "Sin eventos económicos USD de alto impacto en las próximas 24 h; las noticias sobre Kalshi, Hong Kong o regulación de stablecoins no son graves para las monedas operadas."
+    "Índice Miedo/Codicia en 11 (Extreme Fear), valor sostenido durante los últimos 7 días",
+    "Capitalización total -3.51% en 24 h y caída del Nasdaq (-5.28%) que arrastra al mercado cripto",
+    "BTC ha caído por debajo de 60.000 USD y hay menciones de posibles soportes en 50.000 USD si la venta continúa",
+    "Sin eventos macro de alto impacto en 24 h; el incidente de Kraken fue descartado por el exchange (no hay brecha de seguridad)",
+    "Ninguna moneda muestra situación anómala (halt, depeg o delist) según los datos"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-22T19:48:46+00:00",
-  "valido_hasta": "2026-11-22T22:48:46+00:00",
+  "generado": "2026-11-22T20:43:27+00:00",
+  "valido_hasta": "2026-11-22T23:43:27+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -3.12,
+    "cambio_mercado_24h": -3.51,
     "noticias_analizadas": 15,
     "articulos_leidos": 8,
     "fuentes": {
@@ -46,6 +46,11 @@
       "link": "https://news.bitcoin.com/finance/bored-crypto-investors-dump-bitcoin-to-chase-massive-ai-stocks/"
     },
     {
+      "titulo": "Bitcoin Could Test $50,000 if Nasdaq Slides, Arthur Hayes Warns",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-could-test-50000-if-nasdaq-slides-arthur-hayes-warns/"
+    },
+    {
       "titulo": "Kalshi Faces Massive Nationwide Shutdown in NY Court Showdown",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/regulation-and-legal/kalshi-faces-massive-nationwide-shutdown-in-ny-court-showdown/"
@@ -54,22 +59,17 @@
       "titulo": "Peter Brandt Links 75% Bitcoin Drops to Parabolic Rallies",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/peter-brandt-links-75-bitcoin-drops-to-parabolic-rallies/"
-    },
-    {
-      "titulo": "‘The Dots Aren’t Done’: Michael Saylor Hints at Another Strategy Bitcoin Buy",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/featured/the-dots-arent-done-michael-saylor-hints-at-another-strategy-bitcoin-buy/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6325,
+    "input_tokens": 6377,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 657,
+    "output_tokens": 571,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
