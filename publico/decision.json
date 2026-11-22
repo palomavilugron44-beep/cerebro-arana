@@ -1,23 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11, mantenido entre 10 y 12 durante 7 días) tras una caída de BTC de más de un cuarto de su valor en el mes, con BTC rebotando por encima de 59-60K. La capitalización total cae solo -1.2% en 24 h, sin señal de caída brusca en curso, y no hay eventos macro de alto impacto en las próximas 24 h. El hackeo de Chainflip (~12 M$) es un protocolo puntual que no involucra a las monedas operadas, por lo que se aplica cautela general y no pausa.",
+  "resumen": "El índice Miedo/Codicia está en Extreme Fear (11) de forma sostenida durante 7 días, y BTC cayó hasta cerca de 55K el 21-22 de noviembre antes de recuperar 60K, con caídas de 7 días de entre -2% y -13% en las monedas vigiladas. No hay eventos macro de alto impacto en 24 h, y la capitalización total solo baja -0.74% en 24 h. El hackeo de Chainflip (~12 M$) y el exploit del puente de CYBER son riesgos reales, pero acotados a protocolos concretos y no a las monedas que opera el bot, por lo que no justifican pausa.",
   "motivos": [
-    "Miedo extremo sostenido (índice 11, rango 10-12 en 7 días), incertidumbre elevada.",
-    "BTC cayó cerca de 28% en el mes (de ~83.8K a ~55.2K) y ETH, BNB, DOGE, LTC y AVAX bajan entre -7% y -13% en 7 días: volatilidad fuerte.",
-    "Capitalización total -1.2% en 24 h, sin liquidaciones masivas confirmadas: no justifica pausa.",
-    "Hackeo de Chainflip (~12 M$) es un incidente de un protocolo cross-chain concreto, no de Binance ni de las monedas operadas: no se pausa, pero se mantiene vigilancia.",
-    "Sin eventos macro USD de alto impacto en 24 h; el resto de noticias son opiniones o temas técnicos sin impacto directo grave."
+    "Miedo extremo sostenido (índice 10-12 durante 7 días): incertidumbre elevada, se opta por cautela y no por pausa.",
+    "BTC sufrió una caída mensual de ~28% y tocó ~55K el 21 de noviembre; la volatilidad reciente es fuerte.",
+    "Hackeo de Chainflip (~12 M$) y exploit del puente de CYBER: riesgos relevantes pero no sobre las monedas operadas por el bot ni con afectación sistémica confirmada.",
+    "Sin eventos macro de alto impacto en 24 h; capitalización total -0.74% en 24 h, lejos del umbral de -7% para pausa.",
+    "Ninguna moneda muestra halt, depeg ni delist; no hay base para pausa por moneda."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-22T07:05:36+00:00",
-  "valido_hasta": "2026-11-22T10:05:36+00:00",
+  "generado": "2026-11-22T08:14:57+00:00",
+  "valido_hasta": "2026-11-22T11:14:57+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -1.2,
+    "cambio_mercado_24h": -0.74,
     "noticias_analizadas": 9,
     "articulos_leidos": 7,
     "fuentes": {
@@ -34,6 +34,11 @@
       "titulo": "Anthropic IPOs, Researchers Reveal Plan for Post-Quantum, And More – Weekly Recap",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/featured/anthropic-ipos-researchers-reveal-plan-for-post-quantum-and-more-weekly-recap/"
+    },
+    {
+      "titulo": "South Korean exchanges halt CYBER transfers amid suspected bridge exploit",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/upbit-bithumb-suspend-cyber-transfers-bridge-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "titulo": "Robert Kiyosaki Urges Buyers to Wait Out the Crash as Bitcoin Plummets",
@@ -54,22 +59,17 @@
       "titulo": "AI Finds Bitcoin Core Security Flaw That Could Temporarily Freeze Nodes",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/security/ai-finds-bitcoin-core-security-flaw-that-could-temporarily-freeze-nodes/"
-    },
-    {
-      "titulo": "Bitcoin Mining Profits Turn Ugly Despite Hashrate’s Return Above 1 ZH/s",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/mining/bitcoin-mining-profits-turn-ugly-despite-hashrates-return-above-1-zh-s/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 5618,
+    "input_tokens": 5622,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 630,
+    "output_tokens": 683,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
