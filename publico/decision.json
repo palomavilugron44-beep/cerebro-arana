@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) tras una caída de la capitalización total de -1.64% en 24 h y de BTC de -5.2% en 7 días, con un liquidación de 1.8 mil millones de dólares que ya provocó un rebote parcial. No hay eventos macro de alto impacto en 24 h ni una señal de riesgo grave e inmediato sobre el conjunto de monedas. Por ello se pasa a cautela global, con LTC en cautela adicional por su debilidad semanal.",
+  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) tras una caída de BTC de aproximadamente 28% en el mes, con un rebote de +5% en 24 h y liquidaciones de 1.800 M$ el 21 de noviembre. No hay evento macro de alto impacto en las próximas 24 h ni hackeo, regulación o anomalía grave que justifique pausa. Por la volatilidad y la incertidumbre elevada, se recomienda cautela global (mitad de tamaño) sin restricciones adicionales por moneda.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante 7 días, lo que indica incertidumbre elevada.",
-    "Capitalización total -1.64% en 24 h y BTC -5.2% en 7 días, con liquidaciones de 1.8 mil millones de dólares en las últimas horas.",
-    "Sin eventos macro de alto impacto USD en 24 h.",
-    "Hackeo de FLIP (Chainflip, unos 4.86 M$) es un incidente de protocolo cruzado, no afecta directamente a las monedas operadas; no justifica pausa global.",
-    "LTC acumula -8.44% en 7 días, la mayor caída del grupo; se aplica cautela específica."
+    "Índice Miedo/Codicia en 11 (Extreme Fear), y en miedo extremo durante los últimos 7 días.",
+    "BTC cayó alrededor de 28% en el mes hasta 55.251 USD el 21 de noviembre y luego rebotó por encima de 60.000 USD; alta volatilidad.",
+    "Liquidaciones de 1.800 M$ en posiciones apalancadas el 21 de noviembre, con rebote de +5% en 24 h.",
+    "Noticias de seguridad (fallo en Bitcoin Core ya parcheado, CVE-2026-117348) y de fraude SEC (37 M$) no afectan directamente a las monedas operadas ni son graves.",
+    "No hay eventos económicos USD de alto impacto en las próximas 24 h, por lo que no se activa pausa macro."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-22T03:53:25+00:00",
-  "valido_hasta": "2026-11-22T06:53:25+00:00",
+  "generado": "2026-11-22T04:57:13+00:00",
+  "valido_hasta": "2026-11-22T07:57:13+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -1.64,
-    "noticias_analizadas": 13,
+    "cambio_mercado_24h": 1.12,
+    "noticias_analizadas": 11,
     "articulos_leidos": 6,
     "fuentes": {
       "CoinDesk": 25,
@@ -41,9 +41,9 @@
       "link": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open"
     },
     {
-      "titulo": "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain"
+      "titulo": "Bitcoin Retakes $60K After Michael Saylor’s 4-Word Message to Holders",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-retakes-60k-after-michael-saylors-4-word-message-to-holders/"
     },
     {
       "titulo": "AI Finds Bitcoin Core Security Flaw That Could Temporarily Freeze Nodes",
@@ -51,25 +51,25 @@
       "link": "https://news.bitcoin.com/security/ai-finds-bitcoin-core-security-flaw-that-could-temporarily-freeze-nodes/"
     },
     {
-      "titulo": "Washington Politics Are Crushing Crypto Industry Ambitions, Warns Bitwise CIO",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/crypto-news/washington-politics-are-crushing-crypto-industry-ambitions-warns-bitwise-cio/"
-    },
-    {
       "titulo": "Bitcoin Mining Profits Turn Ugly Despite Hashrate’s Return Above 1 ZH/s",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/mining/bitcoin-mining-profits-turn-ugly-despite-hashrates-return-above-1-zh-s/"
+    },
+    {
+      "titulo": "Bitcoin Miners Had Fewer Hardware Sellers in 2026 as BTC Tanked and AI Grew",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/opinion-and-analysis/bitcoin-miners-fewer-hardware-sellers-2026-btc-tanked-ai-grew/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 5644,
+    "input_tokens": 5482,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 626,
+    "output_tokens": 604,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
