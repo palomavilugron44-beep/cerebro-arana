@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) y la capitalización total cae -3.51% en 24 h, con BTC por debajo de 60.000 USD tras una venta en bolsas de EE. UU. que llevó el Nasdaq a caer 5.28%. No hay eventos macro de alto impacto en 24 h ni un hackeo o problema regulatorio grave confirmado: el incidente de Kraken (BTC/CAD) fue descartado por el propio exchange. Por volatilidad y miedo extremo, conviene reducir el tamaño de nuevas compras, sin pausar el bot.",
+  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) tras una caída de la capitalización total de -3.12% en 24 h, con BTC por debajo de 60.000 USD y el Nasdaq con fuerte venta. No hay eventos macro de alto impacto en las próximas 24 h y las noticias son negativas pero no describen un hackeo, una acción regulatoria grave ni una anomalía de moneda. Se opta por cautela global por el miedo extremo y volatilidad, con un refuerzo para LTC por su debilidad semanal.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear), valor sostenido durante los últimos 7 días",
-    "Capitalización total -3.51% en 24 h y caída del Nasdaq (-5.28%) que arrastra al mercado cripto",
-    "BTC ha caído por debajo de 60.000 USD y hay menciones de posibles soportes en 50.000 USD si la venta continúa",
-    "Sin eventos macro de alto impacto en 24 h; el incidente de Kraken fue descartado por el exchange (no hay brecha de seguridad)",
-    "Ninguna moneda muestra situación anómala (halt, depeg o delist) según los datos"
+    "Índice Miedo/Codicia en 11 (Extreme Fear), mantenido en 10-12 durante los últimos 7 días.",
+    "Capitalización total -3.12% en 24 h y BTC por debajo de 60.000 USD tras caída del Nasdaq; volatilidad elevada.",
+    "Ausencia de eventos macro USD de alto impacto en las próximas 24 h, lo que descarta pausa.",
+    "No hay indicios de hackeo, anomalía de moneda ni acción regulatoria grave; las noticias son negativas pero no graves.",
+    "LTC presenta la peor caída semanal del grupo (-11.94% en 7 días)."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-22T20:43:27+00:00",
-  "valido_hasta": "2026-11-22T23:43:27+00:00",
+  "generado": "2026-11-22T21:41:35+00:00",
+  "valido_hasta": "2026-11-23T00:41:35+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -3.51,
-    "noticias_analizadas": 15,
+    "cambio_mercado_24h": -3.12,
+    "noticias_analizadas": 14,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6377,
+    "input_tokens": 6224,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 571,
+    "output_tokens": 609,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
