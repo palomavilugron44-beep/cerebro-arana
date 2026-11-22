@@ -1,25 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12, sostenido una semana) tras un desplome de BTC casi a 55.000 USD con 2.670 M$ en liquidaciones, aunque ya se ha recuperado por encima de 60.000 USD y la capitalización total cae solo -1.04% en 24 h. No hay eventos macro de alto impacto en las próximas 24 h ni un riesgo sistémico confirmado en curso, por lo que la pausa no está justificada, pero la volatilidad y la incertidumbre elevada sí aconsejan operar con cautela. Como caso puntual, LTC acumula la peor caída semanal del grupo.",
+  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) tras una caída de BTC casi a 55.000 USD con unos 2.670 M$ en liquidaciones, y BTC se recupera ahora alrededor de 60.000 USD. No hay eventos macro de alto impacto en 24 h, la capitalización total cayó solo -0.78% en 24 h y las caídas de la sesión anterior no se consideran un colapso en curso, por lo que no justifica pausa. Se recomienda cautela global (compras a la mitad de tamaño) por volatilidad y miedo extremo.",
   "motivos": [
-    "Índice Miedo/Codicia en 'Extreme Fear' (12) de forma sostenida durante los últimos 7 días.",
-    "Caída reciente de BTC casi a 55.000 USD con 2.670 M$ en liquidaciones; rebote posterior por encima de 60.000 USD.",
-    "Nasdaq -5.3% y S&P 500 en correción por venta de tecnología, con riesgo de contagio a cripto.",
-    "Hackeo de Chainflip (FLIP, ~4.86 M$), protocolo cross-chain fuera de la lista de monedas operadas; sin impacto directo en las 10 monedas.",
-    "Sin eventos económicos USD de alto impacto en las próximas 24 h.",
-    "LTC con -10.47% en 7 días, la peor evolución del grupo."
+    "Miedo extremo sostenido (índice 11 y 10-12 durante 7 días).",
+    "Caída reciente de BTC hasta ~55.000 USD con ~2.670 M$ en liquidaciones y posterior rebote a ~60.000 USD: volatilidad elevada.",
+    "Venta generalizada en tecnológicas (Nasdaq -5.3%, corrección del S&P 500) que presiona a los activos de riesgo.",
+    "Sin eventos macro de alto impacto en 24 h y capitalización total solo -0.78% en 24 h: no hay pausa justificada.",
+    "Hack de Chainflip (~4,86 M$) y fallo de seguridad de Bitcoin Core son incidentes no sistémicos para las monedas del bot."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-21T23:37:47+00:00",
-  "valido_hasta": "2026-11-22T02:37:47+00:00",
+  "generado": "2026-11-22T01:00:22+00:00",
+  "valido_hasta": "2026-11-22T04:00:22+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
-    "miedo_codicia": 12,
-    "cambio_mercado_24h": -1.04,
-    "noticias_analizadas": 14,
+    "miedo_codicia": 11,
+    "cambio_mercado_24h": -0.78,
+    "noticias_analizadas": 13,
     "articulos_leidos": 6,
     "fuentes": {
       "CoinDesk": 25,
@@ -42,35 +41,35 @@
       "link": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open"
     },
     {
-      "titulo": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated"
-    },
-    {
-      "titulo": "Wells Fargo Leads as US Institutions Hit Record 356K Bitcoin Holdings: Galaxy",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/finance/wells-fargo-leads-us-institutions-hit-record-356k-bitcoin-holdings/"
-    },
-    {
       "titulo": "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain"
     },
     {
+      "titulo": "AI Finds Bitcoin Core Security Flaw That Could Temporarily Freeze Nodes",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/security/ai-finds-bitcoin-core-security-flaw-that-could-temporarily-freeze-nodes/"
+    },
+    {
       "titulo": "Washington Politics Are Crushing Crypto Industry Ambitions, Warns Bitwise CIO",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/crypto-news/washington-politics-are-crushing-crypto-industry-ambitions-warns-bitwise-cio/"
+    },
+    {
+      "titulo": "Is the AI Bubble Finally Popping? Nvidia Crashes 48% as Wall Street Experts Sound the Alarm",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/383754/ai-bubble-finally-popping-nvidia-crashes-48-wall-street-alarm"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 5772,
+    "input_tokens": 5634,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 695,
+    "output_tokens": 594,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
