@@ -1,25 +1,26 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11, mantenido durante la última semana) tras una caída de BTC casi hasta 55.000 USD con unos 2.670 millones en liquidaciones, y ya ha rebotado a unos 60.000 USD. La capitalización total cae solo -0.89% en 24 h, lejos del umbral de -7% que justificaría pausa, y no hay eventos macro de alto impacto en las próximas 24 h. Se recomienda cautela general (mitad de tamaño) por volatilidad y miedo extremo, sin pausar.",
+  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) tras una caída de BTC casi a 55.000 USD con 2.670 M$ en liquidaciones, y ya rebotó a unos 59.500 USD; la capitalización total cae un 1,69% en 24 h. No hay eventos macro de alto impacto en las próximas 24 h, y el riesgo de hackeo afecta a un token menor (FLIP) que no opera el bot. Por ello se recomienda cautela general, sin pausa, dado que la estrategia ya tiene su propio stop.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear), con valores entre 10 y 12 durante los últimos 7 días.",
-    "Caída reciente de BTC hasta cerca de 55.000 USD con unos 2.670 millones de dólares en liquidaciones, seguida de un rebote a 60.000 USD: volatilidad elevada.",
-    "La capitalización total cae -0.89% en 24 h, por debajo del umbral de -7% que justificaría pausa.",
-    "Incidente de seguridad de Chainflip (FLIP, -30%) es un protocolo cross-chain no incluido en las monedas operadas; la vulnerabilidad de Bitcoin Core es de severidad media y ya fue parcheada.",
-    "Sin eventos económicos de alto impacto en las próximas 24 h."
+    "Miedo extremo sostenido (índice 11, con mínimos de 10 en la última semana).",
+    "Caída reciente de BTC casi a 55.000 USD con 2.670 M$ en liquidaciones en 24 h, seguida de rebote parcial a ~59.500 USD: volatilidad elevada.",
+    "Capitalización total -1,69% en 24 h; BTC -5,4% en 7 días y LTC -8,8% en 7 días.",
+    "Hackeo de Chainflip (FLIP, 4,86 M$) no afecta a las monedas operadas por el bot: no justifica pausa.",
+    "Sin eventos macro de alto impacto en las próximas 24 h, por lo que no se activa pausa.",
+    "Noticias de regulación y minería son de tono negativo pero no graves para las monedas operadas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-22T02:06:34+00:00",
-  "valido_hasta": "2026-11-22T05:06:34+00:00",
+  "generado": "2026-11-22T02:54:41+00:00",
+  "valido_hasta": "2026-11-22T05:54:41+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -0.89,
-    "noticias_analizadas": 12,
-    "articulos_leidos": 5,
+    "cambio_mercado_24h": -1.69,
+    "noticias_analizadas": 13,
+    "articulos_leidos": 6,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
@@ -56,20 +57,20 @@
       "link": "https://news.bitcoin.com/crypto-news/washington-politics-are-crushing-crypto-industry-ambitions-warns-bitwise-cio/"
     },
     {
-      "titulo": "Bitcoin Miners Had Fewer Hardware Sellers in 2026 as BTC Tanked and AI Grew",
+      "titulo": "Bitcoin Mining Profits Turn Ugly Despite Hashrate’s Return Above 1 ZH/s",
       "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/opinion-and-analysis/bitcoin-miners-fewer-hardware-sellers-2026-btc-tanked-ai-grew/"
+      "link": "https://news.bitcoin.com/mining/bitcoin-mining-profits-turn-ugly-despite-hashrates-return-above-1-zh-s/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 5222,
+    "input_tokens": 5644,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 602,
+    "output_tokens": 604,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
