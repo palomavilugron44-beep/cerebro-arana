@@ -1,24 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) tras una caída de BTC casi a 55.000 USD con 2.670 M$ en liquidaciones, y ya rebotó a unos 59.500 USD; la capitalización total cae un 1,69% en 24 h. No hay eventos macro de alto impacto en las próximas 24 h, y el riesgo de hackeo afecta a un token menor (FLIP) que no opera el bot. Por ello se recomienda cautela general, sin pausa, dado que la estrategia ya tiene su propio stop.",
+  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) tras una caída de la capitalización total de -1.64% en 24 h y de BTC de -5.2% en 7 días, con un liquidación de 1.8 mil millones de dólares que ya provocó un rebote parcial. No hay eventos macro de alto impacto en 24 h ni una señal de riesgo grave e inmediato sobre el conjunto de monedas. Por ello se pasa a cautela global, con LTC en cautela adicional por su debilidad semanal.",
   "motivos": [
-    "Miedo extremo sostenido (índice 11, con mínimos de 10 en la última semana).",
-    "Caída reciente de BTC casi a 55.000 USD con 2.670 M$ en liquidaciones en 24 h, seguida de rebote parcial a ~59.500 USD: volatilidad elevada.",
-    "Capitalización total -1,69% en 24 h; BTC -5,4% en 7 días y LTC -8,8% en 7 días.",
-    "Hackeo de Chainflip (FLIP, 4,86 M$) no afecta a las monedas operadas por el bot: no justifica pausa.",
-    "Sin eventos macro de alto impacto en las próximas 24 h, por lo que no se activa pausa.",
-    "Noticias de regulación y minería son de tono negativo pero no graves para las monedas operadas."
+    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante 7 días, lo que indica incertidumbre elevada.",
+    "Capitalización total -1.64% en 24 h y BTC -5.2% en 7 días, con liquidaciones de 1.8 mil millones de dólares en las últimas horas.",
+    "Sin eventos macro de alto impacto USD en 24 h.",
+    "Hackeo de FLIP (Chainflip, unos 4.86 M$) es un incidente de protocolo cruzado, no afecta directamente a las monedas operadas; no justifica pausa global.",
+    "LTC acumula -8.44% en 7 días, la mayor caída del grupo; se aplica cautela específica."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-22T02:54:41+00:00",
-  "valido_hasta": "2026-11-22T05:54:41+00:00",
+  "generado": "2026-11-22T03:53:25+00:00",
+  "valido_hasta": "2026-11-22T06:53:25+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -1.69,
+    "cambio_mercado_24h": -1.64,
     "noticias_analizadas": 13,
     "articulos_leidos": 6,
     "fuentes": {
@@ -32,9 +31,9 @@
   },
   "titulares": [
     {
-      "titulo": "Bitcoin Price Rebounds to $60K After Crash Near $55K, Leaving Billions in Liquidations",
+      "titulo": "Robert Kiyosaki Urges Buyers to Wait Out the Crash as Bitcoin Plummets",
       "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-rebounds-60k-crash-near-55k-billions-liquidations/"
+      "link": "https://news.bitcoin.com/featured/robert-kiyosaki-urges-buyers-to-wait-out-the-crash-as-bitcoin-plummets/"
     },
     {
       "titulo": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
@@ -70,7 +69,7 @@
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 604,
+    "output_tokens": 626,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
