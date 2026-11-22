@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11, durante 7 días seguidos) tras una caída de BTC de más de 28% en el mes, con BTC cerca de 60.000 USD tras tocar 55.000. Hay incidentes de seguridad (hack de 12 M$ en Chainflip que afecta BTC/ETH y exploit de puente de CYBER con minteo anómalo en Solana), pero son concretos y acotados a protocolos específicos, no a la red de Binance ni a una caída generalizada. Por ello el modo global se mantiene en cautela por volatilidad y miedo extremo, con cautela adicional en ETH y SOL por el riesgo de los puentes.",
+  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) tras una caída de Bitcoin de más del 25% en el último mes, aunque el cambio total de la capitalización en 24 h es prácticamente plano (-0.16%) y no hay eventos macro de alto impacto en 24 h. El hackeo de Chainflip (~12 M$) afecta a un protocolo cross-chain y no a las monedas operadas, y la incidencia de CYBER es ajena a la lista; ninguno de estos riesgos es grave para el bot. Por la incertidumbre elevada por miedo extremo y volatilidad fuerte, se recomienda cautela global (mitad de tamaño) sin pausar.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante 7 días, con BTC -6.7% en 7 días y caída mensual de ~28%.",
-    "Hack de ~12 M$ en el protocolo Chainflip que afecta BTC, ETH y stablecoins, con 520 ETH robados.",
-    "Exploit del puente cross-chain de CYBER con minteo anómalo en Solana y suspensión de depósitos en Upbit y Bithumb.",
-    "Kraken confirmó que su caída de BTC/CAD a ~17K fue un evento de su mercado CAD y mantiene las operaciones; no afecta al precio de USDT en Binance.",
-    "No hay eventos macro de alto impacto USD en las próximas 24 h; la capitalización total sube 0.92% en 24 h, sin liquidaciones generalizadas."
+    "Índice Miedo/Codicia en 11 (Extreme Fear) y sostenido entre 10 y 12 durante 7 días.",
+    "Bitcoin cayó cerca de un 28% en el mes hasta ~55K y recuperó ~60K; alta volatilidad y caídas de -6% en 7 días en BTC, BNB, ETH y AVAX, y -11% en LTC.",
+    "Hackeo de Chainflip (~12 M$) y la incidencia de CYBER en puentes: riesgos de protocolo ajenos a las 10 monedas operadas, no justifican pausa.",
+    "Caída de BTC/CAD en Kraken a ~17K por un solo mercado de un par fiat; Kraken confirma que no hubo brecha de seguridad y que las operaciones se mantienen.",
+    "Capitalización total prácticamente plana en 24 h (-0.16%) y sin eventos macro de alto impacto en las próximas 24 h, por lo que no se activa pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-22T09:47:03+00:00",
-  "valido_hasta": "2026-11-22T12:47:03+00:00",
+  "generado": "2026-11-22T10:45:37+00:00",
+  "valido_hasta": "2026-11-22T13:45:37+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": 0.92,
-    "noticias_analizadas": 10,
+    "cambio_mercado_24h": -0.16,
+    "noticias_analizadas": 11,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -51,25 +51,25 @@
       "link": "https://news.bitcoin.com/market-updates/bitcoin-retakes-60k-after-michael-saylors-4-word-message-to-holders/"
     },
     {
+      "titulo": "Bored Crypto Investors Dump Bitcoin to Chase Massive AI Stocks",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/finance/bored-crypto-investors-dump-bitcoin-to-chase-massive-ai-stocks/"
+    },
+    {
       "titulo": "Chainflip confirms $12M hack, offers attacker 10% bounty",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/chainflip-12m-crypto-hack-10-percent-bounty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/bitcoin-17k-kraken-canadian-dollar-market-trades-stand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6009,
+    "input_tokens": 6121,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 823,
+    "output_tokens": 709,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
