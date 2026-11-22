@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) tras una caída de BTC de aproximadamente 28% en el mes, con un rebote de +5% en 24 h y liquidaciones de 1.800 M$ el 21 de noviembre. No hay evento macro de alto impacto en las próximas 24 h ni hackeo, regulación o anomalía grave que justifique pausa. Por la volatilidad y la incertidumbre elevada, se recomienda cautela global (mitad de tamaño) sin restricciones adicionales por moneda.",
+  "resumen": "El mercado está en miedo extremo (índice 11, sostenido durante la última semana) tras una fuerte caída de BTC, que llegó a cerca de 55K y ahora rebota en torno a 59K. No hay eventos macro de alto impacto en 24 h. Se mantiene cautela para el conjunto y para BTC y ETH por la volatilidad y el exploit de Chainflip, que afecta a BTC y ETH; no hay una caída de mercado de -7% en 24 h ni riesgo sistémico grave, así que no procede pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear), y en miedo extremo durante los últimos 7 días.",
-    "BTC cayó alrededor de 28% en el mes hasta 55.251 USD el 21 de noviembre y luego rebotó por encima de 60.000 USD; alta volatilidad.",
-    "Liquidaciones de 1.800 M$ en posiciones apalancadas el 21 de noviembre, con rebote de +5% en 24 h.",
-    "Noticias de seguridad (fallo en Bitcoin Core ya parcheado, CVE-2026-117348) y de fraude SEC (37 M$) no afectan directamente a las monedas operadas ni son graves.",
-    "No hay eventos económicos USD de alto impacto en las próximas 24 h, por lo que no se activa pausa macro."
+    "Miedo extremo (índice 11) mantenido durante 7 días, con alta volatilidad reciente.",
+    "BTC cayó cerca de 28% en el mes y tocó ~55K antes de rebotar; la capitalización total sube 1.29% en 24 h, sin caída brusca en curso.",
+    "Hackeo de Chainflip por ~12 M$ (122.86 BTC y 520.22 ETH robados): incidente grave pero limitado a un protocolo cross-chain, no a Binance ni a las redes BTC/ETH.",
+    "Sin eventos macro de alto impacto en las próximas 24 h.",
+    "Las noticias de Bitcoin Core (vulnerabilidad de nodos ya parcheada) y de minería no justifican frenar al bot."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-22T04:57:13+00:00",
-  "valido_hasta": "2026-11-22T07:57:13+00:00",
+  "generado": "2026-11-22T05:56:18+00:00",
+  "valido_hasta": "2026-11-22T08:56:18+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": 1.12,
-    "noticias_analizadas": 11,
+    "cambio_mercado_24h": 1.29,
+    "noticias_analizadas": 10,
     "articulos_leidos": 6,
     "fuentes": {
       "CoinDesk": 25,
@@ -36,14 +36,14 @@
       "link": "https://news.bitcoin.com/featured/robert-kiyosaki-urges-buyers-to-wait-out-the-crash-as-bitcoin-plummets/"
     },
     {
-      "titulo": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open"
-    },
-    {
       "titulo": "Bitcoin Retakes $60K After Michael Saylor’s 4-Word Message to Holders",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/bitcoin-retakes-60k-after-michael-saylors-4-word-message-to-holders/"
+    },
+    {
+      "titulo": "Chainflip confirms $12M hack, offers attacker 10% bounty",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/chainflip-12m-crypto-hack-10-percent-bounty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "titulo": "AI Finds Bitcoin Core Security Flaw That Could Temporarily Freeze Nodes",
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 5482,
+    "input_tokens": 5448,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 604,
+    "output_tokens": 717,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
