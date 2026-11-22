@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) y la capitalización total cae un 2.87% en 24 h, con BTC por debajo de 60.000 USD tras un selloff de acciones. No hay eventos macro de alto impacto en 24 h ni un riesgo grave que justifique pausar, pero la volatilidad y el deterioro son suficientes para reducir el tamaño de nuevas compras. El incidente de CYBER (exploit de puente) afecta a un token que el bot no opera, por lo que no motiva medidas sobre las monedas de la lista.",
+  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) con la capitalización total cayendo un 3.09% en 24 h y BTC por debajo de 60.000 USD tras una caída desde máximos. No hay datos macro de alto impacto en las próximas 24 h, pero sí un incidente de seguridad en un puente cross-chain (CYBER) que afecta a Solana y Ethereum. Dado que la caída no alcanza el umbral de -7% con liquidaciones ni hay exploit confirmado en las redes principales, se elige cautela general y cautela reforzada para ETH y SOL.",
   "motivos": [
     "Índice Miedo/Codicia en 11 (Extreme Fear) y sostenido entre 10 y 12 durante 7 días.",
-    "Capitalización total -2.87% en 24 h y BTC por debajo de 60.000 USD tras caída de acciones US; volatilidad elevada.",
-    "Incidente de exploit en el puente de CYBER: no es una moneda operada por el bot, sin impacto directo en las 10 monedas.",
-    "Sin eventos económicos USD de alto impacto en las próximas 24 h; no se cumplen criterios de pausa.",
-    "ADA muestra la peor caída 24 h de la lista junto a otras (-5.31% en 7 d), pero sin noticias propias; se mantiene cautela solo por contexto general."
+    "Capitalización total -3.09% en 24 h, por debajo de la tendencia pero sin llegar al umbral de -7% de pánico.",
+    "Exploit/intento de exploit en el puente cross-chain de CYBER con minteo anómalo en Solana y salida de tokens del lockbox de Ethereum; Upbit y Bithumb suspendieron transferencias de CYBER.",
+    "Kraken mantuvo las operaciones tras una caída puntual de BTC/CAD y no encontró brecha de seguridad, por lo que no se considera un riesgo sistémico.",
+    "Sin eventos económicos USD de alto impacto en las próximas 24 h.",
+    "BTC por debajo de 60.000 USD y caídas semanales de 5-11% en las principales monedas: volatilidad elevada."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-22T17:41:24+00:00",
-  "valido_hasta": "2026-11-22T20:41:24+00:00",
+  "generado": "2026-11-22T18:45:14+00:00",
+  "valido_hasta": "2026-11-22T21:45:14+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -2.87,
+    "cambio_mercado_24h": -3.09,
     "noticias_analizadas": 14,
     "articulos_leidos": 8,
     "fuentes": {
@@ -30,11 +31,6 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
-    {
-      "titulo": "Anthropic IPOs, Researchers Reveal Plan for Post-Quantum, And More – Weekly Recap",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/featured/anthropic-ipos-researchers-reveal-plan-for-post-quantum-and-more-weekly-recap/"
-    },
     {
       "titulo": "South Korean exchanges halt CYBER transfers amid suspected bridge exploit",
       "fuente": "Cointelegraph",
@@ -51,6 +47,11 @@
       "link": "https://news.bitcoin.com/finance/bored-crypto-investors-dump-bitcoin-to-chase-massive-ai-stocks/"
     },
     {
+      "titulo": "Kalshi Faces Massive Nationwide Shutdown in NY Court Showdown",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/regulation-and-legal/kalshi-faces-massive-nationwide-shutdown-in-ny-court-showdown/"
+    },
+    {
       "titulo": "Peter Brandt Links 75% Bitcoin Drops to Parabolic Rallies",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/peter-brandt-links-75-bitcoin-drops-to-parabolic-rallies/"
@@ -62,14 +63,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6311,
+    "input_tokens": 6235,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 650,
+    "output_tokens": 814,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
