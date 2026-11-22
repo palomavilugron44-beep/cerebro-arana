@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) y la capitalización total cae un 2.19% en 24 h, con BTC cerca de 60.000 USD tras una caída mensual de más de 25%. No hay eventos macro de alto impacto en 24 h y el hackeo de Chainflip (~12 M USD) afecta a un protocolo puntual, no a las monedas que opera el bot. Dado el miedo extremo y la volatilidad, se recomienda cautela general, sin pausa ni alerta de posiciones.",
+  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) y la capitalización total cae un 2.87% en 24 h, con BTC por debajo de 60.000 USD tras un selloff de acciones. No hay eventos macro de alto impacto en 24 h ni un riesgo grave que justifique pausar, pero la volatilidad y el deterioro son suficientes para reducir el tamaño de nuevas compras. El incidente de CYBER (exploit de puente) afecta a un token que el bot no opera, por lo que no motiva medidas sobre las monedas de la lista.",
   "motivos": [
     "Índice Miedo/Codicia en 11 (Extreme Fear) y sostenido entre 10 y 12 durante 7 días.",
-    "Caída de BTC por debajo de 60.000 USD por primera vez desde julio y caída mensual de más de 25% en un contexto de venta generalizada en bolsa.",
-    "Capitalización total cripto -2.19% en 24 h, sin llegar al umbral de -7% que justificaría pausa.",
-    "Hackeo de Chainflip (~12 M USD) y suspensión de CYBER en exchanges surcoreanos: incidentes puntuales, sin afectar directamente a las monedas operadas.",
-    "Sin eventos macro de alto impacto USD en las próximas 24 h."
+    "Capitalización total -2.87% en 24 h y BTC por debajo de 60.000 USD tras caída de acciones US; volatilidad elevada.",
+    "Incidente de exploit en el puente de CYBER: no es una moneda operada por el bot, sin impacto directo en las 10 monedas.",
+    "Sin eventos económicos USD de alto impacto en las próximas 24 h; no se cumplen criterios de pausa.",
+    "ADA muestra la peor caída 24 h de la lista junto a otras (-5.31% en 7 d), pero sin noticias propias; se mantiene cautela solo por contexto general."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-22T16:44:17+00:00",
-  "valido_hasta": "2026-11-22T19:44:17+00:00",
+  "generado": "2026-11-22T17:41:24+00:00",
+  "valido_hasta": "2026-11-22T20:41:24+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -2.19,
-    "noticias_analizadas": 15,
+    "cambio_mercado_24h": -2.87,
+    "noticias_analizadas": 14,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -41,11 +41,6 @@
       "link": "https://cointelegraph.com/news/upbit-bithumb-suspend-cyber-transfers-bridge-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "titulo": "Bitcoin Retakes $60K After Michael Saylor’s 4-Word Message to Holders",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/bitcoin-retakes-60k-after-michael-saylors-4-word-message-to-holders/"
-    },
-    {
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -56,20 +51,25 @@
       "link": "https://news.bitcoin.com/finance/bored-crypto-investors-dump-bitcoin-to-chase-massive-ai-stocks/"
     },
     {
-      "titulo": "Chainflip confirms $12M hack, offers attacker 10% bounty",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/chainflip-12m-crypto-hack-10-percent-bounty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "titulo": "Peter Brandt Links 75% Bitcoin Drops to Parabolic Rallies",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/peter-brandt-links-75-bitcoin-drops-to-parabolic-rallies/"
+    },
+    {
+      "titulo": "‘The Dots Aren’t Done’: Michael Saylor Hints at Another Strategy Bitcoin Buy",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/featured/the-dots-arent-done-michael-saylor-hints-at-another-strategy-bitcoin-buy/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6553,
+    "input_tokens": 6311,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 565,
+    "output_tokens": 650,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
