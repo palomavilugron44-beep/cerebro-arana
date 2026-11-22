@@ -1,24 +1,35 @@
 {
   "modo": "cautela",
-  "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) tras una caída de BTC que lo llevó brevemente por debajo de 60.000 USD, con la capitalización total -2.29% en 24 h y todas las monedas con caídas semanales de entre -3.8% y -12.7%. No hay eventos macro de alto impacto en las próximas 24 h. Se elige cautela general por volatilidad y sentimiento negativo, sin llegar a pausa porque los riesgos de seguridad son ajenos a las monedas operadas.",
+  "monedas": {
+    "ETHUSDT": {
+      "modo": "pausa",
+      "motivo": "Chainflip (protocolo cross-chain con ETH, BTC y stablecoins) sufrió un hackeo de ~12 M$ con 520 ETH sustraídos; riesgo de seguridad concreto sobre el ecosistema ETH y puentes.",
+      "multiplicador_riesgo": 0.0
+    },
+    "SOLUSDT": {
+      "modo": "pausa",
+      "motivo": "Exploit en el puente cross-chain de CYBER con minteo no autorizado en Solana; las bolsas coreanas suspendieron transferencias. Riesgo de seguridad en la red y puentes de SOL.",
+      "multiplicador_riesgo": 0.0
+    }
+  },
+  "resumen": "El mercado está en miedo extremo (índice 11) con la capitalización total cayendo -3.21% en 24 h y BTC rompiendo por debajo de 60.000 USD por primera vez desde julio. No hay eventos macro de alto impacto en 24 h, pero hay incidentes de seguridad en puentes cross-chain (Chainflip y CYBER) que afectan a ETH y SOL. Se decide cautela global y pausa solo para ETH y SOL por esos riesgos concretos.",
   "motivos": [
-    "Miedo extremo sostenido (índice 11, rango 10-12 en 7 días) con caída semanal generalizada en las 10 monedas.",
-    "BTC bajó por debajo de 60.000 USD por primera vez desde julio en medio de una venta de acciones en EE. UU.; mercado volátil.",
-    "Hackeo de Chainflip (~12 M USD) y suspensión de transferencias de CYBER en Corea: incidentes de seguridad relevantes pero no sobre las monedas operadas ni de gravedad sistémica.",
-    "Sin eventos económicos USD de alto impacto en las próximas 24 h, por lo que no procede pausa macro.",
-    "La caída del mercado es de -2.29% en 24 h, por debajo del umbral de -7% que exigiría pausa."
+    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante 7 días.",
+    "Capitalización total -3.21% en 24 h y BTC por debajo de 60.000 USD, con venta generalizada en bolsas de EE. UU.",
+    "Hackeo de ~12 M$ en Chainflip con 520 ETH y 122 BTC sustraídos; la víctima aún no ha recuperado los fondos.",
+    "Exploit en el puente de CYBER con minteo no autorizado en Solana y suspensión de depósitos en Upbit y Bithumb.",
+    "No hay eventos macro de alto impacto USD en las próximas 24 h, por lo que no se aplica pausa global."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-22T14:49:05+00:00",
-  "valido_hasta": "2026-11-22T17:49:05+00:00",
+  "generado": "2026-11-22T15:43:48+00:00",
+  "valido_hasta": "2026-11-22T18:43:48+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -2.29,
-    "noticias_analizadas": 15,
+    "cambio_mercado_24h": -3.21,
+    "noticias_analizadas": 14,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -41,11 +52,6 @@
       "link": "https://cointelegraph.com/news/upbit-bithumb-suspend-cyber-transfers-bridge-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "titulo": "Robert Kiyosaki Urges Buyers to Wait Out the Crash as Bitcoin Plummets",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/featured/robert-kiyosaki-urges-buyers-to-wait-out-the-crash-as-bitcoin-plummets/"
-    },
-    {
       "titulo": "Bitcoin Retakes $60K After Michael Saylor’s 4-Word Message to Holders",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/bitcoin-retakes-60k-after-michael-saylors-4-word-message-to-holders/"
@@ -59,17 +65,22 @@
       "titulo": "Bored Crypto Investors Dump Bitcoin to Chase Massive AI Stocks",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/finance/bored-crypto-investors-dump-bitcoin-to-chase-massive-ai-stocks/"
+    },
+    {
+      "titulo": "Chainflip confirms $12M hack, offers attacker 10% bounty",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/chainflip-12m-crypto-hack-10-percent-bounty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6515,
+    "input_tokens": 6398,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 587,
+    "output_tokens": 761,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
