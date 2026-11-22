@@ -1,35 +1,24 @@
 {
   "modo": "cautela",
-  "monedas": {
-    "ETHUSDT": {
-      "modo": "pausa",
-      "motivo": "Chainflip (protocolo cross-chain con ETH, BTC y stablecoins) sufrió un hackeo de ~12 M$ con 520 ETH sustraídos; riesgo de seguridad concreto sobre el ecosistema ETH y puentes.",
-      "multiplicador_riesgo": 0.0
-    },
-    "SOLUSDT": {
-      "modo": "pausa",
-      "motivo": "Exploit en el puente cross-chain de CYBER con minteo no autorizado en Solana; las bolsas coreanas suspendieron transferencias. Riesgo de seguridad en la red y puentes de SOL.",
-      "multiplicador_riesgo": 0.0
-    }
-  },
-  "resumen": "El mercado está en miedo extremo (índice 11) con la capitalización total cayendo -3.21% en 24 h y BTC rompiendo por debajo de 60.000 USD por primera vez desde julio. No hay eventos macro de alto impacto en 24 h, pero hay incidentes de seguridad en puentes cross-chain (Chainflip y CYBER) que afectan a ETH y SOL. Se decide cautela global y pausa solo para ETH y SOL por esos riesgos concretos.",
+  "monedas": {},
+  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) y la capitalización total cae un 2.19% en 24 h, con BTC cerca de 60.000 USD tras una caída mensual de más de 25%. No hay eventos macro de alto impacto en 24 h y el hackeo de Chainflip (~12 M USD) afecta a un protocolo puntual, no a las monedas que opera el bot. Dado el miedo extremo y la volatilidad, se recomienda cautela general, sin pausa ni alerta de posiciones.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante 7 días.",
-    "Capitalización total -3.21% en 24 h y BTC por debajo de 60.000 USD, con venta generalizada en bolsas de EE. UU.",
-    "Hackeo de ~12 M$ en Chainflip con 520 ETH y 122 BTC sustraídos; la víctima aún no ha recuperado los fondos.",
-    "Exploit en el puente de CYBER con minteo no autorizado en Solana y suspensión de depósitos en Upbit y Bithumb.",
-    "No hay eventos macro de alto impacto USD en las próximas 24 h, por lo que no se aplica pausa global."
+    "Índice Miedo/Codicia en 11 (Extreme Fear) y sostenido entre 10 y 12 durante 7 días.",
+    "Caída de BTC por debajo de 60.000 USD por primera vez desde julio y caída mensual de más de 25% en un contexto de venta generalizada en bolsa.",
+    "Capitalización total cripto -2.19% en 24 h, sin llegar al umbral de -7% que justificaría pausa.",
+    "Hackeo de Chainflip (~12 M USD) y suspensión de CYBER en exchanges surcoreanos: incidentes puntuales, sin afectar directamente a las monedas operadas.",
+    "Sin eventos macro de alto impacto USD en las próximas 24 h."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-22T15:43:48+00:00",
-  "valido_hasta": "2026-11-22T18:43:48+00:00",
+  "generado": "2026-11-22T16:44:17+00:00",
+  "valido_hasta": "2026-11-22T19:44:17+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -3.21,
-    "noticias_analizadas": 14,
+    "cambio_mercado_24h": -2.19,
+    "noticias_analizadas": 15,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -73,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6398,
+    "input_tokens": 6553,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 761,
+    "output_tokens": 565,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
