@@ -1,23 +1,22 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) tras una caída de la capitalización total de -3.12% en 24 h, con BTC por debajo de 60.000 USD y el Nasdaq con fuerte venta. No hay eventos macro de alto impacto en las próximas 24 h y las noticias son negativas pero no describen un hackeo, una acción regulatoria grave ni una anomalía de moneda. Se opta por cautela global por el miedo extremo y volatilidad, con un refuerzo para LTC por su debilidad semanal.",
+  "resumen": "El mercado cripto está en miedo extremo (índice 11, sostenido una semana) tras una caída de la capitalización total de -3.44% en 24 h y BTC tocando un mínimo de dos años (55.640 USD) antes de rebotar cerca de 60.000-61.000 USD. Hay volatilidad fuerte y riesgo bajista ligado al Nasdaq, pero no hay exploit, halt, depeg ni evento macro de alto impacto en las próximas 24 h. Por ello se recomienda cautela general (mitad de tamaño en compras nuevas) en lugar de pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear), mantenido en 10-12 durante los últimos 7 días.",
-    "Capitalización total -3.12% en 24 h y BTC por debajo de 60.000 USD tras caída del Nasdaq; volatilidad elevada.",
-    "Ausencia de eventos macro USD de alto impacto en las próximas 24 h, lo que descarta pausa.",
-    "No hay indicios de hackeo, anomalía de moneda ni acción regulatoria grave; las noticias son negativas pero no graves.",
-    "LTC presenta la peor caída semanal del grupo (-11.94% en 7 días)."
+    "Miedo extremo (índice 11) sostenido durante los últimos 7 días sin señales de recuperación del sentimiento.",
+    "Capitalización total -3.44% en 24 h y BTC en mínimos de dos años (55.640 USD), con caídas semanales de entre -3.7% y -11.8% en el resto de monedas.",
+    "Preocupación por una posible continuación bajista ligada a la caída del Nasdaq, según analistas citados (sin confirmación de datos).",
+    "No hay eventos macro de alto impacto en 24 h, ni exploit, halt, depeg o acción regulatoria grave en los datos, por lo que no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-22T21:41:35+00:00",
-  "valido_hasta": "2026-11-23T00:41:35+00:00",
+  "generado": "2026-11-22T22:43:25+00:00",
+  "valido_hasta": "2026-11-23T01:43:25+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -3.12,
+    "cambio_mercado_24h": -3.44,
     "noticias_analizadas": 14,
     "articulos_leidos": 8,
     "fuentes": {
@@ -31,6 +30,11 @@
   },
   "titulares": [
     {
+      "titulo": "Bitcoin Price Takes a Beating as November Rout Erases Summer Gains",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-takes-a-beating-as-november-rout-erases-summer-gains/"
+    },
+    {
       "titulo": "Bitcoin’s Price Dip Attracts a Whale as Hedge Fund Scoops up $1B",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/featured/bitcoins-price-dip-attracts-a-whale-as-hedge-fund-scoops-up-1b/"
@@ -39,11 +43,6 @@
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Bored Crypto Investors Dump Bitcoin to Chase Massive AI Stocks",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/finance/bored-crypto-investors-dump-bitcoin-to-chase-massive-ai-stocks/"
     },
     {
       "titulo": "Bitcoin Could Test $50,000 if Nasdaq Slides, Arthur Hayes Warns",
@@ -62,14 +61,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6224,
+    "input_tokens": 6273,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 609,
+    "output_tokens": 561,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
