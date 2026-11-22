@@ -1,30 +1,23 @@
 {
   "modo": "cautela",
-  "monedas": {
-    "ADAUSDT": {
-      "modo": "pausa",
-      "motivo": "Sin datos específicos de riesgo; no aplica pausa por moneda (ver nota)",
-      "multiplicador_riesgo": 0.0
-    }
-  },
-  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) tras una caída de BTC de más de un cuarto de su valor en un mes, con BTC perdiendo brevemente los 60.000 USD y altcoins siguiendo la tendencia. No hay eventos macro de alto impacto en 24 h, pero la volatilidad y la incertidumbre son elevadas. Se elige cautela global; no hay una amenaza grave y concreta contra una moneda del bot.",
+  "monedas": {},
+  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) tras una caída de BTC de más de un cuarto de su valor en un mes, aunque hoy rebota ligeramente y la capitalización total solo baja -0.8% en 24 h. Hay un hackeo de 12 M$ en Chainflip (protocolo cross-chain, no está en nuestra lista) y una suspensión de depósitos de CYBER en exchanges coreanos, que no afectan directamente a las monedas operadas. Dado el miedo extremo y la volatilidad, se recomienda cautela general, sin pausa, porque no hay un evento grave e inmediato sobre las monedas que operamos.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear), con valores de 10-12 durante los últimos 7 días.",
-    "BTC cayó brevemente a ~55.000 USD y recuperó 60.000; caída mensual de ~28% desde 83.776 USD.",
-    "Volatilidad fuerte: Kraken CAD con caída brusca a ~17.000 USD equivalente (Kraken dice que no hubo brecha), y caídas en bolsa de EE. UU. según noticias.",
-    "LTC acumula -12.78% en 7 días, el peor de las monedas del bot; BNB y BTC caen más de -6% en 7 días.",
-    "Hackeo de Chainflip (~12 M USD) y suspensión de CYBER en Upbit/Bithumb: incidentes que no afectan directamente a las monedas operadas.",
-    "Sin eventos económicos USD de alto impacto en las próximas 24 h, por lo que no se recomienda pausa global."
+    "Índice Miedo/Codicia en 11 (Extreme Fear) y sostenido en 10-12 durante 7 días, lo que indica incertidumbre elevada.",
+    "BTC cayó por debajo de 60.000 USD por primera vez desde julio y el mes acumula caídas cercanas al 28%; LTC acumula -12.8% en 7 días.",
+    "Hackeo de 12 M$ a Chainflip (no operamos esa moneda) y suspensión de CYBER en Upbit/Bithumb: riesgo puntual, sin afectar a nuestras monedas ni a Binance.",
+    "Rebote de 24 h en la mayoría de monedas (+2% a +4%) y capitalización total solo -0.8% en 24 h: no hay caída brusca que justifique pausa.",
+    "No hay eventos macro de alto impacto USD en las próximas 24 h."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-22T11:42:36+00:00",
-  "valido_hasta": "2026-11-22T14:42:36+00:00",
+  "generado": "2026-11-22T12:51:21+00:00",
+  "valido_hasta": "2026-11-22T15:51:21+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": 0.08,
+    "cambio_mercado_24h": -0.8,
     "noticias_analizadas": 11,
     "articulos_leidos": 8,
     "fuentes": {
@@ -69,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6134,
+    "input_tokens": 6111,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 685,
+    "output_tokens": 734,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
