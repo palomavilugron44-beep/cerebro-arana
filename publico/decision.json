@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) tras una caída de noviembre que llevó a BTC a mínimos de dos años (~55.6k) y la capitalización total cayó -3.12% en 24 h, con rebote parcial en curso. No hay eventos macro de alto impacto en 24 h, pero la volatilidad y la incertidumbre elevadas justifican reducir el tamaño de nuevas compras a la mitad. No se detectan riesgos graves e inmediatos que obliguen a pausar.",
+  "resumen": "El mercado está en miedo extremo (índice 11, sostenido durante 7 días) tras una caída de noviembre que llevó a BTC a un mínimo de dos años cerca de 55.640 USD, aunque ahora rebota (BTC ~61.165 USD, capitalización total -1,5% en 24 h). No hay eventos macro de alto impacto en 24 h, pero el riesgo de nuevas caídas (Nasdaq débil, debate sobre subidas de tipos de la Fed en diciembre) sigue elevado. Se recomienda cautela general, con BTC y ETH en cautela por ser el núcleo del mercado; el hackeo de Chainflip es un incidente localizado en un DEX y no justifica pausar el resto.",
   "motivos": [
-    "Miedo extremo sostenido (índice 11 en los últimos 7 días) y codicia ausente.",
-    "Capitalización total -3.12% en 24 h y BTC en mínimos de dos años tras caídas de ~6-12% semanales en la mayoría de monedas.",
-    "Volatilidad fuerte y riesgo de nuevas caídas según analistas (Nasdaq en venta), aunque sin evento macro de alto impacto en 24 h.",
-    "Hackeo de Chainflip (~12 M$) afecta al protocolo y a su token FLIP, que no está en la lista de operación; no se considera riesgo sistémico para las monedas del bot.",
-    "No hay evidencia de halt, depeg o delist en las monedas operadas, por lo que no se justifica pausa."
+    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante los últimos 7 días.",
+    "BTC tocó mínimo de dos años (55.640 USD) en noviembre y el mercado perdió más de 500.000 M USD en el mes; volatilidad elevada.",
+    "Riesgo de caída adicional ligado al Nasdaq y a la posible subida de tipos de la Fed en diciembre (advertencias de Ackman y Arthur Hayes), aunque sin evento macro de alto impacto en 24 h.",
+    "Hackeo de ~12 M USD a Chainflip (FLIP -69%): incidente concreto pero localizado en un DEX, sin afectar a las monedas operadas por el bot.",
+    "Caídas 7 días de -4% a -11% en las monedas operadas, con rebote en 24 h; no hay halt, depeg ni delist."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-23T02:17:21+00:00",
-  "valido_hasta": "2026-11-23T05:17:21+00:00",
+  "generado": "2026-11-23T04:02:19+00:00",
+  "valido_hasta": "2026-11-23T07:02:19+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -3.12,
-    "noticias_analizadas": 14,
+    "cambio_mercado_24h": -1.52,
+    "noticias_analizadas": 15,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -34,6 +34,11 @@
       "titulo": "Chainflip Hacker Steals $12 Million as FLIP Token Craters 69%",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/security/chainflip-hacker-steals-12-million-as-flip-token-craters-69/"
+    },
+    {
+      "titulo": "Billionaire Bill Ackman warns Fed will make a rate ‘mistake’ in December",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/billionaire-bill-ackman-warns-fed-rate-hikes-could-trigger-recession?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "titulo": "Bitcoin Price Takes a Beating as November Rout Erases Summer Gains",
@@ -54,22 +59,17 @@
       "titulo": "Kalshi Faces Massive Nationwide Shutdown in NY Court Showdown",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/regulation-and-legal/kalshi-faces-massive-nationwide-shutdown-in-ny-court-showdown/"
-    },
-    {
-      "titulo": "Peter Brandt Links 75% Bitcoin Drops to Parabolic Rallies",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/peter-brandt-links-75-bitcoin-drops-to-parabolic-rallies/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6343,
+    "input_tokens": 6411,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 578,
+    "output_tokens": 837,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
