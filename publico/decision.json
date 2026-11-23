@@ -1,24 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) tras un fin de semana de caída de BTC hasta unos 55.000 USD, su nivel más bajo desde 2024, y un fuerte rebote posterior. Las salidas de ETFs de BTC son las mayores en semanas y la volatilidad sigue muy alta, con movimientos intradía de ±5% ligados a noticias de Nvidia. No hay un exploit, halt ni dato macro de alto impacto en las próximas 24 h, así que no justifica pausa, pero sí reducir el tamaño de las compras nuevas.",
+  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) tras una caída fuerte del fin de semana que llevó BTC a mínimos de dos años (~55.300 USD) y salidas récord de ETFs. Hoy hay rebote con volatilidad alta (BTC pasó de ~55K a ~64.5K y volvió a ~60.8K), pero la capitalización total cae solo -0.52% en 24 h y no hay eventos macro de alto impacto en 24 h ni señal de halt, exploit o depeg. Ante incertidumbre elevada, pero sin riesgo grave, se elige cautela global sin medidas por moneda.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) y sostenido entre 10 y 12 durante 7 días.",
-    "BTC tocó 55.298 USD el fin de semana (mínimo desde sept. 2024) y luego rebotó hasta ~61-64K con volatilidad intradía muy alta.",
-    "Salidas netas de ETFs spot de BTC de 1.790 M USD en la semana (tercera mayor de la historia) y cuatro semanas consecutivas de salidas.",
-    "Capitalización total cripto estable en el día (-0,47%), sin señales de pánico adicional en las últimas 24 h.",
-    "Sin eventos macro de alto impacto USD en 24 h; el IPC de la semana siguiente queda fuera de la ventana de 2-3 horas, pero refuerza la incertidumbre (cautela).",
-    "No hay hackeo, halt, depeg ni acción regulatoria grave identificada; el hackeo de Binance mencionado es un caso de lavado de fondos ya conocido y no se reporta como riesgo operativo inmediato."
+    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante los últimos 7 días.",
+    "BTC tocó mínimos de dos años (~55.3K) el fin de semana, con volatilidad intradía muy alta (rebote de ~17% y retroceso posterior).",
+    "Salidas netas de ETFs spot de BTC de 1.79 mil millones USD en la semana del 16-20 de noviembre, la tercera mayor de la historia.",
+    "Caídas de 7 días en casi todas las monedas (BTC -5.85%, ETH -5.02%, BNB -5.42%, LTC -7.59%) y mercado tecnológico en corrección.",
+    "No hay evento macro de alto impacto en 24 h ni riesgo grave de seguridad, halt o depeg que justifique pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-23T20:00:41+00:00",
-  "valido_hasta": "2026-11-23T23:00:41+00:00",
+  "generado": "2026-11-23T20:51:49+00:00",
+  "valido_hasta": "2026-11-23T23:51:49+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -0.47,
+    "cambio_mercado_24h": -0.52,
     "noticias_analizadas": 60,
     "articulos_leidos": 8,
     "fuentes": {
@@ -47,11 +46,6 @@
       "link": "https://decrypt.co/383758/bitcoin-rebounds-to-61k-after-weekend-plunge-to-two-year-low"
     },
     {
-      "titulo": "Bitcoin ETFs shed $1.8B in third-largest weekly outflow",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/markets/bitcoin-etfs-third-largest-weekly-outflows-1-8-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
       "titulo": "Bitcoin Price Plunges Back Below $61K Hours After Nvidia CEO Return Rally",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/bitcoin-plunges-below-61k-hours-nvidia-ceo-return-rally/"
@@ -60,17 +54,22 @@
       "titulo": "BTCS offloads $44M in ETH to reduce DeFi debt amid market downturn",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/btcs-offloads-44m-eth-reduce-defi-debt-market-downturn?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Bitcoin rebounds 17% from $55K lows as Nvidia rally sparks $500M crypto liquidations",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/bitcoin-rebounds-lows-nvidia-rally-sparks-500m-crypto-liquidations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9766,
+    "input_tokens": 9680,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 711,
+    "output_tokens": 639,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
