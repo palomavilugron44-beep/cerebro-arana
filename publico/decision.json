@@ -1,25 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo tras una fuerte caída de tecnológicas y un mínimo de dos años de BTC el fin de semana, con salidas récord de ETF. Hoy hay un rebote impulsado por Nvidia, pero con liquidaciones elevadas y el dato de inflación de EE. UU. previsto para el miércoles. Se recomienda cautela global (mitad de tamaño) para BTC y ETH, que son los activos más expuestos a este escenario, sin pausar el resto.",
+  "resumen": "El índice Miedo/Codicia está en 11 (miedo extremo) y BTC sigue muy por debajo de su máximo tras tocar mínimos de dos años (~55.000 USD) el fin de semana, con fuertes salidas de ETF y liquidaciones. Hoy hay un rebote impulsado por Nvidia y la capitalización total sube un 0,84% en 24 h, pero la volatilidad sigue siendo alta. Con miedo extremo y volatilidad fuerte, pero sin evento grave ni anomalía concreta por moneda, conviene cautela general en lugar de pausa; el dato de inflación de EE. UU. del miércoles queda fuera de la ventana de 24 h según los datos, aunque hay debate sobre posibles subidas de tipos.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante 7 días.",
-    "Caída bursátil tecnológica fuerte (Nasdaq-100 con su peor semana desde 2020; S&P y Dow en corrección) y BTC con mínimo de dos años cerca de 55.300 USD el fin de semana.",
-    "Salidas netas de ETF de Bitcoin de 1.790 M USD en la última semana (tercera mayor de la historia).",
-    "Expectativas de endurecimiento de la Fed y dato de inflación de EE. UU. el miércoles; el IPC está dentro de 24 h, lo que justifica cautela.",
-    "Rebote de hoy impulsado por el anuncio de Nvidia (reinstalación de Huang), con liquidaciones de unos 440 M USD: rebote de riesgo elevado, no tendencia confirmada.",
-    "Hackeo del puente Fusionist ACE (~5,7 M USD) que ha llegado a exchanges; afecta a un token concreto (ACE), que no opera el bot, por lo que no justifica pausa global."
+    "Índice Miedo/Codicia en 11 (miedo extremo) de forma sostenida durante 7 días",
+    "BTC tocó mínimos de dos años (~55.000 USD) el fin de semana y tiene salidas netas de ETF de 1.790 M USD en la última semana",
+    "Volatilidad fuerte: rebote de BTC de más del 17% desde mínimos en pocas horas, con liquidaciones superiores a 500 M USD",
+    "Incertidumbre macro por expectativas de endurecimiento de la Fed y una corrección de tecnológicas en EE. UU.",
+    "No hay hackeo grave que afecte a una red o exchange principal; el exploit de Fusionist ACE es un incidente acotado a un token concreto (ACE), que no está en la lista de monedas operadas",
+    "Sin eventos macro de alto impacto en las próximas 24 h según los datos recolectados, por lo que no se justifica pausa"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-23T16:03:42+00:00",
-  "valido_hasta": "2026-11-23T19:03:42+00:00",
+  "generado": "2026-11-23T17:02:42+00:00",
+  "valido_hasta": "2026-11-23T20:02:42+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": 1.59,
-    "noticias_analizadas": 49,
+    "cambio_mercado_24h": 0.84,
+    "noticias_analizadas": 54,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -47,9 +47,9 @@
       "link": "https://www.newsbtc.com/news/fusionist-ace-bridge-exploit-5-7m-loss-estimate-bithumb-freezes-trading/"
     },
     {
-      "titulo": "Bitcoin Price Clings to $60K as KOSPI Crashes 5% and Hayes Talks $55K Retest",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-61k-arthur-hayes-55k-retest-kospi-crash/"
+      "titulo": "Tom Lee Says Ethereum Is as Scarce as Bitcoin—And Bitmine Just Bought More",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/383800/tom-lee-ethereum-scarce-bitcoin-bitmine-buys-more"
     },
     {
       "titulo": "Bitcoin Rebounds to $61K After Weekend Plunge to Two-Year Low",
@@ -63,14 +63,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9422,
+    "input_tokens": 9708,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 900,
+    "output_tokens": 715,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
