@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) tras una semana muy negativa: BTC ronda los 61.700 USD tras tocar 55.640 y la capitalización total cae un 1.57% en 24 h, con salidas de ETF de BTC por 1.790 M USD en la última semana y un desplome bursátil en Asia. No hay una caída brusca de hoy de -7% ni un evento macro de alto impacto en las próximas 24 h, así que no justifica pausa. Se opta por cautela general para reducir el tamaño de las compras nuevas mientras dure la incertidumbre.",
+  "resumen": "El mercado está en miedo extremo (índice 11) con la capitalización total cayendo un 2.19% en 24 h y BTC cerca de 61.000 USD tras una semana muy negativa. Hay turbulencias en Asia (KOSPI -5%), salidas de ETF de bitcoin de 1.790 M USD la última semana y un hackeo puntual de ACE (Fusionist), que no afecta a las monedas del bot. No hay un evento macro de alto impacto en 24 h, así que se elige cautela general y no pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) y sostenido en torno a 10-12 durante los últimos 7 días.",
-    "BTC cayó hasta 55.640 USD (mínimo de dos años) y la semana cierra con pérdidas profundas; salidas netas de ETF de BTC de 4.34 mil M USD en cuatro semanas.",
-    "Caída de la bolsa surcoreana KOSPI (-5%) y de los futuros del Nasdaq 100 tras su peor semana desde 2020: volatilidad macro elevada.",
-    "Hackeos recientes (Chainflip, 12 M USD; puente Fusionist ACE, 5.7 M USD) generan riesgo sobre protocolos concretos, pero no afectan directamente a las monedas operadas ni son de riesgo sistémico.",
-    "No hay eventos macro de alto impacto USD en 24 h; la caída de la capitalización de hoy (-1.57%) no alcanza el umbral de pausa."
+    "Miedo extremo sostenido (índice 11, valores de 10-12 durante 7 días).",
+    "Caída de la capitalización total (-2.19% en 24 h) y semana de fuertes pérdidas en Nasdaq y mercados asiáticos (KOSPI -5%).",
+    "Salidas netas de ETF spot de bitcoin de 1.790 M USD en la última semana y 4.340 M USD en cuatro semanas.",
+    "Expectativas de nueva subida de tipos de la Fed en diciembre generan incertidumbre, aunque sin evento de alto impacto en las próximas 24 h.",
+    "El exploit de ACE (Fusionist, ~5.7 M USD) no involucra a las monedas operadas; no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-23T09:22:56+00:00",
-  "valido_hasta": "2026-11-23T12:22:56+00:00",
+  "generado": "2026-11-23T11:06:28+00:00",
+  "valido_hasta": "2026-11-23T14:06:28+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -1.57,
-    "noticias_analizadas": 24,
+    "cambio_mercado_24h": -2.19,
+    "noticias_analizadas": 27,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -31,9 +31,9 @@
   },
   "titulares": [
     {
-      "titulo": "Chainflip Hacker Steals $12 Million as FLIP Token Craters 69%",
+      "titulo": "Bill Ackman Warns Fed Rate Hikes Will Spark Massive Recession",
       "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/security/chainflip-hacker-steals-12-million-as-flip-token-craters-69/"
+      "link": "https://news.bitcoin.com/finance/bill-ackman-warns-fed-rate-hikes-will-spark-massive-recession/"
     },
     {
       "titulo": "Billionaire Bill Ackman warns Fed will make a rate ‘mistake’ in December",
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7699,
+    "input_tokens": 8027,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 686,
+    "output_tokens": 570,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
