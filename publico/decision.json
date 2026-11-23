@@ -1,23 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11, sostenido durante 7 días) tras una caída de noviembre que llevó a BTC a un mínimo de dos años cerca de 55.640 USD, aunque ahora rebota (BTC ~61.165 USD, capitalización total -1,5% en 24 h). No hay eventos macro de alto impacto en 24 h, pero el riesgo de nuevas caídas (Nasdaq débil, debate sobre subidas de tipos de la Fed en diciembre) sigue elevado. Se recomienda cautela general, con BTC y ETH en cautela por ser el núcleo del mercado; el hackeo de Chainflip es un incidente localizado en un DEX y no justifica pausar el resto.",
+  "resumen": "El mercado está en miedo extremo (índice 11, sostenido toda la semana) tras una caída de noviembre que llevó a BTC a un mínimo de dos años cerca de 55.640 USD, aunque hoy rebota con la capitalización total en -1.34% en 24 h. No hay eventos macro de alto impacto USD en las próximas 24 h, y el hackeo de Chainflip (12 M USD, protocolo de intercambio cross-chain) afecta a un protocolo concreto, no a Binance ni a las monedas que opera el bot. Dado el entorno de volatilidad y miedo extremo, se recomienda cautela general, sin pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante los últimos 7 días.",
-    "BTC tocó mínimo de dos años (55.640 USD) en noviembre y el mercado perdió más de 500.000 M USD en el mes; volatilidad elevada.",
-    "Riesgo de caída adicional ligado al Nasdaq y a la posible subida de tipos de la Fed en diciembre (advertencias de Ackman y Arthur Hayes), aunque sin evento macro de alto impacto en 24 h.",
-    "Hackeo de ~12 M USD a Chainflip (FLIP -69%): incidente concreto pero localizado en un DEX, sin afectar a las monedas operadas por el bot.",
-    "Caídas 7 días de -4% a -11% en las monedas operadas, con rebote en 24 h; no hay halt, depeg ni delist."
+    "Índice Miedo/Codicia en 11 (Extreme Fear) y sostenido entre 10 y 12 durante los últimos 7 días.",
+    "BTC tocó un mínimo de dos años (55.640 USD) y la semana cierra con pérdidas fuertes; la mayoría de monedas acumulan entre -6% y -10% en 7 días.",
+    "Hackeo de Chainflip (~12 M USD) con caída del 69% de su token FLIP: riesgo concreto pero acotado a un protocolo que no opera el bot.",
+    "Rumores de subidas de tipos de la Fed en diciembre; sin eventos macro USD de alto impacto en 24 h, por lo que no procede pausa.",
+    "LTC presenta la peor caída semanal de la lista (-10.07%), por lo que se aplica cautela adicional."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-23T04:02:19+00:00",
-  "valido_hasta": "2026-11-23T07:02:19+00:00",
+  "generado": "2026-11-23T05:16:30+00:00",
+  "valido_hasta": "2026-11-23T08:16:30+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -1.52,
+    "cambio_mercado_24h": -1.34,
     "noticias_analizadas": 15,
     "articulos_leidos": 8,
     "fuentes": {
@@ -41,6 +41,11 @@
       "link": "https://cointelegraph.com/markets/billionaire-bill-ackman-warns-fed-rate-hikes-could-trigger-recession?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "titulo": "Market rout kills 50 basis points December Fed rate hike bets",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/23/market-rout-kills-50-basis-points-december-fed-rate-hike-bets"
+    },
+    {
       "titulo": "Bitcoin Price Takes a Beating as November Rout Erases Summer Gains",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-takes-a-beating-as-november-rout-erases-summer-gains/"
@@ -54,22 +59,17 @@
       "titulo": "Bitcoin Could Test $50,000 if Nasdaq Slides, Arthur Hayes Warns",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/bitcoin-could-test-50000-if-nasdaq-slides-arthur-hayes-warns/"
-    },
-    {
-      "titulo": "Kalshi Faces Massive Nationwide Shutdown in NY Court Showdown",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/regulation-and-legal/kalshi-faces-massive-nationwide-shutdown-in-ny-court-showdown/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6411,
+    "input_tokens": 6352,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 837,
+    "output_tokens": 717,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
