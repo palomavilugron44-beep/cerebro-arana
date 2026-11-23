@@ -1,30 +1,29 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11, sostenido durante 7 días) tras una fuerte caída de tecnológicas y de BTC a mínimos de dos años (~55.300 USD el fin de semana), con salidas récord de ETFs. Hoy hay un rebote (BTC ~61.700, +1.6% en 24 h; capitalización total -0.63%) impulsado por Nvidia, aunque los medios señalan que el rebote pierde fuerza. No hay evento macro de alto impacto en 24 h, ni una caída de mercado en curso ni un exploit que afecte a las monedas operadas, por lo que la volatilidad y la incertidumbre justifican cautela, no pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) tras una fuerte caída de fin de semana que llevó a BTC a un mínimo de dos años cerca de 55.300 USD, con salidas récord de ETFs. Hoy hay un rebote impulsado por Nvidia, con la capitalización total casi plana en 24 h (-0,16%) y sin eventos macro de alto impacto en las próximas 24 h. Dado el miedo extremo y la volatilidad reciente, conviene cautela general (mitad de tamaño) sin llegar a pausa, ya que no hay un riesgo grave e inmediato.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante 7 días.",
-    "Volatilidad elevada: BTC cayó a ~55.300 USD el fin de semana y rebotó más de un 12% en pocas horas.",
-    "Salidas netas récord de ETFs de BTC (-1.79 B USD en la última semana), con 4 semanas consecutivas de pérdidas.",
-    "Inquietud macro: expectativas de subida de tipos de la Fed y dato de inflación de EE.UU. el miércoles (fuera de la ventana de 2-3 h, dentro de 24 h).",
-    "El exploit de Fusionist ACE (5.7 M USD) afecta a una moneda que el bot no opera, por lo que no se aplica pausa a las monedas listadas.",
-    "No hay caída brusca de capitalización total (-0.63% en 24 h) ni riesgo grave e inmediato que justifique pausa."
+    "Índice Miedo/Codicia en 11 (Extreme Fear) con valores entre 10 y 12 durante los últimos 7 días.",
+    "BTC tocó un mínimo de dos años (~55.300 USD) el fin de semana tras perder más de 10% en un día, con alta volatilidad.",
+    "Salidas netas de ETFs de BTC de 1,79 mil millones USD en la semana, tercera mayor de su historia y cuarta semana consecutiva negativa.",
+    "El rebote de hoy depende de un impulso de acciones tecnológicas (Nvidia) y las noticias sobre la Fed apuntan a posibles subidas de tipos; el IPC llega en la semana.",
+    "No hay señales de hackeo, acción regulatoria grave ni anomalía en ninguna moneda concreta, por lo que no se justifica pausa ni medidas por moneda."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-23T17:57:59+00:00",
-  "valido_hasta": "2026-11-23T20:57:59+00:00",
+  "generado": "2026-11-23T18:58:35+00:00",
+  "valido_hasta": "2026-11-23T21:58:35+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -0.63,
-    "noticias_analizadas": 56,
+    "cambio_mercado_24h": -0.16,
+    "noticias_analizadas": 59,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
-      "Decrypt": 36,
+      "Decrypt": 37,
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
@@ -42,11 +41,6 @@
       "link": "https://cointelegraph.com/markets/btc-price-stock-futures-rebound-three-things-know-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "titulo": "Fusionist ACE Bridge Exploit: $5.7M Loss Estimate, Bithumb Freezes Trading",
-      "fuente": "NewsBTC",
-      "link": "https://www.newsbtc.com/news/fusionist-ace-bridge-exploit-5-7m-loss-estimate-bithumb-freezes-trading/"
-    },
-    {
       "titulo": "Tom Lee Says Ethereum Is as Scarce as Bitcoin—And Bitmine Just Bought More",
       "fuente": "Decrypt",
       "link": "https://decrypt.co/383800/tom-lee-ethereum-scarce-bitcoin-bitmine-buys-more"
@@ -60,17 +54,22 @@
       "titulo": "Bitcoin ETFs shed $1.8B in third-largest weekly outflow",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/markets/bitcoin-etfs-third-largest-weekly-outflows-1-8-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Bitcoin rebounds 17% from $55K lows as Nvidia rally sparks $500M crypto liquidations",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/bitcoin-rebounds-lows-nvidia-rally-sparks-500m-crypto-liquidations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9769,
+    "input_tokens": 9711,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 697,
+    "output_tokens": 647,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
