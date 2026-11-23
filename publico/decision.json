@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11) tras una fuerte caída de fin de semana de BTC hasta mínimos de dos años, con rebote posterior muy volátil impulsado por Nvidia y salidas récord de ETFs. La capitalización total solo cae -0.91% en 24 h y no hay eventos macro de alto impacto en 24 h, por lo que no hay señal de pausa. Se recomienda cautela general por volatilidad y miedo extremo, sin medidas específicas por moneda.",
+  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) tras una caída fuerte de BTC hasta 55.000 USD el fin de semana, con rebote posterior y alta volatilidad ligada a bolsas tecnológicas y expectativas de subidas de tipos de la Fed. Hay además un IPC de EE. UU. el miércoles, que cae fuera de la ventana de 2-3 horas, pero dentro de las próximas 24 h. El hackeo de Binance de octubre y el decomiso de USDC son noticias negativas relevantes pero no un riesgo nuevo y grave para las monedas operadas, por lo que se elige cautela general sin pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) sostenido durante 7 días.",
-    "Volatilidad fuerte: BTC cayó a ~55K y rebotó a ~61-64K en un fin de semana, con liquidaciones de cientos de millones.",
-    "Salidas de ETFs de BTC de 1.79 mil millones en la semana, la tercera mayor de la historia; ETH encadena ocho semanas de salidas.",
-    "Noticias sobre el hackeo de Binance (Oct 29) y la incautación de USDC son negativas pero no implican un riesgo grave para las monedas operadas.",
-    "No hay eventos macro de alto impacto USD en las próximas 24 h; la caída de capitalización en 24 h es moderada (-0.91%)."
+    "Índice Miedo/Codicia en 11 (Extreme Fear) y sostenido entre 10 y 12 durante 7 días",
+    "Volatilidad fuerte: BTC cayó a 55.298 USD y rebotó hasta ~64.500 en pocas horas, con liquidaciones de cientos de millones",
+    "Dato macro relevante (IPC de EE. UU. el miércoles) dentro de las próximas 24 h y expectativas de endurecimiento monetario",
+    "Noticias negativas relevantes pero no graves: salidas récord de ETFs de BTC (-1.790 M USD) y decomiso del DOJ de ~1.170 M USD en USDC ligado al hackeo de Binance",
+    "No hay hackeo nuevo, halt, depeg ni delist de las monedas operadas, por lo que no se justifica pausa"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-23T21:51:30+00:00",
-  "valido_hasta": "2026-11-24T00:51:30+00:00",
+  "generado": "2026-11-23T22:52:24+00:00",
+  "valido_hasta": "2026-11-24T01:52:24+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -0.91,
-    "noticias_analizadas": 61,
+    "cambio_mercado_24h": -1.09,
+    "noticias_analizadas": 59,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -51,25 +51,25 @@
       "link": "https://decrypt.co/383758/bitcoin-rebounds-to-61k-after-weekend-plunge-to-two-year-low"
     },
     {
+      "titulo": "Bitcoin Price Recovery Faces Weak Demand After $4.7B Leverage Wipeout",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-recovery-faces-weak-demand-after-4-7b-leverage-wipeout/"
+    },
+    {
       "titulo": "US Government Targets $1.17B as Circle Offers to Reissue Binance’s Frozen USDC",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/stablecoins/us-government-targets-1-17b-circle-offers-reissue-binance-frozen-usdc/"
-    },
-    {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9780,
+    "input_tokens": 9728,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 573,
+    "output_tokens": 653,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
