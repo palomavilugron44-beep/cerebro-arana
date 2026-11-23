@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11) tras una caída del Nasdaq y de las criptos el fin de semana, con BTC tocando mínimos de dos años (~55.300 USD) y rebotando hoy hacia 63.000 USD. Hay dos factores de cautela: la incertidumbre macro (riesgo de subidas de tipos de la Fed y el dato de inflación del miércoles, que cae fuera de la ventana de 2-3 horas) y el exploit del puente Fusionist ACE, con un halt en Bithumb. Ninguna de las 10 monedas que opera el bot tiene una situación anómala, así que se mantiene cautela global sin pausas por moneda.",
+  "resumen": "El mercado está en miedo extremo tras una fuerte caída de tecnológicas y un mínimo de dos años de BTC el fin de semana, con salidas récord de ETF. Hoy hay un rebote impulsado por Nvidia, pero con liquidaciones elevadas y el dato de inflación de EE. UU. previsto para el miércoles. Se recomienda cautela global (mitad de tamaño) para BTC y ETH, que son los activos más expuestos a este escenario, sin pausar el resto.",
   "motivos": [
     "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante 7 días.",
-    "Caída reciente de mercado: BTC mínimo de ~55.300 USD el fin de semana tras la venta de tecnológicas; rebote parcial hoy, aún volátil.",
-    "Expectativas de endurecimiento de la Fed y dato de inflación de EE. UU. el miércoles (dentro de 24 h, no en 2-3 h); salidas de ETF de BTC de 1.790 M USD en la última semana.",
-    "Exploit del puente Fusionist ACE (~5,7 M USD) con halt en Bithumb; ACE no es una de las monedas del bot, por lo que no requiere pausa de las operadas.",
-    "Ninguna de las 10 monedas operadas muestra halt, depeg ni delist; no se identifica riesgo grave e inmediato sobre posiciones."
+    "Caída bursátil tecnológica fuerte (Nasdaq-100 con su peor semana desde 2020; S&P y Dow en corrección) y BTC con mínimo de dos años cerca de 55.300 USD el fin de semana.",
+    "Salidas netas de ETF de Bitcoin de 1.790 M USD en la última semana (tercera mayor de la historia).",
+    "Expectativas de endurecimiento de la Fed y dato de inflación de EE. UU. el miércoles; el IPC está dentro de 24 h, lo que justifica cautela.",
+    "Rebote de hoy impulsado por el anuncio de Nvidia (reinstalación de Huang), con liquidaciones de unos 440 M USD: rebote de riesgo elevado, no tendencia confirmada.",
+    "Hackeo del puente Fusionist ACE (~5,7 M USD) que ha llegado a exchanges; afecta a un token concreto (ACE), que no opera el bot, por lo que no justifica pausa global."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-23T15:00:35+00:00",
-  "valido_hasta": "2026-11-23T18:00:35+00:00",
+  "generado": "2026-11-23T16:03:42+00:00",
+  "valido_hasta": "2026-11-23T19:03:42+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": 0.81,
-    "noticias_analizadas": 48,
+    "cambio_mercado_24h": 1.59,
+    "noticias_analizadas": 49,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +63,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9386,
+    "input_tokens": 9422,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 730,
+    "output_tokens": 900,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
