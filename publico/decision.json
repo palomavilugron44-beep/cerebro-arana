@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11, sostenido durante la última semana) tras una caída de la capitalización total de -2.73% en 24 h y un mínimo de dos años de BTC cerca de 55.640 USD. No hay eventos macro de alto impacto en las próximas 24 h y el hackeo de Chainflip (~12 M USD) afecta a un protocolo concreto, no a Binance ni a las monedas del bot. Dada la volatilidad y el sentimiento negativo, se recomienda cautela general, con un refuerzo para LTC por su caída semanal más pronunciada.",
+  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) tras una caída de noviembre que llevó a BTC a mínimos de dos años (~55.6k) y la capitalización total cayó -3.12% en 24 h, con rebote parcial en curso. No hay eventos macro de alto impacto en 24 h, pero la volatilidad y la incertidumbre elevadas justifican reducir el tamaño de nuevas compras a la mitad. No se detectan riesgos graves e inmediatos que obliguen a pausar.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante 7 días.",
-    "Capitalización total -2.73% en 24 h y BTC rebotando desde un mínimo de dos años (~55.640 USD), con recuperación frágil.",
-    "Hackeo de Chainflip (~12 M USD) con caída del 69% de su token FLIP: riesgo concreto pero no afecta directamente a las monedas operadas ni a Binance.",
-    "Sin eventos macro USD de alto impacto en las próximas 24 h.",
-    "LTC con -12.23% en 7 días, el peor desempeño semanal del grupo."
+    "Miedo extremo sostenido (índice 11 en los últimos 7 días) y codicia ausente.",
+    "Capitalización total -3.12% en 24 h y BTC en mínimos de dos años tras caídas de ~6-12% semanales en la mayoría de monedas.",
+    "Volatilidad fuerte y riesgo de nuevas caídas según analistas (Nasdaq en venta), aunque sin evento macro de alto impacto en 24 h.",
+    "Hackeo de Chainflip (~12 M$) afecta al protocolo y a su token FLIP, que no está en la lista de operación; no se considera riesgo sistémico para las monedas del bot.",
+    "No hay evidencia de halt, depeg o delist en las monedas operadas, por lo que no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-23T01:04:21+00:00",
-  "valido_hasta": "2026-11-23T04:04:21+00:00",
+  "generado": "2026-11-23T02:17:21+00:00",
+  "valido_hasta": "2026-11-23T05:17:21+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -2.73,
-    "noticias_analizadas": 16,
+    "cambio_mercado_24h": -3.12,
+    "noticias_analizadas": 14,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6555,
+    "input_tokens": 6343,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 621,
+    "output_tokens": 578,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
