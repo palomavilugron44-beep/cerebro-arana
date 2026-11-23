@@ -1,30 +1,24 @@
 {
   "modo": "cautela",
-  "monedas": {
-    "ADAUSDT": {
-      "modo": "pausa",
-      "motivo": "Sin datos específicos de riesgo, pero no hay motivo concreto de pausa; ver nota",
-      "multiplicador_riesgo": 0.0
-    }
-  },
-  "resumen": "El miedo extremo (índice 11) y la caída de BTC a un mínimo de dos años (55.640 USD) con un fin de semana de ventas fuertes justifican cautela global. La capitalización total cae solo un -0.89% en 24 h, así que no hay una caída brusca en curso que exija pausa. Los incidentes de Chainflip (12 M USD) y Fusionist ACE (5,7 M USD) afectan a protocolos concretos, no a las monedas que opera el bot.",
+  "monedas": {},
+  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) tras una semana muy negativa: BTC ronda los 61.700 USD tras tocar 55.640 y la capitalización total cae un 1.57% en 24 h, con salidas de ETF de BTC por 1.790 M USD en la última semana y un desplome bursátil en Asia. No hay una caída brusca de hoy de -7% ni un evento macro de alto impacto en las próximas 24 h, así que no justifica pausa. Se opta por cautela general para reducir el tamaño de las compras nuevas mientras dure la incertidumbre.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) sostenido durante 7 días.",
-    "BTC tocó 55.640 USD (mínimo de dos años) y recuperó solo hasta ~61.400; KOSPI cayó un 5% el lunes y Nasdaq tuvo su peor semana desde 2020.",
-    "Hackeos de Chainflip (~12 M USD, token FLIP -69%) y Fusionist ACE (~5,7 M USD, Bithumb suspendió ACE): incidentes en protocolos ajenos a las 10 monedas operadas.",
-    "Capitalización total solo -0,89% en 24 h: no hay caída brusca en curso que justifique pausa.",
-    "Sin eventos macro de alto impacto USD en las próximas 24 h."
+    "Índice Miedo/Codicia en 11 (Extreme Fear) y sostenido en torno a 10-12 durante los últimos 7 días.",
+    "BTC cayó hasta 55.640 USD (mínimo de dos años) y la semana cierra con pérdidas profundas; salidas netas de ETF de BTC de 4.34 mil M USD en cuatro semanas.",
+    "Caída de la bolsa surcoreana KOSPI (-5%) y de los futuros del Nasdaq 100 tras su peor semana desde 2020: volatilidad macro elevada.",
+    "Hackeos recientes (Chainflip, 12 M USD; puente Fusionist ACE, 5.7 M USD) generan riesgo sobre protocolos concretos, pero no afectan directamente a las monedas operadas ni son de riesgo sistémico.",
+    "No hay eventos macro de alto impacto USD en 24 h; la caída de la capitalización de hoy (-1.57%) no alcanza el umbral de pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-23T07:31:30+00:00",
-  "valido_hasta": "2026-11-23T10:31:30+00:00",
+  "generado": "2026-11-23T09:22:56+00:00",
+  "valido_hasta": "2026-11-23T12:22:56+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -0.89,
-    "noticias_analizadas": 20,
+    "cambio_mercado_24h": -1.57,
+    "noticias_analizadas": 24,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -57,25 +51,25 @@
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-61k-arthur-hayes-55k-retest-kospi-crash/"
     },
     {
+      "titulo": "Bitcoin ETFs shed $1.8B in third-largest weekly outflow",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/bitcoin-etfs-third-largest-weekly-outflows-1-8-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "titulo": "Market rout kills 50 basis points December Fed rate hike bets",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/23/market-rout-kills-50-basis-points-december-fed-rate-hike-bets"
-    },
-    {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7201,
+    "input_tokens": 7699,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 630,
+    "output_tokens": 686,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
