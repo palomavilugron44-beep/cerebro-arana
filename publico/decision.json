@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11) con la capitalización total cayendo un -1.43% en 24 h y BTC, ETH y BNB con caídas de 7% en 7 días. No hay eventos macro de alto impacto en 24 h, pero el ambiente de incertidumbre es elevado, con volatilidad fuerte (BTC subió a 64.5k y volvió a caer por debajo de 61k en el mismo día). Recomiendo cautela global, sin pausa, porque no hay un riesgo grave e inmediato como un hackeo que afecte a las redes de las monedas operadas.",
+  "resumen": "El miedo extremo (índice 11, sostenido durante 7 días) y una caída de la capitalización total de -2.25% en 24 h dibujan un mercado tenso, con BTC, ETH y BNB cerca de -7% en la semana. No hay evento macro de alto impacto en las próximas 24 h ni señal de hackeo que afecte a la red o al exchange de forma operativa para el bot. Por ello se elige cautela global, sin pausa ni medidas específicas por moneda.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante los últimos 7 días.",
-    "Volatilidad fuerte: BTC rebotó hasta 64.5k y volvió a caer por debajo de 61k en pocas horas tras el rally de Nvidia.",
-    "Capitalización total -1.43% en 24 h y BTC, ETH y BNB con caídas cercanas al -7% en 7 días.",
-    "Hackeo de Binance (~6.3 mil millones) con fondos aún movidos y acciones judiciales de EE. UU. contra USDC incautado; noticia negativa relevante pero no afecta de forma directa a la operativa del bot ni a las redes de las monedas, por lo que no justif",
-    "No hay eventos macro de alto impacto USD en las próximas 24 h."
+    "Índice Miedo/Codicia en 11 (Extreme Fear), estable en niveles extremos durante los últimos 7 días.",
+    "Capitalización total -2.25% en 24 h y BTC, ETH y BNB con caídas de alrededor de -7% en 7 días.",
+    "Noticias negativas relevantes pero no graves: hackeo de Binance (6.3 mil M$) con fondos en mezcladores y acción judicial de EE. UU. por 1.1-1.17 mil M$ en USDC, sin afectar a la operativa del bot.",
+    "Sin eventos económicos USD de alto impacto en las próximas 24 h, por lo que no se activa pausa macro.",
+    "Ninguna moneda muestra anomalía (halt, depeg, delist) ni riesgo específico que justifique modo más prudente por par."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-24T03:57:52+00:00",
-  "valido_hasta": "2026-11-24T06:57:52+00:00",
+  "generado": "2026-11-24T05:04:19+00:00",
+  "valido_hasta": "2026-11-24T08:04:19+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -1.43,
-    "noticias_analizadas": 39,
+    "cambio_mercado_24h": -2.25,
+    "noticias_analizadas": 33,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -46,11 +46,6 @@
       "link": "https://cointelegraph.com/news/us-seeks-11b-crypto-stolen-north-korea-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "titulo": "Tom Lee Says Ethereum Is as Scarce as Bitcoin—And Bitmine Just Bought More",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/383800/tom-lee-ethereum-scarce-bitcoin-bitmine-buys-more"
-    },
-    {
       "titulo": "Robert Kiyosaki Renews Bitcoin Case, Warns of Economic Crash Worse Than 2008",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/featured/robert-kiyosaki-renews-bitcoin-case-warns-of-economic-crash-worse-than-2008/"
@@ -59,17 +54,22 @@
       "titulo": "Bitcoin Price Recovery Faces Weak Demand After $4.7B Leverage Wipeout",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-recovery-faces-weak-demand-after-4-7b-leverage-wipeout/"
+    },
+    {
+      "titulo": "US Government Targets $1.17B as Circle Offers to Reissue Binance’s Frozen USDC",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/stablecoins/us-government-targets-1-17b-circle-offers-reissue-binance-frozen-usdc/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9598,
+    "input_tokens": 8752,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 625,
+    "output_tokens": 578,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
