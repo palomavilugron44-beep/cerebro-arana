@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El índice Miedo/Codicia está en 11 (miedo extremo) de forma sostenida durante la última semana, y la capitalización total cae levemente (-0.88% en 24 h) tras una semana muy volátil con fuertes liquidaciones y salidas de ETFs de bitcoin. No hay eventos macro de alto impacto en las próximas 24 h ni un hackeo que afecte directamente a las monedas operadas, aunque el hack de Binance y la acción judicial de EE. UU. por unos 1.100-1.170 M$ en USDC son noticias negativas relevantes pero no graves. Por ello se recomienda cautela general (compras a mitad de tamaño) y no pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) tras una caída fuerte el viernes (BTC perdió ~10% en un día) y volatilidad alta, con BTC oscilando entre 55K y 64.5K en pocas horas. Hay noticias negativas relevantes pero no graves: el hackeo de Binance de 6.3 mil millones sigue con blanqueo activo, aunque ya hay acciones del DOJ y no hay un exploit nuevo ni problema de seguridad activo en curso. Sin eventos macro de alto impacto en 24 h, por lo que se opta por cautela general (mitad de tamaño) en vez de pausa.",
   "motivos": [
-    "Miedo extremo (índice 11) mantenido durante 7 días seguidos.",
-    "Volatilidad fuerte: BTC cayó hasta ~55K y rebotó a ~64.5K en la semana; liquidaciones de cientos de millones de dólares.",
-    "Salidas de ETFs spot de bitcoin por 1.790 M$ (tercera mayor de la historia) y ocho semanas seguidas de salidas en ETH.",
-    "Noticias negativas relevantes pero no graves: hack de Binance (~6.3 mil M$) y reclamación judicial de EE. UU. sobre ~1.17 mil M$ en USDC; no afecta directamente a las monedas operadas.",
-    "Sin eventos macro de alto impacto en las próximas 24 h; caída de capitalización total del -0.88% sin señal de colapso."
+    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante 7 días",
+    "Caída de BTC de ~10% en un día el viernes y rebote muy volátil (55K-64.5K) con liquidaciones de cientos de millones",
+    "Salidas de ETF de BTC por 1.79 mil millones en la semana y pérdida de open interest en Binance",
+    "Noticias negativas relevantes (hackeo de Binance y blanqueo de fondos), pero sin riesgo grave e inmediato para las monedas operadas",
+    "Sin eventos macro de alto impacto USD en las próximas 24 h, la caída de capitalización del día es de -1.19%, lejos del umbral de pausa"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-23T23:50:14+00:00",
-  "valido_hasta": "2026-11-24T02:50:14+00:00",
+  "generado": "2026-11-24T01:04:30+00:00",
+  "valido_hasta": "2026-11-24T04:04:30+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -0.88,
-    "noticias_analizadas": 55,
+    "cambio_mercado_24h": -1.19,
+    "noticias_analizadas": 53,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -34,6 +34,11 @@
       "titulo": "Clockwork Laundering: Binance Hackers Follow a Daily Cadence Linked to China",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/featured/clockwork-laundering-binance-hackers-follow-daily-cadence-linked-china/"
+    },
+    {
+      "titulo": "Solana Price Prediction 2030: Is $2,000 SOL Still on the Table After a 75% Crash?",
+      "fuente": "NewsBTC",
+      "link": "https://www.newsbtc.com/news/solana/solana-price-prediction-2030/"
     },
     {
       "titulo": "US seeks to recover $1.1B in crypto stolen in North Korea-linked Binance hack",
@@ -54,22 +59,17 @@
       "titulo": "US Government Targets $1.17B as Circle Offers to Reissue Binance’s Frozen USDC",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/stablecoins/us-government-targets-1-17b-circle-offers-reissue-binance-frozen-usdc/"
-    },
-    {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9625,
+    "input_tokens": 9631,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 654,
+    "output_tokens": 609,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
