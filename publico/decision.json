@@ -1,34 +1,40 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza (capitalización total -6.72% en 24 h) y el índice Miedo/Codicia está en Extreme Fear (11), con salidas récord de ETFs de bitcoin (-4.71 mil millones en noviembre). Hay un evento macro relevante en las próximas 24 h (Core PCE y PIB previo del 25 de noviembre), pero no en las próximas 2-3 horas, y no hay indicios de hackeo, halt ni acción regulatoria grave contra las monedas operadas. Por ello se recomienda cautela general (mitad de tamaño) y no pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 11) con la capitalización total cayendo -5.17% en 24 h y BTC de nuevo por debajo de 60.000 USD tras una semana de salidas récord de ETF. Además, hay un evento macro de alto impacto mañana (PCE core y PIB de EE.UU., 25 nov 13:30 UTC) y un incidente de seguridad relacionado con Solana, por lo que se recomienda cautela general y una precaución adicional en SOL. No hay señales de riesgo grave e inmediato como un hackeo de red o un dato de muy alto impacto dentro de 2-3 horas, así que no se justifica la pausa.",
   "motivos": [
-    "Miedo extremo (índice 11) mantenido durante 7 días y capitalización total -6.72% en 24 h.",
-    "Salidas récord de ETFs spot de bitcoin (-4.71 mil millones USD en noviembre) y BTC cerca de mínimos de mercado bajista.",
-    "Evento macro importante dentro de 24 h (Core PCE y PIB preliminar el 25 de noviembre a las 13:30 UTC), fuera de la ventana de 2-3 horas que justificaría pausa.",
-    "No hay señales de exploit, halt, depeg ni acción regulatoria grave sobre las monedas operadas; las noticias sobre el hackeo de Binance son de recuperación de fondos, no un riesgo nuevo para el bot."
+    "Índice Miedo/Codicia en 11 (Extreme Fear) y sostenido durante 7 días, lo que indica incertidumbre elevada.",
+    "Capitalización total -5.17% en 24 h y BTC por debajo de 60.000 USD con récord de salidas de ETF (4.71 mil millones USD en noviembre).",
+    "Evento macro importante en menos de 24 h: PCE core y PIB preliminar de EE.UU. el 25 de noviembre a las 13:30 UTC.",
+    "Incidente de seguridad en la wallet de Ansem vinculado a Bullpen (Solana) con caída de ~60% del meme coin ANSEM; SOL cae -5.23% en 24 h.",
+    "Ninguna moneda muestra halt, depeg ni delist; el riesgo no alcanza el nivel grave que justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-24T17:08:33+00:00",
-  "valido_hasta": "2026-11-24T20:08:33+00:00",
+  "generado": "2026-11-24T18:58:14+00:00",
+  "valido_hasta": "2026-11-24T21:58:14+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -6.72,
-    "noticias_analizadas": 46,
+    "cambio_mercado_24h": -5.17,
+    "noticias_analizadas": 53,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
-      "Decrypt": 37,
+      "Decrypt": 38,
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
     "eventos_usd_24h": 2
   },
   "titulares": [
+    {
+      "titulo": "Ansem Meme Coin Crashes After $2.57 Million Wallet Drain, Bullpen Confirms Security Breach",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/383889/ansem-meme-coin-crashes-wallet-drain-bullpen-security-breach"
+    },
     {
       "titulo": "Bitcoin Price Struggles to Hold $60K as Nvidia CEO Return Rally Fades Fast",
       "fuente": "Bitcoin.com",
@@ -45,30 +51,25 @@
       "link": "https://www.coindesk.com/markets/2026/11/24/bitcoin-hands-back-monday-s-nvidia-driven-gains-liquidations-triple"
     },
     {
+      "titulo": "CFTC sets new prediction market rules as more firms seek US entry",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/cftc-new-prediction-market-rules-firms-seek-us-entry?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "titulo": "Bitcoin ETFs keep bleeding as BlackRock’s IBIT shares gain nearly 5%",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/markets/bitcoin-etfs-bleed-ibit-shares-gain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "CertiK Trains Interpol Investigators to Trace and Freeze Stolen Crypto",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/383857/certik-trains-interpol-investigators-to-trace-and-freeze-stolen-crypto"
-    },
-    {
-      "titulo": "Bitcoin ETFs Lose $570M as Blackrock’s 3-Day Exodus Hits $1.6B",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/bitcoin-etf/bitcoin-etfs-lose-570m-as-blackrocks-3-day-exodus-hits-1-6b/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9682,
+    "input_tokens": 9718,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 601,
+    "output_tokens": 744,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
