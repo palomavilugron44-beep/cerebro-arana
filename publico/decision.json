@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto está en miedo extremo (índice 11) tras una caída de capitalización total del -4.26% en 24 h, con salidas récord de ETFs de Bitcoin (4.710 M$ en noviembre) y BTC cerca de 60.000 USD tras perder 7 semanas seguidas. No hay eventos macro de alto impacto en las próximas 24 h ni un riesgo grave de hackeo o problema regulatorio que afecte directamente a las monedas operadas. Dado el entorno de incertidumbre y volatilidad, se recomienda cautela general, sin pausa.",
+  "resumen": "La capitalización total cripto cae un 7.03% en 24 h con miedo extremo (índice 11) y salidas récord de ETF de bitcoin (4.710 M$ en noviembre), en un contexto de caída brusca que roza el umbral de pausa. Hay además datos macro de alto impacto (Core PCE y PIB de EE. UU.) previstos para mañana 25 de noviembre a las 13:30 UTC, dentro de las próximas 24 h. No se observa un hackeo ni una acción regulatoria grave contra una moneda concreta, por lo que se recomienda cautela general y no pausa.",
   "motivos": [
-    "Miedo extremo sostenido (índice 11, con 7 días en rango 10-12).",
-    "Caída de capitalización total de -4.26% en 24 h y BTC por debajo de 60.000 USD tras 7 semanas consecutivas en rojo.",
-    "Salidas récord de ETFs spot de Bitcoin (4.710 M$ en noviembre), señal de presión vendedora institucional.",
-    "El hackeo de Binance y el caso de Bitmart son noticias negativas relevantes, pero no afectan directamente a las monedas operadas ni implican riesgo inmediato para ellas.",
-    "Sin eventos económicos USD de alto impacto en las próximas 24 h, por lo que no se activa pausa macro."
+    "Capitalización total -7.03% en 24 h, en el límite de la caída brusca que justificaría pausa, pero sin liquidaciones masivas confirmadas como detonante.",
+    "Índice Miedo/Codicia en 11 (miedo extremo) sostenido durante 7 días.",
+    "Salidas netas de ETF de BTC de 4.710 M$ en noviembre, récord mensual, con cinco sesiones consecutivas de salidas.",
+    "Core PCE y PIB preliminar de EE. UU. el 25/11 a las 13:30 UTC: evento macro importante dentro de 24 h, no dentro de 2-3 h.",
+    "Las noticias sobre el hackeo de Binance (1.100 M$ en USDC en proceso de decomiso) son negativas pero no afectan directamente a la operativa de las monedas del bot.",
+    "Todas las monedas caen entre -3.9% y -8.9% en 24 h sin señal de anomalía individual (sin halt, depeg ni delist)."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-24T13:14:07+00:00",
-  "valido_hasta": "2026-11-24T16:14:07+00:00",
+  "generado": "2026-11-24T14:58:14+00:00",
+  "valido_hasta": "2026-11-24T17:58:14+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -4.26,
-    "noticias_analizadas": 33,
+    "cambio_mercado_24h": -7.03,
+    "noticias_analizadas": 43,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -27,9 +28,14 @@
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
-    "eventos_usd_24h": 0
+    "eventos_usd_24h": 2
   },
   "titulares": [
+    {
+      "titulo": "Justice Department Moves to Forfeit $1.1B in USDC From North Korea's Binance Hack",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/383874/justice-department-moves-to-forfeit-1-1b-in-usdc-from-north-koreas-binance-hack"
+    },
     {
       "titulo": "Bitcoin hands back Monday's Nvidia-driven gains, liquidations triple",
       "fuente": "CoinDesk",
@@ -41,35 +47,30 @@
       "link": "https://cointelegraph.com/markets/bitcoin-etfs-bleed-ibit-shares-gain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "titulo": "CertiK Trains Interpol Investigators to Trace and Freeze Stolen Crypto",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/383857/certik-trains-interpol-investigators-to-trace-and-freeze-stolen-crypto"
+    },
+    {
+      "titulo": "Bitcoin ETFs Lose $570M as Blackrock’s 3-Day Exodus Hits $1.6B",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/bitcoin-etf/bitcoin-etfs-lose-570m-as-blackrocks-3-day-exodus-hits-1-6b/"
+    },
+    {
       "titulo": "U.S. seeks $1.1 billion seized in Binance hack as North Korean funds keep moving",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/policy/2026/11/24/u-s-seeks-usd1-1-billion-seized-in-binance-hack-as-north-korean-funds-keep-moving"
-    },
-    {
-      "titulo": "Binance Hack: US Moves to Recover $1.1 Billion, but Who Gets the Money?",
-      "fuente": "NewsBTC",
-      "link": "https://www.newsbtc.com/crypto-news/binance-hack-us-1-billion-recovery/"
-    },
-    {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Robert Kiyosaki Renews Bitcoin Case, Warns of Economic Crash Worse Than 2008",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/featured/robert-kiyosaki-renews-bitcoin-case-warns-of-economic-crash-worse-than-2008/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8818,
+    "input_tokens": 9677,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 581,
+    "output_tokens": 682,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
