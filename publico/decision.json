@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) tras una caída fuerte el viernes (BTC perdió ~10% en un día) y volatilidad alta, con BTC oscilando entre 55K y 64.5K en pocas horas. Hay noticias negativas relevantes pero no graves: el hackeo de Binance de 6.3 mil millones sigue con blanqueo activo, aunque ya hay acciones del DOJ y no hay un exploit nuevo ni problema de seguridad activo en curso. Sin eventos macro de alto impacto en 24 h, por lo que se opta por cautela general (mitad de tamaño) en vez de pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 11) tras una semana bajista: BTC, ETH y BNB caen alrededor de un 5-6% en 7 días, aunque la capitalización total solo baja un 0.96% en 24 h y no hay eventos macro de alto impacto en las próximas 24 h. El hackeo de Binance de octubre sigue generando noticias (blanqueo de 247 M$ en BTC, acción de decomiso del DOJ por 1.1-1.2 mil M$ en USDC), pero no afecta de forma directa a las monedas operadas ni es un evento nuevo que justifique pausar. Dado el miedo extremo y la volatilidad reciente (rebote de BTC del 17% desde 55K y vuelta a 60.8K), se recomienda cautela general, sin restricciones adicionales por moneda.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante 7 días",
-    "Caída de BTC de ~10% en un día el viernes y rebote muy volátil (55K-64.5K) con liquidaciones de cientos de millones",
-    "Salidas de ETF de BTC por 1.79 mil millones en la semana y pérdida de open interest en Binance",
-    "Noticias negativas relevantes (hackeo de Binance y blanqueo de fondos), pero sin riesgo grave e inmediato para las monedas operadas",
-    "Sin eventos macro de alto impacto USD en las próximas 24 h, la caída de capitalización del día es de -1.19%, lejos del umbral de pausa"
+    "Índice Miedo/Codicia en 11 (Extreme Fear), con valores similares durante los últimos 7 días",
+    "Volatilidad fuerte: BTC subió hasta 64.5K y volvió a caer a ~60.8K en la misma sesión, con 762 M$ en liquidaciones",
+    "Caída semanal de BTC (-5.5%), ETH (-6%) y BNB (-5.5%), con capitalización total en -0.96% en 24 h (sin caída brusca de -7%)",
+    "Noticias negativas relevantes pero no graves: investigación y decomiso relacionados con el hackeo de Binance, sin afectar de forma directa a los precios de las monedas operadas",
+    "Sin eventos macro de alto impacto en las próximas 24 h",
+    "Ninguna moneda muestra anomalía (halt, depeg, delist) ni riesgo específico que justifique un modo más prudente que el global"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-24T01:04:30+00:00",
-  "valido_hasta": "2026-11-24T04:04:30+00:00",
+  "generado": "2026-11-24T02:19:04+00:00",
+  "valido_hasta": "2026-11-24T05:19:04+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -1.19,
-    "noticias_analizadas": 53,
+    "cambio_mercado_24h": -0.96,
+    "noticias_analizadas": 42,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +63,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9631,
+    "input_tokens": 9663,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 609,
+    "output_tokens": 730,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
