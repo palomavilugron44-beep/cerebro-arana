@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11) con la capitalización total cayendo -5.12% en 24 h y BTC por debajo de 60.000 USD tras un mercado bajista de 411 días y salidas récord de ETF. Hay además eventos macro de alto impacto (Core PCE y PIB de EE. UU.) previstos para mañana a las 13:30 UTC, lo que justifica cautela general. Se aplica cautela adicional a SOL por la brecha de seguridad en Bullpen, que no es un fallo de la red Solana.",
+  "resumen": "El mercado cripto está en miedo extremo (índice 11) tras una caída de la capitalización total del -4,65% en 24 h, con BTC cerca de 59.800 USD y en su peor racha de pérdidas realizadas desde FTX según Glassnode. Hay un evento macro de alto impacto mañana (Core PCE y PIB de EE. UU. el 25 de noviembre a las 13:30 UTC), dentro de las próximas 24 h, lo que justifica reducir el tamaño de las nuevas compras. No se detecta una caída brusca con liquidaciones masivas de más del -7% ni un hackeo que afecte directamente a las redes o monedas operadas, por lo que no procede pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante 7 días",
-    "Capitalización total -5.12% en 24 h con salidas récord de ETF de BTC (4.71 mil millones USD en noviembre)",
-    "Core PCE y PIB de EE. UU. previstos el 25/11 a las 13:30 UTC, dentro de las próximas 24 h (evento macro importante, no de muy alto impacto inmediato)",
-    "Brecha de seguridad en Bullpen con robo de ~2.57 M USD y caída de la meme coin ANSEM; afecta a una plataforma, no a la red Solana",
-    "Ninguna noticia indica hackeo de red, halt, depeg o acción regulatoria grave contra las monedas operadas, por lo que no procede pausa"
+    "Índice Miedo/Codicia en 11 (miedo extremo), con valores similares desde hace una semana.",
+    "Capitalización total -4,65% en 24 h y todas las monedas operadas en negativo (SOL -3,9%, AVAX -3,1%), sin llegar al umbral de -7% para pausa.",
+    "Evento macro de alto impacto dentro de 24 h: Core PCE y PIB preliminar de EE. UU. el 25/11 a las 13:30 UTC.",
+    "Incidentes de seguridad (Bullpen/Ansem, meme coin SOL) son de alcance limitado y no afectan a las monedas operadas ni a redes o exchanges concretos; no justifican pausa.",
+    "Sin noticias de halt, depeg, delist ni acción regulatoria grave contra las monedas operadas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-24T20:53:23+00:00",
-  "valido_hasta": "2026-11-24T23:53:23+00:00",
+  "generado": "2026-11-24T21:56:57+00:00",
+  "valido_hasta": "2026-11-25T00:56:57+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -5.12,
-    "noticias_analizadas": 56,
+    "cambio_mercado_24h": -4.65,
+    "noticias_analizadas": 59,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9674,
+    "input_tokens": 9578,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 693,
+    "output_tokens": 655,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
