@@ -1,25 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "La capitalización total cripto cae un 7.03% en 24 h con miedo extremo (índice 11) y salidas récord de ETF de bitcoin (4.710 M$ en noviembre), en un contexto de caída brusca que roza el umbral de pausa. Hay además datos macro de alto impacto (Core PCE y PIB de EE. UU.) previstos para mañana 25 de noviembre a las 13:30 UTC, dentro de las próximas 24 h. No se observa un hackeo ni una acción regulatoria grave contra una moneda concreta, por lo que se recomienda cautela general y no pausa.",
+  "resumen": "El mercado cripto está en miedo extremo (índice 11) tras una caída de capitalización total de -7.15% en 24 h, con salidas récord de ETFs de Bitcoin y BTC por debajo de 60.000 USD. Hay un evento macro de alto impacto (Core PCE y PIB de EE. UU.) previsto para el 25 de noviembre, dentro de las próximas 24 h. No hay señales de hackeo grave, halt ni acción regulatoria fuerte contra una moneda concreta, así que no se justifica pausa; se recomienda cautela general (mitad de tamaño) por la volatilidad y el evento macro.",
   "motivos": [
-    "Capitalización total -7.03% en 24 h, en el límite de la caída brusca que justificaría pausa, pero sin liquidaciones masivas confirmadas como detonante.",
-    "Índice Miedo/Codicia en 11 (miedo extremo) sostenido durante 7 días.",
-    "Salidas netas de ETF de BTC de 4.710 M$ en noviembre, récord mensual, con cinco sesiones consecutivas de salidas.",
-    "Core PCE y PIB preliminar de EE. UU. el 25/11 a las 13:30 UTC: evento macro importante dentro de 24 h, no dentro de 2-3 h.",
-    "Las noticias sobre el hackeo de Binance (1.100 M$ en USDC en proceso de decomiso) son negativas pero no afectan directamente a la operativa de las monedas del bot.",
-    "Todas las monedas caen entre -3.9% y -8.9% en 24 h sin señal de anomalía individual (sin halt, depeg ni delist)."
+    "Miedo extremo sostenido (índice 11, con 7 días en rango 10-12).",
+    "Caída de la capitalización total de -7.15% en 24 h; todas las monedas monitorizadas bajan entre -3.9% y -8.9%.",
+    "Salidas netas récord de ETFs spot de Bitcoin (4.71 mil millones USD en noviembre) y BTC bajo 60.000 USD.",
+    "Evento macro importante dentro de 24 h: Core PCE y PIB preliminar de EE. UU. el 25/11 a las 13:30 UTC.",
+    "Las noticias de hackeo (Binance, Justice Department) son antiguas y no afectan a la operativa directa de estas monedas; no se detecta riesgo grave e inmediato que justifique pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-24T14:58:14+00:00",
-  "valido_hasta": "2026-11-24T17:58:14+00:00",
+  "generado": "2026-11-24T16:06:47+00:00",
+  "valido_hasta": "2026-11-24T19:06:47+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -7.03,
-    "noticias_analizadas": 43,
+    "cambio_mercado_24h": -7.15,
+    "noticias_analizadas": 45,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -63,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9677,
+    "input_tokens": 9569,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 682,
+    "output_tokens": 617,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
