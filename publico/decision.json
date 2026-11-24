@@ -1,24 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11) con la capitalización total cayendo un 4.47% en 24 h y BTC cerca de 60.000 USD tras caídas acumuladas de unas semanas. Hay además un evento macro de alto impacto mañana (Core PCE y PIB de EE. UU. el 25 de noviembre a las 13:30 UTC), dentro de las próximas 24 h, lo que justifica cautela. No hay indicios de hackeo o problema que afecte a las monedas operadas ni caída de -7% o peor, así que no se justifica pausa.",
+  "resumen": "El mercado cripto está en miedo extremo (índice 11) tras una caída de la capitalización total del -4.49% en 24 h, con BTC por debajo de 60.000 USD y flujos de salida récord de ETF. Hay un dato macro de alto impacto (Core PCE y PIB de EE. UU.) previsto para mañana a las 13:30 UTC, dentro de las próximas 24 h, lo que justifica cautela general. No hay indicios de hackeo que afecte a las redes o al exchange de las monedas operadas ni de una moneda en situación anómala, por lo que no procede pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear), sostenido durante los últimos 7 días.",
-    "Capitalización total -4.47% en 24 h y BTC por debajo de 60.000 USD con salidas récord de ETF en noviembre (4.71 mil millones USD).",
-    "Evento macro importante dentro de 24 h: Core PCE y PIB preliminar de EE. UU. el 25/11 a las 13:30 UTC.",
-    "El incidente de Ansem/Bullpen y el exploit de Coldcard afectan a plataformas y wallets concretas, no a las monedas operadas; no justifican pausa por moneda.",
-    "Sin riesgo grave e inmediato sobre las monedas operadas; el stop de la estrategia sigue siendo la protección principal."
+    "Miedo extremo (Fear & Greed 11) sostenido durante 7 días.",
+    "Caída de la capitalización total de -4.49% en 24 h y BTC bajo 60.000 USD con salidas récord de ETF (4.71 mil millones en noviembre).",
+    "Evento macro importante (Core PCE y PIB preliminar de EE. UU.) dentro de las próximas 24 h.",
+    "El incidente de Ansem/Bullpen es un problema de una plataforma y un memecoin ajeno a las monedas operadas; no hay pausa justificada."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-24T22:57:22+00:00",
-  "valido_hasta": "2026-11-25T01:57:22+00:00",
+  "generado": "2026-11-24T23:49:15+00:00",
+  "valido_hasta": "2026-11-25T02:49:15+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -4.47,
-    "noticias_analizadas": 57,
+    "cambio_mercado_24h": -4.49,
+    "noticias_analizadas": 52,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -46,11 +45,6 @@
       "link": "https://decrypt.co/383874/justice-department-moves-to-forfeit-1-1b-in-usdc-from-north-koreas-binance-hack"
     },
     {
-      "titulo": "Bitcoin hands back Monday's Nvidia-driven gains, liquidations triple",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/24/bitcoin-hands-back-monday-s-nvidia-driven-gains-liquidations-triple"
-    },
-    {
       "titulo": "Bitcoin sell-off driven by weak demand, forced liquidations: 21Shares",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/bitcoin-selloff-weak-demand-forced-liquidations-21shares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -59,17 +53,22 @@
       "titulo": "CFTC sets new prediction market rules as more firms seek US entry",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/cftc-new-prediction-market-rules-firms-seek-us-entry?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "CFTC Opens Door to Bitcoin, Ether and Stablecoins as Operating Reserves",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/regulation-and-legal/cftc-opens-door-bitcoin-ether-stablecoins-operating-reserves/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9550,
+    "input_tokens": 9613,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 601,
+    "output_tokens": 529,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
