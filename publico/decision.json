@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11) con la capitalización total cayendo un 4% en 24 h y BTC cerca de 60.000 USD tras una caída de unas 7 semanas seguidas en rojo, con salidas récord de ETFs. No hay evento macro de alto impacto en las próximas 24 h ni una caída brusca de más del 7% ni un exploit activo, por lo que no justifica pausa. Se elige cautela general por la volatilidad y el miedo extremo, sin medidas específicas por moneda.",
+  "resumen": "El mercado cripto está en miedo extremo (índice 11) tras una caída de capitalización total del -4.26% en 24 h, con salidas récord de ETFs de Bitcoin (4.710 M$ en noviembre) y BTC cerca de 60.000 USD tras perder 7 semanas seguidas. No hay eventos macro de alto impacto en las próximas 24 h ni un riesgo grave de hackeo o problema regulatorio que afecte directamente a las monedas operadas. Dado el entorno de incertidumbre y volatilidad, se recomienda cautela general, sin pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) y sostenido así durante los últimos 7 días.",
-    "Capitalización total -4% en 24 h y BTC bajo 60.000 USD tras caídas de hasta -8% semanal en varias monedas.",
-    "Salidas netas récord de ETFs de BTC en noviembre (4.710 M USD) y ventas de liquidaciones en aumento.",
-    "El hack de Binance y las noticias de Bitmart son relevantes pero no afectan directamente a las monedas operadas ni son riesgos graves inmediatos.",
-    "No hay eventos macro de alto impacto en 24 h, y la caída de la capitalización total no supera el umbral de -7%."
+    "Miedo extremo sostenido (índice 11, con 7 días en rango 10-12).",
+    "Caída de capitalización total de -4.26% en 24 h y BTC por debajo de 60.000 USD tras 7 semanas consecutivas en rojo.",
+    "Salidas récord de ETFs spot de Bitcoin (4.710 M$ en noviembre), señal de presión vendedora institucional.",
+    "El hackeo de Binance y el caso de Bitmart son noticias negativas relevantes, pero no afectan directamente a las monedas operadas ni implican riesgo inmediato para ellas.",
+    "Sin eventos económicos USD de alto impacto en las próximas 24 h, por lo que no se activa pausa macro."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-24T11:57:57+00:00",
-  "valido_hasta": "2026-11-24T14:57:57+00:00",
+  "generado": "2026-11-24T13:14:07+00:00",
+  "valido_hasta": "2026-11-24T16:14:07+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -4.0,
-    "noticias_analizadas": 29,
+    "cambio_mercado_24h": -4.26,
+    "noticias_analizadas": 33,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -34,11 +34,6 @@
       "titulo": "Bitcoin hands back Monday's Nvidia-driven gains, liquidations triple",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/24/bitcoin-hands-back-monday-s-nvidia-driven-gains-liquidations-triple"
-    },
-    {
-      "titulo": "Solana Price Prediction 2030: Is $2,000 SOL Still on the Table After a 75% Crash?",
-      "fuente": "NewsBTC",
-      "link": "https://www.newsbtc.com/news/solana/solana-price-prediction-2030/"
     },
     {
       "titulo": "Bitcoin ETFs keep bleeding as BlackRock’s IBIT shares gain nearly 5%",
@@ -59,17 +54,22 @@
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Robert Kiyosaki Renews Bitcoin Case, Warns of Economic Crash Worse Than 2008",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/featured/robert-kiyosaki-renews-bitcoin-case-warns-of-economic-crash-worse-than-2008/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8424,
+    "input_tokens": 8818,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 559,
+    "output_tokens": 581,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
