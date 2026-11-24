@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto está en miedo extremo (índice 11), con la capitalización total cayendo un 5.17% en 24 h y BTC por debajo de 60.000 USD tras salidas récord de ETF y liquidaciones forzadas. Hay un dato macro de alto impacto (Core PCE y PIB de EE. UU.) mañana a las 13:30 UTC, dentro de las próximas 24 h, y el riesgo arancelario pesa sobre las bolsas. No hay hackeo, regulación grave ni anomalía en las monedas operadas que justifique pausar, así que se recomienda cautela global (mitad de tamaño) sin alerta sobre posiciones.",
+  "resumen": "El mercado está en miedo extremo (índice 11) con la capitalización total cayendo -5.12% en 24 h y BTC por debajo de 60.000 USD tras un mercado bajista de 411 días y salidas récord de ETF. Hay además eventos macro de alto impacto (Core PCE y PIB de EE. UU.) previstos para mañana a las 13:30 UTC, lo que justifica cautela general. Se aplica cautela adicional a SOL por la brecha de seguridad en Bullpen, que no es un fallo de la red Solana.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante 7 días.",
-    "Capitalización total -5.17% en 24 h y BTC por debajo de 60.000 USD con salidas récord de ETF (4.710 M USD en noviembre).",
-    "Evento macro importante dentro de 24 h: Core PCE y PIB preliminar de EE. UU. el 25 de noviembre a las 13:30 UTC.",
-    "Riesgo arancelario y caída de bolsas tecnológicas, con posible anuncio de subidas de aranceles esta semana.",
-    "No se detecta riesgo grave e inmediato (sin hackeo de red/exchange que afecte a las monedas operadas, sin halt, depeg ni delist); el incidente de Bullpen/Ansem afecta a un memecoin no operado por el bot."
+    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante 7 días",
+    "Capitalización total -5.12% en 24 h con salidas récord de ETF de BTC (4.71 mil millones USD en noviembre)",
+    "Core PCE y PIB de EE. UU. previstos el 25/11 a las 13:30 UTC, dentro de las próximas 24 h (evento macro importante, no de muy alto impacto inmediato)",
+    "Brecha de seguridad en Bullpen con robo de ~2.57 M USD y caída de la meme coin ANSEM; afecta a una plataforma, no a la red Solana",
+    "Ninguna noticia indica hackeo de red, halt, depeg o acción regulatoria grave contra las monedas operadas, por lo que no procede pausa"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-24T20:01:47+00:00",
-  "valido_hasta": "2026-11-24T23:01:47+00:00",
+  "generado": "2026-11-24T20:53:23+00:00",
+  "valido_hasta": "2026-11-24T23:53:23+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -5.17,
-    "noticias_analizadas": 55,
+    "cambio_mercado_24h": -5.12,
+    "noticias_analizadas": 56,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9725,
+    "input_tokens": 9674,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 655,
+    "output_tokens": 693,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
