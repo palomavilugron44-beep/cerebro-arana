@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11), con la capitalización total cayendo un 4.39% en 24 h y BTC cerca de 60.000 USD tras tocar mínimos de dos años, con salidas récord de ETFs. No hay eventos macro de alto impacto en las próximas 24 h ni un evento de seguridad que afecte directamente a las monedas operadas. Dado el entorno de volatilidad y miedo, se opta por cautela global, sin pausa ni medidas por moneda.",
+  "resumen": "El mercado está en miedo extremo (índice 11) con la capitalización total cayendo un 4% en 24 h y BTC cerca de 60.000 USD tras una caída de unas 7 semanas seguidas en rojo, con salidas récord de ETFs. No hay evento macro de alto impacto en las próximas 24 h ni una caída brusca de más del 7% ni un exploit activo, por lo que no justifica pausa. Se elige cautela general por la volatilidad y el miedo extremo, sin medidas específicas por moneda.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) sostenido durante 7 días.",
-    "Capitalización total -4.39% en 24 h y BTC por debajo de 60.000 USD tras mínimos de dos años.",
-    "Salidas netas récord de ETFs de BTC en noviembre (4.71 mil millones USD).",
-    "Sin eventos macro de alto impacto en 24 h; el hackeo de Binance es noticia previa y no implica riesgo nuevo inmediato para las monedas operadas."
+    "Índice Miedo/Codicia en 11 (Extreme Fear) y sostenido así durante los últimos 7 días.",
+    "Capitalización total -4% en 24 h y BTC bajo 60.000 USD tras caídas de hasta -8% semanal en varias monedas.",
+    "Salidas netas récord de ETFs de BTC en noviembre (4.710 M USD) y ventas de liquidaciones en aumento.",
+    "El hack de Binance y las noticias de Bitmart son relevantes pero no afectan directamente a las monedas operadas ni son riesgos graves inmediatos.",
+    "No hay eventos macro de alto impacto en 24 h, y la caída de la capitalización total no supera el umbral de -7%."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-24T10:07:55+00:00",
-  "valido_hasta": "2026-11-24T13:07:55+00:00",
+  "generado": "2026-11-24T11:57:57+00:00",
+  "valido_hasta": "2026-11-24T14:57:57+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -4.39,
-    "noticias_analizadas": 23,
+    "cambio_mercado_24h": -4.0,
+    "noticias_analizadas": 29,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -30,6 +31,11 @@
   },
   "titulares": [
     {
+      "titulo": "Bitcoin hands back Monday's Nvidia-driven gains, liquidations triple",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/24/bitcoin-hands-back-monday-s-nvidia-driven-gains-liquidations-triple"
+    },
+    {
       "titulo": "Solana Price Prediction 2030: Is $2,000 SOL Still on the Table After a 75% Crash?",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/news/solana/solana-price-prediction-2030/"
@@ -40,6 +46,11 @@
       "link": "https://cointelegraph.com/markets/bitcoin-etfs-bleed-ibit-shares-gain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "titulo": "U.S. seeks $1.1 billion seized in Binance hack as North Korean funds keep moving",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/policy/2026/11/24/u-s-seeks-usd1-1-billion-seized-in-binance-hack-as-north-korean-funds-keep-moving"
+    },
+    {
       "titulo": "Binance Hack: US Moves to Recover $1.1 Billion, but Who Gets the Money?",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/crypto-news/binance-hack-us-1-billion-recovery/"
@@ -48,27 +59,17 @@
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Robert Kiyosaki Renews Bitcoin Case, Warns of Economic Crash Worse Than 2008",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/featured/robert-kiyosaki-renews-bitcoin-case-warns-of-economic-crash-worse-than-2008/"
-    },
-    {
-      "titulo": "ZachXBT Challenges the Bitcoin Trail Behind a $3 Million Gate Account Freeze",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/regulation-and-legal/zachxbt-challenges-the-bitcoin-trail-behind-a-3-million-gate-account-freeze/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7747,
+    "input_tokens": 8424,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 483,
+    "output_tokens": 559,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
