@@ -1,24 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto está en miedo extremo (índice 11) tras una caída de capitalización total de -7.15% en 24 h, con salidas récord de ETFs de Bitcoin y BTC por debajo de 60.000 USD. Hay un evento macro de alto impacto (Core PCE y PIB de EE. UU.) previsto para el 25 de noviembre, dentro de las próximas 24 h. No hay señales de hackeo grave, halt ni acción regulatoria fuerte contra una moneda concreta, así que no se justifica pausa; se recomienda cautela general (mitad de tamaño) por la volatilidad y el evento macro.",
+  "resumen": "El mercado cripto cae con fuerza (capitalización total -6.72% en 24 h) y el índice Miedo/Codicia está en Extreme Fear (11), con salidas récord de ETFs de bitcoin (-4.71 mil millones en noviembre). Hay un evento macro relevante en las próximas 24 h (Core PCE y PIB previo del 25 de noviembre), pero no en las próximas 2-3 horas, y no hay indicios de hackeo, halt ni acción regulatoria grave contra las monedas operadas. Por ello se recomienda cautela general (mitad de tamaño) y no pausa.",
   "motivos": [
-    "Miedo extremo sostenido (índice 11, con 7 días en rango 10-12).",
-    "Caída de la capitalización total de -7.15% en 24 h; todas las monedas monitorizadas bajan entre -3.9% y -8.9%.",
-    "Salidas netas récord de ETFs spot de Bitcoin (4.71 mil millones USD en noviembre) y BTC bajo 60.000 USD.",
-    "Evento macro importante dentro de 24 h: Core PCE y PIB preliminar de EE. UU. el 25/11 a las 13:30 UTC.",
-    "Las noticias de hackeo (Binance, Justice Department) son antiguas y no afectan a la operativa directa de estas monedas; no se detecta riesgo grave e inmediato que justifique pausa."
+    "Miedo extremo (índice 11) mantenido durante 7 días y capitalización total -6.72% en 24 h.",
+    "Salidas récord de ETFs spot de bitcoin (-4.71 mil millones USD en noviembre) y BTC cerca de mínimos de mercado bajista.",
+    "Evento macro importante dentro de 24 h (Core PCE y PIB preliminar el 25 de noviembre a las 13:30 UTC), fuera de la ventana de 2-3 horas que justificaría pausa.",
+    "No hay señales de exploit, halt, depeg ni acción regulatoria grave sobre las monedas operadas; las noticias sobre el hackeo de Binance son de recuperación de fondos, no un riesgo nuevo para el bot."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-24T16:06:47+00:00",
-  "valido_hasta": "2026-11-24T19:06:47+00:00",
+  "generado": "2026-11-24T17:08:33+00:00",
+  "valido_hasta": "2026-11-24T20:08:33+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -7.15,
-    "noticias_analizadas": 45,
+    "cambio_mercado_24h": -6.72,
+    "noticias_analizadas": 46,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -30,6 +29,11 @@
     "eventos_usd_24h": 2
   },
   "titulares": [
+    {
+      "titulo": "Bitcoin Price Struggles to Hold $60K as Nvidia CEO Return Rally Fades Fast",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-struggles-hold-60k-nvidia-ceo-return-rally-fades-fast/"
+    },
     {
       "titulo": "Justice Department Moves to Forfeit $1.1B in USDC From North Korea's Binance Hack",
       "fuente": "Decrypt",
@@ -54,22 +58,17 @@
       "titulo": "Bitcoin ETFs Lose $570M as Blackrock’s 3-Day Exodus Hits $1.6B",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/bitcoin-etf/bitcoin-etfs-lose-570m-as-blackrocks-3-day-exodus-hits-1-6b/"
-    },
-    {
-      "titulo": "U.S. seeks $1.1 billion seized in Binance hack as North Korean funds keep moving",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/policy/2026/11/24/u-s-seeks-usd1-1-billion-seized-in-binance-hack-as-north-korean-funds-keep-moving"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9569,
+    "input_tokens": 9682,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 617,
+    "output_tokens": 601,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
