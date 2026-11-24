@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11) con la capitalización total cayendo -5.17% en 24 h y BTC de nuevo por debajo de 60.000 USD tras una semana de salidas récord de ETF. Además, hay un evento macro de alto impacto mañana (PCE core y PIB de EE.UU., 25 nov 13:30 UTC) y un incidente de seguridad relacionado con Solana, por lo que se recomienda cautela general y una precaución adicional en SOL. No hay señales de riesgo grave e inmediato como un hackeo de red o un dato de muy alto impacto dentro de 2-3 horas, así que no se justifica la pausa.",
+  "resumen": "El mercado cripto está en miedo extremo (índice 11), con la capitalización total cayendo un 5.17% en 24 h y BTC por debajo de 60.000 USD tras salidas récord de ETF y liquidaciones forzadas. Hay un dato macro de alto impacto (Core PCE y PIB de EE. UU.) mañana a las 13:30 UTC, dentro de las próximas 24 h, y el riesgo arancelario pesa sobre las bolsas. No hay hackeo, regulación grave ni anomalía en las monedas operadas que justifique pausar, así que se recomienda cautela global (mitad de tamaño) sin alerta sobre posiciones.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) y sostenido durante 7 días, lo que indica incertidumbre elevada.",
-    "Capitalización total -5.17% en 24 h y BTC por debajo de 60.000 USD con récord de salidas de ETF (4.71 mil millones USD en noviembre).",
-    "Evento macro importante en menos de 24 h: PCE core y PIB preliminar de EE.UU. el 25 de noviembre a las 13:30 UTC.",
-    "Incidente de seguridad en la wallet de Ansem vinculado a Bullpen (Solana) con caída de ~60% del meme coin ANSEM; SOL cae -5.23% en 24 h.",
-    "Ninguna moneda muestra halt, depeg ni delist; el riesgo no alcanza el nivel grave que justifica pausa."
+    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante 7 días.",
+    "Capitalización total -5.17% en 24 h y BTC por debajo de 60.000 USD con salidas récord de ETF (4.710 M USD en noviembre).",
+    "Evento macro importante dentro de 24 h: Core PCE y PIB preliminar de EE. UU. el 25 de noviembre a las 13:30 UTC.",
+    "Riesgo arancelario y caída de bolsas tecnológicas, con posible anuncio de subidas de aranceles esta semana.",
+    "No se detecta riesgo grave e inmediato (sin hackeo de red/exchange que afecte a las monedas operadas, sin halt, depeg ni delist); el incidente de Bullpen/Ansem afecta a un memecoin no operado por el bot."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-24T18:58:14+00:00",
-  "valido_hasta": "2026-11-24T21:58:14+00:00",
+  "generado": "2026-11-24T20:01:47+00:00",
+  "valido_hasta": "2026-11-24T23:01:47+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
     "cambio_mercado_24h": -5.17,
-    "noticias_analizadas": 53,
+    "noticias_analizadas": 55,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -51,25 +51,25 @@
       "link": "https://www.coindesk.com/markets/2026/11/24/bitcoin-hands-back-monday-s-nvidia-driven-gains-liquidations-triple"
     },
     {
+      "titulo": "Bitcoin sell-off driven by weak demand, forced liquidations: 21Shares",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/bitcoin-selloff-weak-demand-forced-liquidations-21shares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "titulo": "CFTC sets new prediction market rules as more firms seek US entry",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/cftc-new-prediction-market-rules-firms-seek-us-entry?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Bitcoin ETFs keep bleeding as BlackRock’s IBIT shares gain nearly 5%",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/markets/bitcoin-etfs-bleed-ibit-shares-gain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9718,
+    "input_tokens": 9725,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 744,
+    "output_tokens": 655,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
