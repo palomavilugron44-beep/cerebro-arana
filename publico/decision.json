@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto está en miedo extremo (índice 11) tras una caída de la capitalización total del -4,65% en 24 h, con BTC cerca de 59.800 USD y en su peor racha de pérdidas realizadas desde FTX según Glassnode. Hay un evento macro de alto impacto mañana (Core PCE y PIB de EE. UU. el 25 de noviembre a las 13:30 UTC), dentro de las próximas 24 h, lo que justifica reducir el tamaño de las nuevas compras. No se detecta una caída brusca con liquidaciones masivas de más del -7% ni un hackeo que afecte directamente a las redes o monedas operadas, por lo que no procede pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 11) con la capitalización total cayendo un 4.47% en 24 h y BTC cerca de 60.000 USD tras caídas acumuladas de unas semanas. Hay además un evento macro de alto impacto mañana (Core PCE y PIB de EE. UU. el 25 de noviembre a las 13:30 UTC), dentro de las próximas 24 h, lo que justifica cautela. No hay indicios de hackeo o problema que afecte a las monedas operadas ni caída de -7% o peor, así que no se justifica pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (miedo extremo), con valores similares desde hace una semana.",
-    "Capitalización total -4,65% en 24 h y todas las monedas operadas en negativo (SOL -3,9%, AVAX -3,1%), sin llegar al umbral de -7% para pausa.",
-    "Evento macro de alto impacto dentro de 24 h: Core PCE y PIB preliminar de EE. UU. el 25/11 a las 13:30 UTC.",
-    "Incidentes de seguridad (Bullpen/Ansem, meme coin SOL) son de alcance limitado y no afectan a las monedas operadas ni a redes o exchanges concretos; no justifican pausa.",
-    "Sin noticias de halt, depeg, delist ni acción regulatoria grave contra las monedas operadas."
+    "Índice Miedo/Codicia en 11 (Extreme Fear), sostenido durante los últimos 7 días.",
+    "Capitalización total -4.47% en 24 h y BTC por debajo de 60.000 USD con salidas récord de ETF en noviembre (4.71 mil millones USD).",
+    "Evento macro importante dentro de 24 h: Core PCE y PIB preliminar de EE. UU. el 25/11 a las 13:30 UTC.",
+    "El incidente de Ansem/Bullpen y el exploit de Coldcard afectan a plataformas y wallets concretas, no a las monedas operadas; no justifican pausa por moneda.",
+    "Sin riesgo grave e inmediato sobre las monedas operadas; el stop de la estrategia sigue siendo la protección principal."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-24T21:56:57+00:00",
-  "valido_hasta": "2026-11-25T00:56:57+00:00",
+  "generado": "2026-11-24T22:57:22+00:00",
+  "valido_hasta": "2026-11-25T01:57:22+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -4.65,
-    "noticias_analizadas": 59,
+    "cambio_mercado_24h": -4.47,
+    "noticias_analizadas": 57,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9578,
+    "input_tokens": 9550,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 655,
+    "output_tokens": 601,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
