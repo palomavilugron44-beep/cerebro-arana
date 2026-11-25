@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 13, con valores persistentemente bajos durante 7 días) y la capitalización total cae un -3% en 24 h, con BTC cerca de 57-58 mil USD tras un fuerte rebote fallido. Hay presión macro: inflación PCE de 3.8% con mercados descontando una subida de tipos en diciembre, y amenazas arancelarias, aunque no hay eventos de alto impacto en las próximas 24 h ni una caída de -7% que justifique pausa. Por ello se recomienda cautela general, sin restricciones específicas por moneda.",
+  "resumen": "El mercado está en miedo extremo (índice 13, mínimos de la semana) con la capitalización total cayendo un 2.36% en 24 h y BTC cerca de 57-58 mil USD tras sus mínimos intradía. Las noticias apuntan a presión macro (IPC/PCE por encima de lo esperado, probabilidad alta de subida de tasas en diciembre, nuevos aranceles y caída de tecnológicas), con riesgo de nuevas caídas, aunque no hay un evento grave como hackeo, halt o depeg que justifique pausar. Por ello se recomienda cautela global: compras nuevas a la mitad del tamaño, sin medidas específicas por moneda.",
   "motivos": [
-    "Índice Miedo/Codicia en 13 (Extreme Fear), con lecturas entre 10 y 13 durante los últimos 7 días.",
-    "Capitalización total -3.03% en 24 h; BTC cerca de 57-58 mil USD, unos -5% en 7 días.",
-    "Inflación PCE al 3.8% y mercado descontando una subida de tipos de la Fed en diciembre; riesgo de volatilidad macro (evento importante dentro de 24 h).",
-    "Noticias de amenazas arancelarias y salidas récord de ETFs de BTC (~4.9 mil millones USD en noviembre), negativas pero no graves.",
-    "No hay caída de -7% en 24 h ni hackeo, regulación grave o anomalía de moneda que justifique pausa."
+    "Índice Miedo/Codicia en 13 (Extreme Fear) y sostenido en niveles bajos durante 7 días.",
+    "Capitalización total -2.36% en 24 h; BTC bajo 58 mil USD con caídas de Nasdaq/S&P 500 y salidas récord de ETF de BTC (~4.9 mil millones USD en noviembre).",
+    "PCE y núcleo de inflación por encima de lo esperado; mercado descuenta una subida de tasas de la Fed en diciembre (evento macro importante en menos de 24 h, aunque sin dato de alto impacto en las próximas 24 h según los datos).",
+    "Noticias de nuevos aranceles de EE. UU. e incertidumbre comercial; noticias negativas relevantes pero no graves.",
+    "No hay hackeo, halt, depeg, delist ni caída del mercado de -7% o peor en 24 h, por lo que no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-25T18:51:44+00:00",
-  "valido_hasta": "2026-11-25T21:51:44+00:00",
+  "generado": "2026-11-25T19:56:28+00:00",
+  "valido_hasta": "2026-11-25T22:56:28+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -3.03,
-    "noticias_analizadas": 49,
+    "cambio_mercado_24h": -2.36,
+    "noticias_analizadas": 50,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9698,
+    "input_tokens": 9646,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 604,
+    "output_tokens": 689,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
