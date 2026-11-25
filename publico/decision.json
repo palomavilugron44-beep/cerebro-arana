@@ -1,29 +1,29 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 13, con valores bajos sostenidos durante la última semana) y la capitalización total cae un 5% en 24 h, con ventas ligadas a la rotación de activos de IA en bolsa y salidas récord de los ETF de bitcoin en noviembre. Hay además datos macro de alto impacto (PCE subyacente y PIB preliminar) a las 13:30 UTC, dentro de las próximas horas, lo que justifica operar con cautela y no pausar. No hay hackeo ni problema de seguridad que afecte directamente a las monedas operadas, por lo que no se aplica pausa.",
+  "resumen": "El mercado cripto cae con fuerza: capitalización total -5.72% en 24 h, miedo extremo (13) y BTC por debajo de 58.000 USD, en medio de una venta de activos de riesgo ligada a la tecnológica y a la inflación. Hay un dato macro de alto impacto (PCE y PIB de EE. UU.) ya publicado hoy, y las salidas de ETF de bitcoin baten récord mensual. No hay hackeo, halt ni noticia regulatoria grave que obligue a pausar, así que se recomienda cautela (mitad de tamaño) en lugar de pausa total.",
   "motivos": [
-    "Índice Miedo/Codicia en 13 (Extreme Fear) y en niveles de 10-13 durante los últimos 7 días.",
-    "Capitalización total -5.01% en 24 h, con caídas generalizadas de todas las monedas operadas (entre -0.7% y -3.4%).",
-    "Dato macro de alto impacto (Core PCE y PIB preliminar de EE. UU.) a las 13:30 UTC, en las próximas horas.",
-    "Salidas netas récord de los ETF spot de bitcoin en noviembre (~4.94 mil millones USD) y ventas en bolsa vinculadas a la IA.",
-    "Incidente en Velocity (DEX de Solana) sin afectar a las monedas operadas; no se considera riesgo grave para SOL, por lo que no se aplica pausa específica."
+    "Miedo extremo (índice 13) y caída de la capitalización total de -5.72% en 24 h, con todas las monedas vigiladas en negativo.",
+    "Venta generalizada de activos de riesgo ligada a la tecnológica y a la inflación; el mercado sigue presionado.",
+    "Salidas netas récord de ETF spot de bitcoin en noviembre (unos 4.94 mil millones USD).",
+    "Datos macro de alto impacto (PCE, PIB) ya publicados hoy; evento económico importante dentro de las próximas 24 h.",
+    "No hay riesgo grave de seguridad, regulatorio ni halt que justifique pausa: el incidente de Velocity afecta a un DEX concreto, no a SOL en general."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-25T13:17:38+00:00",
-  "valido_hasta": "2026-11-25T16:17:38+00:00",
+  "generado": "2026-11-25T15:02:49+00:00",
+  "valido_hasta": "2026-11-25T18:02:49+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -5.01,
-    "noticias_analizadas": 41,
+    "cambio_mercado_24h": -5.72,
+    "noticias_analizadas": 42,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
-      "Decrypt": 37,
+      "Decrypt": 36,
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
@@ -34,6 +34,11 @@
       "titulo": "Fed’s preferred inflation gauge lands with a December rate increase already priced in",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/daybook-us/2026/11/25/fed-s-preferred-inflation-gauge-lands-with-a-december-rate-increase-already-priced-in"
+    },
+    {
+      "titulo": "Live updates: Bitcoin tumbles under $58,000 alongside continuing tech rout",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/business/2026/11/25/live-updates-bitcoin-slips-back-under-usd60-000-as-hype-leads-altcoins-lower"
     },
     {
       "titulo": "Tether Freezes USDT in Minutes, but Recovery Can Cost Victims 20%",
@@ -51,25 +56,20 @@
       "link": "https://cointelegraph.com/news/solana-dex-velocity-halts-transactions-over-bug-coming-2-months-after-relaunch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "titulo": "Over 2,200 Institutions Held $29.8B in Bitcoin ETFs, Advisers Led",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/featured/over-2200-institutions-held-29-8b-in-bitcoin-etfs-advisers-led/"
-    },
-    {
-      "titulo": "Ether, DeFi fall twice as hard as bitcoin as equities selloff resumes",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/25/ether-defi-fall-twice-as-hard-as-bitcoin-as-equities-selloff-resumes"
+      "titulo": "Here’s what happened in crypto today",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9662,
+    "input_tokens": 9703,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 628,
+    "output_tokens": 596,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
