@@ -1,35 +1,45 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 13, racha de 7 días por debajo de 15) con la capitalización total cayendo un 4.26% en 24 h y todas las monedas de la lista en negativo, en un contexto de venta de activos de riesgo ligada a bolsas asiáticas y salidas récord de ETFs de bitcoin. Además, hoy a las 13:30 UTC se publican el PCE subyacente y el PIB de EE. UU., datos macro relevantes dentro de las próximas 24 h. No hay un hackeo ni una situación anómala que justifique pausar, así que se recomienda cautela general.",
+  "resumen": "El mercado está en miedo extremo (índice 13, con valores bajos sostenidos durante la última semana) y la capitalización total cae un 5% en 24 h, con ventas ligadas a la rotación de activos de IA en bolsa y salidas récord de los ETF de bitcoin en noviembre. Hay además datos macro de alto impacto (PCE subyacente y PIB preliminar) a las 13:30 UTC, dentro de las próximas horas, lo que justifica operar con cautela y no pausar. No hay hackeo ni problema de seguridad que afecte directamente a las monedas operadas, por lo que no se aplica pausa.",
   "motivos": [
-    "Miedo extremo sostenido (índice 13; media semanal cercana a 11-12) con caída de capitalización total de -4.26% en 24 h.",
-    "Salidas récord de ETFs spot de bitcoin en noviembre (~4.94 mil millones USD) y venta de activos de riesgo ligada a tecnología/IA en Asia y EE. UU.",
-    "Evento macro relevante dentro de 24 h: Core PCE m/m y PIB preliminar EE. UU. a las 13:30 UTC.",
-    "Problema puntual de HYPE y del DEX Velocity en Solana (pausado por bug), pero sin impacto directo en la lista de monedas operadas; no justifica pausa.",
-    "No hay señales de hackeo grave en las redes de las monedas operadas, ni deslistados o anomalías de precio; por ello no se pausa."
+    "Índice Miedo/Codicia en 13 (Extreme Fear) y en niveles de 10-13 durante los últimos 7 días.",
+    "Capitalización total -5.01% en 24 h, con caídas generalizadas de todas las monedas operadas (entre -0.7% y -3.4%).",
+    "Dato macro de alto impacto (Core PCE y PIB preliminar de EE. UU.) a las 13:30 UTC, en las próximas horas.",
+    "Salidas netas récord de los ETF spot de bitcoin en noviembre (~4.94 mil millones USD) y ventas en bolsa vinculadas a la IA.",
+    "Incidente en Velocity (DEX de Solana) sin afectar a las monedas operadas; no se considera riesgo grave para SOL, por lo que no se aplica pausa específica."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-25T12:00:03+00:00",
-  "valido_hasta": "2026-11-25T15:00:03+00:00",
+  "generado": "2026-11-25T13:17:38+00:00",
+  "valido_hasta": "2026-11-25T16:17:38+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -4.26,
-    "noticias_analizadas": 36,
+    "cambio_mercado_24h": -5.01,
+    "noticias_analizadas": 41,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
-      "Decrypt": 38,
+      "Decrypt": 37,
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
     "eventos_usd_24h": 2
   },
   "titulares": [
+    {
+      "titulo": "Fed’s preferred inflation gauge lands with a December rate increase already priced in",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/daybook-us/2026/11/25/fed-s-preferred-inflation-gauge-lands-with-a-december-rate-increase-already-priced-in"
+    },
+    {
+      "titulo": "Tether Freezes USDT in Minutes, but Recovery Can Cost Victims 20%",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/stablecoins/tether-freezes-usdt-in-minutes-but-recovery-can-cost-victims-20/"
+    },
     {
       "titulo": "Bitcoin Slips Under $60,000 Again as KOSPI Plunges 6% and Softbank Sinks 14%",
       "fuente": "Bitcoin.com",
@@ -49,27 +59,17 @@
       "titulo": "Ether, DeFi fall twice as hard as bitcoin as equities selloff resumes",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/25/ether-defi-fall-twice-as-hard-as-bitcoin-as-equities-selloff-resumes"
-    },
-    {
-      "titulo": "Live updates: Bitcoin slips back under $60,000 as HYPE leads altcoins lower",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/business/2026/11/25/live-updates-bitcoin-slips-back-under-usd60-000-as-hype-leads-altcoins-lower"
-    },
-    {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9232,
+    "input_tokens": 9662,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 635,
+    "output_tokens": 628,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
