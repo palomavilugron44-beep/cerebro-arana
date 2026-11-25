@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 13, con lecturas bajas durante 7 días) y la capitalización total cae un 4.53% en 24 h, con BTC de nuevo por debajo de 60.000 USD y el KOSPI y otros mercados asiáticos desplomándose por una venta de activos ligados a IA. Además, hoy a las 13:30 UTC se publican el Core PCE y el PIB de EE. UU., dentro de las próximas 24 h, lo que añade incertidumbre macro. No hay un hackeo que afecte a las monedas operadas, una acción regulatoria grave ni una moneda en situación anómala, así que no justifica pausa; la cautela reduce el tamaño de nuevas compras mientras dura la volatilidad.",
+  "resumen": "El mercado cripto está en miedo extremo (índice 13) tras una caída de la capitalización total del -4.4% en 24 h, con BTC de nuevo por debajo de 60.000 USD y ligada a una venta de activos de IA en Asia. Hay un evento macro relevante hoy (Core PCE y PIB de EE. UU. a las 13:30 UTC), pero no es de impacto inmediato de tipo FOMC/IPC dentro de las próximas 2-3 horas, y no hay hackeo grave de red o exchange que afecte directamente a las monedas operadas. Por ello se adopta cautela global, con un refuerzo en SOL por su caída más pronunciada y la suspensión de Velocity.",
   "motivos": [
-    "Miedo extremo (índice 13) sostenido durante 7 días y caída de la capitalización total de -4.53% en 24 h",
-    "Publicación del Core PCE y PIB de EE. UU. a las 13:30 UTC, evento macro importante dentro de 24 h",
-    "Caída bursátil asiática (KOSPI -6%) y BTC bajo 60.000 USD con riesgo de nuevos mínimos cerca de 53-55K según analistas",
-    "Incidente de la DEX Velocity en Solana (pausada por un bug), sin afectar a SOL en sí; no se justifica pausa por ello",
-    "No hay exploit de red, acción regulatoria grave ni moneda en estado anómalo que exija pausa"
+    "Índice Miedo/Codicia en 13 (Extreme Fear) de forma sostenida durante 7 días.",
+    "Capitalización total -4.4% en 24 h con caídas generalizadas (BTC, ETH, SOL, AVAX, LINK, ADA, etc.) y venta de activos tecnológicos en Asia (KOSPI -6%).",
+    "Evento macro dentro de 24 h: Core PCE y PIB preliminar de EE. UU. a las 13:30 UTC, con previsiones en línea con los anteriores.",
+    "SOL cae -4.4% en 24 h y -9.4% en 7 d; la plataforma Velocity (Solana) suspendió operaciones por un bug, aunque sus fondos están declarados seguros.",
+    "Noticias de bear market y posibles niveles de soporte en 53-55K para BTC, con incertidumbre elevada."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-25T07:18:53+00:00",
-  "valido_hasta": "2026-11-25T10:18:53+00:00",
+  "generado": "2026-11-25T09:04:37+00:00",
+  "valido_hasta": "2026-11-25T12:04:37+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -4.53,
-    "noticias_analizadas": 32,
+    "cambio_mercado_24h": -4.4,
+    "noticias_analizadas": 28,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -46,9 +46,9 @@
       "link": "https://news.bitcoin.com/featured/over-2200-institutions-held-29-8b-in-bitcoin-etfs-advisers-led/"
     },
     {
-      "titulo": "Bitcoin sell-off driven by weak demand, forced liquidations: 21Shares",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/bitcoin-selloff-weak-demand-forced-liquidations-21shares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "titulo": "Live updates: Bitcoin slips back under $60,000 as HYPE leads altcoins lower",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/business/2026/11/25/live-updates-bitcoin-slips-back-under-usd60-000-as-hype-leads-altcoins-lower"
     },
     {
       "titulo": "Here’s what happened in crypto today",
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8758,
+    "input_tokens": 8198,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 639,
+    "output_tokens": 764,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
