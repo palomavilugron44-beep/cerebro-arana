@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 13, tendencia descendente en 7 días) y la capitalización total cae -4.06% en 24 h, con BTC de nuevo por debajo de 60.000 USD tras una venta de activos de riesgo en Asia. Hay además un dato macro de alto impacto (Core PCE y PIB de EE. UU.) a las 13:30 UTC, dentro de las próximas 24 h. No hay hackeo grave de Binance ni de una red principal, así que no justifica pausa; se recomienda cautela general y una cautela adicional en SOL por la suspensión de un DEX en su red.",
+  "resumen": "El mercado está en miedo extremo (índice 13, racha de 7 días por debajo de 15) con la capitalización total cayendo un 4.26% en 24 h y todas las monedas de la lista en negativo, en un contexto de venta de activos de riesgo ligada a bolsas asiáticas y salidas récord de ETFs de bitcoin. Además, hoy a las 13:30 UTC se publican el PCE subyacente y el PIB de EE. UU., datos macro relevantes dentro de las próximas 24 h. No hay un hackeo ni una situación anómala que justifique pausar, así que se recomienda cautela general.",
   "motivos": [
-    "Índice Miedo/Codicia en 13 (Extreme Fear), sostenido en niveles bajos durante 7 días.",
-    "Capitalización total -4.06% en 24 h, con caídas en bolsas asiáticas (KOSPI -6%) y BTC bajo 60.000 USD.",
-    "Dato macro de alto impacto (Core PCE, PIB) previsto a las 13:30 UTC, dentro de las próximas 24 h.",
-    "Velocity, DEX sobre Solana, suspendida por un bug; SOL cae -4.55% en 24 h y -9.59% en 7 días.",
-    "No se detecta hackeo grave de exchange ni acción regulatoria fuerte que justifique pausa."
+    "Miedo extremo sostenido (índice 13; media semanal cercana a 11-12) con caída de capitalización total de -4.26% en 24 h.",
+    "Salidas récord de ETFs spot de bitcoin en noviembre (~4.94 mil millones USD) y venta de activos de riesgo ligada a tecnología/IA en Asia y EE. UU.",
+    "Evento macro relevante dentro de 24 h: Core PCE m/m y PIB preliminar EE. UU. a las 13:30 UTC.",
+    "Problema puntual de HYPE y del DEX Velocity en Solana (pausado por bug), pero sin impacto directo en la lista de monedas operadas; no justifica pausa.",
+    "No hay señales de hackeo grave en las redes de las monedas operadas, ni deslistados o anomalías de precio; por ello no se pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-25T10:13:38+00:00",
-  "valido_hasta": "2026-11-25T13:13:38+00:00",
+  "generado": "2026-11-25T12:00:03+00:00",
+  "valido_hasta": "2026-11-25T15:00:03+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -4.06,
-    "noticias_analizadas": 27,
+    "cambio_mercado_24h": -4.26,
+    "noticias_analizadas": 36,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -46,6 +46,11 @@
       "link": "https://news.bitcoin.com/featured/over-2200-institutions-held-29-8b-in-bitcoin-etfs-advisers-led/"
     },
     {
+      "titulo": "Ether, DeFi fall twice as hard as bitcoin as equities selloff resumes",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/25/ether-defi-fall-twice-as-hard-as-bitcoin-as-equities-selloff-resumes"
+    },
+    {
       "titulo": "Live updates: Bitcoin slips back under $60,000 as HYPE leads altcoins lower",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/business/2026/11/25/live-updates-bitcoin-slips-back-under-usd60-000-as-hype-leads-altcoins-lower"
@@ -54,22 +59,17 @@
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "21shares Dissects Bitcoin’s Selling Spiral as the Market Eyes $53K",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/21shares-dissects-bitcoins-selling-spiral-as-the-market-eyes-53k/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8055,
+    "input_tokens": 9232,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 673,
+    "output_tokens": 635,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
