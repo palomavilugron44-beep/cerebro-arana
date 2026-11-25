@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 13, persistentemente bajo durante 7 días) con la capitalización total cayendo -4.92% en 24 h y todas las monedas de la lista en negativo. Además, hoy a las 13:30 UTC (dentro de las próximas 24 h) se publican el Core PCE y el PIB de EE. UU., un evento macro importante. No hay indicios de una crisis de seguridad o regulatoria grave que obligue a pausar, así que se recomienda cautela general con compras a mitad de tamaño.",
+  "resumen": "El mercado está en miedo extremo (índice 13, valores bajos sostenidos durante 7 días) con la capitalización total cayendo -5.22% en 24 h y BTC cerca de 59.000 USD, por debajo de 60.000. Hay datos macro de impacto alto (Core PCE y PIB preliminar de EE. UU.) previstos para las 13:30 UTC, dentro de las próximas 24 h, lo que justifica prudencia. No veo un riesgo grave e inmediato que requiera pausa global, por lo que la recomendación es operar con cautela (mitad de tamaño) en nuevas compras.",
   "motivos": [
-    "Índice Miedo/Codicia en 13 (Extreme Fear), con lecturas entre 10 y 13 durante los últimos 7 días.",
-    "Capitalización total -4.92% en 24 h y las 10 monedas en negativo (entre -2.7% y -4.3%), con BTC por debajo de 60.000 USD.",
-    "Core PCE m/m y PIB preliminar de EE. UU. a las 13:30 UTC, dentro de las próximas 24 h.",
-    "Noticias de hackeos (brecha en Bullpen con token ANSEM, brecha en red de la CIA) son de impacto limitado para las monedas operadas y no justifican pausa.",
-    "Flujos negativos en ETF de BTC (-4.71 mil millones USD en noviembre) y liquidaciones forzadas; riesgo elevado pero no un evento grave e inmediato."
+    "Índice Miedo/Codicia en 13 (Extreme Fear), con valores de 10-13 durante los últimos 7 días.",
+    "Capitalización total -5.22% en 24 h; todas las monedas de la lista en caída entre -1.5% y -4% en 24 h y entre -5% y -10% en 7 días.",
+    "Eventos macro de alto impacto (Core PCE m/m y PIB preliminar EE. UU.) el 25/11 a las 13:30 UTC, dentro de las próximas 24 h.",
+    "Las noticias de hackeo (Ansem/Bullpen, Coldcard, CIA) son incidentes puntuales que no afectan directamente a las monedas operadas ni a Binance; no justifican pausa.",
+    "Ninguna moneda muestra anomalía (halt, depeg, delist), por lo que no se aplican restricciones específicas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-25T01:10:13+00:00",
-  "valido_hasta": "2026-11-25T04:10:13+00:00",
+  "generado": "2026-11-25T02:55:22+00:00",
+  "valido_hasta": "2026-11-25T05:55:22+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -4.92,
-    "noticias_analizadas": 45,
+    "cambio_mercado_24h": -5.22,
+    "noticias_analizadas": 37,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -36,16 +36,6 @@
       "link": "https://decrypt.co/383889/ansem-meme-coin-crashes-wallet-drain-bullpen-security-breach"
     },
     {
-      "titulo": "Bitcoin Price Struggles to Hold $60K as Nvidia CEO Return Rally Fades Fast",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-struggles-hold-60k-nvidia-ceo-return-rally-fades-fast/"
-    },
-    {
-      "titulo": "Justice Department Moves to Forfeit $1.1B in USDC From North Korea's Binance Hack",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/383874/justice-department-moves-to-forfeit-1-1b-in-usdc-from-north-koreas-binance-hack"
-    },
-    {
       "titulo": "Bitcoin sell-off driven by weak demand, forced liquidations: 21Shares",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/bitcoin-selloff-weak-demand-forced-liquidations-21shares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -56,20 +46,30 @@
       "link": "https://cointelegraph.com/news/cftc-new-prediction-market-rules-firms-seek-us-entry?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "titulo": "21shares Dissects Bitcoin’s Selling Spiral as the Market Eyes $53K",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/21shares-dissects-bitcoins-selling-spiral-as-the-market-eyes-53k/"
+    },
+    {
       "titulo": "Hackers breach CIA intelligence network in latest US cyberattack",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/hackers-breach-cia-intelligence-network-in-latest-us-cyberattack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "CFTC Opens Door to Bitcoin, Ether and Stablecoins as Operating Reserves",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/regulation-and-legal/cftc-opens-door-bitcoin-ether-stablecoins-operating-reserves/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9677,
+    "input_tokens": 9203,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 612,
+    "output_tokens": 641,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
