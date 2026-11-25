@@ -1,35 +1,29 @@
 {
   "modo": "cautela",
-  "monedas": {
-    "SOLUSDT": {
-      "modo": "pausa",
-      "motivo": "Velocity (DEX en Solana) suspendió operaciones por bug; Solana sin hackeo confirmado, pero riesgo de ecosistema y caída de SOL -7.7% en 7 días.",
-      "multiplicador_riesgo": 0.0
-    }
-  },
-  "resumen": "El mercado está en miedo extremo (índice 13) tras una caída de la capitalización total del -3.6% en 24 h, impulsada por inflación, aranceles nuevos y una venta masiva en tecnológicas y activos de riesgo. No hay eventos macro de alto impacto en las próximas 24 h, pero el entorno de volatilidad y el riesgo de nuevas caídas justifican cautela global. Para SOL, la suspensión de Velocity por un bug añade un riesgo puntual en su ecosistema, por lo que pauso sus compras nuevas.",
+  "monedas": {},
+  "resumen": "El mercado está en miedo extremo (índice 13, con valores persistentemente bajos durante 7 días) y la capitalización total cae un -3% en 24 h, con BTC cerca de 57-58 mil USD tras un fuerte rebote fallido. Hay presión macro: inflación PCE de 3.8% con mercados descontando una subida de tipos en diciembre, y amenazas arancelarias, aunque no hay eventos de alto impacto en las próximas 24 h ni una caída de -7% que justifique pausa. Por ello se recomienda cautela general, sin restricciones específicas por moneda.",
   "motivos": [
-    "Índice Miedo/Codicia en 13 (Extreme Fear), sostenido toda la semana por debajo de 15.",
-    "Capitalización total cripto -3.6% en 24 h con venta generalizada en bolsa (Nasdaq -4%) y salidas récord de ETFs de BTC (~4.9 mil millones USD en noviembre).",
-    "Incertidumbre macro: datos de inflación al alza y expectativas de subida de tipos en diciembre; aranceles nuevos anunciados.",
-    "Velocity, DEX sobre Solana, suspendió todas sus operaciones por un bug; no se reporta hackeo de la red Solana en sí.",
-    "Sin eventos económicos USD de alto impacto en las próximas 24 h, por lo que no se activa pausa global."
+    "Índice Miedo/Codicia en 13 (Extreme Fear), con lecturas entre 10 y 13 durante los últimos 7 días.",
+    "Capitalización total -3.03% en 24 h; BTC cerca de 57-58 mil USD, unos -5% en 7 días.",
+    "Inflación PCE al 3.8% y mercado descontando una subida de tipos de la Fed en diciembre; riesgo de volatilidad macro (evento importante dentro de 24 h).",
+    "Noticias de amenazas arancelarias y salidas récord de ETFs de BTC (~4.9 mil millones USD en noviembre), negativas pero no graves.",
+    "No hay caída de -7% en 24 h ni hackeo, regulación grave o anomalía de moneda que justifique pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-25T17:07:39+00:00",
-  "valido_hasta": "2026-11-25T20:07:39+00:00",
+  "generado": "2026-11-25T18:51:44+00:00",
+  "valido_hasta": "2026-11-25T21:51:44+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -3.6,
-    "noticias_analizadas": 43,
+    "cambio_mercado_24h": -3.03,
+    "noticias_analizadas": 49,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
-      "Decrypt": 36,
+      "Decrypt": 38,
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
@@ -37,19 +31,24 @@
   },
   "titulares": [
     {
+      "titulo": "Bitcoin Price Struggles Below $60K as Spot Buyers Retreat and Leverage Builds",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-struggles-below-60k-as-spot-buyers-retreat-and-leverage-builds/"
+    },
+    {
       "titulo": "Bitcoin Falls Further as Inflation, Trump Tariffs and AI Selloff Rattle Markets",
       "fuente": "Decrypt",
       "link": "https://decrypt.co/383967/bitcoin-sinks-inflation-trump-tariffs-ai-selloff"
     },
     {
+      "titulo": "US inflation rises to 3.8% ahead of December Fed meeting, clouding crypto outlook",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/us-inflation-rises-december-fed-meeting-clouding-crypto-outlook?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "titulo": "Fed’s preferred inflation gauge lands with a December rate increase already priced in",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/daybook-us/2026/11/25/fed-s-preferred-inflation-gauge-lands-with-a-december-rate-increase-already-priced-in"
-    },
-    {
-      "titulo": "Live updates: Bitcoin tumbles to $58,000 alongside continuing tech rout",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/business/2026/11/25/live-updates-bitcoin-slips-back-under-usd60-000-as-hype-leads-altcoins-lower"
     },
     {
       "titulo": "Global Markets Bleed Trillions as Bitcoin, Gold and Wall Street Tumble",
@@ -60,22 +59,17 @@
       "titulo": "Tether Freezes USDT in Minutes, but Recovery Can Cost Victims 20%",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/stablecoins/tether-freezes-usdt-in-minutes-but-recovery-can-cost-victims-20/"
-    },
-    {
-      "titulo": "Crypto Long & Short: Bitcoin investors can’t keep ignoring Japan",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/11/25/crypto-long-and-short-bitcoin-investors-can-t-keep-ignoring-japan"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9643,
+    "input_tokens": 9698,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 687,
+    "output_tokens": 604,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
