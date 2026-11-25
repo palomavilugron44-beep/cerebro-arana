@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto está en miedo extremo (índice 13) tras una caída de la capitalización total del -4.4% en 24 h, con BTC de nuevo por debajo de 60.000 USD y ligada a una venta de activos de IA en Asia. Hay un evento macro relevante hoy (Core PCE y PIB de EE. UU. a las 13:30 UTC), pero no es de impacto inmediato de tipo FOMC/IPC dentro de las próximas 2-3 horas, y no hay hackeo grave de red o exchange que afecte directamente a las monedas operadas. Por ello se adopta cautela global, con un refuerzo en SOL por su caída más pronunciada y la suspensión de Velocity.",
+  "resumen": "El mercado está en miedo extremo (índice 13, tendencia descendente en 7 días) y la capitalización total cae -4.06% en 24 h, con BTC de nuevo por debajo de 60.000 USD tras una venta de activos de riesgo en Asia. Hay además un dato macro de alto impacto (Core PCE y PIB de EE. UU.) a las 13:30 UTC, dentro de las próximas 24 h. No hay hackeo grave de Binance ni de una red principal, así que no justifica pausa; se recomienda cautela general y una cautela adicional en SOL por la suspensión de un DEX en su red.",
   "motivos": [
-    "Índice Miedo/Codicia en 13 (Extreme Fear) de forma sostenida durante 7 días.",
-    "Capitalización total -4.4% en 24 h con caídas generalizadas (BTC, ETH, SOL, AVAX, LINK, ADA, etc.) y venta de activos tecnológicos en Asia (KOSPI -6%).",
-    "Evento macro dentro de 24 h: Core PCE y PIB preliminar de EE. UU. a las 13:30 UTC, con previsiones en línea con los anteriores.",
-    "SOL cae -4.4% en 24 h y -9.4% en 7 d; la plataforma Velocity (Solana) suspendió operaciones por un bug, aunque sus fondos están declarados seguros.",
-    "Noticias de bear market y posibles niveles de soporte en 53-55K para BTC, con incertidumbre elevada."
+    "Índice Miedo/Codicia en 13 (Extreme Fear), sostenido en niveles bajos durante 7 días.",
+    "Capitalización total -4.06% en 24 h, con caídas en bolsas asiáticas (KOSPI -6%) y BTC bajo 60.000 USD.",
+    "Dato macro de alto impacto (Core PCE, PIB) previsto a las 13:30 UTC, dentro de las próximas 24 h.",
+    "Velocity, DEX sobre Solana, suspendida por un bug; SOL cae -4.55% en 24 h y -9.59% en 7 días.",
+    "No se detecta hackeo grave de exchange ni acción regulatoria fuerte que justifique pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-25T09:04:37+00:00",
-  "valido_hasta": "2026-11-25T12:04:37+00:00",
+  "generado": "2026-11-25T10:13:38+00:00",
+  "valido_hasta": "2026-11-25T13:13:38+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -4.4,
-    "noticias_analizadas": 28,
+    "cambio_mercado_24h": -4.06,
+    "noticias_analizadas": 27,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8198,
+    "input_tokens": 8055,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 764,
+    "output_tokens": 673,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
