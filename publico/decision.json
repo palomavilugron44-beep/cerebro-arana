@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 13, mínimos de la semana) con la capitalización total cayendo un 2.36% en 24 h y BTC cerca de 57-58 mil USD tras sus mínimos intradía. Las noticias apuntan a presión macro (IPC/PCE por encima de lo esperado, probabilidad alta de subida de tasas en diciembre, nuevos aranceles y caída de tecnológicas), con riesgo de nuevas caídas, aunque no hay un evento grave como hackeo, halt o depeg que justifique pausar. Por ello se recomienda cautela global: compras nuevas a la mitad del tamaño, sin medidas específicas por moneda.",
+  "resumen": "El mercado está en miedo extremo (índice 13, mínimos recientes) con una caída de la capitalización total de -2.08% en 24 h y BTC cerca de 57-58K USD tras perder terreno durante la sesión por aranceles y datos de inflación calientes. Hay una probabilidad alta de subida de tipos en diciembre y un evento macro importante en el horizonte, aunque no hay un dato de alto impacto en las próximas 24 h ni una caída de -7% que justifique pausa. Por ello se recomienda cautela global (la mitad del tamaño) y no pausa.",
   "motivos": [
     "Índice Miedo/Codicia en 13 (Extreme Fear) y sostenido en niveles bajos durante 7 días.",
-    "Capitalización total -2.36% en 24 h; BTC bajo 58 mil USD con caídas de Nasdaq/S&P 500 y salidas récord de ETF de BTC (~4.9 mil millones USD en noviembre).",
-    "PCE y núcleo de inflación por encima de lo esperado; mercado descuenta una subida de tasas de la Fed en diciembre (evento macro importante en menos de 24 h, aunque sin dato de alto impacto en las próximas 24 h según los datos).",
-    "Noticias de nuevos aranceles de EE. UU. e incertidumbre comercial; noticias negativas relevantes pero no graves.",
-    "No hay hackeo, halt, depeg, delist ni caída del mercado de -7% o peor en 24 h, por lo que no se justifica pausa."
+    "Capitalización total -2.08% en 24 h; no alcanza el umbral de -7% para pausa.",
+    "Expectativa de subida de tipos de la Fed en diciembre con inflación PCE 3.8% y core 3.3%: evento macro importante dentro de 24 h, lo que justifica cautela.",
+    "Tensiones arancelarias renovadas y salidas récord de ETFs de BTC (~4.9 mil M$ en noviembre): presión bajista, pero noticias negativas no graves.",
+    "No hay hackeo que afecte a una red o exchange concreta del universo operado; el incidente de Bithumb y el hashrate hijacking no afectan directamente a las monedas operadas.",
+    "Sin evento económico USD de alto impacto en las próximas 24 h, por lo que no procede pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-25T19:56:28+00:00",
-  "valido_hasta": "2026-11-25T22:56:28+00:00",
+  "generado": "2026-11-25T20:55:30+00:00",
+  "valido_hasta": "2026-11-25T23:55:30+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -2.36,
+    "cambio_mercado_24h": -2.08,
     "noticias_analizadas": 50,
     "articulos_leidos": 8,
     "fuentes": {
@@ -51,25 +52,25 @@
       "link": "https://www.coindesk.com/daybook-us/2026/11/25/fed-s-preferred-inflation-gauge-lands-with-a-december-rate-increase-already-priced-in"
     },
     {
+      "titulo": "What Is Artex? The AI Hacking Tool Linked to the US Spy Agency Breach",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/383997/what-is-artex-ai-hacking-tool-us-spy-agency-breach"
+    },
+    {
       "titulo": "Global Markets Bleed Trillions as Bitcoin, Gold and Wall Street Tumble",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/global-markets-bleed-trillions-as-bitcoin-gold-and-wall-street-tumble/"
-    },
-    {
-      "titulo": "Tether Freezes USDT in Minutes, but Recovery Can Cost Victims 20%",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/stablecoins/tether-freezes-usdt-in-minutes-but-recovery-can-cost-victims-20/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9646,
+    "input_tokens": 9645,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 689,
+    "output_tokens": 652,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
