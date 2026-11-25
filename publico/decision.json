@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 13, persistentemente bajo durante 7 días) con la capitalización total cayendo un 4.55% en 24 h y BTC por debajo de 60.000 USD, en un contexto de venta forzada y salidas de ETF. Hay un dato macro de impacto alto (Core PCE y PIB) a las 13:30 UTC, dentro de las próximas 24 h, lo que justifica prudencia. No hay hackeo ni anomalía que afecte directamente a las 10 monedas operadas, así que no se justifica pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 13, con lecturas bajas durante 7 días) y la capitalización total cae un 4.53% en 24 h, con BTC de nuevo por debajo de 60.000 USD y el KOSPI y otros mercados asiáticos desplomándose por una venta de activos ligados a IA. Además, hoy a las 13:30 UTC se publican el Core PCE y el PIB de EE. UU., dentro de las próximas 24 h, lo que añade incertidumbre macro. No hay un hackeo que afecte a las monedas operadas, una acción regulatoria grave ni una moneda en situación anómala, así que no justifica pausa; la cautela reduce el tamaño de nuevas compras mientras dura la volatilidad.",
   "motivos": [
-    "Índice Miedo/Codicia en 13 (Extreme Fear) y en zona de miedo extremo durante toda la última semana.",
-    "Capitalización total -4.55% en 24 h y las 10 monedas en negativo (entre -2.1% y -4.4%), con BTC cerca de 59.000 USD.",
-    "Publicación de Core PCE y PIB preliminar de EE. UU. a las 13:30 UTC, dentro de las próximas 24 h (evento macro importante, no de muy alto impacto inmediato).",
-    "Noticias de venta forzada y salidas de ETF, pero sin hackeo, halt ni acción regulatoria grave que afecte a estas monedas.",
-    "El incidente de Velocity (DEX en Solana, pausa por bug) no afecta a SOL de forma directa según los datos disponibles."
+    "Miedo extremo (índice 13) sostenido durante 7 días y caída de la capitalización total de -4.53% en 24 h",
+    "Publicación del Core PCE y PIB de EE. UU. a las 13:30 UTC, evento macro importante dentro de 24 h",
+    "Caída bursátil asiática (KOSPI -6%) y BTC bajo 60.000 USD con riesgo de nuevos mínimos cerca de 53-55K según analistas",
+    "Incidente de la DEX Velocity en Solana (pausada por un bug), sin afectar a SOL en sí; no se justifica pausa por ello",
+    "No hay exploit de red, acción regulatoria grave ni moneda en estado anómalo que exija pausa"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-25T06:03:12+00:00",
-  "valido_hasta": "2026-11-25T09:03:12+00:00",
+  "generado": "2026-11-25T07:18:53+00:00",
+  "valido_hasta": "2026-11-25T10:18:53+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -4.55,
-    "noticias_analizadas": 34,
+    "cambio_mercado_24h": -4.53,
+    "noticias_analizadas": 32,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -30,6 +30,11 @@
     "eventos_usd_24h": 2
   },
   "titulares": [
+    {
+      "titulo": "Bitcoin Slips Under $60,000 Again as KOSPI Plunges 6% and Softbank Sinks 14%",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-kospi-6-percent-softbank-14-percent/"
+    },
     {
       "titulo": "Solana DEX Velocity halts trading over bug just months after relaunch",
       "fuente": "Cointelegraph",
@@ -46,11 +51,6 @@
       "link": "https://cointelegraph.com/news/bitcoin-selloff-weak-demand-forced-liquidations-21shares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "titulo": "CFTC sets new prediction market rules as more firms seek US entry",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/cftc-new-prediction-market-rules-firms-seek-us-entry?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8944,
+    "input_tokens": 8758,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 608,
+    "output_tokens": 639,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
