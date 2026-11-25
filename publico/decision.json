@@ -1,25 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 13, mínimos recientes) con una caída de la capitalización total de -2.08% en 24 h y BTC cerca de 57-58K USD tras perder terreno durante la sesión por aranceles y datos de inflación calientes. Hay una probabilidad alta de subida de tipos en diciembre y un evento macro importante en el horizonte, aunque no hay un dato de alto impacto en las próximas 24 h ni una caída de -7% que justifique pausa. Por ello se recomienda cautela global (la mitad del tamaño) y no pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 13, con valores bajos durante 7 días) y la capitalización total cae -1.79% en 24 h, con BTC cerca de 57-58 mil dólares y caídas de bolsa tras datos de inflación (PCE 3.8%) y temores arancelarios. Hay expectativas de una subida de tipos de la Fed en diciembre, lo que supone un evento macro importante en las próximas semanas, aunque no hay eventos de alto impacto en las próximas 24 h. No veo un hackeo, una halt ni una caída de -7% en 24 h, así que no justifica pausa; la incertidumbre elevada sí justifica cautela.",
   "motivos": [
-    "Índice Miedo/Codicia en 13 (Extreme Fear) y sostenido en niveles bajos durante 7 días.",
-    "Capitalización total -2.08% en 24 h; no alcanza el umbral de -7% para pausa.",
-    "Expectativa de subida de tipos de la Fed en diciembre con inflación PCE 3.8% y core 3.3%: evento macro importante dentro de 24 h, lo que justifica cautela.",
-    "Tensiones arancelarias renovadas y salidas récord de ETFs de BTC (~4.9 mil M$ en noviembre): presión bajista, pero noticias negativas no graves.",
-    "No hay hackeo que afecte a una red o exchange concreta del universo operado; el incidente de Bithumb y el hashrate hijacking no afectan directamente a las monedas operadas.",
-    "Sin evento económico USD de alto impacto en las próximas 24 h, por lo que no procede pausa."
+    "Índice Miedo/Codicia en 13 (Extreme Fear) y sostenido en niveles bajos los últimos 7 días",
+    "Inflación PCE de 3.8% y mercado que descuenta una subida de tipos de la Fed en diciembre",
+    "Caída de bolsas (Nasdaq -4%) y amenazas de nuevos aranceles que arrastran a cripto",
+    "Salidas récord de ETF de Bitcoin en noviembre (~4.9 mil millones USD)",
+    "Capitalización total -1.79% en 24 h, sin caída brusca de -7% ni incidente de seguridad que obligue a pausa",
+    "Incidentes de seguridad (hashrate hijacking, Artex) son noticias negativas no graves y no afectan directamente a las monedas operadas"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-25T20:55:30+00:00",
-  "valido_hasta": "2026-11-25T23:55:30+00:00",
+  "generado": "2026-11-25T21:56:57+00:00",
+  "valido_hasta": "2026-11-26T00:56:57+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -2.08,
-    "noticias_analizadas": 50,
+    "cambio_mercado_24h": -1.79,
+    "noticias_analizadas": 53,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -63,14 +63,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9645,
+    "input_tokens": 9737,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 652,
+    "output_tokens": 633,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
