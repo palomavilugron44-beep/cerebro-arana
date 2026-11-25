@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza: capitalización total -5.72% en 24 h, miedo extremo (13) y BTC por debajo de 58.000 USD, en medio de una venta de activos de riesgo ligada a la tecnológica y a la inflación. Hay un dato macro de alto impacto (PCE y PIB de EE. UU.) ya publicado hoy, y las salidas de ETF de bitcoin baten récord mensual. No hay hackeo, halt ni noticia regulatoria grave que obligue a pausar, así que se recomienda cautela (mitad de tamaño) en lugar de pausa total.",
+  "resumen": "El mercado cripto cae con fuerza (capitalización total -5.24% en 24 h) con miedo extremo (índice 13) y salidas récord de ETFs de Bitcoin (unos 4.940 M$ en noviembre), en un contexto de venta en renta variable tecnológica. No hay eventos macro de alto impacto USD en las próximas 24 h ni una caída de -7% ni un riesgo grave e inmediato de seguridad o regulatorio que justifique pausar. Por ello se recomienda cautela general (mitad de tamaño) en lugar de pausa.",
   "motivos": [
-    "Miedo extremo (índice 13) y caída de la capitalización total de -5.72% en 24 h, con todas las monedas vigiladas en negativo.",
-    "Venta generalizada de activos de riesgo ligada a la tecnológica y a la inflación; el mercado sigue presionado.",
-    "Salidas netas récord de ETF spot de bitcoin en noviembre (unos 4.94 mil millones USD).",
-    "Datos macro de alto impacto (PCE, PIB) ya publicados hoy; evento económico importante dentro de las próximas 24 h.",
-    "No hay riesgo grave de seguridad, regulatorio ni halt que justifique pausa: el incidente de Velocity afecta a un DEX concreto, no a SOL en general."
+    "Miedo extremo (índice 13, racha de 7 días entre 10 y 13) y codicia ausente.",
+    "Capitalización total -5.24% en 24 h, por debajo del umbral de -7% que exigiría pausa.",
+    "Salidas récord de ETFs spot de Bitcoin (4.94 mil M$ en noviembre) y venta en activos de riesgo vinculada a tecnología y tipos de interés.",
+    "Todas las monedas caen entre -1.2% y -2.6% en 24 h y entre -4.8% y -9.7% en 7 días; no hay una moneda en situación anómala.",
+    "Incidentes puntuales (pausa de Velocity DEX en Solana, brecha de Bithumb, fallo en Coldcard) no afectan directamente a los precios de las monedas operadas ni son graves para ellas.",
+    "Sin eventos macro USD de alto impacto en 24 h; las noticias sobre impuestos (Ucrania, Francia) son no graves."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-25T15:02:49+00:00",
-  "valido_hasta": "2026-11-25T18:02:49+00:00",
+  "generado": "2026-11-25T16:05:56+00:00",
+  "valido_hasta": "2026-11-25T19:05:56+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -5.72,
-    "noticias_analizadas": 42,
+    "cambio_mercado_24h": -5.24,
+    "noticias_analizadas": 44,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -27,7 +28,7 @@
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
-    "eventos_usd_24h": 2
+    "eventos_usd_24h": 0
   },
   "titulares": [
     {
@@ -36,7 +37,7 @@
       "link": "https://www.coindesk.com/daybook-us/2026/11/25/fed-s-preferred-inflation-gauge-lands-with-a-december-rate-increase-already-priced-in"
     },
     {
-      "titulo": "Live updates: Bitcoin tumbles under $58,000 alongside continuing tech rout",
+      "titulo": "Live updates: Bitcoin tumbles to $58,000 alongside continuing tech rout",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/business/2026/11/25/live-updates-bitcoin-slips-back-under-usd60-000-as-hype-leads-altcoins-lower"
     },
@@ -46,9 +47,9 @@
       "link": "https://news.bitcoin.com/stablecoins/tether-freezes-usdt-in-minutes-but-recovery-can-cost-victims-20/"
     },
     {
-      "titulo": "Bitcoin Slips Under $60,000 Again as KOSPI Plunges 6% and Softbank Sinks 14%",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-kospi-6-percent-softbank-14-percent/"
+      "titulo": "Crypto Long & Short: Bitcoin investors can’t keep ignoring Japan",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/11/25/crypto-long-and-short-bitcoin-investors-can-t-keep-ignoring-japan"
     },
     {
       "titulo": "Solana DEX Velocity halts trading over bug just months after relaunch",
@@ -56,20 +57,20 @@
       "link": "https://cointelegraph.com/news/solana-dex-velocity-halts-transactions-over-bug-coming-2-months-after-relaunch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "titulo": "South Korean crypto exchange Bithumb warns of phishing after deeper October breach probe",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/tech/2026/11/25/south-korean-crypto-exchange-bithumb-warns-of-phishing-after-deeper-october-breach-probe"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9703,
+    "input_tokens": 9575,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 596,
+    "output_tokens": 663,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
