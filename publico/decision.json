@@ -1,25 +1,30 @@
 {
   "modo": "cautela",
-  "monedas": {},
-  "resumen": "El mercado cripto cae con fuerza (capitalización total -5.24% en 24 h) con miedo extremo (índice 13) y salidas récord de ETFs de Bitcoin (unos 4.940 M$ en noviembre), en un contexto de venta en renta variable tecnológica. No hay eventos macro de alto impacto USD en las próximas 24 h ni una caída de -7% ni un riesgo grave e inmediato de seguridad o regulatorio que justifique pausar. Por ello se recomienda cautela general (mitad de tamaño) en lugar de pausa.",
+  "monedas": {
+    "SOLUSDT": {
+      "modo": "pausa",
+      "motivo": "Velocity (DEX en Solana) suspendió operaciones por bug; Solana sin hackeo confirmado, pero riesgo de ecosistema y caída de SOL -7.7% en 7 días.",
+      "multiplicador_riesgo": 0.0
+    }
+  },
+  "resumen": "El mercado está en miedo extremo (índice 13) tras una caída de la capitalización total del -3.6% en 24 h, impulsada por inflación, aranceles nuevos y una venta masiva en tecnológicas y activos de riesgo. No hay eventos macro de alto impacto en las próximas 24 h, pero el entorno de volatilidad y el riesgo de nuevas caídas justifican cautela global. Para SOL, la suspensión de Velocity por un bug añade un riesgo puntual en su ecosistema, por lo que pauso sus compras nuevas.",
   "motivos": [
-    "Miedo extremo (índice 13, racha de 7 días entre 10 y 13) y codicia ausente.",
-    "Capitalización total -5.24% en 24 h, por debajo del umbral de -7% que exigiría pausa.",
-    "Salidas récord de ETFs spot de Bitcoin (4.94 mil M$ en noviembre) y venta en activos de riesgo vinculada a tecnología y tipos de interés.",
-    "Todas las monedas caen entre -1.2% y -2.6% en 24 h y entre -4.8% y -9.7% en 7 días; no hay una moneda en situación anómala.",
-    "Incidentes puntuales (pausa de Velocity DEX en Solana, brecha de Bithumb, fallo en Coldcard) no afectan directamente a los precios de las monedas operadas ni son graves para ellas.",
-    "Sin eventos macro USD de alto impacto en 24 h; las noticias sobre impuestos (Ucrania, Francia) son no graves."
+    "Índice Miedo/Codicia en 13 (Extreme Fear), sostenido toda la semana por debajo de 15.",
+    "Capitalización total cripto -3.6% en 24 h con venta generalizada en bolsa (Nasdaq -4%) y salidas récord de ETFs de BTC (~4.9 mil millones USD en noviembre).",
+    "Incertidumbre macro: datos de inflación al alza y expectativas de subida de tipos en diciembre; aranceles nuevos anunciados.",
+    "Velocity, DEX sobre Solana, suspendió todas sus operaciones por un bug; no se reporta hackeo de la red Solana en sí.",
+    "Sin eventos económicos USD de alto impacto en las próximas 24 h, por lo que no se activa pausa global."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-25T16:05:56+00:00",
-  "valido_hasta": "2026-11-25T19:05:56+00:00",
+  "generado": "2026-11-25T17:07:39+00:00",
+  "valido_hasta": "2026-11-25T20:07:39+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -5.24,
-    "noticias_analizadas": 44,
+    "cambio_mercado_24h": -3.6,
+    "noticias_analizadas": 43,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -32,6 +37,11 @@
   },
   "titulares": [
     {
+      "titulo": "Bitcoin Falls Further as Inflation, Trump Tariffs and AI Selloff Rattle Markets",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/383967/bitcoin-sinks-inflation-trump-tariffs-ai-selloff"
+    },
+    {
       "titulo": "Fed’s preferred inflation gauge lands with a December rate increase already priced in",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/daybook-us/2026/11/25/fed-s-preferred-inflation-gauge-lands-with-a-december-rate-increase-already-priced-in"
@@ -42,6 +52,11 @@
       "link": "https://www.coindesk.com/business/2026/11/25/live-updates-bitcoin-slips-back-under-usd60-000-as-hype-leads-altcoins-lower"
     },
     {
+      "titulo": "Global Markets Bleed Trillions as Bitcoin, Gold and Wall Street Tumble",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/global-markets-bleed-trillions-as-bitcoin-gold-and-wall-street-tumble/"
+    },
+    {
       "titulo": "Tether Freezes USDT in Minutes, but Recovery Can Cost Victims 20%",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/stablecoins/tether-freezes-usdt-in-minutes-but-recovery-can-cost-victims-20/"
@@ -50,27 +65,17 @@
       "titulo": "Crypto Long & Short: Bitcoin investors can’t keep ignoring Japan",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/coindesk-indices/2026/11/25/crypto-long-and-short-bitcoin-investors-can-t-keep-ignoring-japan"
-    },
-    {
-      "titulo": "Solana DEX Velocity halts trading over bug just months after relaunch",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/solana-dex-velocity-halts-transactions-over-bug-coming-2-months-after-relaunch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "South Korean crypto exchange Bithumb warns of phishing after deeper October breach probe",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/tech/2026/11/25/south-korean-crypto-exchange-bithumb-warns-of-phishing-after-deeper-october-breach-probe"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9575,
+    "input_tokens": 9643,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 663,
+    "output_tokens": 687,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
