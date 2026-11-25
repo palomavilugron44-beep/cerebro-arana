@@ -1,25 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 13, persistentemente bajo en los últimos 7 días) con la capitalización total cayendo -4.51% en 24 h y BTC cerca de 59.000 USD, con liquidaciones forzadas y salidas de ETF según los análisis citados. A esto se suma un dato macro de alto impacto (Core PCE y PIB de EE. UU. a las 13:30 UTC, dentro de las próximas 24 h), lo que justifica pasar a cautela en general. No hay pausa porque no se detecta un riesgo grave y concreto de exploit, regulatorio o anomalía en las monedas operadas; el incidente de Ansem/Bullpen afecta a un memecoin fuera de la lista.",
+  "resumen": "El mercado está en miedo extremo (índice 13, persistentemente bajo durante 7 días) con la capitalización total cayendo un 4.55% en 24 h y BTC por debajo de 60.000 USD, en un contexto de venta forzada y salidas de ETF. Hay un dato macro de impacto alto (Core PCE y PIB) a las 13:30 UTC, dentro de las próximas 24 h, lo que justifica prudencia. No hay hackeo ni anomalía que afecte directamente a las 10 monedas operadas, así que no se justifica pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 13 (Extreme Fear) y sostenido entre 10 y 13 durante 7 días.",
-    "Capitalización total -4.51% en 24 h; todas las monedas operadas en negativo (-2% a -4.4%).",
-    "Dato macro de alto impacto (Core PCE y PIB de EE. UU.) previsto a las 13:30 UTC, dentro de las próximas 24 h.",
-    "Flujos de salida de ETF y liquidaciones forzadas citados por 21Shares y Glassnode; BTC bajo 60.000 USD.",
-    "El incidente de seguridad de Bullpen/Ansem afecta a un memecoin fuera de la lista operada; no se detecta riesgo grave en las 10 monedas.",
-    "Sin evidencia de halt, depeg o delist en las monedas operadas; no hay motivo para pausa."
+    "Índice Miedo/Codicia en 13 (Extreme Fear) y en zona de miedo extremo durante toda la última semana.",
+    "Capitalización total -4.55% en 24 h y las 10 monedas en negativo (entre -2.1% y -4.4%), con BTC cerca de 59.000 USD.",
+    "Publicación de Core PCE y PIB preliminar de EE. UU. a las 13:30 UTC, dentro de las próximas 24 h (evento macro importante, no de muy alto impacto inmediato).",
+    "Noticias de venta forzada y salidas de ETF, pero sin hackeo, halt ni acción regulatoria grave que afecte a estas monedas.",
+    "El incidente de Velocity (DEX en Solana, pausa por bug) no afecta a SOL de forma directa según los datos disponibles."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-25T05:07:12+00:00",
-  "valido_hasta": "2026-11-25T08:07:12+00:00",
+  "generado": "2026-11-25T06:03:12+00:00",
+  "valido_hasta": "2026-11-25T09:03:12+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -4.51,
-    "noticias_analizadas": 37,
+    "cambio_mercado_24h": -4.55,
+    "noticias_analizadas": 34,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -32,9 +31,14 @@
   },
   "titulares": [
     {
-      "titulo": "Ansem Meme Coin Crashes After $2.57 Million Wallet Drain, Bullpen Confirms Security Breach",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/383889/ansem-meme-coin-crashes-wallet-drain-bullpen-security-breach"
+      "titulo": "Solana DEX Velocity halts trading over bug just months after relaunch",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/solana-dex-velocity-halts-transactions-over-bug-coming-2-months-after-relaunch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Over 2,200 Institutions Held $29.8B in Bitcoin ETFs, Advisers Led",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/featured/over-2200-institutions-held-29-8b-in-bitcoin-etfs-advisers-led/"
     },
     {
       "titulo": "Bitcoin sell-off driven by weak demand, forced liquidations: 21Shares",
@@ -47,30 +51,25 @@
       "link": "https://cointelegraph.com/news/cftc-new-prediction-market-rules-firms-seek-us-entry?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "titulo": "Here’s what happened in crypto today",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "titulo": "21shares Dissects Bitcoin’s Selling Spiral as the Market Eyes $53K",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/21shares-dissects-bitcoins-selling-spiral-as-the-market-eyes-53k/"
-    },
-    {
-      "titulo": "Hackers breach CIA intelligence network in latest US cyberattack",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/hackers-breach-cia-intelligence-network-in-latest-us-cyberattack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "CFTC Opens Door to Bitcoin, Ether and Stablecoins as Operating Reserves",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/regulation-and-legal/cftc-opens-door-bitcoin-ether-stablecoins-operating-reserves/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9290,
+    "input_tokens": 8944,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 770,
+    "output_tokens": 608,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
