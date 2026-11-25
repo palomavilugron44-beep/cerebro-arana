@@ -1,23 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 13, valores bajos sostenidos durante 7 días) con la capitalización total cayendo -5.22% en 24 h y BTC cerca de 59.000 USD, por debajo de 60.000. Hay datos macro de impacto alto (Core PCE y PIB preliminar de EE. UU.) previstos para las 13:30 UTC, dentro de las próximas 24 h, lo que justifica prudencia. No veo un riesgo grave e inmediato que requiera pausa global, por lo que la recomendación es operar con cautela (mitad de tamaño) en nuevas compras.",
+  "resumen": "El mercado está en miedo extremo (índice 13, sostenido en niveles bajos toda la semana) con la capitalización total cayendo un 3.92% en 24 h y BTC por debajo de 60.000 USD, en mínimos cercanos a bajadas de mercado bajista. Hay un evento macro de alto impacto en las próximas 24 h (Core PCE y PIB de EE. UU. a las 13:30 UTC), lo que justifica operar con cautela en lugar de normal. No se observa hackeo grave de una red o exchange que afecte directamente a las monedas operadas ni caída de más del 7% en el día, por lo que no procede pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 13 (Extreme Fear), con valores de 10-13 durante los últimos 7 días.",
-    "Capitalización total -5.22% en 24 h; todas las monedas de la lista en caída entre -1.5% y -4% en 24 h y entre -5% y -10% en 7 días.",
-    "Eventos macro de alto impacto (Core PCE m/m y PIB preliminar EE. UU.) el 25/11 a las 13:30 UTC, dentro de las próximas 24 h.",
-    "Las noticias de hackeo (Ansem/Bullpen, Coldcard, CIA) son incidentes puntuales que no afectan directamente a las monedas operadas ni a Binance; no justifican pausa.",
-    "Ninguna moneda muestra anomalía (halt, depeg, delist), por lo que no se aplican restricciones específicas."
+    "Índice Miedo/Codicia en 13 (Extreme Fear) y sostenido entre 10 y 13 durante 7 días.",
+    "Capitalización total -3.92% en 24 h; BTC cerca de 59.300 USD y con pérdidas de -7.7% en 7 días.",
+    "Evento macro importante en las próximas 24 h: Core PCE y PIB preliminar de EE. UU. a las 13:30 UTC del 25 de noviembre.",
+    "Incidentes de seguridad (brecha en Bullpen/Ansem, fallo en Coldcard, brecha en red de la CIA) son noticias negativas relevantes pero no afectan directamente a las monedas operadas ni son de gravedad sistémica.",
+    "No hay caída del mercado de -7% o peor en 24 h, ni halt, depeg o delist en las monedas operadas, por lo que no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-25T02:55:22+00:00",
-  "valido_hasta": "2026-11-25T05:55:22+00:00",
+  "generado": "2026-11-25T04:00:42+00:00",
+  "valido_hasta": "2026-11-25T07:00:42+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 13,
-    "cambio_mercado_24h": -5.22,
+    "cambio_mercado_24h": -3.92,
     "noticias_analizadas": 37,
     "articulos_leidos": 8,
     "fuentes": {
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9203,
+    "input_tokens": 9225,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 641,
+    "output_tokens": 660,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
