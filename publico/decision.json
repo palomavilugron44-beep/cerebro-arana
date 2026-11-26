@@ -1,25 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11) tras la caída de BTC hasta unos 57.200 USD por aranceles y un dato de inflación PCE caliente, con expectativas de una subida de tipos en diciembre. La capitalización total cae solo -0.46% en 24 h y no hay eventos macro de alto impacto en las próximas 24 h, así que no hay una caída brusca confirmada ni riesgo grave de seguridad que justifique pausar. Por ello se recomienda cautela general (mitad de tamaño) y no pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 11, valor sostenido durante 7 días) y BTC cotiza bajo 60K tras caer cerca de un 25% desde inicios de noviembre, con liquidaciones de 579 M$ en una jornada. La capitalización total apenas cambió (-0.32% en 24 h) y no hay eventos macro de alto impacto en las próximas 24 h, así que no hay un riesgo grave que justifique pausar. Se elige cautela general por volatilidad y sentimiento negativo, sin llegar a pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) sostenido durante 7 días.",
-    "Inflación PCE (3.8%) por encima de lo esperado y mercado que anticipa una subida de tipos de la Fed en diciembre; el evento es importante pero fuera de las próximas 2-3 horas.",
-    "Riesgo de nuevos aranceles de EE. UU. y BTC cerca de mínimos (~57.200 USD), con liquidaciones de 579 M USD en la jornada.",
-    "La capitalización total solo cae -0.46% en 24 h: no se cumple el umbral de caída brusca de -7%.",
-    "Incidentes de seguridad (hashrate hijacking en minería BTC, brecha de 1Password sin afectar bóvedas) no afectan directamente a las monedas operadas ni son graves para ellas.",
-    "Sin eventos económicos USD de alto impacto en las próximas 24 h; no procede pausa."
+    "Índice Miedo/Codicia en 11 (Extreme Fear) sostenido durante los últimos 7 días.",
+    "BTC en caída de ~25% desde inicios de noviembre, con liquidaciones de 579 M$ y pérdida de soporte cerca de 57-60K.",
+    "Noticias de hackeos (Binance 6.300 M$ citado como antecedente regulatorio, ataques de hashrate en minería, brecha en 1Password) generan incertidumbre, pero no hay un exploit activo que afecte a las monedas operadas.",
+    "Sin eventos macro de alto impacto en las próximas 24 h; la capitalización total cambió solo -0.32% en 24 h, lo que no cumple el umbral de pausa.",
+    "Las monedas muestran rebotes de 2-7% en 24 h, sin anomalías de halt, depeg o delist."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-26T05:06:20+00:00",
-  "valido_hasta": "2026-11-26T08:06:20+00:00",
+  "generado": "2026-11-26T06:03:50+00:00",
+  "valido_hasta": "2026-11-26T09:03:50+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -0.46,
-    "noticias_analizadas": 35,
+    "cambio_mercado_24h": -0.32,
+    "noticias_analizadas": 29,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -37,19 +36,14 @@
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-struggles-below-60k-as-spot-buyers-retreat-and-leverage-builds/"
     },
     {
-      "titulo": "US inflation rises to 3.8% ahead of December Fed meeting, clouding crypto outlook",
+      "titulo": "UK regulator plans tighter DeFi rules, citing $6.3B Binance hack: Report",
       "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/us-inflation-rises-december-fed-meeting-clouding-crypto-outlook?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "link": "https://cointelegraph.com/news/uk-fca-defi-regulation-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "titulo": "What Is Artex? The AI Hacking Tool Linked to the US Spy Agency Breach",
       "fuente": "Decrypt",
       "link": "https://decrypt.co/383997/what-is-artex-ai-hacking-tool-us-spy-agency-breach"
-    },
-    {
-      "titulo": "Bitcoin falls toward $57K amid US tariff fears, hot PCE data as Nasdaq drops 4%",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/markets/bitcoin-falls-57k-us-tariff-pce-data-nasdaq-drops?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "titulo": "1Password hacker stole customer names and emails, but vaults safe",
@@ -60,17 +54,22 @@
       "titulo": "Senate Democrats urge SEC to scrap crypto, tokenized stock exemptions",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/senate-democrats-urge-sec-to-scrap-crypto-tokenized-stock-exemptions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Fidelity Files for Chainlink ETF. What Does It Mean for LINK?",
+      "fuente": "NewsBTC",
+      "link": "https://www.newsbtc.com/altcoin-news/fidelity-chainlink-etf-filing-investor-demand/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9059,
+    "input_tokens": 8142,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 646,
+    "output_tokens": 617,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
