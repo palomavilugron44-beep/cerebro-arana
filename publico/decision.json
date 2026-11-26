@@ -1,24 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El índice Miedo/Codicia está en 11 (miedo extremo) de forma sostenida durante 7 días, y los ETF de Bitcoin acumulan más de 5.000 M$ de salidas en noviembre, con BTC recuperando por encima de 60.000 USD tras caer a unos 55.300. No hay eventos macro de alto impacto en las próximas 24 h ni una caída brusca de la capitalización total (+0,39% en 24 h). Las noticias de hackeos (Binance, Zodia Custody, 1Password) son relevantes pero no afectan directamente a las monedas operadas, por lo que se aplica cautela general sin pausa.",
+  "resumen": "El índice Miedo/Codicia está en 11 (miedo extremo) de forma sostenida durante 7 días, y los ETF de bitcoin acumulan salidas de capital por 5.390 millones de dólares en noviembre. BTC ronda los 60.500 dólares tras tocar mínimos cercanos a 55.300 esta semana, con liquidez fina por el puente de Acción de Gracias. Ante este contexto de incertidumbre elevada, pero sin una caída brusca en curso ni riesgo grave o inmediato, se recomienda cautela general sin pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante 7 días",
-    "Salidas netas de ETF de Bitcoin de unos 5.390 M$ en noviembre y 2.000 M$ en cuatro sesiones hasta el 24 de noviembre",
-    "Liquidez fina por el feriado de Acción de Gracias según Talos, con volatilidad potencial",
-    "Sin eventos macro USD de alto impacto en 24 h y capitalización total estable (+0,39%), por lo que no se justifica pausa",
-    "Noticias de hackeos (Binance 6.300 M$, Zodia Custody, 1Password) son negativas pero no afectan directamente a las monedas operadas"
+    "Índice Miedo/Codicia en 11 (miedo extremo) y sostenido en torno a 11-13 durante los últimos 7 días.",
+    "Salidas netas de ETF spot de bitcoin por 5.390 millones en noviembre, con siete sesiones seguidas de salidas.",
+    "Liquidez fina por el feriado de Acción de Gracias y opciones de bitcoin con posicionamiento bajista ante el vencimiento de 7.000 millones del viernes.",
+    "La capitalización total varía solo +0,06% en 24 h y no hay evento macro de alto impacto en las próximas 24 h; el hackeo de Binance es noticia previa, no un evento nuevo en curso, y no hay riesgo grave que justifique pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-26T16:01:05+00:00",
-  "valido_hasta": "2026-11-26T19:01:05+00:00",
+  "generado": "2026-11-26T17:07:05+00:00",
+  "valido_hasta": "2026-11-26T20:07:05+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": 0.39,
-    "noticias_analizadas": 46,
+    "cambio_mercado_24h": 0.06,
+    "noticias_analizadas": 49,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -46,6 +45,11 @@
       "link": "https://www.newsbtc.com/bitcoin-news/bitcoin-recovery-etf-outflows-warning/"
     },
     {
+      "titulo": "DOJ Targets Crypto Scams in Largest Cyberfraud Crackdown in History",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/regulation-and-legal/doj-targets-crypto-scams-and-money-laundering-in-sweeping-nationwide-crackdown/"
+    },
+    {
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -54,22 +58,17 @@
       "titulo": "UK Regulator Cites Binance Hack as It Plans Tougher DeFi Rules Than US and EU: Report",
       "fuente": "Decrypt",
       "link": "https://decrypt.co/384027/uk-regulator-cites-binance-hack-as-it-plans-tougher-defi-rules-than-us-and-eu-report"
-    },
-    {
-      "titulo": "Nvidia shipment freeze and U.S. chip curbs put AI stocks under pressure",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/26/nvidia-shipment-freeze-and-u-s-chip-curbs-put-ai-stocks-under-pressure"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9134,
+    "input_tokens": 9216,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 605,
+    "output_tokens": 585,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
