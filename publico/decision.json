@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11 durante toda la semana) con la capitalización total cayendo 1.29% en 24 h y BTC rebotando a unos 60.400 USD tras tocar ~57.200. Hay presión bajista por salidas de ETF de BTC (-5.39 mil millones en noviembre), un death cross y riesgo de un movimiento brusco hacia la reunión de la Fed, aunque sin eventos macro de alto impacto en 24 h. No hay hackeo ni problema grave que afecte a estas monedas, así que se recomienda cautela general en lugar de pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 11) con la capitalización total cayendo un 1.65% en 24 h y el BTC rebotando hacia 61K tras tocar 57K, con salidas netas de ETF de BTC por más de 5.000 M$ en noviembre. Hay además riesgo macro de medio plazo por una Fed hawkish que podría provocar un \"meltdown\" en diciembre, aunque no hay evento de alto impacto en las próximas 24 h. No se observan hackeos graves, halts ni caídas bruscas en curso, por lo que se elige cautela general y no pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante 7 días",
-    "Salidas netas de ETF spot de BTC por 5.39 mil millones en noviembre y death cross en BTC",
-    "Riesgo de volatilidad ante una posible decisión hawkish de la Fed, aunque sin evento macro de alto impacto en las próximas 24 h",
-    "Noticias negativas relevantes pero no graves (hackeo de Binance de octubre citado por el FCA, brecha de datos de Zodia Custody sin transacciones no autorizadas, regulación más estricta en España); no hay pausa por riesgo grave",
-    "Monedas sin señales de anomalía (sin halt, depeg ni delist) entre las 10 vigiladas"
+    "Índice Miedo/Codicia en 11 (Extreme Fear), sostenido durante los últimos 7 días.",
+    "Salidas netas de ETF de BTC de 5.390 M$ en noviembre y 3.050 M$ en 7 días.",
+    "Advertencias de analistas sobre una Fed hawkish y posible caída de activos de riesgo antes de la reunión de diciembre; BTC ha formado un death cross.",
+    "Incidentes de seguridad (brecha de datos en Zodia Custody, sin transacciones no autorizadas) y regulación de congelación de cuentas en España: negativos pero no graves para las monedas operadas.",
+    "Sin eventos macro de alto impacto en las próximas 24 h y sin caídas bruscas de mercado en curso (capitalización -1.65%)."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-26T18:57:38+00:00",
-  "valido_hasta": "2026-11-26T21:57:38+00:00",
+  "generado": "2026-11-26T20:04:07+00:00",
+  "valido_hasta": "2026-11-26T23:04:07+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -1.29,
-    "noticias_analizadas": 50,
+    "cambio_mercado_24h": -1.65,
+    "noticias_analizadas": 49,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9228,
+    "input_tokens": 9225,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 605,
+    "output_tokens": 611,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
