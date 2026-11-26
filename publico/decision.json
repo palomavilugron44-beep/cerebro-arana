@@ -1,29 +1,28 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El índice Miedo/Codicia está en 11 (miedo extremo) durante toda la última semana, y la capitalización total apenas varía (+0.35% en 24 h) con BTC cerca de 60.800 USD tras caer a unos 55.300 esta semana. Los flujos de los ETF de bitcoin son negativos (más de 5.000 M USD de salidas en noviembre) y no hay eventos macro de alto impacto en las próximas 24 h. Las noticias de hackeos (Binance, Zodia, 1Password) son relevantes pero no afectan directamente a las monedas operadas, así que se elige cautela global por el miedo extremo y la volatilidad, sin pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) tras una caída de noviembre con más de 5.000 M$ de salidas de ETF de bitcoin, aunque la capitalización total sube 1,1% en 24 h y no hay eventos macro de alto impacto en las próximas 24 h. Las noticias de hackeos (Binance, Zodia Custody) son relevantes pero no afectan directamente a las monedas operadas ni son una caída en curso con liquidaciones masivas. Dado el miedo extremo y la volatilidad, se recomienda cautela global (mitad de tamaño) sin pausar ni marcar monedas concretas.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante 7 días",
-    "Salidas netas de los ETF spot de bitcoin por más de 5.000 M USD en noviembre y salidas de más de 2.000 M en cuatro sesiones",
-    "Volatilidad reciente: BTC llegó a ~55.300 USD esta semana y rebotó hasta ~60.800; liquidez fina por el festivo de Acción de Gracias",
-    "Sin eventos macro de alto impacto en las próximas 24 h, por lo que no hay motivo para pausa",
-    "Hackeos y brechas (Binance, Zodia Custody, 1Password) son noticias negativas relevantes pero no afectan directamente a las monedas operadas ni a su estado de cotización"
+    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante los últimos 7 días",
+    "Salidas netas de ETF spot de bitcoin de unos 5.390 M$ en noviembre y BTC recuperándose desde mínimos de 55.300 USD con liquidez fina por Acción de Gracias",
+    "Hackeo de Binance (6.300 M$) y brecha en Zodia Custody: noticias negativas relevantes pero no graves y sin impacto directo en las monedas operadas",
+    "Sin eventos económicos USD de alto impacto en las próximas 24 h, así que no se justifica pausa"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-26T13:17:02+00:00",
-  "valido_hasta": "2026-11-26T16:17:02+00:00",
+  "generado": "2026-11-26T14:58:59+00:00",
+  "valido_hasta": "2026-11-26T17:58:59+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": 0.35,
-    "noticias_analizadas": 38,
+    "cambio_mercado_24h": 1.1,
+    "noticias_analizadas": 44,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
-      "Decrypt": 38,
+      "Decrypt": 37,
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
@@ -46,6 +45,11 @@
       "link": "https://www.newsbtc.com/bitcoin-news/bitcoin-recovery-etf-outflows-warning/"
     },
     {
+      "titulo": "Here’s what happened in crypto today",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "titulo": "UK Regulator Cites Binance Hack as It Plans Tougher DeFi Rules Than US and EU: Report",
       "fuente": "Decrypt",
       "link": "https://decrypt.co/384027/uk-regulator-cites-binance-hack-as-it-plans-tougher-defi-rules-than-us-and-eu-report"
@@ -54,22 +58,17 @@
       "titulo": "Nvidia shipment freeze and U.S. chip curbs put AI stocks under pressure",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/26/nvidia-shipment-freeze-and-u-s-chip-curbs-put-ai-stocks-under-pressure"
-    },
-    {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8908,
+    "input_tokens": 9114,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 637,
+    "output_tokens": 578,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
