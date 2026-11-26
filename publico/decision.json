@@ -1,23 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El índice Miedo/Codicia está en 11 (miedo extremo) de forma sostenida durante la última semana, y la capitalización total apenas cambió (-0.42% en 24 h), con BTC y las principales monedas en rebote de +3% a +8% en el día pero con caídas semanales de hasta -6%. Los flujos de salida de los ETF de Bitcoin (unos 5.390 millones de dólares en noviembre) y las opciones de BTC por 7.000 millones que vencen el viernes apuntan a volatilidad elevada. No hay eventos macro de alto impacto en 24 h ni un riesgo grave e inmediato, así que se elige cautela global, sin pausa ni alerta.",
+  "resumen": "El índice Miedo/Codicia está en 11 (miedo extremo) de forma sostenida durante la última semana, y la capitalización total apenas varía (-0.02% en 24 h), con BTC rebotando hacia 60.800 tras un mínimo de 57.500 y salidas de más de 5.000 millones de dólares en ETFs spot de BTC en noviembre. No hay eventos macro de alto impacto en 24 h ni hay señales de hackeo o problema de seguridad que afecte a las monedas operadas, aunque sí hay noticias negativas relevantes (hackeo de Binance de 6.300 M$ con implicaciones regulatorias, brecha de datos en 1Password y Zodia Custody). Dado el miedo extremo y la volatilidad, se recomienda cautela global, sin pausa.",
   "motivos": [
-    "Miedo extremo sostenido (índice 11, mínimo de la última semana en 11-13)",
-    "Salidas netas de ETF de Bitcoin por 5.390 millones de dólares en noviembre y posicionamiento bajista en opciones antes del vencimiento de 7.000 millones el viernes",
-    "Volatilidad reciente alta: rebotes de 3-8% en 24 h frente a caídas semanales de 3-6% en la mayoría de monedas",
-    "Sin eventos macro de alto impacto en 24 h; las noticias de hackeo (Binance, 2024 según el contexto) y de regulación son antiguas o no afectan directamente a las monedas operadas, así que no justifican pausa"
+    "Índice Miedo/Codicia en 11 (miedo extremo) de forma sostenida durante 7 días",
+    "Salidas netas de más de 5.000 M$ de ETFs spot de BTC en noviembre y liquidez fina por festivo de Acción de Gracias",
+    "Noticias negativas relevantes pero no graves: endurecimiento regulatorio de DeFi en Reino Unido tras el hackeo de Binance, brechas de datos en 1Password y Zodia",
+    "Sin pausa: la capitalización total está estable (-0.02% en 24 h) y no hay evento macro de alto impacto en 24 h ni anomalía en las monedas operadas"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-26T10:09:25+00:00",
-  "valido_hasta": "2026-11-26T13:09:25+00:00",
+  "generado": "2026-11-26T11:59:37+00:00",
+  "valido_hasta": "2026-11-26T14:59:37+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -0.42,
-    "noticias_analizadas": 24,
+    "cambio_mercado_24h": -0.02,
+    "noticias_analizadas": 33,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -40,6 +40,16 @@
       "link": "https://www.newsbtc.com/bitcoin-news/bitcoin-recovery-etf-outflows-warning/"
     },
     {
+      "titulo": "UK Regulator Cites Binance Hack as It Plans Tougher DeFi Rules Than US and EU: Report",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/384027/uk-regulator-cites-binance-hack-as-it-plans-tougher-defi-rules-than-us-and-eu-report"
+    },
+    {
+      "titulo": "Nvidia shipment freeze and U.S. chip curbs put AI stocks under pressure",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/26/nvidia-shipment-freeze-and-u-s-chip-curbs-put-ai-stocks-under-pressure"
+    },
+    {
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -48,27 +58,17 @@
       "titulo": "1Password hacker stole customer names and emails, but vaults safe",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/1password-hacker-stole-customer-names-and-emails-but-vaults-safe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Senate Democrats urge SEC to scrap crypto, tokenized stock exemptions",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/senate-democrats-urge-sec-to-scrap-crypto-tokenized-stock-exemptions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Fidelity Files for Chainlink ETF. What Does It Mean for LINK?",
-      "fuente": "NewsBTC",
-      "link": "https://www.newsbtc.com/altcoin-news/fidelity-chainlink-etf-filing-investor-demand/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7690,
+    "input_tokens": 8427,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 612,
+    "output_tokens": 637,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
