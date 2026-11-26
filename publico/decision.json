@@ -1,28 +1,29 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El índice Miedo/Codicia está en 11 (miedo extremo) de forma sostenida durante 7 días, y los ETF de bitcoin acumulan salidas de capital por 5.390 millones de dólares en noviembre. BTC ronda los 60.500 dólares tras tocar mínimos cercanos a 55.300 esta semana, con liquidez fina por el puente de Acción de Gracias. Ante este contexto de incertidumbre elevada, pero sin una caída brusca en curso ni riesgo grave o inmediato, se recomienda cautela general sin pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) con la capitalización total plana en 24 h y BTC rebotando a ~61.000 USD tras caer a ~57.000, en medio de salidas récord de ETFs (5.390 M USD en noviembre). Hay riesgo macro relevante por una Fed hawkish y posibles turbulencias antes de la reunión de diciembre, pero no hay evento de alto impacto en las próximas 24 h ni un riesgo grave e inmediato. Por ello se recomienda cautela general (mitad de tamaño) y no pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (miedo extremo) y sostenido en torno a 11-13 durante los últimos 7 días.",
-    "Salidas netas de ETF spot de bitcoin por 5.390 millones en noviembre, con siete sesiones seguidas de salidas.",
-    "Liquidez fina por el feriado de Acción de Gracias y opciones de bitcoin con posicionamiento bajista ante el vencimiento de 7.000 millones del viernes.",
-    "La capitalización total varía solo +0,06% en 24 h y no hay evento macro de alto impacto en las próximas 24 h; el hackeo de Binance es noticia previa, no un evento nuevo en curso, y no hay riesgo grave que justifique pausa."
+    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante 7 días.",
+    "Salidas netas récord de ETFs spot de BTC: 3.050 M USD en 7 días y 5.390 M USD en noviembre.",
+    "Riesgo macro: advertencias de posible 'meltdown' de activos de riesgo si la Fed mantiene postura hawkish antes de su reunión de diciembre.",
+    "BTC cayó a ~57.000 y rebotó a ~61.000 con liquidez fina por Thanksgiving; la cripto total está plana (-0,01% en 24 h), sin señales de caída brusca.",
+    "Sin eventos macro de alto impacto USD en las próximas 24 h; noticias de hackeo/brecha (Zodia, Binance) no afectan directamente a las monedas operadas ni tienen carácter de riesgo inmediato."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-26T17:07:05+00:00",
-  "valido_hasta": "2026-11-26T20:07:05+00:00",
+  "generado": "2026-11-26T17:58:21+00:00",
+  "valido_hasta": "2026-11-26T20:58:21+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": 0.06,
+    "cambio_mercado_24h": -0.01,
     "noticias_analizadas": 49,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
-      "Decrypt": 37,
+      "Decrypt": 36,
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
@@ -30,9 +31,9 @@
   },
   "titulares": [
     {
-      "titulo": "UK regulator plans tighter DeFi rules, citing $6.3B Binance hack: Report",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/uk-fca-defi-regulation-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "titulo": "Bitcoin Price Taps $61K on Thanksgiving as Short Sellers Take a Beating",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-taps-61k-on-thanksgiving-as-short-sellers-take-a-beating/"
     },
     {
       "titulo": "Bitcoin ETFs are bleeding cash and the Fed is unlikely to help",
@@ -45,6 +46,11 @@
       "link": "https://www.newsbtc.com/bitcoin-news/bitcoin-recovery-etf-outflows-warning/"
     },
     {
+      "titulo": "Crypto on notice as hawkish Fed risks December ‘meltdown’",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/crypto-hawkish-fed-risks-december-meltdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "titulo": "DOJ Targets Crypto Scams in Largest Cyberfraud Crackdown in History",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/regulation-and-legal/doj-targets-crypto-scams-and-money-laundering-in-sweeping-nationwide-crackdown/"
@@ -53,22 +59,17 @@
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "UK Regulator Cites Binance Hack as It Plans Tougher DeFi Rules Than US and EU: Report",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/384027/uk-regulator-cites-binance-hack-as-it-plans-tougher-defi-rules-than-us-and-eu-report"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9216,
+    "input_tokens": 9255,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 585,
+    "output_tokens": 643,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
