@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El índice Miedo/Codicia está en 11 (Extreme Fear) de forma sostenida durante 7 días y la capitalización total cae un 2.14% en 24 h, con BTC rebotando hacia 61K tras tocar 57K. Hay presión bajista (death cross, salidas de ETF de BTC por unos 3.050 M$ en 7 días y advertencias de Galaxy sobre un posible mínimo más bajo), además de un evento macro hawkish de la Fed próximo; aunque no hay un evento de alto impacto en 24 h. Por ello se recomienda cautela general, sin riesgo grave e inmediato que justifique pausa.",
+  "resumen": "El índice Miedo/Codicia está en 11 (miedo extremo) de forma sostenida durante la última semana, y la capitalización total cae un 2.24% en 24 h con BTC alrededor de 60.5K USD tras una caída previa a 57K. Galaxy retiró su llamada de fondo y advierte de un posible mínimo más bajo si BTC cierra diario por debajo de 58.5K, y hay incertidumbre macro por la Fed hawkish antes de la reunión de diciembre. No hay eventos macro de alto impacto en 24 h ni riesgos de seguridad graves vigentes, así que se opta por cautela global, no pausa.",
   "motivos": [
-    "Miedo extremo sostenido (índice 11, 7 días entre 11 y 13).",
-    "Capitalización total -2.14% en 24 h y BTC cerca de la zona de 57-61K tras un mínimo reciente.",
-    "Salidas netas de ETF de BTC (-3.05 mil M$ en 7 días) y death cross en gráfico de BTC.",
-    "Riesgo macro: advertencias de posible 'meltdown' de activos de riesgo ante una Fed hawkish antes de la reunión de diciembre; sin evento de alto impacto en las próximas 24 h.",
-    "Noticias negativas relevantes pero no graves (regulación DeFi en Reino Unido, Japón y España, brecha de datos en Zodia); el hackeo de Binance ya está en fase de recuperación y no hay anomalía en las monedas operadas."
+    "Miedo extremo (índice 11) mantenido 7 días: volatilidad e incertidumbre elevadas.",
+    "Caída de capitalización total -2.24% en 24 h y BTC cerca de 60K tras tocar 57K; riesgo de nuevo mínimo bajo 58.5K según Galaxy.",
+    "Incertidumbre macro: Fed con sesgo hawkish y riesgo de 'meltdown' de activos de riesgo antes de la reunión de diciembre, aunque sin evento de alto impacto en 24 h.",
+    "Hackeo de Binance (octubre) ya prácticamente resuelto: retiradas restablecidas; no justifica pausa.",
+    "Noticias regulatorias (España, Japón, Reino Unido) y brecha de datos de Zodia son relevantes pero no graves; no se aplica pausa a ninguna moneda en particular."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-26T22:56:54+00:00",
-  "valido_hasta": "2026-11-27T01:56:54+00:00",
+  "generado": "2026-11-26T23:56:07+00:00",
+  "valido_hasta": "2026-11-27T02:56:07+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -2.14,
-    "noticias_analizadas": 49,
+    "cambio_mercado_24h": -2.24,
+    "noticias_analizadas": 43,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9132,
+    "input_tokens": 9123,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 644,
+    "output_tokens": 656,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
