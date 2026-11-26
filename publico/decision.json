@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El índice Miedo/Codicia está en 11 (miedo extremo) de forma sostenida durante la última semana, y la capitalización total apenas varía (-0.02% en 24 h), con BTC rebotando hacia 60.800 tras un mínimo de 57.500 y salidas de más de 5.000 millones de dólares en ETFs spot de BTC en noviembre. No hay eventos macro de alto impacto en 24 h ni hay señales de hackeo o problema de seguridad que afecte a las monedas operadas, aunque sí hay noticias negativas relevantes (hackeo de Binance de 6.300 M$ con implicaciones regulatorias, brecha de datos en 1Password y Zodia Custody). Dado el miedo extremo y la volatilidad, se recomienda cautela global, sin pausa.",
+  "resumen": "El índice Miedo/Codicia está en 11 (miedo extremo) durante toda la última semana, y la capitalización total apenas varía (+0.35% en 24 h) con BTC cerca de 60.800 USD tras caer a unos 55.300 esta semana. Los flujos de los ETF de bitcoin son negativos (más de 5.000 M USD de salidas en noviembre) y no hay eventos macro de alto impacto en las próximas 24 h. Las noticias de hackeos (Binance, Zodia, 1Password) son relevantes pero no afectan directamente a las monedas operadas, así que se elige cautela global por el miedo extremo y la volatilidad, sin pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (miedo extremo) de forma sostenida durante 7 días",
-    "Salidas netas de más de 5.000 M$ de ETFs spot de BTC en noviembre y liquidez fina por festivo de Acción de Gracias",
-    "Noticias negativas relevantes pero no graves: endurecimiento regulatorio de DeFi en Reino Unido tras el hackeo de Binance, brechas de datos en 1Password y Zodia",
-    "Sin pausa: la capitalización total está estable (-0.02% en 24 h) y no hay evento macro de alto impacto en 24 h ni anomalía en las monedas operadas"
+    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante 7 días",
+    "Salidas netas de los ETF spot de bitcoin por más de 5.000 M USD en noviembre y salidas de más de 2.000 M en cuatro sesiones",
+    "Volatilidad reciente: BTC llegó a ~55.300 USD esta semana y rebotó hasta ~60.800; liquidez fina por el festivo de Acción de Gracias",
+    "Sin eventos macro de alto impacto en las próximas 24 h, por lo que no hay motivo para pausa",
+    "Hackeos y brechas (Binance, Zodia Custody, 1Password) son noticias negativas relevantes pero no afectan directamente a las monedas operadas ni a su estado de cotización"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-26T11:59:37+00:00",
-  "valido_hasta": "2026-11-26T14:59:37+00:00",
+  "generado": "2026-11-26T13:17:02+00:00",
+  "valido_hasta": "2026-11-26T16:17:02+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -0.02,
-    "noticias_analizadas": 33,
+    "cambio_mercado_24h": 0.35,
+    "noticias_analizadas": 38,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -33,6 +34,11 @@
       "titulo": "UK regulator plans tighter DeFi rules, citing $6.3B Binance hack: Report",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/uk-fca-defi-regulation-binance-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Bitcoin ETFs are bleeding cash and the Fed is unlikely to help",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/daybook-us/2026/11/26/bitcoin-etfs-are-bleeding-cash-and-the-fed-is-unlikely-to-help"
     },
     {
       "titulo": "Bitcoin’s Recovery Faces a New Warning After $2 Billion in ETF Outflows",
@@ -53,15 +59,10 @@
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "1Password hacker stole customer names and emails, but vaults safe",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/1password-hacker-stole-customer-names-and-emails-but-vaults-safe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8427,
+    "input_tokens": 8908,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
