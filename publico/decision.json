@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) con la capitalización total plana en 24 h y BTC rebotando a ~61.000 USD tras caer a ~57.000, en medio de salidas récord de ETFs (5.390 M USD en noviembre). Hay riesgo macro relevante por una Fed hawkish y posibles turbulencias antes de la reunión de diciembre, pero no hay evento de alto impacto en las próximas 24 h ni un riesgo grave e inmediato. Por ello se recomienda cautela general (mitad de tamaño) y no pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 11 durante toda la semana) con la capitalización total cayendo 1.29% en 24 h y BTC rebotando a unos 60.400 USD tras tocar ~57.200. Hay presión bajista por salidas de ETF de BTC (-5.39 mil millones en noviembre), un death cross y riesgo de un movimiento brusco hacia la reunión de la Fed, aunque sin eventos macro de alto impacto en 24 h. No hay hackeo ni problema grave que afecte a estas monedas, así que se recomienda cautela general en lugar de pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante 7 días.",
-    "Salidas netas récord de ETFs spot de BTC: 3.050 M USD en 7 días y 5.390 M USD en noviembre.",
-    "Riesgo macro: advertencias de posible 'meltdown' de activos de riesgo si la Fed mantiene postura hawkish antes de su reunión de diciembre.",
-    "BTC cayó a ~57.000 y rebotó a ~61.000 con liquidez fina por Thanksgiving; la cripto total está plana (-0,01% en 24 h), sin señales de caída brusca.",
-    "Sin eventos macro de alto impacto USD en las próximas 24 h; noticias de hackeo/brecha (Zodia, Binance) no afectan directamente a las monedas operadas ni tienen carácter de riesgo inmediato."
+    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante 7 días",
+    "Salidas netas de ETF spot de BTC por 5.39 mil millones en noviembre y death cross en BTC",
+    "Riesgo de volatilidad ante una posible decisión hawkish de la Fed, aunque sin evento macro de alto impacto en las próximas 24 h",
+    "Noticias negativas relevantes pero no graves (hackeo de Binance de octubre citado por el FCA, brecha de datos de Zodia Custody sin transacciones no autorizadas, regulación más estricta en España); no hay pausa por riesgo grave",
+    "Monedas sin señales de anomalía (sin halt, depeg ni delist) entre las 10 vigiladas"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-26T17:58:21+00:00",
-  "valido_hasta": "2026-11-26T20:58:21+00:00",
+  "generado": "2026-11-26T18:57:38+00:00",
+  "valido_hasta": "2026-11-26T21:57:38+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -0.01,
-    "noticias_analizadas": 49,
+    "cambio_mercado_24h": -1.29,
+    "noticias_analizadas": 50,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -31,9 +31,24 @@
   },
   "titulares": [
     {
+      "titulo": "Fidelity Pushes Beyond Bitcoin With Chainlink ETF Filing",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/finance/fidelity-pushes-beyond-bitcoin-with-chainlink-etf-filing/"
+    },
+    {
       "titulo": "Bitcoin Price Taps $61K on Thanksgiving as Short Sellers Take a Beating",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-taps-61k-on-thanksgiving-as-short-sellers-take-a-beating/"
+    },
+    {
+      "titulo": "Monero’s Delisting Nightmare Continues: XMR Price Plunges 15%",
+      "fuente": "NewsBTC",
+      "link": "https://www.newsbtc.com/news/monero-xmr/monero-xmr-price-crash-kucoin-delisting/"
+    },
+    {
+      "titulo": "Switzerland’s First Spot Bitcoin ETF Hits SIX With 350 BTC",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/crypto-news/switzerlands-first-spot-bitcoin-etf-hits-six-with-350-btc/"
     },
     {
       "titulo": "Bitcoin ETFs are bleeding cash and the Fed is unlikely to help",
@@ -41,35 +56,20 @@
       "link": "https://www.coindesk.com/daybook-us/2026/11/26/bitcoin-etfs-are-bleeding-cash-and-the-fed-is-unlikely-to-help"
     },
     {
-      "titulo": "Bitcoin’s Recovery Faces a New Warning After $2 Billion in ETF Outflows",
-      "fuente": "NewsBTC",
-      "link": "https://www.newsbtc.com/bitcoin-news/bitcoin-recovery-etf-outflows-warning/"
-    },
-    {
       "titulo": "Crypto on notice as hawkish Fed risks December ‘meltdown’",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/markets/crypto-hawkish-fed-risks-december-meltdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "DOJ Targets Crypto Scams in Largest Cyberfraud Crackdown in History",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/regulation-and-legal/doj-targets-crypto-scams-and-money-laundering-in-sweeping-nationwide-crackdown/"
-    },
-    {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9255,
+    "input_tokens": 9228,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 643,
+    "output_tokens": 605,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
