@@ -1,23 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) con la capitalización total casi plana en 24 h (+0.4%) y BTC recuperando los 60.000 USD tras caer a unos 55.300, con salidas de más de 2.000 M USD en ETFs spot. Además hay noticias negativas relevantes, como el hackeo de Binance de 6.300 M USD y la presión regulatoria sobre DeFi, aunque ninguna es un evento grave e inmediato sobre las monedas operadas. Por ello se recomienda cautela global (mitad de tamaño) y no pausa.",
+  "resumen": "El índice Miedo/Codicia está en 11 (miedo extremo) de forma sostenida durante la última semana, y la capitalización total apenas cambió (-0.42% en 24 h), con BTC y las principales monedas en rebote de +3% a +8% en el día pero con caídas semanales de hasta -6%. Los flujos de salida de los ETF de Bitcoin (unos 5.390 millones de dólares en noviembre) y las opciones de BTC por 7.000 millones que vencen el viernes apuntan a volatilidad elevada. No hay eventos macro de alto impacto en 24 h ni un riesgo grave e inmediato, así que se elige cautela global, sin pausa ni alerta.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) durante los últimos 7 días, lo que indica incertidumbre elevada.",
-    "Salidas netas de más de 2.000 M USD en ETFs spot de Bitcoin en cuatro sesiones consecutivas, con BTC aún bajo presión en el mes.",
-    "Noticias negativas relevantes pero no graves: presión regulatoria sobre DeFi en Reino Unido por el hackeo de Binance y bloqueo de opciones de BTC por 7.000 M USD el viernes con posicionamiento bajista.",
-    "Sin evento macro de alto impacto en 24 h y sin halt, depeg, delist ni exploit directo sobre las monedas operadas, por lo que no se justifica pausa."
+    "Miedo extremo sostenido (índice 11, mínimo de la última semana en 11-13)",
+    "Salidas netas de ETF de Bitcoin por 5.390 millones de dólares en noviembre y posicionamiento bajista en opciones antes del vencimiento de 7.000 millones el viernes",
+    "Volatilidad reciente alta: rebotes de 3-8% en 24 h frente a caídas semanales de 3-6% en la mayoría de monedas",
+    "Sin eventos macro de alto impacto en 24 h; las noticias de hackeo (Binance, 2024 según el contexto) y de regulación son antiguas o no afectan directamente a las monedas operadas, así que no justifican pausa"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-26T09:02:27+00:00",
-  "valido_hasta": "2026-11-26T12:02:27+00:00",
+  "generado": "2026-11-26T10:09:25+00:00",
+  "valido_hasta": "2026-11-26T13:09:25+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": 0.4,
-    "noticias_analizadas": 25,
+    "cambio_mercado_24h": -0.42,
+    "noticias_analizadas": 24,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -61,14 +61,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7531,
+    "input_tokens": 7690,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 606,
+    "output_tokens": 612,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
