@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11) tras una caída de Bitcoin por debajo de 58.000 USD, con presión por aranceles y sorpresa inflacionaria (PCE 3.8%) que eleva la probabilidad de una subida de tipos de la Fed en diciembre. La capitalización total cae -1.23% en 24 h, sin una caída brusca de -7% ni un hackeo sistémico confirmado. Esto justifica cautela (mitad de tamaño en compras nuevas) más que pausa, ya que las noticias de seguridad (minería, Bithumb) son sectoriales y no afectan directamente a las monedas operadas.",
+  "resumen": "El miedo extremo (índice 11, mantenido una semana) y la caída reciente de BTC por debajo de 58.000 USD con liquidaciones de 579 M USD justifican cautela global. La capitalización total apenas varía (-0,11% en 24 h), así que no hay una caída brusca de mercado que obligue a pausar, y no hay eventos macro de alto impacto en las próximas 24 h. Se reduce el tamaño de las compras nuevas a la mitad hasta que el sentimiento mejore, sin cerrar posiciones.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante la última semana.",
-    "Inflación PCE de 3.8% y core de 3.3%, con mercado apostando ~94% a una subida de tipos de la Fed en diciembre; evento macro importante dentro de 24 h.",
-    "BTC por debajo de 58.000 USD tras caer ~25% desde inicio de noviembre; renovados temores de aranceles y caída de bolsas (Nasdaq -4%).",
-    "Caída de capitalización total de -1.23% en 24 h, sin llegar al umbral de -7% que justificaría pausa.",
-    "Noticias de seguridad (hashrate hijacking en minería, phishing de Bithumb) son sectoriales y no afectan directamente a las monedas operadas; no hay halt, depeg ni delist."
+    "Índice Miedo/Codicia en 11 (Extreme Fear), mantenido en el rango 11-13 durante 7 días.",
+    "BTC cae por debajo de 58.000 USD con liquidaciones de 579 M USD y caída cercana al 25% desde inicios de noviembre.",
+    "Presión macro: inflación PCE en 3,8% y mercado que anticipa una subida de tasas de la Fed en diciembre (probabilidad ~94%), aunque el evento no entra en las próximas 2-3 horas.",
+    "Riesgo de nuevas tarifas comerciales de EE.UU. y caídas de bolsa (Nasdaq -4%) que contagian al mercado cripto.",
+    "La capitalización total cambia solo -0,11% en 24 h y no hay exploit, halt, depeg ni acción regulatoria grave, por lo que no procede pausa.",
+    "Las noticias sobre minería (hashrate hijacking) y la venta de ETH por parte de Bit Digital no afectan directamente a las monedas operadas de forma que justifique un trato diferenciado."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-26T01:10:03+00:00",
-  "valido_hasta": "2026-11-26T04:10:03+00:00",
+  "generado": "2026-11-26T02:54:51+00:00",
+  "valido_hasta": "2026-11-26T05:54:51+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -1.23,
-    "noticias_analizadas": 39,
+    "cambio_mercado_24h": -0.11,
+    "noticias_analizadas": 36,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +63,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9643,
+    "input_tokens": 9313,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 647,
+    "output_tokens": 686,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
