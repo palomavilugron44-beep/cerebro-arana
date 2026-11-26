@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El miedo extremo (índice 11, sostenido una semana) y la caída de BTC cerca de 57-58K USD con liquidaciones de 579 M USD justifican mayor prudencia. Las causas son sobre todo macro: inflación PCE al 3.8%, expectativas de subida de tipos de la Fed en diciembre y amenaza de aranceles, sin un evento de alto impacto en las próximas 24 h. La capitalización total cae solo -0.32% en 24 h, así que no hay una caída brusca que justifique pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 11) tras la caída de BTC hasta unos 57.200 USD por aranceles y un dato de inflación PCE caliente, con expectativas de una subida de tipos en diciembre. La capitalización total cae solo -0.46% en 24 h y no hay eventos macro de alto impacto en las próximas 24 h, así que no hay una caída brusca confirmada ni riesgo grave de seguridad que justifique pausar. Por ello se recomienda cautela general (mitad de tamaño) y no pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante 7 días.",
-    "BTC cae a ~57-58K USD, con liquidaciones de 579 M USD y caída de cerca del 25% desde inicios de noviembre.",
-    "Dato PCE de 3.8% y expectativas de subida de tipos en diciembre (94% según traders), con riesgo de nuevos aranceles; evento macro importante en horizonte cercano.",
-    "No hay alerta de seguridad concreta sobre monedas del universo; el hackeo de minería (hashrate hijacking) no afecta a las monedas operadas directamente.",
-    "Capitalización total solo -0.32% en 24 h y sin eventos de alto impacto en 24 h: no se cumplen criterios de pausa."
+    "Índice Miedo/Codicia en 11 (Extreme Fear) sostenido durante 7 días.",
+    "Inflación PCE (3.8%) por encima de lo esperado y mercado que anticipa una subida de tipos de la Fed en diciembre; el evento es importante pero fuera de las próximas 2-3 horas.",
+    "Riesgo de nuevos aranceles de EE. UU. y BTC cerca de mínimos (~57.200 USD), con liquidaciones de 579 M USD en la jornada.",
+    "La capitalización total solo cae -0.46% en 24 h: no se cumple el umbral de caída brusca de -7%.",
+    "Incidentes de seguridad (hashrate hijacking en minería BTC, brecha de 1Password sin afectar bóvedas) no afectan directamente a las monedas operadas ni son graves para ellas.",
+    "Sin eventos económicos USD de alto impacto en las próximas 24 h; no procede pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-26T03:58:45+00:00",
-  "valido_hasta": "2026-11-26T06:58:45+00:00",
+  "generado": "2026-11-26T05:06:20+00:00",
+  "valido_hasta": "2026-11-26T08:06:20+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -0.32,
-    "noticias_analizadas": 36,
+    "cambio_mercado_24h": -0.46,
+    "noticias_analizadas": 35,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -36,11 +37,6 @@
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-struggles-below-60k-as-spot-buyers-retreat-and-leverage-builds/"
     },
     {
-      "titulo": "Bitcoin Falls Further as Inflation, Trump Tariffs and AI Selloff Rattle Markets",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/383967/bitcoin-sinks-inflation-trump-tariffs-ai-selloff"
-    },
-    {
       "titulo": "US inflation rises to 3.8% ahead of December Fed meeting, clouding crypto outlook",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/us-inflation-rises-december-fed-meeting-clouding-crypto-outlook?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -56,20 +52,25 @@
       "link": "https://cointelegraph.com/markets/bitcoin-falls-57k-us-tariff-pce-data-nasdaq-drops?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "titulo": "Crypto Long & Short: Bitcoin investors can’t keep ignoring Japan",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/11/25/crypto-long-and-short-bitcoin-investors-can-t-keep-ignoring-japan"
+      "titulo": "1Password hacker stole customer names and emails, but vaults safe",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/1password-hacker-stole-customer-names-and-emails-but-vaults-safe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Senate Democrats urge SEC to scrap crypto, tokenized stock exemptions",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/senate-democrats-urge-sec-to-scrap-crypto-tokenized-stock-exemptions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9270,
+    "input_tokens": 9059,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 588,
+    "output_tokens": 646,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
