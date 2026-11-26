@@ -1,25 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 13, valores bajos durante 7 días) tras una caída de la capitalización total de -2.08% en 24 h, con BTC cerca de 57-58K USD y fuertes ventas en bolsas de renta variable. El riesgo macro es elevado: el PCE subyacente sube al 3.3% y el mercado descuenta una subida de tipos de la Fed en diciembre, aunque no hay eventos de alto impacto en las próximas 24 h ni hechos de liquidación anómala. Se recomienda cautela general (compras a mitad de tamaño) sin pausa, ya que no hay un hackeo, halt, depeg ni acción regulatoria grave contra una moneda concreta.",
+  "resumen": "El mercado está en miedo extremo (índice 11) tras una caída de Bitcoin por debajo de 58.000 USD, con presión por aranceles y sorpresa inflacionaria (PCE 3.8%) que eleva la probabilidad de una subida de tipos de la Fed en diciembre. La capitalización total cae -1.23% en 24 h, sin una caída brusca de -7% ni un hackeo sistémico confirmado. Esto justifica cautela (mitad de tamaño en compras nuevas) más que pausa, ya que las noticias de seguridad (minería, Bithumb) son sectoriales y no afectan directamente a las monedas operadas.",
   "motivos": [
-    "Índice Miedo/Codicia en 13 (Extreme Fear) y sostenido en niveles bajos durante los últimos 7 días",
-    "Presión macro: PCE 3.8% interanual, núcleo 3.3%, y mercado con ~94% de probabilidad de subida de tipos en diciembre",
-    "Caída de la capitalización total de -2.08% en 24 h, con BTC cerca de 57-58K USD y liquidaciones de unos 579 M USD",
-    "Ventas en renta variable (Nasdaq -4%) y aranceles renovados que aumentan la volatilidad",
-    "No hay evento de alto impacto en las próximas 24 h, ni hackeo grave de moneda o exchange que justifique pausa",
-    "Incidentes de hashrate hijacking y brecha de Bithumb son noticias negativas relevantes pero no graves para las monedas operadas"
+    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante la última semana.",
+    "Inflación PCE de 3.8% y core de 3.3%, con mercado apostando ~94% a una subida de tipos de la Fed en diciembre; evento macro importante dentro de 24 h.",
+    "BTC por debajo de 58.000 USD tras caer ~25% desde inicio de noviembre; renovados temores de aranceles y caída de bolsas (Nasdaq -4%).",
+    "Caída de capitalización total de -1.23% en 24 h, sin llegar al umbral de -7% que justificaría pausa.",
+    "Noticias de seguridad (hashrate hijacking en minería, phishing de Bithumb) son sectoriales y no afectan directamente a las monedas operadas; no hay halt, depeg ni delist."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-25T23:49:37+00:00",
-  "valido_hasta": "2026-11-26T02:49:37+00:00",
+  "generado": "2026-11-26T01:10:03+00:00",
+  "valido_hasta": "2026-11-26T04:10:03+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
-    "miedo_codicia": 13,
-    "cambio_mercado_24h": -2.08,
-    "noticias_analizadas": 46,
+    "miedo_codicia": 11,
+    "cambio_mercado_24h": -1.23,
+    "noticias_analizadas": 39,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -47,11 +46,6 @@
       "link": "https://cointelegraph.com/news/us-inflation-rises-december-fed-meeting-clouding-crypto-outlook?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "titulo": "Fed’s preferred inflation gauge lands with a December rate increase already priced in",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/daybook-us/2026/11/25/fed-s-preferred-inflation-gauge-lands-with-a-december-rate-increase-already-priced-in"
-    },
-    {
       "titulo": "What Is Artex? The AI Hacking Tool Linked to the US Spy Agency Breach",
       "fuente": "Decrypt",
       "link": "https://decrypt.co/383997/what-is-artex-ai-hacking-tool-us-spy-agency-breach"
@@ -60,17 +54,22 @@
       "titulo": "Global Markets Bleed Trillions as Bitcoin, Gold and Wall Street Tumble",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/global-markets-bleed-trillions-as-bitcoin-gold-and-wall-street-tumble/"
+    },
+    {
+      "titulo": "Bitcoin falls toward $57K amid US tariff fears, hot PCE data as Nasdaq drops 4%",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/bitcoin-falls-57k-us-tariff-pce-data-nasdaq-drops?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9685,
+    "input_tokens": 9643,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 678,
+    "output_tokens": 647,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
