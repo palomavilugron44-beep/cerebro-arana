@@ -1,24 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El miedo extremo (índice 11, mantenido una semana) y la caída reciente de BTC por debajo de 58.000 USD con liquidaciones de 579 M USD justifican cautela global. La capitalización total apenas varía (-0,11% en 24 h), así que no hay una caída brusca de mercado que obligue a pausar, y no hay eventos macro de alto impacto en las próximas 24 h. Se reduce el tamaño de las compras nuevas a la mitad hasta que el sentimiento mejore, sin cerrar posiciones.",
+  "resumen": "El miedo extremo (índice 11, sostenido una semana) y la caída de BTC cerca de 57-58K USD con liquidaciones de 579 M USD justifican mayor prudencia. Las causas son sobre todo macro: inflación PCE al 3.8%, expectativas de subida de tipos de la Fed en diciembre y amenaza de aranceles, sin un evento de alto impacto en las próximas 24 h. La capitalización total cae solo -0.32% en 24 h, así que no hay una caída brusca que justifique pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear), mantenido en el rango 11-13 durante 7 días.",
-    "BTC cae por debajo de 58.000 USD con liquidaciones de 579 M USD y caída cercana al 25% desde inicios de noviembre.",
-    "Presión macro: inflación PCE en 3,8% y mercado que anticipa una subida de tasas de la Fed en diciembre (probabilidad ~94%), aunque el evento no entra en las próximas 2-3 horas.",
-    "Riesgo de nuevas tarifas comerciales de EE.UU. y caídas de bolsa (Nasdaq -4%) que contagian al mercado cripto.",
-    "La capitalización total cambia solo -0,11% en 24 h y no hay exploit, halt, depeg ni acción regulatoria grave, por lo que no procede pausa.",
-    "Las noticias sobre minería (hashrate hijacking) y la venta de ETH por parte de Bit Digital no afectan directamente a las monedas operadas de forma que justifique un trato diferenciado."
+    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante 7 días.",
+    "BTC cae a ~57-58K USD, con liquidaciones de 579 M USD y caída de cerca del 25% desde inicios de noviembre.",
+    "Dato PCE de 3.8% y expectativas de subida de tipos en diciembre (94% según traders), con riesgo de nuevos aranceles; evento macro importante en horizonte cercano.",
+    "No hay alerta de seguridad concreta sobre monedas del universo; el hackeo de minería (hashrate hijacking) no afecta a las monedas operadas directamente.",
+    "Capitalización total solo -0.32% en 24 h y sin eventos de alto impacto en 24 h: no se cumplen criterios de pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-26T02:54:51+00:00",
-  "valido_hasta": "2026-11-26T05:54:51+00:00",
+  "generado": "2026-11-26T03:58:45+00:00",
+  "valido_hasta": "2026-11-26T06:58:45+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -0.11,
+    "cambio_mercado_24h": -0.32,
     "noticias_analizadas": 36,
     "articulos_leidos": 8,
     "fuentes": {
@@ -52,25 +51,25 @@
       "link": "https://decrypt.co/383997/what-is-artex-ai-hacking-tool-us-spy-agency-breach"
     },
     {
-      "titulo": "Global Markets Bleed Trillions as Bitcoin, Gold and Wall Street Tumble",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/global-markets-bleed-trillions-as-bitcoin-gold-and-wall-street-tumble/"
-    },
-    {
       "titulo": "Bitcoin falls toward $57K amid US tariff fears, hot PCE data as Nasdaq drops 4%",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/markets/bitcoin-falls-57k-us-tariff-pce-data-nasdaq-drops?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Crypto Long & Short: Bitcoin investors can’t keep ignoring Japan",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/11/25/crypto-long-and-short-bitcoin-investors-can-t-keep-ignoring-japan"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9313,
+    "input_tokens": 9270,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 686,
+    "output_tokens": 588,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
