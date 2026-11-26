@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) tras una caída de noviembre con más de 5.000 M$ de salidas de ETF de bitcoin, aunque la capitalización total sube 1,1% en 24 h y no hay eventos macro de alto impacto en las próximas 24 h. Las noticias de hackeos (Binance, Zodia Custody) son relevantes pero no afectan directamente a las monedas operadas ni son una caída en curso con liquidaciones masivas. Dado el miedo extremo y la volatilidad, se recomienda cautela global (mitad de tamaño) sin pausar ni marcar monedas concretas.",
+  "resumen": "El índice Miedo/Codicia está en 11 (miedo extremo) de forma sostenida durante 7 días, y los ETF de Bitcoin acumulan más de 5.000 M$ de salidas en noviembre, con BTC recuperando por encima de 60.000 USD tras caer a unos 55.300. No hay eventos macro de alto impacto en las próximas 24 h ni una caída brusca de la capitalización total (+0,39% en 24 h). Las noticias de hackeos (Binance, Zodia Custody, 1Password) son relevantes pero no afectan directamente a las monedas operadas, por lo que se aplica cautela general sin pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante los últimos 7 días",
-    "Salidas netas de ETF spot de bitcoin de unos 5.390 M$ en noviembre y BTC recuperándose desde mínimos de 55.300 USD con liquidez fina por Acción de Gracias",
-    "Hackeo de Binance (6.300 M$) y brecha en Zodia Custody: noticias negativas relevantes pero no graves y sin impacto directo en las monedas operadas",
-    "Sin eventos económicos USD de alto impacto en las próximas 24 h, así que no se justifica pausa"
+    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante 7 días",
+    "Salidas netas de ETF de Bitcoin de unos 5.390 M$ en noviembre y 2.000 M$ en cuatro sesiones hasta el 24 de noviembre",
+    "Liquidez fina por el feriado de Acción de Gracias según Talos, con volatilidad potencial",
+    "Sin eventos macro USD de alto impacto en 24 h y capitalización total estable (+0,39%), por lo que no se justifica pausa",
+    "Noticias de hackeos (Binance 6.300 M$, Zodia Custody, 1Password) son negativas pero no afectan directamente a las monedas operadas"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-26T14:58:59+00:00",
-  "valido_hasta": "2026-11-26T17:58:59+00:00",
+  "generado": "2026-11-26T16:01:05+00:00",
+  "valido_hasta": "2026-11-26T19:01:05+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": 1.1,
-    "noticias_analizadas": 44,
+    "cambio_mercado_24h": 0.39,
+    "noticias_analizadas": 46,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -61,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9114,
+    "input_tokens": 9134,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 578,
+    "output_tokens": 605,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
