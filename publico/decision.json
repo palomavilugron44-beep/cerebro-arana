@@ -1,29 +1,30 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 11) con la capitalización total cayendo un 1.65% en 24 h y el BTC rebotando hacia 61K tras tocar 57K, con salidas netas de ETF de BTC por más de 5.000 M$ en noviembre. Hay además riesgo macro de medio plazo por una Fed hawkish que podría provocar un \"meltdown\" en diciembre, aunque no hay evento de alto impacto en las próximas 24 h. No se observan hackeos graves, halts ni caídas bruscas en curso, por lo que se elige cautela general y no pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 11, sostenido una semana) con la capitalización total cayendo un 1.55% en 24 h y BTC cerca de 60.700 USD tras tocar 57.200 en la jornada, con salidas netas de ETF de bitcoin por más de 5.000 M USD en noviembre. Hay riesgo macro relevante por una Fed hawkish y el temor a un \"meltdown\" en diciembre, aunque no hay un dato de alto impacto en las próximas 24 h. No se observa hackeo, halt ni caída de -7%, así que no procede pausa; la cautela reduce el tamaño de nuevas compras mientras se vigila el mercado.",
   "motivos": [
-    "Índice Miedo/Codicia en 11 (Extreme Fear), sostenido durante los últimos 7 días.",
-    "Salidas netas de ETF de BTC de 5.390 M$ en noviembre y 3.050 M$ en 7 días.",
-    "Advertencias de analistas sobre una Fed hawkish y posible caída de activos de riesgo antes de la reunión de diciembre; BTC ha formado un death cross.",
-    "Incidentes de seguridad (brecha de datos en Zodia Custody, sin transacciones no autorizadas) y regulación de congelación de cuentas en España: negativos pero no graves para las monedas operadas.",
-    "Sin eventos macro de alto impacto en las próximas 24 h y sin caídas bruscas de mercado en curso (capitalización -1.65%)."
+    "Índice Miedo/Codicia en 11 (Extreme Fear) de forma sostenida durante 7 días.",
+    "Capitalización total -1.55% en 24 h y BTC sin recuperar la zona de 61.000 USD tras caer a 57.200.",
+    "Salidas netas de ETF spot de bitcoin de 3.050 M USD en 7 días y 5.390 M USD en noviembre.",
+    "Riesgo de endurecimiento monetario: analistas advierten de posible 'meltdown' de activos de riesgo antes de la reunión de la Fed de diciembre.",
+    "Incidente de brecha de datos en Zodia Custody (Standard Chartered), sin transacciones no autorizadas ni fondos comprometidos según la propia empresa; no es grave.",
+    "No hay eventos macro de alto impacto en 24 h ni caídas de -7% ni anomalías de monedas, por lo que no se activa pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-26T20:04:07+00:00",
-  "valido_hasta": "2026-11-26T23:04:07+00:00",
+  "generado": "2026-11-26T20:57:00+00:00",
+  "valido_hasta": "2026-11-26T23:57:00+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 11,
-    "cambio_mercado_24h": -1.65,
-    "noticias_analizadas": 49,
+    "cambio_mercado_24h": -1.55,
+    "noticias_analizadas": 51,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
-      "Decrypt": 36,
+      "Decrypt": 35,
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
@@ -62,14 +63,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9225,
+    "input_tokens": 9279,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 611,
+    "output_tokens": 683,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
