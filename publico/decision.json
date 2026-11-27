@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El miedo extremo (índice 12, sostenido durante 7 días) y una caída de la capitalización total del -4.01% en 24 h con BTC perdiendo el rango de 60.000 USD sugieren incertidumbre elevada, aunque no hay una caída de -7% ni un evento macro de alto impacto en las próximas 24 h. El hackeo de Binance de octubre ya está resuelto con la retirada de la suspensión completa, por lo que no se trata de un riesgo nuevo y grave sobre las monedas operadas. Por ello se recomienda cautela global (compras a mitad de tamaño) sin pausa ni medidas específicas por moneda.",
+  "resumen": "El mercado está en miedo extremo (índice 12, sostenido una semana) y la capitalización total cayó un 3.54% en 24 h, con BTC por debajo de 60.000 USD tras el vencimiento de opciones de unos 7.000 M USD. No hay eventos macro de alto impacto en 24 h, y las noticias de hackeo de Binance son antiguas y se están resolviendo (retiradas restablecidas), por lo que no justifican pausa. Se recomienda cautela general por volatilidad y miedo extremo, sin medidas específicas por moneda.",
   "motivos": [
-    "Índice Miedo/Codicia en 12 (Extreme Fear) y sostenido en niveles de 11-13 durante los últimos 7 días.",
-    "Capitalización total cripto -4.01% en 24 h, con BTC cayendo por debajo de 60.000 USD tras expiración de opciones de unos 7.000 millones USD y salidas de ETF spot superiores a 5.000 millones USD en noviembre.",
-    "No hay caída de -7% ni dato macro de alto impacto en las próximas 24 h, por lo que no se justifica pausa.",
-    "El hackeo de Binance de octubre ya tiene la suspensión de retiradas levantada; las noticias regulatorias (España, Reino Unido) no son graves para las monedas operadas.",
-    "Ninguna moneda muestra anomalía (halt, depeg, delist) en los datos."
+    "Índice Miedo/Codicia en 12 (Extreme Fear) y sostenido en niveles similares durante 7 días.",
+    "Capitalización total -3.54% en 24 h y BTC perdiendo el rango de 60.000-61.000 USD tras el vencimiento de opciones de unos 7.000 M USD.",
+    "Salidas de ETF spot de BTC superiores a 5.000 M USD en noviembre, según los reportes.",
+    "El hackeo de Binance de octubre es un riesgo conocido: Binance ya restableció todos los retiros, así que no se considera una situación anómala actual.",
+    "Sin eventos macro de alto impacto en las próximas 24 h, por lo que no hay motivo para pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-27T22:56:34+00:00",
-  "valido_hasta": "2026-11-28T01:56:34+00:00",
+  "generado": "2026-11-27T23:52:18+00:00",
+  "valido_hasta": "2026-11-28T02:52:18+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -4.01,
-    "noticias_analizadas": 38,
+    "cambio_mercado_24h": -3.54,
+    "noticias_analizadas": 32,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8829,
+    "input_tokens": 8158,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 646,
+    "output_tokens": 572,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
