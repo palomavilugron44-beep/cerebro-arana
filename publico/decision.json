@@ -1,24 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El índice Miedo/Codicia está en 12 (miedo extremo) de forma sostenida durante la última semana, y la capitalización total cae un 1.19% en 24 h, aunque BTC y el resto de monedas rebotan algo en el día. Hay un riesgo de venta de fin de semana advertido por Arthur Hayes ante vencimientos de opciones (~6.75 mil millones en BTC) y la incertidumbre previa a la reunión de la Fed, lo que justifica cautela, pero no hay un evento macro de alto impacto en 2-3 horas ni una caída brusca confirmada ni un problema de seguridad grave. Las demás noticias (Binance restaurando retiradas, Glamsterdam, flujos de ETF de XRP) no son de riesgo grave.",
+  "resumen": "El índice Miedo/Codicia está en Extreme Fear (12) y se mantiene bajo desde hace una semana, con la capitalización total cayendo un -2.88% en 24 h. Arthur Hayes advierte de posibles ventas de fin de semana por vencimiento de opciones y la incertidumbre por la Fed, aunque no hay evento macro de alto impacto en las próximas 24 h ni hechos graves confirmados. Dado el miedo extremo y la volatilidad, conviene operar con cautela (mitad de tamaño) en lugar de pausar, sin aplicar restricciones por moneda.",
   "motivos": [
-    "Miedo extremo sostenido (índice 12, rango 11-13 en 7 días).",
-    "Advertencia de posible venta de fin de semana ligada a ~6.75 mil millones en opciones de BTC que vencen y a la incertidumbre sobre el tono de la Fed antes del FOMC.",
-    "Capitalización total -1.19% en 24 h, sin caída brusca de -7% ni liquidaciones masivas confirmadas.",
-    "Sin eventos económicos USD de alto impacto en las próximas 24 h; no hay problema de seguridad o regulatorio grave confirmado que afecte a una moneda concreta.",
-    "Binance ha restaurado los retiros tras el hackeo de octubre; no se detecta anomalía en las monedas operadas."
+    "Índice Miedo/Codicia en Extreme Fear (12), valores entre 11 y 13 durante 7 días.",
+    "Capitalización total -2.88% en 24 h con advertencias de posible venta de fin de semana ligada a ~6.750 M$ en opciones de BTC que vencen en Deribit.",
+    "Incertidumbre por la postura de la Fed antes del bloqueo previo al FOMC; sin dato macro de alto impacto confirmado en 24 h.",
+    "Sin hackeo, acción regulatoria grave ni halt/depeg confirmados; Binance indica que los retiros están restablecidos."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-27T11:57:20+00:00",
-  "valido_hasta": "2026-11-27T14:57:20+00:00",
+  "generado": "2026-11-27T13:13:36+00:00",
+  "valido_hasta": "2026-11-27T16:13:36+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -1.19,
-    "noticias_analizadas": 35,
+    "cambio_mercado_24h": -2.88,
+    "noticias_analizadas": 37,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +61,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8713,
+    "input_tokens": 8907,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 659,
+    "output_tokens": 553,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
