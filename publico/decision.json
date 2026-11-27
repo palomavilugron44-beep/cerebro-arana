@@ -1,25 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12, sostenido durante una semana) y la capitalización total cae un 3.71% en 24 h, con BTC perdiendo la zona de 60.000 USD tras el vencimiento de unos 7.000 millones en opciones. Existe riesgo de presión vendedora el fin de semana por la incertidumbre ante la reunión de la Fed, aunque no hay un evento macro de alto impacto en las próximas 2-3 horas ni una caída mayor al umbral de pausa. Por ello se recomienda cautela general (mitad de tamaño en compras nuevas) sin pausar monedas concretas.",
+  "resumen": "El mercado está en miedo extremo (índice 12, sostenido una semana) y la capitalización total cae un 3.35% en 24 h, con BTC por debajo de 60.000 USD tras el vencimiento de unas 7.000 M$ en opciones. Hay preocupación por posibles ventas de fin de semana ante la incertidumbre sobre la Fed antes del bloqueo previo al FOMC, pero no hay una caída de -7% ni un evento macro de alto impacto en las próximas 2-3 horas. Las noticias de hackeo de Binance son antiguas y la retirada ya se ha levantado, así que no justifican pausa; se recomienda cautela general.",
   "motivos": [
-    "Índice Miedo/Codicia en 12 (Extreme Fear) de forma sostenida durante 7 días.",
-    "Capitalización total -3.71% en 24 h y BTC por debajo de 60.000 USD tras el vencimiento de opciones por unos 7.000 millones.",
-    "Advertencias de posible venta de activos líquidos el fin de semana antes de la reunión de la Fed (pre-FOMC), con probabilidad de subida de tipos en diciembre según Kalshi.",
-    "Salidas de ETF de BTC por más de 5.000 millones en noviembre.",
-    "No hay caída de -7% ni evento macro de alto impacto en las próximas 2-3 horas, ni anomalía en las monedas operadas, por lo que no se justifica pausa.",
-    "Noticias de hackeo (Binance, Thorchain) son antiguas o no afectan directamente a las monedas operadas; Binance ya completó la reanudación de retiros."
+    "Índice Miedo/Codicia en 12 (Extreme Fear) durante 7 días seguidos, lo que indica incertidumbre elevada.",
+    "Capitalización total -3.35% en 24 h y BTC perdiendo 60.000 USD tras el vencimiento de opciones de unos 7.000 M$ en Deribit.",
+    "Riesgo de ventas de fin de semana en cripto si la Fed no suaviza el tono antes del bloqueo previo al FOMC (advertencia de Arthur Hayes), aunque es una opinión y no un hecho.",
+    "No hay caída del mercado de -7% o peor ni evento macro de alto impacto en las próximas 2-3 horas; no se justifica pausa.",
+    "El hackeo de Binance es de octubre y la retirada ya fue levantada por completo; no hay una situación anómala de moneda (halt, depeg, delist) entre las 10 monedas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-27T17:57:24+00:00",
-  "valido_hasta": "2026-11-27T20:57:24+00:00",
+  "generado": "2026-11-27T18:56:55+00:00",
+  "valido_hasta": "2026-11-27T21:56:55+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -3.71,
-    "noticias_analizadas": 41,
+    "cambio_mercado_24h": -3.35,
+    "noticias_analizadas": 42,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -52,25 +51,25 @@
       "link": "https://www.coindesk.com/markets/2026/11/27/monero-suffers-biggest-single-day-slide-in-over-5-months-here-s-why"
     },
     {
+      "titulo": "Spain Moves to Freeze Crypto Accounts Without Need for Court Approval",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/regulation-and-legal/spain-moves-freeze-crypto-accounts-without-court-approval/"
+    },
+    {
       "titulo": "Bitcoin’s Thanksgiving Rally Unravels as $7B Options Expiry Rocks Markets",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/bitcoins-thanksgiving-rally-unravels-as-7b-options-expiry-rocks-markets/"
-    },
-    {
-      "titulo": "Binance Hackers Funnel Over $600M Through Thorchain Despite FBI Warning",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/featured/binance-hackers-funnel-600m-thorchain-despite-fbi-warning/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9183,
+    "input_tokens": 9151,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 674,
+    "output_tokens": 673,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
