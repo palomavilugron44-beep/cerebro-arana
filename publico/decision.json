@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El índice Miedo/Codicia está en 12 (miedo extremo) de forma sostenida durante la última semana, y la capitalización total cae un 1.5% en 24 h, aunque las principales monedas rebotan entre un 2% y un 4%. Hay un riesgo de volatilidad de fin de semana: Arthur Hayes advierte de posibles ventas en cripto por el vencimiento de unos 6.750 millones de dólares en opciones de BTC y la incertidumbre ante el FOMC de diciembre. No hay hackeos ni problemas de seguridad graves que afecten a las monedas operadas (Binance ya restableció los retiros), por lo que se recomienda cautela y no pausa.",
+  "resumen": "El índice Miedo/Codicia está en 12 (miedo extremo) de forma sostenida durante la última semana, y la capitalización total cae un 1.19% en 24 h, aunque BTC y el resto de monedas rebotan algo en el día. Hay un riesgo de venta de fin de semana advertido por Arthur Hayes ante vencimientos de opciones (~6.75 mil millones en BTC) y la incertidumbre previa a la reunión de la Fed, lo que justifica cautela, pero no hay un evento macro de alto impacto en 2-3 horas ni una caída brusca confirmada ni un problema de seguridad grave. Las demás noticias (Binance restaurando retiradas, Glamsterdam, flujos de ETF de XRP) no son de riesgo grave.",
   "motivos": [
-    "Miedo extremo sostenido (índice 12, con 7 días entre 11 y 13).",
-    "Advertencia de posible venta de fin de semana ligada al vencimiento de opciones de BTC y a la postura de la Fed antes del FOMC.",
-    "Capitalización total en -1.5% en 24 h, sin caída brusca (umbral de pausa: -7%).",
-    "Sin eventos macro de alto impacto USD en las próximas 24 h; no hay problemas graves de seguridad ni halts en las monedas operadas."
+    "Miedo extremo sostenido (índice 12, rango 11-13 en 7 días).",
+    "Advertencia de posible venta de fin de semana ligada a ~6.75 mil millones en opciones de BTC que vencen y a la incertidumbre sobre el tono de la Fed antes del FOMC.",
+    "Capitalización total -1.19% en 24 h, sin caída brusca de -7% ni liquidaciones masivas confirmadas.",
+    "Sin eventos económicos USD de alto impacto en las próximas 24 h; no hay problema de seguridad o regulatorio grave confirmado que afecte a una moneda concreta.",
+    "Binance ha restaurado los retiros tras el hackeo de octubre; no se detecta anomalía en las monedas operadas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-27T10:58:11+00:00",
-  "valido_hasta": "2026-11-27T13:58:11+00:00",
+  "generado": "2026-11-27T11:57:20+00:00",
+  "valido_hasta": "2026-11-27T14:57:20+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -1.5,
-    "noticias_analizadas": 29,
-    "articulos_leidos": 7,
+    "cambio_mercado_24h": -1.19,
+    "noticias_analizadas": 35,
+    "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
@@ -45,6 +46,11 @@
       "link": "https://www.coindesk.com/markets/2026/11/27/monero-suffers-biggest-single-day-slide-in-over-5-months-here-s-why"
     },
     {
+      "titulo": "Injective asks SEC to allow order books for tokenized stock trading",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/27/injective-asks-sec-to-allow-order-books-for-tokenized-stock-trading"
+    },
+    {
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -53,22 +59,17 @@
       "titulo": "Japan’s crypto security group taps SEAL to speed up hack response",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/japans-crypto-security-group-taps-seal-to-speed-up-hack-response?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Ethereum Sets December 15 Date for Delayed Glamsterdam Testnet Upgrade",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/384104/ethereum-sets-december-15-date-for-delayed-glamsterdam-testnet-upgrade"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7757,
+    "input_tokens": 8713,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 551,
+    "output_tokens": 659,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
