@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El índice Miedo/Codicia está en 12 (Extreme Fear) de forma sostenida durante la última semana y la capitalización total cae un 1.81% en 24 h, con BTC bajo sus medias de 50 y 200 semanas y un death cross en el gráfico. Hay además un riesgo macro en el horizonte: advertencias sobre una posible corrección de activos de riesgo antes de la reunión de la Fed de diciembre, aunque sin evento de alto impacto en las próximas 24 h. Las noticias de hackeo de Binance ya están resueltas (retiradas restablecidas) y no suponen un riesgo grave e inmediato, por lo que se opta por cautela general sin pausa.",
+  "resumen": "El índice Miedo/Codicia está en 12 (miedo extremo) de forma sostenida durante 7 días, y Galaxy Digital advierte que el mercado bajista puede no haber terminado, con BTC bajo la EMA de 50 y 200 semanas y un death cross en curso. Sin embargo, la capitalización total cae solo -1.21% en 24 h y no hay eventos macro de alto impacto en 24 h. La caída del 6.3 mil millones de Binance ya está resuelta (retiros restaurados), por lo que no hay un riesgo grave e inmediato que justifique pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 12 (Extreme Fear) de forma sostenida durante 7 días.",
-    "Capitalización total -1.81% en 24 h y BTC con death cross y pérdida de medias de 50 y 200 semanas.",
-    "Advertencias de analistas sobre posible corrección antes de la reunión de la Fed de diciembre (riesgo no confirmado, sin evento de alto impacto en 24 h).",
-    "El hackeo de Binance de octubre está resuelto: retiradas restablecidas casi en su totalidad; no hay riesgo grave e inmediato.",
-    "Sin señales de anomalía en monedas concretas (halt, depeg o delist) de las 10 que opera el bot; el delisting de XMR no afecta a su universo."
+    "Miedo extremo sostenido (índice 12 y 7 días entre 11 y 13), que justifica prudencia en nuevas compras.",
+    "Galaxy Digital retira su tesis de fondo de mercado y advierte de más caídas; BTC con death cross según Decrypt.",
+    "Sin evento macro de alto impacto en 24 h y caída de capitalización total limitada (-1.21%), por lo que no se cumple el criterio de pausa.",
+    "Hackeo de Binance de 6.3 mil millones ya resuelto con retiros restaurados; no hay riesgo de seguridad vigente para las monedas operadas.",
+    "Monero (no operado por el bot) sufre delistings; no afecta a las 10 monedas de la lista."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-27T05:06:09+00:00",
-  "valido_hasta": "2026-11-27T08:06:09+00:00",
+  "generado": "2026-11-27T06:06:29+00:00",
+  "valido_hasta": "2026-11-27T09:06:29+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -1.81,
-    "noticias_analizadas": 32,
+    "cambio_mercado_24h": -1.21,
+    "noticias_analizadas": 31,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -31,11 +31,6 @@
   },
   "titulares": [
     {
-      "titulo": "Fidelity Pushes Beyond Bitcoin With Chainlink ETF Filing",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/finance/fidelity-pushes-beyond-bitcoin-with-chainlink-etf-filing/"
-    },
-    {
       "titulo": "Monero’s Delisting Nightmare Continues: XMR Price Plunges 15%",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/news/monero-xmr/monero-xmr-price-crash-kucoin-delisting/"
@@ -46,9 +41,9 @@
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "titulo": "Crypto on notice as hawkish Fed risks December ‘meltdown’",
+      "titulo": "Japan’s crypto security group taps SEAL to speed up hack response",
       "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/markets/crypto-hawkish-fed-risks-december-meltdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "link": "https://cointelegraph.com/news/japans-crypto-security-group-taps-seal-to-speed-up-hack-response?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "titulo": "Binance completes withdrawal recovery four weeks after $6.3B hack",
@@ -59,17 +54,22 @@
       "titulo": "Michael Saylor’s Net Worth Plunges $6 Billion: The Cost of His Bitcoin Bet",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/bitcoin-news/michael-saylor-net-worth/"
+    },
+    {
+      "titulo": "Binance says customer withdrawals are fully restored, four weeks after the $6.3 billion hack",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/27/binance-says-its-withdrawal-suspension-is-over-four-weeks-after-a-usd6-3-billion-hack"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8353,
+    "input_tokens": 8150,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 635,
+    "output_tokens": 589,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
