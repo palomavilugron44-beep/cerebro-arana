@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12, sostenido una semana) y la capitalización total cae un 3.78% en 24 h, con BTC perdiendo la zona de 60.000 USD tras el vencimiento de opciones de unos 7.000 M USD. Existe el riesgo de ventas de fin de semana ante la reunión de la Fed, según Arthur Hayes, pero es una advertencia de un analista, no un evento confirmado, y no hay datos de un exploit activo ni una liquidación en curso que justifiquen una pausa. Por ello se recomienda cautela general (mitad de tamaño en compras nuevas) y no pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 12, sostenido una semana) con la capitalización total cayendo un 3.89% en 24 h tras el vencimiento de opciones de 7.000 M$ en BTC y salidas de ETF de más de 5.000 M$ en noviembre. El hackeo de Binance de octubre ya está resuelto a nivel de retiradas y no hay eventos macro de alto impacto en 24 h, por lo que no justifica una pausa. Se recomienda cautela general (mitad de tamaño) por la volatilidad y el miedo extremo, sin restricciones adicionales por moneda.",
   "motivos": [
-    "Índice Miedo/Codicia en 12 (Extreme Fear) durante los últimos 7 días, lo que indica incertidumbre elevada.",
-    "Capitalización total -3.78% en 24 h y BTC por debajo de 60.000 USD tras el vencimiento de opciones de unos 7.000 M USD y salidas de ETF de más de 5.000 M USD en noviembre.",
-    "Riesgo de volatilidad de fin de semana y reunión de la Fed (blackout FOMC el viernes) según advertencias de analistas; no es un dato macro confirmado dentro de las próximas 2-3 horas.",
-    "Noticias sobre el hackeo de Binance y la ola de sanciones regulatorias son negativas relevantes pero no graves: Binance ya levantó la suspensión de retiradas y no hay anomalía en las monedas operadas.",
-    "No hay halt, depeg ni delist de ninguna de las 10 monedas; no se requiere modo más prudente por moneda."
+    "Índice Miedo/Codicia en 12 (Extreme Fear), sostenido entre 11 y 13 durante 7 días.",
+    "Capitalización total -3.89% en 24 h y BTC por debajo de 60.000 USD tras el vencimiento de opciones de 7.000 M$.",
+    "Salidas de ETF de BTC superiores a 5.000 M$ en noviembre, con mayor volatilidad en la sesión.",
+    "Sin eventos económicos USD de alto impacto en las próximas 24 h, por lo que no se activa pausa macro.",
+    "Noticias de hackeo de Binance son previas (octubre) y las retiradas ya están restauradas; no constituyen riesgo grave inmediato."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-27T20:55:54+00:00",
-  "valido_hasta": "2026-11-27T23:55:54+00:00",
+  "generado": "2026-11-27T21:55:45+00:00",
+  "valido_hasta": "2026-11-28T00:55:45+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -3.78,
-    "noticias_analizadas": 42,
+    "cambio_mercado_24h": -3.89,
+    "noticias_analizadas": 43,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -30,11 +30,6 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
-    {
-      "titulo": "Arthur Hayes Warns of Weekend ‘Crypto Dump’ as $7B in Bitcoin Options Expire",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/crypto-news/bitcoin-price-arthur-hayes-weekend-dump-options-expiry/"
-    },
     {
       "titulo": "Tether can freeze stolen crypto in minutes. Getting it back can take years.",
       "fuente": "CoinDesk",
@@ -59,17 +54,22 @@
       "titulo": "Binance Hackers Funnel Over $600M Through Thorchain Despite FBI Warning",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/featured/binance-hackers-funnel-600m-thorchain-despite-fbi-warning/"
+    },
+    {
+      "titulo": "Here’s what happened in crypto today",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9168,
+    "input_tokens": 9132,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 692,
+    "output_tokens": 587,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
