@@ -1,25 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El miedo extremo (índice 12, sostenido durante una semana) y la caída de la capitalización total del -1.58% en 24 h dibujan un mercado defensivo, con Bitcoin cerca de 61.000 USD tras romper medias de largo plazo y un cruce de muerte. No hay señales de caída brusca del mercado ni de un evento macro de alto impacto en las próximas 24 h, y el exchange Binance ya levantó las restricciones de retiro tras el hackeo de octubre. Por ello se elige cautela global, no pausa.",
+  "resumen": "El índice Miedo/Codicia está en 12 (Extreme Fear) de forma sostenida durante la última semana y la capitalización total cae un 1.81% en 24 h, con BTC bajo sus medias de 50 y 200 semanas y un death cross en el gráfico. Hay además un riesgo macro en el horizonte: advertencias sobre una posible corrección de activos de riesgo antes de la reunión de la Fed de diciembre, aunque sin evento de alto impacto en las próximas 24 h. Las noticias de hackeo de Binance ya están resueltas (retiradas restablecidas) y no suponen un riesgo grave e inmediato, por lo que se opta por cautela general sin pausa.",
   "motivos": [
     "Índice Miedo/Codicia en 12 (Extreme Fear) de forma sostenida durante 7 días.",
-    "Capitalización total -1.58% en 24 h, lejos del umbral de -7% que justificaría pausa.",
-    "Bitcoin rompió medias de 50 y 200 semanas y forma un cruce de muerte; Galaxy advierte que el mercado bajista no ha terminado (incertidumbre elevada).",
-    "Riesgo de volatilidad ante la Fed: advertencias de posible 'meltdown' antes de la reunión de diciembre, aunque sin fecha de dato de alto impacto en 24 h.",
-    "Binance completó la recuperación de retiros tras el hackeo de 6.300 M USD: riesgo de seguridad ya contenido, no motivo de pausa.",
-    "Sin eventos económicos USD de alto impacto en las próximas 24 h; no hay anomalías de moneda (halt, depeg, delist) entre las 10 monedas operadas."
+    "Capitalización total -1.81% en 24 h y BTC con death cross y pérdida de medias de 50 y 200 semanas.",
+    "Advertencias de analistas sobre posible corrección antes de la reunión de la Fed de diciembre (riesgo no confirmado, sin evento de alto impacto en 24 h).",
+    "El hackeo de Binance de octubre está resuelto: retiradas restablecidas casi en su totalidad; no hay riesgo grave e inmediato.",
+    "Sin señales de anomalía en monedas concretas (halt, depeg o delist) de las 10 que opera el bot; el delisting de XMR no afecta a su universo."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-27T04:00:24+00:00",
-  "valido_hasta": "2026-11-27T07:00:24+00:00",
+  "generado": "2026-11-27T05:06:09+00:00",
+  "valido_hasta": "2026-11-27T08:06:09+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -1.58,
-    "noticias_analizadas": 31,
+    "cambio_mercado_24h": -1.81,
+    "noticias_analizadas": 32,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -42,11 +41,6 @@
       "link": "https://www.newsbtc.com/news/monero-xmr/monero-xmr-price-crash-kucoin-delisting/"
     },
     {
-      "titulo": "Switzerland’s First Spot Bitcoin ETF Hits SIX With 350 BTC",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/crypto-news/switzerlands-first-spot-bitcoin-etf-hits-six-with-350-btc/"
-    },
-    {
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -60,17 +54,22 @@
       "titulo": "Binance completes withdrawal recovery four weeks after $6.3B hack",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/binance-completes-withdrawal-recovery-four-weeks-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Michael Saylor’s Net Worth Plunges $6 Billion: The Cost of His Bitcoin Bet",
+      "fuente": "NewsBTC",
+      "link": "https://www.newsbtc.com/bitcoin-news/michael-saylor-net-worth/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8184,
+    "input_tokens": 8353,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 658,
+    "output_tokens": 635,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
