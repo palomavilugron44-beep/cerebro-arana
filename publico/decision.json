@@ -1,29 +1,29 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12, sostenido una semana) y la capitalización total cae un 3.38% en 24 h, con BTC por debajo de 60.000 USD tras el vencimiento de unos 7.000 millones en opciones. Hay además riesgo de volatilidad de fin de semana por la advertencia de Arthur Hayes y la incertidumbre previa al FOMC, aunque no hay un dato de alto impacto confirmado en las próximas 24 h. No se observan halts, depegs ni hackeos que afecten directamente a las monedas operadas, por lo que se recomienda cautela general y no pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 12, sostenido una semana) y la capitalización total cae un 3.78% en 24 h, con BTC perdiendo la zona de 60.000 USD tras el vencimiento de opciones de unos 7.000 M USD. Existe el riesgo de ventas de fin de semana ante la reunión de la Fed, según Arthur Hayes, pero es una advertencia de un analista, no un evento confirmado, y no hay datos de un exploit activo ni una liquidación en curso que justifiquen una pausa. Por ello se recomienda cautela general (mitad de tamaño en compras nuevas) y no pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 12 (Extreme Fear), y lleva toda la última semana entre 11 y 13.",
-    "Capitalización total -3.38% en 24 h y BTC cayó de 62.125 a 58.719 USD con el vencimiento de opciones de unos 7.000 millones.",
-    "Advertencia de Arthur Hayes sobre posibles ventas de activos cripto el fin de semana antes del bloqueo previo al FOMC, con probabilidad de subida de tipos en diciembre según Kalshi.",
-    "Riesgo de hackeo (Binance, 6.3B USD en octubre) ya en curso y sin afectar a las monedas operadas; Binance ha levantado la suspensión de retiros, así que no se trata de una situación anómala de la moneda.",
-    "No hay eventos macro de alto impacto en 24 h; por ello no se justifica pausa. Las noticias regulatorias (España, Reino Unido) no son graves para las monedas operadas."
+    "Índice Miedo/Codicia en 12 (Extreme Fear) durante los últimos 7 días, lo que indica incertidumbre elevada.",
+    "Capitalización total -3.78% en 24 h y BTC por debajo de 60.000 USD tras el vencimiento de opciones de unos 7.000 M USD y salidas de ETF de más de 5.000 M USD en noviembre.",
+    "Riesgo de volatilidad de fin de semana y reunión de la Fed (blackout FOMC el viernes) según advertencias de analistas; no es un dato macro confirmado dentro de las próximas 2-3 horas.",
+    "Noticias sobre el hackeo de Binance y la ola de sanciones regulatorias son negativas relevantes pero no graves: Binance ya levantó la suspensión de retiradas y no hay anomalía en las monedas operadas.",
+    "No hay halt, depeg ni delist de ninguna de las 10 monedas; no se requiere modo más prudente por moneda."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-27T19:58:17+00:00",
-  "valido_hasta": "2026-11-27T22:58:17+00:00",
+  "generado": "2026-11-27T20:55:54+00:00",
+  "valido_hasta": "2026-11-27T23:55:54+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -3.38,
-    "noticias_analizadas": 43,
+    "cambio_mercado_24h": -3.78,
+    "noticias_analizadas": 42,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
-      "Decrypt": 34,
+      "Decrypt": 35,
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9220,
+    "input_tokens": 9168,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 685,
+    "output_tokens": 692,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
