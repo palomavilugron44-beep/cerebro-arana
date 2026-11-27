@@ -1,26 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12, sostenido durante 7 días) pero la capitalización total cae solo un -0.22% en 24 h y BTC sube un 1.31%, sin caídas bruscas en curso. No hay eventos macro de alto impacto en las próximas 24 h. Las noticias negativas (exploit de Binance ya resuelto, delistings de Monero, regulación de congelación de cuentas en España) son relevantes pero no graves ni específicas de una moneda operada, así que se mantiene cautela general por el miedo extremo y la volatilidad reciente.",
+  "resumen": "El índice Miedo/Codicia está en 12 (miedo extremo) de forma sostenida durante la última semana, y la capitalización total cae un 1.5% en 24 h, aunque las principales monedas rebotan entre un 2% y un 4%. Hay un riesgo de volatilidad de fin de semana: Arthur Hayes advierte de posibles ventas en cripto por el vencimiento de unos 6.750 millones de dólares en opciones de BTC y la incertidumbre ante el FOMC de diciembre. No hay hackeos ni problemas de seguridad graves que afecten a las monedas operadas (Binance ya restableció los retiros), por lo que se recomienda cautela y no pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 12 (Extreme Fear) durante los últimos 7 días, lo que justifica cautela por miedo extremo.",
-    "Capitalización total -0.22% en 24 h: no hay caída brusca en curso que justifique pausa.",
-    "Sin eventos macro USD de alto impacto en las próximas 24 h.",
-    "Binance confirma la restauración completa de retiradas tras el hackeo de octubre; la noticia es antigua y no implica riesgo inmediato para las monedas operadas.",
-    "Las noticias de delistings de Monero y regulación en España no afectan a las monedas que opera el bot.",
-    "Ninguna moneda de la lista muestra estado anómalo (halt, depeg o delist) según los datos."
+    "Miedo extremo sostenido (índice 12, con 7 días entre 11 y 13).",
+    "Advertencia de posible venta de fin de semana ligada al vencimiento de opciones de BTC y a la postura de la Fed antes del FOMC.",
+    "Capitalización total en -1.5% en 24 h, sin caída brusca (umbral de pausa: -7%).",
+    "Sin eventos macro de alto impacto USD en las próximas 24 h; no hay problemas graves de seguridad ni halts en las monedas operadas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-27T10:06:18+00:00",
-  "valido_hasta": "2026-11-27T13:06:18+00:00",
+  "generado": "2026-11-27T10:58:11+00:00",
+  "valido_hasta": "2026-11-27T13:58:11+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -0.22,
-    "noticias_analizadas": 27,
-    "articulos_leidos": 5,
+    "cambio_mercado_24h": -1.5,
+    "noticias_analizadas": 29,
+    "articulos_leidos": 7,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
@@ -31,6 +29,11 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
+    {
+      "titulo": "Arthur Hayes Warns of Weekend ‘Crypto Dump’ as $7B in Bitcoin Options Expire",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/crypto-news/bitcoin-price-arthur-hayes-weekend-dump-options-expiry/"
+    },
     {
       "titulo": "Tether can freeze stolen crypto in minutes. Getting it back can take years.",
       "fuente": "CoinDesk",
@@ -52,25 +55,20 @@
       "link": "https://cointelegraph.com/news/japans-crypto-security-group-taps-seal-to-speed-up-hack-response?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "titulo": "XRP ETFs Snap 17-Session Drought as Graniteshares Readies 3x XRP Funds",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/finance/xrp-etf-inflows-17-session-drought-graniteshares-3x-xrp/"
-    },
-    {
-      "titulo": "Bitcoin tops $61,000 as Nasdaq futures extend Wednesday’s rebound",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/27/bitcoin-tops-usd61-000-as-nasdaq-futures-extend-wednesday-s-rebound"
+      "titulo": "Ethereum Sets December 15 Date for Delayed Glamsterdam Testnet Upgrade",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/384104/ethereum-sets-december-15-date-for-delayed-glamsterdam-testnet-upgrade"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6998,
+    "input_tokens": 7757,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 588,
+    "output_tokens": 551,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
