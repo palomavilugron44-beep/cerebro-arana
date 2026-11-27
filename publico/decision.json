@@ -1,34 +1,41 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El índice Miedo/Codicia está en 12 (Extreme Fear) y se ha mantenido entre 11 y 13 durante la última semana, con la capitalización total cayendo un -0.91% en 24 h y BTC todavía por debajo de sus medias de largo plazo según Galaxy Digital. No hay eventos macro de alto impacto en 24 h ni se observa una caída brusca en curso ni un exploit activo en las monedas operadas. El miedo extremo sostenido justifica reducir el tamaño de nuevas compras a la mitad, sin necesidad de pausar.",
+  "resumen": "El mercado está en miedo extremo (índice 12, sostenido durante 7 días) pero la capitalización total cae solo un -0.22% en 24 h y BTC sube un 1.31%, sin caídas bruscas en curso. No hay eventos macro de alto impacto en las próximas 24 h. Las noticias negativas (exploit de Binance ya resuelto, delistings de Monero, regulación de congelación de cuentas en España) son relevantes pero no graves ni específicas de una moneda operada, así que se mantiene cautela general por el miedo extremo y la volatilidad reciente.",
   "motivos": [
-    "Miedo extremo sostenido (índice 12, rango 11-13 en 7 días), indicador de incertidumbre elevada.",
-    "Capitalización total -0.91% en 24 h y Galaxy Digital advierte que el mercado bajista no ha terminado.",
-    "Noticias de seguridad (hackeo de Binance de 6.3B USD, ya con retiradas restauradas) no afectan a las monedas operadas de forma grave ni inmediata.",
-    "Sin eventos macro USD de alto impacto en las próximas 24 h; las monedas operadas muestran cambios 24 h positivos, sin anomalías (halt, depeg, delist)."
+    "Índice Miedo/Codicia en 12 (Extreme Fear) durante los últimos 7 días, lo que justifica cautela por miedo extremo.",
+    "Capitalización total -0.22% en 24 h: no hay caída brusca en curso que justifique pausa.",
+    "Sin eventos macro USD de alto impacto en las próximas 24 h.",
+    "Binance confirma la restauración completa de retiradas tras el hackeo de octubre; la noticia es antigua y no implica riesgo inmediato para las monedas operadas.",
+    "Las noticias de delistings de Monero y regulación en España no afectan a las monedas que opera el bot.",
+    "Ninguna moneda de la lista muestra estado anómalo (halt, depeg o delist) según los datos."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-27T09:02:35+00:00",
-  "valido_hasta": "2026-11-27T12:02:35+00:00",
+  "generado": "2026-11-27T10:06:18+00:00",
+  "valido_hasta": "2026-11-27T13:06:18+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -0.91,
-    "noticias_analizadas": 28,
-    "articulos_leidos": 8,
+    "cambio_mercado_24h": -0.22,
+    "noticias_analizadas": 27,
+    "articulos_leidos": 5,
     "fuentes": {
       "CoinDesk": 25,
       "Cointelegraph": 30,
-      "Decrypt": 35,
+      "Decrypt": 34,
       "Bitcoin.com": 10,
       "NewsBTC": 10
     },
     "eventos_usd_24h": 0
   },
   "titulares": [
+    {
+      "titulo": "Tether can freeze stolen crypto in minutes. Getting it back can take years.",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/business/2026/11/27/tether-can-freeze-stolen-crypto-in-minutes-getting-it-back-can-take-years"
+    },
     {
       "titulo": "Monero suffers biggest single-day slide in over 5 months. Here’s why",
       "fuente": "CoinDesk",
@@ -50,25 +57,20 @@
       "link": "https://news.bitcoin.com/finance/xrp-etf-inflows-17-session-drought-graniteshares-3x-xrp/"
     },
     {
-      "titulo": "Binance completes withdrawal recovery four weeks after $6.3B hack",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/binance-completes-withdrawal-recovery-four-weeks-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Binance says customer withdrawals are fully restored, four weeks after the $6.3 billion hack",
+      "titulo": "Bitcoin tops $61,000 as Nasdaq futures extend Wednesday’s rebound",
       "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/27/binance-says-its-withdrawal-suspension-is-over-four-weeks-after-a-usd6-3-billion-hack"
+      "link": "https://www.coindesk.com/markets/2026/11/27/bitcoin-tops-usd61-000-as-nasdaq-futures-extend-wednesday-s-rebound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7833,
+    "input_tokens": 6998,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 553,
+    "output_tokens": 588,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
