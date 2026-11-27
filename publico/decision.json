@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El índice Miedo/Codicia está en 12 (miedo extremo) de forma sostenida durante 7 días, y Galaxy Digital advierte que el mercado bajista puede no haber terminado, con BTC bajo la EMA de 50 y 200 semanas y un death cross en curso. Sin embargo, la capitalización total cae solo -1.21% en 24 h y no hay eventos macro de alto impacto en 24 h. La caída del 6.3 mil millones de Binance ya está resuelta (retiros restaurados), por lo que no hay un riesgo grave e inmediato que justifique pausa.",
+  "resumen": "El índice Miedo/Codicia está en 12 (miedo extremo) de forma sostenida durante 7 días, y Galaxy Digital advierte que el mercado bajista no ha terminado tras perder soportes clave de medias semanales. Sin embargo, la capitalización total cae solo -0.91% en 24 h, no hay eventos macro de alto impacto en las próximas 24 h y el hackeo de Binance ya tiene las retiradas restauradas, por lo que no hay un riesgo grave e inmediato que justifique pausa. Se elige cautela global por miedo extremo y volatilidad elevada, sin alerta sobre posiciones.",
   "motivos": [
-    "Miedo extremo sostenido (índice 12 y 7 días entre 11 y 13), que justifica prudencia en nuevas compras.",
-    "Galaxy Digital retira su tesis de fondo de mercado y advierte de más caídas; BTC con death cross según Decrypt.",
-    "Sin evento macro de alto impacto en 24 h y caída de capitalización total limitada (-1.21%), por lo que no se cumple el criterio de pausa.",
-    "Hackeo de Binance de 6.3 mil millones ya resuelto con retiros restaurados; no hay riesgo de seguridad vigente para las monedas operadas.",
-    "Monero (no operado por el bot) sufre delistings; no afecta a las 10 monedas de la lista."
+    "Índice Miedo/Codicia en 12 (Extreme Fear), con valores entre 11 y 13 durante los últimos 7 días.",
+    "Galaxy Digital retira su tesis de fondo del mercado y advierte de riesgo bajista continuado tras perder las medias de 50 y 200 semanas en BTC.",
+    "Binance completó la recuperación de retiradas tras el hackeo de 6.300 M$; no hay riesgo activo sobre el exchange.",
+    "Capitalización total -0.91% en 24 h: caída moderada, lejos del umbral de -7% para pausa.",
+    "Sin eventos económicos USD de alto impacto en las próximas 24 h.",
+    "Noticias de regulación en España/Japón/Reino Unido son de impacto limitado y no inmediato sobre las monedas operadas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-27T06:06:29+00:00",
-  "valido_hasta": "2026-11-27T09:06:29+00:00",
+  "generado": "2026-11-27T07:21:52+00:00",
+  "valido_hasta": "2026-11-27T10:21:52+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -1.21,
-    "noticias_analizadas": 31,
+    "cambio_mercado_24h": -0.91,
+    "noticias_analizadas": 27,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -30,11 +31,6 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
-    {
-      "titulo": "Monero’s Delisting Nightmare Continues: XMR Price Plunges 15%",
-      "fuente": "NewsBTC",
-      "link": "https://www.newsbtc.com/news/monero-xmr/monero-xmr-price-crash-kucoin-delisting/"
-    },
     {
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
@@ -59,17 +55,22 @@
       "titulo": "Binance says customer withdrawals are fully restored, four weeks after the $6.3 billion hack",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/27/binance-says-its-withdrawal-suspension-is-over-four-weeks-after-a-usd6-3-billion-hack"
+    },
+    {
+      "titulo": "AI is driving a flood of crypto bug reports. Now it’s helping sort them",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/ai-driving-flood-of-crypto-bug-reports-now-helping-sort-them?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8150,
+    "input_tokens": 7682,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 589,
+    "output_tokens": 632,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
