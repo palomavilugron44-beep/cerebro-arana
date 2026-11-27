@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El índice Miedo/Codicia está en 11 (miedo extremo) de forma sostenida durante la última semana, y la capitalización total cae un 2.24% en 24 h con BTC alrededor de 60.5K USD tras una caída previa a 57K. Galaxy retiró su llamada de fondo y advierte de un posible mínimo más bajo si BTC cierra diario por debajo de 58.5K, y hay incertidumbre macro por la Fed hawkish antes de la reunión de diciembre. No hay eventos macro de alto impacto en 24 h ni riesgos de seguridad graves vigentes, así que se opta por cautela global, no pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 12, sostenido durante 7 días) con la capitalización total cayendo un 2.32% en 24 h y BTC cerca de 60.000 USD tras caer a 57.200 el día anterior. Hay además riesgo macro relevante: la Fed mantiene un tono hawkish y se advierte de posible \"meltdown\" antes de la reunión de diciembre, aunque no hay eventos de alto impacto en las próximas 24 h. No se observa un riesgo grave e inmediato (el hackeo de Binance está resuelto y no hay halts ni depegs), por lo que se recomienda cautela general en lugar de pausa.",
   "motivos": [
-    "Miedo extremo (índice 11) mantenido 7 días: volatilidad e incertidumbre elevadas.",
-    "Caída de capitalización total -2.24% en 24 h y BTC cerca de 60K tras tocar 57K; riesgo de nuevo mínimo bajo 58.5K según Galaxy.",
-    "Incertidumbre macro: Fed con sesgo hawkish y riesgo de 'meltdown' de activos de riesgo antes de la reunión de diciembre, aunque sin evento de alto impacto en 24 h.",
-    "Hackeo de Binance (octubre) ya prácticamente resuelto: retiradas restablecidas; no justifica pausa.",
-    "Noticias regulatorias (España, Japón, Reino Unido) y brecha de datos de Zodia son relevantes pero no graves; no se aplica pausa a ninguna moneda en particular."
+    "Índice Miedo/Codicia en 12 (Extreme Fear), con valores entre 11 y 13 durante los últimos 7 días.",
+    "Capitalización total -2.32% en 24 h y BTC rebotando desde mínimos de 57.200 USD hacia 60.000-61.000 con resistencia clara; tendencia bajista (death cross) según Decrypt.",
+    "Advertencias de analistas sobre posible caída de activos de riesgo antes de la reunión de la Fed de diciembre, sin fecha de evento dentro de 24 h.",
+    "Sin eventos macro USD de alto impacto en las próximas 24 h, por lo que no procede pausa.",
+    "Noticias negativas relevantes pero no graves: regulación DeFi en Japón y Reino Unido, decreto español para congelar cuentas cripto, delisting de XMR (no operado por el bot). El hackeo de Binance de octubre ya tiene retiradas restablecidas casi en su ",
+    "Noticias positivas (ETF de Chainlink de Fidelity, ETF suizo de bitcoin) no se usan para reducir la cautela."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-26T23:56:07+00:00",
-  "valido_hasta": "2026-11-27T02:56:07+00:00",
+  "generado": "2026-11-27T01:15:58+00:00",
+  "valido_hasta": "2026-11-27T04:15:58+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
-    "miedo_codicia": 11,
-    "cambio_mercado_24h": -2.24,
-    "noticias_analizadas": 43,
+    "miedo_codicia": 12,
+    "cambio_mercado_24h": -2.32,
+    "noticias_analizadas": 39,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -51,25 +52,25 @@
       "link": "https://news.bitcoin.com/crypto-news/switzerlands-first-spot-bitcoin-etf-hits-six-with-350-btc/"
     },
     {
-      "titulo": "Bitcoin ETFs are bleeding cash and the Fed is unlikely to help",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/daybook-us/2026/11/26/bitcoin-etfs-are-bleeding-cash-and-the-fed-is-unlikely-to-help"
-    },
-    {
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Crypto on notice as hawkish Fed risks December ‘meltdown’",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/crypto-hawkish-fed-risks-december-meltdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9123,
+    "input_tokens": 9105,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 656,
+    "output_tokens": 745,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
