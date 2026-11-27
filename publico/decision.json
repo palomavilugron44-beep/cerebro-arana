@@ -1,25 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12, sostenido durante 7 días) con la capitalización total cayendo un 2.32% en 24 h y BTC cerca de 60.000 USD tras caer a 57.200 el día anterior. Hay además riesgo macro relevante: la Fed mantiene un tono hawkish y se advierte de posible \"meltdown\" antes de la reunión de diciembre, aunque no hay eventos de alto impacto en las próximas 24 h. No se observa un riesgo grave e inmediato (el hackeo de Binance está resuelto y no hay halts ni depegs), por lo que se recomienda cautela general en lugar de pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 12, sostenido una semana) con la capitalización total cayendo -1.86% en 24 h y BTC rebotando hasta ~61.300 USD tras caer a ~57.000, con death cross y advertencias de posible debilidad en diciembre por una Fed hawkish. No hay eventos macro de alto impacto en 24 h ni noticias de hackeo o acción regulatoria grave que afecte directamente a las 10 monedas del bot; el hackeo de Binance de octubre ya tiene retiradas normalizadas. Por la incertidumbre elevada y la volatilidad, se recomienda cautela global (compras con la mitad del tamaño) sin pausar.",
   "motivos": [
-    "Índice Miedo/Codicia en 12 (Extreme Fear), con valores entre 11 y 13 durante los últimos 7 días.",
-    "Capitalización total -2.32% en 24 h y BTC rebotando desde mínimos de 57.200 USD hacia 60.000-61.000 con resistencia clara; tendencia bajista (death cross) según Decrypt.",
-    "Advertencias de analistas sobre posible caída de activos de riesgo antes de la reunión de la Fed de diciembre, sin fecha de evento dentro de 24 h.",
-    "Sin eventos macro USD de alto impacto en las próximas 24 h, por lo que no procede pausa.",
-    "Noticias negativas relevantes pero no graves: regulación DeFi en Japón y Reino Unido, decreto español para congelar cuentas cripto, delisting de XMR (no operado por el bot). El hackeo de Binance de octubre ya tiene retiradas restablecidas casi en su ",
-    "Noticias positivas (ETF de Chainlink de Fidelity, ETF suizo de bitcoin) no se usan para reducir la cautela."
+    "Índice Miedo/Codicia en 12 (Extreme Fear) de forma sostenida durante 7 días.",
+    "Capitalización total -1.86% en 24 h y BTC aún un 50% por debajo de su pico, con death cross y advertencias de Galaxy sobre bear market no terminado.",
+    "Riesgo de volatilidad ante la Fed hawkish y la reunión de diciembre, aunque sin evento macro de alto impacto en las próximas 24 h.",
+    "Noticias regulatorias (España con poder de congelar cuentas cripto, Japón y UK sobre DeFi) negativas pero no graves para las monedas del bot.",
+    "Binance completó la recuperación de retiradas tras el hackeo de octubre; no se detecta situación anómala en las monedas operadas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-27T01:15:58+00:00",
-  "valido_hasta": "2026-11-27T04:15:58+00:00",
+  "generado": "2026-11-27T02:55:34+00:00",
+  "valido_hasta": "2026-11-27T05:55:34+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -2.32,
-    "noticias_analizadas": 39,
+    "cambio_mercado_24h": -1.86,
+    "noticias_analizadas": 34,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -63,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9105,
+    "input_tokens": 8516,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 745,
+    "output_tokens": 643,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
