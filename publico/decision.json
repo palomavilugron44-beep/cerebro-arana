@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12, sostenido una semana) con la capitalización total cayendo un 3.89% en 24 h tras el vencimiento de opciones de 7.000 M$ en BTC y salidas de ETF de más de 5.000 M$ en noviembre. El hackeo de Binance de octubre ya está resuelto a nivel de retiradas y no hay eventos macro de alto impacto en 24 h, por lo que no justifica una pausa. Se recomienda cautela general (mitad de tamaño) por la volatilidad y el miedo extremo, sin restricciones adicionales por moneda.",
+  "resumen": "El miedo extremo (índice 12, sostenido durante 7 días) y una caída de la capitalización total del -4.01% en 24 h con BTC perdiendo el rango de 60.000 USD sugieren incertidumbre elevada, aunque no hay una caída de -7% ni un evento macro de alto impacto en las próximas 24 h. El hackeo de Binance de octubre ya está resuelto con la retirada de la suspensión completa, por lo que no se trata de un riesgo nuevo y grave sobre las monedas operadas. Por ello se recomienda cautela global (compras a mitad de tamaño) sin pausa ni medidas específicas por moneda.",
   "motivos": [
-    "Índice Miedo/Codicia en 12 (Extreme Fear), sostenido entre 11 y 13 durante 7 días.",
-    "Capitalización total -3.89% en 24 h y BTC por debajo de 60.000 USD tras el vencimiento de opciones de 7.000 M$.",
-    "Salidas de ETF de BTC superiores a 5.000 M$ en noviembre, con mayor volatilidad en la sesión.",
-    "Sin eventos económicos USD de alto impacto en las próximas 24 h, por lo que no se activa pausa macro.",
-    "Noticias de hackeo de Binance son previas (octubre) y las retiradas ya están restauradas; no constituyen riesgo grave inmediato."
+    "Índice Miedo/Codicia en 12 (Extreme Fear) y sostenido en niveles de 11-13 durante los últimos 7 días.",
+    "Capitalización total cripto -4.01% en 24 h, con BTC cayendo por debajo de 60.000 USD tras expiración de opciones de unos 7.000 millones USD y salidas de ETF spot superiores a 5.000 millones USD en noviembre.",
+    "No hay caída de -7% ni dato macro de alto impacto en las próximas 24 h, por lo que no se justifica pausa.",
+    "El hackeo de Binance de octubre ya tiene la suspensión de retiradas levantada; las noticias regulatorias (España, Reino Unido) no son graves para las monedas operadas.",
+    "Ninguna moneda muestra anomalía (halt, depeg, delist) en los datos."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-27T21:55:45+00:00",
-  "valido_hasta": "2026-11-28T00:55:45+00:00",
+  "generado": "2026-11-27T22:56:34+00:00",
+  "valido_hasta": "2026-11-28T01:56:34+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -3.89,
-    "noticias_analizadas": 43,
+    "cambio_mercado_24h": -4.01,
+    "noticias_analizadas": 38,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -31,14 +31,14 @@
   },
   "titulares": [
     {
-      "titulo": "Tether can freeze stolen crypto in minutes. Getting it back can take years.",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/business/2026/11/27/tether-can-freeze-stolen-crypto-in-minutes-getting-it-back-can-take-years"
-    },
-    {
       "titulo": "Binance to launch tokenized IPO program after regulatory approval: Yi He",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/binance-ipo-program-regulatory-approval-yi-he?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "titulo": "Here’s what happened in crypto today",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
       "titulo": "Spain Moves to Freeze Crypto Accounts Without Need for Court Approval",
@@ -56,20 +56,20 @@
       "link": "https://news.bitcoin.com/featured/binance-hackers-funnel-600m-thorchain-despite-fbi-warning/"
     },
     {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "titulo": "Binance Fully Lifts Withdrawal Suspension Four Weeks After $6.4B Hack",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/384121/binance-fully-lifts-withdrawal-suspension-four-weeks-after-6-4b-hack"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9132,
+    "input_tokens": 8829,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 587,
+    "output_tokens": 646,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
