@@ -1,23 +1,22 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12, sostenido una semana) con la capitalización total cayendo un 4.55% en 24 h y BTC cerca de los 59.000 USD tras perder los 60.000. Hay un riesgo de volatilidad de fin de semana por vencimientos de opciones de BTC por unos 7.000 M USD y la incertidumbre por la reunión de la Fed, aunque no hay un evento macro de alto impacto en las próximas 2-3 horas. No hay hackeo ni noticia regulatoria grave contra una moneda concreta, así que la cautela es suficiente sin pausar.",
+  "resumen": "El mercado está en miedo extremo (índice 12, sostenido durante una semana) con la capitalización total cayendo un 3.4% en 24 h y BTC rompiendo brevemente por debajo de 60.000 USD. Hay además un riesgo macro cercano: Arthur Hayes advierte de una posible venta de fin de semana antes del bloqueo previo al FOMC, con un 93% de probabilidad de subida de tipos en diciembre según Kalshi. No hay hackeos ni anomalías en las monedas operadas, así que se recomienda cautela (mitad de tamaño) y no pausa.",
   "motivos": [
-    "Miedo extremo sostenido (índice 12 durante 7 días) y caída de la capitalización total de -4.55% en 24 h.",
-    "Advertencia de posible venta de activos líquidos el fin de semana por vencimientos de opciones de BTC (~6.750 M USD) y el periodo de silencio previo al FOMC.",
-    "Expectativa de posible subida de tipos por la Fed en diciembre, lo que añade incertidumbre macro dentro de 24 h.",
-    "Hackeo de Binance de octubre: las retiradas ya están restauradas, sin riesgo grave inmediato en las monedas operadas.",
-    "No hay evento macro de muy alto impacto en las próximas 2-3 horas, por lo que no procede pausa."
+    "Miedo extremo sostenido (índice 12, 7 días entre 11 y 13) y caída de capitalización total de -3.4% en 24 h.",
+    "Advertencia de venta de fin de semana por vencimiento de ~6.750 M USD en opciones de BTC y blackout previo al FOMC, con incertidumbre sobre el tono de la Fed.",
+    "Probabilidad de subida de tipos en diciembre del 93% según Kalshi, lo que añade presión macro.",
+    "Sin hackeos, deslistados ni anomalías en las monedas operadas; el hack de Binance está resuelto (retiradas restauradas), por lo que no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-27T14:54:53+00:00",
-  "valido_hasta": "2026-11-27T17:54:53+00:00",
+  "generado": "2026-11-27T15:59:14+00:00",
+  "valido_hasta": "2026-11-27T18:59:14+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -4.55,
+    "cambio_mercado_24h": -3.4,
     "noticias_analizadas": 41,
     "articulos_leidos": 8,
     "fuentes": {
@@ -62,14 +61,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9171,
+    "input_tokens": 9184,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 598,
+    "output_tokens": 567,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
