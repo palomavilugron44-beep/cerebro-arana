@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El índice Miedo/Codicia está en Extreme Fear (12) y se mantiene bajo desde hace una semana, con la capitalización total cayendo un -2.88% en 24 h. Arthur Hayes advierte de posibles ventas de fin de semana por vencimiento de opciones y la incertidumbre por la Fed, aunque no hay evento macro de alto impacto en las próximas 24 h ni hechos graves confirmados. Dado el miedo extremo y la volatilidad, conviene operar con cautela (mitad de tamaño) en lugar de pausar, sin aplicar restricciones por moneda.",
+  "resumen": "El mercado está en miedo extremo (índice 12, sostenido una semana) con la capitalización total cayendo un 4.55% en 24 h y BTC cerca de los 59.000 USD tras perder los 60.000. Hay un riesgo de volatilidad de fin de semana por vencimientos de opciones de BTC por unos 7.000 M USD y la incertidumbre por la reunión de la Fed, aunque no hay un evento macro de alto impacto en las próximas 2-3 horas. No hay hackeo ni noticia regulatoria grave contra una moneda concreta, así que la cautela es suficiente sin pausar.",
   "motivos": [
-    "Índice Miedo/Codicia en Extreme Fear (12), valores entre 11 y 13 durante 7 días.",
-    "Capitalización total -2.88% en 24 h con advertencias de posible venta de fin de semana ligada a ~6.750 M$ en opciones de BTC que vencen en Deribit.",
-    "Incertidumbre por la postura de la Fed antes del bloqueo previo al FOMC; sin dato macro de alto impacto confirmado en 24 h.",
-    "Sin hackeo, acción regulatoria grave ni halt/depeg confirmados; Binance indica que los retiros están restablecidos."
+    "Miedo extremo sostenido (índice 12 durante 7 días) y caída de la capitalización total de -4.55% en 24 h.",
+    "Advertencia de posible venta de activos líquidos el fin de semana por vencimientos de opciones de BTC (~6.750 M USD) y el periodo de silencio previo al FOMC.",
+    "Expectativa de posible subida de tipos por la Fed en diciembre, lo que añade incertidumbre macro dentro de 24 h.",
+    "Hackeo de Binance de octubre: las retiradas ya están restauradas, sin riesgo grave inmediato en las monedas operadas.",
+    "No hay evento macro de muy alto impacto en las próximas 2-3 horas, por lo que no procede pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-27T13:13:36+00:00",
-  "valido_hasta": "2026-11-27T16:13:36+00:00",
+  "generado": "2026-11-27T14:54:53+00:00",
+  "valido_hasta": "2026-11-27T17:54:53+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -2.88,
-    "noticias_analizadas": 37,
+    "cambio_mercado_24h": -4.55,
+    "noticias_analizadas": 41,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -40,14 +41,14 @@
       "link": "https://www.coindesk.com/business/2026/11/27/tether-can-freeze-stolen-crypto-in-minutes-getting-it-back-can-take-years"
     },
     {
+      "titulo": "Binance to launch tokenized IPO program after regulatory approval: Yi He",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/binance-ipo-program-regulatory-approval-yi-he?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "titulo": "Monero suffers biggest single-day slide in over 5 months. Here’s why",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/27/monero-suffers-biggest-single-day-slide-in-over-5-months-here-s-why"
-    },
-    {
-      "titulo": "Injective asks SEC to allow order books for tokenized stock trading",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/11/27/injective-asks-sec-to-allow-order-books-for-tokenized-stock-trading"
     },
     {
       "titulo": "Here’s what happened in crypto today",
@@ -55,20 +56,20 @@
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "titulo": "Japan’s crypto security group taps SEAL to speed up hack response",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/japans-crypto-security-group-taps-seal-to-speed-up-hack-response?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "titulo": "Binance Fully Lifts Withdrawal Suspension Four Weeks After $6.4B Hack",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/384121/binance-fully-lifts-withdrawal-suspension-four-weeks-after-6-4b-hack"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8907,
+    "input_tokens": 9171,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 553,
+    "output_tokens": 598,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
