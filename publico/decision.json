@@ -1,23 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12, sostenido durante una semana) con la capitalización total cayendo un 3.4% en 24 h y BTC rompiendo brevemente por debajo de 60.000 USD. Hay además un riesgo macro cercano: Arthur Hayes advierte de una posible venta de fin de semana antes del bloqueo previo al FOMC, con un 93% de probabilidad de subida de tipos en diciembre según Kalshi. No hay hackeos ni anomalías en las monedas operadas, así que se recomienda cautela (mitad de tamaño) y no pausa.",
+  "resumen": "El mercado está en miedo extremo (índice 12, sostenido una semana) con la capitalización total cayendo -3.26% en 24 h, aunque sin caídas bruscas de las monedas operadas (BTC -1.14%, ETH -1.54%). Hay riesgo de volatilidad de fin de semana por las opciones de BTC que vencen y la advertencia de Arthur Hayes sobre una posible venta antes de la reunión de la Fed, además de la incertidumbre sobre un posible alza de tipos en diciembre. El hackeo de Binance está ya casi resuelto (retiradas reabiertas) y no hay eventos macro de alto impacto en 24 h, así que no se justifica pausa.",
   "motivos": [
-    "Miedo extremo sostenido (índice 12, 7 días entre 11 y 13) y caída de capitalización total de -3.4% en 24 h.",
-    "Advertencia de venta de fin de semana por vencimiento de ~6.750 M USD en opciones de BTC y blackout previo al FOMC, con incertidumbre sobre el tono de la Fed.",
-    "Probabilidad de subida de tipos en diciembre del 93% según Kalshi, lo que añade presión macro.",
-    "Sin hackeos, deslistados ni anomalías en las monedas operadas; el hack de Binance está resuelto (retiradas restauradas), por lo que no se justifica pausa."
+    "Índice Miedo/Codicia en 12 (Extreme Fear) de forma sostenida durante 7 días.",
+    "Capitalización total -3.26% en 24 h, con BTC cerca de 59.000 USD tras perder niveles recientes.",
+    "Advertencia de Arthur Hayes sobre posibles ventas de fin de semana por vencimiento de ~6.750 M USD en opciones de BTC y la pre-reunión de la Fed.",
+    "Mercado de probabilidad de alza de tipos en diciembre (93% según Kalshi, citado en la noticia), lo que añade incertidumbre macro.",
+    "El hackeo de Binance de octubre ya tiene retiradas restablecidas; no se detectan riesgos graves específicos de una moneda operada.",
+    "Sin eventos macro USD de alto impacto en las próximas 24 h; no se cumplen los criterios de pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-27T15:59:14+00:00",
-  "valido_hasta": "2026-11-27T18:59:14+00:00",
+  "generado": "2026-11-27T17:05:55+00:00",
+  "valido_hasta": "2026-11-27T20:05:55+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 12,
-    "cambio_mercado_24h": -3.4,
-    "noticias_analizadas": 41,
+    "cambio_mercado_24h": -3.26,
+    "noticias_analizadas": 40,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -50,25 +52,25 @@
       "link": "https://www.coindesk.com/markets/2026/11/27/monero-suffers-biggest-single-day-slide-in-over-5-months-here-s-why"
     },
     {
+      "titulo": "Binance Hackers Funnel Over $600M Through Thorchain Despite FBI Warning",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/featured/binance-hackers-funnel-600m-thorchain-despite-fbi-warning/"
+    },
+    {
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Binance Fully Lifts Withdrawal Suspension Four Weeks After $6.4B Hack",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/384121/binance-fully-lifts-withdrawal-suspension-four-weeks-after-6-4b-hack"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 9184,
+    "input_tokens": 9136,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 567,
+    "output_tokens": 679,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
