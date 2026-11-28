@@ -1,23 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae un 5.7% en 24 h con miedo extremo (índice 10, sostenido una semana) y salidas netas récord de ETF de BTC, con BTC cerca de 59.5K USD. No hay eventos macro de alto impacto en las próximas 24 h ni señales de hackeo, regulación grave o anomalía de moneda. Dado el entorno de miedo extremo y volatilidad, se recomienda cautela general, sin pausa.",
+  "resumen": "El mercado cripto cae un 5.91% en 24 h con miedo extremo (índice 10, sostenido durante una semana) y salidas netas de ETF de Bitcoin. No hay eventos macro de alto impacto en 24 h ni un hackeo o problema regulatorio grave confirmado, por lo que no se justifica pausar. Se recomienda cautela general, con el tamaño de compra reducido a la mitad mientras dure la volatilidad.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear) y sostenido en torno a 10-13 durante 7 días.",
-    "Capitalización total cripto -5.7% en 24 h con caídas de 2-5% en las 10 monedas.",
-    "Salidas netas de ~2.8 mil millones USD del ETF de BlackRock en ocho sesiones; BTC se mantiene cerca de 60K tras la caída del Black Friday.",
-    "WLFI (token ligado a Trump) se desploma 50%, con movimientos de ETH desde una cartera vinculada; riesgo de noticia negativa relevante pero no grave.",
-    "Sin eventos macro USD de alto impacto en las próximas 24 h; no hay indicios de exploit, halt ni depeg, por lo que no se justifica pausa."
+    "Miedo extremo sostenido (índice 10; 7 días entre 10 y 13).",
+    "Capitalización total -5.91% en 24 h, caída fuerte pero sin liquidaciones masivas confirmadas en los datos.",
+    "Salidas de ETF de Bitcoin (BlackRock IBIT, 8 sesiones seguidas, ~2.8 mil millones USD) y venta de 12,121 ETH por una wallet vinculada a World Liberty Financial, noticias negativas relevantes pero no graves.",
+    "Sin eventos económicos USD de alto impacto en las próximas 24 h; no hay motivo para pausa.",
+    "Ninguna moneda muestra anomalía (halt, depeg, delist) ni incidente de seguridad confirmado; la actualización urgente de Solana (Agave v4.4.2) se describe como operación normal de la red."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-28T09:52:59+00:00",
-  "valido_hasta": "2026-11-28T12:52:59+00:00",
+  "generado": "2026-11-28T10:51:51+00:00",
+  "valido_hasta": "2026-11-28T13:51:51+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -5.7,
+    "cambio_mercado_24h": -5.91,
     "noticias_analizadas": 14,
     "articulos_leidos": 8,
     "fuentes": {
@@ -46,9 +46,9 @@
       "link": "https://www.coindesk.com/markets/2026/11/28/trump-linked-crypto-token-wlfi-plunges-over-50"
     },
     {
-      "titulo": "Here’s what happened in crypto today",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "titulo": "Trump-Linked World Liberty Wallet Dumps 12,121 ETH, Locking in a $19M Loss",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/crypto-news/world-liberty-financial-sells-12121-eth-19-million-loss/"
     },
     {
       "titulo": "Vitalik Buterin’s Bitcoin Hardware Wallet Fix Wouldn’t Be Approved by Ledger CTO",
@@ -56,20 +56,20 @@
       "link": "https://news.bitcoin.com/security/buterins-bitcoin-hardware-wallet-fix-wouldnt-approved-ledger-cto/"
     },
     {
-      "titulo": "Bitcoin Price Lags as Wall Street Posts Its Best Week Since 2022",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-lags-wall-street-best-week-since-2022/"
+      "titulo": "ASEAN+3 agrees on initiative to explore crypto payments cooperation",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/asean3-agrees-on-initiative-to-explore-crypto-payments-cooperation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6383,
+    "input_tokens": 6400,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 568,
+    "output_tokens": 582,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
