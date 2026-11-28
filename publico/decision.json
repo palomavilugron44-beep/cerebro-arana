@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo un 5.78% en 24 h y BTC cerca de 59.000 USD tras ocho sesiones de salidas de ETF. No hay eventos macro de alto impacto en las próximas 24 h ni riesgos graves de seguridad o regulatorios sobre el conjunto de monedas, aunque las noticias negativas y la volatilidad justifican más prudencia. Se aplica cautela global por el entorno de miedo extremo y cautela adicional en ETH por la venta de la wallet vinculada a WLFI.",
+  "resumen": "El miedo extremo (índice 10, sostenido una semana) y una caída de la capitalización total de -2.9% en 24 h dibujan un mercado tenso, con BTC cerca de 59.000 USD tras salidas de ETF. No hay una caída brusca de -7% ni un evento macro de alto impacto en las próximas 24 h, así que no justifica pausa. Se recomienda cautela general para reducir el tamaño de nuevas compras.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear) de forma sostenida durante 7 días.",
-    "Capitalización total -5.78% en 24 h con BTC cerca de 59.000 USD y salidas de ETF de BTC (BlackRock IBIT con ocho sesiones de retiradas).",
-    "Venta de ~12.121 ETH por una wallet vinculada a World Liberty Financial con pérdida de ~19 M$, y petición de Justin Sun de deslistar WLFI; ETH cae 1.5% en 24 h.",
-    "Sin eventos macro de alto impacto en 24 h; no hay hackeo confirmado de exchange ni red ni anomalía de moneda en los datos.",
-    "Actualización urgente de validadores de Solana (Agave v4.4.2), pero el equipo indica que la red opera con normalidad; no se considera riesgo grave."
+    "Índice Miedo/Codicia en 10 (Extreme Fear) y sostenido entre 10 y 13 durante 7 días.",
+    "Capitalización total -2.9% en 24 h; no alcanza el umbral de -7% para pausa.",
+    "Salidas de ETF de BTC (BlackRock IBIT ~2.8 mil M USD en 8 sesiones) y BTC cerca de 59K tras perder soporte de 64K.",
+    "Noticias negativas relevantes (WLFI cae >50%, venta de ETH por wallet ligada a WLFI) pero sin afectar directamente a las monedas operadas; no es riesgo grave.",
+    "Sin eventos macro USD de alto impacto en 24 h; el quiebre de United Fidelity Bank es de alcance limitado.",
+    "Sin señales de hackeo que afecten a las redes operadas ni anomalías de moneda (halt, depeg, delist) en las 10 monedas del bot."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-28T14:49:40+00:00",
-  "valido_hasta": "2026-11-28T17:49:40+00:00",
+  "generado": "2026-11-28T15:46:28+00:00",
+  "valido_hasta": "2026-11-28T18:46:28+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -5.78,
-    "noticias_analizadas": 18,
+    "cambio_mercado_24h": -2.9,
+    "noticias_analizadas": 19,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +63,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6790,
+    "input_tokens": 6927,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 754,
+    "output_tokens": 610,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
