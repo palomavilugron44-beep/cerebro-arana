@@ -1,23 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10, sostenido una semana) y la capitalización total cae un 5.47% en 24 h, con BTC cerca de 59.5k USD tras una caída de casi el 30% en el trimestre. No hay eventos macro de alto impacto en 24 h ni indicios de hackeo, regulación grave o anomalía en alguna moneda concreta. Dado el miedo extremo y la volatilidad, se recomienda operar con cautela (mitad de tamaño) en lugar de pausar.",
+  "resumen": "El mercado cripto cae un 5.59% en 24 h con miedo extremo (índice 10, lleva una semana en niveles similares), mientras la bolsa tradicional repunta con su mejor semana desde 2022. No hay eventos macro de alto impacto en las próximas 24 h ni noticias de hackeo o acción regulatoria grave contra las monedas operadas. Se elige cautela general por la volatilidad y el miedo extremo, sin pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear) y sostenido entre 10 y 13 durante 7 días.",
-    "Capitalización total -5.47% en 24 h, con caídas de entre -2.3% y -4.8% en las monedas operadas.",
-    "Las noticias son mayoritariamente de mercado, análisis y flujos on-chain; no reportan exploit, acción regulatoria grave ni anomalía en las monedas del bot.",
-    "Sin eventos económicos USD de alto impacto en las próximas 24 h, por lo que no procede pausa macro."
+    "Miedo extremo sostenido (índice 10; últimos 7 días entre 10 y 13) y caída de la capitalización total de -5.59% en 24 h.",
+    "Volatilidad elevada: todas las monedas operadas bajan entre -1.2% y -4.7% en 24 h.",
+    "Sin eventos macro de alto impacto en 24 h; no hay motivo para pausa.",
+    "Solo aviso de actualización urgente de software para validadores de Solana (Agave v4.4.2), con la red operando normalmente según el mismo artículo; no justifica pausa para SOL.",
+    "Resto de noticias sin riesgo grave para las monedas operadas (declaraciones, acuerdos, análisis de correlación, ventas de un wallet vinculado a World Liberty)."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-28T07:08:38+00:00",
-  "valido_hasta": "2026-11-28T10:08:38+00:00",
+  "generado": "2026-11-28T08:51:41+00:00",
+  "valido_hasta": "2026-11-28T11:51:41+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -5.47,
-    "noticias_analizadas": 16,
+    "cambio_mercado_24h": -5.59,
+    "noticias_analizadas": 15,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -30,6 +31,11 @@
   },
   "titulares": [
     {
+      "titulo": "Solana News: Developers Issue Urgent Upgrade Notice to Mainnet Validators",
+      "fuente": "NewsBTC",
+      "link": "https://www.newsbtc.com/altcoin-news/solana-news-urgent-validator-upgrade/"
+    },
+    {
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
@@ -40,35 +46,30 @@
       "link": "https://news.bitcoin.com/security/buterins-bitcoin-hardware-wallet-fix-wouldnt-approved-ledger-cto/"
     },
     {
+      "titulo": "Bitcoin Price Lags as Wall Street Posts Its Best Week Since 2022",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-lags-wall-street-best-week-since-2022/"
+    },
+    {
+      "titulo": "Binance receives in-principle approval, plans Asia hub in Bhutan",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/binance-receives-in-principle-approval-plans-asia-hub-in-bhutan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "titulo": "Bitcoin’s Correlation With Gold Hits Record High, Galaxy Research Finds",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/featured/bitcoins-correlation-with-gold-hits-record-high-galaxy-research-finds/"
-    },
-    {
-      "titulo": "Bitcoin Whales Add 121,117 BTC as Price Falls Nearly 30%",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/bitcoin-whales-add-121117-btc-as-price-falls-nearly-30/"
-    },
-    {
-      "titulo": "Injective Urges SEC to Open Tokenized Stock Trading to Order Books",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/regulation-and-legal/injective-urges-sec-open-tokenized-stock-trading-order-books/"
-    },
-    {
-      "titulo": "OpenAI Turns the Tables on Apple With Its Own Trade-Secret Theft Claims",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/384222/openai-countersuit-apple-trade-secret-theft-claims"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6674,
+    "input_tokens": 6455,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 510,
+    "output_tokens": 552,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
