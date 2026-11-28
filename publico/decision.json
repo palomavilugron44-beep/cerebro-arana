@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae un 5.59% en 24 h con miedo extremo (índice 10, lleva una semana en niveles similares), mientras la bolsa tradicional repunta con su mejor semana desde 2022. No hay eventos macro de alto impacto en las próximas 24 h ni noticias de hackeo o acción regulatoria grave contra las monedas operadas. Se elige cautela general por la volatilidad y el miedo extremo, sin pausa.",
+  "resumen": "El mercado cripto cae un 5.7% en 24 h con miedo extremo (índice 10, sostenido una semana) y salidas netas récord de ETF de BTC, con BTC cerca de 59.5K USD. No hay eventos macro de alto impacto en las próximas 24 h ni señales de hackeo, regulación grave o anomalía de moneda. Dado el entorno de miedo extremo y volatilidad, se recomienda cautela general, sin pausa.",
   "motivos": [
-    "Miedo extremo sostenido (índice 10; últimos 7 días entre 10 y 13) y caída de la capitalización total de -5.59% en 24 h.",
-    "Volatilidad elevada: todas las monedas operadas bajan entre -1.2% y -4.7% en 24 h.",
-    "Sin eventos macro de alto impacto en 24 h; no hay motivo para pausa.",
-    "Solo aviso de actualización urgente de software para validadores de Solana (Agave v4.4.2), con la red operando normalmente según el mismo artículo; no justifica pausa para SOL.",
-    "Resto de noticias sin riesgo grave para las monedas operadas (declaraciones, acuerdos, análisis de correlación, ventas de un wallet vinculado a World Liberty)."
+    "Índice Miedo/Codicia en 10 (Extreme Fear) y sostenido en torno a 10-13 durante 7 días.",
+    "Capitalización total cripto -5.7% en 24 h con caídas de 2-5% en las 10 monedas.",
+    "Salidas netas de ~2.8 mil millones USD del ETF de BlackRock en ocho sesiones; BTC se mantiene cerca de 60K tras la caída del Black Friday.",
+    "WLFI (token ligado a Trump) se desploma 50%, con movimientos de ETH desde una cartera vinculada; riesgo de noticia negativa relevante pero no grave.",
+    "Sin eventos macro USD de alto impacto en las próximas 24 h; no hay indicios de exploit, halt ni depeg, por lo que no se justifica pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-28T08:51:41+00:00",
-  "valido_hasta": "2026-11-28T11:51:41+00:00",
+  "generado": "2026-11-28T09:52:59+00:00",
+  "valido_hasta": "2026-11-28T12:52:59+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -5.59,
-    "noticias_analizadas": 15,
+    "cambio_mercado_24h": -5.7,
+    "noticias_analizadas": 14,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -31,9 +31,19 @@
   },
   "titulares": [
     {
+      "titulo": "BlackRock Bitcoin ETF Loses $2.8 Billion in Eight Consecutive Trading Sessions",
+      "fuente": "NewsBTC",
+      "link": "https://www.newsbtc.com/bitcoin-news/blackrock-bitcoin-etf-outflows-november-2026/"
+    },
+    {
       "titulo": "Solana News: Developers Issue Urgent Upgrade Notice to Mainnet Validators",
       "fuente": "NewsBTC",
       "link": "https://www.newsbtc.com/altcoin-news/solana-news-urgent-validator-upgrade/"
+    },
+    {
+      "titulo": "Trump-linked crypto token WLFI plunges 50% to record lows",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/11/28/trump-linked-crypto-token-wlfi-plunges-over-50"
     },
     {
       "titulo": "Here’s what happened in crypto today",
@@ -49,27 +59,17 @@
       "titulo": "Bitcoin Price Lags as Wall Street Posts Its Best Week Since 2022",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/market-updates/bitcoin-price-lags-wall-street-best-week-since-2022/"
-    },
-    {
-      "titulo": "Binance receives in-principle approval, plans Asia hub in Bhutan",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/binance-receives-in-principle-approval-plans-asia-hub-in-bhutan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Bitcoin’s Correlation With Gold Hits Record High, Galaxy Research Finds",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/featured/bitcoins-correlation-with-gold-hits-record-high-galaxy-research-finds/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6455,
+    "input_tokens": 6383,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 552,
+    "output_tokens": 568,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
