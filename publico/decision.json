@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo un 7.31% en 24 h y todas las monedas en negativo, aunque sin evento macro de alto impacto previsto en 24 h. Las noticias son negativas (salidas de ETF de BTC, venta de la reserva de WLFI con pérdidas y llamadas a deslistarla) pero no describen un hackeo ni una acción regulatoria grave contra una moneda de la lista. Se opta por cautela global, que reduce a la mitad el tamaño de nuevas compras, sin pausa ni alerta sobre posiciones.",
+  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo un 5.78% en 24 h y BTC cerca de 59.000 USD tras ocho sesiones de salidas de ETF. No hay eventos macro de alto impacto en las próximas 24 h ni riesgos graves de seguridad o regulatorios sobre el conjunto de monedas, aunque las noticias negativas y la volatilidad justifican más prudencia. Se aplica cautela global por el entorno de miedo extremo y cautela adicional en ETH por la venta de la wallet vinculada a WLFI.",
   "motivos": [
-    "Miedo extremo (índice 10, sostenido 7 días) y caída de la capitalización total de -7.31% en 24 h con todas las monedas del universo en negativo.",
-    "Salidas netas de unos 2.8 mil millones de dólares de ETF spot de BTC en ocho sesiones, incluidas 389 millones el 27 de noviembre.",
-    "Venta de una wallet de reserva vinculada a World Liberty Financial con pérdidas de unos 19 millones y llamadas a deslistar el token WLFI; WLFI no está en la lista operativa del bot.",
-    "No hay evento económico de alto impacto de USD en las próximas 24 h, por lo que no procede pausa.",
-    "Las noticias sobre Solana (actualización urgente de validadores) y Bybit no describen un exploit activo que afecte a las monedas del bot, por lo que no se justifica una pausa específica."
+    "Índice Miedo/Codicia en 10 (Extreme Fear) de forma sostenida durante 7 días.",
+    "Capitalización total -5.78% en 24 h con BTC cerca de 59.000 USD y salidas de ETF de BTC (BlackRock IBIT con ocho sesiones de retiradas).",
+    "Venta de ~12.121 ETH por una wallet vinculada a World Liberty Financial con pérdida de ~19 M$, y petición de Justin Sun de deslistar WLFI; ETH cae 1.5% en 24 h.",
+    "Sin eventos macro de alto impacto en 24 h; no hay hackeo confirmado de exchange ni red ni anomalía de moneda en los datos.",
+    "Actualización urgente de validadores de Solana (Agave v4.4.2), pero el equipo indica que la red opera con normalidad; no se considera riesgo grave."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-28T14:02:12+00:00",
-  "valido_hasta": "2026-11-28T17:02:12+00:00",
+  "generado": "2026-11-28T14:49:40+00:00",
+  "valido_hasta": "2026-11-28T17:49:40+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -7.31,
-    "noticias_analizadas": 17,
+    "cambio_mercado_24h": -5.78,
+    "noticias_analizadas": 18,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -41,6 +41,11 @@
       "link": "https://www.newsbtc.com/altcoin-news/solana-news-urgent-validator-upgrade/"
     },
     {
+      "titulo": "Here’s what happened in crypto today",
+      "fuente": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "titulo": "Trump-linked crypto token WLFI plunges 50% to record lows",
       "fuente": "CoinDesk",
       "link": "https://www.coindesk.com/markets/2026/11/28/trump-linked-crypto-token-wlfi-plunges-over-50"
@@ -51,25 +56,20 @@
       "link": "https://news.bitcoin.com/crypto-news/world-liberty-financial-sells-12121-eth-19-million-loss/"
     },
     {
-      "titulo": "Bybit’s $1.4 billion hack postmortem is ready. You won’t get to see it.",
-      "fuente": "CoinDesk",
-      "link": "https://www.coindesk.com/business/2026/11/28/bybit-s-usd1-4-billion-hack-postmortem-is-ready-you-won-t-get-to-see-it"
-    },
-    {
-      "titulo": "Justin Sun calls for Trump family-linked WLFI token to be delisted",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/justin-sun-calls-for-trump-family-linked-wlfi-token-to-be-delisted?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "titulo": "Bitcoin Price Faces December Reckoning as Analysts Warn of More Losses",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-faces-december-reckoning-as-analysts-warn-of-more-losses/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6727,
+    "input_tokens": 6790,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 645,
+    "output_tokens": 754,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
