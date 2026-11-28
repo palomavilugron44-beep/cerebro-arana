@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El miedo extremo (índice 10, sostenido una semana) y una caída de la capitalización total del -3.58% en 24 h, con BTC por debajo de 60K tras el vencimiento de opciones de unos 7.000 millones de dólares y salidas de ETF superiores a 5.000 millones en noviembre, justifican una postura prudente. No hay eventos macro de alto impacto en 24 h ni una caída de -7% que active pausa, y las noticias de hackeo de Binance son antiguas y no afectan a los precios de las monedas operadas. Por ello se elige cautela global, sin restricciones específicas por moneda.",
+  "resumen": "El mercado está en miedo extremo (índice 10, sostenido una semana) y la capitalización total cae un 4.53% en 24 h, con BTC por debajo de 60K tras el vencimiento de opciones de 7.000 M$ y salidas de ETF de más de 5.000 M$ en noviembre. No hay eventos macro de alto impacto en las próximas 24 h ni anomalías de moneda concretas. Como el riesgo es elevado pero no grave, se recomienda cautela general (mitad de tamaño) sin pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear), con valores entre 10 y 13 durante los últimos 7 días.",
-    "Capitalización total -3.58% en 24 h y BTC rompiendo por debajo de 60.000 USD tras el vencimiento de opciones de unos 7.000 millones de dólares.",
-    "Salidas de ETF de bitcoin superiores a 5.000 millones de dólares en noviembre, con riesgos a la baja señalados por analistas.",
-    "Sin eventos macro de alto impacto en las próximas 24 h y sin caída de -7% o peor, por lo que no se justifica pausa.",
-    "El hackeo de Binance mencionado en las noticias es de un mes atrás y no hay señal de problema operativo en Binance ni en las monedas operadas."
+    "Miedo extremo (índice 10) mantenido durante 7 días, señal de incertidumbre elevada.",
+    "Caída de la capitalización total del -4.53% en 24 h y BTC perdiendo 60K tras el vencimiento de opciones de 7.000 M$.",
+    "Salidas netas de más de 5.000 M$ de ETF spot de bitcoin en noviembre.",
+    "El hackeo de Binance (6.300 M$) es un incidente grave, pero no afecta a la operativa del bot ni es un riesgo nuevo e inmediato para estas monedas; no se justifica pausa.",
+    "Sin eventos macro de alto impacto en las próximas 24 h; no hay anomalías de moneda (halt, depeg, delist)."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-28T02:52:08+00:00",
-  "valido_hasta": "2026-11-28T05:52:08+00:00",
+  "generado": "2026-11-28T03:55:36+00:00",
+  "valido_hasta": "2026-11-28T06:55:36+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -3.58,
-    "noticias_analizadas": 24,
+    "cambio_mercado_24h": -4.53,
+    "noticias_analizadas": 23,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7414,
+    "input_tokens": 7300,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 620,
+    "output_tokens": 569,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
