@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10, sostenido una semana) y la capitalización total cayó 3.57% en 24 h, con BTC perdiendo el soporte de 60K tras un vencimiento de opciones de unos 7.000 millones de dólares y salidas de ETF superiores a 5.000 millones en noviembre. El miedo extremo y la volatilidad justifican cautela, aunque no hay una caída de -7% ni un evento grave confirmado. Las noticias de hackeo de Binance son antiguas (octubre) y Binance ya levantó la suspensión de retiradas, por lo que no motivan pausa.",
+  "resumen": "El miedo extremo (índice 10, sostenido una semana) y una caída de la capitalización total del -3.58% en 24 h, con BTC por debajo de 60K tras el vencimiento de opciones de unos 7.000 millones de dólares y salidas de ETF superiores a 5.000 millones en noviembre, justifican una postura prudente. No hay eventos macro de alto impacto en 24 h ni una caída de -7% que active pausa, y las noticias de hackeo de Binance son antiguas y no afectan a los precios de las monedas operadas. Por ello se elige cautela global, sin restricciones específicas por moneda.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear) y sostenido entre 10 y 13 durante 7 días",
-    "Capitalización total -3.57% en 24 h y BTC por debajo de 60K tras vencimiento de opciones de unos 7.000 M$",
-    "Salidas de ETF de BTC superiores a 5.000 M$ en noviembre",
-    "No hay caída de -7% ni evento macro de alto impacto en las próximas 24 h, por lo que no se justifica pausa",
-    "El hackeo de Binance es de octubre y las retiradas ya están restablecidas; no hay anomalía de moneda ni halt/depeg detectado"
+    "Índice Miedo/Codicia en 10 (Extreme Fear), con valores entre 10 y 13 durante los últimos 7 días.",
+    "Capitalización total -3.58% en 24 h y BTC rompiendo por debajo de 60.000 USD tras el vencimiento de opciones de unos 7.000 millones de dólares.",
+    "Salidas de ETF de bitcoin superiores a 5.000 millones de dólares en noviembre, con riesgos a la baja señalados por analistas.",
+    "Sin eventos macro de alto impacto en las próximas 24 h y sin caída de -7% o peor, por lo que no se justifica pausa.",
+    "El hackeo de Binance mencionado en las noticias es de un mes atrás y no hay señal de problema operativo en Binance ni en las monedas operadas."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-28T01:10:00+00:00",
-  "valido_hasta": "2026-11-28T04:10:00+00:00",
+  "generado": "2026-11-28T02:52:08+00:00",
+  "valido_hasta": "2026-11-28T05:52:08+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -3.57,
-    "noticias_analizadas": 29,
+    "cambio_mercado_24h": -3.58,
+    "noticias_analizadas": 24,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -30,11 +30,6 @@
     "eventos_usd_24h": 0
   },
   "titulares": [
-    {
-      "titulo": "Binance to launch tokenized IPO program after regulatory approval: Yi He",
-      "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/binance-ipo-program-regulatory-approval-yi-he?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
     {
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
@@ -56,20 +51,25 @@
       "link": "https://news.bitcoin.com/featured/binance-hackers-funnel-600m-thorchain-despite-fbi-warning/"
     },
     {
-      "titulo": "Binance Fully Lifts Withdrawal Suspension Four Weeks After $6.4B Hack",
-      "fuente": "Decrypt",
-      "link": "https://decrypt.co/384121/binance-fully-lifts-withdrawal-suspension-four-weeks-after-6-4b-hack"
+      "titulo": "Vitalik Buterin’s Bitcoin Hardware Wallet Fix Wouldn’t Be Approved by Ledger CTO",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/security/buterins-bitcoin-hardware-wallet-fix-wouldnt-approved-ledger-cto/"
+    },
+    {
+      "titulo": "Injective Urges SEC to Open Tokenized Stock Trading to Order Books",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/regulation-and-legal/injective-urges-sec-open-tokenized-stock-trading-order-books/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7871,
+    "input_tokens": 7414,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 575,
+    "output_tokens": 620,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
