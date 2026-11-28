@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 12, sostenido una semana) y la capitalización total cayó un 3.54% en 24 h, con BTC por debajo de 60.000 USD tras el vencimiento de opciones de unos 7.000 M USD. No hay eventos macro de alto impacto en 24 h, y las noticias de hackeo de Binance son antiguas y se están resolviendo (retiradas restablecidas), por lo que no justifican pausa. Se recomienda cautela general por volatilidad y miedo extremo, sin medidas específicas por moneda.",
+  "resumen": "El mercado está en miedo extremo (índice 10, sostenido una semana) y la capitalización total cayó 3.57% en 24 h, con BTC perdiendo el soporte de 60K tras un vencimiento de opciones de unos 7.000 millones de dólares y salidas de ETF superiores a 5.000 millones en noviembre. El miedo extremo y la volatilidad justifican cautela, aunque no hay una caída de -7% ni un evento grave confirmado. Las noticias de hackeo de Binance son antiguas (octubre) y Binance ya levantó la suspensión de retiradas, por lo que no motivan pausa.",
   "motivos": [
-    "Índice Miedo/Codicia en 12 (Extreme Fear) y sostenido en niveles similares durante 7 días.",
-    "Capitalización total -3.54% en 24 h y BTC perdiendo el rango de 60.000-61.000 USD tras el vencimiento de opciones de unos 7.000 M USD.",
-    "Salidas de ETF spot de BTC superiores a 5.000 M USD en noviembre, según los reportes.",
-    "El hackeo de Binance de octubre es un riesgo conocido: Binance ya restableció todos los retiros, así que no se considera una situación anómala actual.",
-    "Sin eventos macro de alto impacto en las próximas 24 h, por lo que no hay motivo para pausa."
+    "Índice Miedo/Codicia en 10 (Extreme Fear) y sostenido entre 10 y 13 durante 7 días",
+    "Capitalización total -3.57% en 24 h y BTC por debajo de 60K tras vencimiento de opciones de unos 7.000 M$",
+    "Salidas de ETF de BTC superiores a 5.000 M$ en noviembre",
+    "No hay caída de -7% ni evento macro de alto impacto en las próximas 24 h, por lo que no se justifica pausa",
+    "El hackeo de Binance es de octubre y las retiradas ya están restablecidas; no hay anomalía de moneda ni halt/depeg detectado"
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-27T23:52:18+00:00",
-  "valido_hasta": "2026-11-28T02:52:18+00:00",
+  "generado": "2026-11-28T01:10:00+00:00",
+  "valido_hasta": "2026-11-28T04:10:00+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
-    "miedo_codicia": 12,
-    "cambio_mercado_24h": -3.54,
-    "noticias_analizadas": 32,
+    "miedo_codicia": 10,
+    "cambio_mercado_24h": -3.57,
+    "noticias_analizadas": 29,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -62,14 +62,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 8158,
+    "input_tokens": 7871,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 572,
+    "output_tokens": 575,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
