@@ -1,25 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El miedo extremo (índice 10, sostenido una semana) y una caída de la capitalización total de -2.9% en 24 h dibujan un mercado tenso, con BTC cerca de 59.000 USD tras salidas de ETF. No hay una caída brusca de -7% ni un evento macro de alto impacto en las próximas 24 h, así que no justifica pausa. Se recomienda cautela general para reducir el tamaño de nuevas compras.",
+  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo un 3.73% en 24 h y BTC cerca de 59.5K USD tras una caída de alrededor del 27% desde finales de octubre, con salidas sostenidas de ETFs. No hay eventos macro de alto impacto en las próximas 24 h ni una caída de mercado de -7% o peor, por lo que no justifica pausar. Se elige cautela general por la incertidumbre elevada y el miedo extremo.",
   "motivos": [
-    "Índice Miedo/Codicia en 10 (Extreme Fear) y sostenido entre 10 y 13 durante 7 días.",
-    "Capitalización total -2.9% en 24 h; no alcanza el umbral de -7% para pausa.",
-    "Salidas de ETF de BTC (BlackRock IBIT ~2.8 mil M USD en 8 sesiones) y BTC cerca de 59K tras perder soporte de 64K.",
-    "Noticias negativas relevantes (WLFI cae >50%, venta de ETH por wallet ligada a WLFI) pero sin afectar directamente a las monedas operadas; no es riesgo grave.",
-    "Sin eventos macro USD de alto impacto en 24 h; el quiebre de United Fidelity Bank es de alcance limitado.",
-    "Sin señales de hackeo que afecten a las redes operadas ni anomalías de moneda (halt, depeg, delist) en las 10 monedas del bot."
+    "Miedo extremo sostenido (índice 10, con valores de 10 a 13 durante los últimos 7 días).",
+    "Capitalización total -3.73% en 24 h y BTC en torno a 59.5K tras una caída de ~27% desde el 28 de octubre.",
+    "Salidas de ETFs de BTC durante ocho sesiones consecutivas (BlackRock IBIT lidera), con sesgo bajista en analistas.",
+    "Noticias negativas relevantes pero no graves: venta de ETH por wallet de World Liberty Financial y caída de WLFI; no afectan directamente a las monedas operadas.",
+    "Sin eventos macro de alto impacto en 24 h y caída del mercado por debajo del umbral de pausa (-7%)."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-28T15:46:28+00:00",
-  "valido_hasta": "2026-11-28T18:46:28+00:00",
+  "generado": "2026-11-28T16:48:27+00:00",
+  "valido_hasta": "2026-11-28T19:48:27+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -2.9,
-    "noticias_analizadas": 19,
+    "cambio_mercado_24h": -3.73,
+    "noticias_analizadas": 20,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -57,20 +56,20 @@
       "link": "https://news.bitcoin.com/crypto-news/world-liberty-financial-sells-12121-eth-19-million-loss/"
     },
     {
-      "titulo": "Bitcoin Price Faces December Reckoning as Analysts Warn of More Losses",
+      "titulo": "2017 Whale Moves Nearly 760 BTC as Bitcoin Price Struggles Below $60K",
       "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/bitcoin-price-faces-december-reckoning-as-analysts-warn-of-more-losses/"
+      "link": "https://news.bitcoin.com/featured/2017-whale-moves-nearly-760-btc-as-bitcoin-price-struggles-below-60k/"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6927,
+    "input_tokens": 7026,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 610,
+    "output_tokens": 561,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
