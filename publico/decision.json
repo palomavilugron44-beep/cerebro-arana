@@ -1,25 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El miedo extremo (índice 10, sostenido desde hace una semana) y una caída de la capitalización total del -4.7% en 24 h sitúan al mercado en un entorno de alta incertidumbre, con BTC por debajo de 60.000 USD tras el vencimiento de opciones de 7.000 M USD. No hay un evento grave concreto (hackeo, acción regulatoria fuerte contra Binance o una moneda, halt o dato macro de alto impacto en las próximas horas), así que no se justifica pausar. Se recomienda cautela general, es decir, la mitad del tamaño en nuevas compras.",
+  "resumen": "El mercado cripto cae un 5.08% en 24 h con miedo extremo (índice 10, sostenido desde hace una semana), y BTC ronda los 59.700 USD tras caer cerca de un 30% en el trimestre. No hay eventos macro de alto impacto en las próximas 24 h ni hackeos, sanciones graves o anomalías de moneda en las noticias. Por el miedo extremo y la volatilidad, se recomienda cautela general (compras a mitad de tamaño) sin pausar ninguna moneda en concreto.",
   "motivos": [
-    "Miedo extremo sostenido (índice 10, con 7 días entre 10 y 13) y codicia ausente.",
-    "Capitalización total -4.7% en 24 h; BTC cayó de 62.125 a 58.719 USD tras vencer 7.000 M USD en opciones en Deribit.",
-    "Salidas de ETF de BTC superiores a 5.000 M USD en noviembre, según las noticias.",
-    "Sin eventos macro de alto impacto en 24 h ni riesgo de seguridad grave en exchange o moneda concreta.",
-    "Noticia de España sobre bloqueo temporal de transacciones cripto: regulatoria pero no grave ni dirigida a Binance ni a una moneda del universo.",
-    "Las noticias de ballenas acumulando BTC y de adopción no justifican aumentar riesgo, pero tampoco hay motivo para pausar."
+    "Miedo extremo (índice 10) con caída de capitalización total de -5.08% en 24 h: incertidumbre elevada.",
+    "Caídas de 2-5% en todas las monedas vigiladas, con LINK y ETH entre las más castigadas (-5.14% y -4.81%).",
+    "Noticias relevantes pero no graves: la ley española permite bloqueos temporales de cripto de hasta 10 días sin juez, y se prevén riesgos de seguridad en hardware wallets.",
+    "Sin eventos macro de alto impacto en 24 h y sin hackeos, halts ni depegs que justifiquen pausa."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-28T04:59:04+00:00",
-  "valido_hasta": "2026-11-28T07:59:04+00:00",
+  "generado": "2026-11-28T05:56:57+00:00",
+  "valido_hasta": "2026-11-28T08:56:57+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -4.7,
-    "noticias_analizadas": 20,
+    "cambio_mercado_24h": -5.08,
+    "noticias_analizadas": 17,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -42,14 +40,14 @@
       "link": "https://news.bitcoin.com/regulation-and-legal/spain-moves-freeze-crypto-accounts-without-court-approval/"
     },
     {
-      "titulo": "Bitcoin’s Thanksgiving Rally Unravels as $7B Options Expiry Rocks Markets",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/market-updates/bitcoins-thanksgiving-rally-unravels-as-7b-options-expiry-rocks-markets/"
-    },
-    {
       "titulo": "Vitalik Buterin’s Bitcoin Hardware Wallet Fix Wouldn’t Be Approved by Ledger CTO",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/security/buterins-bitcoin-hardware-wallet-fix-wouldnt-approved-ledger-cto/"
+    },
+    {
+      "titulo": "Bitcoin’s Correlation With Gold Hits Record High, Galaxy Research Finds",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/featured/bitcoins-correlation-with-gold-hits-record-high-galaxy-research-finds/"
     },
     {
       "titulo": "Bitcoin Whales Add 121,117 BTC as Price Falls Nearly 30%",
@@ -63,14 +61,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7008,
+    "input_tokens": 6686,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 640,
+    "output_tokens": 531,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
