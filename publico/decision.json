@@ -1,23 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae un 5.91% en 24 h con miedo extremo (índice 10, sostenido durante una semana) y salidas netas de ETF de Bitcoin. No hay eventos macro de alto impacto en 24 h ni un hackeo o problema regulatorio grave confirmado, por lo que no se justifica pausar. Se recomienda cautela general, con el tamaño de compra reducido a la mitad mientras dure la volatilidad.",
+  "resumen": "El mercado está en miedo extremo (índice 10, valores de 7 días entre 10 y 13) con la capitalización total cayendo -5.99% en 24 h y todas las monedas del universo en negativo. No hay eventos macro de alto impacto en 24 h, y no hay hackeos, halts ni acciones regulatorias graves registradas. Se decide cautela global por el miedo extremo y la caída del mercado, y cautela adicional en ETH por la venta de la wallet de World Liberty.",
   "motivos": [
-    "Miedo extremo sostenido (índice 10; 7 días entre 10 y 13).",
-    "Capitalización total -5.91% en 24 h, caída fuerte pero sin liquidaciones masivas confirmadas en los datos.",
-    "Salidas de ETF de Bitcoin (BlackRock IBIT, 8 sesiones seguidas, ~2.8 mil millones USD) y venta de 12,121 ETH por una wallet vinculada a World Liberty Financial, noticias negativas relevantes pero no graves.",
-    "Sin eventos económicos USD de alto impacto en las próximas 24 h; no hay motivo para pausa.",
-    "Ninguna moneda muestra anomalía (halt, depeg, delist) ni incidente de seguridad confirmado; la actualización urgente de Solana (Agave v4.4.2) se describe como operación normal de la red."
+    "Índice Miedo/Codicia en 10 (Extreme Fear), sostenido durante la última semana.",
+    "Capitalización total cripto -5.99% en 24 h; todas las monedas del universo caen entre -1.5% y -4.4%.",
+    "Salidas netas de ETFs spot de Bitcoin (~2.8 mil M$ en BlackRock en 8 sesiones) y BTC por debajo de 60K tras la caída de Black Friday.",
+    "Venta de ~12.121 ETH por una wallet vinculada a World Liberty Financial con pérdida de ~19 M$, en un contexto de presión sobre ETH.",
+    "Sin eventos macro USD de alto impacto en las próximas 24 h; no se detectan hackeos, halts, deslistados ni acciones regulatorias graves."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-28T10:51:51+00:00",
-  "valido_hasta": "2026-11-28T13:51:51+00:00",
+  "generado": "2026-11-28T11:48:43+00:00",
+  "valido_hasta": "2026-11-28T14:48:43+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -5.91,
+    "cambio_mercado_24h": -5.99,
     "noticias_analizadas": 14,
     "articulos_leidos": 8,
     "fuentes": {
@@ -69,7 +69,7 @@
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 582,
+    "output_tokens": 674,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
