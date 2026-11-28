@@ -1,24 +1,24 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10, persistentemente bajo durante 7 días) tras una caída de la capitalización total del -5.89% en 24 h, con todas las monedas de la lista en negativo. Hay salidas sostenidas de ETFs de BTC y una venta de ETH por una wallet vinculada a WLFI, pero no hay un evento de seguridad, regulatorio o macro de alto impacto confirmado en las próximas 24 h. Dado el miedo extremo y la volatilidad, se recomienda cautela general sin pausar, ya que la estrategia tiene su propio stop.",
+  "resumen": "El mercado está en miedo extremo (índice 10) con la capitalización total cayendo un 7.31% en 24 h y todas las monedas en negativo, aunque sin evento macro de alto impacto previsto en 24 h. Las noticias son negativas (salidas de ETF de BTC, venta de la reserva de WLFI con pérdidas y llamadas a deslistarla) pero no describen un hackeo ni una acción regulatoria grave contra una moneda de la lista. Se opta por cautela global, que reduce a la mitad el tamaño de nuevas compras, sin pausa ni alerta sobre posiciones.",
   "motivos": [
-    "Miedo extremo sostenido (índice 10; 7 días entre 10 y 13).",
-    "Caída de la capitalización total del -5.89% en 24 h con las 10 monedas en negativo.",
-    "Salidas sostenidas de ETFs spot de BTC (unos 2.8 mil millones USD en 8 sesiones de BlackRock).",
-    "Venta de ~12,121 ETH por una wallet vinculada a WLFI, con pérdida realizada de ~19 M USD; impacto negativo pero no grave para la red.",
-    "No hay eventos macro de alto impacto en 24 h ni exploit, halt, depeg o acción regulatoria grave confirmada; por tanto no se justifica pausa."
+    "Miedo extremo (índice 10, sostenido 7 días) y caída de la capitalización total de -7.31% en 24 h con todas las monedas del universo en negativo.",
+    "Salidas netas de unos 2.8 mil millones de dólares de ETF spot de BTC en ocho sesiones, incluidas 389 millones el 27 de noviembre.",
+    "Venta de una wallet de reserva vinculada a World Liberty Financial con pérdidas de unos 19 millones y llamadas a deslistar el token WLFI; WLFI no está en la lista operativa del bot.",
+    "No hay evento económico de alto impacto de USD en las próximas 24 h, por lo que no procede pausa.",
+    "Las noticias sobre Solana (actualización urgente de validadores) y Bybit no describen un exploit activo que afecte a las monedas del bot, por lo que no se justifica una pausa específica."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-28T12:57:09+00:00",
-  "valido_hasta": "2026-11-28T15:57:09+00:00",
+  "generado": "2026-11-28T14:02:12+00:00",
+  "valido_hasta": "2026-11-28T17:02:12+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -5.89,
-    "noticias_analizadas": 14,
+    "cambio_mercado_24h": -7.31,
+    "noticias_analizadas": 17,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -51,25 +51,25 @@
       "link": "https://news.bitcoin.com/crypto-news/world-liberty-financial-sells-12121-eth-19-million-loss/"
     },
     {
-      "titulo": "Biggest US Bank Failure Since 2024 Costs FDIC $1.38B: What We Know",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/featured/biggest-us-bank-failure-since-2024-costs-fdic-1-38b-what-we-kno/"
+      "titulo": "Bybit’s $1.4 billion hack postmortem is ready. You won’t get to see it.",
+      "fuente": "CoinDesk",
+      "link": "https://www.coindesk.com/business/2026/11/28/bybit-s-usd1-4-billion-hack-postmortem-is-ready-you-won-t-get-to-see-it"
     },
     {
-      "titulo": "ASEAN+3 agrees on initiative to explore crypto payments cooperation",
+      "titulo": "Justin Sun calls for Trump family-linked WLFI token to be delisted",
       "fuente": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/asean3-agrees-on-initiative-to-explore-crypto-payments-cooperation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "link": "https://cointelegraph.com/news/justin-sun-calls-for-trump-family-linked-wlfi-token-to-be-delisted?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6422,
+    "input_tokens": 6727,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 580,
+    "output_tokens": 645,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
