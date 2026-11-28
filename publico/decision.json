@@ -1,24 +1,25 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado está en miedo extremo (índice 10, sostenido una semana) y la capitalización total cae un 4.53% en 24 h, con BTC por debajo de 60K tras el vencimiento de opciones de 7.000 M$ y salidas de ETF de más de 5.000 M$ en noviembre. No hay eventos macro de alto impacto en las próximas 24 h ni anomalías de moneda concretas. Como el riesgo es elevado pero no grave, se recomienda cautela general (mitad de tamaño) sin pausa.",
+  "resumen": "El miedo extremo (índice 10, sostenido desde hace una semana) y una caída de la capitalización total del -4.7% en 24 h sitúan al mercado en un entorno de alta incertidumbre, con BTC por debajo de 60.000 USD tras el vencimiento de opciones de 7.000 M USD. No hay un evento grave concreto (hackeo, acción regulatoria fuerte contra Binance o una moneda, halt o dato macro de alto impacto en las próximas horas), así que no se justifica pausar. Se recomienda cautela general, es decir, la mitad del tamaño en nuevas compras.",
   "motivos": [
-    "Miedo extremo (índice 10) mantenido durante 7 días, señal de incertidumbre elevada.",
-    "Caída de la capitalización total del -4.53% en 24 h y BTC perdiendo 60K tras el vencimiento de opciones de 7.000 M$.",
-    "Salidas netas de más de 5.000 M$ de ETF spot de bitcoin en noviembre.",
-    "El hackeo de Binance (6.300 M$) es un incidente grave, pero no afecta a la operativa del bot ni es un riesgo nuevo e inmediato para estas monedas; no se justifica pausa.",
-    "Sin eventos macro de alto impacto en las próximas 24 h; no hay anomalías de moneda (halt, depeg, delist)."
+    "Miedo extremo sostenido (índice 10, con 7 días entre 10 y 13) y codicia ausente.",
+    "Capitalización total -4.7% en 24 h; BTC cayó de 62.125 a 58.719 USD tras vencer 7.000 M USD en opciones en Deribit.",
+    "Salidas de ETF de BTC superiores a 5.000 M USD en noviembre, según las noticias.",
+    "Sin eventos macro de alto impacto en 24 h ni riesgo de seguridad grave en exchange o moneda concreta.",
+    "Noticia de España sobre bloqueo temporal de transacciones cripto: regulatoria pero no grave ni dirigida a Binance ni a una moneda del universo.",
+    "Las noticias de ballenas acumulando BTC y de adopción no justifican aumentar riesgo, pero tampoco hay motivo para pausar."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-28T03:55:36+00:00",
-  "valido_hasta": "2026-11-28T06:55:36+00:00",
+  "generado": "2026-11-28T04:59:04+00:00",
+  "valido_hasta": "2026-11-28T07:59:04+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -4.53,
-    "noticias_analizadas": 23,
+    "cambio_mercado_24h": -4.7,
+    "noticias_analizadas": 20,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -46,14 +47,14 @@
       "link": "https://news.bitcoin.com/market-updates/bitcoins-thanksgiving-rally-unravels-as-7b-options-expiry-rocks-markets/"
     },
     {
-      "titulo": "Binance Hackers Funnel Over $600M Through Thorchain Despite FBI Warning",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/featured/binance-hackers-funnel-600m-thorchain-despite-fbi-warning/"
-    },
-    {
       "titulo": "Vitalik Buterin’s Bitcoin Hardware Wallet Fix Wouldn’t Be Approved by Ledger CTO",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/security/buterins-bitcoin-hardware-wallet-fix-wouldnt-approved-ledger-cto/"
+    },
+    {
+      "titulo": "Bitcoin Whales Add 121,117 BTC as Price Falls Nearly 30%",
+      "fuente": "Bitcoin.com",
+      "link": "https://news.bitcoin.com/market-updates/bitcoin-whales-add-121117-btc-as-price-falls-nearly-30/"
     },
     {
       "titulo": "Injective Urges SEC to Open Tokenized Stock Trading to Order Books",
@@ -62,14 +63,14 @@
     }
   ],
   "uso_tokens": {
-    "input_tokens": 7300,
+    "input_tokens": 7008,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 569,
+    "output_tokens": 640,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
