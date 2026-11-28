@@ -1,23 +1,23 @@
 {
   "modo": "cautela",
   "monedas": {},
-  "resumen": "El mercado cripto cae un 5.08% en 24 h con miedo extremo (índice 10, sostenido desde hace una semana), y BTC ronda los 59.700 USD tras caer cerca de un 30% en el trimestre. No hay eventos macro de alto impacto en las próximas 24 h ni hackeos, sanciones graves o anomalías de moneda en las noticias. Por el miedo extremo y la volatilidad, se recomienda cautela general (compras a mitad de tamaño) sin pausar ninguna moneda en concreto.",
+  "resumen": "El mercado está en miedo extremo (índice 10, sostenido una semana) y la capitalización total cae un 5.47% en 24 h, con BTC cerca de 59.5k USD tras una caída de casi el 30% en el trimestre. No hay eventos macro de alto impacto en 24 h ni indicios de hackeo, regulación grave o anomalía en alguna moneda concreta. Dado el miedo extremo y la volatilidad, se recomienda operar con cautela (mitad de tamaño) en lugar de pausar.",
   "motivos": [
-    "Miedo extremo (índice 10) con caída de capitalización total de -5.08% en 24 h: incertidumbre elevada.",
-    "Caídas de 2-5% en todas las monedas vigiladas, con LINK y ETH entre las más castigadas (-5.14% y -4.81%).",
-    "Noticias relevantes pero no graves: la ley española permite bloqueos temporales de cripto de hasta 10 días sin juez, y se prevén riesgos de seguridad en hardware wallets.",
-    "Sin eventos macro de alto impacto en 24 h y sin hackeos, halts ni depegs que justifiquen pausa."
+    "Índice Miedo/Codicia en 10 (Extreme Fear) y sostenido entre 10 y 13 durante 7 días.",
+    "Capitalización total -5.47% en 24 h, con caídas de entre -2.3% y -4.8% en las monedas operadas.",
+    "Las noticias son mayoritariamente de mercado, análisis y flujos on-chain; no reportan exploit, acción regulatoria grave ni anomalía en las monedas del bot.",
+    "Sin eventos económicos USD de alto impacto en las próximas 24 h, por lo que no procede pausa macro."
   ],
   "alerta_posiciones": "",
   "version": 1,
-  "generado": "2026-11-28T05:56:57+00:00",
-  "valido_hasta": "2026-11-28T08:56:57+00:00",
+  "generado": "2026-11-28T07:08:38+00:00",
+  "valido_hasta": "2026-11-28T10:08:38+00:00",
   "origen": "claude:claude-haiku-5-5",
   "multiplicador_riesgo": 0.5,
   "datos": {
     "miedo_codicia": 10,
-    "cambio_mercado_24h": -5.08,
-    "noticias_analizadas": 17,
+    "cambio_mercado_24h": -5.47,
+    "noticias_analizadas": 16,
     "articulos_leidos": 8,
     "fuentes": {
       "CoinDesk": 25,
@@ -33,11 +33,6 @@
       "titulo": "Here’s what happened in crypto today",
       "fuente": "Cointelegraph",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "titulo": "Spain Moves to Freeze Crypto Accounts Without Need for Court Approval",
-      "fuente": "Bitcoin.com",
-      "link": "https://news.bitcoin.com/regulation-and-legal/spain-moves-freeze-crypto-accounts-without-court-approval/"
     },
     {
       "titulo": "Vitalik Buterin’s Bitcoin Hardware Wallet Fix Wouldn’t Be Approved by Ledger CTO",
@@ -58,17 +53,22 @@
       "titulo": "Injective Urges SEC to Open Tokenized Stock Trading to Order Books",
       "fuente": "Bitcoin.com",
       "link": "https://news.bitcoin.com/regulation-and-legal/injective-urges-sec-open-tokenized-stock-trading-order-books/"
+    },
+    {
+      "titulo": "OpenAI Turns the Tables on Apple With Its Own Trade-Secret Theft Claims",
+      "fuente": "Decrypt",
+      "link": "https://decrypt.co/384222/openai-countersuit-apple-trade-secret-theft-claims"
     }
   ],
   "uso_tokens": {
-    "input_tokens": 6686,
+    "input_tokens": 6674,
     "cache_creation_input_tokens": 0,
     "cache_read_input_tokens": 0,
     "cache_creation": {
       "ephemeral_5m_input_tokens": 0,
       "ephemeral_1h_input_tokens": 0
     },
-    "output_tokens": 531,
+    "output_tokens": 510,
     "output_tokens_details": {
       "thinking_tokens": 0
     },
